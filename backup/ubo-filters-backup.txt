@@ -1,0 +1,226 @@
+! 3/17/2015, 11:32:15 AM http://www.autoblog.com
+autoblog.com###global-share-left.rsb-wrapper.fade.affix-top
+autoblog.com##.right_rail-follow_us.module
+autoblog.com##.related-products-portlet
+autoblog.com###right_rail-zergnet
+autoblog.com##.grv-related
+
+! 3/18/2015, 5:44:04 PM https://www.dslreports.com
+dslreports.com###share-buttons
+dslreports.com##.fb-share-button
+
+! 3/28/2015, 8:40:07 PM http://www.amazon.com
+amazon.com##.aplus-content-container.transparency-container
+amazon.com##.sidebar-section-plain-html.sidebar-section-container
+amazon.com###marketingimagelink
+amazon.com###detail-ilm_div
+amazon.com###nav-upnav
+amazon.com###desktop-ad-btf
+amazon.com##.adcenterRowWrapper
+amazon.com##.a-padding-base.a-box-inner
+amazon.com###heroQuickPromo_feature_div
+amazon.com###automotive-feedback-tab-link
+amazon.com###unlimitedSubscriptionBanner
+amazon.com###CPMerchandingTopSlot
+amazon.com###pldn-deep-link
+amazon.com###prime_div
+amazon.com###DAadrv2
+synchronycredit.com###CMSBricksID
+
+! 5/26/2015, 12:06:15 PM https://my.wpengine.com
+wpengine.com###promo-bar-cta
+wpengine.com###site_notice_container
+wpengine.com###site_notice
+wpengine.com###gal-tableright
+wpengine.com##.sucuriscan-visible.sucuriscan-sidebar
+
+! 5/26/2015, 12:24:36 PM https://my.edgecast.com
+edgecast.com###ctl00_pnlPromotionTeaserContainer
+
+! 8/4/2015, 3:46:22 PM https://mightytext.net/web8/
+mightytext.net###crx-install
+mightytext.net###ad-block-holder
+mightytext.net###share-button-main[href="#"]
+mightytext.net###alert-bottom-right-corner
+
+! 8/11/2015, 11:07:25 AM https://nmap.org
+/shared/images/$image,domain=nmap.org|seclists.org|sectools.org|insecure.org
+||insecure.org/images/pro/$image
+
+! 8/26/2015, 5:17:02 PM https://speedtest.net
+speedtest.net##.aos-link
+speedtest.net###dfp-ab-leaderboard
+speedtest.net##.ad-container-eot.ad-container
+speedtest.net##.btn-aos[href="/partner-with-ookla"]
+speedtest.net##.ad-lowerboard.ad-container-lowerboard.ad-container
+javascript:"<html><body style='background:transparent'></body></html>"$domain=beta.speedtest.net
+
+! 9/1/2015, 2:10:02 PM http://thegarage.jalopnik.com
+jalopnik.com##.twitter-tweet
+
+! 9/3/2015, 4:07:15 PM http://9to5mac.com
+9to5mac.com##.leaderboard
+
+! 10/1/2015, 2:05:12 PM https://imgur.com
+imgur.com##.cta-content-container
+
+! 10/2/2015, 12:01:48 PM https://www.fitbit.com
+fitbit.com##.wrapper-header-fma
+
+! 10/24/2015, 4:24:09 PM http://shop.nordstrom.com
+nordstrom.com##.footer-story-tile
+
+! 10/24/2015, 4:30:34 PM http://www.target.com
+target.com###dvm_gpt-home_page-home_siteskin_1
+target.com###dvm_gpt-item_page-item_siteskin_1
+
+! 10/24/2015, 4:34:44 PM http://my.xfinity.com/?cid=cust
+xfinity.com##.dark.message:nth-of-type(2)
+xfinity.com##.standard.promopushdown.component
+
+! 10/31/2015, 10:20:32 PM http://slashdot.org/
+slashdot.org###announcement
+
+! 11/2/2015, 7:09:14 AM https://mail.yahoo.com
+yahoo.com###yucs-top-ff-promo
+
+! 11/4/2015, 5:48:23 PM https://www.groupon.com
+groupon.com###in-app-messages
+groupon.com###subscribe-banner
+
+! 11/4/2015, 5:50:56 PM https://slickdeals.net
+slickdeals.net##.announcementBar[href="/blackfriday/"]
+slickdeals.net##div[class*="sideGridBox"]
+slickdeals.net##.giveaway.grid.fpGridBox
+slickdeals.net##.heroCarouselWrapper
+slickdeals.net##.announcementBar
+slickdeals.net###rightRailAds
+slickdeals.net###logoarea
+
+! 11/9/2015, 7:45:20 PM http://www.cnn.com
+cnn.com##.user-msg
+cnn.com###sponsored-outbrain
+cnn.com###div[class*="outbrain_widget"]
+money.cnn.com###js-TosPrivacy
+money.cnn.com###before-the-bell-newletter-mod
+money.cnn.com###smartassetcontainer
+money.cnn.com##.module-header
+
+! 11/17/2015, 12:41:52 PM https://github.move.com
+github.move.com##.flash-full.flash
+
+! 11/23/2015, 11:03:03 PM https://jasonsavard.com
+jasonsavard.com###pageRightAd
+jasonsavard.com###pageLeftAd
+
+! 11/28/2015, 10:41:36 AM http://www.bhphotovideo.com
+bhphotovideo.com###promoConsole
+
+! 11/30/2015, 3:19:43 PM https://community.spiceworks.com
+community.spiceworks.com###tagged-listing-box
+community.spiceworks.com##.join-footer.sui-opt-in
+
+! 12/2/2015, 11:07:47 AM https://greasyfork.org
+greasyfork.org###share
+
+! 12/2/2015, 11:19:57 AM https://www.reddit.com
+reddit.com##.side-message
+
+! 12/9/2015, 2:20:08 PM http://www.git-tower.com
+git-tower.com###fn-popup-shirtgiveaway
+
+! 12/21/2015, 12:23:25 PM http://www.cultofmac.com
+cultofmac.com##.adblock-notification-wrapper
+cultofmac.com##.modal-dialog
+
+! 1/12/2016, 11:23:49 AM https://git-scm.com
+git-scm.com###banner
+
+! 1/13/2016, 10:39:18 AM http://www.realtor.com/videos
+@@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
+@@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
+@@||googleadservices.com/gpt/pubads*$domain=realtor.com
+techblog.realtor.com###itsec_security_updates
+techblog.realtor.com###itsec_get_backup
+techblog.realtor.com###itsec_sync_integration
+techblog.realtor.com###itsec_need_help
+
+! 1/13/2016, 1:52:00 PM http://www.latimes.com
+latimes.com##.trb_bnn
+
+! 1/19/2016, 3:04:51 PM https://en.wikipedia.org
+en.wikipedia.org###siteNotice
+
+! 2/16/2016, 1:36:48 PM https://www.syntevo.com/smartgit/
+syntevo.com##.cookie
+
+! 2/17/2016, 2:18:52 PM https://railsapps.github.io
+||railsapps.github.io/images/learn-rails-book-cover.jpg
+railsapps.github.io##.margin-top.columns.medium-6
+railsapps.github.io##.columns.medium-6
+
+! 2/19/2016, 11:58:29 AM https://www.phpbb.com
+phpbb.com##.mini-panel
+phpbb.com##.forumatic-panel
+
+! 3/2/2016, 5:53:42 PM https://stackoverflow.com
+stackoverflow.com###hireme
+stackoverflow.com###newsletter-ad
+stackoverflow.com###herobox
+
+! 3/11/2016, 12:18:21 PM http://tomato.groov.pl/
+tomato.groov.pl###sidebar-over-blog
+
+! 5/9/2016, 12:35:09 PM http://www.linksysinfo.org
+linksysinfo.org##.notice_notice_cookies.DismissParent.Notice.panel
+linksysinfo.org##.Notices.PanelScroller
+
+! 5/24/2016, 10:38:18 AM http://www.mercurynews.com
+mercurynews.com###informInView
+
+! 10/8/2016, 3:10:18 AM https://www.boastr.net
+boastr.net##.pea_cook_bottomright.pea_cook_wrapper
+
+! 10/19/2016, 3:21:20 PM https://www.linuxquestions.org
+linuxquestions.org##.vertical-medium.stackcommerce-widget
+
+! 11/4/2016, 1:59:51 PM https://sourceforge.net
+sourceforge.net###newsletter-floating
+
+! 11/7/2016, 2:13:33 PM https://isc.sans.edu/
+||sans.org/banners/$subdocument
+
+! 11/30/2016, 3:11:01 PM https://www.webpagetest.org
+webpagetest.org##.tip
+
+! 12/7/2016, 4:49:32 PM https://nakedsecurity.sophos.com
+nakedsecurity.sophos.com##.newsletter-panel
+
+! 12/15/2016, 11:38:37 AM https://weather.com
+weather.com###wx-top-wrap
+
+! 12/16/2016, 12:03:48 PM https://www.cnet.com
+cnet.com###topicPlayerContainer
+cnet.com##.featuredVideo
+cnet.com###flyoutPromo
+
+! 12/16/2016, 12:24:55 PM https://www.expedia.com
+expedia.com###join-rewards-banner
+
+! 1/17/2017, 3:19:22 PM https://www.iplocation.net
+||iplocation.net/assets/images/banners/$image
+
+! 1/18/2017, 9:24:42 AM http://www.sfgate.com
+sfgate.com#@#.header-ad
+sfgate.com##.promo
+sfgate.com##.sponsor
+sfgate.com###vembaSticky
+
+! 1/20/2017, 10:25:39 AM http://www.accuweather.com
+accuweather.com###header-davek
+
+! 1/23/2017, 4:08:46 PM https://my.ooma.com
+my.ooma.com###banner_container
+
+! 1/25/2017, 12:45:01 PM https://www.mozilla.org/en-US/
+mozilla.org###brand-popup
