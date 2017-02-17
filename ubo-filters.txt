@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mD6qjHQamZCfMJsZpLOR1g
+! Checksum: VGr895oV7zi/PPQ/NPODPw
 ! Title: Lanik's uBO Filter List
 ! Last modified: 16 Feb 2017 21:20 UTC-8
 ! Expires: 1 day (update frequency)
@@ -49,9 +49,9 @@ community.spiceworks.com###tagged-listing-box
 community.spiceworks.com##.join-footer.sui-opt-in
 cultofmac.com##.adblock-notification-wrapper
 cultofmac.com##.modal-dialog
-dictionary.com##.left-nav-wrapper
 dictionary.com###fly-out
 dictionary.com##.editorial-content-feed
+dictionary.com##.left-nav-wrapper
 dslreports.com###share-buttons
 dslreports.com##.fa-facebook-square.fa
 dslreports.com##.fa-google-plus-square.fa
