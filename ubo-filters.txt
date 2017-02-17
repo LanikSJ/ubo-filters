@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: VGr895oV7zi/PPQ/NPODPw
+! Checksum: mNYaILI0wQqeJBID0ra1iA
 ! Title: Lanik's uBO Filter List
-! Last modified: 16 Feb 2017 21:20 UTC-8
+! Last modified: 17 Feb 2017 11:15 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -88,7 +88,7 @@ money.cnn.com###before-the-bell-newletter-mod
 money.cnn.com###js-TosPrivacy
 money.cnn.com###smartassetcontainer
 money.cnn.com##.module-header
-move.com##a[href^="http://marketing.realtor.com"]
+move.com##a[href*="marketing.realtor.com"]
 move.greenhouse.io###mobile-app-promo-footer
 mozilla.org###brand-popup
 my.ooma.com###banner_container
@@ -112,6 +112,7 @@ slickdeals.net##.announcementBar[href="/blackfriday/"]
 slickdeals.net##.giveaway.grid.fpGridBox
 slickdeals.net##.heroCarouselWrapper
 slickdeals.net##div[class*="sideGridBox"]
+software.informer.com##img[src*="restaurants.infcdn.net"]
 sourceforge.net###newsletter-floating
 speedtest.net###dfp-ab-leaderboard
 speedtest.net##.ad-container-eot.ad-container
