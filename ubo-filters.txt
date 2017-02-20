@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: hmqZ/tXVRFBVIpz2EmcCkg
+! Checksum: x1YITXpHbAZ45Av14z84Qg
 ! Title: Lanik's uBO Filter List
-! Last modified: 18 Feb 2017 14:35 UTC-8
+! Last modified: 20 Feb 2017 10:08 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -100,6 +100,7 @@ phpbb.com##.mini-panel
 railsapps.github.io##.columns.medium-6
 railsapps.github.io##.margin-top.columns.medium-6
 reddit.com##.side-message
+sfgate.com###sharebar
 sfgate.com###vembaSticky
 sfgate.com##.promo
 sfgate.com##.sponsor
