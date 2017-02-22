@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: pUYazPAxyXCq7aAfXdkNHQ
+! Checksum: RvfLdSsvEoy0ZQDbCLp8LQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 20 Feb 2017 20:26 UTC-8
+! Last modified: 22 Feb 2017 10:33 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -83,6 +83,9 @@ linksysinfo.org##.notice_notice_cookies.DismissParent.Notice.panel
 linksysinfo.org##.Notices.PanelScroller
 linuxquestions.org##.vertical-medium.stackcommerce-widget
 mercurynews.com###informInView
+merriam-webster.com###recirc-bar-footer
+merriam-webster.com###social-sidebar-container
+merriam-webster.com##.active.recirc-item
 mightytext.net###ad-block-holder
 mightytext.net###alert-bottom-right-corner
 mightytext.net###crx-install
