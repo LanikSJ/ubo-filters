@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: gH2Z+cmnoRNa2MLHzJOapg
+! Checksum: PZGSWOD0QQywDulWYyEzxg
 ! Title: Lanik's uBO Filter List
-! Last modified: 22 Feb 2017 18:15 UTC-8
+! Last modified: 24 Feb 2017 11:18 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -10,6 +10,7 @@
 
 9to5mac.com##.leaderboard
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
+@@||dslreports.com/tp?$xmlhttprequest,first-party
 @@||googleadservices.com/gpt/pubads*$domain=realtor.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
 accuweather.com###header-davek
