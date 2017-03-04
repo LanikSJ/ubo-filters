@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 7PKoRbiFMB8g80dJprtXNQ
+! Checksum: /aZa1oJlpDsZ42WSiPT9fw
 ! Title: Lanik's uBO Filter List
-! Last modified: 3 Mar 2017 12:40 UTC-8
+! Last modified: 4 Mar 2017 6:57 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -10,7 +10,6 @@
 
 9to5mac.com##.leaderboard
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
-@@||dslreports.com/tp?$xmlhttprequest,first-party
 @@||googleadservices.com/gpt/pubads*$domain=realtor.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
 accuweather.com###header-davek
@@ -67,11 +66,9 @@ en.wikipedia.org###siteNotice
 expedia.com###join-rewards-banner
 fedex.com##img[src*="/images/targeted/"]
 fitbit.com##.wrapper-header-fma
-foxitsoftware.com###share
 git-scm.com###banner
 git-tower.com###fn-popup-shirtgiveaway
 github.move.com##.flash-full.flash
-greasyfork.org###share
 groupon.com###in-app-messages
 groupon.com###subscribe-banner
 imgur.com##.cta-content-container
