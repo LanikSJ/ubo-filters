@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: VtBd+vrsdlCe0ER4SZJyAA
+! Checksum: KJM6C4nsqtohmzHhgxFwnA
 ! Title: Lanik's uBO Filter List
 ! Last modified: 13 Mar 2017 12:30 UTC-8
 ! Expires: 1 day (update frequency)
@@ -150,6 +150,7 @@ techblog.realtor.com###itsec_sync_integration
 thehackernews.com###firebox
 thehackernews.com###HTML6
 thehackernews.com##.social-buttons
+timeanddate.com###ad300
 tomato.groov.pl###sidebar-over-blog
 weather.com###wx-top-wrap
 webpagetest.org##.tip
@@ -160,7 +161,6 @@ wpengine.com###site_notice
 wpengine.com###site_notice_container
 wpengine.com##.promo-bars
 wpengine.com##.sucuriscan-visible.sucuriscan-sidebar
-www.timeanddate.com###ad300
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
 yahoo.com###yucs-top-ff-promo
