@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Hhug5JZxaYtoJCjAiNex6g
+! Checksum: PNaO2y4AnCwzBMAgsnNkqA
 ! Title: Lanik's uBO Filter List
 ! Last modified: 13 Mar 2017 12:48 UTC-8
 ! Expires: 1 day (update frequency)
@@ -67,6 +67,7 @@ edgecast.com###ctl00_pnlPromotionTeaserContainer
 en.wikipedia.org###siteNotice
 expedia.com###join-rewards-banner
 fedex.com##img[src*="/images/targeted/"]
+fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
 git-scm.com###banner
 git-tower.com###fn-popup-shirtgiveaway
