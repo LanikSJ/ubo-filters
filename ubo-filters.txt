@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: PNaO2y4AnCwzBMAgsnNkqA
+! Checksum: S5CVZbqLYORQ8pqzT08JKw
 ! Title: Lanik's uBO Filter List
-! Last modified: 13 Mar 2017 12:48 UTC-8
+! Last modified: 21 Mar 2017 15:37 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -103,7 +103,6 @@ money.cnn.com###before-the-bell-newletter-mod
 money.cnn.com###js-TosPrivacy
 money.cnn.com###smartassetcontainer
 money.cnn.com##.module-header
-move.com##a[href*="marketing.realtor.com"]
 move.greenhouse.io###mobile-app-promo-footer
 mozilla.org###brand-popup
 my.ooma.com###banner_container
@@ -167,6 +166,7 @@ xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
 yahoo.com###yucs-top-ff-promo
 ||advancedtomato.com/assets/images/donate-message.png$image
+||images.videolan.org/images/partners/
 ||insecure.org/images/pro/$image
 ||iplocation.net/assets/images/banners/$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
