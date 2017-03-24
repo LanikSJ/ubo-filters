@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: V/FUnq8xvBw9As3Y0uzj7A
+! Checksum: mULCj/h+R9FTY/MFWDeVng
 ! Title: Lanik's uBO Filter List
-! Last modified: 23 Mar 2017 11:31 UTC-8
+! Last modified: 23 Mar 2017 17:55 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -76,6 +76,8 @@ groupon.com###in-app-messages
 groupon.com###subscribe-banner
 imgur.com##.cta-content-container
 informaction.com##.badges
+informer.com##.with_label
+informer.com##.with_label.screen_ad
 jalopnik.com##.twitter-tweet
 javascript:"<html><body style='background:transparent'></body></html>"$domain=beta.speedtest.net
 latimes.com##.trb_bnn
@@ -178,4 +180,5 @@ yahoo.com###yucs-top-ff-promo
 ||insecure.org/images/pro/$image
 ||iplocation.net/assets/images/banners/$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
+||restaurants.infcdn.net/img/$image
 ||sans.org/banners/$subdocument
