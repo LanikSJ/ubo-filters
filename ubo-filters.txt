@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: QGTf+H/STzW63mYahqPoXw
+! Checksum: aXLSyuN/p0pvDJHwoFyQrQ
 ! Title: Lanik's uBO Filter List
 ! Last modified: 24 Mar 2017 15:24 UTC-8
 ! Expires: 1 day (update frequency)
@@ -143,7 +143,7 @@ stackoverflow.com###herobox
 stackoverflow.com###hireme
 stackoverflow.com###newsletter-ad
 stackoverflow.com##.community-bulletin.module
-stackoverflow.com##.hero-content
+stackoverflow.com##.survey-announcement.hero-box
 synchronycredit.com###CMSBricksID
 syntevo.com##.cookie
 target.com###dvm_gpt-home_page-home_siteskin_1
