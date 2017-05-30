@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: kgAxGispG6WYhShh84aG0w
+! Checksum: 7MhXDXxlZ/awIKfXbGU2jA
 ! Title: Lanik's uBO Filter List
-! Last modified: 30 May 2017 15:45 UTC-7
+! Last modified: 30 May 2017 15:48 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -117,6 +117,7 @@ nakedsecurity.sophos.com##.newsletter-panel
 newegg.com##img[src*="promotions.newegg.com"]
 nordstrom.com##.footer-story-tile
 nytimes.com##.collection-menu
+nytimes.com##.ribbon-menu
 pcworld.com###sharer
 phpbb.com##.forumatic-panel
 phpbb.com##.mini-panel
