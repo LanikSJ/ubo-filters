@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: LZ6oPoU1wA85UAN/Uj/X+A
+! Checksum: rv7LDck7hm4WKBvJ3m3xKA
 ! Title: Lanik's uBO Filter List
-! Last modified: 30 May 2017 15:57 UTC-7
+! Last modified: 31 May 2017 13:47 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -174,6 +174,8 @@ theguardian.com##.contributions__epic
 thehackernews.com###firebox
 thehackernews.com###HTML6
 thehackernews.com##.social-buttons
+theonion.com##.pinned.ad-block-alt.newsletter-signup
+theonion.com##.rail-player
 timeanddate.com###ad300
 tomato.groov.pl###sidebar-over-blog
 videolan.org##.donate-box.pull-right.navbar-nav.nav
