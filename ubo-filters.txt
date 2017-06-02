@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: PSzsVnKA/leB3oVVDHhfpQ
+! Checksum: cVJLgunYry3dbTiNHH/usg
 ! Title: Lanik's uBO Filter List
 ! Last modified: 2 Jun 2017 10:07 UTC-7
 ! Expires: 1 day (update frequency)
@@ -72,6 +72,7 @@ fedex.com##img[src*="/images/targeted/"]
 fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
 foxitsoftware.com###share
+frugaltravelguy.com###advps_container3
 frugaltravelguy.com###vlado
 frugaltravelguy.com##.desktop_only.aside
 git-scm.com###banner
