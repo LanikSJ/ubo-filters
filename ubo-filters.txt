@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: rv7LDck7hm4WKBvJ3m3xKA
+! Checksum: PSzsVnKA/leB3oVVDHhfpQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 31 May 2017 13:47 UTC-7
+! Last modified: 2 Jun 2017 10:07 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -72,6 +72,8 @@ fedex.com##img[src*="/images/targeted/"]
 fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
 foxitsoftware.com###share
+frugaltravelguy.com###vlado
+frugaltravelguy.com##.desktop_only.aside
 git-scm.com###banner
 git-tower.com###fn-popup-shirtgiveaway
 github.move.com##.flash-full.flash
@@ -196,6 +198,7 @@ yahoo.com###yucs-top-ff-promo
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||images-na.ssl-images-amazon.com/*_gc_balance_page$image
 ||images.videolan.org/images/partners/$image
+||imgsynergy.com/product_creatives/$image
 ||insecure.org/images/pro/$image
 ||iplocation.net/assets/images/banners/$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
