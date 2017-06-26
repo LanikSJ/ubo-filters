@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: T8j+ylfI6UntqZiXIa8lFQ
+! Checksum: o061AKXTKvK9i3nZn5cJtw
 ! Title: Lanik's uBO Filter List
-! Last modified: 11 Jun 2017 11:20 UTC-7
+! Last modified: 26 Jun 2017 10:34 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -97,10 +97,14 @@ linuxquestions.org##.vertical-medium.stackcommerce-widget
 macupdate.com###bundle-stickyscroll
 macupdate.com###footer-blurb-text
 macupdate.com###nfml-featuredapp-slider
+macupdate.com###nfmllb-simappsddad
 macupdate.com###nfmr-promobox
 macupdate.com###promo-banner
 macupdate.com##.button.bundle
 macupdate.com##.button.bundle-cta
+macupdate.com##.one.nfmlsa-box
+macupdate.com##.simapps-title.nfmllb-title
+macupdate.com##.two.nfmlsa-box
 mercurynews.com###informInView
 merriam-webster.com###recirc-bar-footer
 merriam-webster.com###social-sidebar-container
