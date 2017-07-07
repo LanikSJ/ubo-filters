@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
-! Checksum: o061AKXTKvK9i3nZn5cJtw
+! Checksum: 6qS6sLMoIV63rKNtYEbs+g
 ! Title: Lanik's uBO Filter List
-! Last modified: 26 Jun 2017 10:34 UTC-7
+! Last modified: 7 Jul 2017 13:34 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
 !
 ! Note: This is just my List of sites I frequently visit.
 
+##a[href*="dataqualityapps.com"]
 9to5mac.com##.leaderboard
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
 @@||googleadservices.com/gpt/pubads*$domain=realtor.com
