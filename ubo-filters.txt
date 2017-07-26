@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: p9kb2HPs86LU7leM557XVw
+! Checksum: E1ubCg8VA36PCZRH80L3PQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 26 Jul 2017 13:12 UTC-7
+! Last modified: 26 Jul 2017 15:27 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -64,6 +64,7 @@ dslreports.com##.fa-google-plus-square.fa
 dslreports.com##.fa-twitter-square.fa
 dslreports.com##.fb-share-button
 edgecast.com###ctl00_pnlPromotionTeaserContainer
+electrek.co##div[class*="thd"]
 en.wikipedia.org###siteNotice
 expedia.com###join-rewards-banner
 fedex.com##img[src*="/images/targeted/"]
