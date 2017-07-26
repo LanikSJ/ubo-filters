@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 6qS6sLMoIV63rKNtYEbs+g
+! Checksum: k6qjw8VPqplfqP79sXWkWA
 ! Title: Lanik's uBO Filter List
-! Last modified: 7 Jul 2017 13:34 UTC-7
+! Last modified: 25 Jul 2017 17:01 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -155,6 +155,7 @@ slickdeals.net##.heroCarouselWrapper
 slickdeals.net##div[class*="sideGridBox"]
 software.informer.com##img[src*="restaurants.infcdn.net"]
 sourceforge.net###newsletter-floating
+sourceforge.net##div[class*="newsletter_subscribe"]
 speedtest.net###dfp-ab-leaderboard
 speedtest.net##.ad-container-eot.ad-container
 speedtest.net##.ad-lowerboard.ad-container-lowerboard.ad-container
