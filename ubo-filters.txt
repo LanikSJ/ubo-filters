@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: v61dgtJnOE2YmL80plBDWw
+! Checksum: 8jDOUvr7JHS1aupM6FIeIA
 ! Title: Lanik's uBO Filter List
 ! Last modified: 31 Jul 2017 21:33 UTC-7
 ! Expires: 1 day (update frequency)
@@ -81,6 +81,9 @@ git-scm.com###banner
 git-tower.com###fn-popup-shirtgiveaway
 github.com##.bg-gray-dark
 github.move.com##.flash-full.flash
+grammarly.com##.dropdown-header-extension.dropdown-header
+grammarly.com##.only-desktop.bottom-popup-extension.bottom-popup
+grammarly.com##.only-desktop.share-wrap-static.share-wrap
 groupon.com###in-app-messages
 groupon.com###subscribe-banner
 gsmarena.com###subHeader
