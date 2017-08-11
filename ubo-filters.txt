@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 8jDOUvr7JHS1aupM6FIeIA
+! Checksum: 9pH/JDgnua4fy45IcHW59g
 ! Title: Lanik's uBO Filter List
-! Last modified: 31 Jul 2017 21:33 UTC-7
+! Last modified: 11 Aug 2017 15:53 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -84,8 +84,10 @@ github.move.com##.flash-full.flash
 grammarly.com##.dropdown-header-extension.dropdown-header
 grammarly.com##.only-desktop.bottom-popup-extension.bottom-popup
 grammarly.com##.only-desktop.share-wrap-static.share-wrap
+groupon.com###goods-lightning-flash
 groupon.com###in-app-messages
 groupon.com###subscribe-banner
+groupon.com##.footer-widgets.ls-col
 gsmarena.com###subHeader
 imgur.com##.cta-content-container
 informaction.com##.badges
