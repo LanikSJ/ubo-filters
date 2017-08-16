@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: K8FEFtWfcjk3LSpnND3mMQ
+! Checksum: ExunrY8DPf11yXsD1La/3w
 ! Title: Lanik's uBO Filter List
 ! Last modified: 11 Aug 2017 20:15 UTC-7
 ! Expires: 1 day (update frequency)
@@ -14,6 +14,7 @@
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
 @@||googleadservices.com/gpt/pubads*$domain=realtor.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
+@@||palemoon.org/ads.js
 accuweather.com###header-davek
 advancedtomato.com###cookieprivacy-bar
 airdroid.com##.item-social-share.item-sidebar-block
@@ -140,6 +141,7 @@ nytimes.com###newsletter-promo
 nytimes.com##.collection-menu
 nytimes.com##.ribbon-menu
 nytimes.com##.story-info
+palemoon.org##.sidebar > div
 pcworld.com###sharer
 phpbb.com##.forumatic-panel
 phpbb.com##.mini-panel
