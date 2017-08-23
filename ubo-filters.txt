@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 7pbiVJ3pkIZQ7lFKp5Uqpg
+! Checksum: /zKcXMRXkQhyRTXSvMAlkg
 ! Title: Lanik's uBO Filter List
-! Last modified: 20 Aug 2017 21:30 UTC-7
+! Last modified: 23 Aug 2017 8:57 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -74,6 +74,7 @@ expedia.com###join-rewards-banner
 fedex.com##img[src*="/images/targeted/"]
 fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
+fivethirtyeight.com##.sidebar-feature-espn
 foxitsoftware.com###share
 frugaltravelguy.com###advps_container3
 frugaltravelguy.com###vlado
