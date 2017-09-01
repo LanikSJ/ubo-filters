@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: M5yFFAtnvr4TIGaryKdX8A
+! Checksum: b4ePn0Rryc5aPgQz7I8LKA
 ! Title: Lanik's uBO Filter List
-! Last modified: 26 Aug 2017 17:17 UTC-7
+! Last modified: 1 Sept 2017 15:01 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -11,6 +11,7 @@
 ##a[href*="dataqualityapps.com"]
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
 9to5mac.com##.leaderboard
+9to5mac.com##div[class*=st5]
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
 @@||googleadservices.com/gpt/pubads*$domain=realtor.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
