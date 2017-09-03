@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: TcHdWHixS4ynLBX7WiEFGg
+! Checksum: iMjoHlAHjoZb2kBz/e8ATQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 2 Sept 2017 11:50 UTC-7
+! Last modified: 3 Sept 2017 13:10 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -213,6 +213,7 @@ walmart.com##.product-promotion-message-wrapper
 weather.com###wx-top-wrap
 webpagetest.org##.tip
 whatismyreferer.com##a[href*="en.onpage.org"]
+wikimedia.org###siteNotice
 wired.com##.inset-left-component--article.inset-left-component
 wpengine.com###gal-tableright
 wpengine.com###promo-bar-cta
