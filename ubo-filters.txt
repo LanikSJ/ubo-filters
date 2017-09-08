@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: iMjoHlAHjoZb2kBz/e8ATQ
+! Checksum: WU5QT8UH/WywBfMAVSzWOQ
 ! Title: Lanik's uBO Filter List
 ! Last modified: 3 Sept 2017 13:10 UTC-7
 ! Expires: 1 day (update frequency)
@@ -9,6 +9,7 @@
 ! Note: This is just my List of sites I frequently visit.
 
 ##a[href*="dataqualityapps.com"]
+123movies.*##.gomo-gtx-br.gomo-gtx
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
 9to5mac.com##.leaderboard
 9to5mac.com##div[class*=st5]
