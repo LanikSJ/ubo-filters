@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 2loYK8nbcX2hs6uOJPNr7Q
+! Checksum: 6QrkN4dgfbMMEARXsd2yvw
 ! Title: Lanik's uBO Filter List
-! Last modified: 6 Oct 2017 19:55 UTC-7
+! Last modified: 8 Oct 2017 19:14 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -173,6 +173,7 @@ sfgate.com###sharebar
 sfgate.com###vembaSticky
 sfgate.com##.promo
 sfgate.com##.sponsor
+sfgate.com##header
 sfgate.com#@#.header-ad
 sfnissan.com##img[src*="timdealers.autotrader.com"]
 shared/images/$image,domain=nmap.org|seclists.org|sectools.org|insecure.org
