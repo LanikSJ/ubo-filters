@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 6QrkN4dgfbMMEARXsd2yvw
+! Checksum: bQV+0W49SLuM3a3O2ciomQ
 ! Title: Lanik's uBO Filter List
 ! Last modified: 8 Oct 2017 19:14 UTC-7
 ! Expires: 1 day (update frequency)
@@ -223,6 +223,7 @@ theonion.com##.pinned.ad-block-alt.newsletter-signup
 theonion.com##.rail-player
 timeanddate.com###ad300
 tomato.groov.pl###sidebar-over-blog
+tutsplus.com##div[class*="tether"]
 uberpeople.com##.hiddenResponsiveNarrow
 videolan.org##.donate-box.pull-right.navbar-nav.nav
 videolan.org##.sponsors-carousel-wrapper
