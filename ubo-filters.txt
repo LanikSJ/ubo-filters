@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: KcQvKQrYG9s8CRL3qjK+cg
+! Checksum: LsP7NPRdDzpC1s+rzfRmBw
 ! Title: Lanik's uBO Filter List
-! Last modified: 13 Oct 2017 8:29 UTC-7
+! Last modified: 13 Oct 2017 8:32 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -130,6 +130,7 @@ macupdate.com###nfmr-promobox
 macupdate.com###promo-banner
 macupdate.com##.button.bundle
 macupdate.com##.button.bundle-cta
+macupdate.com##.carousel-inner
 macupdate.com##.one.nfmlsa-box
 macupdate.com##.simapps-title.nfmllb-title
 macupdate.com##.two.nfmlsa-box
@@ -184,7 +185,6 @@ slickdeals.net###sideColumn
 slickdeals.net##.ab
 slickdeals.net##.announcementBar
 slickdeals.net##.announcementBar[href="/blackfriday/"]
-slickdeals.net##.carousel-inner
 slickdeals.net##.giveaway.grid.fpGridBox
 slickdeals.net##.heroCarouselWrapper
 slickdeals.net##div[class*="sideGridBox"]
