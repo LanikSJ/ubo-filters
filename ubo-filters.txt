@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: qIF/dNDOGCj9SjeDsyg5aQ
+! Checksum: QVTd77jGUjtgBG67GqlhAw
 ! Title: Lanik's uBO Filter List
-! Last modified: 1 Nov 2017 13:00 UTC-7
+! Last modified: 5 Nov 2017 1:58 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -165,6 +165,7 @@ nytimes.com##.ribbon-menu
 nytimes.com##.story-info
 palemoon.org###socialbar
 palemoon.org##.sidebar > div
+pastebin.com###abrpm
 pastebin.com###paypal-overlay
 pcworld.com###sharer
 phpbb.com##.forumatic-panel
