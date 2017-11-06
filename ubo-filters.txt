@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: QVTd77jGUjtgBG67GqlhAw
+! Checksum: 8GMjbKkwEz2Nf+BEV8/iDg
 ! Title: Lanik's uBO Filter List
 ! Last modified: 5 Nov 2017 1:58 UTC-7
 ! Expires: 1 day (update frequency)
@@ -236,6 +236,7 @@ uberpeople.com##.hiddenResponsiveNarrow
 videolan.org##.donate-box.pull-right.navbar-nav.nav
 videolan.org##.sponsors-carousel-wrapper
 walmart.com##.product-promotion-message-wrapper
+walmart.narvar.com##card-image
 weather.com###wx-top-wrap
 webpagetest.org##.tip
 whatismyreferer.com##a[href*="en.onpage.org"]
