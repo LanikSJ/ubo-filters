@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: U1mCuDZ18nLQVofDL4IEcA
+! Checksum: b+izkMZ1vAvZZTXQcIKO8w
 ! Title: Lanik's uBO Filter List
-! Last modified: 6 Nov 2017 10:58 UTC-7
+! Last modified: 6 Nov 2017 18:41 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -13,6 +13,7 @@
 ##div[class*="promotional-content"]
 123movies.*##.container.clear.notice_areaclear
 123movies.*##.gomo-gtx-br.gomo-gtx
+123movies.*##.onp-sl-outer-wrap
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
 9to5mac.com##.leaderboard
 9to5mac.com##div[class*=st5]
