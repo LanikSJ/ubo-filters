@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: b+izkMZ1vAvZZTXQcIKO8w
+! Checksum: fplQk2pXIN4wUqmJBmMmPw
 ! Title: Lanik's uBO Filter List
 ! Last modified: 6 Nov 2017 18:41 UTC-7
 ! Expires: 1 day (update frequency)
@@ -243,6 +243,7 @@ webpagetest.org##.tip
 whatismyreferer.com##a[href*="en.onpage.org"]
 whoer.net##div[class*="pre-plan-box"]
 wikimedia.org###siteNotice
+wired.com##.cm-failsafesx
 wired.com##.inset-left-component--article.inset-left-component
 wpengine.com###gal-tableright
 wpengine.com###promo-bar-cta
