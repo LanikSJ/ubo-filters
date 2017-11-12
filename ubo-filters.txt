@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: OwF6o351wH4cGQVn1uO8pg
+! Checksum: k1F7Wdkwsg7bWJq8uokz+Q
 ! Title: Lanik's uBO Filter List
-! Last modified: 11 Nov 2017 12:02 UTC-7
+! Last modified: 12 Nov 2017 11:58 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -11,6 +11,7 @@
 ###phpbb-ads-ab
 ##a[href*="dataqualityapps.com"]
 ##div[class*="promotional-content"]
+##iframe[src*="facebook.com"]
 123movies.*##.container.clear.notice_areaclear
 123movies.*##.gomo-gtx-br.gomo-gtx
 123movies.*##.onp-sl-outer-wrap
@@ -167,6 +168,7 @@ nytimes.com###newsletter-promo
 nytimes.com##.collection-menu
 nytimes.com##.ribbon-menu
 nytimes.com##.story-info
+onlyinyourstate.com##.fb_iframe_widget.fb-page
 palemoon.org###socialbar
 palemoon.org##.sidebar > div
 pastebin.com###abrpm
