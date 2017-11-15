@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: k1F7Wdkwsg7bWJq8uokz+Q
+! Checksum: oKaH0MsvuDG0xoUe6tEQ7Q
 ! Title: Lanik's uBO Filter List
-! Last modified: 12 Nov 2017 11:58 UTC-7
+! Last modified: 14 Nov 2017 17:33 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -44,6 +44,7 @@ amazon.com##.a-padding-base.a-box-inner
 amazon.com##.acs-shwcs-image-wrap-inner
 amazon.com##.adcenterRowWrapper
 amazon.com##.aplus-content-container.transparency-container
+amazon.com##.roles-help-section
 amazon.com##.sidebar-section-plain-html.sidebar-section-container
 amazon.com##a[href*="local.amazon.com"]
 amazon.com##div[class^=bannerContainer]
@@ -169,6 +170,8 @@ nytimes.com##.collection-menu
 nytimes.com##.ribbon-menu
 nytimes.com##.story-info
 onlyinyourstate.com##.fb_iframe_widget.fb-page
+onlyinyourstate.com##.social
+onlyinyourstate.com##.social-sharebar
 palemoon.org###socialbar
 palemoon.org##.sidebar > div
 pastebin.com###abrpm
