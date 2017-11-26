@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 3RRWjdx1RVPkeBFOg4VmSw
+! Checksum: CrPWgVccvdZQ2rEsVzgO+A
 ! Title: Lanik's uBO Filter List
-! Last modified: 22 Nov 2017 12:29 UTC-7
+! Last modified: 26 Nov 2017 14:41 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -9,6 +9,7 @@
 ! Note: This is just my List of sites I frequently visit.
 
 ###phpbb-ads-ab
+##.taboola-module
 ##a[href*="dataqualityapps.com"]
 ##div[class*="promotional-content"]
 ##iframe[src*="facebook.com"]
