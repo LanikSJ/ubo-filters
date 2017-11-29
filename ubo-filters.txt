@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 2QMOzpJK8bLvRTBZgZ87MQ
+! Checksum: JMh1dmbJIabB8T9VJ7m6hQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 26 Nov 2017 15:50 UTC-7
+! Last modified: 28 Nov 2017 20:46 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -253,6 +253,7 @@ weather.com###wx-top-wrap
 webpagetest.org##.tip
 whatismyreferer.com##a[href*="en.onpage.org"]
 whoer.net##div[class*="pre-plan-box"]
+whois.com##.whois_rhs_column
 wikimedia.org###siteNotice
 wired.com##.cm-failsafesx
 wired.com##.inset-left-component--article.inset-left-component
