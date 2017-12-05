@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 5vbH3DWX1g+i54cjnVeWEA
+! Checksum: 9pT4pilYDeZQunxa7tuPtg
 ! Title: Lanik's uBO Filter List
-! Last modified: 1 Dec 2017 21:05 UTC-7
+! Last modified: 5 Dec 2017 13:07 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -221,6 +221,7 @@ stackoverflow.com###herobox
 stackoverflow.com###hireme
 stackoverflow.com###newsletter-ad
 stackoverflow.com##.community-bulletin.module
+stackoverflow.com##.js-dismissable-hero._fixed.hero-container.s-hero
 stackoverflow.com##.survey-announcement.hero-box
 synchronycredit.com###CMSBricksID
 syntevo.com##.cookie
