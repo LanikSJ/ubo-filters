@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: DsN2Ipy9jUJJXAptAIIkjA
+! Checksum: 3M4yM9AFurQVshXpHFyl2A
 ! Title: Lanik's uBO Filter List
-! Last modified: 14 Dec 2017 18:36 UTC-7
+! Last modified: 14 Dec 2017 19:36 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -27,6 +27,7 @@ accuweather.com###header-davek
 advancedtomato.com###cookieprivacy-bar
 airdroid.com##.item-social-share.item-sidebar-block
 amazon.com###automotive-feedback-tab-link
+amazon.com###cart-item-recs
 amazon.com###CPMerchandingTopSlot
 amazon.com###DAadrv2
 amazon.com###desktop-ad-btf
