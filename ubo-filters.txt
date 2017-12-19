@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: DbQ7euDciIa5Onglu6PXoA
+! Checksum: IplsPxzz4hUbFn0089JECA
 ! Title: Lanik's uBO Filter List
-! Last modified: 18 Dec 2017 08:18 UTC-7
+! Last modified: 19 Dec 2017 13:00 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -16,6 +16,7 @@
 123movies.*##.container.clear.notice_areaclear
 123movies.*##.gomo-gtx-br.gomo-gtx
 123movies.*##.onp-sl-outer-wrap
+123movieshub.*##.text-center.alert.ann-home
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
 9to5mac.com##.leaderboard
 9to5mac.com##div[class*=st5]
@@ -50,7 +51,7 @@ amazon.com##.aplus-content-container.transparency-container
 amazon.com##.roles-help-section
 amazon.com##.sidebar-section-plain-html.sidebar-section-container
 amazon.com##a[href*="local.amazon.com"]
-amazon.com##div[class^=bannerContainer]
+amazon.com##div[class^="bannerContainer"]
 amazon.com##div[id^="sponsoredProducts"]
 autoblog.com###global-share-left.rsb-wrapper.fade.affix-top
 autoblog.com###right_rail-zergnet
@@ -286,6 +287,7 @@ zdnet.com##.content-bottom-leaderboard
 ||images-na.ssl-images-amazon.com/*_gc_balance_page$image,domain=www.amazon.com
 ||images-na.ssl-images-amazon.com/*primenow/*Browser/$image,domain=www.amazon.com
 ||images.videolan.org/images/partners/$image
+||img.bestcdnever.ru/banner/
 ||imgsynergy.com/product_creatives/$image
 ||insecure.org/images/pro/$image
 ||iplocation.net/assets/images/banners/$image
