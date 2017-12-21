@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: IplsPxzz4hUbFn0089JECA
+! Checksum: Nhe3Im0qBSmw93HNfd5NbQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 19 Dec 2017 13:00 UTC-7
+! Last modified: 20 Dec 2017 19:11 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -53,6 +53,9 @@ amazon.com##.sidebar-section-plain-html.sidebar-section-container
 amazon.com##a[href*="local.amazon.com"]
 amazon.com##div[class^="bannerContainer"]
 amazon.com##div[id^="sponsoredProducts"]
+appleinsider.com###priceguide
+appleinsider.com###sbr-priceguide
+appleinsider.com###top-promo
 autoblog.com###global-share-left.rsb-wrapper.fade.affix-top
 autoblog.com###right_rail-zergnet
 autoblog.com##.grv-related
