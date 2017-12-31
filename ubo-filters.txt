@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: WOV3QhLnswYwfsySRShj8Q
+! Checksum: jSGa0c9YlvV7XNCcjqMGGQ
 ! Title: Lanik's uBO Filter List
 ! Last modified: 24 Dec 2017 12:36 UTC-8
 ! Expires: 1 day (update frequency)
@@ -127,7 +127,6 @@ imgur.com##.cta-content-container
 imore.com##.mn_mbn_share
 informaction.com##.badges
 informer.com##.with_label
-informer.com##.with_label.screen_ad
 inoreader.com###consent_bbb
 inoreader.com###sinner_container
 jalopnik.com##.twitter-tweet
@@ -192,7 +191,6 @@ pcworld.com###sharer
 phpbb.com##.forumatic-panel
 phpbb.com##.mini-panel
 railsapps.github.io##.columns.medium-6
-railsapps.github.io##.margin-top.columns.medium-6
 reddit.com##.side-message
 scmagazine.com##.article-ad-slot
 secure.newegg.com###amexBanner
@@ -211,7 +209,6 @@ slickdeals.net###rightRailAds
 slickdeals.net###sideColumn
 slickdeals.net##.ab
 slickdeals.net##.announcementBar
-slickdeals.net##.announcementBar[href="/blackfriday/"]
 slickdeals.net##.giveaway.grid.fpGridBox
 slickdeals.net##.heroCarouselWrapper
 slickdeals.net##div[class*="sideGridBox"]
