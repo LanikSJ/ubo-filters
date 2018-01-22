@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: uPiCtKIKmF4rFk2ieiVXUg
+! Checksum: dYnvqFNUBEsHZHvqGsexog
 ! Title: Lanik's uBO Filter List
-! Last modified: 13 Jan 2018 12:45 UTC-8
+! Last modified: 21 Jan 2018 18:07 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -287,11 +287,13 @@ wpengine.com##.sucuriscan-visible.sucuriscan-sidebar
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
 yahoo.com###yucs-top-ff-promo
+yelp.com##div[class*="promotional-banner"]
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
 ||g00.cnet.com/g00/*$media,xmlhttprequest,other,domain=cnet.com
 ||images-na.ssl-images-amazon.com/*_gc_balance_page$image,domain=www.amazon.com
+||images-na.ssl-images-amazon.com/*TWITCH*.jpg$image,domain=www.amazon.com
 ||images.videolan.org/images/partners/$image
 ||img.bestcdnever.ru/banner/
 ||imgsynergy.com/product_creatives/$image
