@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: TCiqF2q9iIwD9PDkKYRFbA
+! Checksum: DwH+WBBMgB03GJkkzkQNTA
 ! Title: Lanik's uBO Filter List
 ! Last modified: 20 Apr 2018 11:19 UTC-7
 ! Expires: 1 day (update frequency)
@@ -299,8 +299,6 @@ zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
 ||g00.cnet.com/g00/*$media,xmlhttprequest,other,domain=cnet.com
-||images-na.ssl-images-amazon.com/*_gc_balance_page$image,domain=www.amazon.com
-||images-na.ssl-images-amazon.com/*TWITCH*.jpg$image,domain=www.amazon.com
 ||images.videolan.org/images/partners/$image
 ||img.bestcdnever.ru/banner/
 ||imgsynergy.com/product_creatives/$image
