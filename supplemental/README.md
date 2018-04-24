@@ -2,6 +2,7 @@
 
 Fake News: https://raw.github.com/ryanbr/fanboy-adblock/master/fake-news.txt<br/>
 Malwaredomains (long-lived): https://mirror1.malwaredomains.com/files/immortal_domains.txt<br/>
+Malware Filter by Disconnect: https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt<br/>
 NoCoin Filter List: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt<br/>
 Prebake - Filter Obtrusive Cookie Notices: https://raw.github.com/liamja/Prebake/master/obtrusive.txt<br/>
 uBlock Filters Plus - https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt<br/>
