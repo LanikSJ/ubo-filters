@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: x8279W/5/xXsm9PvnRd6wQ
+! Checksum: 6ZsN/IBAohaZtudKnc4LEw
 ! Title: Admiral Domains Filter List
-! Last modified: 15 Aug 2017 17:48 UTC-7
+! Last modified: 27 Apr 2018 17:48 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -15,7 +15,9 @@
 ||82o9v830.com^$third-party
 ||abandonedclover.com^$third-party
 ||abruptroad.com^$third-party
+||absurdwater.com^$third-party
 ||actuallysheep.com^$third-party
+||advertisementafterthought.com^
 ||ak0gsh40.com^$third-party
 ||ambitiousagreement.com^$third-party
 ||anxiousapples.com^$third-party
@@ -27,6 +29,8 @@
 ||bawdybeast.com^$third-party
 ||beamincrease.com^$third-party
 ||beamkite.com^$third-party
+||bedsbreath.com^$third-party
+||bestboundary.com^$third-party
 ||bewilderedblade.com^$third-party
 ||boilingbeetle.com^$third-party
 ||boredcrown.com^$third-party
@@ -34,6 +38,7 @@
 ||broadboundary.com^$third-party
 ||broadcastbed.com^$third-party
 ||btez8.xyz^$third-party
+||bustlinganimal.com^$third-party
 ||calculatorcamera.com^$third-party
 ||calmfoot.com^$third-party
 ||capablecows.com^$third-party
@@ -58,44 +63,58 @@
 ||decisiveducks.com^$third-party
 ||decoycreation.com^$third-party
 ||delightdriving.com^$third-party
+||detailedglue.com^$third-party
 ||detectdiscovery.com^$third-party
 ||differentdesk.com^$third-party
 ||discreetfield.com^$third-party
+||dispensablestranger.com^$third-party
 ||dispensablestranger.com^$third-party
 ||dk4ywix.com^$third-party
 ||docksalmon.com^$third-party
 ||doubtfulrainstorm.com^$third-party
 ||dragzebra.com^$third-party
+||earthquakescarf.com^$third-party
 ||economicpizzas.com^$third-party
+||economicpizzas.com^$third-party
+||efficaciouscactus.com^$third-party
 ||elasticchange.com^$third-party
 ||elephantqueue.com^$third-party
+||endurableshop.com^
 ||endurableshop.com^$third-party
+||enthusiasticdad.com^$third-party
 ||errortablet.com^$third-party
 ||exclusivebrass.com^$third-party
 ||fanaticalfly.com^$third-party
+||farethief.com^$third-party
 ||flakyfeast.com^$third-party
 ||flavordecision.com^$third-party
+||flimsycircle.com^$third-party
 ||floodprincipal.com^$third-party
 ||foamybox.com^$third-party
 ||frailoffer.com^$third-party
 ||functionalclam.com^$third-party
 ||futuristicfairies.com^$third-party
 ||fuzzyflavor.com^$third-party
-||fuzzyweather.com^
+||fuzzyweather.com^$third-party
 ||ga87z2o.com^$third-party
+||gammamaximum.com^$third-party
 ||giddycoat.com^$third-party
+||glossysense.com^$third-party
 ||gondolagnome.com^$third-party
 ||gorgeousground.com^$third-party
 ||greetzebra.com^$third-party
 ||greyinstrument.com^$third-party
 ||guardedgovernor.com^$third-party
+||guardedschool.com^$third-party
 ||guitarbelieve.com^$third-party
 ||h78xb.pw^$third-party
+||handyfield.com^$third-party
 ||hfc195b.com^$third-party
 ||hilariouszinc.com^$third-party
 ||illustriousoatmeal.com^$third-party
 ||importedincrease.com^$third-party
 ||incrediblesugar.com^$third-party
+||inventionpassenger.com^$third-party
 ||ivykiosk.com^$third-party
 ||j93557g.com^$third-party
 ||jadeitite.com^$third-party
@@ -108,6 +127,7 @@
 ||loudloss.com^$third-party
 ||lp3tdqle.com^$third-party
 ||lumpyleaf.com^$third-party
+||markedcrayon.com^$third-party
 ||matchcows.com^$third-party
 ||messagenovice.com^$third-party
 ||mixedreading.com^$third-party
@@ -117,6 +137,7 @@
 ||nondescriptcrowd.com^$third-party
 ||optimallimit.com^$third-party
 ||ovalpigs.com^$third-party
+||owlsr.us^$third-party
 ||parchedangle.com^$third-party
 ||parsimoniouspolice.com^$third-party
 ||peacepowder.com^$third-party
@@ -132,34 +153,42 @@
 ||puffyloss.com^$third-party
 ||quaintcan.com^$third-party
 ||quicksandear.com^$third-party
+||rapidkittens.com^$third-party
 ||readgoldfish.com^$third-party
 ||readingguilt.com^$third-party
 ||rebelsubway.com^$third-party
 ||receptiveink.com^$third-party
+||reflectivereward.com^$third-party
 ||resolutekey.com^$third-party
 ||rulerabbit.com^$third-party
 ||saysidewalk.com^$third-party
 ||scarcestream.com^$third-party
+||scintillatingspace.com^$third-party
 ||scrubsky.com^$third-party
 ||scrubswim.com^$third-party
 ||selectivesummer.com^$third-party
 ||separatesilver.com^$third-party
 ||shakesea.com^$third-party
+||shakesuggestion.com^$third-party
 ||shakytaste.com^$third-party
 ||shallowschool.com^$third-party
 ||shelterstraw.com^$third-party
 ||shiveringsail.com^$third-party
 ||shockingswing.com^$third-party
+||sillyscrew.com^$third-party
 ||simplisticnose.com^$third-party
 ||sinceresofa.com^$third-party
 ||sincerespy.com^$third-party
+||smilingwaves.com^$third-party
 ||snakesort.com^$third-party
 ||sneaklevel.com^$third-party
 ||sneakystamp.com^$third-party
 ||spectacularsnail.com^$third-party
+||spidersboats.com^$third-party
 ||spillvacation.com^$third-party
 ||spottysense.com^$third-party
 ||squeamishscarecrow.com^$third-party
+||stickssheep.com^$third-party
 ||storesurprise.com^$third-party
 ||stormyachiever.com^$third-party
 ||stormyshock.com^$third-party
@@ -172,6 +201,7 @@
 ||sugarcurtain.com^$third-party
 ||superficialsink.com^$third-party
 ||swordgoose.com^$third-party
+||talentedsteel.com^$third-party
 ||tangibleteam.com^$third-party
 ||terribleturkey.com^$third-party
 ||teschenite.com^$third-party
@@ -189,8 +219,11 @@
 ||unknowntray.com^$third-party
 ||unusualtitle.com^$third-party
 ||voicevegetable.com^$third-party
+||waryfog.com^$third-party
 ||wateryvan.com^$third-party
+||whirlwealth.com^$third-party
 ||whiskyqueue.com^$third-party
 ||wirecomic.com^$third-party
+||wryfinger.com^$third-party
 ||xovq5nemr.com^$third-party
 ||zbwp6ghm.com^$third-party
