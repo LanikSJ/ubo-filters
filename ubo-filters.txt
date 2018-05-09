@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: DwH+WBBMgB03GJkkzkQNTA
+! Checksum: cEgLHOuSNbyj5tWg3FgEww
 ! Title: Lanik's uBO Filter List
-! Last modified: 20 Apr 2018 11:19 UTC-7
+! Last modified: 9 May 2018 11:19 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -27,32 +27,6 @@
 accuweather.com###header-davek
 advancedtomato.com###cookieprivacy-bar
 airdroid.com##.item-social-share.item-sidebar-block
-amazon.com###automotive-feedback-tab-link
-amazon.com###cart-item-recs
-amazon.com###CPMerchandingTopSlot
-amazon.com###DAadrv2
-amazon.com###desktop-ad-btf
-amazon.com###desktop-sidekick-2
-amazon.com###detail-ilm_div
-amazon.com###heroQuickPromo_feature_div
-amazon.com###marketingimagelink
-amazon.com###nav-resourceGroupsMenu
-amazon.com###nav-upnav
-amazon.com###pldn-deep-link
-amazon.com###prime_div
-amazon.com###sc-new-upsell
-amazon.com###sidebarbtf
-amazon.com###sp_detail
-amazon.com###unlimitedSubscriptionBanner
-amazon.com##.a-padding-base.a-box-inner
-amazon.com##.acs-shwcs-image-wrap-inner
-amazon.com##.adcenterRowWrapper
-amazon.com##.aplus-content-container.transparency-container
-amazon.com##.roles-help-section
-amazon.com##.sidebar-section-plain-html.sidebar-section-container
-amazon.com##a[href*="local.amazon.com"]
-amazon.com##div[class^="bannerContainer"]
-amazon.com##div[id^="sponsoredProducts"]
 appleinsider.com###priceguide
 appleinsider.com###sbr-priceguide
 appleinsider.com###top-promo
@@ -62,9 +36,6 @@ autoblog.com###right_rail-zergnet
 autoblog.com##.grv-related
 autoblog.com##.related-products-portlet
 autoblog.com##.right_rail-follow_us.module
-aws.amazon.com##.ng-scope.dark.notification
-aws.amazon.com##awsui-alert
-aws.amazon.com##awsui-flash
 aws.training###divAdBlockerMessage
 bedbathandbeyond.com##.ad-blocker
 bhphotovideo.com###promoConsole
