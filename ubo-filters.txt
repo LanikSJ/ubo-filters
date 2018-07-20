@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: A8QYXaxY2/YNjzToW5LygQ
+! Checksum: lfVg7SKi7l9uic6Ed0rjcg
 ! Title: Lanik's uBO Filter List
-! Last modified: 6 Jul 2018 20:32 UTC-7
+! Last modified: 20 Jul 2018 8:51 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://forums.lanik.us
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -242,6 +242,7 @@ tutsplus.com##div[class*="tether"]
 uberpeople.com##.hiddenResponsiveNarrow
 ups.com###ups-alertsWrap
 urbandictionary.com##.mug-ad
+videolan.org###pub_adsense
 videolan.org##.donate-box.pull-right.navbar-nav.nav
 videolan.org##.sponsors-carousel-wrapper
 walmart.com##.product-promotion-message-wrapper
