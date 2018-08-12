@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: lfVg7SKi7l9uic6Ed0rjcg
+! Checksum: meQ/tkSQW0Iz35WQaQwXuA
 ! Title: Lanik's uBO Filter List
 ! Last modified: 20 Jul 2018 8:51 UTC-7
 ! Expires: 1 day (update frequency)
@@ -24,7 +24,7 @@
 @@||connect/assets/js/analytics.js$script,domain=dockercon18.smarteventscloud.com
 @@||googleadservices.com/gpt/pubads*$domain=realtor.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
-@@||palemoon.org/ads.js
+@@||palemoon.org/*ads.js
 accuweather.com###header-davek
 advancedtomato.com###cookieprivacy-bar
 airdroid.com##.item-social-share.item-sidebar-block
