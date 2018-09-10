@@ -3,6 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: uBO Filters
 ---
 
 Purpose
@@ -15,7 +16,7 @@ If you'd like to use this filter list add the bellow link to uBlock Origin:<br>
 Credits
 ============
 
-Some scripts have been "borrowed" from Fanboy: https://github.com/ryanbr/fanboy-adblock/<br>
+Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)
 All rights reserved by the original authors.
 
 Bugs
