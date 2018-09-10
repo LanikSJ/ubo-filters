@@ -17,7 +17,7 @@ If you'd like to use this filter list add the bellow link to uBlock Origin:<br>
 Credits
 ============
 
-Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)
+Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)<br>
 All rights reserved by the original authors.
 
 Bugs
