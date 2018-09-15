@@ -32,9 +32,7 @@ install:
 - mkdir -p coverage
 
 script:
-- kcov coverage checksum-sort.sh
-- kcov coverage scripts/addChecksum.pl
-- kcov coverage scripts/sorter.pl
+- kcov coverage checksum-sort.sh ubo-filters.txt
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
