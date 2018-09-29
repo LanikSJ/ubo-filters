@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Ob8Oa1TWYQhVBPwXST/OuA
+! Checksum: 0rMDynrGKMQCT3GFZJKpvA
 ! Title: Lanik's uBO Filter List
-! Last modified: 29 Sep 2018 11:14 UTC-7
+! Last modified: 29 Sep 2018 11:48 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -283,6 +283,7 @@ yelp.com##div[class*="promotional-banner"]
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
+||blogspot.com^$image,domain=yourownlinux.com
 ||g00.cnet.com/g00/*$media,xmlhttprequest,other,domain=cnet.com
 ||images.videolan.org/images/partners/$image
 ||img.bestcdnever.ru/banner/
@@ -296,3 +297,4 @@ zdnet.com##.content-bottom-leaderboard
 ||ssl-images-amazon.com/*/ads/
 ||wiki.jenkins.io/plugins/macrobrowser/browse-macros.action$xmlhttprequest
 ||yelpcdn.com/assets/*/promotions/$image
+||yourownlinux.com##.separator
