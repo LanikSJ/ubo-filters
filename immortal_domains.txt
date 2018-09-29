@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: doZQdARhAGP7mFZuPbdoaA
+! Checksum: DOKnYwu3/wXAIhTwyYediQ
 ! Title: Immortal Malware Domains List
-! Last modified: 29 Sep 2018 11:48 UTC-7
+! Last modified: 29 Sep 2018 12:00 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -1732,8 +1732,8 @@
 ||litend.com^$third-party
 ||literalseduction.net^$third-party
 ||litetopfindworld.cn^$third-party
-||liulanwangye.com^$third-party
 ||liulanwangye.com246sjinzanylec.com^$third-party
+||liulanwangye.com^$third-party
 ||livench.com^$third-party
 ||livesitedesign.ru^$third-party
 ||livinggood.se^$third-party
