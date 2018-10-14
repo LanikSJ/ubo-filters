@@ -7,7 +7,7 @@ deleteCommand: true
 closeSourceIssue: true
 
 # Lock the source issue after moving
-lockSourceIssue: false
+lockSourceIssue: true
 
 # Mention issue and comment authors
 mentionAuthors: true
