@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 0rMDynrGKMQCT3GFZJKpvA
+! Checksum: R9A/6mj+xgkAJCRqzbebAw
 ! Title: Lanik's uBO Filter List
-! Last modified: 29 Sep 2018 11:48 UTC-7
+! Last modified: 10 Oct 2018 17:03 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -43,6 +43,7 @@ bhphotovideo.com###promoConsole
 boastr.net##.pea_cook_bottomright.pea_cook_wrapper
 buydig.com###socialLinks
 buydig.com###topHeader_divTwitter
+carbonite.com###notice
 cbc.ca##.notice.banner
 cnbc.com###social_bar_top_gig_containerParent
 cnet.com###flyoutPromo
@@ -118,6 +119,7 @@ latimes.com##.trb_bnn
 lg.com##.pc.new-quick-menu
 lifehacker.com##.recent-video
 lifehacker.com##.sharingfooter__wrapper
+linkedin.com##.ad-banner
 linksysinfo.org##.notice_notice_cookies.DismissParent.Notice.panel
 linksysinfo.org##.Notices.PanelScroller
 linuxquestions.org##.vertical-medium.stackcommerce-widget
