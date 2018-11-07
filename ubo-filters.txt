@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: R9A/6mj+xgkAJCRqzbebAw
+! Checksum: 3OLcNfzAeI5JCyE/71YmNA
 ! Title: Lanik's uBO Filter List
-! Last modified: 26 Oct 2018 17:03 UTC-7
+! Last modified: 6 Nov 2018 16:28 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -160,6 +160,7 @@ money.cnn.com##.module-header
 move.greenhouse.io###mobile-app-promo-footer
 mozilla.org###brand-popup
 my.ooma.com###banner_container
+my.paddle.com###suggestedScroll
 mysms.com###cookie
 nakedsecurity.sophos.com##.newsletter-panel
 newegg.com##img[src*="promotions.newegg.com"]
@@ -248,6 +249,7 @@ tomato.groov.pl###sidebar-over-blog
 tutsplus.com##div[class*="tether"]
 uberpeople.com##.hiddenResponsiveNarrow
 ups.com###ups-alertsWrap
+ups.com##.ups-banner_container
 urbandictionary.com##.mug-ad
 videolan.org###pub_adsense
 videolan.org##.donate-box.pull-right.navbar-nav.nav
