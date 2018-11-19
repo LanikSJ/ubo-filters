@@ -1,12 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: nsiTwPK92iOQGAZ6yQBfhw
+! Checksum: /vx73eJq2RrIF9aUSZ3JQw
 ! Title: Lanik's uBO Filter List
-! Last modified: 19 Nov 2018 9:01 UTC-8
+! Last modified: 19 Nov 2018 10:01 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
 !
 ! Note: This is just my List of sites I frequently visit.
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
 
 ###phpbb-ads-ab
 ##.taboola-module
