@@ -10,11 +10,25 @@ Purpose
 ============
 
 I got tired of loosing my filters when I switched machines so I created this repo.<br>
-If you'd like to use this filter list add the bellow link to uBlock Origin:<br>
+
+Usage
+============
+
+If you'd like to use these filter lists add the bellow links to AdBlock Plus / uBlock Origin:<br>
+
+My Filters:
 
     https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/ubo-filters.txt
 
-Credits
+Admiral Domains:
+
+    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/admiral-domains.txt
+
+Immortal Domains:
+
+    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/immortal-domains.txt
+
+Attributions
 ============
 
 Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)<br>
