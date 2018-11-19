@@ -9,12 +9,12 @@ title: uBO Filters
 Purpose
 ============
 
-I got tired of loosing my filters when I switched machines so I created this repo.<br>
+I got tired of loosing my filters when I switched machines so I created this repo.  
 
 Usage
 ============
 
-If you'd like to use these filter lists add the bellow links to AdBlock Plus / uBlock Origin:<br>
+If you'd like to use these filter lists add the bellow links to AdBlock Plus / uBlock Origin:  
 
 My Filters:
 
@@ -31,7 +31,7 @@ Immortal Domains:
 Attributions
 ============
 
-Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)<br>
+Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)  
 All rights reserved by the original authors.
 
 Bugs
