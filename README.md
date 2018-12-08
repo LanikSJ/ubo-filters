@@ -20,6 +20,10 @@ Immortal Domains:
 
     https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/immortal-domains.txt
 
+Hilltop Ads:
+
+    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/hilltopads-domains.txt
+
 ## Attributions
 Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)  
 All rights reserved by the original authors.
