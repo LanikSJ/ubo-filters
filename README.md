@@ -10,19 +10,19 @@ If you'd like to use these filter lists add the bellow links to AdBlock Plus / u
 
 My Filters:
 
-    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/ubo-filters.txt
+    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/ubo-filters.txt
 
 Admiral Domains:
 
-    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/admiral-domains.txt
+    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/admiral-domains.txt
 
 Immortal Domains:
 
-    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/immortal-domains.txt
+    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/immortal-domains.txt
 
 Hilltop Ads:
 
-    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/hilltopads-domains.txt
+    https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/hilltopads-domains.txt
 
 ## Attributions
 Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)  

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: YDw1B+4krUu9V1MrE2a8QA
+! Checksum: Fngak5p/Wgvm1lsSodcR0A
 ! Title: Admiral Domains Filter List
-! Last modified: 19 Nov 2018 10:00 UTC-7
+! Last modified: 8 Dec 2018 12:30 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html

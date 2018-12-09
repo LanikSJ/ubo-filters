@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: zs9+JDsxGvzr4Is+0dTkOQ
-! Title: HilltopAds Domains List
-! Last modified: 5 Dec 2018 07:37 UTC-7
+! Checksum: JYPdtdyCuy05Sr1tSNtfcA
+! Title: Hilltop Ads Domains List
+! Last modified: 8 Dec 2018 12:30 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
