@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: aa7E+LRQvf4ZQ5BJv/bQ6g
+! Checksum: SCIjuFnXoTVWBMcbdZrl6g
 ! Title: Lanik's uBO Filter List
-! Last modified: 8 Dec 2018 12:30 UTC-7
+! Last modified: 11 Dec 2018 17:12 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -241,6 +241,9 @@ techblog.realtor.com###itsec_need_help
 techblog.realtor.com###itsec_security_updates
 techblog.realtor.com###itsec_sync_integration
 techcrunch.com##.aside-related-articles.aside
+techradar.com##.jw-reset.jw-video
+techradar.com##.jw-reset.jw-wrapper
+techradar.com##.sticky-player-background
 techtarget.com###content-left
 techtarget.com###download-offer
 techtarget.com###guide-navigation
