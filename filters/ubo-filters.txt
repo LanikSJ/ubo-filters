@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: SCIjuFnXoTVWBMcbdZrl6g
+! Checksum: WNgfn4fO8fP9+XxZRV6/wA
 ! Title: Lanik's uBO Filter List
-! Last modified: 11 Dec 2018 17:12 UTC-7
+! Last modified: 13 Dec 2018 18:40 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -37,6 +37,9 @@ airdroid.com##.item-social-share.item-sidebar-block
 appleinsider.com###priceguide
 appleinsider.com###sbr-priceguide
 appleinsider.com###top-promo
+arstechnica.com###ars-sub-app-no-banners-no-tracking-animated
+arstechnica.com###teads-container
+arstechnica.com##.inline-playlist
 arstechnica.com##.right.story-sidebar.sidebar.pullbox
 autoblog.com###global-share-left.rsb-wrapper.fade.affix-top
 autoblog.com###right_rail-zergnet
