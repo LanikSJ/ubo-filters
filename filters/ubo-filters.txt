@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: ZjPlRBjfZWKHFYlpOcLWgQ
+! Checksum: 411nDcCbvxaEfLA4Mw2rhA
 ! Title: Lanik's uBO Filter List
-! Last modified: 20 Dec 2018 18:15 UTC-7
+! Last modified: 4 Jan 2019 17:00 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -201,6 +201,7 @@ reddit.com##.side-message
 scmagazine.com##.article-ad-slot
 secure.newegg.com###amexBanner
 secure.newegg.com##img[src*="banner_synchrony.jpg"]
+secure.nordstrom.com##div[class*="nui-tile"]
 sfgate.com###sharebar
 sfgate.com###vembaSticky
 sfgate.com##.promo
