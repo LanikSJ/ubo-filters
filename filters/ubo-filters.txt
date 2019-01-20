@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 411nDcCbvxaEfLA4Mw2rhA
+! Checksum: GTLdDnlDmZApW2KT258eyA
 ! Title: Lanik's uBO Filter List
-! Last modified: 4 Jan 2019 17:00 UTC-7
+! Last modified: 19 Jan 2019 17:08 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -48,6 +48,7 @@ autoblog.com##.related-products-portlet
 autoblog.com##.right_rail-follow_us.module
 aws.training###divAdBlockerMessage
 bedbathandbeyond.com##.ad-blocker
+bedbathandbeyond.com##.componentWrapper
 bedbathandbeyond.com##div[class*="Region"]
 bhphotovideo.com###promoConsole
 boastr.net##.pea_cook_bottomright.pea_cook_wrapper
