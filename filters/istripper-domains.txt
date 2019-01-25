@@ -14,7 +14,6 @@
 ! this list, you are accepting these terms and the license.
 !
 
-! istripper
 ||bnrdom.com^$third-party
 ||bnrs.it^$third-party
 ||deskbabes.com^$third-party
