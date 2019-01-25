@@ -24,6 +24,8 @@ Hilltop Ads:
 
     https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/hilltopads-domains.txt
 
+This also applies to other filter lists under the [filters](filters/) folder.
+
 ## Attributions
 Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)  
 All rights reserved by the original authors.
