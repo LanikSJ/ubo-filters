@@ -1,0 +1,28 @@
+[Adblock Plus 2.0]
+! Checksum: Fngak5p/Wgvm1lsSodcR0A
+! Title: Tor Advertising Domains Filter List
+! Last modified: 25 Jan 2019 10:33 UTC-7
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+!
+! Note: A list of blocked Admiral Domains.
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
+
+! toroadvertising.com ----------------------------------------------!
+||asadismn.xyz^
+||asjdfasas.xyz^
+||iisksudks.xyz^
+||ip-51-255-80.eu^
+||lklasoo.xyz^
+||loasdfn.xyz^
+||oaasdfafff.xyz^
+||oijwemss.xyz^
+||vasoelv.xyz^
+||wpognfds.xyz^
+||zrefmeee.xyz^

@@ -1,0 +1,29 @@
+[Adblock Plus 2.0]
+! Checksum: Fngak5p/Wgvm1lsSodcR0A
+! Title: FreeCounterStat AdServers Domains List
+! Last modified: 25 Jan 2019 10:33 UTC-7
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+!
+! Note: A list of blocked Admiral Domains.
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
+
+||01counter.com^$third-party
+||allfreecounter.com^$third-party
+||bestfreecounterstat.com^$third-party
+||besucherstatistiken.com^$third-party
+||compteurdevisite.com^$third-party
+||contadorvisitasgratis.com^$third-party
+||contatoreaccessi.com^$third-party
+||fcs.ovh^$third-party
+||freecounter.ovh^$third-party
+||freecounterstat.com^$third-party
+||freecounterstat.ovh^$third-party
+||statcounterfree.com^$third-party
+||webcontadores.com^$third-party

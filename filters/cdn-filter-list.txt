@@ -1,0 +1,84 @@
+[Adblock Plus 2.0]
+! Checksum: Fngak5p/Wgvm1lsSodcR0A
+! Title: CDN Filter Domains List
+! Last modified: 25 Jan 2019 10:33 UTC-7
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+!
+! Note: A list of blocked Admiral Domains.
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
+
+/cdn-cgi/pe/bag2?*%2Fad_slideout.
+/cdn-cgi/pe/bag2?*%2Fads1.
+/cdn-cgi/pe/bag2?*%2Fads2.
+/cdn-cgi/pe/bag2?*%2Fwww%2Fdelivery%2F
+/cdn-cgi/pe/bag2?*%3A%2F%2Fads.
+/cdn-cgi/pe/bag2?*.mdn2015x*.com
+/cdn-cgi/pe/bag2?*.mgid.com
+/cdn-cgi/pe/bag2?*/adServe/*
+/cdn-cgi/pe/bag2?*?tid=
+/cdn-cgi/pe/bag2?*ad6media.fr
+/cdn-cgi/pe/bag2?*adcash.com
+/cdn-cgi/pe/bag2?*adglare.net
+/cdn-cgi/pe/bag2?*adhitzads.com
+/cdn-cgi/pe/bag2?*adikteev.com
+/cdn-cgi/pe/bag2?*adplus.io
+/cdn-cgi/pe/bag2?*adsoptimal.com
+/cdn-cgi/pe/bag2?*adstract.com
+/cdn-cgi/pe/bag2?*adverline.com
+/cdn-cgi/pe/bag2?*affiliation-france.com
+/cdn-cgi/pe/bag2?*affinity.com
+/cdn-cgi/pe/bag2?*amazon-adsystem.com
+/cdn-cgi/pe/bag2?*arabyads.com
+/cdn-cgi/pe/bag2?*arabytracking.com
+/cdn-cgi/pe/bag2?*buysellads.com
+/cdn-cgi/pe/bag2?*buysellads.net
+/cdn-cgi/pe/bag2?*buzzadexchange.com
+/cdn-cgi/pe/bag2?*cdn9now.com
+/cdn-cgi/pe/bag2?*clicmanager.fr
+/cdn-cgi/pe/bag2?*clicmanager.net
+/cdn-cgi/pe/bag2?*clksite.com
+/cdn-cgi/pe/bag2?*codeonclick.com
+/cdn-cgi/pe/bag2?*cpaofferstat.com
+/cdn-cgi/pe/bag2?*cpmstar.com
+/cdn-cgi/pe/bag2?*crickwrite.com
+/cdn-cgi/pe/bag2?*dynsrvaba.com
+/cdn-cgi/pe/bag2?*exdynsrv.com
+/cdn-cgi/pe/bag2?*exoclick.com
+/cdn-cgi/pe/bag2?*exosrv.com
+/cdn-cgi/pe/bag2?*exponential.com
+/cdn-cgi/pe/bag2?*hilltopads.net
+/cdn-cgi/pe/bag2?*jsadapi.com
+/cdn-cgi/pe/bag2?*juicyads.com
+/cdn-cgi/pe/bag2?*komoona.com
+/cdn-cgi/pe/bag2?*ligatus.com
+/cdn-cgi/pe/bag2?*liveadexchanger.com
+/cdn-cgi/pe/bag2?*mobisla.com
+/cdn-cgi/pe/bag2?*o333o.com
+/cdn-cgi/pe/bag2?*oclasrv.com
+/cdn-cgi/pe/bag2?*omnitagjs.com
+/cdn-cgi/pe/bag2?*padsdel.com
+/cdn-cgi/pe/bag2?*padstm.com
+/cdn-cgi/pe/bag2?*pagead2.googlesyndication.com
+/cdn-cgi/pe/bag2?*prscripts.com
+/cdn-cgi/pe/bag2?*pub2srv.com
+/cdn-cgi/pe/bag2?*pubdirecte.com
+/cdn-cgi/pe/bag2?*puhtml.com
+/cdn-cgi/pe/bag2?*puserving.com
+/cdn-cgi/pe/bag2?*rtax.criteo.com
+/cdn-cgi/pe/bag2?*securepubads.g.doubleclick.net
+/cdn-cgi/pe/bag2?*srcsmrtgs.com
+/cdn-cgi/pe/bag2?*static.criteo.net
+/cdn-cgi/pe/bag2?*sv2.biz%
+/cdn-cgi/pe/bag2?*tradeadexchange.com
+/cdn-cgi/pe/bag2?*traffichaus.com
+/cdn-cgi/pe/bag2?*tribalfusion.com
+/cdn-cgi/pe/bag2?*waframedia*.com
+/cdn-cgi/pe/bag2?*xpopunder.
+/cdn-cgi/pe/bag2?*yesmessenger.com
