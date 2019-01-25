@@ -14,7 +14,6 @@
 ! this list, you are accepting these terms and the license.
 !
 
-! videoadex.com
 ||azzerr.ovh^$third-party
 ||bvvx.ovh^$third-party
 ||dghf.ovh^$third-party
