@@ -1,0 +1,58 @@
+[Adblock Plus 2.0]
+! Checksum: 5s5b8J6fD5pumfey1tpbIw
+! Title: Kitty Domains Filter List
+! Last modified: 25 Jan 2019 10:33 UTC-7
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+!
+! Note: A list of blocked Admiral Domains.
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
+
+||0377shujuhuifu.top^
+||2013sh.com^
+||210189.com^
+||258pct.com^
+||258ydh.com^
+||bjwwfx001.org.cn^
+||bycxsh.com^
+||ccbccb.cn^
+||cdxyb.cn^
+||dupinpu.com^
+||enyayinxiang.com^
+||etg98.com^
+||fate-xy.com^
+||fm6w.com^
+||front99.com^
+||gotourls.bid^
+||guangtui1999.com^
+||h01ce.cn^
+||harbinbaojia.net^
+||hgo7r.cn^
+||hulemedia.com^
+||ip.hivps.xyz^
+||jlhygy.com^
+||juren0.com^
+||kuuad.com^
+||kyad88.com^
+||mengchengbao.com^
+||mlangw.net^
+||pr33.cn^
+||shanghuitianxia.cn^
+||shongcheng.com^
+||shunlige.com^
+||smsksx.com^
+||soonyou123.com^
+||sssgao999.com^
+||start1999.com^
+||tdtsd.com^
+||wxktv.cn^
+||xzqxz.net^
+||yunpifu.cn^
+||zgdmsj.cn^
+||zhuyuanp.club^

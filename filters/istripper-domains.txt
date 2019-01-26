@@ -1,0 +1,26 @@
+[Adblock Plus 2.0]
+! Checksum: BGCBL+gKwDBc3dsfFcvE3A
+! Title: IStripper Domains Filter List
+! Last modified: 25 Jan 2019 10:33 UTC-7
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+!
+! Note: A list of blocked Admiral Domains.
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
+
+||bnrdom.com^$third-party
+||bnrs.it^$third-party
+||deskbabes.com^$third-party
+||istripper.com^$third-party
+||kcolbda.com^$third-party
+||misslk.com^$third-party
+||vghd.com^$third-party
+||virtuagirl.com^$third-party
+||virtuagirlhd.com^$third-party
+||virtuaguyhd.com^$third-party

@@ -1,0 +1,88 @@
+[Adblock Plus 2.0]
+! Checksum: oTZLEpSAYtvamfG0+UHdWw
+! Title: PropellerAds Domains Filter List
+! Last modified: 25 Jan 2019 10:33 UTC-7
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+!
+! Note: A list of blocked Admiral Domains.
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
+
+||blukavsup.online^
+||gabsanso.net^
+||grainsox.net^
+||hereonline.online^
+||iz682noju02ye5.com^
+||jaizouji.com^
+||jeeshapi.net^
+||joheeptaicat.com^
+||jouzeeps.click^
+||kaunairu.net^
+||lefopost.com^
+||loaphizu.com^
+||loorooch.link^
+||loralana.com^
+||lovacmar.click^
+||lzrikate.com^
+||mixology.pw^
+||mobibiobi.com^
+||nepsauss.net^
+||oagudsey.uk^
+||oalrivax.top^
+||orgalso.com^
+||otefauks.link^
+||ousufauk.com^
+||paujoawa.top^
+||peltaush.click^
+||pephirda.link^
+||pheeftie.link^
+||phenver.com^
+||phichaus.top^
+||poogriry.click^
+||preferrain.com^
+||prefomain.com^
+||preonesetro.com^
+||promoltd.online^
+||ptikeegno.com^
+||ptouckoo.net^
+||pushame.com^
+||pushamir.com^
+||pushbaddy.com^
+||pushbasic.com^
+||pushdusk.com^
+||pushengage.im^
+||pusherism.com^
+||pushimer.com^
+||pushno.com^
+||pushwhy.com^
+||ravaynore.com^
+||redorange.website^
+||redouwhy.link^
+||rudsools.net^
+||shaiptuk.net^
+||shifoagn.uk^
+||shoomsie.uk^
+||sinwebads.com^
+||soujoobafoo.com^
+||stickredgr.online^
+||stoordep.com^
+||storoukr.net^
+||suhunsoo.uk^
+||taulevoa.com^
+||thiksikr.com^
+||thirgoad.top^
+||thoonsie.click^
+||thukrubs.com^
+||toawouph.uk^
+||ugrastes.uk^
+||uj9ikv3z3jl4.com^
+||whoapoan.top^
+||wijokroa.net^
+||woahizouty.com^
+||yupidd.com^
