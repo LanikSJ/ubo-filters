@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: GTLdDnlDmZApW2KT258eyA
+! Checksum: 2ZN3F7JIHKjSjqqr0TTf/g
 ! Title: Lanik's uBO Filter List
 ! Last modified: 25 Jan 2019 17:00 UTC-7
 ! Expires: 1 day (update frequency)
@@ -19,11 +19,11 @@
 ##a[href*="dataqualityapps.com"]
 ##div[class*="promotional-content"]
 ##iframe[src*="facebook.com"]
+123movie.*##.notice.alert-default.alert
 123movies.*##.container.clear.notice_areaclear
 123movies.*##.gomo-gtx-br.gomo-gtx
 123movies.*##.onp-sl-outer-wrap
 123movieshub.*##.text-center.alert.ann-home
-123movie.*##.notice.alert-default.alert
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
 9to5mac.com##.leaderboard
 9to5mac.com##div[class*=st5]
