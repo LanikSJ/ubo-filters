@@ -28,6 +28,8 @@ Immortal Domains:
 
     https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/immortal-domains.txt
 
+This also applies to other filter lists under the [filters](filters/) folder.
+
 Attributions
 ============
 

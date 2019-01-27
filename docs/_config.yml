@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: uBlock Origin Filters
-description: "Lanik's uBlock Origin Filters"
+description: "uBlock Origin Filters"
 baseurl: "/ubo-filters"  # the subpath of your site, e.g. /blog
 url: "laniksj.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
 favicon: favicon.ico
