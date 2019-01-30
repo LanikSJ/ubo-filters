@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: jRGiviJj69YwEv3xFITU7g
+! Checksum: AI+sjr8oxoNi0qD4npIi5w
 ! Title: AdBack Domains Filter List
-! Last modified: 2019-01-30 20:18 UTC
+! Last modified: 30 Jan 2019 20:18 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
