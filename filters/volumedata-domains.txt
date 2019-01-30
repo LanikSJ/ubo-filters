@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: X0ICgm8S9JFIw0X4GFvzlQ
+! Checksum: iKYVzYwYXqihrSEM32OrrQ
 ! Title: VolumeData Domains Filter List
 ! Last modified: 25 Jan 2019 10:33 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
 !
-! Note: A list of blocked Admiral Domains.
+! Description: A list of blocked VolumeData Domains.
 !
 ! Legal Disclaimer (Terms and Conditions):
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive,

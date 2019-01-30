@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: n+EulqwEPyBqbfktEE1JlQ
+! Checksum: Q7/FUlasrY+bQbCfNJgP8A
 ! Title: Immortal Malware Domains List
 ! Last modified: 8 Dec 2018 12:30 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
 !
-! Note: This is a list of long-lived, "immortal", malware domains
+! Description: This is a list of long-lived, "immortal", malware Domains.
 !
 ! Legal Disclaimer (Terms and Conditions):
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
