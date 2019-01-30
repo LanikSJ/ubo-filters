@@ -1,21 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: JYPdtdyCuy05Sr1tSNtfcA
-! Title: Hilltop Ads Domains List
+! Checksum: cV5lb3kvYprV+1Z9oXVIZQ
+! Title: HilltopAds Domains List
 ! Last modified: 8 Dec 2018 12:30 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
 !
-! Note: This is a list of long-lived, "immortal", malware domains
+! Description: A list of blocked HilltopAds Domains.
 !
 ! Legal Disclaimer (Terms and Conditions):
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-! hilltopads.net
-! https://forums.lanik.us/viewtopic.php?f=62&t=37950
-! 05/12/2018
 
 ||adglob.asia^
 ||affroba.net^
