@@ -1,14 +1,15 @@
 # uBlock Origin Filters
-
-[![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=master)](https://travis-ci.com/LanikSJ/ubo-filters)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41a29f1821f5499ea4672618546deffe)](https://app.codacy.com/app/LanikSJ/ubo-filters?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade_Settings)[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=LanikSJ/ubo-filters)](https://dependabot.com)[![GPLv3 license](https://badgen.net/github/license/LanikSJ/ubo-filters)](http://perso.crans.org/besson/LICENSE.html)
+[![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=master)](https://travis-ci.com/LanikSJ/ubo-filters)[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=LanikSJ/ubo-filters)](https://dependabot.com)
 
 ## Purpose
 I got tired of loosing my filters when I switched machines so I created this repo.  
 
 ## Usage
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41a29f1821f5499ea4672618546deffe)](https://app.codacy.com/app/LanikSJ/ubo-filters?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade_Settings)[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)  
+
 If you'd like to use these filter lists add the bellow links to AdBlock Plus / uBlock Origin:  
 
-My Filters:
+LanikSJ Filters:
 
     https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/ubo-filters.txt
 
@@ -32,3 +33,6 @@ All rights reserved by the original authors.
 
 ## Bugs
 Please report any bugs or issues you find. Thanks!
+
+## License
+[![GPLv3 license](https://badgen.net/github/license/LanikSJ/ubo-filters)](http://perso.crans.org/besson/LICENSE.html)
