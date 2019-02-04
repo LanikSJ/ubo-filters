@@ -16,7 +16,7 @@ Usage
 
 If you'd like to use these filter lists add the bellow links to AdBlock Plus / uBlock Origin:  
 
-My Filters:
+LanikSJ Filters:
 
     https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/ubo-filters.txt
 
