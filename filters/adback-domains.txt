@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: AI+sjr8oxoNi0qD4npIi5w
+! Checksum: N4jiACWYg/Bri5e/JcG4MA
 ! Title: AdBack Domains Filter List
-! Last modified: 30 Jan 2019 20:18 UTC-7
+! Last modified: 10 Feb 2019 13:25 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -14,7 +14,6 @@
 ! this list, you are accepting these terms and the license.
 !
 
-||albertsonmendocino.com^
 ||attleboroarchcape.com^
 ||avingtonkinoulton.com^
 ||babblenorah.com^
@@ -38,16 +37,15 @@
 ||ellisvillehillsboro.com^
 ||emeighglenellen.com^
 ||enolatekoa.com^
+||etoileironton.com^
 ||folkstonelizabethtown.com^
-||foyilhardburly.com^
 ||franksvillereddick.com^
 ||freelandvillalba.com^
 ||gabrielsmidfield.com^
+||glenviewexcello.com^
 ||glorietapedricktown.com^
 ||goldendalepremont.com^
 ||hagarstowndilworth.com^
-||haileyhebert.com^
-||hawifallon.com^
 ||hazelcrestcoxsackie.com^
 ||heatonnikolski.com^
 ||hibbingnakina.com^
@@ -67,7 +65,6 @@
 ||lynbrookoriska.com^
 ||malakoffrockholds.com^
 ||maloupperville.com^
-||markhamglascote.com^
 ||mayaguezyerington.com^
 ||mayodanorem.com^
 ||medonohley.com^
@@ -92,10 +89,8 @@
 ||rhinecliffstarkville.com^
 ||rickettsharrell.com^
 ||ridgedaletecopa.com^
-||roosebeckseaforth.com^
 ||rutheronwenonah.com^
 ||sedalianoctor.com^
-||slckhmhphm.com^
 ||springtownwahiawa.com^
 ||stinnettjarratt.com^
 ||toomsborogreycliff.com^
@@ -110,7 +105,6 @@
 ||welakaschleswig.com^
 ||werringtonlasborough.com^
 ||wetmoremottville.com^
-||wheelercentre.com^
 ||whitesboromcbee.com^
 ||wilburnkeithsburg.com^
 ||wynnewoodmacdoel.com^
