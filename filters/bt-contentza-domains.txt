@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 9OBliELV1/eYh71MELAL1w
+! Checksum: UBfTCFcNvFhOezJ1WVeItg
 ! Title: BT Contentza Domains Filter List
-! Last modified: 25 Jan 2019 10:33 UTC-7
+! Last modified: 10 Feb 2019 13:25 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -25,7 +25,6 @@
 ||fgudqqluv.com^
 ||gbiqlm.com^
 ||ggohobe.com^
-||gqaedlfouz.com^
 ||kfzedelhjtyw.com^
 ||ksbnmsxnskx.com^
 ||lbjuhtxkx.com^
@@ -35,13 +34,11 @@
 ||mynativeplatform.com^
 ||ovcmqf.com^
 ||ovhnnz.ovh^
-||pczacsi.com^
 ||qxqvdkvhdn.com^
-||uipzqtjdxpyby.com^
+||soyzsnaivas.com^
 ||uzwcfbi.com^
 ||wlfolwilg.com^
 ||wsdib.com^
-||xmcotqxyqarzt.com^
 ||ytvracu.com^
 ||zvpuoitt.ovh^
 ||zyerwgu.ovh^

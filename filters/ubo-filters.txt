@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: lqxuyqP8xJn4CgqniA2oUQ
+! Checksum: 9e70+9J/eiB/9BQKOjejpg
 ! Title: Lanik's uBO Filter List
 ! Last modified: 6 Feb 2019 15:40 UTC-7
 ! Expires: 1 day (update frequency)
@@ -298,8 +298,8 @@ wpengine.com###site_notice_container
 wpengine.com##.promo-bars
 wpengine.com##.sucuriscan-visible.sucuriscan-sidebar
 www.amazon.com###cbcc_banner
-www.amazon.com###nav-upnav
 www.amazon.com###hero-quick-promo
+www.amazon.com###nav-upnav
 www.amazon.com###universal-detail-ilm
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
