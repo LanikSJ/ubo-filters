@@ -31,7 +31,7 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 [VolumeData Domains Filter Lists](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/volumedata-domains.txt&title=VolumeData%20Domains%20Filter%20List)  
 
 ## FAQ
-Q: Do you support any other adblockers such as AdGuard etc?
+Q: Do you support any other adblockers such as AdGuard etc?  
 A: Only AdBlock / AdBlock Plus / uBlock Origin are supported at this time.
 
 ## Attributions
