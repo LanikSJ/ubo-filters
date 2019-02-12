@@ -1,0 +1,16 @@
+.git
+.github/*
+.DS_Store
+.gitignore
+README.md
+LICENSE
+Dockerfile
+env.*
+docs/*
+/devops/*
+azure-pipelines.yml
+.travis.yml
+
+# To prevent storing dev/temporary container data
+*.csv
+/tmp/*
