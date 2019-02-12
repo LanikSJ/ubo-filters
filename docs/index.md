@@ -14,7 +14,7 @@ I got tired of loosing my filters when I switched machines so I created this rep
 Usage
 ============
 
-If you'd like to use any of the filter lists in this repo add the bellow links to AdBlock / AdBlock Plus / uBlock Origin:  
+If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / uBlock Origin:  
 
 [AdBack Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/adback-domains.txt&title=AdBack%20Domains%20Filter%20List)  
 [AdKeeper Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/adkeeper-domains.txt&title=AdKeeper%20Domains%20Filter%20List)  

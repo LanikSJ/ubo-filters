@@ -7,7 +7,7 @@ I got tired of loosing my filters when I switched machines so I created this rep
 ## Usage
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/41a29f1821f5499ea4672618546deffe)](https://app.codacy.com/app/LanikSJ/ubo-filters?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade_Settings)[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)  
 
-If you'd like to use any of the filter lists in this repo add the bellow links to AdBlock / AdBlock Plus / uBlock Origin:  
+If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / uBlock Origin:  
 
 [AdBack Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/adback-domains.txt&title=AdBack%20Domains%20Filter%20List)  
 [AdKeeper Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/adkeeper-domains.txt&title=AdKeeper%20Domains%20Filter%20List)  
