@@ -1,24 +1,23 @@
 addons:
   apt:
     packages:
-      - binutils-dev
-      - libcurl4-openssl-dev
-      - libdw-dev
-      - libiberty-dev
-      - python3
-      - python3-pip
-      - perl
-
+    - binutils-dev
+    - libcurl4-openssl-dev
+    - libdw-dev
+    - libiberty-dev
+    - python3
+    - python3-pip
+    - perl
 language: bash
-
 env:
   global:
-    - CODECOV_TOKEN=b34cb362-a7be-4119-9700-6a220fde583e
-    - PATH=${PATH}:${HOME}/kcov/bin
-
+   secure: SQT/NUVWzi8ozs5Cy+iFoY1eoOwEReoFHd2ZKtSR83gIz5nU7CCB26PfqUUt0O32aUGuUQt6lXU7rkRnL+xooKRJeieAy5ImkGbNywwPtEvVfqwaiTckRfkvCwZDZF7r+Z3abfXFgsoiVpvdqTXqDO8r8/OdusDLj+2sLg434GUHImi0dqOYaWoPsw4L/Z0uEx+a/Ni+gTKdnrMMb5aBpb/LP3YWQqGEaxnTqxfigKUsuZZrICpIdwiCH7AsIRzUJaIKB8haOdvbaTMrimSM+Rl9l0sTMZFv8fjTY/kVXin6hlyhfnwMY2mZsMSh2FZcvA34bah6eOpdNS6+3aTVf5T7iNZKhMBuJxBEu2gU7Lo3LhvuY8axymOFQuS2EnaQCmJlEJLm4nlj6LCZn/Rqqtw6C7M22eDMu7Wml0lrhf2+eTap6ajEB8pkpYsSGBp1sMt8oX5g8JdTxo7YW6MZmTLCu1jAgrxaxmNA1F6JDPQvAMA5ItaMlpeX+ZjzZSnsPGOQBRpe8nm1Uovw95zrF9j4S7l659g55KFA4nZ9tputACKI/emiUpNA0iQ+ciyWom5ddL/v0Fu1eDrnmVnLoDOw7FgW8bNI68ybq0jK+MUFA0Sej42r1mNOV5No2RWFN+SflfSjEN9wBGoBiI1nZxIH49zJ71cvqhKuTUuzKsI=
+   CODECOV_TOKEN:
+     b34cb362-a7be-4119-9700-6a220fde583e
+   PATH:
+     ${PATH}:${HOME}/kcov/bin
 before_install:
 - wget https://github.com/SimonKagstrom/kcov/archive/master.tar.gz
-
 install:
 - tar xzf master.tar.gz
 - cd kcov-master
@@ -30,9 +29,8 @@ install:
 - cd ../..
 - rm -rf kcov-master
 - mkdir -p coverage
-
 script:
 - kcov coverage checksum-sort.sh filters/ubo-filters.txt
-
 after_success:
 - bash <(curl -s https://codecov.io/bash)
+- .travis/push.sh
