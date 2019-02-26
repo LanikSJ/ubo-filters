@@ -1,0 +1,15 @@
+[Adblock Plus 2.0]
+! Checksum: N4jiACWYg/Bri5e/JcG4MA
+! Title: Combined Ad Domains Filter List
+! Last modified: 10 Feb 2019 13:25 UTC-7
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+!
+! Description: A combined list of all the Ad Domains.
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
