@@ -7,8 +7,9 @@ setup_git() {
 
 combine_filters() {
   cd filters
-  files=ls -alh |grep -Ev "drwx|total" |awk '{print $NF}' |grep -i -Ev "readme|ubo"
-  for i in $files; do cat $i |grep -i -Ev "\!|adblock" >> combined-filters.txt ; done
+  files=ls -alh |grep -Ev "drwx|total" |awk '{print $NF}' |grep -i -Ev "combined|readme|ubo"
+  for i in $files; do cat $i |grep -i -Ev "\!|adblock" |sed -r '/^\s*$/d' >> combined-filters.txt ; done
+  cd .. && /checksum-sort.sh filters/combined-filters.txt
 }
 
 commit_website_files() {

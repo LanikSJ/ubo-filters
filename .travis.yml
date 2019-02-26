@@ -11,11 +11,8 @@ addons:
 language: bash
 env:
   global:
-   secure: SQT/NUVWzi8ozs5Cy+iFoY1eoOwEReoFHd2ZKtSR83gIz5nU7CCB26PfqUUt0O32aUGuUQt6lXU7rkRnL+xooKRJeieAy5ImkGbNywwPtEvVfqwaiTckRfkvCwZDZF7r+Z3abfXFgsoiVpvdqTXqDO8r8/OdusDLj+2sLg434GUHImi0dqOYaWoPsw4L/Z0uEx+a/Ni+gTKdnrMMb5aBpb/LP3YWQqGEaxnTqxfigKUsuZZrICpIdwiCH7AsIRzUJaIKB8haOdvbaTMrimSM+Rl9l0sTMZFv8fjTY/kVXin6hlyhfnwMY2mZsMSh2FZcvA34bah6eOpdNS6+3aTVf5T7iNZKhMBuJxBEu2gU7Lo3LhvuY8axymOFQuS2EnaQCmJlEJLm4nlj6LCZn/Rqqtw6C7M22eDMu7Wml0lrhf2+eTap6ajEB8pkpYsSGBp1sMt8oX5g8JdTxo7YW6MZmTLCu1jAgrxaxmNA1F6JDPQvAMA5ItaMlpeX+ZjzZSnsPGOQBRpe8nm1Uovw95zrF9j4S7l659g55KFA4nZ9tputACKI/emiUpNA0iQ+ciyWom5ddL/v0Fu1eDrnmVnLoDOw7FgW8bNI68ybq0jK+MUFA0Sej42r1mNOV5No2RWFN+SflfSjEN9wBGoBiI1nZxIH49zJ71cvqhKuTUuzKsI=
-   CODECOV_TOKEN:
-     b34cb362-a7be-4119-9700-6a220fde583e
-   PATH:
-     ${PATH}:${HOME}/kcov/bin
+    CODECOV_TOKEN: b34cb362-a7be-4119-9700-6a220fde583e
+    PATH: "${PATH}:${HOME}/kcov/bin"
 before_install:
 - wget https://github.com/SimonKagstrom/kcov/archive/master.tar.gz
 install:
@@ -33,4 +30,6 @@ script:
 - kcov coverage checksum-sort.sh filters/ubo-filters.txt
 after_success:
 - bash <(curl -s https://codecov.io/bash)
-- .travis/push.sh
+- ".travis/push.sh"
+dd:
+  secure: DeGIjgwtN4/iE1IG8gt0N/dMWPOLPaXnqXfcuzCQlOyn/nWc5RxTPn9g9uHtWQoBiyjbCsrG5OrW0O8JEIM2N4ARnJeaM4jDQyIykkDDOWm9CMRLFTGkCsaXf99uMotx9+QugZ1EU2AL36oxWOtr3Z1lw/NQHMryvW7ZSynpvYaIcbmiXnydSQe2vsNCTUjLL2SIkNejZu0Z3Pp5zRu0Xr/aTYmxQPUsLJfBcd0ihkhhBHSBO3J7AyjBb+Afg86XkIVm6/Ym6olZZJB66ONDAGClySgXE/FO1nrT0A0f7nS2u/4MACxiA5VlVcXTQjIWbBu3q4qt7ntG5eFFgLZR0f8wXooOvnznKpecg4ta2H8OI3JR0zlztW59wTdf0Wm4h6ACV0zRX4k+f6yM0YjIue1a3CV/dOaWnz+PMFXjbq3XT2v96HHYkHq3NBUoH7jEjTXUjJJUaHtN/cqk4l596v4RcH1kIJNwo0MIp3aDp/jcXblh8vZuJU5hkGwgRVusAp9nBL8gCO6pjPrNKhNflXM8/HOOrscBphWK0r2fUQ7g2yi/RhXKL+h+tB505l6Uzpez+ayn9/O+fA73Xe3CJ61cVpTYy5UTmDh2kpvu0nMOYI+06zfczCN7EhuN6RQyKDAr0WIqbZNIam74ybaGV/CrJRxr0cBS6qWCjkPjXLQ=
