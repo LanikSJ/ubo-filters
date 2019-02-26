@@ -29,7 +29,6 @@ install:
 - mkdir -p coverage
 script:
 - kcov coverage checksum-sort.sh filters/ubo-filters.txt
-- kcov coverage .travis/push.sh
 after_success:
 - bash <(curl -s https://codecov.io/bash)
 - source .travis/push.sh
