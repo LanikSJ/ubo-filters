@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 6R2YpeUcoNIcjS0X0aL7+g
+! Checksum: X6qXTUJHLmD1uCqMBCQ02A
 ! Title: Lanik's uBO Filter List
-! Last modified: 9 Mar 2019 11:42 UTC-7
+! Last modified: 17 Mar 2019 11:03 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -103,7 +103,6 @@ frugaltravelguy.com##.desktop_only.aside
 geekwire.com###sponsored-footer
 git-scm.com###banner
 git-tower.com##div[id*="fn-popup"]
-github.com##.js-notice
 gizmodo.com##.leftrailmodule--popular
 gizmodo.com##.mezzanine
 gizmodo.com##div[class*="ad-top-banner"]
@@ -159,6 +158,7 @@ macupdate.com##.one.nfmlsa-box
 macupdate.com##.right-col-promo-apps.row
 macupdate.com##.simapps-title.nfmllb-title
 macupdate.com##.two.nfmlsa-box
+mail.protonmail.com###pm_latest
 mail.yahoo.com##.Z_f8a.p_a
 mercurynews.com###informInView
 merriam-webster.com###recirc-bar-footer
@@ -300,6 +300,7 @@ wpengine.com##.sucuriscan-visible.sucuriscan-sidebar
 www.amazon.com###cbcc_banner
 www.amazon.com###hero-quick-promo
 www.amazon.com###nav-upnav
+www.amazon.com###recommendations
 www.amazon.com###universal-detail-ilm
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
