@@ -1,11 +1,14 @@
 # uBlock Origin Filters
-[![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=master)](https://travis-ci.com/LanikSJ/ubo-filters)[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=LanikSJ/ubo-filters)](https://dependabot.com)[![Known Vulnerabilities](https://snyk.io/test/github/LanikSJ/ubo-filters/badge.svg?targetFile=/docs/Gemfile.lock)](https://snyk.io/test/github/LanikSJ/ubo-filters)
+[![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=master)](https://travis-ci.com/LanikSJ/ubo-filters)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=LanikSJ/ubo-filters)](https://dependabot.com)
+[![Known Vulnerabilities](https://snyk.io/test/github/LanikSJ/ubo-filters/badge.svg?targetFile=/docs/Gemfile.lock)](https://snyk.io/test/github/LanikSJ/ubo-filters?targetFile=/docs/Gemfile.lock)
 
 ## Purpose
 I got tired of loosing my filters when I switched machines so I created this repo.  
 
 ## Usage
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41a29f1821f5499ea4672618546deffe)](https://app.codacy.com/app/LanikSJ/ubo-filters?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade_Settings)[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)  
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41a29f1821f5499ea4672618546deffe)](https://app.codacy.com/app/LanikSJ/ubo-filters?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade_Settings)
+[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)  
 
 If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / uBlock Origin:  
 
@@ -37,10 +40,10 @@ A: Only AdBlock / AdBlock Plus / uBlock Origin are supported at this time.
 
 ## Attributions
 Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)  
-All rights reserved by the original authors.
+©️ All rights reserved by the original authors.
 
 ## Bugs
 Please report any bugs or issues you find. Thanks!
 
 ## License
-[![GPLv3 license](https://img.shields.io/github/license/LanikSJ/ubo-filters.svg?color=brightgreen)](http://perso.crans.org/besson/LICENSE.html)
+[![GPLv3 License](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
