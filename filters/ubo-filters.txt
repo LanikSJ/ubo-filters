@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Q1CP04dpPpd5XP8PtRcPDw
+! Checksum: Am51qwoc3gPKjElXU4wqqQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 8 Apr 2019 10:10 UTC-7
+! Last modified: 18 May 2019 12:02 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -31,7 +31,7 @@
 9to5mac.com##div[class*=st5]
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
 @@||connect/assets/js/analytics.js$script,domain=dockercon18.smarteventscloud.com
-@@||googleadservices.com/gpt/pubads*$domain=realtor.com
+@@||googleadservices.com/gpt/pubads^$domain=realtor.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
 @@||palemoon.org/*ads.js
 accuweather.com###header-davek
@@ -125,7 +125,6 @@ informer.com##.with_label
 inoreader.com###consent_bbb
 inoreader.com###sinner_container
 jalopnik.com##.twitter-tweet
-javascript:"<html><body style='background:transparent'></body></html>"$domain=beta.speedtest.net
 jfrog.com###header-precursor
 jfrog.com###web_top_banner
 jqplay.org##.page-wrap > .footer
@@ -318,7 +317,7 @@ zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
 ||blogspot.com^$image,domain=yourownlinux.com
-||g00.cnet.com/g00/*$media,xmlhttprequest,other,domain=cnet.com
+||g00.cnet.com/g00/^$media,xmlhttprequest,other,domain=cnet.com
 ||images-amazon.com/images/^DiscoveryInnovation/Shopbop/$image
 ||images.videolan.org/images/partners/$image
 ||img.bestcdnever.ru/banner/
