@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Am51qwoc3gPKjElXU4wqqQ
+! Checksum: 7g6bt3b+4kuHL1uCSW3zfg
 ! Title: Lanik's uBO Filter List
-! Last modified: 18 May 2019 12:02 UTC-7
+! Last modified: 24 May 2019 18:53 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -176,6 +176,7 @@ money.cnn.com###smartassetcontainer
 money.cnn.com##.module-header
 move.greenhouse.io###mobile-app-promo-footer
 mozilla.org###brand-popup
+mxtoolbox.com###supertool_ad_variation
 my.ooma.com###banner_container
 my.paddle.com###suggestedScroll
 mysms.com###cookie
@@ -261,6 +262,14 @@ techtarget.com###guide-navigation
 techtarget.com###refinery
 techtarget.com##.join-discussion-wrapper
 techtarget.com##.pro-features-wrapper
+tecmint.com###exam_announcement
+tecmint.com###tips
+tecmint.com##.add-box
+tecmint.com##.after-post-box
+tecmint.com##.sharrre-container
+tecmint.com##.sidebar-content
+tecmint.com##[href*="-book/"]
+tecmint.com##[href*="deals.tecmint.com"]
 theguardian.com##.contributions__epic
 thehackernews.com###firebox
 thehackernews.com###HTML6
@@ -271,6 +280,7 @@ timeanddate.com###ad300
 tomato.groov.pl###sidebar-over-blog
 tutsplus.com##div[class*="tether"]
 uberpeople.com##.hiddenResponsiveNarrow
+united.com###dothemath
 ups.com###ups-alertsWrap
 ups.com##.ups-banner_container
 urbandictionary.com##.mug-ad
