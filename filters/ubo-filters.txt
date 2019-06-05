@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: WK5r96SYnjRAG9QVarrRIQ
+! Checksum: 4f8iC1r4BeeQ7ijNSmBOhw
 ! Title: Lanik's uBO Filter List
-! Last modified: 3 June 2019 18:47 UTC-7
+! Last modified: 5 June 2019 15:11 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -128,6 +128,8 @@ jalopnik.com##.twitter-tweet
 jfrog.com###header-precursor
 jfrog.com###web_top_banner
 jqplay.org##.page-wrap > .footer
+kickstarter.com###break-kickstarter-banner
+kickstarter.com##.break-ksr-container
 krebsonsecurity.com##.widget_sp_image
 krebsonsecurity.com##[src*="akamai"]
 latimes.com##.trb_bnn
@@ -336,6 +338,7 @@ zdnet.com##.content-bottom-leaderboard
 ||iplocation.net/assets/images/banners/$image
 ||jasonsavard.com/images/promos/$image
 ||jenkins-infra.github.io/patron/$subdocument
+||kickstarter.com/assets/modules/break-kickstarter-banner.
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
 ||rainbow.coop/wp-content/uploads/^banner
 ||restaurants.infcdn.net/img/$image
