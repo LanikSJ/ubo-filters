@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Z6bnCl5e3IF9HybCG4tCuA
+! Checksum: QVGRwonhUZc6/XQBib3EbQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 16 June 2019 10:15 UTC-7
+! Last modified: 2 July 2019 10:35 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -194,6 +194,8 @@ nytimes.com##.story-info
 onlyinyourstate.com##.fb_iframe_widget.fb-page
 onlyinyourstate.com##.social
 onlyinyourstate.com##.social-sharebar
+osxdaily.com##.post > div:nth-of-type(3)
+osxdaily.com##[href*="amazon.com"]
 palemoon.org###socialbar
 palemoon.org##.sidebar > div
 pastebin.com###abrpm
