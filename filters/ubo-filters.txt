@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 3u7zzafzrAdycjTUuFYLFw
+! Checksum: pFahMVyV5/HVEQuXSwT6BA
 ! Title: Lanik's uBO Filter List
-! Last modified: 5 July 2019 8:45 UTC-7
+! Last modified: 8 Aug 2019 15:45 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -316,6 +316,7 @@ wpengine.com###site_notice_container
 wpengine.com##.promo-bars
 wpengine.com##.sucuriscan-visible.sucuriscan-sidebar
 www.amazon.com###cbcc_banner
+www.amazon.com###detail-ilm_div
 www.amazon.com###hero-quick-promo
 www.amazon.com###nav-upnav
 www.amazon.com###recommendations
