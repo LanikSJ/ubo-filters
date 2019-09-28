@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: F9gs3Bz7Zt6uqrc4jGtr5A
+! Checksum: /gmO9rqIFXB0i84TZdgyFw
 ! Title: Lanik's uBO Filter List
-! Last modified: 22 Sep 2019 17:01 UTC-7
+! Last modified: 27 Sep 2019 17:00 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -352,6 +352,7 @@ zdnet.com##.content-bottom-leaderboard
 ||jasonsavard.com/images/promos/$image
 ||jenkins-infra.github.io/patron/$subdocument
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
+||media-amazon.com/images/^AmazonCash/PromoImages/$image
 ||media-amazon.com/images/^PromoImages$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
 ||rainbow.coop/wp-content/uploads/^banner
