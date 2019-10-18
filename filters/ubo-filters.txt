@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: B37ooCBtHwqXRyEppa2eiQ
+! Checksum: MXKAUgSsw1rRrnFfzMceeg
 ! Title: Lanik's uBO Filter List
-! Last modified: 28 Sep 2019 12:13 UTC-7
+! Last modified: 18 Oct 2019 10:17 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -345,7 +345,6 @@ zdnet.com##.content-bottom-leaderboard
 ||blogspot.com^$image,domain=yourownlinux.com
 ||g00.cnet.com/g00/^$media,xmlhttprequest,other,domain=cnet.com
 ||images-amazon.com/images/^DiscoveryInnovation/Shopbop/$image
-||images-na.ssl-images-amazon.com/images/*PromoImages/$image
 ||images.videolan.org/images/partners/$image
 ||img.bestcdnever.ru/banner/
 ||imgsynergy.com/product_creatives/$image
@@ -354,11 +353,13 @@ zdnet.com##.content-bottom-leaderboard
 ||jasonsavard.com/images/promos/$image
 ||jenkins-infra.github.io/patron/$subdocument
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
+||media-amazon.com/images/*Pets$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
 ||rainbow.coop/wp-content/uploads/^banner
 ||restaurants.infcdn.net/img/$image
 ||sans.org/banners/$subdocument
 ||ssl-images-amazon.com/*/ads/
+||ssl-images-amazon.com/images/*PromoImages/$image
 ||widgets.tree.com/widget/$subdocument,third-party
 ||wiki.jenkins.io/plugins/macrobrowser/browse-macros.action$xmlhttprequest
 ||yelpcdn.com/assets/*/promotions/$image
