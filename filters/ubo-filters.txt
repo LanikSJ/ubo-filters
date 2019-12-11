@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: dS6Kb061GuaeXXjPlmnnOw
+! Checksum: VFORa/3cv4WJYvRZ0M4joA
 ! Title: Lanik's uBO Filter List
-! Last modified: 6 Dec 2019 15:17 UTC-7
+! Last modified: 11 Dec 2019 02:07 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -99,6 +99,7 @@ electrek.co##div[class*="thd"]
 electricbikereview.com##.ar-notices.container
 en.wikipedia.org###siteNotice
 expedia.com###join-rewards-banner
+fakespot.com##.brads-deal
 fedex.com##img[src*="/images/targeted/"]
 fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
@@ -328,12 +329,7 @@ wired.com##.cm-failsafesx
 wired.com##.inset-left-component--article.inset-left-component
 wired.com##.siderail-rad.js-post-listing-rad.load-failure
 wireshark.org###enhancement
-wpengine.com###gal-tableright
-wpengine.com###promo-bar-cta
-wpengine.com###site_notice
-wpengine.com###site_notice_container
-wpengine.com##.promo-bars
-wpengine.com##.sucuriscan-visible.sucuriscan-sidebar
+wpdatatables.com###snppopup-exit
 www.amazon.com###cbcc_banner
 www.amazon.com###detail-ilm_div
 www.amazon.com###hero-quick-promo
