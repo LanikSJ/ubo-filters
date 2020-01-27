@@ -46,7 +46,7 @@ Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy
 Please report any bugs or issues you find. Thanks!
 
 ## License
-[![GPLv3 License](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://en.wikipedia.org/wiki/MIT_License)
 
 ## Donate
 [![Patreon](https://img.shields.io/badge/patreon-donate-red.svg)](https://www.patreon.com/laniksj/overview)
