@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: FsUxjUyik5p7UCr3u0+5Kg
+! Checksum: CgnJZHCKUJD9aqT4X/aEAQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 13 Jan 2019 13:35 UTC-8
+! Last modified: 27 Jan 2019 16:15 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -100,6 +100,7 @@ electricbikereview.com##.ar-notices.container
 en.wikipedia.org###siteNotice
 expedia.com###join-rewards-banner
 fakespot.com##.brads-deal
+fastcompany.com##.siderail-video-module
 fedex.com##img[src*="/images/targeted/"]
 fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
