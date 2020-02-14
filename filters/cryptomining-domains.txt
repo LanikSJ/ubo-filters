@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: kz3WyDghSYo2LgnU8RwXKg
+! Checksum: eeJby26yr1vBn+Jq223bnw
 ! Title: Crypto Mining Domains Filter List
-! Last modified: 25 Jan 2019 10:33 UTC-7
+! Last modified: 14 Feb 2020 11:50 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -219,7 +219,7 @@
 ||giml.ml^$third-party
 ||gitgrub.pro^$third-party
 ||github.io^$third-party,websocket,domain=~github.com|~tumblr.com
-||github.io^$third-party,xmlhttprequest,domain=~facebook.com|~github.com|~github.io|~tumblr.com|~wottactic.com
+||github.io^$third-party,xmlhttprequest,domain=~facebook.com|~github.com|~github.io|~starma.sh|~steamroller.tk|~tumblr.com|~wottactic.com
 ||github.io^*?proxy=ws:$third-party
 ||googleanalytcs.com^$third-party
 ||goredirect.party^$third-party

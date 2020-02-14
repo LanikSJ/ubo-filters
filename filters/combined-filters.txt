@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 5nk3f+X9RWw7XscHrVJP9Q
+! Checksum: AB76PFy13K/2gmA6giLrzA
 ! Title: Ad Domains Filter List
-! Last modified: 22 Jun 2019 7:30 UTC-7
+! Last modified: 14 Feb 2020 11:50 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -2846,7 +2846,7 @@
 ||girrjaqgjb.com^
 ||gitgrub.pro^$third-party
 ||github.io^$third-party,websocket,domain=~github.com|~tumblr.com
-||github.io^$third-party,xmlhttprequest,domain=~facebook.com|~github.com|~github.io|~tumblr.com|~wottactic.com
+||github.io^$third-party,xmlhttprequest,domain=~facebook.com|~github.com|~github.io|~starma.sh|~steamroller.tk|~tumblr.com|~wottactic.com
 ||github.io^*?proxy=ws:$third-party
 ||giuliana-rancic-pregnant.appspot.com^
 ||givirsou.net^
