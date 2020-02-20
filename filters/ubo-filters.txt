@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: P1aLQDaxc6+m6/c5cMz0sQ
+! Checksum: B3CokQqz85MHKdQE21Pn+A
 ! Title: Lanik's uBO Filter List
-! Last modified: 7 Feb 2019 09:15 UTC-8
+! Last modified: 20 Feb 2019 14:00 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -204,6 +204,7 @@ nordstrom.com##.footer-story-tile
 notepad-plus-plus.org##.cc_banner-wrapper
 nytimes.com###newsletter-promo
 nytimes.com##.collection-menu
+nytimes.com##.css-xv1bll
 nytimes.com##.ribbon-menu
 nytimes.com##.story-info
 onlyinyourstate.com##.fb_iframe_widget.fb-page
