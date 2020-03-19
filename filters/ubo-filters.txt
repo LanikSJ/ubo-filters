@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Vg0HN/Ifm8iFCLF33JB3Cg
+! Checksum: zm3mvHtbdpGlQX9lNo7OWA
 ! Title: Lanik's uBO Filter List
-! Last modified: 5 Mar 2019 11:00 UTC-8
+! Last modified: 19 Mar 2019 11:40 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -119,6 +119,7 @@ foxitsoftware.com###share
 frugaltravelguy.com###advps_container3
 frugaltravelguy.com###vlado
 frugaltravelguy.com##.desktop_only.aside
+g2a.com##.mp-receive-right
 gapfactory.com##.edfs_cart_bnr
 gapfactory.com##.slick-initialized.shoppingBag-carousel
 geekwire.com###sponsored-footer
@@ -144,6 +145,7 @@ informaction.com##.badges
 informer.com##.with_label
 inoreader.com###consent_bbb
 inoreader.com###sinner_container
+jackbox.tv###banners-region
 jalopnik.com##.twitter-tweet
 jfrog.com###header-precursor
 jfrog.com###web_top_banner
@@ -306,6 +308,8 @@ tecmint.com##.sidebar-content
 tecmint.com##[href*="-book/"]
 tecmint.com##[href*="deals.tecmint.com"]
 theguardian.com##.contributions__epic
+theguardian.com##.hide-until-mobile.new-header__cta-bar
+theguardian.com##.js-aside-slot-container
 thehackernews.com###firebox
 thehackernews.com###HTML6
 thehackernews.com##.social-buttons
@@ -364,6 +368,7 @@ zdnet.com##.content-bottom-leaderboard
 ||blogspot.com^$image,domain=yourownlinux.com
 ||g00.cnet.com/g00/^$media,xmlhttprequest,other,domain=cnet.com
 ||images-amazon.com/images/^DiscoveryInnovation/Shopbop/$image
+||images-na.ssl-images-amazon.com/images/^*the_shop_by_shopbop$image
 ||images.videolan.org/images/partners/$image
 ||img.bestcdnever.ru/banner/
 ||imgsynergy.com/product_creatives/$image
