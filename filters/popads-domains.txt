@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: FX5HAFqyw0+24FI+9bjGEg
+! Checksum: ae1w+cMa8wYsP7MhjPEnHg
 ! Title: PopAds Domains Filter List
-! Last modified: 10 Feb 2019 13:25 UTC-7
+! Last modified: 23 Mar 2020 16:48 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
-! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+! License: https://opensource.org/licenses/MIT
 !
 ! Description: A list of blocked PopAds Domains.
 !

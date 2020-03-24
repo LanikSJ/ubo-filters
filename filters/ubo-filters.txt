@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: zm3mvHtbdpGlQX9lNo7OWA
+! Checksum: Y99SxD58D9Mrcsen3iCIrg
 ! Title: Lanik's uBO Filter List
-! Last modified: 19 Mar 2019 11:40 UTC-8
+! Last modified: 23 Mar 2020 16:48 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
-! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+! License: https://opensource.org/licenses/MIT
 !
 ! Description: This is just my List of sites I frequently visit.
 !
@@ -342,7 +342,11 @@ whois.com##img[src^="/images/ssmg/"]
 wikimedia.org###siteNotice
 wikipedia.org###frb-inline
 wikipedia.org###n-sitesupport
+wired.com##.blockquote-embed--has-top-border.blockquote-embed
+wired.com##.callout--content-type--article.callout--content-type--content-card-embed.callout--has-top-border.callout--inset-left.callout
+wired.com##.callout--related-list.callout--inset-left.callout
 wired.com##.cm-failsafesx
+wired.com##.iframe-embed--with-options.iframe-embed--left.iframe-embed
 wired.com##.inset-left-component--article.inset-left-component
 wired.com##.siderail-rad.js-post-listing-rad.load-failure
 wireshark.org###enhancement

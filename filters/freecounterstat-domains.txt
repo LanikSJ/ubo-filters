@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: JeJ9WhnjkdSoRHrLNQblKg
+! Checksum: cN3VN2u2W0nWx8m4ipF7lg
 ! Title: FreeCounterStat AdServers Domains List
-! Last modified: 25 Jan 2019 10:33 UTC-7
+! Last modified: 23 Mar 2020 16:48 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
-! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+! License: https://opensource.org/licenses/MIT
 !
 ! Description: A list of blocked FreeCounterStat Domains.
 !

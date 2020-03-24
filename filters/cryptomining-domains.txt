@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: eeJby26yr1vBn+Jq223bnw
+! Checksum: Nnz5jICd7MOSdFaI4z3j9A
 ! Title: Crypto Mining Domains Filter List
-! Last modified: 14 Feb 2020 11:50 UTC-8
+! Last modified: 23 Mar 2020 16:48 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
-! License: https://www.gnu.org/licenses/gpl-3.0.en.html
+! License: https://opensource.org/licenses/MIT
 !
 ! Description: A list of blocked Crypto Mining Domains.
 !
