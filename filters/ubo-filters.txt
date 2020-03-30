@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Y99SxD58D9Mrcsen3iCIrg
+! Checksum: BdK1IGDazztEU0Wq9G7rzQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 23 Mar 2020 16:48 UTC-7
+! Last modified: 29 Mar 2020 17:36 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -387,6 +387,7 @@ zdnet.com##.content-bottom-leaderboard
 ||restaurants.infcdn.net/img/$image
 ||sans.org/banners/$subdocument
 ||ssl-images-amazon.com/*/ads/
+||ssl-images-amazon.com/images/*DiscoveryInnovation/Shopbop/$image
 ||ssl-images-amazon.com/images/*PromoImages/$image
 ||widgets.tree.com/widget/$subdocument,third-party
 ||wiki.jenkins.io/plugins/macrobrowser/browse-macros.action$xmlhttprequest
