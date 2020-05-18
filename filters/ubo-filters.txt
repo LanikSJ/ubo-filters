@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: wrOxfeSt6noGFoVyRGxWFQ
+! Checksum: +hj64YAKhgSf+M8QV4TnVw
 ! Title: Lanik's uBO Filter List
-! Last modified: 8 May 2020 16:25 UTC-7
+! Last modified: 18 May 2020 12:51 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -283,6 +283,8 @@ stackoverflow.com##.js-dismissable-hero._fixed.hero-container.s-hero
 stackoverflow.com##.survey-announcement.hero-box
 synchronycredit.com###CMSBricksID
 syntevo.com##.cookie
+sythe.org###btngnbns
+sythe.org##center
 target.com###dvm_gpt-home_page-home_siteskin_1
 target.com###dvm_gpt-item_page-item_siteskin_1
 techblog.realtor.com###itsec_get_backup
