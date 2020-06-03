@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: +hj64YAKhgSf+M8QV4TnVw
+! Checksum: 4vLZ+QGjPSQGwLJHRCBKKg
 ! Title: Lanik's uBO Filter List
-! Last modified: 18 May 2020 12:51 UTC-7
+! Last modified: 03 Jun 2020 10:32 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -169,6 +169,9 @@ linuxize.com##.block.affiliate
 linuxquestions.org##.vertical-medium.stackcommerce-widget
 livingsocial.com###ls-in-app-messages
 lmgtfy.com##.active.ng-scope.popover.sticker-popover
+lookup.robokiller.com###ctaPopup
+lookup.robokiller.com###ctaPopupContainer
+lookup.robokiller.com##.robokiller-callout-details
 macupdate.com###app-collections-box
 macupdate.com###bundle-stickyscroll
 macupdate.com###carousel
@@ -221,6 +224,7 @@ nytimes.com##.story-info
 onlyinyourstate.com##.fb_iframe_widget.fb-page
 onlyinyourstate.com##.social
 onlyinyourstate.com##.social-sharebar
+osxdaily.com###subscribe_box
 osxdaily.com##.post > div:nth-of-type(3)
 osxdaily.com##[href*="amazon.com"]
 palemoon.org###socialbar
