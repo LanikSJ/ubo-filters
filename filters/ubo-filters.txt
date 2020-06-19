@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: tc/1iOi44p0jhH+X1o11LA
+! Checksum: wBuQzIYGwxpTfXhVVvBjDg
 ! Title: Lanik's uBO Filter List
-! Last modified: 10 Jun 2020 12:30 UTC-7
+! Last modified: 18 Jun 2020 22:10 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -369,6 +369,7 @@ www.amazon.com###universal-detail-ilm
 www.amazon.com###universal-hero-quick-promo
 www.amazon.com##.featureHeading.threepsl-title
 www.amazon.com##.threepsl-footer
+www.i-dont-care-about-cookies.eu###sidebar
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
 yahoo.com###yucs-top-ff-promo
