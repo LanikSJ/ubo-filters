@@ -1,13 +1,27 @@
 # uBlock Origin Filters
+
 [![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=master)](https://travis-ci.com/LanikSJ/ubo-filters)
 [![Known Vulnerabilities](https://snyk.io/test/github/LanikSJ/ubo-filters/badge.svg?targetFile=/docs/Gemfile.lock)](https://snyk.io/test/github/LanikSJ/ubo-filters?targetFile=/docs/Gemfile.lock)
 
+-   [Purpose](#purpose)
+-   [Usage](#usage)
+-   [Lists](#lists)
+-   [FAQ](#faq)
+-   [Attributions](#attributions)
+-   [Bugs](#bugs)
+-   [License](#license)
+-   [Donate](#donate)
+
 ## Purpose
+
 I got tired of loosing my filters when I switched machines so I created this repo.  
 
 ## Usage
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/41a29f1821f5499ea4672618546deffe)](https://app.codacy.com/app/LanikSJ/ubo-filters?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade_Settings)
 [![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)  
+
+## Lists
 
 If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / uBlock Origin:  
 
@@ -35,18 +49,23 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 [VolumeData Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/volumedata-domains.txt&title=VolumeData%20Domains%20Filter%20List)  
 
 ## FAQ
+
 Q: Do you support any other adblockers such as AdGuard etc?  
 A: Only AdBlock / AdBlock Plus / uBlock Origin are supported at this time.
 
 ## Attributions
+
 Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)  
 ©️ All rights reserved by the original authors.
 
 ## Bugs
+
 Please report any bugs or issues you find. Thanks!
 
 ## License
+
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://en.wikipedia.org/wiki/MIT_License)
 
 ## Donate
+
 [![Patreon](https://img.shields.io/badge/patreon-donate-red.svg)](https://www.patreon.com/laniksj/overview)
