@@ -1,7 +1,6 @@
 # uBlock Origin Filters
 
 [![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=master)](https://travis-ci.com/LanikSJ/ubo-filters)
-[![Known Vulnerabilities](https://snyk.io/test/github/LanikSJ/ubo-filters/badge.svg?targetFile=/docs/Gemfile.lock)](https://snyk.io/test/github/LanikSJ/ubo-filters?targetFile=/docs/Gemfile.lock)
 
 -   [Purpose](#purpose)
 -   [Usage](#usage)
