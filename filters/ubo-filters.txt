@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: mTDS4hwJNCdq4dY3W+E/0Q
+! Checksum: QwU5ApGZfU/OdpFA/ZdZjQ
 ! Title: Lanik's uBO Filter List
-! Last modified: 27 Jul 2020 17:00 UTC-7
+! Last modified: 27 Jul 2020 17:05 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -103,6 +103,7 @@ dslreports.com##.fb-share-button
 eater.com###newsletter-signup-short-form
 eater.com###rock-
 edgecast.com###ctl00_pnlPromotionTeaserContainer
+eftm.com##.wp-post-image.size-full.attachment-full
 electrek.co##div[class*="thd"]
 electricbikereview.com##.ar-notices.container
 en.wikipedia.org###siteNotice
