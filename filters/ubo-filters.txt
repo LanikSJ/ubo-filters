@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: FYIWBe3oWbw9nRwwjbaFdg
+! Checksum: 2fI3VQ4TeWp2dJBTZM9vvg
 ! Title: Lanik's uBO Filter List
-! Last modified: 01 Aug 2020 16:55 UTC-7
+! Last modified: 01 Aug 2020 17:00 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -118,6 +118,7 @@ fivethirtyeight.com##.sidebar-feature-espn
 forbes.com##fbs-video
 fortune.com##.rendered.sticky-video.auto-play
 fortune.com##.video-inner-container
+forum.xda-developers.com##[src*="FDJ-TBO-Banner"]
 forum.xda-developers.com##iframe[src*="youtube.com"]
 forums.att.com##div[class*="promo-tile"]
 foxitsoftware.com###share
