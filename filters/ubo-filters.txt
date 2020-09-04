@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: G98pZK4gSdPkmlMGB9dYIg
+! Checksum: aAzmFkmEnkKtjuyQ3ehtxw
 ! Title: Lanik's uBO Filter List
-! Last modified: 28 Aug 2020 18:00 UTC-7
+! Last modified: 4 Sep 2020 12:20 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -156,7 +156,9 @@ informer.com##.with_label
 inoreader.com###consent_bbb
 inoreader.com###sinner_container
 jackbox.tv###banners-region
+jalopnik.com###newsletterPromoModule
 jalopnik.com##.twitter-tweet
+jalopnik.com##[href="https://www.theroot.com/s/enough"]
 jfrog.com###header-precursor
 jfrog.com###web_top_banner
 jqplay.org##.page-wrap > .footer
