@@ -17,8 +17,8 @@ I got tired of loosing my filters when I switched machines so I created this rep
 
 ## Usage
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41a29f1821f5499ea4672618546deffe)](https://app.codacy.com/app/LanikSJ/ubo-filters?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade_Settings)
-[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)  
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d1e7dafc7fc453e90475489a538909b)](https://www.codacy.com/manual/Lanik/ubo-filters?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LanikSJ/ubo-filters&amp;utm_campaign=Badge_Grade)
+[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)
 
 ## Lists
 
