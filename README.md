@@ -1,6 +1,6 @@
 # uBlock Origin Filters
 
-[![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=master)](https://travis-ci.com/LanikSJ/ubo-filters)
+[![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=main)](https://travis-ci.com/LanikSJ/ubo-filters)
 
 -   [Purpose](#purpose)
 -   [Usage](#usage)
@@ -18,34 +18,34 @@ I got tired of loosing my filters when I switched machines so I created this rep
 ## Usage
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d1e7dafc7fc453e90475489a538909b)](https://www.codacy.com/manual/Lanik/ubo-filters?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LanikSJ/ubo-filters&amp;utm_campaign=Badge_Grade)
-[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/master/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)
+[![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/main/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)
 
 ## Lists
 
 If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / uBlock Origin:  
 
-[AdBack Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/adback-domains.txt&title=AdBack%20Domains%20Filter%20List)  
-[AdKeeper Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/adkeeper-domains.txt&title=AdKeeper%20Domains%20Filter%20List)  
-[AdMaven Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/admaven-domains.txt&title=AdMaven%20Domains%20Filter%20List)  
-[AdMeasures Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/admeasures-domains.txt&title=AdMeasures%20Domains%20Filter%20List)  
-[BT Contentza Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/bt-contentza-domains.txt&title=BT%20Contentza%20Domains%20Filter%20List)  
-[CDN Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/cdn-filter-list.txt&title=CDN%20Domains%20Filter%20List)  
-[Combined Ad Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/combined-filters.txt&title=Combined%20Ad%20Domains%20Filter%20List)  
-[Cryptomining Domains Filter Lists](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/cryptomining-domains.txt&title=Cryptomining%20Domains%20Filter%20List)  
-[Free Counter Stat Domains Filter Lists](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/freecounterstat-domains.txt&title=Free%20Counter%20Stat%20Domains%20Filter%20List)  
-[GetAdmiral Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/getadmiral-domains.txt&title=GetAdmiral%20Domains%20Filter%20List)  
-[Hilltop Ads Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/hilltopads-domains.txt&title=Hilltop%Ads%20Domains%20Filter%20List)  
-[Immortal Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/immortal-domains.txt&title=Immortal%20Domains%20Filter%20List)  
-[iStripper Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/istripper-domains.txt&title=iStripper%20Domains%20Filter%20List)  
-[Kitty Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/kitty-domains.txt&title=Kitty%20Domains%20Filter%20List)  
-[MacUpload Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/macupload-domains.txt&title=MacUpload%20Domains%20Filter%20List)  
+[AdBack Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adback-domains.txt&title=AdBack%20Domains%20Filter%20List)  
+[AdKeeper Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adkeeper-domains.txt&title=AdKeeper%20Domains%20Filter%20List)  
+[AdMaven Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admaven-domains.txt&title=AdMaven%20Domains%20Filter%20List)  
+[AdMeasures Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admeasures-domains.txt&title=AdMeasures%20Domains%20Filter%20List)  
+[BT Contentza Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/bt-contentza-domains.txt&title=BT%20Contentza%20Domains%20Filter%20List)  
+[CDN Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/cdn-filter-list.txt&title=CDN%20Domains%20Filter%20List)  
+[Combined Ad Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt&title=Combined%20Ad%20Domains%20Filter%20List)  
+[Cryptomining Domains Filter Lists](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/cryptomining-domains.txt&title=Cryptomining%20Domains%20Filter%20List)  
+[Free Counter Stat Domains Filter Lists](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/freecounterstat-domains.txt&title=Free%20Counter%20Stat%20Domains%20Filter%20List)  
+[GetAdmiral Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt&title=GetAdmiral%20Domains%20Filter%20List)  
+[Hilltop Ads Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/hilltopads-domains.txt&title=Hilltop%Ads%20Domains%20Filter%20List)  
+[Immortal Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/immortal-domains.txt&title=Immortal%20Domains%20Filter%20List)  
+[iStripper Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/istripper-domains.txt&title=iStripper%20Domains%20Filter%20List)  
+[Kitty Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/kitty-domains.txt&title=Kitty%20Domains%20Filter%20List)  
+[MacUpload Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/macupload-domains.txt&title=MacUpload%20Domains%20Filter%20List)  
 [Malwaredomains (long-lived)](https://subscribe.adblockplus.org/?location=https://mirror1.malwaredomains.com/files/immortal_domains.txt&title=Malwaredomains%20Filter%20List)  
-[PopAds Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/popads-domains.txt&title=PopAds%20Domains%20Filter%20List)  
-[PropellerAds Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/propellerads-domains.txt&title=PropellerAds%20Domains%20Filter%20List)  
-[TOR Advertising Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/toradvertising-domains.txt&title=TOR%20Advertising%20Domains%20Filter%20List)  
-[Unknown Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/unknown-domains.txt&title=Unknown%20Domains%20Filter%20List)  
-[VideoAdex Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/videoadex-domains.txt&title=VideoAdex%20Domains%20Filter%20List)  
-[VolumeData Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/volumedata-domains.txt&title=VolumeData%20Domains%20Filter%20List)  
+[PopAds Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/popads-domains.txt&title=PopAds%20Domains%20Filter%20List)  
+[PropellerAds Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/propellerads-domains.txt&title=PropellerAds%20Domains%20Filter%20List)  
+[TOR Advertising Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/toradvertising-domains.txt&title=TOR%20Advertising%20Domains%20Filter%20List)  
+[Unknown Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/unknown-domains.txt&title=Unknown%20Domains%20Filter%20List)  
+[VideoAdex Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/videoadex-domains.txt&title=VideoAdex%20Domains%20Filter%20List)  
+[VolumeData Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/volumedata-domains.txt&title=VolumeData%20Domains%20Filter%20List)  
 
 ## FAQ
 
