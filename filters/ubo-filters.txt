@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: q2A3UEFg2ZXljDTpXtc2DQ
+! Checksum: SGqn7a200H/rhz0Awdmybg
 ! Title: Lanik's uBO Filter List
-! Last modified: 14 Sep 2020 12:20 UTC-7
+! Last modified: 22 Sep 2020 18:05 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -60,6 +60,9 @@ bedbathandbeyond.com##div[class*="Region"]
 bedbathandbeyond.narvar.com##.desktop-marketing-asset
 bhphotovideo.com###promoConsole
 blog.aboutamazon.com##.PromoImage-media
+blog.prepscholar.com###free-sat-tips
+blog.prepscholar.com##.advertisement-widget
+blog.prepscholar.com##.promobox
 bmc.com###FreeTrialBMCHelixITSM
 boastr.net##.pea_cook_bottomright.pea_cook_wrapper
 buydig.com###socialLinks
@@ -136,6 +139,7 @@ geeksforgeeks.org###secondary
 geekwire.com###sponsored-footer
 git-scm.com###banner
 git-tower.com##div[id*="fn-popup"]
+github.com##.js-vote-banner
 github.com,reddit.com,twitter.com##.action-brave-tip
 gizmodo.com##.leftrailmodule--popular
 gizmodo.com##.mezzanine
@@ -240,6 +244,7 @@ onlyinyourstate.com##.social-sharebar
 osxdaily.com###subscribe_box
 osxdaily.com##.post > div:nth-of-type(3)
 osxdaily.com##[href*="amazon.com"]
+outlook.live.com##.ms-CommandBar
 palemoon.org###socialbar
 palemoon.org##.sidebar > div
 pastebin.com###abrpm
