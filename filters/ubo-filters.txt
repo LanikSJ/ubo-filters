@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: /oT438WntfTq8lg6sWl8CA
+! Checksum: 2RfXgGW9W9PJ9BFUKIrl5Q
 ! Title: Lanik's uBO Filter List
-! Last modified: 4 Dec 2020 13:45 UTC-8
+! Last modified: 18 Dec 2020 13:22 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -59,6 +59,7 @@ bedbathandbeyond.com##.marketingBanner
 bedbathandbeyond.com##div[class*="Region"]
 bedbathandbeyond.narvar.com##.desktop-marketing-asset
 bhphotovideo.com###promoConsole
+bizjournals.com##.breadcrumbs
 blog.aboutamazon.com##.PromoImage-media
 blog.prepscholar.com###free-sat-tips
 blog.prepscholar.com##.advertisement-widget
@@ -122,6 +123,8 @@ fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
 fivethirtyeight.com##.sidebar-feature-espn
 fmovie.sc##.alert-warning.alert
+footwearnews.com##.jw-reset.jw-wrapper
+footwearnews.com##.pmc-contextual-player
 forbes.com##fbs-video
 fortune.com##.rendered.sticky-video.auto-play
 fortune.com##.video-inner-container
@@ -239,6 +242,7 @@ nytimes.com##.collection-menu
 nytimes.com##.css-xv1bll
 nytimes.com##.ribbon-menu
 nytimes.com##.story-info
+omahasteaks.com##.os_adblocker_banner
 onlyinyourstate.com##.fb_iframe_widget.fb-page
 onlyinyourstate.com##.social
 onlyinyourstate.com##.social-sharebar
@@ -282,6 +286,7 @@ slickdeals.net###rightRailAds
 slickdeals.net###sideColumn
 slickdeals.net##.ab
 slickdeals.net##.announcementBar
+slickdeals.net##.extensionStorePromo
 slickdeals.net##.giveaway.grid.fpGridBox
 slickdeals.net##.heroCarouselWrapper
 slickdeals.net##div[class*="sideGridBox"]
