@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 2RfXgGW9W9PJ9BFUKIrl5Q
+! Checksum: NN2YhdaH6rnnQ6MYh7bAwA
 ! Title: Lanik's uBO Filter List
-! Last modified: 18 Dec 2020 13:22 UTC-8
+! Last modified: 26 Feb 2021 11:28 UTC-8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -158,6 +158,7 @@ groupon.com###in-app-messages
 groupon.com###subscribe-banner
 groupon.com##.footer-widgets.ls-col
 gsmarena.com###subHeader
+hellocodeclub.com##.ctct-popup-form
 imgur.com##.cta-content-container
 immuniweb.com##.result-block-tip
 imore.com##.mn_mbn_share
@@ -211,6 +212,8 @@ macupdate.com##.one.nfmlsa-box
 macupdate.com##.right-col-promo-apps.row
 macupdate.com##.simapps-title.nfmllb-title
 macupdate.com##.two.nfmlsa-box
+macworld.co.uk##.promotedDeal
+macworld.co.uk##[src^="https://www.macworld.co.uk/cmsdata/"]
 mail.protonmail.com###pm_latest
 medium.com##.js-meterBanner
 mercurynews.com###informInView
@@ -270,6 +273,8 @@ scmagazine.com##.article-ad-slot
 secure.newegg.com###amexBanner
 secure.newegg.com##img[src*="banner_synchrony.jpg"]
 secure.nordstrom.com##div[class*="nui-tile"]
+setapp.com##.js-side-scrolling-banner
+setapp.com##.promo-banner__wrapper
 sfgate.com###sharebar
 sfgate.com###vembaSticky
 sfgate.com##.promo
