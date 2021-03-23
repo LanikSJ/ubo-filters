@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: SwV8F4X5Rh+qe3eyWaK/EA
+! Checksum: RxFgKcqBLp0S2Uacu5P90A
 ! Title: Lanik's uBO Filter List
-! Last modified: 10 Mar 2021 13:50 UTC-8
+! Last modified: 23 Mar 2021 11:51 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -110,6 +110,7 @@ dslreports.com##.fa-twitter-square.fa
 dslreports.com##.fb-share-button
 eater.com###newsletter-signup-short-form
 eater.com###rock-
+eatsweetnothings.com###coopcommerce
 edgecast.com###ctl00_pnlPromotionTeaserContainer
 eftm.com##.wp-post-image.size-full.attachment-full
 electrek.co##div[class*="thd"]
@@ -183,6 +184,7 @@ lg.com##.pc.new-quick-menu
 lifehacker.com##.recent-video
 lifehacker.com##.sharingfooter__wrapper
 linkedin.com##.ad-banner
+linkedin.com##.scaffold-layout__ad
 linksysinfo.org##.notice_notice_cookies.DismissParent.Notice.panel
 linksysinfo.org##.Notices.PanelScroller
 linuxacademy.com##.leadin-preview-wrapper
@@ -275,6 +277,7 @@ scmagazine.com##.article-ad-slot
 secure.newegg.com###amexBanner
 secure.newegg.com##img[src*="banner_synchrony.jpg"]
 secure.nordstrom.com##div[class*="nui-tile"]
+serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.js-freemium-cta
 setapp.com##.js-side-scrolling-banner
 setapp.com##.promo-banner__wrapper
 sfgate.com###sharebar
