@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: RxFgKcqBLp0S2Uacu5P90A
+! Checksum: YRE98H9ooR/ygCnM5Wcmxg
 ! Title: Lanik's uBO Filter List
-! Last modified: 23 Mar 2021 11:51 UTC-7
+! Last modified: 26 Mar 2021 16:05 UTC-7
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -362,8 +362,14 @@ theonion.com##.pinned.ad-block-alt.newsletter-signup
 theonion.com##.rail-player
 timeanddate.com###ad300
 tomato.groov.pl###sidebar-over-blog
+tomsguide.com###affiliateDisclaimer
+tomsguide.com##.full.container.trending-bar
+tomsguide.com##.future__jwplayer--carousel
 tomsguide.com##.jw-reset.jw-video
 tomsguide.com##.jw-reset.jw-wrapper
+tomsguide.com##.popular-box
+tomsguide.com##.read-more-container
+tomsguide.com##.related-articles-block
 tomsguide.com##.sticky-player-background
 tutsplus.com##div[class*="tether"]
 uberpeople.com##.hiddenResponsiveNarrow
