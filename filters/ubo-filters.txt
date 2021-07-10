@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: JdhSHpkQ/5LetrXlRNk2dA
+! Checksum: Ttu7e1HrpQIEh9gZ2Lp4JQ
 ! Title: Lanik's uBO Filter List
-! Version: 2021060401
+! Version: 2021070901
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -47,8 +47,11 @@ arstechnica.com###ars-sub-app-no-banners-no-tracking-animated
 arstechnica.com###teads-container
 arstechnica.com##.inline-playlist
 arstechnica.com##.right.story-sidebar.sidebar.pullbox
+autoblog.com###autoblog-daily-digest
 autoblog.com###global-share-left.rsb-wrapper.fade.affix-top
+autoblog.com###openWebSpotlight
 autoblog.com###right_rail-zergnet
+autoblog.com##.blocker.jquery-modal
 autoblog.com##.grv-related
 autoblog.com##.related-products-portlet
 autoblog.com##.right_rail-follow_us.module
@@ -199,6 +202,7 @@ lmgtfy.com##.active.ng-scope.popover.sticker-popover
 lookup.robokiller.com###ctaPopup
 lookup.robokiller.com###ctaPopupContainer
 lookup.robokiller.com##.robokiller-callout-details
+luckyvitamin.com##.shipping-form-box
 macupdate.com###app-collections-box
 macupdate.com###bundle-stickyscroll
 macupdate.com###carousel
@@ -426,6 +430,7 @@ www.amazon.com##.maple-banner
 www.amazon.com##.rec-bottom-with-padding
 www.amazon.com##.threepsl-footer
 www.i-dont-care-about-cookies.eu###sidebar
+xamarinhowto.com##.custom-html-widget
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
 yahoo.com###yucs-top-ff-promo
