@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: 8+xz4Ege2traeb8UZ+09eQ
 ! Title: PropellerAds Domains Filter List
-! Last modified: 23 Mar 2020 16:48 UTC-7
+! Last modified: 2020032301
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
