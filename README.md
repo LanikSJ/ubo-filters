@@ -40,7 +40,7 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 [Kitty Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/kitty-domains.txt&title=Kitty%20Domains%20Filter%20List)  
 [Lanik uBO Filters List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt&title=Lanik%20uBO%20Filter%20List)  
 [MacUpload Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/macupload-domains.txt&title=MacUpload%20Domains%20Filter%20List)  
-[Malware Domains (Long Lived)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/malware_domains.txt&title=Malware%20Domains%20Filter%20List)  
+[Malware Domains (Long Lived)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/malware-domains.txt&title=Malware%20Domains%20Filter%20List)  
 [PopAds Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/popads-domains.txt&title=PopAds%20Domains%20Filter%20List)  
 [PropellerAds Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/propellerads-domains.txt&title=PropellerAds%20Domains%20Filter%20List)  
 [TOR Advertising Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/toradvertising-domains.txt&title=TOR%20Advertising%20Domains%20Filter%20List)  
