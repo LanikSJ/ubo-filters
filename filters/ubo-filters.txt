@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: b9YT3OOmR9oF25t0/xKBZw
+! Checksum: 4Y3HI9Q3L7f9kRXQrZ4heg
 ! Title: Lanik's uBO Filter List
-! Version: 2021081401
+! Version: 2021081402
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -451,7 +451,6 @@ zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
 ||blogspot.com^$image,domain=yourownlinux.com
-||c.socialannex.com/c-sale-track/*$script,domain=vitacost.com
 ||g00.cnet.com/g00/^$media,xmlhttprequest,other,domain=cnet.com
 ||images-amazon.com/images/^DiscoveryInnovation/Shopbop/$image
 ||images-na.ssl-images-amazon.com/images/^*the_shop_by_shopbop$image
@@ -467,7 +466,6 @@ zdnet.com##.content-bottom-leaderboard
 ||media-amazon.com/images/*Pets$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
 ||rainbow.coop/wp-content/uploads/^banner
-||resellerratings.com/popup/*$script,domain=vitacost.com
 ||restaurants.infcdn.net/img/$image
 ||sans.org/banners/$subdocument
 ||ssl-images-amazon.com/*/ads/
