@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 4Y3HI9Q3L7f9kRXQrZ4heg
+! Checksum: /ZTxt1OW2lNL2wFUKj77vw
 ! Title: Lanik's uBO Filter List
-! Version: 2021081402
+! Version: 2021090601
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -25,6 +25,9 @@
 123movies.*##.onp-sl-outer-wrap
 123movieshub.*##.text-center.alert.ann-home
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
+9to5mac.com##.amp-wp-7023da7
+9to5mac.com##.amp-wp-iframe-placeholder
+9to5mac.com##.fluid-width-video-wrapper
 9to5mac.com##.leaderboard
 9to5mac.com##.ninetofive-dronedj.feed-title-bar
 9to5mac.com##aside.trending-wrapper:nth-of-type(1)
@@ -92,6 +95,7 @@ community.spiceworks.com###tagged-listing-box
 community.spiceworks.com##.join-footer.sui-opt-in
 concursolutions.com##.notification-inline.notification-widget
 console.aws.amazon.com#@#.cookies
+costcoauto.com###research-moibanner
 cultofmac.com##.adblock-notification-wrapper
 cultofmac.com##.custom-html-widget.textwidget
 cultofmac.com##.modal-dialog
@@ -255,6 +259,7 @@ mysms.com###cookie
 nakedsecurity.sophos.com##.newsletter-panel
 newegg.com##img[src*="promotions.newegg.com"]
 news.theregistrysf.com##.gofollow
+nextdoor.com##.css-s890sm
 nordstrom.com##.footer-story-tile
 notepad-plus-plus.org##.cc_banner-wrapper
 nytimes.com###newsletter-promo
@@ -279,8 +284,10 @@ paygonline.com###deviceProtectionDesktopBanner
 pcworld.com###sharer
 phpbb.com##.forumatic-panel
 phpbb.com##.mini-panel
+pierceytoyota.com##.ad-flipper-image-container
 prideradio.iheart.com##.component-pushdown
 pypi.org##.notification-bar
+quay.io##.quay-message-bar
 railsapps.github.io##.columns.medium-6
 rd.com##.jw-media
 rd.com##.jw-video
@@ -435,6 +442,7 @@ www.amazon.com###universal-hero-quick-promo
 www.amazon.com##.featureHeading.threepsl-title
 www.amazon.com##.maple-banner
 www.amazon.com##.rec-bottom-with-padding
+www.amazon.com##.recsWidgetContainer
 www.amazon.com##.threepsl-footer
 www.i-dont-care-about-cookies.eu###sidebar
 xamarinhowto.com##.custom-html-widget
