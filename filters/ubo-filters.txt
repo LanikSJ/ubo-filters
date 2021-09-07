@@ -13,7 +13,6 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-
 ###phpbb-ads-ab
 ##.taboola-module
 ##a[href*="dataqualityapps.com"]
@@ -313,7 +312,7 @@ sfgate.com##.zoneInlineA.asset_zone
 sfgate.com##header
 sfgate.com#@#.header-ad
 sfnissan.com##img[src*="timdealers.autotrader.com"]
-shared/images/$image,domain=nmap.org|seclists.org|sectools.org|insecure.org
+shared/images/$image,domain=insecure.org|nmap.org|seclists.org|sectools.org
 signin.aws.amazon.com###marketingimagelink
 slashdot.org###announcement
 slickdeals.net###logoarea
@@ -459,7 +458,7 @@ zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
 ||blogspot.com^$image,domain=yourownlinux.com
-||g00.cnet.com/g00/^$media,xmlhttprequest,other,domain=cnet.com
+||g00.cnet.com/g00/^$media,other,xmlhttprequest,domain=cnet.com
 ||images-amazon.com/images/^DiscoveryInnovation/Shopbop/$image
 ||images-na.ssl-images-amazon.com/images/^*the_shop_by_shopbop$image
 ||images.videolan.org/images/partners/$image

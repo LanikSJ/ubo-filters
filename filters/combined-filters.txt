@@ -13,7 +13,6 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-
 /cdn-cgi/pe/bag2?*%2Fad_slideout.
 /cdn-cgi/pe/bag2?*%2Fads1.
 /cdn-cgi/pe/bag2?*%2Fads2.
@@ -464,7 +463,6 @@
 ||abo-arish.net^
 ||aboardamusement.com^
 ||aboardlevel.com^
-||abodealley.com^
 ||abodealley.com^
 ||aboriginalboats.com^
 ||abourself.com^
