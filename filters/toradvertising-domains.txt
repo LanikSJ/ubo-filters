@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: p3hLYhH1ayFs1oQ2wVJE6Q
+! Checksum: YbNJGh13KjmsZcB7dKfD5w
 ! Title: TorAdvertising Domains Filter List
-! Last modified: 2020032301
+! Last modified: 2021090901
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -13,14 +13,4 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-||asadismn.xyz^
-||asjdfasas.xyz^
-||iisksudks.xyz^
 ||ip-51-255-80.eu^
-||lklasoo.xyz^
-||loasdfn.xyz^
-||oaasdfafff.xyz^
-||oijwemss.xyz^
-||vasoelv.xyz^
-||wpognfds.xyz^
-||zrefmeee.xyz^

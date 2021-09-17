@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: J9YTxyeA5t/pzXgZy18REg
+! Checksum: 2OINw4xSZjzrqiA+XEYb5A
 ! Title: AdBack Domains Filter List
-! Last modified: 2020032301
+! Last modified: 2021090901
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -14,98 +14,3 @@
 ! this list, you are accepting these terms and the license.
 !
 ||attleboroarchcape.com^
-||avingtonkinoulton.com^
-||babblenorah.com^
-||bascomdeary.com^
-||baskettellsinore.com^
-||bayfieldharleysville.com^
-||baysidethorntown.com^
-||bellevillelickingville.com^
-||bonnymansabanaseca.com^
-||cedarlaneblackshear.com^
-||chaumontbalko.com^
-||cleelumyards.com^
-||colerainefaunsdale.com^
-||daisettagreybull.com^
-||delcomeyersdale.com^
-||depauvillepinson.com^
-||dunsmuirdeferiet.com^
-||eckelsonmoro.com^
-||eldersvillewarrenville.com^
-||elizabethtonunionhall.com^
-||ellisvillehillsboro.com^
-||emeighglenellen.com^
-||enolatekoa.com^
-||etoileironton.com^
-||folkstonelizabethtown.com^
-||franksvillereddick.com^
-||freelandvillalba.com^
-||gabrielsmidfield.com^
-||glenviewexcello.com^
-||glorietapedricktown.com^
-||goldendalepremont.com^
-||hagarstowndilworth.com^
-||hazelcrestcoxsackie.com^
-||heatonnikolski.com^
-||hibbingnakina.com^
-||hobsonlucinda.com^
-||hollandaleresaca.com^
-||horshamoronoco.com^
-||hosmermurdock.com^
-||hosted.adback.co^
-||hurlinesswhitchurch.com^
-||janesvillelykens.com^
-||johnsburgclarksville.com^
-||keaaudarrington.com^
-||langtrydelaplaine.com^
-||laqueyimmaculata.com^
-||lenoramanning.com^
-||lothairhansboro.com^
-||lynbrookoriska.com^
-||malakoffrockholds.com^
-||maloupperville.com^
-||mayaguezyerington.com^
-||mayodanorem.com^
-||medonohley.com^
-||menomonierolette.com^
-||miquonearlham.com^
-||mokaneroxton.com^
-||moshervillethawville.com^
-||mulvaneruston.com^
-||murrietaullin.com^
-||narkadarfur.com^
-||oakfordshiro.com^
-||onawaykeeline.com^
-||oswegocanastota.com^
-||owensborowaltonville.com^
-||owlsheadcoalwood.com^
-||parmelecumbola.com^
-||pembinecastana.com^
-||pennvillemuscoda.com^
-||peterboroughapalachicola.com^
-||pinckardpyote.com^
-||renovosartell.com^
-||rhinecliffstarkville.com^
-||rickettsharrell.com^
-||ridgedaletecopa.com^
-||rutheronwenonah.com^
-||sedalianoctor.com^
-||springtownwahiawa.com^
-||stinnettjarratt.com^
-||toomsborogreycliff.com^
-||torringtonguion.com^
-||tougaloocolerain.com^
-||trimontbrewer.com^
-||troutdalebrooks.com^
-||waltersburgburgoon.adback.co^
-||wanchesegarvin.com^
-||watkinsvillesilerton.com^
-||wawinamilmay.com^
-||welakaschleswig.com^
-||werringtonlasborough.com^
-||wetmoremottville.com^
-||whitesboromcbee.com^
-||wilburnkeithsburg.com^
-||wynnewoodmacdoel.com^
-||yaucoplumerville.com^
-||zelienopleprattsville.com^

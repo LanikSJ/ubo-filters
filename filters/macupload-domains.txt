@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: BdUwL6VKVV8iLu9bKNeIeg
+! Checksum: oLwZmjmG9/VJkFgi37b0dQ
 ! Title: MacUpload Domains Filter List
-! Last modified: 2020032301
+! Last modified: 2021090901
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -16,60 +16,29 @@
 ||1bcde.com^
 ||abodealley.com^
 ||abserv123.com^
-||acidityfoamy.com^
-||afgmyvid.com^
 ||amadagasca.com^
 ||anyonemyth.com^
 ||babyboomboomads.com^
-||brinein.com^
-||bristlyapace.com^
 ||broomboxmain.com^
 ||challengedeprave.com^
-||completeexecutor.com^
 ||curriculture.com^
 ||decademical.com^
 ||downloadgot.com^
-||evenexcite.com^
 ||fairnessels.com^
-||fencemiracle.com^
-||forcedolphin.com^
 ||forexplmdb.com^
-||forterradirect.com^
-||g1341551423.com^
-||g2247755016.com^
-||g2281971609.com^
-||g2438896021.com^
 ||g2440001011.com^
-||g2526721279.com^
 ||g2546417787.com^
 ||g2921554487.com^
-||g3369554495.com^
-||g344530742.com^
-||g3938452447.com^
-||glxfls.com^
-||gmyvids.com^
-||helpclause.com^
 ||jackettrain.com^
-||letsdoarbitrage.com^
-||lyoniaancony.com^
 ||mediadisclose.com^
 ||mixturehopeful.com^
-||mobdisc.net^
-||mobdisc.org^
-||mobsoftffree.xyz^
 ||moveadrenaline.com^
-||mutualvehemence.com^
 ||naganoadigei.com^
-||nererut.com^
 ||noblemagnition.com^
-||ortonch.com^
-||pndelfast.com^
-||pnewspages.com^
 ||postback.info^
 ||producebreed.com^
 ||pushmenews.com^
 ||pushmobilenews.com^
-||pyraming.com^
 ||renaissanto.com^
 ||retiremely.com^
 ||ridingintractable.com^
@@ -77,16 +46,11 @@
 ||safelyawake.com^
 ||septembership.com^
 ||smashseek.com^
-||speedlinkdown.com^
 ||sspicy.ru^
 ||strainemergency.com^
 ||strawdense.com^
-||stringroadway.com^
 ||strongexplain.com^
 ||tailorcave.com^
-||textreason.com^
 ||theirsvendor.com^
 ||thismetric.com^
 ||turngrind.com^
-||uncyane.com^
-||zinidge.com^

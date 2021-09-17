@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: /ZTxt1OW2lNL2wFUKj77vw
+! Checksum: NVFFB0XupRh0EDnoRYZszA
 ! Title: Lanik's uBO Filter List
-! Version: 2021090601
+! Version: 2021090901
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -87,7 +87,6 @@ cnet.com###flyoutPromo
 cnet.com###topicPlayerContainer
 cnet.com##.entered.dock.inviewElement
 cnet.com##.featuredVideo
-codeclimate.moveaws.com##.extension-cta
 codeproject.com##img[src^="data:image/png;"]
 coderwall.com##.no-hover.link
 community.spiceworks.com###tagged-listing-box
@@ -248,7 +247,6 @@ money.cnn.com###before-the-bell-newletter-mod
 money.cnn.com###js-TosPrivacy
 money.cnn.com###smartassetcontainer
 money.cnn.com##.module-header
-move.greenhouse.io###mobile-app-promo-footer
 mozilla.org###brand-popup
 mxtoolbox.com###supertool_ad_variation
 my.ooma.com###banner_container

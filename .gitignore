@@ -50,5 +50,9 @@ build-iPhoneSimulator/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 
-# pycharm
+# PyCharm
 .idea
+
+# pyfunceble
+output/
+dir_structure.json

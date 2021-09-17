@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: hCK2t8ZzimMoKxrzvGASaQ
+! Checksum: neiRjReOdpmifsyM37fONw
 ! Title: GetAdmiral Domains Filter List
-! Last modified: 2020100501
+! Last modified: 2021090901
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -31,7 +31,6 @@
 ||84.249.186.35.bc.googleusercontent.com^
 ||abackchain.com^
 ||abandonedaction.com^
-||abashedangle.com^
 ||aboardamusement.com^
 ||aboardlevel.com^
 ||aboriginalboats.com^
@@ -57,7 +56,6 @@
 ||ambitiousagreement.com^
 ||anxiousapples.com^
 ||apathetictheory.com^
-||applesarmy.com^
 ||aquaticowl.com^
 ||ar1nvz5.com^
 ||archswimming.com^
@@ -138,12 +136,10 @@
 ||chinsnakes.com^
 ||chunkycactus.com^
 ||clearcabbage.com^
-||clearcomb.com^
 ||cloisteredhydrant.com^
 ||cloudsdestruction.com^
 ||colorfulafterthought.com^
 ||comfortablecheese.com^
-||commoncannon.com^
 ||commonswing.com^
 ||completecabbage.com^
 ||complextoad.com^
@@ -219,7 +215,6 @@
 ||elderlyscissors.com^
 ||elderlytown.com^
 ||elephantqueue.com^
-||eliminateeffect.com^
 ||encourageidea.com^
 ||encouragingwilderness.com^
 ||endurablecrayon.com^
@@ -228,10 +223,8 @@
 ||enthusiasticdad.com^
 ||enviousthread.com^
 ||erraticreaction.com^
-||errortablet.com^
 ||evanescentedge.com^
 ||exclusivebrass.com^
-||excuseearthquake.com^
 ||experienceeggs.com^
 ||exuberantsoda.com^
 ||facilitategrandfather.com^
@@ -264,7 +257,6 @@
 ||furryhorses.com^
 ||futuristicapparatus.com^
 ||futuristicfairies.com^
-||futuristicfear.com^
 ||futuristicfifth.com^
 ||futuristicfold.com^
 ||fuzzyflavor.com^
@@ -282,7 +274,6 @@
 ||glossysense.com^
 ||gondolagnome.com^
 ||gorgeousground.com^
-||gossipmiser.com^
 ||gracefulsock.com^
 ||grandioseguide.com^
 ||greasegarden.com^
@@ -305,7 +296,6 @@
 ||highfalutinroom.com^
 ||hilariouszinc.com^
 ||historicalrequest.com^
-||hollowshake.com^
 ||homelycrown.com^
 ||honeybulb.com^
 ||honeygoldfish.com^
@@ -331,7 +321,6 @@
 ||internalsink.com^
 ||inventionpassenger.com^
 ||investigatepin.com^
-||inviterabbits.com^
 ||invitesugar.com^
 ||ivykiosk.com^
 ||j93557g.com^
@@ -339,7 +328,6 @@
 ||jamexistence.com^
 ||justicejudo.com^
 ||k54nw.pw^
-||knifeoctopus.com^
 ||knottysticks.com^
 ||lagoonolivia.com^
 ||lamplow.com^
@@ -352,10 +340,8 @@
 ||livelumber.com^
 ||lizardslaugh.com^
 ||longinglettuce.com^
-||loudloss.com^
 ||loudlunch.com^
 ||lp3tdqle.com^
-||lumpyleaf.com^
 ||magnificentmist.com^
 ||maniacalappliance.com^
 ||markedcrayon.com^
@@ -457,7 +443,6 @@
 ||receptivereaction.com^
 ||referdriving.com^
 ||reflectivereward.com^
-||rememberroute.com^
 ||repeatsweater.com^
 ||resolutekey.com^
 ||resonantbrush.com^
@@ -469,9 +454,7 @@
 ||richstring.com^
 ||ringplayground.com^
 ||ringsrecord.com^
-||riserange.com^
 ||ritzykey.com^
-||ritzysponge.com^
 ||robustbelieve.com^
 ||rodeopolice.com^
 ||roofrelation.com^
@@ -494,12 +477,10 @@
 ||scratchsofa.com^
 ||screechingfurniture.com^
 ||scrollservice.com^
-||scrubsky.com^
 ||scrubswim.com^
 ||secretivecub.com^
 ||secretspiders.com^
 ||selectionship.com^
-||selectionsugar.com^
 ||selectivesummer.com^
 ||selfishsea.com^
 ||separatesilver.com^
@@ -516,9 +497,7 @@
 ||silentcredit.com^
 ||silkysquirrel.com^
 ||sillyscrew.com^
-||similarsabine.com^
 ||sincerebuffalo.com^
-||sincerespy.com^
 ||sixscissors.com^
 ||sizesidewalk.com^
 ||slaysweater.com^
@@ -546,7 +525,6 @@
 ||spookyslope.com^
 ||spottednoise.com^
 ||spottedsnow.com^
-||spottysense.com^
 ||springaftermath.com^
 ||spuriousbase.com^
 ||spurioussteam.com^
@@ -568,10 +546,8 @@
 ||storeslope.com^
 ||storesurprise.com^
 ||stormyachiever.com^
-||stormysponge.com^
 ||stoveseashore.com^
 ||straightnest.com^
-||straightschool.com^
 ||stripedburst.com^
 ||strivesidewalk.com^
 ||structurerod.com^
@@ -586,7 +562,6 @@
 ||summerobject.com^
 ||superficialsquare.com^
 ||supervisegoldfish.com^
-||supplysummer.com^
 ||swimslope.com^
 ||swordgoose.com^
 ||symbolizebeast.com^
@@ -671,7 +646,6 @@
 ||workableachiever.com^
 ||workoperation.com^
 ||worriednumber.com^
-||worrybutter.com^
 ||wreckvolcano.com^
 ||wrongpotato.com^
 ||wryfinger.com^
