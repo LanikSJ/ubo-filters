@@ -1,6 +1,6 @@
 # uBlock Origin Filters
 
-[![Build Status](https://travis-ci.com/LanikSJ/ubo-filters.svg?branch=main)](https://travis-ci.com/LanikSJ/ubo-filters)
+[![Actions Status](https://github.com/LanikSJ/ubo-filters/workflows/Lock%20Threads/badge.svg)](https://github.com/LanikSJ/awscli-aliases/actions)
 
 -   [Purpose](#purpose)
 -   [Usage](#usage)
