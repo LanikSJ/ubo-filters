@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: NVFFB0XupRh0EDnoRYZszA
+! Checksum: HjfxRTxbuxqPakHXjG5NAQ
 ! Title: Lanik's uBO Filter List
-! Version: 2021090901
+! Version: 2021102301
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -22,6 +22,7 @@
 123movies.*##.container.clear.notice_areaclear
 123movies.*##.gomo-gtx-br.gomo-gtx
 123movies.*##.onp-sl-outer-wrap
+123moviesfree.net##.ann-home
 123movieshub.*##.text-center.alert.ann-home
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
 9to5mac.com##.amp-wp-7023da7
@@ -43,6 +44,9 @@ account.acronis.com##.content-layout__banner
 accuweather.com###header-davek
 advancedtomato.com###cookieprivacy-bar
 airdroid.com##.item-social-share.item-sidebar-block
+andriodapk.com##.col-md-8 > div:nth-of-type(2)
+andriodapk.com##.post-sidebar-box > div
+andriodapk.com##.text-center.well-lg.well
 appleinsider.com###priceguide
 appleinsider.com###sbr-priceguide
 appleinsider.com###top-promo
@@ -79,6 +83,7 @@ canonscannerdrivers.com##.bok.widget_text
 caranddriver.com##.embed-editorial-links
 caranddriver.com##.top-pathing
 carbonite.com###notice
+care.siriusxm.com##.upsell-container
 cbc.ca##.notice.banner
 citytoyota.com##.footer-incentive
 cnbc.com###social_bar_top_gig_containerParent
@@ -161,6 +166,10 @@ github.com,reddit.com,twitter.com##.action-brave-tip
 gizmodo.com##.leftrailmodule--popular
 gizmodo.com##.mezzanine
 gizmodo.com##div[class*="ad-top-banner"]
+goldenstatenissan.com##.d-block.w-100
+goldenstatenissan.com##.ico-desktop.ico-adaptive
+goldenstatenissan.com##.mx-auto.d-block
+goldenstatenissan.com##.text-center.insta-banner-img
 gostream.is###mgd
 gostream.is##.text-center.alert.ann-home
 grammarly.com##.dropdown-header-extension.dropdown-header
@@ -310,6 +319,8 @@ sfgate.com##.zoneInlineA.asset_zone
 sfgate.com##header
 sfgate.com#@#.header-ad
 sfnissan.com##img[src*="timdealers.autotrader.com"]
+sftoyota.com##.personalized-card_position-center
+sftoyota.com##.widget-image_img
 shared/images/$image,domain=insecure.org|nmap.org|seclists.org|sectools.org
 signin.aws.amazon.com###marketingimagelink
 slashdot.org###announcement
@@ -393,6 +404,7 @@ tomsguide.com##.popular-box
 tomsguide.com##.read-more-container
 tomsguide.com##.related-articles-block
 tomsguide.com##.sticky-player-background
+toyotasunnyvale.com##.kbb-banner
 tracking.getconvey.com##.hero-clickthrough-enabled
 tutsplus.com##div[class*="tether"]
 uberpeople.com##.hiddenResponsiveNarrow
