@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Nm4We3ZOlrewxSrPM6xSfA
+! Checksum: aSVnwWfKJjwhGlGoVXWjeg
 ! Title: Lanik's uBO Filter List
-! Version: 2021112001
+! Version: 2021120501
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -339,6 +339,7 @@ slickdeals.net###sideColumn
 slickdeals.net##.ab
 slickdeals.net##.announcementBar
 slickdeals.net##.extensionStorePromo
+slickdeals.net##.fullWidth.banner.box
 slickdeals.net##.giveaway.grid.fpGridBox
 slickdeals.net##.heroCarouselWrapper
 slickdeals.net##div[class*="sideGridBox"]
@@ -431,11 +432,13 @@ walmart.narvar.com##card-image
 weather.com###wx-top-wrap
 webpagetest.org##.tip
 whatismyreferer.com##a[href*="en.onpage.org"]
+whiteoakpastures.com##.index-section--hidden.shopify-section
 whoer.net##div[class*="pre-plan-box"]
 whois.com##.promo-blurb
 whois.com##.right-box
 whois.com##.whois_rhs_column
 whois.com##img[src^="/images/ssmg/"]
+wholefoodsmarket.com##.w-global-alert
 wikimedia.org###siteNotice
 wikipedia.org###frb-inline
 wikipedia.org###n-sitesupport
@@ -487,7 +490,8 @@ zdnet.com##.content-bottom-leaderboard
 ||jasonsavard.com/images/promos/$image
 ||jenkins-infra.github.io/patron/$subdocument
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
-||m.media-amazon.com/images/*Georgetown/Shoes$image
+||media-amazon.com/images/*/Prime-Rx-Stitch-30-Campaign/$image
+||media-amazon.com/images/*Georgetown/Shoes$image
 ||media-amazon.com/images/*Pets$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
 ||rainbow.coop/wp-content/uploads/^banner
