@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: aSVnwWfKJjwhGlGoVXWjeg
+! Checksum: RU8eu70EMlDBWLVIU2D3ww
 ! Title: Lanik's uBO Filter List
-! Version: 2021120501
+! Version: 2021120503
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -24,7 +24,7 @@
 123movies.*##.onp-sl-outer-wrap
 123moviesfree.net##.ann-home
 123movieshub.*##.text-center.alert.ann-home
-9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
+9to5google.com,9to5mac.com,9to5toys.com,electrek.co##+js(aopr, canRunAds)
 9to5mac.com##.amp-wp-7023da7
 9to5mac.com##.amp-wp-iframe-placeholder
 9to5mac.com##.fluid-width-video-wrapper
