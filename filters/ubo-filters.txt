@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: RU8eu70EMlDBWLVIU2D3ww
+! Checksum: 73Cq3TJt24IL/k21rVhVGA
 ! Title: Lanik's uBO Filter List
 ! Version: 2021120503
 ! Expires: 1 day (update frequency)
@@ -16,6 +16,7 @@
 ###phpbb-ads-ab
 ##.taboola-module
 ##a[href*="dataqualityapps.com"]
+##div[class*="EdgeUpsell"]
 ##div[class*="promotional-content"]
 ##iframe[src*="facebook.com"]
 123movie.*##.notice.alert-default.alert
