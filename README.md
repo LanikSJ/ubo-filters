@@ -1,6 +1,7 @@
 # uBlock Origin Filters
 
-[![Actions Status](https://github.com/LanikSJ/ubo-filters/workflows/Lock%20Threads/badge.svg)](https://github.com/LanikSJ/awscli-aliases/actions)
+[![Fanboy Social](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml)
+[![Lock Threads](https://github.com/LanikSJ/ubo-filters/actions/workflows/lock-threads.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/lock-threads.yml)
 
 -   [Purpose](#purpose)
 -   [Usage](#usage)
@@ -17,7 +18,7 @@ I got tired of loosing my filters when I switched machines so I created this rep
 
 ## Usage
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d1e7dafc7fc453e90475489a538909b)](https://www.codacy.com/manual/Lanik/ubo-filters?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LanikSJ/ubo-filters&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/654e238faf1d4ccba909acc9f30b08b5)](https://www.codacy.com/gh/LanikSJ/ubo-filters/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LanikSJ/ubo-filters&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/main/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)
 
 ## Lists
