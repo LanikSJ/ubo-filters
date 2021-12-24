@@ -1,0 +1,26 @@
+name: Fanboy Social
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  fanboy-social:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Fanboy Social Download
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name ${{ secrets.GH_USER }}
+          git config user.email "${{ secrets.GH_EMAIL }}"
+          git remote add gh-token "https://$GITHUB_TOKEN@github.com/LanikSJ/ubo-filters.git"
+          git fetch gh-token && git fetch gh-token main:main && cd filters
+
+          curl -L https://easylist.to/easylist/fanboy-social.txt |grep -Ev '##|#@' > fanboy-social-no-cosmetic.txt
+
+          git add -A && git commit -m "Auto Update fanboy-social-no-cosmetic.txt" && git push -f gh-token main
