@@ -23,27 +23,27 @@ sub output {
 
 foreach my $filename (@ARGV) {
 
-    my $outfn = "$filename.out";
-    # die "output file $outfn already exists, aborting\n" if -e $outfn;
+    my $outFn = "$filename.out";
+    # die "output file $outFn already exists, aborting\n" if -e $outFn;
     # prereqs okay, set up input, output and sort buffer
     #
     open my $fh, '<', $filename or die "open $filename: $!";
-    open my $fhout, '>', $outfn or die "open $outfn: $!";
+    open my $fhOut, '>', $outFn or die "open $outFn: $!";
 
     # Mark filenames for moving (overwriting..)
     #
-    my $filetobecopied = $outfn;
-    my $newfile = $filename;
+    my $fileToBeCopied = $outFn;
+    my $newFile = $filename;
     # Keep in Binary thus keep in Unix formatted text.
     #
-    binmode($fhout);
+    binmode($fhOut);
     my $current = [];
     # Process data
     # Check "!", "[]" and "#" and ";" (Firefox and Opera)
     #
     while ( <$fh> ) {
         if ( m/^(?:[!\[]|[#|;]\s)/ ) {
-            output $current, $fhout;
+            output $current, $fhOut;
             $current = [ $_ ];
         }
         else {
@@ -52,12 +52,12 @@ foreach my $filename (@ARGV) {
     }
     # Finish Up.
     #
-    output $current, $fhout;
-    close $fhout;
+    output $current, $fhOut;
+    close $fhOut;
     close $fh;
-    # Move backup file.out (sorted) overwrite orginal (non sorted)
+    # Move backup file.out (sorted) overwrite original (non sorted)
     #
-    move($filetobecopied, $newfile);
+    move($fileToBeCopied, $newFile);
 
 }
 
