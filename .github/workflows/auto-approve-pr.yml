@@ -10,7 +10,9 @@ on:
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'LanikSJ' }}
+    if: |
+      ${{ github.actor == 'LanikSJ' }}
+      ${{ github.actor == 'github-actions' }}
     steps:
     - uses: hmarr/auto-approve-action@v2
       with:
