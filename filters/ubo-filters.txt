@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: hs8wFeDmX+YM7TfEXYY0Lw
+! Checksum: c90AHSizB5cN6gxwzZT99w
 ! Title: Lanik's uBO Filter List
-! Version: 2021122400
+! Version: 2021122401
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -478,6 +478,7 @@ yahoo.com###yucs-top-ff-promo
 yelp.com##.full-promo-rounded
 yelp.com##div[class*="promotional-banner"]
 yelp.com#@#.signup-wrapper
+yourownlinux.com##.separator
 youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
 youtube.com##.video-annotations
 youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
@@ -509,5 +510,4 @@ zdnet.com##.content-bottom-leaderboard
 ||widgets.tree.com/widget/$subdocument,third-party
 ||wiki.jenkins.io/plugins/macrobrowser/browse-macros.action$xmlhttprequest
 ||yelpcdn.com/assets/*/promotions/$image
-||yourownlinux.com##.separator
 ||youtube.com/share_ajax?action_get_share_box=1&video_id=$xmlhttprequest
