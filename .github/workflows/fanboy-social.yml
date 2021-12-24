@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  UpdateFanboy:
+  Fanboy No Cosmetic:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -42,5 +42,4 @@ jobs:
           team-reviewers: |
             owners
             maintainers
-          milestone: 1
           draft: false
