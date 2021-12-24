@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: gqSoQmDKwZ3XpeBE3m1ZdA
+! Checksum: hs8wFeDmX+YM7TfEXYY0Lw
 ! Title: Lanik's uBO Filter List
-! Version: 2021121001
+! Version: 2021122400
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -64,6 +64,7 @@ autoblog.com##.blocker.jquery-modal
 autoblog.com##.grv-related
 autoblog.com##.related-products-portlet
 autoblog.com##.right_rail-follow_us.module
+autotempest.truecar.com##div.col-lg-6.col-3.margin-top-1
 aws.training###divAdBlockerMessage
 bedbathandbeyond.com##.ad-blocker
 bedbathandbeyond.com##.componentWrapper
@@ -103,6 +104,7 @@ console.aws.amazon.com#@#.cookies
 copart.com##[href^="/vehicleAlerts/"]
 costco.com###email-popup-title
 costcoauto.com###research-moibanner
+creditkarma.com##.cta-non-offer
 cultofmac.com##.adblock-notification-wrapper
 cultofmac.com##.custom-html-widget.textwidget
 cultofmac.com##.modal-dialog
@@ -197,6 +199,7 @@ informaction.com##.badges
 informer.com##.with_label
 inoreader.com###consent_bbb
 inoreader.com###sinner_container
+instagram.com##.R4HNP
 jackbox.tv###banners-region
 jalopnik.com###newsletterPromoModule
 jalopnik.com##.twitter-tweet
