@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: IJ/OPVT0tWdM49ffkUL7Ug
+! Checksum: vSE/m4MJ9Y03uYGjvGYT4w
 ! Title: Lanik's uBO Filter List
-! Version: 2021122701
+! Version: 2022011200
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -44,6 +44,8 @@ about.gitlab.com##.slpFreeTrialBanner
 account.acronis.com##.content-layout__banner
 accuweather.com###header-davek
 advancedtomato.com###cookieprivacy-bar
+advisera.com##.banner-holder
+advisera.com##.side-banner-link > .lazyloaded.entered
 airdroid.com##.item-social-share.item-sidebar-block
 andriodapk.com##.col-md-8 > div:nth-of-type(2)
 andriodapk.com##.post-sidebar-box > div
@@ -301,6 +303,7 @@ pastebin.com###abrpm
 pastebin.com###paypal-overlay
 paygonline.com###deviceProtectionDesktopBanner
 pcworld.com###sharer
+phpbb.com###page-footer > h3
 phpbb.com##.forumatic-panel
 phpbb.com##.mini-panel
 pierceytoyota.com##.ad-flipper-image-container
@@ -470,6 +473,9 @@ www.amazon.com##.maple-banner
 www.amazon.com##.rec-bottom-with-padding
 www.amazon.com##.recsWidgetContainer
 www.amazon.com##.threepsl-footer
+www.amazon.com##div[class*="adsOverlayClick"]
+www.amazon.com##div[class*="desktopAd"]
+www.amazon.com##div[class*="DesktopFlexBanner"]
 www.i-dont-care-about-cookies.eu###sidebar
 xamarinhowto.com##.custom-html-widget
 xfinity.com##.dark.message:nth-of-type(2)
