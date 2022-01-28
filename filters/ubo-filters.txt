@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vSE/m4MJ9Y03uYGjvGYT4w
+! Checksum: KR3eXFgzWncjHd69eX+rIg
 ! Title: Lanik's uBO Filter List
 ! Version: 2022011200
 ! Expires: 1 day (update frequency)
@@ -163,6 +163,8 @@ forum.xda-developers.com##iframe[src*="youtube.com"]
 forums.att.com##div[class*="promo-tile"]
 foxitsoftware.com###share
 free-scores.com##.rouge
+freshly.com#@#.social-button
+freshly.com#@#.social-nav
 frugaltravelguy.com###advps_container3
 frugaltravelguy.com###vlado
 frugaltravelguy.com##.desktop_only.aside
@@ -483,7 +485,6 @@ xfinity.com##.standard.promopushdown.component
 yahoo.com###yucs-top-ff-promo
 yelp.com##.full-promo-rounded
 yelp.com##div[class*="promotional-banner"]
-yelp.com#@#.signup-wrapper
 yourownlinux.com##.separator
 youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
 youtube.com##.video-annotations
