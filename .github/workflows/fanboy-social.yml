@@ -51,9 +51,8 @@ jobs:
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
           merge-method: squash
 
-      # - name: Auto Approve PR
-      #   if: steps.cpr.outputs.pull-request-operation == 'created'
-      #   uses: peter-evans/approve-pull-request-action@v1
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     number: ${{ steps.cpr.outputs.pull-request-number }}
+      - name: Approve Pull Request
+        uses: juliangruber/approve-pull-request-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          number: 1
