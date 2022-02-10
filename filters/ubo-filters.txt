@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: xKzlW4ZfD0RJJB20e1TjTg
+! Checksum: WAzNaT/uNL6wwo3xYSAqVA
 ! Title: Lanik's uBO Filter List
-! Version: 2022020500
+! Version: 2022021000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -40,6 +40,7 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
 @@||highground.com/lib/fingerprint.min.js$script,domain=app.highground.com
 @@||palemoon.org/*ads.js
+@@||video-api.yql.yahoo.com/v1/video/alias/channels/wf-channel=related-videos$xhr,domain=yahoo.com
 about.gitlab.com##.slpFreeTrialBanner
 account.acronis.com##.content-layout__banner
 accuweather.com###header-davek
@@ -284,6 +285,7 @@ newegg.com##img[src*="promotions.newegg.com"]
 news.theregistrysf.com##.gofollow
 nextdoor.com##.css-s890sm
 nordstrom.com##.footer-story-tile
+nordstrom.com##a[href^="/browse/gifts/valentines-day"]
 notepad-plus-plus.org##.cc_banner-wrapper
 nytimes.com###newsletter-promo
 nytimes.com##.collection-menu
@@ -371,6 +373,7 @@ speedtest.net##.aos-link
 speedtest.net##.btn-aos[href="/partner-with-ookla"]
 speedtest.net##.eot-box-wrapper
 speedtest.net##.high-placeholder
+sports.yahoo.com##div[id*="PromoImage-Proxy"]
 stackoverflow.com###herobox
 stackoverflow.com###hireme
 stackoverflow.com###newsletter-ad
