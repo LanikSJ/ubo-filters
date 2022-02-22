@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: WAzNaT/uNL6wwo3xYSAqVA
+! Checksum: 9kXIVWFR9YUhyCl3qPe6Tg
 ! Title: Lanik's uBO Filter List
-! Version: 2022021000
+! Version: 2022022200
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -230,6 +230,8 @@ linuxacademy.com##.leadin-preview-wrapper
 linuxbabe.com##.home_sidebar
 linuxize.com##.block.affiliate
 linuxquestions.org##.vertical-medium.stackcommerce-widget
+literotica.com##.hideScrollbar.scrollable.w_eB
+literotica.com##.SAAWidget__container
 livingsocial.com###ls-in-app-messages
 lmgtfy.com##.active.ng-scope.popover.sticker-popover
 lookup.robokiller.com###ctaPopup
@@ -285,7 +287,11 @@ newegg.com##img[src*="promotions.newegg.com"]
 news.theregistrysf.com##.gofollow
 nextdoor.com##.css-s890sm
 nordstrom.com##.footer-story-tile
+nordstrom.com##a[href^="/browse/diversity-at-nordstrom"]
 nordstrom.com##a[href^="/browse/gifts/valentines-day"]
+nordstrom.com##a[href^="/browse/pop-in-olivia-kim"]
+nordstrom.com##a[href^="/browse/sale/all"]
+nordstrom.com##a[href^="/creditcard/entry"]
 notepad-plus-plus.org##.cc_banner-wrapper
 nytimes.com###newsletter-promo
 nytimes.com##.collection-menu
