@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: SEzaLOyYM4ofnwS0RvTw3g
+! Checksum: om4r0Gyrz8TeRDG1A2rhkA
 ! Title: Lanik's uBO Filter List
-! Version: 2022031000
+! Version: 2022033100
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -294,6 +294,7 @@ nordstrom.com##a[href^="/browse/pop-in-olivia-kim"]
 nordstrom.com##a[href^="/browse/sale/all"]
 nordstrom.com##a[href^="/creditcard/entry"]
 notepad-plus-plus.org##.cc_banner-wrapper
+nuwber.com###onerep-remove-page
 nytimes.com###newsletter-promo
 nytimes.com##.collection-menu
 nytimes.com##.css-xv1bll
@@ -335,6 +336,7 @@ salary.com##.sa-adunit-display
 sanfrancisco.cbslocal.com###app-promo-wrapper
 savemp3.cc##.audio-recorder
 scmagazine.com##.article-ad-slot
+secure-www.gap.com##.marketing-banner-wrapper
 secure.newegg.com###amexBanner
 secure.newegg.com##img[src*="banner_synchrony.jpg"]
 secure.nordstrom.com##div[class*="nui-tile"]
@@ -389,6 +391,7 @@ stackoverflow.com###newsletter-ad
 stackoverflow.com##.community-bulletin.module
 stackoverflow.com##.js-dismissable-hero._fixed.hero-container.s-hero
 stackoverflow.com##.survey-announcement.hero-box
+support.avast.com##.vertical.support-banner
 synchronycredit.com###CMSBricksID
 syntevo.com##.cookie
 sythe.org###btngnbns
