@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: om4r0Gyrz8TeRDG1A2rhkA
+! Checksum: ssHumCL35/boyOOaT0mT2Q
 ! Title: Lanik's uBO Filter List
-! Version: 2022033100
+! Version: 2022033101
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -495,6 +495,7 @@ www.amazon.com##.threepsl-footer
 www.amazon.com##div[class*="adsOverlayClick"]
 www.amazon.com##div[class*="desktopAd"]
 www.amazon.com##div[class*="DesktopFlexBanner"]
+www.google.com###rhs > block-component
 www.i-dont-care-about-cookies.eu###sidebar
 xamarinhowto.com##.custom-html-widget
 xfinity.com##.dark.message:nth-of-type(2)
