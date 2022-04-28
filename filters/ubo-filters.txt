@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 97f1SfbtHBdgb2e/Qrh5Yw
+! Checksum: nJBJ6jyX2oJKAXbf9+SzYw
 ! Title: Lanik's uBO Filter List
-! Version: 2022040301
+! Version: 2022042701
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -49,6 +49,7 @@ advisera.com##.banner-holder
 advisera.com##.side-banner-link > .lazyloaded.entered
 airdroid.com##.item-social-share.item-sidebar-block
 akc.org##.jw-reset.jw-wrapper
+alaskaair.com###InstantCreditAd
 andriodapk.com##.col-md-8 > div:nth-of-type(2)
 andriodapk.com##.post-sidebar-box > div
 andriodapk.com##.text-center.well-lg.well
@@ -91,7 +92,9 @@ caranddriver.com##.embed-editorial-links
 caranddriver.com##.top-pathing
 carbonite.com###notice
 care.siriusxm.com##.upsell-container
+careers.zoom.us##.header-banner1
 cbc.ca##.notice.banner
+cd.splunkdev.com##.resize-observer
 citytoyota.com##.footer-incentive
 cnbc.com###social_bar_top_gig_containerParent
 cnbc.com##.PageHeader-background.PageHeader-main
@@ -182,6 +185,7 @@ github.com,reddit.com,twitter.com##.action-brave-tip
 gizmodo.com##.leftrailmodule--popular
 gizmodo.com##.mezzanine
 gizmodo.com##div[class*="ad-top-banner"]
+glassdoor.com##.mt-xxl.d-sm-block.d-none
 goldenstatenissan.com##.d-block.w-100
 goldenstatenissan.com##.ico-desktop.ico-adaptive
 goldenstatenissan.com##.mx-auto.d-block
@@ -261,6 +265,7 @@ macupdate.com##.two.nfmlsa-box
 macworld.co.uk##.promotedDeal
 macworld.co.uk##[src^="https://www.macworld.co.uk/cmsdata/"]
 mail.protonmail.com###pm_latest
+matadornetwork.com##.brazen-modal--opened
 medium.com##.js-meterBanner
 mercurynews.com###informInView
 mercurynews.com##.amp-ad-container
