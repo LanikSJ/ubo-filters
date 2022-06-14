@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: nJBJ6jyX2oJKAXbf9+SzYw
+! Checksum: 4yGlvnE4DSdADlWY0Aon1Q
 ! Title: Lanik's uBO Filter List
-! Version: 2022042701
+! Version: 2022061401
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -201,7 +201,9 @@ groupon.com###subscribe-banner
 groupon.com##.footer-widgets.ls-col
 gsmarena.com###subHeader
 hellocodeclub.com##.ctct-popup-form
+hotdeals.com##.newaddads
 hotdeals.com##.sell_right
+hotdeals.com##li.coupert_item_block
 imgur.com##.cta-content-container
 immuniweb.com##.result-block-tip
 imore.com##.mn_mbn_share
