@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: qp6pkfFmB1Knn9AQArJXgg
+! Checksum: MxCJBo/HEkps8v3BU4jN4Q
 ! Title: Lanik's uBO Filter List
-! Version: 2022062401
+! Version: 2022062901
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -176,6 +176,7 @@ freshly.com#@#.social-nav
 frugaltravelguy.com###advps_container3
 frugaltravelguy.com###vlado
 frugaltravelguy.com##.desktop_only.aside
+funkyspacemonkey.com##[href^="https://macpaw.audw.net"]
 g2a.com##.mp-receive-right
 gapfactory.com##.edfs_cart_bnr
 gapfactory.com##.slick-initialized.shoppingBag-carousel
@@ -546,6 +547,9 @@ zdnet.com##.content-bottom-leaderboard
 ||jasonsavard.com/images/promos/$image
 ||jenkins-infra.github.io/patron/$subdocument
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
+||media-amazon.com/images/*/Wedding/*Wedding*.jpg$image
+||media-amazon.com/images/*/gift-certificates/consumer/*/Campaign/*.jpg$image
+||media-amazon.com/images/*/Graduation/*.jpg$image
 ||media-amazon.com/images/*/Prime-Rx-Stitch-30-Campaign/$image
 ||media-amazon.com/images/*Georgetown/Shoes$image
 ||media-amazon.com/images/*Pets$image
