@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202207040326
+! Version: 202207110324
 ! Title: Fanboy's Social Blocking List
-! Last modified: 04 Jul 2022 03:26 UTC
+! Last modified: 11 Jul 2022 03:24 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3032,11 +3032,15 @@ _youtube_social_
 ! 
 ! ---------- French Site Specific Hiding Rules ----------
 ! 
+! 
+! ---------- French Site Specific Blocking Rules ----------
+! 
 ||nioutaik.fr/themes/freshy/images/facedebouc.gif
 ||nioutaik.fr/themes/freshy/images/googlepeuluss.gif
 ||nioutaik.fr/themes/freshy/images/zoiseau.gif
 ||nouvelobs.com/social/
 ||nrj-play.fr/js/social.js
+||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
 ! 
 ! ---------- Arabic Site Specific Hiding Rules ----------
 ! 
