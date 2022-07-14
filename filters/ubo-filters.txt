@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: MxCJBo/HEkps8v3BU4jN4Q
+! Checksum: 4wCQgpggqkj47DLW9QHDUQ
 ! Title: Lanik's uBO Filter List
-! Version: 2022062901
+! Version: 2022071301
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -359,6 +359,7 @@ setapp.com##.promo-banner__wrapper
 sfgate.com###sharebar
 sfgate.com###vembaSticky
 sfgate.com##.promo
+sfgate.com##.slideshow--aside.article--aside
 sfgate.com##.sponsor
 sfgate.com##.zoneInlineA.asset_zone
 sfgate.com##header
@@ -367,6 +368,7 @@ sfnissan.com##img[src*="timdealers.autotrader.com"]
 sftoyota.com##.personalized-card_position-center
 sftoyota.com##.widget-image_img
 shared/images/$image,domain=insecure.org|nmap.org|seclists.org|sectools.org
+sierranevadacheese.com#@##privacy_policy
 signin.aws.amazon.com###marketingimagelink
 slashdot.org###announcement
 slickdeals.net###logoarea
@@ -547,10 +549,10 @@ zdnet.com##.content-bottom-leaderboard
 ||jasonsavard.com/images/promos/$image
 ||jenkins-infra.github.io/patron/$subdocument
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
-||media-amazon.com/images/*/Wedding/*Wedding*.jpg$image
 ||media-amazon.com/images/*/gift-certificates/consumer/*/Campaign/*.jpg$image
 ||media-amazon.com/images/*/Graduation/*.jpg$image
 ||media-amazon.com/images/*/Prime-Rx-Stitch-30-Campaign/$image
+||media-amazon.com/images/*/Wedding/*Wedding*.jpg$image
 ||media-amazon.com/images/*Georgetown/Shoes$image
 ||media-amazon.com/images/*Pets$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
