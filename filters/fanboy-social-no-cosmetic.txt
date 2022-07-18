@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202207110324
+! Version: 202207180332
 ! Title: Fanboy's Social Blocking List
-! Last modified: 11 Jul 2022 03:24 UTC
+! Last modified: 18 Jul 2022 03:32 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1836,6 +1836,7 @@
 /social/youtube-
 /social/yt.
 /social/yt_
+/social2s.min.js
 /social_apple
 /social_badges/*
 /social_badges_
@@ -3500,6 +3501,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||lurkmore.*/images/FB_small.png$~third-party
 @@||lurkmore.so/images/*/Twitter-$~third-party
 @@||lurkmore.so/images/*YouTube.png$~third-party
+@@||magpictures.com^$generichide
 @@||manworldmediacdn.com/data/galleries/*-social-$image
 @@||marketplace.cdn.mozilla.net/media/fireplace/img/icons/brands/social-$image
 @@||maroelamedia.co.za^*/ultimate-social-deux/*/jquery.tooltipster-min.js
