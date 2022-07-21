@@ -28,6 +28,10 @@
 ## Checklist:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
--   [ ] I have read the **[CONTRIBUTING](https://github.com/LanikSJ/ubo-filters/blob/main/.github/CONTRIBUTING.md)** document.
+<!--- Ignoring the below list or errasing it will only cause your request to get delayed. --->
+-   [ ] I have read and followed the **[CONTRIBUTING](https://github.com/LanikSJ/ubo-filters/blob/main/.github/CONTRIBUTING.md)** document.
+-   [ ] I have modified the checksum and the date of the filter list in question.
+-   [ ] My change requires updating the [combined-filters](https://github.com/LanikSJ/ubo-filters/blob/main/filters/combined-filters.txt) list.
 -   [ ] My code follows the code style of this project.
 -   [ ] My change requires a change to the documentation and I have updated the documentation accordingly.
+-   [ ] I'm just checking boxes and not paying attention to what they say.
