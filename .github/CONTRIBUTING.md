@@ -66,6 +66,10 @@ git pull
 
 # Create a new branch to work on
 git switch --create patch/1234-name-issue
+
+# Make your changes and run the checksum script
+./checksum-sort.sh filters/ubo-filters.txt
 ```
+Check [combined-filters.txt](https://github.com/LanikSJ/ubo-filters/blob/main/filters/combined-filters.txt) to make sure your changes are added.
 
 Commit your changes, then push the branch to your fork with `git push -u fork` and open a pull request on [the ubo-filters repository](https://github.com/LanikSJ/ubo-filters/) following the template provided.
