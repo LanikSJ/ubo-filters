@@ -10,6 +10,8 @@ on:
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     if: |
       ${{ github.actor == 'LanikSJ' }}
       ${{ github.actor == 'github-actions' }}
