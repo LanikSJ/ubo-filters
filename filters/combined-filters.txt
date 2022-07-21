@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: ZGsIBKOOxir3/yE+X++jMw
+! Checksum: KEQ1IGBCA55OG0tJnHmIRA
 ! Title: Ad Domains Filter List
-! Last modified: 2020100501
+! Last modified: 2021072101
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -858,6 +858,7 @@
 ||loudlunch.com^
 ||lp3tdqle.com^
 ||lzrikate.com^
+||magi.duinocoin.com^$third-party
 ||magnificentmist.com^
 ||mailinfo.support^
 ||mailmessage.support^
