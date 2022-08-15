@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202208080335
+! Version: 202208150343
 ! Title: Fanboy's Social Blocking List
-! Last modified: 08 Aug 2022 03:35 UTC
+! Last modified: 15 Aug 2022 03:43 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3065,7 +3065,6 @@ _youtube_social_
 ! ---------- Finnish Specific Social Media Elements ----------
 ! 
 forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
-||rd.fi/sites/default/files/vp-fbssa-banner$image
 ! 
 ! ---------- Greek Specific Social Media Elements ----------
 ! 
