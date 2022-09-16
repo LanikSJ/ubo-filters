@@ -16,7 +16,7 @@
 
 ## Purpose
 
-I got tired of loosing my filters when I switched machines so I created this repo.  
+I got tired of losing my filters when I switched machines so I created this repo.  
 
 ## Usage
 
