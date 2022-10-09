@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: neiRjReOdpmifsyM37fONw
 ! Title: GetAdmiral Domains Filter List
-! Last modified: 2021090901
+! Last modified: 2022100801
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
