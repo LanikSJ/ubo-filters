@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Cjix392O8UlrrIjr2/3xgA
+! Checksum: bFSfFMS1Wj1MYrmQgDbgjg
 ! Title: Lanik's uBO Filter List
-! Version: 2022072101
+! Version: 2022101001
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -81,11 +81,16 @@ bedbathandbeyond.com##div[class*="Region"]
 bedbathandbeyond.narvar.com##.desktop-marketing-asset
 bhphotovideo.com###promoConsole
 bhphotovideo.com##div[class*="banners"]
+bhusers.com##[href*="bhusers.com/go/bluehost/"]
 bizjournals.com##.breadcrumbs
 blog.aboutamazon.com##.PromoImage-media
 blog.prepscholar.com###free-sat-tips
 blog.prepscholar.com##.advertisement-widget
 blog.prepscholar.com##.promobox
+bloggingqna.com##.lazyloaded.entered.size-full.attachment-full
+bloggingqna.com##[href*="bloggingqna.com/go/jasper/"]
+blogheist.com##.bh-manual-ads
+blogheist.com##.sidebar-banner
 bmc.com###FreeTrialBMCHelixITSM
 boastr.net##.pea_cook_bottomright.pea_cook_wrapper
 buydig.com###socialLinks
@@ -216,7 +221,9 @@ informaction.com##.badges
 informer.com##.with_label
 inoreader.com###consent_bbb
 inoreader.com###sinner_container
+instacart.com##.css-1vozgit-ExpressOverHeaderAsync
 instagram.com##.R4HNP
+iworldhost.com##.lazyloaded
 jackbox.tv###banners-region
 jalopnik.com###newsletterPromoModule
 jalopnik.com##.twitter-tweet
@@ -331,6 +338,7 @@ phpbb.com###page-footer > h3
 phpbb.com##.forumatic-panel
 phpbb.com##.mini-panel
 pierceytoyota.com##.ad-flipper-image-container
+potterybarn.com##.linkCardBanner
 prideradio.iheart.com##.component-pushdown
 pypi.org##.notification-bar
 quay.io##.quay-message-bar
@@ -353,6 +361,7 @@ secure-www.gap.com##.marketing-banner-wrapper
 secure.newegg.com###amexBanner
 secure.newegg.com##img[src*="banner_synchrony.jpg"]
 secure.nordstrom.com##div[class*="nui-tile"]
+seekingalpha.com##:xpath(//div[contains(text(), 'Finding top stocks to buy')]/ancestor::div[3])
 serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.js-freemium-cta
 setapp.com##.js-side-scrolling-banner
 setapp.com##.promo-banner__wrapper
@@ -496,6 +505,7 @@ wired.com##.siderail-rad.js-post-listing-rad.load-failure
 wireshark.org###enhancement
 wpdatatables.com###snppopup-exit
 www.amazon.com###ad-feedback-text-auto-sparkle-hsa-tetris
+www.amazon.com###amu-upsell-widget-section
 www.amazon.com###cbcc_banner
 www.amazon.com###detail-ilm_div
 www.amazon.com###hero-quick-promo
@@ -504,6 +514,7 @@ www.amazon.com###prime-pda-type-box-ad
 www.amazon.com###recommendations
 www.amazon.com###universal-detail-ilm
 www.amazon.com###universal-hero-quick-promo
+www.amazon.com##._universal-detail-ilm-card_style_image__2jCsj
 www.amazon.com##.featureHeading.threepsl-title
 www.amazon.com##.maple-banner
 www.amazon.com##.rec-bottom-with-padding
@@ -555,6 +566,7 @@ zdnet.com##.content-bottom-leaderboard
 ||media-amazon.com/images/*/Prime-Rx-Stitch-30-Campaign/$image
 ||media-amazon.com/images/*/Wedding/*Wedding*.jpg$image
 ||media-amazon.com/images/*Georgetown/Shoes$image
+||media-amazon.com/images/*Mobile/PokemonGO/*PGO*.png$image
 ||media-amazon.com/images/*Pets$image
 ||media.united.com/assets/m/*/*_Explorer_*.png$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
