@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202210021055
+! Version: 202210162326
 ! Title: Fanboy's Social Blocking List
-! Last modified: 02 Oct 2022 10:55 UTC
+! Last modified: 16 Oct 2022 23:26 UTC
 ! Expires: 7 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3504,7 +3504,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||mediaexpert.pl/common2/images/$image
 @@||mediafirerepack.net^*/facebook-page-promoter-lightbox/$script
 @@||meetmecdna.com/images/Connect/btn_facebook_custom_text.png$domain=meetme.com
-@@||megaup.net^$generichide
 @@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
 @@||mera.eu/wp-content/themes/mera/app/common/lib/$xmlhttprequest
 @@||metservice.com/_/files/social/content-stream.html
@@ -3578,6 +3577,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||playsaurus.com^*/ui/icons/$image,~third-party
 @@||plus.im/static/img/facebook.png
 @@||plus.im/static/img/facebook_over.png
+@@||pngrepo.com/png/$image,~third-party
 @@||pocketnet.app/components/share/$~third-party,xmlhttprequest
 @@||podaj.to/images/$image,~third-party
 @@||podaj.to/thumbs/$image,~third-party
@@ -3680,6 +3680,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||supermicro.com^*/static/share/$script,stylesheet
 @@||supremacy1914.com/fileadmin/templates/$~third-party
 @@||supremacy1914.de/fileadmin/templates/supremacy_1914/landing/52/button_facebook.png
+@@||svgrepo.com/show/$image,~third-party
 @@||swappa.com/static/icons/social/login_$image
 @@||swiso.org^$generichide
 @@||switching.software^$generichide
