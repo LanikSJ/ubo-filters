@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: bFSfFMS1Wj1MYrmQgDbgjg
+! Checksum: 9pnmgmuR7aAC4kZAFJKb3g
 ! Title: Lanik's uBO Filter List
-! Version: 2022101001
+! Version: 2022102201
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -361,6 +361,7 @@ secure-www.gap.com##.marketing-banner-wrapper
 secure.newegg.com###amexBanner
 secure.newegg.com##img[src*="banner_synchrony.jpg"]
 secure.nordstrom.com##div[class*="nui-tile"]
+seekingalpha.com##:xpath(//*[text()[contains(.,'Start now with 50% off')]]/ancestor::div[4])
 seekingalpha.com##:xpath(//div[contains(text(), 'Finding top stocks to buy')]/ancestor::div[3])
 serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.js-freemium-cta
 setapp.com##.js-side-scrolling-banner
