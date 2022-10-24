@@ -25,5 +25,8 @@ more unknown-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more videoadex-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more volumedata-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 
+more combined-filters.txt |grep -v :::::::::::::: |grep -v .txt >> temp-filters.txt
+cp temp-filters.txt combined-filters.txt
+
 perl ../scripts/addChecksum.pl combined-filters.txt
 perl ../scripts/sorter.pl combined-filters.txt
