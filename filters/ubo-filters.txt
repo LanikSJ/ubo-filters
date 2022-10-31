@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: TZloDykr3YtLsJ/JSy/W2g
+! Checksum: JjwiMabcbneV0QwYiFdCLw
 ! Title: Lanik's uBO Filter List
-! Version: 2022102202
+! Version: 2022103001
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -75,6 +75,7 @@ autotempest.truecar.com##div.col-lg-6.col-3.margin-top-1
 avvo.com##.js-ad-block-toggleable
 aws.training###divAdBlockerMessage
 bedbathandbeyond.com##.ad-blocker
+bedbathandbeyond.com##.bannerScrolltop
 bedbathandbeyond.com##.componentWrapper
 bedbathandbeyond.com##.marketingBanner
 bedbathandbeyond.com##div[class*="Region"]

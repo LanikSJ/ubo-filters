@@ -17,7 +17,6 @@ more hilltopads-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more istripper-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more kitty-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more macupload-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
-more malware-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more popads-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more propellerads-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more toradvertising-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
@@ -26,7 +25,7 @@ more videoadex-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more volumedata-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 
 more combined-filters.txt |grep -v :::::::::::::: |grep -v .txt >> temp-filters.txt
-cp temp-filters.txt combined-filters.txt
+mv -f temp-filters.txt combined-filters.txt
 
 perl ../scripts/addChecksum.pl combined-filters.txt
 perl ../scripts/sorter.pl combined-filters.txt
