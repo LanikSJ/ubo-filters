@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202211070312
+! Version: 202211140305
 ! Title: Fanboy's Social Blocking List
-! Last modified: 07 Nov 2022 03:12 UTC
+! Last modified: 14 Nov 2022 03:05 UTC
 ! Expires: 7 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -609,6 +609,7 @@
 /flickr_icon_
 /flipboard-icon.
 /floating-social/*
+/floating-wpp.min.
 /flw-twitter.
 /follow-facebook.
 /follow-footer-
@@ -1939,9 +1940,6 @@
 /socialgoogledark.
 /socialhomesprite2.
 /SocialIcon/*
-/socialIcons-
-/socialIcons.
-/socialicons/*
 /socialicons2.
 /socialicons_
 /socialinstagram.
@@ -2812,7 +2810,7 @@ _youtube_social_
 ||vk.com/widget_community.php$third-party
 ||vk.com/widget_community_messages.php?$third-party
 ||vk.com/widget_like.php$third-party
-||vkontakte.ru/js/api/$third-party,domain=~arudex.com|~ugo.ru|~vk.com
+||vkontakte.ru/js/api/$third-party,domain=~arudex.com|~tapclap.com|~ugo.ru|~vk.com
 ||vkontakte.ru/share.php?$third-party
 ||vkontakte.ru/widget_community.php$third-party
 ||vkontakte.ru/widget_like.php$third-party
@@ -3264,6 +3262,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||cbsistatic.com/cnwk.1d/html/*/Social/$script,domain=cbsnews.com|cnet.com
 @@||cbsistatic.com^*/js-build/fly/components/social-links-$domain=cbsnews.com|cnet.com
 @@||ccm2.net/www.commentcamarche.net/sites/images/$image,domain=commentcamarche.net
+@@||cdn.flowplayer.com^*/share.min.js
 @@||cdn.pinknews.co.uk/images/$image,domain=pinknews.co.uk
 @@||cdn.syndication.twimg.com/tweets.json
 @@||cdn.ubi.com/uplay-connect/*/images/FB.png$domain=connect.ubi.com
