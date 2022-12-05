@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202211280201
+! Version: 202212050222
 ! Title: Fanboy's Social Blocking List
-! Last modified: 28 Nov 2022 02:01 UTC
+! Last modified: 05 Dec 2022 02:22 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3512,6 +3512,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||nextinpact.com/public/min/index.php?*social$stylesheet
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||nutshell.com/media/images-landing/integration-logo-$~third-party
+@@||nuxt.com/_nuxt/SocialLinks.$script,~third-party
 @@||nyt.com^*/sharetools.js$domain=nytimes.com
 @@||nytimes.com^*/sharetools.js
 @@||ogdownloaderapk.com/images/og-youtube.png
@@ -3686,6 +3687,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||timesofmalta.com/img/login/google.png
 @@||tinydeal.com/Images/follow_us.png
 @@||tipranks.com/social-auth/images/buttons/$image
+@@||titancontrols.net/scripts/vue/page/sharebuttons.js$~third-party
 @@||tldrify.com/static/*/sharebox.$script,stylesheet,~third-party
 @@||tldrify.com^$generichide
 @@||tnwcdn.com/wp-content/blogs.dir/*_twitter-$domain=thenextweb.com
