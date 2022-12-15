@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: JjwiMabcbneV0QwYiFdCLw
+! Checksum: xuDBwcyDrT9roSvxUBJGZw
 ! Title: Lanik's uBO Filter List
-! Version: 2022103001
+! Version: 2022121501
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -167,6 +167,7 @@ fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
 fivethirtyeight.com##.sidebar-feature-espn
 fmovie.sc##.alert-warning.alert
+food.walla.co.il##aside
 footwearnews.com##.jw-reset.jw-wrapper
 footwearnews.com##.pmc-contextual-player
 forbes.com##fbs-video
@@ -212,6 +213,7 @@ groupon.com###subscribe-banner
 groupon.com##.footer-widgets.ls-col
 gsmarena.com###subHeader
 hellocodeclub.com##.ctct-popup-form
+hotdeals.com##.ads-list-one
 hotdeals.com##.newaddads
 hotdeals.com##.sell_right
 hotdeals.com##li.coupert_item_block
@@ -379,6 +381,8 @@ sfnissan.com##img[src*="timdealers.autotrader.com"]
 sftoyota.com##.personalized-card_position-center
 sftoyota.com##.widget-image_img
 shared/images/$image,domain=insecure.org|nmap.org|seclists.org|sectools.org
+shutterfly.com##.PromoBanner
+shutterfly.com##.PromoCarousel
 sierranevadacheese.com#@##privacy_policy
 signin.aws.amazon.com###marketingimagelink
 slashdot.org###announcement
@@ -470,6 +474,7 @@ tomsguide.com##.popular-box
 tomsguide.com##.read-more-container
 tomsguide.com##.related-articles-block
 tomsguide.com##.sticky-player-background
+toyotanation.com##.js-notices
 toyotasunnyvale.com##.kbb-banner
 tracking.getconvey.com##.hero-clickthrough-enabled
 tutsplus.com##div[class*="tether"]
@@ -479,6 +484,10 @@ united.com##.section-eco-skies
 ups.com###ups-alertsWrap
 ups.com##.ups-banner_container
 urbandictionary.com##.mug-ad
+vbattorneys.com##.bottom-right.ccl-slider-bubble
+vbattorneys.com##.ccl-slider-window-body
+vbattorneys.com##.ccl-slider-window-header
+vbattorneys.com##.ccl-slider-window-header-bg
 videolan.org###pub_adsense
 videolan.org##.donate-box.pull-right.navbar-nav.nav
 videolan.org##.sponsors-carousel-wrapper
