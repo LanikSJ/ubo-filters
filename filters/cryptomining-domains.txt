@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: p7owgg/fBAf/Mb9A6xbMSw
+! Checksum: mu0iPkwmFiPGgKKoCxQ5rg
 ! Title: Crypto Mining Domains Filter List
-! Last modified: 2022072101
+! Last modified: 2023011801
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -219,7 +219,6 @@
 ||support.2giga.link^
 ||supportxmr.com^$third-party
 ||swiftmining.win^
-||trezor.io^$third-party
 ||tubetitties.com^$third-party
 ||tulip18.com^$third-party
 ||turnsocial.com^$third-party
