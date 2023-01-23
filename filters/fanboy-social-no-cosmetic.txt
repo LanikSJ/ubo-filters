@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301160056
+! Version: 202301230008
 ! Title: Fanboy's Social Blocking List
-! Last modified: 16 Jan 2023 00:56 UTC
+! Last modified: 23 Jan 2023 00:08 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2589,7 +2589,6 @@ _youtube_social_
 ||d5k6iufjynyu8.cloudfront.net^
 ||dailymotion.com/badge/user/$third-party
 ||digg.com^$script,subdocument,third-party
-||diggstatic.com^*/follow_buttons/
 ||encrypted-tbn2.gstatic.com/images?$domain=vitorrent.org
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/connect/connect.*connections$third-party,domain=~farmville.com
@@ -2661,7 +2660,6 @@ _youtube_social_
 ||iconosquare.com/widget.php$third-party
 ||insidesoci.al^$third-party
 ||instagram.com^*/users/$third-party
-||instagramfollowbutton.com^$third-party
 ||instawidget.net^$third-party
 ||intagme.com/in/?u=$third-party
 ||jiathis.com^$third-party
@@ -2684,7 +2682,6 @@ _youtube_social_
 ||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
-||networkedblogs.com^$third-party
 ||newsharecounts.com^$third-party
 ||opensharecount.com^$third-party
 ||patreon.com/becomePatronButton.bundle.js$third-party
@@ -2718,7 +2715,6 @@ _youtube_social_
 ||redditstatic.com/button/$third-party,domain=~reddit.com
 ||redditstatic.s3.amazonaws.com^$third-party,domain=~reddit.com
 ||revinate.com^$third-party
-||rp-api.com/rjs/repostus.js
 ||scoop.it^$third-party
 ||search.twitter.com^$third-party
 ||share.itraffic.su^$third-party
@@ -2732,7 +2728,6 @@ _youtube_social_
 ||sharpay.io^$third-party
 ||shpg.org^$third-party
 ||simplesharebuttons.com^$third-party
-||smartaddon.com/share_addon.js
 ||social9.com^$third-party
 ||socialannex.com^$third-party
 ||socialhoney.co/widget/
@@ -2764,7 +2759,6 @@ _youtube_social_
 ||tweetmeme.com^$third-party
 ||tweetriver.com^$third-party
 ||twinesocial.com^$third-party
-||twitbuttons.com^$third-party
 ||twitcker.com^$third-party
 ||twitcount.com^$third-party
 ||twitstat.us^$third-party
@@ -2798,7 +2792,6 @@ _youtube_social_
 ||werkenntwen.de/images/empfehlen_buttons/$third-party
 ||whatsapp-sharing.com^$third-party
 ||whatsbroadcast.com^$third-party
-||widget.stagram.com^$third-party
 ||widget.weibo.com^$third-party
 ||widget.whatshelp.io^$third-party
 ||widgets.fbshare.me^$third-party
@@ -3108,6 +3101,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------- Portuguese Site Specific Hiding Rules ----------
 ! 
+||defatoonline.com.br/whatsapp.html
 ||trrsf.com/transversais/trr_bar/$script
 ! 
 ! ---------- Romanian Site Specific Hiding Rules ----------
