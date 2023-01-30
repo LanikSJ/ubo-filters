@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301230008
+! Version: 202301300156
 ! Title: Fanboy's Social Blocking List
-! Last modified: 23 Jan 2023 00:08 UTC
+! Last modified: 30 Jan 2023 01:56 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -96,13 +96,6 @@
 -nav-social-
 -nav-social.
 -pic/share-
--pinterest-128x128.
--pinterest-64-
--pinterest-button-
--pinterest-button.
--pinterest-icon-
--pinterest_icon.
--pintrest-icon.
 -redes-facebook.
 -redes-gplus.
 -redes-instagram.
@@ -1280,8 +1273,6 @@
 /PinterestIcon.
 /pinterestsquare.
 /pintrest-button.
-/pintrest.
-/pintrest_
 /pix/Share-
 /plain/facebook-
 /plain/pinterest-
@@ -2823,10 +2814,6 @@ _youtube_social_
 ||australiantimes.co.uk/wp-content/uploads/*_google_pl.jpg
 ||backpackerguide.nz^*/bandFacebookLine.
 ||bdupload.info/js/share.js
-||bitcoinist.net/wp-content/*/fb.png
-||bitcoinist.net/wp-content/*/g+.png
-||bitcoinist.net/wp-content/*/inst.png
-||bitcoinist.net/wp-content/*/yt.png
 ||blogspot.com^*/facebook.png
 ||blogspot.com^*/twitter.png
 ||burntorangereport.com/upload/scripts/popup.js
@@ -2861,13 +2848,7 @@ _youtube_social_
 ||imgoutlet.com^*/ico_tr.
 ||impactloud.com/img/follow.png
 ||itsmyurls.com/links/
-||kuwaittimes.net/fb.
-||kuwaittimes.net/in.
-||kuwaittimes.net/tw.
-||kuwaittimes.net/yt.
 ||linkis.com/ajax/get-popup-html
-||livescience.com/likebar.php
-||livescience.com/social.php
 ||marketingsherpa.com/Zlatko/facebook.jpg
 ||marketingsherpa.com/Zlatko/in.jpg
 ||media-imdb.com/images*/facebook-$domain=imdb.com
@@ -2887,14 +2868,11 @@ _youtube_social_
 ||radiotunes.com/_papi/v1/radiotunes/timed_alerts$xmlhttprequest
 ||reuters.tv/socialLinks/
 ||safewow.com^*/faceback.png
-||schwalbe.co.uk/_webedit/cached-images/172-37-38-0-0-37-38
-||schwalbe.co.uk/_webedit/cached-images/174-37-38-0-0-37-38
 ||seocentro.com/bookmark/
 ||sheknows.com/api/module?id=follow_social
 ||shine.cn/js/share.js
 ||social.dw.de^
 ||sourceforge.net/social/
-||static2.stuff.co.nz^$subdocument
 ||store.yahoo.net/lib/directron/icons-test02.jpg
 ||teamskeetimages.com^*/ig.png
 ||teamskeetimages.com^*/twit.png
@@ -3168,7 +3146,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||akamaihd.net/login/static/images/login/social/facebook-$image,domain=battle.net
 @@||akamaihd.net/login/static/images/login/social/google-$image,domain=battle.net
 @@||akamaihd.net/r/tedcdnpf-a.akamaihd.net/images/playlists/social_$image,domain=ted.com
-@@||akamaihd.net^$xmlhttprequest,domain=history.com
 @@||akamaihd.net^*/instagram_$domain=instagram.com
 @@||akamaized.net/static/v3/resource/static/images/fb-btn.png$domain=centurygames.com
 @@||alienwarearena.com/bundles/spoutlet/js/SocialShare.min.js
@@ -3239,7 +3216,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||cgtn.com/static/public/web_share/css/shareStyle.css
 @@||cgtn.com/static/public/web_share/js/share-v2.js
 @@||chrisblattman.com/wp/wp-content/plugins/social/assets/social.png
-@@||cinemablend.com/timthumb.php?src=/images/facebook/
 @@||cloudfront.net/assets/icons/gplus_icon-$domain=runtastic.com
 @@||cloudfront.net/assets/index/btn_facebook_$domain=myfitnesspal.com
 @@||cloudfront.net/images/$image,domain=crowdin.net|hockeyapp.net|trello.com
@@ -3252,7 +3228,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||cloudfront.net^*/signin_with_facebook.png
 @@||cloudfront.net^*/social-buttons.png$domain=socialreader.com
 @@||clubbingtv.com/module/opensocialconnect/static/image/linkedin.png
-@@||cnn.com/cnnnext/*-social-$image
 @@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/instafeed.min.js$~third-party
 @@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
 @@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
@@ -3315,7 +3290,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||eyeo.com/dist/img/svg/$domain=help.eyeo.com
 @@||eyeo.com/wp-content/plugins/pp-team-social-icons/$~third-party
 @@||facebook.com/plugins/facepile.php?$domain=gu-facebook.appspot.com
-@@||facebook.com/plugins/likebox.php?$domain=colbertnation.com|rafflecopter.com|thedailyshow.com
+@@||facebook.com/plugins/likebox.php?$domain=colbertnation.com|rafflecopter.com
 @@||facebook.com/plugins/recommendations.php?$subdocument,domain=techcrunch.com
 @@||facebook.com^*/like.php?$domain=archivedbook.com|e-biznes.pl|farmville.com|gmx.net|gu-facebook.appspot.com|home.1und1.de|likearea.com|porn99.net|web.de
 @@||facebook.com^*/plugins/page.php?$domain=cieplikpodrozuje.pl|fashionvoyager.pl|majkrafci.pl|makulscy.com
@@ -3351,7 +3326,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||gen.jut.su/jcdn/minify?charset=*/videojs-share.$script,stylesheet,domain=jut.su
 @@||geocaching.su/images/ctypes/icons/googlemap/$image,~third-party
 @@||gfycat.com^*/sharepage-*.js$script
-@@||ghacks.net/wp-content/uploads/*/google-plus-
 @@||gigya.com/gs/i/shareBar/icons/$image
 @@||gigya.com/gs/sso.htm$domain=redbull.com|tomshardware.com
 @@||git-scm.com/images/company-project-logos/$image
@@ -3386,7 +3360,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||handmadebydominos.com^*/socialShare.js
 @@||haveibeenpwned.com/Content/Images/PwnedLogos/LinkedIn.svg
 @@||hd-trailers.net/images/youtube.png
-@@||history.com^*_SocialMedia_$image
 @@||hopper.com/static2/w2/images/google-$domain=hopper.com
 @@||hotflick.net^*-social-$image
 @@||hotflicknet.s3.amazonaws.com^*-social-$image
@@ -3451,7 +3424,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||lifetricks.com/wp-content/plugins/nextend-facebook-connect/
 @@||liggoo.com/min/?$script
 @@||limanowianin.in/wp-content/plugins/soslider-social-slider/js/jquery.soslider.min.js$script
-@@||livescience.com/images/site/social/footer_*.gif
 @@||login.kataweb.it^*/sprite-social.png
 @@||login.mos.ru^$image
 @@||logo.wine/a/logo/$image,~third-party
@@ -3505,8 +3477,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||nutshell.com/media/images-landing/integration-logo-$~third-party
 @@||nuxt.com/_nuxt/SocialLinks.$script,~third-party
-@@||nyt.com^*/sharetools.js$domain=nytimes.com
-@@||nytimes.com^*/sharetools.js
 @@||ogdownloaderapk.com/images/og-youtube.png
 @@||ok.ru^*/sprites/social-$image,domain=ok.ru
 @@||oklivetv.com/wp-content/plugins/facebook-page-promoter-lightbox/$script
@@ -3533,7 +3503,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||platform.linkedin.com/in.js$domain=businessinsider.com
 @@||platform.twitter.com/anywhere.js?$domain=ge.tt|mtv.com|pennsundayschool.com|projects.wsj.com|soychile.cl
 @@||platform.twitter.com/js/button.$script,domain=e-biznes.pl
-@@||platform.twitter.com/widgets.js$domain=agame.com|cbsnews.com|complex.com|egotastic.com|guildwars2.com|livestream.com|mandatory.com|pawnation.com|pennsundayschool.com|reviews.cnet.com|simcity.com|soychile.cl|spielen.com|thedailyshow.com|wwe.com
+@@||platform.twitter.com/widgets.js$domain=agame.com|cbsnews.com|complex.com|egotastic.com|guildwars2.com|livestream.com|mandatory.com|pawnation.com|pennsundayschool.com|reviews.cnet.com|simcity.com|soychile.cl|spielen.com|wwe.com
 @@||platform.twitter.com/widgets/$domain=theguardian.com
 @@||platform.twitter.com/widgets/follow_button.$subdocument,domain=e-biznes.pl|rafflecopter.com
 @@||platform.twitter.com/widgets/tweet_button.html?$subdocument,domain=rafflecopter.com
@@ -3569,8 +3539,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||rambler.ru/public-icons/$image
 @@||rantlifestyle.com/wp-content/*facebook$image
 @@||rantlifestyle.com/wp-content/*twitter$image
-@@||rawstory.com/wp-content/uploads/*-Facebook.jpg
-@@||rawstory.com/wp-content/uploads/*-Twitter.jpg
 @@||reactandshare.com/plugin/rns.js$domain=forssanlehti.fi|verkkouutiset.fi
 @@||realfavicongenerator.net/files/*/facebook.png$image,~third-party
 @@||redcarpetrampage.com/game/images/facebookbutton
@@ -3592,12 +3560,10 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||s.trackingmore.com^*,list/needsharebutton.$script,stylesheet,~third-party
 @@||s10i.com/hp/images/fallback/twitter.png$domain=sky.com
 @@||s7.addthis.com/icons/official-addthis-angularjs/current/dist/official-addthis-angularjs.min.js$domain=senac.br
-@@||s7.addthis.com/static/r07/$script,stylesheet,domain=majorgeeks.com
 @@||s7.addthis.com^*/addthis_widget.js$domain=carsom.nl|channelnewsasia.com|hatsandcaps.co.uk|mediamatters.org|politico.com|ticketmaster.nl|washingtonexaminer.com
 @@||s7.addthis.com^*/addthis_widget.js*async=$domain=koeln.de|moneytalksnews.com
 @@||s7.addthis.com^*/addthis_widget.js*username=$domain=iamsecond.com
-@@||salon.com/combo/js?*/share-buttons.js$script
-@@||search.twitter.com/search.json?$domain=colbertnation.com|similarpages.com|thedailyshow.com
+@@||search.twitter.com/search.json?$domain=colbertnation.com|similarpages.com
 @@||search.us.com/resources/img/facebook_btn.png
 @@||secondhandsongs.com/art/icons/youtube.png
 @@||secure.oneallcdn.com/img/api/socialize/gui/close_cross.png
@@ -3605,10 +3571,9 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||selly.pl/wp-content/themes/$image
 @@||setself.com/content/images/authbox/$image
 @@||sevego.com/Img/$image,~third-party
-@@||sharethis.com/button/buttons.js$domain=cnn.com|corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|itworld.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com|walmart.com
+@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|itworld.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com|walmart.com
 @@||sharethis.com/button/sharethis.js$domain=statefarm.com|vogue.com
-@@||sharethis.com/getsegment.php$domain=cnn.com
-@@||sharethis.com^$domain=colbertnation.com|fandango.com|fox23.com|imgur.com|salon.com|thedailybeast.com|thedailyshow.com
+@@||sharethis.com^$domain=colbertnation.com|fandango.com|fox23.com|imgur.com|thedailybeast.com
 @@||shopify.com^*/instafeed.min.js$script,domain=caballeromoderno.com|cheekyclean.co.nz|waisttrainer.co.nz
 @@||sk-static.com/assets/facebook-$image,domain=songkick.com
 @@||sk-static.com/assets/nw/components/taste-import/fb-icon-$domain=songkick.com
