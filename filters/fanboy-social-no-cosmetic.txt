@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302060159
+! Version: 202302122243
 ! Title: Fanboy's Social Blocking List
-! Last modified: 06 Feb 2023 01:59 UTC
+! Last modified: 12 Feb 2023 22:43 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -103,9 +103,6 @@
 -redes-twitter.
 -redes-youtube.
 -share-bar/$~stylesheet
--share-button.$~xmlhttprequest
--share-buttons.$~xmlhttprequest
--share-buttons/$~stylesheet
 -share-buttons2.
 -share-buttons3/
 -share-email.
@@ -1940,11 +1937,6 @@
 /socials/vk-
 /socials/you_tube.
 /socials_new.
-/socialshare-
-/socialShare.
-/socialshare/*
-/socialshare2.
-/socialshare_
 /socialShareCount.
 /SocialSharePlugin.
 /socialshares.
@@ -2838,7 +2830,6 @@ _youtube_social_
 ||gptoday.net^*/link-icon.
 ||graytvinc.com/images/f_logo_
 ||graytvinc.com/images/twitterlogo.png
-||hollywoodreporter.com/*/signup-r-rail
 ||homedesignlover.com/wp-content/uploads/*/pin.jpg
 ||htcsource.com/wp-content/uploads/*/icons.png
 ||hulkshare.com/facebox.html
@@ -3158,8 +3149,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||amctv.com^*/social-buttons.js
 @@||ampproject.org/static/img/partners/$~third-party
 @@||ampproject.org/static/img/quotes/$~third-party
-@@||androidpolice.com/wp-content/*_facebook-$image
-@@||androidpolice.com/wp-content/themes/ap2/ap_resize/ap_resize.php?*_Twitter-$image
 @@||app.conceptboard.com^*/SocialIcons.js$xmlhttprequest
 @@||app.degoo.com/assets/icons/$~third-party
 @@||app.hrlab.de/assets/icons/$image,domain=app.hrlab.de
@@ -3224,7 +3213,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/instafeed.min.js$~third-party
 @@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
 @@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
-@@||corriereobjects.it^*/socialshare.js?$domain=video.corriere.it
 @@||corrupt-a-file.net/assets/images/icons/google-drive_$image,~third-party
 @@||cotrip.org/images/common/$image,~third-party
 @@||coursehero.com/min/?f=*/social_share_tracking.js$domain=coursehero.com
@@ -3236,8 +3224,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||daddydesign.com/*/wp-social-toolbar/
 @@||darkpatterns.org/images/*Facebook$image
 @@||dataknet.com/css/img/icon/$image,domain=webtoolhub.com
-@@||daumcdn.net/daumtop_deco/socialshare/$script
-@@||daumcdn.net^*/socialshare-*.min.js$domain=daum.net
 @@||deathfromabove1979.com/images/google-$image,domain=deathfromabove1979.com
 @@||depositphotos.com^*/depositphotos_$image,domain=depositphotos.com
 @@||deskmodder.de/blog/wp-content/uploads/$image,~third-party
