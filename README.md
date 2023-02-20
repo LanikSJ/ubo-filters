@@ -24,7 +24,7 @@ I got tired of losing my filters when I switched machines so I created this repo
 [![Combined Filters](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml)
 [![Fanboy Social](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml)
 [![Lock Threads](https://github.com/LanikSJ/ubo-filters/actions/workflows/lock-threads.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/lock-threads.yml)
-[![Malware Domains List](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml)  
+[![Malware Domains List](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/654e238faf1d4ccba909acc9f30b08b5)](https://www.codacy.com/gh/LanikSJ/ubo-filters/dashboard?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/main/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)
 
@@ -59,12 +59,12 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 
 ## FAQ
 
-Q: Do you support any other adblockers such as AdGuard etc?  
+Q: Do you support any other adblockers such as AdGuard etc?
 A: Only AdBlock / AdBlock Plus / uBlock Origin are supported at this time.
 
 ## Attributions
 
-Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)  
+Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)
 ©️ All rights reserved by the original authors.
 
 ## Bugs
