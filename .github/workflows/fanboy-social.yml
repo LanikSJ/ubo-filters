@@ -38,8 +38,6 @@ jobs:
             automated pr
           assignees: LanikSJ
           reviewers: LanikSJ
-          team-reviewers: |
-            owners
           draft: false
 
       - name: Enable PR Automerge
