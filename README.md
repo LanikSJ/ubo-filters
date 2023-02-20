@@ -6,7 +6,8 @@
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/laniksj/ubo-filters)
 
 - [Purpose](#purpose)
-- [Usage](#usage)
+- [Actions](#actions)
+- [Coverage](#coverage)
 - [Lists](#lists)
 - [FAQ](#faq)
 - [Attributions](#attributions)
@@ -18,13 +19,16 @@
 
 I got tired of losing my filters when I switched machines so I created this repo.
 
-## Usage
+## Actions
 
 [![Admiral List](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml)
 [![Combined Filters](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml)
 [![Fanboy Social](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml)
 [![Lock Threads](https://github.com/LanikSJ/ubo-filters/actions/workflows/lock-threads.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/lock-threads.yml)
 [![Malware Domains List](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml)
+
+## Coverage
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/654e238faf1d4ccba909acc9f30b08b5)](https://www.codacy.com/gh/LanikSJ/ubo-filters/dashboard?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/main/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)
 
@@ -77,4 +81,4 @@ Please report any bugs or issues you find. Thanks!
 
 ## Donate
 
-[![Patreon](https://img.shields.io/badge/patreon-donate-red.svg)](https://www.patreon.com/laniksj/overview)
+[![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/laniksj/overview)
