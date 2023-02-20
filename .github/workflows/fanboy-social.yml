@@ -40,7 +40,6 @@ jobs:
           reviewers: LanikSJ
           team-reviewers: |
             owners
-            maintainers
           draft: false
 
       - name: Enable PR Automerge
