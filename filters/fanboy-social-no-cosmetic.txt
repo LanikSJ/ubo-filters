@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302200245
+! Version: 202302270100
 ! Title: Fanboy's Social Blocking List
-! Last modified: 20 Feb 2023 02:45 UTC
+! Last modified: 27 Feb 2023 01:00 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -75,8 +75,6 @@
 -icon-youtube.
 -icon_social.
 -iconFacebook.
--icons/facebook.
--icons/twitter.
 -iconTwitter.
 -instagram-128x128.
 -Instagram-Button.
@@ -104,7 +102,7 @@
 -redes-youtube.
 -share-bar/$~stylesheet
 -share-buttons2.
--share-buttons3/
+-share-buttons3/$~stylesheet
 -share-email.
 -share-email2.
 -share-facebook.
@@ -2511,6 +2509,7 @@ _youtube_social_
 /wp-content/plugins/videolock/*$script
 ! ------------------------General element hiding rules-------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_hide.txt ***
+! element specific
 ! manworldmedia sites
 ! intel.com (and regional sites)
 ! Tag names
@@ -2797,7 +2796,6 @@ _youtube_social_
 ||ana.net/contentimage/genicon/facebook.png
 ||ana.net/contentimage/genicon/twitter.png
 ||animenewsnetwork.com^*/bookmark-
-||askmen.com^*/btn_print.
 ||australiantimes.co.uk/wp-content/uploads/*_google_pl.jpg
 ||backpackerguide.nz^*/bandFacebookLine.
 ||bdupload.info/js/share.js
@@ -2842,7 +2840,6 @@ _youtube_social_
 ||mybetting.co.uk/facebook.png
 ||mybetting.co.uk/twitter.png
 ||naturalnews.com/getviews2.
-||netdna-cdn.com^*/follow.png$domain=edmsauce.com
 ||newsarama.com/social.php
 ||pistonheads.com^*/profile-icons.gif
 ||presstv.ir/images/sn_
@@ -2917,7 +2914,6 @@ _youtube_social_
 ||static.pe.studivz.net^*/library.js$third-party
 ||suedtirolnews.it^*/whatsapp.
 ||werkenntwen.de/images/buttons/$third-party
-||widgets.getsitecontrol.com^*/script.js$domain=winfuture.de
 ! Specific hiding filters necessary for sites allowlisted with $generichide filter option
 ! Focus.de
 ! Specific blocking filters necessary for sites allowlisted with $genericblock filter option
@@ -3222,7 +3218,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||depositphotos.com^*/depositphotos_$image,domain=depositphotos.com
 @@||deskmodder.de/blog/wp-content/uploads/$image,~third-party
 @@||disclose.tv/themes/custom/disclosetv/assets/images/svg-images/twitter-white.svg
-@@||discountsstory.com/image/facebook_icon.png
 @@||discourse.org/faq/customers/logos/$~third-party
 @@||disqus.com/embed/comments/?$subdocument
 @@||disquscdn.com^*/assets/img/$image
@@ -3231,6 +3226,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||dknet730.com/plugin/login-oauth/img/$image
 @@||dmi.dk^*/jquery_cookie.js
 @@||docksmarket.it^*/shared/btn_
+@@||docs.qq.com^$generichide
 @@||dontbubble.us/images/google-$~third-party
 @@||donttrack.us/images/google-$image,~third-party
 @@||downloads.2kgames.com^*/images/$image,third-party
@@ -3463,7 +3459,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||physicsgalaxy.com/images/SignInWithfacebook.png
 @@||picozu.com/r/images/windows/intro/facebook.png
 @@||pinterest.com/images/about/buttons/$domain=pinterest.com
-@@||pinterest.com/js/pinit.js$domain=glamour.com
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.linkedin.com/in.js$domain=businessinsider.com
 @@||platform.twitter.com/anywhere.js?$domain=ge.tt|mtv.com|pennsundayschool.com|soychile.cl
@@ -3535,9 +3530,8 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||selly.pl/wp-content/themes/$image
 @@||setself.com/content/images/authbox/$image
 @@||sevego.com/Img/$image,~third-party
-@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
+@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|halfmoonrun.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
 @@||sharethis.com/button/sharethis.js$domain=statefarm.com|vogue.com
-@@||sharethis.com^$domain=fandango.com|fox23.com
 @@||shopify.com^*/instafeed.min.js$script,domain=caballeromoderno.com|cheekyclean.co.nz|waisttrainer.co.nz
 @@||sk-static.com/assets/facebook-$image,domain=songkick.com
 @@||sk-static.com/assets/nw/components/taste-import/fb-icon-$domain=songkick.com
