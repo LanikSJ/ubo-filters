@@ -13,6 +13,7 @@ more bt-contentza-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.t
 more cdn-filter-list.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more cryptomining-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more freecounterstat-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
+more getadmiral-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more hilltopads-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more istripper-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
 more kitty-domains.txt |grep -v ! |sed '/Adblock/d' >> combined-filters.txt
