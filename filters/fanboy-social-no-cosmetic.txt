@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302270100
+! Version: 202303060225
 ! Title: Fanboy's Social Blocking List
-! Last modified: 27 Feb 2023 01:00 UTC
+! Last modified: 06 Mar 2023 02:25 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -640,7 +640,6 @@
 /follow_us.
 /follow_us_
 /followbar/*
-/followbutton.
 /followfacebook.
 /FollowFB-
 /followfb.
@@ -3259,7 +3258,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||eyeo.com/wp-content/plugins/pp-team-social-icons/$~third-party
 @@||facebook.com/plugins/facepile.php?$domain=gu-facebook.appspot.com
 @@||facebook.com/plugins/likebox.php?$domain=rafflecopter.com
-@@||facebook.com/plugins/recommendations.php?$subdocument,domain=techcrunch.com
 @@||facebook.com^*/like.php?$domain=archivedbook.com|e-biznes.pl|farmville.com|gmx.net|gu-facebook.appspot.com|home.1und1.de|likearea.com|porn99.net|web.de
 @@||facebook.com^*/plugins/page.php?$domain=cieplikpodrozuje.pl|fashionvoyager.pl|majkrafci.pl|makulscy.com
 @@||facebook.tracking.exposed/images/$image,domain=facebook.tracking.exposed
