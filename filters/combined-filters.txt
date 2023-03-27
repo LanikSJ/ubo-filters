@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: miyFukpqRLf9P9cm6REpDg
+! Checksum: WwzvUYS28jCoHqjMN7jTzA
 ! Title: Ad Domains Filter List
-! Last modified: 2023032001
+! Last modified: 2023032701
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
