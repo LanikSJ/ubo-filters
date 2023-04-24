@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304162258
+! Version: 202304240125
 ! Title: Fanboy's Social Blocking List
-! Last modified: 16 Apr 2023 22:58 UTC
+! Last modified: 24 Apr 2023 01:25 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2345,6 +2345,7 @@ _twittericon.
 ! ------------------------Specific element hiding rules------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 ! ! .share-buttons
+! ! SocialShar
 ! Specific elements because of generichide
 ! Include ubO specific
 ! #include fanboy_social_specific_uBO.txt
@@ -2359,15 +2360,9 @@ _twittericon.
 ! 
 ! ---------- German Site Specific Hiding Rules ----------
 ! 
-||auto-motor-und-sport.de/img/google.svg
-||deutschlandfunk.de^*/icon_sprite.svg
-||deutschlandfunkkultur.de^*/icon_sprite.svg
-||kleiner-kalender.de/static/social-media.html
 ||pipeline.de/socialmedia-icons/
 ||seitzeichen.de^$third-party
 ||social-bookmarking-tools.de^$third-party
-||static.pe.studivz.net^*/library.js$third-party
-||suedtirolnews.it^*/whatsapp.
 ||werkenntwen.de/images/buttons/$third-party
 ! Specific hiding filters necessary for sites allowlisted with $generichide filter option
 ! Focus.de
@@ -2377,7 +2372,6 @@ _twittericon.
 ! 
 ! ---------- French Site Specific Blocking Rules ----------
 ! 
-||nrj-play.fr/js/social.js
 ||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
 ! 
 ! ---------- Arabic Site Specific Hiding Rules ----------
@@ -2387,8 +2381,6 @@ _twittericon.
 ! 
 ||almasryalyoum.com/scripts/sharing.js
 ||qatarradio.qa/images/LB/
-||shabiba.com/images/snapchat-
-||shabiba.com/images/whatsapp-
 ||stjegypt.com/uploads/stjnew.jpg
 ||wilaya-naama.dz/images/%d8%b1%d9%88%d8%a7%d8%a8%d8%b7.png
 ! 
@@ -2432,22 +2424,9 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------- Italian Site Specific Hiding Rules ----------
 ! 
-||agensir.it^*/skinfb2.jpg
-||calciomercato.it/img/notizie/social/
-||condominioweb.com/img_cdw/seguici.png
-||ilmeteo.it^*/BOX%20COMPLETO.
-||ilquotidianodellazio.it/img/mi-piace-
-||lasiciliaweb.it^*/mipiace.gif
-||lavoripubblici.it/images/img-facebook-
-||lavoripubblici.it/images/img-linkedin-
-||lavoripubblici.it/images/img-twitter-
-||mondomobileweb.it^*/mondomobiletelegram.
-||napolimagazine.com^*/iconefooter/
-||napolimagazine.com^*/iconetop/
-||nursetimes.org^*/telegram-banner.
-||papaboys.org^*/scarica-papaboys-
-||quimediaset.it^*/bgToolbar.
-||repstatic.it^*/social.js
+||napolimagazine.com/web/img/iconefooter/
+||napolimagazine.com/web/img/iconetop/
+||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
 ! 
 ! ---------- Japanese Specific Media Elements ----------
 ! 
@@ -2511,7 +2490,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! *** easylist:fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
 ! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
 @@/angular-facebook.js
-@@/social-likes.min.js$script,~third-party,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-abkhazia.ru|sputnik-georgia.com|sputnik-georgia.ru|sputnik-ossetia.com|sputnik-ossetia.ru|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.md|sputniknews-uz.com|sputniknews.cn|sputniknews.gr|sputniknews.kz|sputniknews.lt|sputniknewslv.com
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party
 @@/wp-content/plugins/socialauth-wp/*$~third-party
