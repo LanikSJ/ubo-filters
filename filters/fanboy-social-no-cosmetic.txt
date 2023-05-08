@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305010146
+! Version: 202305080158
 ! Title: Fanboy's Social Blocking List
-! Last modified: 01 May 2023 01:46 UTC
+! Last modified: 08 May 2023 01:58 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1853,6 +1853,12 @@ _twittericon.
 ||stjegypt.com/uploads/stjnew.jpg
 ||wilaya-naama.dz/images/%d8%b1%d9%88%d8%a7%d8%a8%d8%b7.png
 ! 
+! ---------- Bosnian Specific Media Elements ----------
+! 
+! 
+! ---------- Croatian Specific Media Elements ----------
+! 
+! 
 ! ---------- Chinese Specific Media Elements ----------
 ! 
 ||cts.com.tw/images/bot_
@@ -1946,6 +1952,9 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ||russia.tv/js/modules/social-subscriber.js
 ||spynews.ro/templates/default/img/face.png
 ||vestifinance.ru/js/share.js
+! 
+! ---------- Serbian Site Specific Hiding Rules ----------
+! 
 ! 
 ! ---------- Spanish Site Specific Hiding Rules ----------
 ! 
