@@ -1,0 +1,19 @@
+[Adblock Plus 2.0]
+! Checksum: +/U55ebyWvG/YPIjgEu0lw
+! Title: YouTube Anti-Adblock Filter List
+! Last modified: 2023051301
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://opensource.org/licenses/MIT
+!
+! Description: A YouTube Anti-Adblock List from:
+! https://www.ghacks.net/2023/05/12/how-to-bypass-youtubes-anti-ad-blocker-prompt/
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
