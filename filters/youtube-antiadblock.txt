@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: +/U55ebyWvG/YPIjgEu0lw
+! Checksum: 7Das8BpcxhkFGcUejQBcrg
 ! Title: YouTube Anti-Adblock Filter List
-! Last modified: 2023051301
+! Last modified: 2023051302
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -15,5 +15,6 @@
 ! this list, you are accepting these terms and the license.
 !
 youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
 youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])

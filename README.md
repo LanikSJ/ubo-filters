@@ -60,6 +60,7 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 - [Unknown Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/unknown-domains.txt&title=Unknown%20Domains%20Filter%20List)
 - [VideoAdex Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/videoadex-domains.txt&title=VideoAdex%20Domains%20Filter%20List)
 - [VolumeData Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/volumedata-domains.txt&title=VolumeData%20Domains%20Filter%20List)
+- [YouTube Anti-Adblock Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/youtube-antiadblock.txt&title=YouTube%20Anti%2DAdblock%20Filter%20List)
 
 ## FAQ
 
