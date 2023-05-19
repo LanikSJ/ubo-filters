@@ -1,7 +1,6 @@
-[Adblock Plus 2.0]
-! Checksum: LXA8Ed7OSolvnCf5AzuhxQ
 ! Title: Lanik's uBO Filter List
-! Version: 2023050602
+! Checksum: b5tfS0nEjSB/Kg5cdU+wZw
+! Version: 2023051801
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -421,6 +420,7 @@ speedtest.net##.eot-box-wrapper
 speedtest.net##.high-placeholder
 splunk.benevity.org##.c-banners--all_pages.c-banners
 sports.yahoo.com##div[id*="PromoImage-Proxy"]
+stackexchange.com##.js-announcement-banner
 stackoverflow.com###herobox
 stackoverflow.com###hireme
 stackoverflow.com###newsletter-ad
@@ -497,6 +497,8 @@ videolan.org###pub_adsense
 videolan.org##.donate-box.pull-right.navbar-nav.nav
 videolan.org##.sponsors-carousel-wrapper
 vitacost.com##section.flex.section > .flex-side
+w3schools.com###lowerfeatureshowcase
+w3schools.com###upperfeatureshowcase
 walmart.com##.product-promotion-message-wrapper
 walmart.com##.promo-banner
 walmart.narvar.com##card-image
