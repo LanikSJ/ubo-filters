@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: mx6W1eV3XV0HDC4bW77lng
 ! Title: AdMaven Domains Filter List
 ! Last modified: 2021090901

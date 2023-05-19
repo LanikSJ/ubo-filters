@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: 8GRfMJQqQa6nKJf+fViftw
 ! Title: VolumeData Domains Filter List
 ! Last modified: 2020032301

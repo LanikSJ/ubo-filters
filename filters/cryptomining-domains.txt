@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: mu0iPkwmFiPGgKKoCxQ5rg
 ! Title: Crypto Mining Domains Filter List
 ! Last modified: 2023011801

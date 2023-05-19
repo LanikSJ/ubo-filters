@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: cN3VN2u2W0nWx8m4ipF7lg
 ! Title: FreeCounterStat AdServers Domains List
 ! Last modified: 2020032301

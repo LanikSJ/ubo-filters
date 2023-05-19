@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Version: 202305150136
 ! Title: Fanboy's Social Blocking List
 ! Last modified: 15 May 2023 01:36 UTC

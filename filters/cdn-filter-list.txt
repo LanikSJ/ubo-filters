@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: kjR2Gihdqbjtdc7Z1ZkkpQ
 ! Title: CDN Filter List
 ! Last modified: 2020032301

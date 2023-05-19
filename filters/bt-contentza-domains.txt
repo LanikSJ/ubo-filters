@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: 2UUEJTGWk+ZBHWDILijBNA
 ! Title: BT Contentza Domains Filter List
 ! Last modified: 2021090901

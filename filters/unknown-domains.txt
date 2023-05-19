@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: LCl0+ZODPbSZosK45xVraA
 ! Title: Unknown Domains Filter List
 ! Last modified: 2021090901

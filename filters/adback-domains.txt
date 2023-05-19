@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: 2OINw4xSZjzrqiA+XEYb5A
 ! Title: AdBack Domains Filter List
 ! Last modified: 2021090901

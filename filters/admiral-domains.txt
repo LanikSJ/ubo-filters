@@ -1,3 +1,2 @@
-[Adblock Plus 2.0]
 ! Redirect: https://raw.githubusercontent.com/LanikSJ/ubo-filters/master/filters/getadmiral-domains.txt
 !#include getadmiral-domains.txt

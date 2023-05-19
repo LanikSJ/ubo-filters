@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: YbNJGh13KjmsZcB7dKfD5w
 ! Title: TorAdvertising Domains Filter List
 ! Last modified: 2021090901
