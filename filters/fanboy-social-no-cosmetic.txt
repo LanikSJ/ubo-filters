@@ -1,6 +1,7 @@
-! Version: 202305150136
+[Adblock Plus 2.0]
+! Version: 202305220155
 ! Title: Fanboy's Social Blocking List
-! Last modified: 15 May 2023 01:36 UTC
+! Last modified: 22 May 2023 01:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1848,9 +1849,7 @@ _twittericon.
 ! ---------- Arabic Specific Media Elements ----------
 ! 
 ||almasryalyoum.com/scripts/sharing.js
-||qatarradio.qa/images/LB/
 ||stjegypt.com/uploads/stjnew.jpg
-||wilaya-naama.dz/images/%d8%b1%d9%88%d8%a7%d8%a8%d8%b7.png
 ! 
 ! ---------- Bosnian Specific Media Elements ----------
 ! 
