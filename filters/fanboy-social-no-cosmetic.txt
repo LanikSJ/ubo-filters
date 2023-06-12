@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202306050042
+! Version: 202306120207
 ! Title: Fanboy's Social Blocking List
-! Last modified: 05 Jun 2023 00:42 UTC
+! Last modified: 12 Jun 2023 02:07 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1106,6 +1106,7 @@ _twitter_follow.
 /wp-content/plugins/videolock/*$script
 ! ------------------------General element hiding rules-------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_hide.txt ***
+! traveltoblank.com
 ! malayalam.indiatoday.in,aajtak.in,bangla.aajtak.in
 ! element specific
 ! manworldmedia sites
@@ -1290,6 +1291,7 @@ _twitter_follow.
 ! ! .fa-twitter
 ! ! .fa-facebook
 ! ! .facebook
+! ! .pinterest
 ! ! .social-box
 ! ! .follow
 ! ! .instagram
