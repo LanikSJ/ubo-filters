@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: b5tfS0nEjSB/Kg5cdU+wZw
-! Version: 2023051801
+! Checksum: 8V/TMM18jUVZDFIosOoFPQ
+! Version: 2023061701
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -348,6 +348,9 @@ phpbb.com##.forumatic-panel
 phpbb.com##.mini-panel
 pierceytoyota.com##.ad-flipper-image-container
 potterybarn.com##.linkCardBanner
+pressdemocrat.com##.article-rail
+pressdemocrat.com##.rendered.fetching
+pressdemocrat.com##.vf-conversation-starter
 prideradio.iheart.com##.component-pushdown
 pypi.org##.notification-bar
 quay.io##.quay-message-bar
@@ -489,6 +492,8 @@ united.com##.section-eco-skies
 ups.com###ups-alertsWrap
 ups.com##.ups-banner_container
 urbandictionary.com##.mug-ad
+usa.canon.com###bt_invite_box
+usa.canon.com##.bcFloat
 vbattorneys.com##.bottom-right.ccl-slider-bubble
 vbattorneys.com##.ccl-slider-window-body
 vbattorneys.com##.ccl-slider-window-header
