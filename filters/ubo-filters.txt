@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: 8V/TMM18jUVZDFIosOoFPQ
-! Version: 2023061701
+! Checksum: m0yCWiTxuKZJ88V2NMjmHQ
+! Version: 2023070301
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -226,6 +226,7 @@ imgur.com##.cta-content-container
 immuniweb.com##.result-block-tip
 imore.com##.mn_mbn_share
 informaction.com##.badges
+informer.com##.block.featured
 informer.com##.with_label
 inoreader.com###consent_bbb
 inoreader.com###sinner_container
