@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202307240139
+! Version: 202307310142
 ! Title: Fanboy's Social Blocking List
-! Last modified: 24 Jul 2023 01:39 UTC
+! Last modified: 31 Jul 2023 01:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1264,6 +1264,7 @@ _twitter_follow.
 ||naturalnews.com/getviews2.
 ! ------------------------Specific element hiding rules------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
+! ! .share-links
 ! ! .share-buttons
 ! ! .ActionBar
 ! ! .social
