@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: m0yCWiTxuKZJ88V2NMjmHQ
-! Version: 2023070301
+! Checksum: no+8x7KeNHIzU/1Cu3vkCA
+! Version: 2023080101
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -32,7 +32,10 @@
 9to5mac.com##.ninetofive-dronedj.feed-title-bar
 9to5mac.com##aside.trending-wrapper:nth-of-type(1)
 9to5mac.com##div[class*=st5]
+@@||accounts.google.com^$script,domain=hub.flexibits.com
+@@||accounts.google.com^$script,domain=identity.bluehost.com
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
+@@||cjisonline.com^$ghide,~third-party
 @@||connect/assets/js/analytics.js$script,domain=dockercon18.smarteventscloud.com
 @@||googleadservices.com/gpt/pubads^$domain=realtor.com
 @@||googletagmanager.com/gtm.js$script,domain=www.surveymonkey.com
@@ -175,6 +178,7 @@ fortune.com##.video-inner-container
 forum.xda-developers.com##[src*="FDJ-TBO-Banner"]
 forum.xda-developers.com##iframe[src*="youtube.com"]
 forums.att.com##div[class*="promo-tile"]
+forums.rancher.com#@#.btn-social
 foxitsoftware.com###share
 free-scores.com##.rouge
 freshly.com#@#.social-button
