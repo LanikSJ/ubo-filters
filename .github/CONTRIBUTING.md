@@ -68,7 +68,7 @@ git pull
 git switch --create patch/1234-name-issue
 
 # Make your changes and run the checksum script
-./checksum-sort.sh filters/ubo-filters.txt
+./scripts/checksum-sort.sh filters/ubo-filters.txt
 ```
 Check [combined-filters.txt](https://github.com/LanikSJ/ubo-filters/blob/main/filters/combined-filters.txt) to make sure your changes are added.
 
