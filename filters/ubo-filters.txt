@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: no+8x7KeNHIzU/1Cu3vkCA
-! Version: 2023080101
+! Checksum: Oq1ET6/8tSr4i/AjsvqDdA
+! Version: 2023081101
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -126,6 +126,7 @@ creditkarma.com##.cta-non-offer
 cultofmac.com##.adblock-notification-wrapper
 cultofmac.com##.custom-html-widget.textwidget
 cultofmac.com##.modal-dialog
+cyberciti.biz##.card-body
 cyberciti.biz##.widget_text.widget
 darkreader.org##darkreader-backers-header
 darkreader.org##darkreader-backers-side
@@ -236,6 +237,8 @@ inoreader.com###consent_bbb
 inoreader.com###sinner_container
 instacart.com##.css-1vozgit-ExpressOverHeaderAsync
 instagram.com##.R4HNP
+instances.vantage.sh##.vantage
+instances.vantage.sh##[src="/kubernetes-icon.svg"]
 iworldhost.com##.lazyloaded
 jackbox.tv###banners-region
 jalopnik.com###newsletterPromoModule
@@ -367,6 +370,8 @@ rd.com##.jw-wrapper
 realtor.facebook.com###work_mobile_upsell_pagelet
 reddit.com##.googad.box_ad.adsense-ad.ads-area
 reddit.com##.side-message
+redhat.com##.cta-image__field-body-text
+redhat.com##.cta-image__field-cta-button
 ronniesawesomelist.com##.sqs-slide-layer-content
 rvm.io###carbon_ads_box
 rvm.io###sponsors
