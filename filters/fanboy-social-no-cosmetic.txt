@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308280215
+! Version: 202309032355
 ! Title: Fanboy's Social Blocking List
-! Last modified: 28 Aug 2023 02:15 UTC
+! Last modified: 03 Sep 2023 23:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -654,6 +654,8 @@
 /shareit.
 /shareit_
 /sharelike.
+/shareon.iife.js
+/shareon.min.css
 /sharePost/*
 /sharer.js
 /shares/batch?
@@ -1260,6 +1262,7 @@ _twitter_follow.
 ||zextit.com/partners/$third-party
 ! --------------------------Specific blocking filters--------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_block.txt ***
+||ipaddress.com/shariff/
 ||naturalnews.com/getviews2.
 ! ------------------------Specific element hiding rules------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
