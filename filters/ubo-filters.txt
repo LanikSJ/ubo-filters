@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: Oq1ET6/8tSr4i/AjsvqDdA
-! Version: 2023081101
+! Checksum: 1zHpSSyF/OvVVn6cQJkoUw
+! Version: 2023090601
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -96,6 +96,9 @@ blogheist.com##.bh-manual-ads
 blogheist.com##.sidebar-banner
 bmc.com###FreeTrialBMCHelixITSM
 boastr.net##.pea_cook_bottomright.pea_cook_wrapper
+bobcares.com##.custom-html-widget.textwidget
+bobcares.com##.et_section_regular.et_pb_inner_shadow
+bobcares.com##div[class*="nitro-offscreen"]
 buydig.com###socialLinks
 buydig.com###topHeader_divTwitter
 canonscannerdrivers.com##.bok.widget_text
@@ -170,6 +173,7 @@ fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
 fivethirtyeight.com##.sidebar-feature-espn
 fmovie.sc##.alert-warning.alert
+fontawesome.com##.wrap-ad
 food.walla.co.il##aside
 footwearnews.com##.jw-reset.jw-wrapper
 footwearnews.com##.pmc-contextual-player
@@ -182,6 +186,7 @@ forums.att.com##div[class*="promo-tile"]
 forums.rancher.com#@#.btn-social
 foxitsoftware.com###share
 free-scores.com##.rouge
+freeimages.com###istock-plans-banner
 freshly.com#@#.social-button
 freshly.com#@#.social-nav
 frugaltravelguy.com###advps_container3
@@ -273,6 +278,7 @@ lookup.robokiller.com###ctaPopup
 lookup.robokiller.com###ctaPopupContainer
 lookup.robokiller.com##.robokiller-callout-details
 luckyvitamin.com##.shipping-form-box
+lundberg.com###insta-feed
 macupdate.com###app-collections-box
 macupdate.com###bundle-stickyscroll
 macupdate.com###carousel
@@ -378,6 +384,8 @@ rvm.io###sponsors
 salary.com##.sa-adunit-display
 sanfrancisco.cbslocal.com###app-promo-wrapper
 savemp3.cc##.audio-recorder
+scaleitup.pagerduty.com##div[class*="styles_nurtureBar"]
+scaleitup.pagerduty.com##div[class*="styles_reactNurtureBar"]
 scmagazine.com##.article-ad-slot
 secure-www.gap.com##.marketing-banner-wrapper
 secure.newegg.com###amexBanner
@@ -438,6 +446,7 @@ stackoverflow.com###herobox
 stackoverflow.com###hireme
 stackoverflow.com###newsletter-ad
 stackoverflow.com##.community-bulletin.module
+stackoverflow.com##.js-announcement-banner
 stackoverflow.com##.js-dismissable-hero._fixed.hero-container.s-hero
 stackoverflow.com##.survey-announcement.hero-box
 support.avast.com##.vertical.support-banner
