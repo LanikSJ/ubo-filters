@@ -1,6 +1,6 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: Dw6wzbBLzeXmem/q+tACnQ
-! Last modified: 2023090401
+! Checksum: B0U8KeiwpcnIQ4C95m0aXA
+! Last modified: 2023091101
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
