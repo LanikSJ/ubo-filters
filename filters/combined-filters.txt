@@ -1,6 +1,6 @@
 ! Title: Ad Domains Filter List
-! Checksum: oSGaAFpXWS2dzjVkiG/Fyw
-! Last modified: 2023091101
+! Checksum: TP5wdniZxJ3Rd5ZT89XTfg
+! Last modified: 2023091801
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
