@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309180148
+! Version: 202309250142
 ! Title: Fanboy's Social Blocking List
-! Last modified: 18 Sep 2023 01:48 UTC
+! Last modified: 25 Sep 2023 01:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -535,8 +535,6 @@
 /share_facebook.
 /share_facebook_
 /share_iframe.
-/share_link/*
-/share_link_
 /share_linkedin_
 /share_pinterest-
 /share_popup.
