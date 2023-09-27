@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: R+vbD9Ysjc7m5Z04DYRwkg
-! Version: 2023092601
+! Checksum: YNEdZn8PV9IrooCUgIPlGg
+! Version: 2023092701
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -160,6 +160,7 @@ dslreports.com##.fb-share-button
 eater.com###newsletter-signup-short-form
 eater.com###rock-
 eatsweetnothings.com###coopcommerce
+ecospaints.net##.us_consent_banner
 edgecast.com###ctl00_pnlPromotionTeaserContainer
 eftm.com##.wp-post-image.size-full.attachment-full
 electrek.co##div[class*="thd"]
