@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310020045
+! Version: 202310090103
 ! Title: Fanboy's Social Blocking List
-! Last modified: 02 Oct 2023 00:45 UTC
+! Last modified: 09 Oct 2023 01:03 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -745,7 +745,7 @@
 /socialappsintegrator.
 /socialbadges.
 /socialbar-
-/socialbar.
+/socialbar.$~stylesheet
 /socialbar_
 /socialBarSprite.
 /SocialBookmark/*
@@ -1335,7 +1335,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||iconfinder.com/data/icons/$~third-party
 @@||iconizer.net/files/*_social_$image
 @@||iconspedia.com/icon/$image,~third-party
-@@||ilmessaggero.it/modules/socialbar/socialbar.css?$~third-party
 @@||inscience.news/svc/getscript.aspx$script,~third-party
 @@||instagram.com/p/$subdocument,third-party
 @@||jsdelivr.net/npm/sharer.js
