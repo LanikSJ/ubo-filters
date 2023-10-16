@@ -1,7 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202310160115
+! Checksum: AeL2vaDZtzTvTBlHZbThDw
+! Version: 202310160604
 ! Title: Fanboy's Social Blocking List
-! Last modified: 16 Oct 2023 01:15 UTC
+! Last modified: 2023-10-16 06:04 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
