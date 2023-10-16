@@ -10,7 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+      - uses: shogo82148/actions-setup-perl@v1
+        with:
+          perl-version: '5.38'
+          install-modules-with: cpanm
+          install-modules-args: --with-develop --with-configure
+      - run: prove -lv t
+      
       - name: Download Admiral List
         run: |
           scripts/admiral-domains.sh
