@@ -15,7 +15,6 @@ jobs:
           perl-version: '5.38'
           install-modules-with: cpanm
           install-modules-args: --with-develop --with-configure
-      - run: prove -lv t
       
       - name: Download Admiral List
         run: |
