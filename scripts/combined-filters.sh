@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd filters
+cd filters || exit
 cp template.txt combined-filters.txt
 
 more adback-domains.txt |grep -v ! >> combined-filters.txt
