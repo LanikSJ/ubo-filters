@@ -53,6 +53,9 @@ build-iPhoneSimulator/
 # PyCharm
 .idea
 
+# Perl
+local/
+
 # pyfunceble
 output/
 dir_structure.json
