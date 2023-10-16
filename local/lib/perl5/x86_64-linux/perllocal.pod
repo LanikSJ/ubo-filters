@@ -1,0 +1,22 @@
+=head2 Mon Oct 16 05:04:52 2023: C<Module> L<Path::Tiny|Path::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /home/runner/work/ubo-filters/ubo-filters/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.144>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
