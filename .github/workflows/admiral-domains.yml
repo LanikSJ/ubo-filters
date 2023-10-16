@@ -2,7 +2,7 @@ name: Admiral Domains List
 
 on:
   schedule:
-    - cron: '30 2 * * 1'
+    - cron: '30 0 * * 1'
   workflow_dispatch:
 
 jobs:
@@ -13,6 +13,8 @@ jobs:
       - uses: shogo82148/actions-setup-perl@v1
         with:
           perl-version: '5.38'
+          install-modules: |
+            Path::Tiny
           install-modules-with: cpanm
           install-modules-args: --with-develop --with-configure
       
