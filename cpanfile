@@ -1,1 +1,1 @@
-requires 'Path:Tiny';
+requires 'Path::Tiny';
