@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-date=$(date +%Y%m%d)
 cd filters
 cp template.txt combined-filters.txt
-sed -i "s/2020032301/"$date"01/g" combined-filters.txt
 
 more adback-domains.txt |grep -v ! >> combined-filters.txt
 more adkeeper-domains.txt |grep -v ! >> combined-filters.txt
