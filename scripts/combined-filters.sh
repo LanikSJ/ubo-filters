@@ -2,6 +2,7 @@
 
 cd filters || exit
 cp template.txt combined-filters.txt
+cpan install Path:Tiny
 
 more adback-domains.txt | grep -v ! >>combined-filters.txt
 more adkeeper-domains.txt | grep -v ! >>combined-filters.txt
