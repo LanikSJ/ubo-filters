@@ -15,8 +15,6 @@ jobs:
           perl-version: '5.38'
           install-modules: |
             Path::Tiny
-          install-modules-with: cpanm
-          install-modules-args: --with-develop --with-configure
 
       - name: Update Combined Filters
         run: |
