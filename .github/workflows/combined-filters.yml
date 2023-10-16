@@ -1,4 +1,4 @@
-name: Combined Filters List
+name: combined-filters-list
 
 on:
   schedule:

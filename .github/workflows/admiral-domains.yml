@@ -1,4 +1,4 @@
-name: Admiral Domains List
+name: admiral-domains-list
 
 on:
   schedule:
