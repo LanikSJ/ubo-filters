@@ -18,8 +18,7 @@ jobs:
 
       - name: Download Fanboy Social
         run: |
-          cd filters
-          curl -L https://easylist.to/easylist/fanboy-social.txt |grep -Ev '##|#@' > fanboy-social-no-cosmetic.txt
+          scripts/fanboy-social.sh
 
       - name: Create Pull Request
         id: cpr
