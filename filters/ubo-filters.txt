@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: YNEdZn8PV9IrooCUgIPlGg
-! Version: 2023092701
+! Checksum: jR1Bna7xgCkDU9qAezQ0jg
+! Version: 202310180700
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -32,8 +32,7 @@
 9to5mac.com##.ninetofive-dronedj.feed-title-bar
 9to5mac.com##aside.trending-wrapper:nth-of-type(1)
 9to5mac.com##div[class*=st5]
-@@||accounts.google.com^$script,domain=hub.flexibits.com
-@@||accounts.google.com^$script,domain=identity.bluehost.com
+@@||accounts.google.com^$script
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
 @@||cjisonline.com^$ghide,~third-party
 @@||connect/assets/js/analytics.js$script,domain=dockercon18.smarteventscloud.com
@@ -114,6 +113,7 @@ cnbc.com###social_bar_top_gig_containerParent
 cnbc.com##.PageHeader-background.PageHeader-main
 cnet.com###flyoutPromo
 cnet.com###topicPlayerContainer
+cnet.com##.c-articleLinkBlock
 cnet.com##.entered.dock.inviewElement
 cnet.com##.featuredVideo
 codeproject.com##img[src^="data:image/png;"]
@@ -491,6 +491,7 @@ thehackernews.com###HTML6
 thehackernews.com##.social-buttons
 theonion.com##.pinned.ad-block-alt.newsletter-signup
 theonion.com##.rail-player
+ticketsatwork.com##.li_clickable.li_stickybar.li_parent
 timeanddate.com###ad300
 tomato.groov.pl###sidebar-over-blog
 tomsguide.com###affiliateDisclaimer
