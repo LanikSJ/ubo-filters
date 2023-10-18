@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: +gimE9Sjr0hmkIigI8bhzg
-! Version: 202310180729
+! Checksum: noUkEF5Mq1d98DV4KxCGDw
+! Version: 202310181755
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -257,6 +257,8 @@ kickstarter.com###break-kickstarter-banner
 kickstarter.com##.break-ksr-container
 krebsonsecurity.com##.widget_sp_image
 krebsonsecurity.com##[src*="akamai"]
+kron4.com##.ns-video-bin
+kron4.com##.nxs-player-wrapper
 latimes.com##.trb_bnn
 learnpython.org###google-ad-right
 lg.com##.pc.new-quick-menu
@@ -606,6 +608,7 @@ zdnet.com##.content-bottom-leaderboard
 ||jasonsavard.com/images/promos/$image
 ||jenkins-infra.github.io/patron/$subdocument
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
+||kron4.com/wp-content/uploads/*App-QR-Code-FS-FLOWCODE.jp*$image
 ||media-amazon.com/images/*Clinic/TYP/AC_TYP_Desktop$image
 ||media-amazon.com/images/*Georgetown/Shoes$image
 ||media-amazon.com/images/*gift-certificates/consumer/*/Campaign/*.jpg$image
