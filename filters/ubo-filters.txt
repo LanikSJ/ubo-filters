@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: jR1Bna7xgCkDU9qAezQ0jg
-! Version: 202310180700
+! Checksum: +gimE9Sjr0hmkIigI8bhzg
+! Version: 202310180729
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -107,7 +107,6 @@ carbonite.com###notice
 care.siriusxm.com##.upsell-container
 careers.zoom.us##.header-banner1
 cbc.ca##.notice.banner
-cd.splunkdev.com##.resize-observer
 citytoyota.com##.footer-incentive
 cnbc.com###social_bar_top_gig_containerParent
 cnbc.com##.PageHeader-background.PageHeader-main
