@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gHF8kad8JBxqyQRi9ABzzg
-! Version: 202310230220
+! Checksum: 8jEeyDuFonlBg7ciWFNRdw
+! Version: 202310300220
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2023-10-23 02:20 UTC
+! Last modified: 2023-10-30 02:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -147,11 +147,8 @@
 /btnFoursquare.
 /btnShareSprite.
 /btnsSocialMedia.
-/btnTwitter.
 /button1-share.
 /button_custom_twitter.
-/button_facebook.
-/button_pinterest.
 /button_share.
 /button_social_
 /bwSocialIcons.
