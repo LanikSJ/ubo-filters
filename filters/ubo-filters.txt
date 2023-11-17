@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: noUkEF5Mq1d98DV4KxCGDw
-! Version: 202310181755
+! Checksum: KRdoXEteb0ohfMDususujA
+! Version: 202311170526
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -122,6 +122,7 @@ community.spiceworks.com##.join-footer.sui-opt-in
 concursolutions.com##.notification-inline.notification-widget
 console.aws.amazon.com#@#.cookies
 copart.com##[href^="/vehicleAlerts/"]
+cosentino.com##.banner-hybriq.row
 costco.com###email-popup-title
 costcoauto.com###research-moibanner
 creditkarma.com##.cta-non-offer
