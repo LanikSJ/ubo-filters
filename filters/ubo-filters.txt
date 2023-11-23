@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: KRdoXEteb0ohfMDususujA
-! Version: 202311170526
+! Checksum: D5CkNq8BOA+13XscSrolYg
+! Version: 202311231040
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -222,6 +222,8 @@ groupon.com###goods-lightning-flash
 groupon.com###in-app-messages
 groupon.com###subscribe-banner
 groupon.com##.footer-widgets.ls-col
+groupon.com##.gifting-section
+groupon.com##.voucher-banner-container
 gsmarena.com###subHeader
 hellocodeclub.com##.ctct-popup-form
 holyprofweb.com##.whatsapp-block__button
