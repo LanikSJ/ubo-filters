@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: D5CkNq8BOA+13XscSrolYg
-! Version: 202311231040
+! Checksum: m71FgyvTFjcDeqfLynEcSg
+! Version: 202311300002
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -572,6 +572,7 @@ www.amazon.com##.threepsl-footer
 www.amazon.com##div[class*="adsOverlayClick"]
 www.amazon.com##div[class*="desktopAd"]
 www.amazon.com##div[class*="DesktopFlexBanner"]
+www.amazon.com##div[class*="one-click-music-offer-card"]
 www.google.com###rhs > block-component
 www.i-dont-care-about-cookies.eu###sidebar
 xamarinhowto.com##.custom-html-widget
