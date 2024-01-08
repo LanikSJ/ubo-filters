@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UqKa+o6R9mLatNC/fKSobw
-! Version: 202401010230
+! Checksum: 827seCsKiKokD288Tsp/xA
+! Version: 202401080226
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-01-01 02:30 UTC
+! Last modified: 2024-01-08 02:26 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -941,6 +941,7 @@ _twitter_follow.
 ! ABP-specific fixes
 ! Sorted alphabetically by the domain
 relationshiphero.com#?#div:-abp-has(+ .socialIcons)
+viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://whatsapp.com"])
 ! ------------------------Rules for international sites------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_international.txt ***
 ! 
