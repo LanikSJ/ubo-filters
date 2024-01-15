@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 827seCsKiKokD288Tsp/xA
-! Version: 202401080226
+! Checksum: TJ0HzptrTpGufstoJEo2OQ
+! Version: 202401150229
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-01-08 02:26 UTC
+! Last modified: 2024-01-15 02:29 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -17,6 +17,7 @@
 ! 
 ! --------------------------General blocking rules-----------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_block.txt ***
+! fanboy_social_general_block.txt
 -buttons-facebook.
 -buttons-twitter.
 -facebook-likeButton-
@@ -734,6 +735,7 @@ _twitter_follow.
 /wp-content/plugins/videolock/*$script
 ! ------------------------General element hiding rules-------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_hide.txt ***
+! fanboy_social_general_hide.txt
 ! traveltoblank.com
 ! malayalam.indiatoday.in,aajtak.in,bangla.aajtak.in
 ! element specific
@@ -745,6 +747,7 @@ _twitter_follow.
 ! Amazon sites
 ! -------------------------Third-party blocking rules--------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_thirdparty.txt ***
+! fanboy_social_thirdparty.txt
 ||addnow.com^$third-party
 ||addthis.com^$third-party
 ||addthiscdn.com^$domain=~addthis.com
@@ -891,11 +894,13 @@ _twitter_follow.
 ||zextit.com/partners/$third-party
 ! --------------------------Specific blocking filters--------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_block.txt ***
+! fanboy_social_specific_block.txt
 ||ipaddress.com/shariff/
 ||naturalnews.com/getviews2.
 ||people.com.cn/img/2020fenxiang/
 ! ------------------------Specific element hiding rules------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
+! fanboy_social_specific_hide.txt
 ! ! .share-links
 ! ! .share-buttons
 ! ! .ActionBar
@@ -938,12 +943,13 @@ _twitter_follow.
 ! Include ubO specific
 ! #include fanboy_social_specific_uBO.txt
 ! *** easylist:fanboy-addon/fanboy_social_specific_ABP.txt ***
-! ABP-specific fixes
+! fanboy_social_specific_ABP.txt
 ! Sorted alphabetically by the domain
 relationshiphero.com#?#div:-abp-has(+ .socialIcons)
 viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://whatsapp.com"])
 ! ------------------------Rules for international sites------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_international.txt ***
+! fanboy_social_international.txt
 ! 
 ! ---------- Non-English Social Media Elements ----------
 ! 
@@ -1083,7 +1089,9 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------------------------------Allowlists----------------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
+! fanboy_social_allowlist_general_hide.txt
 ! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
+! fanboy_social_allowlist.txt
 @@/angular-facebook.js
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party
