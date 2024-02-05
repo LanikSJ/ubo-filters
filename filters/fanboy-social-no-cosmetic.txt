@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F3MqDRKg7U0xtijw/lLFCA
-! Version: 202401290218
+! Checksum: IY795cvBvEkC6ZM+Pl+6Cw
+! Version: 202402050225
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-01-29 02:18 UTC
+! Last modified: 2024-02-05 02:25 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -29,11 +29,6 @@
 -follow-icons.
 -follow-us-icons.
 -followicons.
--footer-igram.
--footer-social-
--footer-social.
--footer-youtube-
--footer_social.
 -redes-facebook.
 -redes-gplus.
 -redes-instagram.
@@ -239,47 +234,6 @@
 /follow/YouTube-
 /follow_instagram.
 /followusontwitter.
-/footer-facebook-
-/footer-facebook.
-/footer-fb-
-/footer-google-
-/footer-google.
-/footer-instagram-
-/footer-Instagram.
-/footer-linkedin-
-/footer-linkedin.
-/footer-pintrest.
-/footer-twitter-
-/footer-twitter.
-/footer-vk-
-/footer-youtube-
-/footer/facebook-
-/footer/facebook.
-/footer/facebook_
-/footer/instagram-
-/footer/instagram.
-/footer/linkedin.
-/footer/pinterest.
-/footer/social-
-/footer/social/*
-/footer/social_
-/footer/twit-
-/footer/twitter-
-/footer/twitter.
-/footer/twitter_
-/footer/youtube.
-/footer_facebook.
-/footer_pinterest-
-/footer_sociale.
-/footer_socials_
-/footer_twitter.
-/footer_twitter_
-/footer_youtube.
-/footerFacebookIcon.
-/footerSocialIcons.
-/footerSocialNet2.
-/footerSocialSprite.
-/footerTwitterIcon.
 /gadgets/Social/*
 /gallery/social/*$image
 /gen-share-master/assets/js/frontend/application.min.js
@@ -320,8 +274,6 @@
 /likefacebook.png
 /likegate.js
 /likesScript.js
-/linkedin_footer.jpg
-/linkedin_footer.png
 /mod_socialmedialinks/icons/*
 /mod_socialmedialinks/style.css
 /mod_socialslider/tmpl/*
