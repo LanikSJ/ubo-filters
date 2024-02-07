@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: XB806XsZEYEfbdYf7DDcyg
-! Version: 202401160447
+! Checksum: gh5+kYFXX20pd+Vzf0ohPg
+! Version: 202402072310
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -91,6 +91,7 @@ bloggingqna.com##.lazyloaded.entered.size-full.attachment-full
 bloggingqna.com##[href*="bloggingqna.com/go/jasper/"]
 blogheist.com##.bh-manual-ads
 blogheist.com##.sidebar-banner
+blueboard.com##div[class*="NotificationBanner"]
 bmc.com###FreeTrialBMCHelixITSM
 boastr.net##.pea_cook_bottomright.pea_cook_wrapper
 bobcares.com##.custom-html-widget.textwidget
@@ -327,6 +328,7 @@ mxtoolbox.com###supertool_ad_variation
 my.ooma.com###banner_container
 my.paddle.com###suggestedScroll
 mypassportphotos.com##.facebook_discount
+mypolicy.csaa-insurance.aaa.com##.MuiAlert-standardWarning.MuiAlert-root
 mysms.com###cookie
 nakedsecurity.sophos.com##.newsletter-panel
 newegg.com##img[src*="promotions.newegg.com"]
@@ -508,6 +510,7 @@ tomsguide.com##.related-articles-block
 tomsguide.com##.sticky-player-background
 toyotanation.com##.js-notices
 toyotasunnyvale.com##.kbb-banner
+tp-link.com##.widget-sticker-right-middle
 tracking.getconvey.com##.hero-clickthrough-enabled
 tutsplus.com##div[class*="tether"]
 uberpeople.com##.hiddenResponsiveNarrow
