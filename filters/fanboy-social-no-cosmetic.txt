@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qmuKcOdJ/WIiUXB6jXUXJw
-! Version: 202402120219
+! Checksum: Jbvg7w7D7yfS7xV38cODWg
+! Version: 202402190219
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-02-12 02:19 UTC
+! Last modified: 2024-02-19 02:19 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -644,7 +644,6 @@
 /widgets/twitter/*
 /win-sm-icons.
 /wordpress-popup/*$domain=ahchealthenews.com
-/wp-content/*/social_$~stylesheet
 /wp-content/plugins/advanced-facebook-content-locker/*
 /wp-followme/*
 /wp-social-media-
@@ -863,6 +862,7 @@ _twitter_follow.
 ! ! .socials
 ! ! .social-icons
 ! ! .article-share
+! ! .social-share
 ! ! .shares
 ! ! .sharing
 ! ! .social-bar
