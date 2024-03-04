@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Piootb0/bhYvIELlC2iuDg
-! Version: 202402260221
+! Checksum: 2HXwOKePE0KiHpIVBOuEnQ
+! Version: 202403040257
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-02-26 02:21 UTC
+! Last modified: 2024-03-04 02:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -851,6 +851,7 @@ _twitter_follow.
 ! ------------------------Specific element hiding rules------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 ! fanboy_social_specific_hide.txt
+! ! .social-sharing
 ! ! .share-links
 ! ! .share-buttons
 ! ! .ActionBar
