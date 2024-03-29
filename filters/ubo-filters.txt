@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: XmSrhOOQ9iGbstc12lTLyw
-! Version: 202402292139
+! Checksum: OJdlEv6k/2rU6KqhoEuKTg
+! Version: 202403292136
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -51,6 +51,7 @@ akc.org##.jw-reset.jw-wrapper
 alaskaair.com###InstantCreditAd
 americastire.com##div[class*="footer__footer-zone"]
 americastire.com##div[class*="order-summary__apply-now"]
+amzwatcher.com##.sc-optin-content
 andriodapk.com##.col-md-8 > div:nth-of-type(2)
 andriodapk.com##.post-sidebar-box > div
 andriodapk.com##.text-center.well-lg.well
@@ -167,6 +168,10 @@ edgecast.com###ctl00_pnlPromotionTeaserContainer
 eftm.com##.wp-post-image.size-full.attachment-full
 electrek.co##div[class*="thd"]
 electricbikereview.com##.ar-notices.container
+eliteseller.com##.cookie_active.cookie
+eliteseller.com##[href*="/demo"]
+eliteseller.com##[href*="/pricing"]
+eliteseller.com##figure.size-full
 en.wikipedia.org###siteNotice
 expedia.com###join-rewards-banner
 fakespot.com##.brads-deal
@@ -375,6 +380,7 @@ pressdemocrat.com##.article-rail
 pressdemocrat.com##.rendered.fetching
 pressdemocrat.com##.vf-conversation-starter
 prideradio.iheart.com##.component-pushdown
+process.st##.inArticleCta
 pypi.org##.notification-bar
 quay.io##.quay-message-bar
 quora.com##div[class*="DesktopMessagesDock"]
