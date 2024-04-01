@@ -1,6 +1,6 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: +R+a3UTRcTJzInBw+8QuEQ
-! Last modified: 2023-12-11 01:39 UTC
+! Checksum: jxWSbaUCXjJbPZNLkrpRKg
+! Last modified: 2024-04-01 01:39 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -615,6 +615,7 @@
 ||hoplaugh.com^
 ||horsenectar.com^
 ||hosenews.com^
+||hospitablehall.com^
 ||humdrumhat.com^
 ||hurtgrape.com^
 ||hurtteeth.com^
@@ -752,6 +753,7 @@
 ||modifyeyes.com^
 ||modularmental.com^
 ||moldyicicle.com^
+||moorshoes.com^
 ||motionflowers.com^
 ||motionlessbag.com^
 ||motionlessbelief.com^
