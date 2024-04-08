@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JP8VBq54jQEDrkESGrQmtw
-! Version: 202404010226
+! Checksum: WPLDHgnHz7VLyfgBAeFjdQ
+! Version: 202404080222
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-04-01 02:26 UTC
+! Last modified: 2024-04-08 02:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -922,6 +922,7 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! 
 ! ---------- French Site Specific Blocking Rules ----------
 ! 
+||lequipe.fr/_nuxt/Share.
 ||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
 ! 
 ! ---------- Arabic Site Specific Hiding Rules ----------
