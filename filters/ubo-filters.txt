@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: OJdlEv6k/2rU6KqhoEuKTg
-! Version: 202403292136
+! Checksum: WnHdM5EoTyhHI2iB+8bg2A
+! Version: 202404160718
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -209,6 +209,7 @@ gasbuddy.com##[href^="https://enroll.gasbuddy.com"]
 geeksforgeeks.org###secondary
 geekwire.com###sponsored-footer
 git-scm.com###banner
+git-tower.com##.incentive-download
 git-tower.com##div[id*="fn-popup"]
 github.com##.js-vote-banner
 github.com,reddit.com,twitter.com##.action-brave-tip
@@ -326,6 +327,7 @@ mightytext.net###ad-block-holder
 mightytext.net###alert-bottom-right-corner
 mightytext.net###crx-install
 mightytext.net###share-button-main[href="#"]
+mindmajix.com##[href*="bit.ly"]
 money.cnn.com###before-the-bell-newletter-mod
 money.cnn.com###js-TosPrivacy
 money.cnn.com###smartassetcontainer
@@ -425,6 +427,7 @@ shutterfly.com##.PromoBanner
 shutterfly.com##.PromoCarousel
 sierranevadacheese.com#@##privacy_policy
 signin.aws.amazon.com###marketingimagelink
+simplilearn.com##div.engagingGroupBanner
 slashdot.org###announcement
 slickdeals.net###logoarea
 slickdeals.net###rightRailAds
@@ -507,6 +510,7 @@ theonion.com##.pinned.ad-block-alt.newsletter-signup
 theonion.com##.rail-player
 ticketsatwork.com##.li_clickable.li_stickybar.li_parent
 timeanddate.com###ad300
+tmo.report###directad
 tomato.groov.pl###sidebar-over-blog
 tomsguide.com###affiliateDisclaimer
 tomsguide.com##.full.container.trending-bar
