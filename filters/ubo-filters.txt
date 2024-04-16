@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: IP7xx1uCuvVQi/1N4ayeaA
-! Version: 202404160732
+! Checksum: Gdwc+OkaQTq0u2RCy04PRw
+! Version: 202404160800
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -517,6 +517,11 @@ thehackernews.com###HTML6
 thehackernews.com##.social-buttons
 theonion.com##.pinned.ad-block-alt.newsletter-signup
 theonion.com##.rail-player
+thesoftware.shop##.mediad
+thesoftware.shop##.nextPostBox
+thesoftware.shop##.prevPostBox
+thesoftware.shop##.stickyscroll_widget
+thesoftware.shop##.woocommerce
 ticketsatwork.com##.li_clickable.li_stickybar.li_parent
 timeanddate.com###ad300
 tmo.report###directad
