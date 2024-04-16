@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: WnHdM5EoTyhHI2iB+8bg2A
-! Version: 202404160718
+! Checksum: IP7xx1uCuvVQi/1N4ayeaA
+! Version: 202404160732
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -343,6 +343,13 @@ mysms.com###cookie
 nakedsecurity.sophos.com##.newsletter-panel
 newegg.com##img[src*="promotions.newegg.com"]
 news.theregistrysf.com##.gofollow
+news.ycombinator.com###hnmain td[bgcolor="#000000"]
+news.ycombinator.com###hnmain:remove-attr(bgcolor)
+news.ycombinator.com##:matches-path("/item") tbody:style(background: #dbdbdb)
+news.ycombinator.com##body:style(background: #e6e6e6)
+news.ycombinator.com##div.toptext:style(color: black)
+news.ycombinator.com##html:style(filter:invert(100%) hue-rotate(180deg))
+news.ycombinator.com##tbody:style(background: #e6e6e6)
 nextdoor.com##.css-s890sm
 nordstrom.com##.footer-story-tile
 nordstrom.com##a[href^="/browse/diversity-at-nordstrom"]
@@ -444,6 +451,8 @@ slideshare.net##.tos-update-banner.j-tos-update-banner
 sling.com##a[href^="/account/promo_event"]
 snowdays.com###coopcommerce
 software.informer.com##img[src*="restaurants.infcdn.net"]
+soundcloud.com##.stream .stream__list span.sc-ministats-reposts:upward(li.soundList__item)
+soundcloud.com##.userStream .userStream__list span.sc-ministats-reposts:upward(li.soundList__item)
 sourceforge.net###newsletter-floating
 sourceforge.net##div[class*="newsletter_subscribe"]
 speckyboy.com###widget-125ads
