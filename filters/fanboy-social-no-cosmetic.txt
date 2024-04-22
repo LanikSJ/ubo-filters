@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cI6xa79ZEW+kqezBjGeUKw
-! Version: 202404150405
+! Checksum: 25jK3wBDXQmRqBzKkySXJg
+! Version: 202404220223
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-04-15 04:05 UTC
+! Last modified: 2024-04-22 02:23 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1056,6 +1056,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||3obieg.pl/wp-content/themes/sowe/css/content/$image
 @@||adguard.com/public/Adguard/Blog/Android/comparison/facebook_$image,domain=adguard.com
 @@||ahaan.co.uk^$~third-party,xmlhttprequest
+@@||answers.ros.org/m/default/media/images/socialsprite.png$~third-party
 @@||app.conceptboard.com^*/SocialIcons.js$xmlhttprequest
 @@||app.veggly.net/plugins/cordova-plugin-x-socialsharing/$script,~third-party
 @@||arcgis.com/apps/Nearby/app/components/Share/$~third-party
