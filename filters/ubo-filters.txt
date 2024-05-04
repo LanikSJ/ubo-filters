@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: Gdwc+OkaQTq0u2RCy04PRw
-! Version: 202404160800
+! Checksum: R6DWHPWbVHzuC6+09R0iXA
+! Version: 202405040021
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -181,6 +181,7 @@ fedex.com##img[src*="/images/targeted/"]
 fidelity.com##.nb-ui-arc--feia.nb-ui-arc--centered.nb-ui-arc
 fitbit.com##.wrapper-header-fma
 fivethirtyeight.com##.sidebar-feature-espn
+flooranddecor.com###insync-chat-preview-module-icon-id
 fmovie.sc##.alert-warning.alert
 fontawesome.com##.wrap-ad
 food.walla.co.il##aside
