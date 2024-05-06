@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lmb6OFSZRvhUt96v3bJGCw
-! Version: 202404290223
+! Checksum: b9Fcotz6Hx1ylmn6b7iLBw
+! Version: 202405060227
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-04-29 02:23 UTC
+! Last modified: 2024-05-06 02:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -217,6 +217,8 @@
 /plugins/sme-facebook-likebox-sidebar/*
 /plugins/sociable-re/images/*
 /plugins/sociable/*$~stylesheet
+/plugins/social-media-widget/*$image
+/plugins/social-profiles-widget/*$image
 /plugins/socialbox/assets/*
 /plugins/socialfans-counter/assets/js/socialfans-script.js
 /plugins/socialgrid/static/img/*
@@ -333,37 +335,22 @@
 /soc_facebook2.
 /socbutton/*
 /sociables/*
-/social-badges.
-/social-bar-
 /social-bar.
-/social-bookmark.
-/social-bookmarks/*
-/social-footer.
-/social-media-widget/*$~stylesheet
-/social-network-icons-
-/social-networks-icon.
-/social-overlay-
-/social-plugin/*
-/social-plugins.
+/social-footer.jpg
+/social-footer.png
 /social-popup/*
-/social-profiles-widget/*$~stylesheet
 /social-proof-testimonials-slider/admin/js/slick-block-editor.js
-/social-search-
-/Social-Sidebar.
-/social-twit.
-/social-url-generator.
+/Social-Sidebar.js
+/social-twit.png
+/social-twit.svg
+/social-url-generator.js
+/social-url-generator.minc.js
 /social-widgets-
-/social.icon.
-/social/bar?
-/social/footerIcons.
 /social/sprite-
 /social2s.min.js
-/social_badges/*
-/social_badges_
 /social_balloon-
 /social_black/*
-/social_bookmark_icons/*
-/social_bookmarking.
+/social_bookmarking.png
 /social_bookmarking/*$image
 /social_bookmarks/*
 /social_footer.
