@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LP5idwG+yV8uxDctUP4eOQ
-! Version: 202405130227
+! Checksum: YCn0rBdzb3hyzh3q+GgTJw
+! Version: 202405200228
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-05-13 02:27 UTC
+! Last modified: 2024-05-20 02:28 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -540,6 +540,7 @@ _twitter_follow.
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/recommendations.php?$third-party
 ||facebook.com/plugins/send.php?$third-party
+||facebook.com/plugins/share_button.php?$third-party
 ||facebook.com/plugins/subscribe.php$third-party
 ||facebook.com/widgets/activity.php?$third-party
 ||facebook.com/widgets/fan.php?$third-party
@@ -626,6 +627,7 @@ _twitter_follow.
 ||spotify.com/follow/$third-party
 ||statigr.am^$third-party
 ||storeya.com/externalscript/$third-party
+||t.pridat.eu^$third-party
 ||trendemon.com^$third-party
 ||twinesocial.com^$third-party
 ||twitter.com/account/$third-party
@@ -683,6 +685,7 @@ _twitter_follow.
 ! ! .tools
 ! ! #social
 ! ! .liCompartir
+! ! .social-button
 ! ! .social-buttons
 ! ! .uc-social-bar-wrapper
 ! ! .tw
@@ -768,6 +771,9 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 apotti.fi#?#.post-footer:-abp-has(> .share)
 forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
+! ---------- Georgian Specific Social Media Elements ----------
+! 
+! 
 ! ---------- Greek Specific Social Media Elements ----------
 ! 
 ! 
@@ -825,7 +831,9 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------- Portuguese Site Specific Hiding Rules ----------
 ! 
+||aventurasnahistoria.uol.com.br/static/socialmedia/
 ||defatoonline.com.br/whatsapp.html
+||jcconcursos.com.br/static/socialmedia/
 ||trrsf.com/transversais/trr_bar/$script
 ! 
 ! ---------- Romanian Site Specific Hiding Rules ----------
@@ -842,6 +850,9 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ||vestifinance.ru/js/share.js
 ! 
 ! ---------- Serbian Site Specific Hiding Rules ----------
+! 
+! 
+! ---------- Slovak Site Specific Hiding Rules ----------
 ! 
 ! 
 ! ---------- Slovenian Site Specific Hiding Rules ----------
