@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: LqehZkm3xuiF1KSiRr29lQ
-! Version: 202405240233
+! Checksum: siUvj4NaE3txTuHSW5D0og
+! Version: 202405240729
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -95,6 +95,7 @@ bloggingqna.com##[href*="bloggingqna.com/go/jasper/"]
 blogheist.com##.bh-manual-ads
 blogheist.com##.sidebar-banner
 blueboard.com##div[class*="NotificationBanner"]
+bluehost.com##.u-marginTm.Card--success-border
 bmc.com###FreeTrialBMCHelixITSM
 boastr.net##.pea_cook_bottomright.pea_cook_wrapper
 bobcares.com##.custom-html-widget.textwidget
@@ -216,6 +217,7 @@ git-tower.com##.incentive-download
 git-tower.com##div[id*="fn-popup"]
 github.com##.js-vote-banner
 github.com,reddit.com,twitter.com##.action-brave-tip
+gitlab.com##.broadcast-banner-message
 gizmodo.com##.leftrailmodule--popular
 gizmodo.com##.mezzanine
 gizmodo.com##div[class*="ad-top-banner"]
@@ -621,6 +623,7 @@ youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
+||assets.wfcdn.com/im/*_miss_exclusive_deals_and_perks_on_the_app*.jpg$image
 ||blogspot.com^$image,domain=yourownlinux.com
 ||c1.neweggimages.com/*banner*$image
 ||cdn2.hubspot.net/hubfs/*/docs-graphics/ASB-docs-left-rail.png
