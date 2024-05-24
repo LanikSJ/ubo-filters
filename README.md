@@ -64,7 +64,7 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 
 ## FAQ
 
-Q: Do you support any other adblockers such as AdGuard etc?
+Q: Do you support any other adblockers such as AdGuard etc?  
 A: Only AdBlock / AdBlock Plus / uBlock Origin are supported at this time.
 
 ## Attributions
