@@ -23,7 +23,7 @@ I got tired of losing my filters when I switched machines so I created this repo
 
 [![Admiral List](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml)
 [![Combined Filters](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml)
-[![Fanboy Social](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml)  
+[![Fanboy Social](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml)
 [![Lock Threads](https://github.com/LanikSJ/ubo-filters/actions/workflows/lock-threads.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/lock-threads.yml)
 [![Malware Domains List](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml)
 
@@ -65,6 +65,7 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 ## FAQ
 
 Q: Do you support any other adblockers such as AdGuard etc?
+
 A: Only AdBlock / AdBlock Plus / uBlock Origin are supported at this time.
 
 ## Attributions
