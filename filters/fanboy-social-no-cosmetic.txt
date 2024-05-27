@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YCn0rBdzb3hyzh3q+GgTJw
-! Version: 202405200228
+! Checksum: KztU+iVCUDCjzhroHtQHKg
+! Version: 202405270228
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-05-20 02:28 UTC
+! Last modified: 2024-05-27 02:28 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -674,8 +674,9 @@ _twitter_follow.
 ! ! .share-button
 ! ! .twitter
 ! ! .socials
+! ! .social_buttons
+! ! #social-icons
 ! ! .social-icons
-! ! .article-share
 ! ! .social-share
 ! ! .shares
 ! ! .sharing
@@ -765,6 +766,7 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! 
 ! ---------- Dutch Site Specific Hiding Rules ----------
 ! 
+||fanclubbarcelona.nl/images/mediabuttons/
 ! 
 ! ---------- Finnish Specific Social Media Elements ----------
 ! 
@@ -800,6 +802,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ||imyfone.com/assets/js/media_share/
 ||ministop.co.jp/site_common/js/sns_
 ||plugins.mixi.jp/favorite.pl?$third-party
+||taishurx.jp/js/web/sns_header.js
 ! 
 ! ---------- Japanese Site Specific Hiding Rules ----------
 ! 
@@ -922,6 +925,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js$script,~third-party
 @@||reactandshare.com/plugin/rns.js$domain=verkkouutiset.fi
 @@||s7.addthis.com^*/addthis_widget.js$domain=mediamatters.org|politico.com
+@@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||softicons.com/download/$image
 @@||srf.ch/socialview-in/$~third-party
 @@||static.addtoany.com/menu/page.js$script,domain=suttonquebec.com
