@@ -1,6 +1,6 @@
-! Checksum: LCl0+ZODPbSZosK45xVraA
 ! Title: Unknown Domains Filter List
-! Last modified: 2021090901
+! Checksum: foTaDOUPU6KxWf+M2xyXZQ
+! Last modified: 2024-07-07 10:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT

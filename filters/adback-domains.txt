@@ -1,6 +1,6 @@
-! Checksum: 2OINw4xSZjzrqiA+XEYb5A
 ! Title: AdBack Domains Filter List
-! Last modified: 2021090901
+! Checksum: P7CwPBRcZwqnaeHYmA41uA
+! Last modified: 2024-07-07 09:58 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
