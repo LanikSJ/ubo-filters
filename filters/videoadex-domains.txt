@@ -1,6 +1,6 @@
-! Checksum: wRbdZWM12R7SrrXrRNOjsQ
 ! Title: VideoAdex Domains Filter List
-! Last modified: 2020032301
+! Checksum: lFY75/fnNfk55Y6u0UMkbg
+! Last modified: 2024-07-07 10:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT

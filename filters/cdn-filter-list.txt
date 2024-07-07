@@ -1,6 +1,6 @@
-! Checksum: kjR2Gihdqbjtdc7Z1ZkkpQ
 ! Title: CDN Filter List
-! Last modified: 2020032301
+! Checksum: VngOf2j/I5hAvvgxh2Hp5A
+! Last modified: 2024-07-07 10:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT

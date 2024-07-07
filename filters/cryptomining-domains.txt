@@ -1,6 +1,6 @@
-! Checksum: mu0iPkwmFiPGgKKoCxQ5rg
 ! Title: Crypto Mining Domains Filter List
-! Last modified: 2023011801
+! Checksum: SQE1/zo4wf3ha7joCqQD/A
+! Last modified: 2024-07-07 10:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
