@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ihpz13pZe+HoYhBFOw47Sw
-! Version: 202407010236
+! Checksum: w7jPFePu+uTofnxG7uMLmg
+! Version: 202407080241
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-07-01 02:36 UTC
+! Last modified: 2024-07-08 02:41 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -497,7 +497,6 @@ _twitter_follow.
 ! ------------------------General element hiding rules-------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_hide.txt ***
 ! fanboy_social_general_hide.txt
-! traveltoblank.com
 ! malayalam.indiatoday.in,aajtak.in,bangla.aajtak.in
 ! element specific
 ! manworldmedia sites
