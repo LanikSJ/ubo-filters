@@ -1,6 +1,6 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: jxWSbaUCXjJbPZNLkrpRKg
-! Last modified: 2024-04-01 01:39 UTC
+! Checksum: Htukuk0K4HVX0obXuYOjvw
+! Last modified: 2024-07-08 14:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -854,6 +854,7 @@
 ||plotparent.com^
 ||plotrabbit.com^
 ||pluckypocket.com^
+||pluckyzone.com^
 ||pocketsonic.com^
 ||podiumpresto.com^
 ||pointlesshour.com^
@@ -1242,6 +1243,7 @@
 ||swellstocking.com^
 ||swimslope.com^
 ||swordgoose.com^
+||syllablesight.com^
 ||symbolizebeast.com^
 ||synonymousrule.com^
 ||synthesizescarecrow.com^
