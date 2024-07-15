@@ -1,4 +1,4 @@
-name: update-copyright-year
+name: Update License
 
 on:
   schedule:
