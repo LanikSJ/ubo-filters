@@ -1,8 +1,8 @@
 name: Admiral Domains
 
 on:
-  # schedule:
-  #  - cron: '30 0 * * 1'
+  schedule:
+   - cron: '30 0 * * 1' # Runs 00:30 UTC Only on Monday
   workflow_dispatch:
 
 jobs:
