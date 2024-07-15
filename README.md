@@ -21,10 +21,10 @@ I got tired of losing my filters when I switched machines so I created this repo
 
 ## Actions
 
-[![Admiral List](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml)
+[![Admiral Domains](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml)
 [![Combined Filters](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml)
 [![Fanboy Social](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml)
-[![Malware Domains List](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml)
+[![Malware Domains](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml)
 
 ## Coverage
 
