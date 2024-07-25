@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: fBQJmWQdqt1cjdWzPgjIrw
-! Version: 202407180841
+! Checksum: Fa/sNgwP5SF2IE+Q2Yfz3A
+! Last modified: 2024-07-25 08:50 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -627,6 +627,7 @@ yourownlinux.com##.separator
 youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
 youtube.com##.video-annotations
 youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
+youtube.com##.ytd-info-panel-container-renderer
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
