@@ -73,6 +73,7 @@ Some of these are old lists or not working lists for archiving purposes:
 - [AdGuard DNS Filter](https://subscribe.adblockplus.org/?location=https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt&title=AdGuard%20DNS%20Filter)
 - [Block Everything](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/RedDragonWebDesign/block-everything/master/block-everything.txt&title=Block%20Everything)
 - [Fake-News List](https://subscribe.adblockplus.org/?location=https://raw.github.com/ryanbr/fanboy-adblock/master/fake-news.txt&title=Fake%20News%20List)
+- [Fuck Fuckadblock Mining](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt&title=Fuck%20Fuckadblock%20Mining)
 - [Malware Domains Long-Lived](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/immortal-domains.txt&title=Malware%20Domains%20Long-Lived)
 - [Malware Filter by Disconnect](https://subscribe.adblockplus.org/?location=https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt&title=Malware%20Filter%20by%20Disconnect)
 - [NoCoin Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt&title=NoCoin%20Filter%20List)
