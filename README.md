@@ -84,7 +84,7 @@ Some of these are old lists or not working lists for archiving purposes:
 
 ## FAQ
 
-Q: Do the filter lists in this repo support any other adblockers such as AdGuard etc?
+Q: Will these filter lists support any other adblockers such as AdGuard etc?
 
 A: Yes, some of these lists do work with AdGuard, but USE AT YOUR OWN RISK as they haven't been tested thoroughly yet.
 
