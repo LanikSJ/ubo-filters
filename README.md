@@ -9,6 +9,8 @@
 - [Actions](#actions)
 - [Coverage](#coverage)
 - [Lists](#lists)
+    - [Main Lists](#main-lists)
+    - [Supplemental Lists](#supplemental-lists)
 - [FAQ](#faq)
 - [Attributions](#attributions)
 - [Bugs](#bugs)
@@ -33,7 +35,9 @@ I got tired of losing my filters when I switched machines so I created this repo
 
 ## Lists
 
-If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / uBlock Origin:
+### Main Lists
+
+If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / AdGuard / uBlock Origin:
 
 - [AdBack Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adback-domains.txt&title=AdBack%20Domains%20Filter%20List)
 - [AdKeeper Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adkeeper-domains.txt&title=AdKeeper%20Domains%20Filter%20List)
@@ -61,11 +65,27 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 - [VolumeData Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/volumedata-domains.txt&title=VolumeData%20Domains%20Filter%20List)
 - [YouTube Anti-Adblock Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/youtube-antiadblock.txt&title=YouTube%20Anti%2DAdblock%20Filter%20List)
 
+## Supplemental Lists
+
+Some of these are old lists or not working lists for archiving purposes:
+
+- [Adblock Warning Removal List](https://subscribe.adblockplus.org/?location=https://easylist-downloads.adblockplus.org/antiadblockfilters.txt&title=Adblock%20Warning%20Removal%20List)
+- [AdGuard DNS Filter](https://subscribe.adblockplus.org/?location=https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt&title=AdGuard%20DNS%20Filter)
+- [Block Everything](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/RedDragonWebDesign/block-everything/master/block-everything.txt&title=Block%20Everything)
+- [Fake-News List](https://subscribe.adblockplus.org/?location=https://raw.github.com/ryanbr/fanboy-adblock/master/fake-news.txt&title=Fake%20News%20List)
+- [Malware Domains Long-Lived](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/immortal-domains.txt&title=Malware%20Domains%20Long-Lived)
+- [Malware Filter by Disconnect](https://subscribe.adblockplus.org/?location=https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt&title=Malware%20Filter%20by%20Disconnect)
+- [NoCoin Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt&title=NoCoin%20Filter%20List)
+- [Prebake - Filter Obtrusive Cookie Notices](https://subscribe.adblockplus.org/?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake%20-%20Filter%20Obtrusive%20Cookie%20Notices)
+- [PUP Domains Blocklists](https://subscribe.adblockplus.org/?location=https://malware-filter.gitlab.io/pup-filter/pup-filter.txt&title=PUP%20Domains%20Blocklists)
+- [uBlock Filters Plus](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20Plus)
+- [Youtube - Other Annoyances](https://subscribe.adblockplus.org/?location=https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt&title=Youtube%20-%20Other%20Annoyances)
+
 ## FAQ
 
-Q: Do you support any other adblockers such as AdGuard etc?
+Q: Do the filter lists in this repo support any other adblockers such as AdGuard etc?
 
-A: Only AdBlock / AdBlock Plus / uBlock Origin are supported at this time.
+A: Yes, some of these lists do work with AdGuard, but USE AT YOUR OWN RISK as they haven't been tested thoroughly yet.
 
 ## Attributions
 
