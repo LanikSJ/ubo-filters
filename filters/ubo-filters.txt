@@ -352,7 +352,6 @@ newegg.com##img[src*="promotions.newegg.com"]
 news.theregistrysf.com##.gofollow
 news.ycombinator.com###hnmain td[bgcolor="#000000"]
 news.ycombinator.com###hnmain:remove-attr(bgcolor)
-news.ycombinator.com##:matches-path("/item") tbody:style(background: #dbdbdb)
 news.ycombinator.com##body:style(background: #e6e6e6)
 news.ycombinator.com##div.toptext:style(color: black)
 news.ycombinator.com##html:style(filter:invert(100%) hue-rotate(180deg))
@@ -463,8 +462,6 @@ slideshare.net##.tos-update-banner.j-tos-update-banner
 sling.com##a[href^="/account/promo_event"]
 snowdays.com###coopcommerce
 software.informer.com##img[src*="restaurants.infcdn.net"]
-soundcloud.com##.stream .stream__list span.sc-ministats-reposts:upward(li.soundList__item)
-soundcloud.com##.userStream .userStream__list span.sc-ministats-reposts:upward(li.soundList__item)
 sourceforge.net###newsletter-floating
 sourceforge.net##div[class*="newsletter_subscribe"]
 speckyboy.com###widget-125ads
@@ -634,7 +631,7 @@ zdnet.com##.content-bottom-leaderboard
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
 ||assets.wfcdn.com/im/*_miss_exclusive_deals_and_perks_on_the_app*.jpg$image
 ||blogspot.com^$image,domain=yourownlinux.com
-||c1.neweggimages.com/*banner*$image
+||neweggimages.com/*banner$image
 ||cdn2.hubspot.net/hubfs/*/docs-graphics/ASB-docs-left-rail.png
 ||g00.cnet.com/g00/^$media,other,xmlhttprequest,domain=cnet.com
 ||images-amazon.com/images/^DiscoveryInnovation/Shopbop/$image
@@ -657,7 +654,7 @@ zdnet.com##.content-bottom-leaderboard
 ||jasonsavard.com/images/promos/$image
 ||jenkins-infra.github.io/patron/$subdocument
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
-||kron4.com/wp-content/uploads/*App-QR-Code-FS-FLOWCODE.jp*$image
+||kron4.com/wp-content/uploads/*App-QR-Code-FS-FLOWCODE$image
 ||media-amazon.com/images/*Clinic/TYP/AC_TYP_Desktop$image
 ||media-amazon.com/images/*Georgetown/Shoes$image
 ||media-amazon.com/images/*gift-certificates/consumer/*/Campaign/*.jpg$image
@@ -674,7 +671,6 @@ zdnet.com##.content-bottom-leaderboard
 ||ssl-images-amazon.com/*/ads/
 ||ssl-images-amazon.com/images/*DiscoveryInnovation/Shopbop/$image
 ||ssl-images-amazon.com/images/*PromoImages/$image
-||startpage.com^$removeparam=segment
 ||static.gasbuddy.com/web/pay/p*.png$image
 ||widgets.tree.com/widget/$subdocument,third-party
 ||wiki.jenkins.io/plugins/macrobrowser/browse-macros.action$xmlhttprequest
