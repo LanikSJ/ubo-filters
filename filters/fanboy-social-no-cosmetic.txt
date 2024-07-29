@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Rcd0TlteaQkOiYNi4HdQ9A
-! Version: 202407220235
+! Checksum: fyoLSFIqFMDIoRk/mSPFmg
+! Version: 202407290235
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-07-22 02:35 UTC
+! Last modified: 2024-07-29 02:35 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -630,8 +630,6 @@ _twitter_follow.
 ||t.pridat.eu^$third-party
 ||trendemon.com^$third-party
 ||twinesocial.com^$third-party
-||twitter.com/account/$third-party
-||twitter.com/i/jot
 ||twitter.com/js/timeline.$script,third-party
 ||usocial.pro^$third-party
 ||vk.com/share.php?$third-party
@@ -661,6 +659,7 @@ _twitter_follow.
 ||ipaddress.com/shariff/
 ||naturalnews.com/getviews2.
 ||people.com.cn/img/2020fenxiang/
+||shbarcelona.com/img/socialnetwork/
 ! ------------------------Specific element hiding rules------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 ! fanboy_social_specific_hide.txt
