@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: FR8FEc7VN2jZSi1Z4+5mjg
-! Last modified: 2024-07-29 23:16 UTC
+! Checksum: q7mH+PCgv0tMv9/UCWXfeg
+! Last modified: 2024-08-01 07:54 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -386,6 +386,7 @@ pastebin.com###abrpm
 pastebin.com###paypal-overlay
 paygonline.com###deviceProtectionDesktopBanner
 pcworld.com###sharer
+peacocktv.com##.notification
 petsmart.com##div[class*=accountBanner]
 phpbb.com###page-footer > h3
 phpbb.com##.forumatic-panel
