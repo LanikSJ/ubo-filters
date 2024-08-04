@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: q7mH+PCgv0tMv9/UCWXfeg
-! Last modified: 2024-08-01 07:54 UTC
+! Checksum: szRiqsuuw16g02dLdHMwOg
+! Last modified: 2024-08-04 20:32 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
