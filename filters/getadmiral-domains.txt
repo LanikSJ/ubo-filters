@@ -109,6 +109,7 @@
 ||aromamirror.com^
 ||aspiringattempt.com^
 ||astonishingfood.com^
+||astralhustle.com^
 ||attractiveafternoon.com^
 ||attractivecap.com^
 ||audioarctic.com^
@@ -229,6 +230,7 @@
 ||carpentercomparison.com^
 ||carriagecan.com^
 ||carscannon.com^
+||cartkitten.com^
 ||castcream.com^
 ||catalogdiscovery.com^
 ||catschickens.com^
@@ -327,6 +329,7 @@
 ||cumbersomecarpenter.com^
 ||cumbersomecloud.com^
 ||curiouschalk.com^
+||curioussuccess.com^
 ||curlycannon.com^
 ||currentcollar.com^
 ||curtaincows.com^
@@ -366,6 +369,7 @@
 ||deerbeginner.com^
 ||defectivedress.com^
 ||defectivesun.com^
+||defensevest.com^
 ||defiantrice.com^
 ||delegatediscussion.com^
 ||delightdriving.com^
@@ -520,6 +524,7 @@
 ||fretfulfurniture.com^
 ||friendwool.com^
 ||frightenedpotato.com^
+||frogator.com^
 ||fronttoad.com^
 ||fujiladder.com^
 ||fumblingform.com^
@@ -595,6 +600,7 @@
 ||headyhook.com^
 ||hearthorn.com^
 ||heavenlybike.com^
+||heavydetail.com^
 ||heavyplayground.com^
 ||hesitanttoothpaste.com^
 ||hfc195b.com^
@@ -712,6 +718,7 @@
 ||lumberrule.com^
 ||lumpyleaf.com^
 ||lumpylumber.com^
+||lyricshook.com^
 ||maddeningpowder.com^
 ||magnetairport.com^
 ||magnificentmeasure.com^
@@ -950,6 +957,7 @@
 ||resonantbrush.com^
 ||resonantrock.com^
 ||respectrain.com^
+||resplendentecho.com^
 ||rhetoricalloss.com^
 ||rhymezebra.com^
 ||rhythmmoney.com^
@@ -1006,6 +1014,7 @@
 ||scarfthought.com^
 ||scatteredheat.com^
 ||scatteredstream.com^
+||scenicdrops.com^
 ||scientificshirt.com^
 ||scientificsneeze.com^
 ||scintillatingscissors.com^
@@ -1261,6 +1270,7 @@
 ||tastesnake.com^
 ||tawdryson.com^
 ||tdzvm.pw^
+||teacupbooks.com^
 ||tedioustooth.com^
 ||teenytinycellar.com^
 ||teenytinyshirt.com^
@@ -1302,6 +1312,7 @@
 ||tiresomethunder.com^
 ||toecircle.com^
 ||toedrawer.com^
+||toomanyalts.com^
 ||toothbrushnote.com^
 ||toothpasterabbits.com^
 ||topichawaii.com^
