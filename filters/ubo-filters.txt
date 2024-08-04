@@ -12,6 +12,7 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
+###coopcommerce
 ###phpbb-ads-ab
 ##.taboola-module
 ##a[href*="dataqualityapps.com"]
