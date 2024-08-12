@@ -16,13 +16,24 @@ body:
   - type: dropdown
     id: adblocker-config
     attributes:
-      label: "AdBlocker Name"
-      description: Please provide your AdBlocker
+      label: "Ad Blocker Name"
+      description: Please provide your Ad Blocker
       multiple: true
       options:
-        - AdBlock/Adblock Plus
-        - uBlock Origin
         - AdGuard
+        - uBlock Origin
+    validations:
+      required: true
+  - type: dropdown
+    id: browser-type
+    attributes:
+      label: "Browser Name"
+      description: Please provide your Browser
+      multiple: true
+      options:
+        - Chrome (Chromium, Brave etc)
+        - Mozilla Firefox
+        - Other
     validations:
       required: true
   - type: textarea
@@ -35,7 +46,6 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-      render: bash
     validations:
       required: true
   - type: textarea
@@ -45,14 +55,13 @@ body:
       description: Please provide screenshots to help explain your problem.
       value: |
         ![DESCRIPTION](LINK.png)
-      render: bash
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: configs
     attributes:
-      label: "Logs"
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: "Config"
+      description: Please copy and paste any relevant Ad Blocker Config. This will be automatically formatted into code, so no need for backticks.
       render: bash
     validations:
       required: false
