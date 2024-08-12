@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sU1VMP90VidZjQWlO/ah5A
-! Version: 202408050234
+! Checksum: iwMzTN5o9pG4KkD77sKJzA
+! Version: 202408120236
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-08-05 02:34 UTC
+! Last modified: 2024-08-12 02:36 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -157,6 +157,7 @@
 /juiz-social-post-sharer-2.min.css
 /juiz-social-post-sharer-6.min.css
 /juiz-social-post-sharer.min.js
+/jumboShare.js
 /lg-share.js
 /like_button.js
 /like_button.png
