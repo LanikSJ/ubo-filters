@@ -20,6 +20,7 @@ body:
       description: Please provide your Ad Blocker
       multiple: true
       options:
+        - AdBlock/Adblock Plus
         - AdGuard
         - uBlock Origin
     validations:
