@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: Hbl/fM3K++jUF0OqvM3HJg
-! Last modified: 2024-08-09 20:19 UTC
+! Checksum: hkM7Z+BtWKPL4pX8XAyvTQ
+! Last modified: 2024-08-14 16:50 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -287,7 +287,6 @@ lifehacker.com##.recent-video
 lifehacker.com##.sharingfooter__wrapper
 linkedin.com##.ad-banner
 linkedin.com##.scaffold-layout__ad
-linkedin.com#@#.authentication-outlet:style(padding-top: 0 !important;)
 linksysinfo.org##.notice_notice_cookies.DismissParent.Notice.panel
 linksysinfo.org##.Notices.PanelScroller
 linuxacademy.com##.leadin-preview-wrapper
@@ -630,6 +629,7 @@ youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel
 youtube.com##.video-annotations
 youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
 youtube.com##.ytd-info-panel-container-renderer
+youtube.com#@##contentContainer:style(padding-top: 0 !important;)
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
