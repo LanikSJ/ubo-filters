@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: hkM7Z+BtWKPL4pX8XAyvTQ
-! Last modified: 2024-08-14 16:50 UTC
+! Checksum: bNPXJqzwHYohLvkqC5sZWg
+! Last modified: 2024-08-20 23:54 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -222,6 +222,7 @@ git-tower.com##div[id*="fn-popup"]
 github.com##.js-vote-banner
 github.com,reddit.com,twitter.com##.action-brave-tip
 gitlab.com##.broadcast-banner-message
+gitlab.com#@#.content-wrapper:style(padding-top: 0 !important;)
 gizmodo.com##.leftrailmodule--popular
 gizmodo.com##.mezzanine
 gizmodo.com##div[class*="ad-top-banner"]
@@ -272,6 +273,7 @@ jalopnik.com##.twitter-tweet
 jalopnik.com##[href="https://www.theroot.com/s/enough"]
 jfrog.com###header-precursor
 jfrog.com###web_top_banner
+jfrog.com##.header-custom-banner
 jqplay.org##.page-wrap > .footer
 kars4kids.org##.trustpilot-widget
 kickstarter.com###break-kickstarter-banner
