@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: bNPXJqzwHYohLvkqC5sZWg
-! Last modified: 2024-08-20 23:54 UTC
+! Checksum: TqGFopc2/dWdoEkL2Fg9Mg
+! Last modified: 2024-08-21 23:52 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -12,8 +12,6 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-usphonebook.com##.wamButtonWidgets
-usphonebook.com##.view-address-report
 ###coopcommerce
 ###phpbb-ads-ab
 ##.taboola-module
@@ -565,6 +563,8 @@ ups.com##.ups-banner_container
 urbandictionary.com##.mug-ad
 usa.canon.com###bt_invite_box
 usa.canon.com##.bcFloat
+usphonebook.com##.view-address-report
+usphonebook.com##.wamButtonWidgets
 vbattorneys.com##.bottom-right.ccl-slider-bubble
 vbattorneys.com##.ccl-slider-window-body
 vbattorneys.com##.ccl-slider-window-header
