@@ -12,6 +12,8 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
+usphonebook.com##.wamButtonWidgets
+usphonebook.com##.view-address-report
 ###coopcommerce
 ###phpbb-ads-ab
 ##.taboola-module
