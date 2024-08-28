@@ -16,7 +16,7 @@ on:
 
 jobs:
   dead-domains-check:
-    name: Run dead domains check
+    name: Run Dead Domains Check
     runs-on: ubuntu-latest
     steps:
       - name: Check out to repository
@@ -25,7 +25,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9        
+          version: 9
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
