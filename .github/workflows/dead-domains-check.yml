@@ -166,7 +166,7 @@ jobs:
             core.setOutput('issue_number', issue.number);
             core.info(`Issue #${issue.number} Opened (${title})`);
 
-      - name: Create a new branch for the automated fix
+      - name: Create a New Branch For Automated Fix
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         id: create-branch
         run: |
@@ -175,7 +175,7 @@ jobs:
 
           echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
 
-      - name: Perform the automated fix
+      - name: Perform Automated Fix
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           pnpm dead-domains-linter --auto --import dead-domains.txt
@@ -187,7 +187,7 @@ jobs:
             scripts/checksum-sort.sh $i
           done
 
-      - name: Stage changes for the automated fix
+      - name: Stage Changes For Automated Fix
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           git config user.name "github-actions[bot]"
@@ -200,13 +200,13 @@ jobs:
 
           git add -A
 
-      - name: Commit and push the automated fix
+      - name: Commit And Push Automated Fix
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           git commit -m "Automated Dead Domains Fix (#${{ steps.open-issue.outputs.issue_number }})"
           git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
-      - name: Create a pull request for the automated fix
+      - name: Create a Pull Request For Automated Fix
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         uses: actions/github-script@v7
         with:
@@ -214,7 +214,7 @@ jobs:
             const { data: pullRequest } = await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: 'Automated dead domains fix',
+              title: 'Automated Dead Domains Fix',
               head: '${{ steps.create-branch.outputs.branch_name }}',
               base: context.ref.replace('refs/heads/', ''),
               body: [
@@ -225,7 +225,7 @@ jobs:
               ].join('\n'),
             });
 
-            core.info(`Pull request #${pullRequest.number} opened`);
+            core.info(`Pull Request #${pullRequest.number} Opened`);
 
             // Add labels to the pull request
             await github.rest.issues.addLabels({
