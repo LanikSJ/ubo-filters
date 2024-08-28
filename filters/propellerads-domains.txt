@@ -1,6 +1,6 @@
 ! Title: PropellerAds Domains Filter List
-! Checksum: OJh9vYUFUNPTYPfRsDj++w
-! Last modified: 2024-07-07 10:02 UTC
+! Checksum: ZHDhnmBRyThPzUDMvKD+rw
+! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -13,70 +13,25 @@
 ! this list, you are accepting these terms and the license.
 !
 ||chidsimp.com^
-||dalita.org^
-||e09f3e4ceda.com^
-||f64927dfde9be4.com^
-||fc0902dc54a19a.com^
-||furocmay.com^
-||geebicom.net^
-||givirsou.net^
-||glaimtug.com^
-||glothouw.link^
-||hereonline.online^
-||himanyo.com^
 ||iz682noju02ye5.com^
-||jaizouji.com^
-||joolupid.com^
-||jouzeeps.click^
-||kaunairu.net^
 ||letaikay.net^
-||loamauji.com^
 ||loralana.com^
 ||lzrikate.com^
 ||mobibiobi.com^
 ||niltutch.com^
-||oagudsey.uk^
-||oochique.com^
-||orgalso.com^
 ||otefauks.link^
-||ousufauk.com^
-||peltaush.click^
 ||phastoag.com^
 ||pheegoab.click^
 ||phenver.com^
-||promoltd.online^
-||psachugh.net^
-||psevaulr.net^
 ||psughooy.com^
 ||pushamir.com^
 ||pushno.com^
 ||pushwhy.com^
-||putessie.com^
 ||ravaynore.com^
-||redorange.website^
-||redouwhy.link^
-||saithaiy.com^
-||shifoagn.uk^
-||shihoult.com^
-||shoomsie.uk^
-||shuhahom.net^
 ||sinwebads.com^
 ||soujoobafoo.com^
-||stickredgr.online^
-||stignaud.net^
-||stipsain.net^
-||storoukr.net^
-||suhunsoo.uk^
 ||taijouhe.net^
-||temtaifu.com^
-||thiksikr.com^
-||thirgoad.top^
-||thoarauy.net^
 ||tqeobp89axcn.com^
-||ugrastes.uk^
 ||vaigowoa.com^
-||wootoozo.com^
-||woovaust.net^
 ||wynather.com^
 ||xijgedjgg5f55.com^
-||z6naousb.com^

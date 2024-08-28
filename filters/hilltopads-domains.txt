@@ -1,6 +1,6 @@
 ! Title: HilltopAds Domains List
-! Checksum: W5U0Qk+jFXslST0DhWg69A
-! Last modified: 2024-07-07 10:02 UTC
+! Checksum: dnyWG8mqZ9yxkkH0GTmqmQ
+! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -17,60 +17,21 @@
 ||allownotifications.com^
 ||allowpush.com^
 ||alogationa.co^
-||approp.pro^
-||automoc.net^
-||awfull.pro^
 ||besguses.pro^
-||blisldgsqk.com^
-||broced.co^
-||busions.com^
-||bystfied.pro^
 ||chiptionics.co^
-||crewita.co^
-||critariatele.pro^
-||darersan.co^
-||derler.pro^
-||despearingle.co^
-||donecooler.com^
 ||elepocial.pro^
-||entigatenturge.pro^
-||essuddayon.pro^
 ||expleates.pro^
-||exponderle.pro^
-||greerlies.pro^
 ||hilltopads.net^
 ||hothta.com^
-||htamaster.com^
 ||htmonster.com^
-||ininmacerad.pro^
 ||japanesexxx.allowpush.com^
 ||javfind.allowpush.com^
-||johays.co^
-||kidnepishlient.pro^
 ||lanchaeanly.pro^
-||meried.co^
-||misdem.pro^
 ||notificationallow.com^
-||overreare.co^
-||panection.co^
 ||patracy.pro^
-||pistentling.pro^
-||pistraving.co^
-||poterrupte.co^
-||prodwaves.pro^
-||purpreine.co^
 ||reddleops.pro^
 ||refuzzlizing.pro^
-||reimburs.co^
-||replainy.co^
-||reundcwkqvctq.com^
 ||skyligh.co^
-||slavial.pro^
-||smitionsory.co^
 ||sworatio.co^
-||temphilltop.com^
 ||temphilltop.net^
-||thogethoffic.co^
-||unlomblam.pro^
-||worlanned.pro^
 ||xvika.com^

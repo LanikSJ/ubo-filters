@@ -1,20 +1,20 @@
 [Adblock Plus 2.0]
-! Checksum: egbraLWB8f/19XsjxKtKeA
-! Version: 202408260235
+! Checksum: 7Osayt6JdXotwQPcGHx8HA
+! Version: 202408281924
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-08-26 02:35 UTC
+! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
-! 
+!
 ! Please report any unblocked adverts or problems
 ! in the forums (https://forums.lanik.us/)
 ! or via e-mail (easylist@protonmail.com).
-! 
+!
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
 ! GitHub issues: https://github.com/easylist/easylist/issues
 ! GitHub pull requests: https://github.com/easylist/easylist/pulls
-! 
+!
 ! --------------------------General blocking rules-----------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_block.txt ***
 ! fanboy_social_general_block.txt
@@ -530,7 +530,6 @@ _social_footer_
 ||linkedin.com/countserv/$third-party
 ||linkedin.com/img/$third-party
 ||linkedin.com/uas/js/userspace?$third-party
-||linksalpha.com^$third-party
 ||loveclaw.com^$third-party
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
@@ -673,101 +672,101 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! ------------------------Rules for international sites------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_international.txt ***
 ! fanboy_social_international.txt
-! 
+!
 ! ---------- Non-English Social Media Elements ----------
-! 
+!
 ||probook.bg/like?$third-party
-! 
+!
 ! ---------- German Site Specific Hiding Rules ----------
-! 
+!
 ||pipeline.de/socialmedia-icons/
 ||seitzeichen.de^$third-party
 ||social-bookmarking-tools.de^$third-party
 ||werkenntwen.de/images/buttons/$third-party
 ! Specific hiding filters necessary for sites allowlisted with $generichide filter option
 ! Focus.de
-! 
+!
 ! ---------- French Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- French Site Specific Blocking Rules ----------
-! 
+!
 ||lequipe.fr/_nuxt/Share.
 ||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
-! 
+!
 ! ---------- Arabic Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Arabic Specific Media Elements ----------
-! 
+!
 ||almasryalyoum.com/scripts/sharing.js
 ||stjegypt.com/uploads/stjnew.jpg
-! 
+!
 ! ---------- Bosnian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Croatian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Chinese Specific Media Elements ----------
-! 
+!
 ||share.baidu.com^
-! 
+!
 ! ---------- Chinese Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Danish Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Dutch Site Specific Hiding Rules ----------
-! 
+!
 ||fanclubbarcelona.nl/images/mediabuttons/
-! 
+!
 ! ---------- Finnish Specific Social Media Elements ----------
-! 
+!
 apotti.fi#?#.post-footer:-abp-has(> .share)
 forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
-! 
+!
 ! ---------- Georgian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Greek Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Hebrew Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Hungarian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Indian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Indonesian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Italian Site Specific Hiding Rules ----------
-! 
+!
 ||focus.it/images/embed/banner-canale-whats-up/
 ||napolimagazine.com/web/img/iconefooter/
 ||napolimagazine.com/web/img/iconetop/
 ||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
-! 
+!
 ! ---------- Japanese Specific Media Elements ----------
-! 
+!
 ||imyfone.com/assets/js/media_share/
 ||ministop.co.jp/site_common/js/sns_
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||taishurx.jp/js/web/sns_header.js
-! 
+!
 ! ---------- Japanese Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Korean Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Latvian Specific Social Media Elements ----------
-! 
+!
 ||draugiem.lv/business/ext/fans/$third-party
 ||draugiem.lv/business/ext/follow/$third-party
 ||draugiem.lv/lapas/widgets/$third-party
@@ -775,56 +774,56 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ||draugiem.lv/say/ext/recommend.php$third-party
 ||draugiem.lv^*/js/fans/$third-party
 ||sekomums.lv^$third-party
-! 
+!
 ! ---------- Montenegrin Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Norwegian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Persian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Polish Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Portuguese Site Specific Hiding Rules ----------
-! 
+!
 ||aventurasnahistoria.uol.com.br/static/socialmedia/
 ||defatoonline.com.br/whatsapp.html
 ||jcconcursos.com.br/static/socialmedia/
 ||trrsf.com/transversais/trr_bar/$script
-! 
+!
 ! ---------- Romanian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Ukrainian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Russian Site Specific Hiding Rules ----------
-! 
+!
 ||dni.ru^*/sotial-
 ||russia.tv/js/modules/social-subscriber.js
 ||spynews.ro/templates/default/img/face.png
 ||vestifinance.ru/js/share.js
-! 
+!
 ! ---------- Serbian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Slovak Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Slovenian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Spanish Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Swedish Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Turkish Specific Social Media Elements ----------
-! 
+!
 ! ---------------------------------Allowlists----------------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
 ! fanboy_social_allowlist_general_hide.txt

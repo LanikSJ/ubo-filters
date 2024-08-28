@@ -1,6 +1,6 @@
 ! Title: AdMaven Domains Filter List
-! Checksum: /Xy8vxdV+TD4XXYilXLZog
-! Last modified: 2024-07-07 10:02 UTC
+! Checksum: GiOd6wjW0IQJ80kcYTrIAg
+! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -12,67 +12,27 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-||achiname.info^
 ||appearch.info^
 ||aristianewr.club^
-||attenhance.com^
 ||baconaces.pro^
-||charmstroy.info^
-||christingel.com^
-||credishe.com^
-||dentially.info^
-||diamongs.com^
 ||differenth.com^
-||docsconvert.club^
 ||elthamely.com^
-||eversely.com^
 ||evideorun.com^
-||exercially.mobi^
 ||exerciers.mobi^
-||favourity.pro^
 ||fingahvf.top^
 ||firrectly.top^
-||goodbookbook.com^
 ||greatedo.com^
-||greatene.com^
 ||greatwork.info^
-||hathick.info^
 ||himselve.info^
 ||holbrooked.top^
-||imagetopng.club^
-||interedy.info^
-||kaseine.info^
-||khomuto.info^
-||lanetool.info^
 ||legistrike.pro^
-||liquorumladiom.info^
 ||makemyvids.com^
 ||messard.com^
-||messardu.com^
-||neveryone.club^
-||newspolovb.info^
-||newsrouach.pro^
-||newsupdatedir.info^
-||nighting.info^
 ||overely.com^
-||pameless.info^
-||phalata.info^
-||pimmuter.com^
-||policester.info^
 ||policityseriod.info^
-||pomerous.info^
-||pptchecker.club^
-||proporing.info^
-||qcontentdelivery.info^
 ||rupstration.club^
 ||see-work.info^
-||solvement.mobi^
 ||sprincipal.com^
 ||stalluva.pro^
-||stresee.com^
-||terdiparcalpe.info^
 ||trothko.com^
-||umebiggestern.club^
-||unsop.com^
 ||ursorsee.pro^
-||whitection.com^

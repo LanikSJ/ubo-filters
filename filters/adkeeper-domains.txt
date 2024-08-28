@@ -1,6 +1,6 @@
 ! Title: AdKeeper Domains Filter List
-! Checksum: Kju8e5uDKEtbzRq6fh04Lw
-! Last modified: 2024-07-07 10:00 UTC
+! Checksum: gxPNF+5x6po3/iWdFsaWiQ
+! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -13,27 +13,10 @@
 ! this list, you are accepting these terms and the license.
 !
 ||adinfo.support^
-||adkeeker.com^
 ||admessage.support^
-||clicks.support^
-||dailynews.support^
-||daynews.support^
-||dialog.support^
 ||infocenter.support^
-||infomail.support^
 ||infomessage.support^
-||mailinfo.support^
-||mailmessage.support^
-||messagebox.support^
-||messagefeed.support^
 ||moreinfo.support^
-||new-mail.support^
-||new-message.support^
-||newinfo.support^
-||newmail.support^
-||newmessage.support^
-||newpost.support^
 ||newpush.support^
 ||newsfeed.support^
-||notify.support^
 ||warning.support^
