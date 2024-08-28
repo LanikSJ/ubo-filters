@@ -19,7 +19,7 @@ jobs:
     name: Run Dead Domains Check
     runs-on: ubuntu-latest
     steps:
-      - name: Check out to repository
+      - name: Check out Repository
         uses: actions/checkout@v4
 
       - name: Install pnpm
@@ -32,14 +32,21 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: pnpm
+      
+      - name: Setup Perl and Tiny
+        uses: shogo82148/actions-setup-perl@v1
+        with:
+          perl-version: '5.38'
+          install-modules: |
+            Path::Tiny
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pnpm install
 
-      - name: Export dead domains to a file
+      - name: Export Dead Domains To a File
         run: pnpm dead-domains-linter --export dead-domains.txt
 
-      - name: Read dead domains from the file
+      - name: Read Dead Domains From The File
         id: read-dead-domains
         uses: actions/github-script@v7
         with:
@@ -58,11 +65,11 @@ jobs:
             core.setOutput('has_dead_domains', deadDomains.length > 0 ? 'true' : 'false');
             core.setOutput('dead_domains', deadDomains);
 
-      - name: Close previous issue(s)
+      - name: Close Previous Issue(s)
         uses: actions/github-script@v7
         with:
           script: |
-            const title = 'Automated dead domains report';
+            const title = 'Automated Dead Domains Report';
 
             // Close previous issues which have the same title and opened by github-actions[bot]
             const { data: issues } = await github.rest.issues.listForRepo({
@@ -85,15 +92,13 @@ jobs:
                 state: 'closed',
               });
 
-              core.info(`Closed previous issue #${previousIssue.number}`);
+              core.info(`Closed Previous Issue #${previousIssue.number}`);
             }
 
-      - name: Close previous pull request(s)
+      - name: Close Previous Pull Request(s)
         uses: actions/github-script@v7
         with:
           script: |
-            // Close previous pull requests which have the branch name 'fix/dead-domains-<number>'
-            // and opened by github-actions[bot]
             const { data: pullRequests } = await github.rest.pulls.list({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -116,10 +121,9 @@ jobs:
                 state: 'closed',
               });
 
-              core.info(`Closed previous pull request #${previousPullRequest.number}`);
+              core.info(`Closed Previous Pull Request #${previousPullRequest.number}`);
             }
 
-            // Delete the branch of the closed pull requests
             for (const previousPullRequest of previousPullRequests) {
               await github.rest.git.deleteRef({
                 owner: context.repo.owner,
@@ -127,17 +131,17 @@ jobs:
                 ref: `heads/${previousPullRequest.head.ref}`,
               });
 
-              core.info(`Deleted branch ${previousPullRequest.head.ref}`);
+              core.info(`Deleted Branch ${previousPullRequest.head.ref}`);
             }
 
-      - name: Open an issue if there are dead domains
+      - name: Open An Issue If There Are Dead Domains
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         id: open-issue
         uses: actions/github-script@v7
         with:
           script: |
             const deadDomains = JSON.parse(${{ toJson(steps.read-dead-domains.outputs.dead_domains) }});
-            const title = 'Automated dead domains report';
+            const title = 'Automated Dead Domains Report';
 
             const { data: issue } = await github.rest.issues.create({
               owner: context.repo.owner,
@@ -160,7 +164,7 @@ jobs:
             });
 
             core.setOutput('issue_number', issue.number);
-            core.info(`Issue #${issue.number} opened (${title})`);
+            core.info(`Issue #${issue.number} Opened (${title})`);
 
       - name: Create a new branch for the automated fix
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
@@ -175,6 +179,13 @@ jobs:
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           pnpm dead-domains-linter --auto --import dead-domains.txt
+
+      - name: Update Checksum and Date
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
+        run: |
+          for i in $(git status |grep modified |awk -F: '{print $NF}' |xargs); do
+            scripts/checksum-sort.sh $i
+          done
 
       - name: Stage changes for the automated fix
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
@@ -192,7 +203,7 @@ jobs:
       - name: Commit and push the automated fix
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
-          git commit -m "Automated dead domains fix (#${{ steps.open-issue.outputs.issue_number }})"
+          git commit -m "Automated Dead Domains Fix (#${{ steps.open-issue.outputs.issue_number }})"
           git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
       - name: Create a pull request for the automated fix
