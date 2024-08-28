@@ -1,6 +1,6 @@
 ! Title: Kitty Domains Filter List
-! Checksum: VT/NdOr6aJWmJ6RQnOi6EQ
-! Last modified: 2024-07-07 10:02 UTC
+! Checksum: cs0mJThtomFzGzUKPEPnWg
+! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -12,34 +12,14 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-||0377shujuhuifu.top^
 ||2013sh.com^
-||258ydh.com^
-||bycxsh.com^
 ||ccbccb.cn^
 ||cdxyb.cn^
-||dupinpu.com^
 ||enyayinxiang.com^
 ||etg98.com^
-||fate-xy.com^
 ||front99.com^
-||gotourls.bid^
 ||h01ce.cn^
-||hulemedia.com^
-||jlhygy.com^
-||juren0.com^
 ||kuuad.com^
 ||kyad88.com^
-||mlangw.net^
-||pr33.cn^
-||shanghuitianxia.cn^
 ||shunlige.com^
-||smsksx.com^
-||sssgao999.com^
-||start1999.com^
 ||tdtsd.com^
-||wxktv.cn^
-||xzqxz.net^
-||yunpifu.cn^
-||zgdmsj.cn^
-||zhuyuanp.club^

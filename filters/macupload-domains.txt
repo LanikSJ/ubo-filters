@@ -1,6 +1,6 @@
 ! Title: MacUpload Domains Filter List
-! Checksum: 3QZhdpc6onWwDIkJMAQEAw
-! Last modified: 2024-07-07 10:02 UTC
+! Checksum: GNfXZ4N1qaMB6TV4Hx7aJA
+! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -14,42 +14,17 @@
 !
 ||1bcde.com^
 ||abodealley.com^
-||abserv123.com^
-||amadagasca.com^
-||anyonemyth.com^
 ||babyboomboomads.com^
-||broomboxmain.com^
-||challengedeprave.com^
 ||curriculture.com^
 ||decademical.com^
-||downloadgot.com^
 ||fairnessels.com^
-||forexplmdb.com^
 ||g2440001011.com^
 ||g2546417787.com^
 ||g2921554487.com^
-||jackettrain.com^
-||mediadisclose.com^
-||mixturehopeful.com^
-||moveadrenaline.com^
-||naganoadigei.com^
-||noblemagnition.com^
 ||postback.info^
 ||producebreed.com^
 ||pushmenews.com^
 ||pushmobilenews.com^
 ||renaissanto.com^
-||retiremely.com^
-||ridingintractable.com^
-||rtbvideobox.com^
-||safelyawake.com^
-||septembership.com^
-||smashseek.com^
 ||sspicy.ru^
 ||strainemergency.com^
-||strawdense.com^
-||strongexplain.com^
-||tailorcave.com^
-||theirsvendor.com^
-||thismetric.com^
-||turngrind.com^

@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: TqGFopc2/dWdoEkL2Fg9Mg
-! Last modified: 2024-08-21 23:52 UTC
+! Checksum: fAYSMN1zWWyP5gZQIGFTmQ
+! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -40,7 +40,6 @@
 @@||googleadservices.com/gpt/pubads^$domain=realtor.com
 @@||googletagmanager.com/gtm.js$script,domain=www.surveymonkey.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
-@@||highground.com/lib/fingerprint.min.js$script,domain=app.highground.com
 @@||palemoon.org/*ads.js
 @@||video-api.yql.yahoo.com/v1/video/alias/channels/wf-channel=related-videos$xhr,domain=yahoo.com
 about.gitlab.com##.slpFreeTrialBanner
@@ -655,8 +654,6 @@ zdnet.com##.content-bottom-leaderboard
 ||images.squarespace-cdn.com/content/*Summer*.jpg?format=300w$image
 ||images.squarespace-cdn.com/content/*unspecified.png?format=300w$image
 ||images.videolan.org/images/partners/$image
-||img.bestcdnever.ru/banner/
-||imgsynergy.com/product_creatives/$image
 ||insecure.org/images/pro/$image
 ||iplocation.net/assets/images/banners/$image
 ||jasonsavard.com/images/promos/$image
