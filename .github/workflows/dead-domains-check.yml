@@ -28,6 +28,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
+          version: 9
           node-version: ${{ env.NODE_VERSION }}
           cache: pnpm
 
