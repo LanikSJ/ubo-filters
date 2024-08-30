@@ -19,7 +19,7 @@ jobs:
     name: Run Dead Domains Check
     runs-on: ubuntu-latest
     steps:
-      - name: Check out Repository
+      - name: Check Out Repository
         uses: actions/checkout@v4
 
       - name: Install pnpm
