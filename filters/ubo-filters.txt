@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: fAYSMN1zWWyP5gZQIGFTmQ
-! Last modified: 2024-08-28 19:24 UTC
+! Checksum: p/sbAsnNmfrQElInlXGp3Q
+! Last modified: 2024-09-04 03:11 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -36,7 +36,6 @@
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
 @@||cjisonline.com^$ghide,~third-party
 @@||cjisonline.com^$permissions=browsing-topics=()
-@@||connect/assets/js/analytics.js$script,domain=dockercon18.smarteventscloud.com
 @@||googleadservices.com/gpt/pubads^$domain=realtor.com
 @@||googletagmanager.com/gtm.js$script,domain=www.surveymonkey.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
