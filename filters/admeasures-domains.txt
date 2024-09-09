@@ -1,6 +1,6 @@
 ! Title: AdMeasures Domains Filter List
-! Checksum: Wbx6C5SwWfvpVln4Y/rMZQ
-! Last modified: 2024-09-04 03:11 UTC
+! Checksum: 5TZ+XIw0skXPKfEPi09QKw
+! Last modified: 2024-09-09 08:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -16,7 +16,6 @@
 ||2go7v1nes8.com^
 ||2iiyrxk0.com^
 ||3221dkf7m2.com^
-||34pavouhj7.com^
 ||39irqwnzlv.com^
 ||3r1kwxcd.top^
 ||45eijvhgj2.com^
@@ -48,7 +47,6 @@
 ||dwp3ce9c.top^
 ||eawp2ra7.top^
 ||edua29146y.com^
-||eecd179r3b.com^
 ||estream.to^
 ||fd7qz88ckd.com^
 ||feyl4mh5to.com^
