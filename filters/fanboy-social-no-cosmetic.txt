@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lBb1RUePcNNcmrHZpBbnkQ
-! Version: 202409020410
+! Checksum: fbnk2NtDG3GUZBN5yboqHw
+! Version: 202409090243
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-09-02 04:10 UTC
+! Last modified: 2024-09-09 02:43 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -530,6 +530,7 @@ _social_footer_
 ||linkedin.com/countserv/$third-party
 ||linkedin.com/img/$third-party
 ||linkedin.com/uas/js/userspace?$third-party
+||linksalpha.com^$third-party
 ||loveclaw.com^$third-party
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
@@ -660,6 +661,7 @@ openculture.com#?#.execphpwidget:-abp-contains(FREE UPDATES!)
 ! ! .google-news-link
 ! ! SocialShar
 ! ! .header-social
+! ! .redes
 ! Specific elements because of generichide
 ! Include ubO specific
 ! #include fanboy_social_specific_uBO.txt
@@ -792,6 +794,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ||aventurasnahistoria.uol.com.br/static/socialmedia/
 ||defatoonline.com.br/whatsapp.html
 ||jcconcursos.com.br/static/socialmedia/
+||opto.sic.pt/footer/socials/
 ||trrsf.com/transversais/trr_bar/$script
 ! 
 ! ---------- Romanian Site Specific Hiding Rules ----------
