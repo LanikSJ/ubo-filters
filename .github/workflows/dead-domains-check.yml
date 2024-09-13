@@ -59,7 +59,7 @@ jobs:
 
             // Add warning to the console
             for (const domain of deadDomains) {
-              core.warning(`Possible dead domain: ${domain}`);
+              core.warning(`Possible Dead Domain: ${domain}`);
             }
 
             core.setOutput('has_dead_domains', deadDomains.length > 0 ? 'true' : 'false');
@@ -77,10 +77,10 @@ jobs:
 
             const previousPullRequests = pullRequests.filter(pullRequest => {
               const branchName = pullRequest.head.ref;
-              const isAutomatedFix = branchName.startsWith('feature/dead-domains');
+              const isAutomated = branchName.startsWith('feature/dead-domains');
               const isBot = pullRequest.user.login === 'github-actions[bot]';
 
-              return isAutomatedFix && isBot;
+              return isAutomated && isBot;
             });
 
             for (const previousPullRequest of previousPullRequests) {
@@ -101,7 +101,7 @@ jobs:
                 ref: `heads/${previousPullRequest.head.ref}`,
               });
 
-              core.info(`Deleted branch ${previousPullRequest.head.ref}`);
+              core.info(`Deleted Branch ${previousPullRequest.head.ref}`);
             }
 
       - name: Create New Branch
@@ -141,7 +141,7 @@ jobs:
       - name: Commit and Push
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
-          git commit -m "Automated Dead Domains Fix"
+          git commit -m "Automated Dead Domains Check"
           git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
       - name: Create Pull Request
@@ -152,13 +152,14 @@ jobs:
             const { data: pullRequest } = await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: 'Automated Dead Domains Fix',
+              title: 'Automated Dead Domains Check',
               head: '${{ steps.create-branch.outputs.branch_name }}',
               base: context.ref.replace('refs/heads/', ''),
               body: [
                 'This is an automated pull request.',
                 '',
-                'Please note that this is an automated fix and some low-traffic websites may be incorrectly marked as dead.',
+                'Please note that this is an automated check and some low-traffic websites may be incorrectly marked as dead.',
+                '',
                 'For more information, see https://github.com/AdguardTeam/DeadDomainsLinter/blob/master/README.md',
               ].join('\n'),
             });
