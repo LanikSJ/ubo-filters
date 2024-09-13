@@ -16,7 +16,7 @@ on:
 
 jobs:
   dead-domains-check:
-    name: Run Dead Domains Check
+    name: Run Dead Domains
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
@@ -43,10 +43,10 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Export Dead Domains To a File
+      - name: Export Dead Domains
         run: pnpm dead-domains-linter --export dead-domains.txt
 
-      - name: Read Dead Domains From The File
+      - name: Read Dead Domains
         id: read-dead-domains
         uses: actions/github-script@v7
         with:
@@ -65,37 +65,7 @@ jobs:
             core.setOutput('has_dead_domains', deadDomains.length > 0 ? 'true' : 'false');
             core.setOutput('dead_domains', deadDomains);
 
-      - name: Close Previous Issue(s)
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const title = 'Automated Dead Domains Report';
-
-            // Close previous issues which have the same title and opened by github-actions[bot]
-            const { data: issues } = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open',
-            });
-
-            const previousIssues = issues.filter(issue => {
-              const isBot = issue.user.login === 'github-actions[bot]';
-
-              return issue.title === title && isBot;
-            });
-
-            for (const previousIssue of previousIssues) {
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: previousIssue.number,
-                state: 'closed',
-              });
-
-              core.info(`Closed Previous Issue #${previousIssue.number}`);
-            }
-
-      - name: Close Previous Pull Request(s)
+      - name: Close Pull Request(s)
         uses: actions/github-script@v7
         with:
           script: |
@@ -107,7 +77,7 @@ jobs:
 
             const previousPullRequests = pullRequests.filter(pullRequest => {
               const branchName = pullRequest.head.ref;
-              const isAutomatedFix = branchName.startsWith('fix/dead-domains-');
+              const isAutomatedFix = branchName.startsWith('feature/dead-domains');
               const isBot = pullRequest.user.login === 'github-actions[bot]';
 
               return isAutomatedFix && isBot;
@@ -121,7 +91,7 @@ jobs:
                 state: 'closed',
               });
 
-              core.info(`Closed Previous Pull Request #${previousPullRequest.number}`);
+              core.info(`Closed Pull Request #${previousPullRequest.number}`);
             }
 
             for (const previousPullRequest of previousPullRequests) {
@@ -131,51 +101,19 @@ jobs:
                 ref: `heads/${previousPullRequest.head.ref}`,
               });
 
-              core.info(`Deleted Branch ${previousPullRequest.head.ref}`);
+              core.info(`Deleted branch ${previousPullRequest.head.ref}`);
             }
 
-      - name: Open An Issue If There Are Dead Domains
-        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
-        id: open-issue
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const deadDomains = JSON.parse(${{ toJson(steps.read-dead-domains.outputs.dead_domains) }});
-            const title = 'Automated Dead Domains Report';
-
-            const { data: issue } = await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title,
-              body: [
-                'The following domains are possibly dead:',
-                '',
-                '<details>',
-                '<summary>Click to expand</summary>',
-                '',
-                `${deadDomains.map(domain => `- ${domain}`).join('\n')}`,
-                '',
-                '</details>',
-                '',
-                'Please note that this is an automated report and some low-traffic websites may be incorrectly marked as dead.',
-                'For more information, see https://github.com/AdguardTeam/DeadDomainsLinter/blob/master/README.md',
-              ].join('\n'),
-              labels: ['dead website'],
-            });
-
-            core.setOutput('issue_number', issue.number);
-            core.info(`Issue #${issue.number} Opened (${title})`);
-
-      - name: Create a New Branch For Automated Fix
+      - name: Create New Branch
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         id: create-branch
         run: |
-          branch_name="fix/dead-domains-${{ steps.open-issue.outputs.issue_number }}"
+          branch_name="feature/dead-domains"
           git checkout -b $branch_name
 
           echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
 
-      - name: Perform Automated Fix
+      - name: Perform Changes
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           pnpm dead-domains-linter --auto --import dead-domains.txt
@@ -187,7 +125,7 @@ jobs:
             scripts/checksum-sort.sh $i
           done
 
-      - name: Stage Changes For Automated Fix
+      - name: Stage Changes
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           git config user.name "github-actions[bot]"
@@ -200,13 +138,13 @@ jobs:
 
           git add -A
 
-      - name: Commit And Push Automated Fix
+      - name: Commit and Push
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
-          git commit -m "Automated Dead Domains Fix (#${{ steps.open-issue.outputs.issue_number }})"
+          git commit -m "Automated Dead Domains Fix"
           git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
-      - name: Create a Pull Request For Automated Fix
+      - name: Create Pull Request
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         uses: actions/github-script@v7
         with:
@@ -218,7 +156,7 @@ jobs:
               head: '${{ steps.create-branch.outputs.branch_name }}',
               base: context.ref.replace('refs/heads/', ''),
               body: [
-                'This is an automated pull request to fix #${{ steps.open-issue.outputs.issue_number }}.',
+                'This is an automated pull request.',
                 '',
                 'Please note that this is an automated fix and some low-traffic websites may be incorrectly marked as dead.',
                 'For more information, see https://github.com/AdguardTeam/DeadDomainsLinter/blob/master/README.md',
