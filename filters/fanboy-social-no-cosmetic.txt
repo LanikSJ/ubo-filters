@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YuiMjGX/fZqPItfQGCGc+A
-! Version: 202409090824
+! Checksum: 9Zzw8nFIxgdb8J5hx0+d7A
+! Version: 202409160251
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-09-09 08:24 UTC
+! Last modified: 2024-09-16 02:51 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -530,6 +530,7 @@ _social_footer_
 ||linkedin.com/countserv/$third-party
 ||linkedin.com/img/$third-party
 ||linkedin.com/uas/js/userspace?$third-party
+||linksalpha.com^$third-party
 ||loveclaw.com^$third-party
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
