@@ -1,4 +1,4 @@
-name: Auto Approve PRs
+name: Auto Approve
 
 on:
   pull_request_target:
@@ -10,12 +10,11 @@ on:
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-    if: |
-      ${{ github.actor == 'LanikSJ' }}
-      ${{ github.actor == 'github-actions' }}
+    name: approve
     steps:
     - uses: hmarr/auto-approve-action@v4
-      with:
-        github-token: "${{ secrets.GITHUB_TOKEN }}"
+      if: github.actor == 'LanikSJ'
+    - uses: hmarr/auto-approve-action@v4
+      if: github.actor == 'dependabot[bot]'
+    - uses: hmarr/auto-approve-action@v4
+      if: github.actor == 'github-actions'
