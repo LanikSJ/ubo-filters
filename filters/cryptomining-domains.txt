@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: TijJl0AdTCWccxahPUrqHQ
-! Last modified: 2024-08-28 19:24 UTC
+! Checksum: yVnlVQ5Z9m4+V6hHgToZ4g
+! Last modified: 2024-09-23 08:25 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -132,7 +132,6 @@
 ||now.sh/*.wasm$third-party
 ||nut.cc^$third-party
 ||objective-wright-961fed.netlify.com^
-||on.animeteatr.ru^
 ||p2poolmining.com^$third-party
 ||pampopholf.com^
 ||papoto.com^$third-party
