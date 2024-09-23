@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XL4D6sV+h7Qx8lx8HZLtgg
-! Version: 202409160824
+! Checksum: yXBFWOtbXWqn+qhItLI2+g
+! Version: 202409230247
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-09-16 08:24 UTC
+! Last modified: 2024-09-23 02:47 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -530,6 +530,7 @@ _social_footer_
 ||linkedin.com/countserv/$third-party
 ||linkedin.com/img/$third-party
 ||linkedin.com/uas/js/userspace?$third-party
+||linksalpha.com^$third-party
 ||loveclaw.com^$third-party
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
@@ -792,6 +793,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ||aventurasnahistoria.uol.com.br/static/socialmedia/
 ||defatoonline.com.br/whatsapp.html
+||harem69.com.br/img/social.png
 ||jcconcursos.com.br/static/socialmedia/
 ||opto.sic.pt/footer/socials/
 ||trrsf.com/transversais/trr_bar/$script
