@@ -285,7 +285,7 @@ def fopsort(filename):
             """
 
             :param uncombinedFilters: param DOMAINPATTERN:
-            :param domainseparator:
+            :param domainseparator: param DOMAINPATTERN:
             :param DOMAINPATTERN:
 
             """
@@ -458,7 +458,7 @@ def elementtidy(domains, separator, selector):
     tags and make the relevant sections of the rule lower case.
 
     :param domains: param separator:
-    :param selector:
+    :param selector: param separator:
     :param separator:
 
     """
@@ -556,7 +556,7 @@ def commit(repository, basecommand, userchanges):
     """Commit changes to a repository using the commands provided.
 
     :param repository: param basecommand:
-    :param userchanges:
+    :param userchanges: param basecommand:
     :param basecommand:
 
     """
