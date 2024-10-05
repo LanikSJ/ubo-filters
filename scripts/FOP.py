@@ -191,7 +191,7 @@ def main(location):
     """Find and sort all the files in a given directory, committing
     changes to a repository if one exists.
 
-    :param location: 
+    :param location:
 
     """
     # Check that the directory exists, otherwise return
@@ -277,7 +277,7 @@ def main(location):
 def fopsort(filename):
     """Sort the sections of the file and save any modifications.
 
-    :param filename: 
+    :param filename:
 
     """
     temporaryfile = "{filename}.temp".format(filename=filename)
@@ -296,8 +296,8 @@ def fopsort(filename):
             """
 
             :param uncombinedFilters: param DOMAINPATTERN:
-            :param domainseparator: 
-            :param DOMAINPATTERN: 
+            :param domainseparator:
+            :param DOMAINPATTERN:
 
             """
             combinedFilters = []
@@ -440,7 +440,7 @@ def filtertidy(filterin):
     """Sort the options of blocking filters and make the filter text
     lower case if applicable.
 
-    :param filterin: 
+    :param filterin:
 
     """
     optionsplit = re.match(OPTIONPATTERN, filterin)
@@ -496,8 +496,8 @@ def elementtidy(domains, separator, selector):
     tags and make the relevant sections of the rule lower case.
 
     :param domains: param separator:
-    :param selector: 
-    :param separator: 
+    :param selector:
+    :param separator:
 
     """
     # Order domain names alphabetically, ignoring exceptions
@@ -598,8 +598,8 @@ def commit(repository, basecommand, userchanges):
     """Commit changes to a repository using the commands provided.
 
     :param repository: param basecommand:
-    :param userchanges: 
-    :param basecommand: 
+    :param userchanges:
+    :param basecommand:
 
     """
     difference = subprocess.check_output(basecommand + repository.difference)
@@ -649,7 +649,7 @@ def commit(repository, basecommand, userchanges):
 def isglobalelement(domains):
     """Check whether all domains are negations.
 
-    :param domains: 
+    :param domains:
 
     """
     for domain in domains.split(","):
@@ -662,7 +662,7 @@ def removeunnecessarywildcards(filtertext):
     """Where possible, remove unnecessary wildcards from the beginnings
     and ends of blocking filters.
 
-    :param filtertext: 
+    :param filtertext:
 
     """
     allowlist = False
@@ -700,7 +700,7 @@ def checkcomment(comment, changed):
     acceptable and False if it is not.
 
     :param comment: param changed:
-    :param changed: 
+    :param changed:
 
     """
     sections = re.match(COMMITPATTERN, comment)
@@ -736,7 +736,7 @@ def validurl(url):
     (e.g. example.com) and a path (e.g. /), or relates to the internal
     about system.
 
-    :param url: 
+    :param url:
 
     """
     addresspart = urlparse(url)
