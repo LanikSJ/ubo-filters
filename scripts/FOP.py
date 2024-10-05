@@ -22,6 +22,7 @@ import re
 import subprocess
 import sys
 from urllib.parse import urlparse
+
 # FOP version number
 
 VERSION = 3.9
@@ -283,9 +284,9 @@ def fopsort(filename):
         def combinefilters(uncombinedFilters, DOMAINPATTERN, domainseparator):
             """
 
-            :param uncombinedFilters:
-            :param DOMAINPATTERN:
+            :param uncombinedFilters: param DOMAINPATTERN:
             :param domainseparator:
+            :param DOMAINPATTERN:
 
             """
             combinedFilters = []
@@ -456,9 +457,9 @@ def elementtidy(domains, separator, selector):
     """Sort the domains of element hiding rules, remove unnecessary
     tags and make the relevant sections of the rule lower case.
 
-    :param domains:
-    :param separator:
+    :param domains: param separator:
     :param selector:
+    :param separator:
 
     """
     # Order domain names alphabetically, ignoring exceptions
@@ -554,9 +555,9 @@ def elementtidy(domains, separator, selector):
 def commit(repository, basecommand, userchanges):
     """Commit changes to a repository using the commands provided.
 
-    :param repository:
-    :param basecommand:
+    :param repository: param basecommand:
     :param userchanges:
+    :param basecommand:
 
     """
     difference = subprocess.check_output(basecommand + repository.difference)
@@ -651,7 +652,7 @@ def checkcomment(comment, changed):
     """Check the commit comment and return True if the comment is
     acceptable and False if it is not.
 
-    :param comment:
+    :param comment: param changed:
     :param changed:
 
     """
