@@ -163,7 +163,10 @@ REPOTYPES = (GIT, HG)
 def start():
     """Print a greeting message and run FOP in the directories
     specified via the command line, or the current working directory if
-    no arguments have been passed."""
+    no arguments have been passed.
+
+
+    """
     greeting = "FOP (Filter Orderer and Preener) version {version}".format(
         version=VERSION
     )
@@ -185,7 +188,11 @@ def start():
 
 def main(location):
     """Find and sort all the files in a given directory, committing
-    changes to a repository if one exists."""
+    changes to a repository if one exists.
+
+    :param location: 
+
+    """
     # Check that the directory exists, otherwise return
     if not os.path.isdir(location):
         print("{location} does not exist or is not a folder.".format(location=location))
@@ -267,7 +274,11 @@ def main(location):
 
 
 def fopsort(filename):
-    """Sort the sections of the file and save any modifications."""
+    """Sort the sections of the file and save any modifications.
+
+    :param filename: 
+
+    """
     temporaryfile = "{filename}.temp".format(filename=filename)
     CHECKLINES = 10
     section = []
@@ -281,6 +292,13 @@ def fopsort(filename):
 
         # Combines domains for (further) identical rules
         def combinefilters(uncombinedFilters, DOMAINPATTERN, domainseparator):
+            """
+
+            :param uncombinedFilters: 
+            :param DOMAINPATTERN: 
+            :param domainseparator: 
+
+            """
             combinedFilters = []
             for i in range(len(uncombinedFilters)):
                 domains1 = re.search(DOMAINPATTERN, uncombinedFilters[i])
@@ -342,6 +360,7 @@ def fopsort(filename):
         # Writes the filter lines to the file
 
         def writefilters():
+            """ """
             if elementlines > filterlines:
                 uncombinedFilters = sorted(
                     set(section),
@@ -418,7 +437,11 @@ def fopsort(filename):
 
 def filtertidy(filterin):
     """Sort the options of blocking filters and make the filter text
-    lower case if applicable."""
+    lower case if applicable.
+
+    :param filterin: 
+
+    """
     optionsplit = re.match(OPTIONPATTERN, filterin)
 
     if not optionsplit:
@@ -469,7 +492,13 @@ def filtertidy(filterin):
 
 def elementtidy(domains, separator, selector):
     """Sort the domains of element hiding rules, remove unnecessary
-    tags and make the relevant sections of the rule lower case."""
+    tags and make the relevant sections of the rule lower case.
+
+    :param domains: 
+    :param separator: 
+    :param selector: 
+
+    """
     # Order domain names alphabetically, ignoring exceptions
     if "," in domains:
         domains = ",".join(
@@ -565,7 +594,13 @@ def elementtidy(domains, separator, selector):
 
 
 def commit(repository, basecommand, userchanges):
-    """Commit changes to a repository using the commands provided."""
+    """Commit changes to a repository using the commands provided.
+
+    :param repository: 
+    :param basecommand: 
+    :param userchanges: 
+
+    """
     difference = subprocess.check_output(basecommand + repository.difference)
     if not difference:
         print("\nNo changes have been recorded by the repository.")
@@ -611,7 +646,11 @@ def commit(repository, basecommand, userchanges):
 
 
 def isglobalelement(domains):
-    """Check whether all domains are negations."""
+    """Check whether all domains are negations.
+
+    :param domains: 
+
+    """
     for domain in domains.split(","):
         if domain and not domain.startswith("~"):
             return False
@@ -620,7 +659,11 @@ def isglobalelement(domains):
 
 def removeunnecessarywildcards(filtertext):
     """Where possible, remove unnecessary wildcards from the beginnings
-    and ends of blocking filters."""
+    and ends of blocking filters.
+
+    :param filtertext: 
+
+    """
     allowlist = False
     hadStar = False
     if filtertext[0:2] == "@@":
@@ -653,7 +696,12 @@ def removeunnecessarywildcards(filtertext):
 
 def checkcomment(comment, changed):
     """Check the commit comment and return True if the comment is
-    acceptable and False if it is not."""
+    acceptable and False if it is not.
+
+    :param comment: 
+    :param changed: 
+
+    """
     sections = re.match(COMMITPATTERN, comment)
     if sections == None:
         print(
@@ -685,7 +733,11 @@ def checkcomment(comment, changed):
 def validurl(url):
     """Check that an address has a scheme (e.g. http), a domain name
     (e.g. example.com) and a path (e.g. /), or relates to the internal
-    about system."""
+    about system.
+
+    :param url: 
+
+    """
     addresspart = urlparse(url)
     if addresspart.scheme and addresspart.netloc and addresspart.path:
         return True
