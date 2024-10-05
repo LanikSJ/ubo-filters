@@ -13,11 +13,11 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
-youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefinedyoutube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube-nocookie.com,youtube.com,youtubekids.com## + js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtube-nocookie.com,youtube.com,youtubekids.com## + js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
+youtube-nocookie.com,youtube.com,youtubekids.com## + js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
+youtube.com## + js(set, Object.prototype.adBlocksFound, 0)
+youtube.com## + js(set, Object.prototype.hasAllowedInstreamAd, true)
+youtube.com## + js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube-nocookie.com,youtube.com,youtubekids.com## + js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefinedyoutube.com,youtubekids.com,youtube-nocookie.com#@# + js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com## + js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
