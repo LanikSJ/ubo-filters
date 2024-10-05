@@ -1,6 +1,6 @@
 ! Title: YouTube Anti-Adblock Filter List
-! Checksum: RHGGkQRvAe0wTaNUEX826w
-! Last modified: 2024-07-07 09:49 UTC
+! Checksum: hg8311vlb/1IKggR44hX0A
+! Last modified: 2024-10-05 13:53 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -16,8 +16,8 @@
 youtube-nocookie.com,youtube.com,youtubekids.com## + js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
 youtube-nocookie.com,youtube.com,youtubekids.com## + js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
 youtube-nocookie.com,youtube.com,youtubekids.com## + js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
+youtube-nocookie.com,youtube.com,youtubekids.com## + js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefinedyoutube.com,youtubekids.com,youtube-nocookie.com#@# + js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com## + js(set, Object.prototype.adBlocksFound, 0)
 youtube.com## + js(set, Object.prototype.hasAllowedInstreamAd, true)
 youtube.com## + js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube-nocookie.com,youtube.com,youtubekids.com## + js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefinedyoutube.com,youtubekids.com,youtube-nocookie.com#@# + js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com## + js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
