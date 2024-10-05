@@ -20,7 +20,6 @@ body:
       description: Please provide your Ad Blocker
       multiple: true
       options:
-        - AdBlock/Adblock Plus
         - AdGuard
         - uBlock Origin
     validations:
@@ -49,6 +48,22 @@ body:
         4. See error
     validations:
       required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: Please provide screenshots to help explain your problem.
+      placeholder: No large screenshots please. Just the area in question and highlight the issue if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: configs
+    attributes:
+      label: "Config"
+      description: Please copy and paste any relevant Ad Blocker Config. This will be automatically formatted into code, so no need for backticks.
+      render: bash
+    validations:
+      required: false
   - type: dropdown
     id: os
     attributes:
@@ -59,20 +74,5 @@ body:
         - Windows
         - Linux
         - Mac
-    validations:
-      required: true
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: "Screenshots"
-      description: Please provide screenshots to help explain your problem.
-    validations:
-      required: false
-  - type: textarea
-    id: configs
-    attributes:
-      label: "Config"
-      description: Please copy and paste any relevant Ad Blocker Config. This will be automatically formatted into code, so no need for backticks.
-      render: bash
     validations:
       required: false
