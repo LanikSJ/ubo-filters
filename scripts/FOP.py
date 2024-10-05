@@ -20,9 +20,9 @@ import filecmp
 import os
 import re
 import subprocess
-# FOP version number
 import sys
 from urllib.parse import urlparse
+# FOP version number
 
 VERSION = 3.9
 
