@@ -15,13 +15,13 @@
 
     You should have received a copy of the GNU General Public License
     along with this program. If not, see <http://www.gnu.org/licenses/>."""
+import collections
+import filecmp
+import os
+import re
+import subprocess
 # FOP version number
 import sys
-import subprocess
-import re
-import os
-import filecmp
-import collections
 from urllib.parse import urlparse
 
 VERSION = 3.9
