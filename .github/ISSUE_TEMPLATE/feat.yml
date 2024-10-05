@@ -1,63 +1,76 @@
-name: "💡 Feature Request"
+name: "💡 Filter Request"
 description: Create a new ticket for a new feature request
-title: "💡 [REQUEST] - <title>"
+title: "💡 [FILTER REQUEST] - <title>"
 labels: [
   "question"
 ]
 body:
-  - type: input
-    id: start_date
-    attributes:
-      label: "Start Date"
-      description: Start of development
-      placeholder: "month/day/year"
-    validations:
-      required: false
   - type: textarea
-    id: implementation_pr
+    id: description
     attributes:
-      label: "Implementation PR"
-      description: Pull request used
-      placeholder: "#Pull Request ID"
+      label: "Description"
+      description: Please enter an explicit description of your issue
+      placeholder: Short and explicit description of your incident...
     validations:
-      required: false
-  - type: textarea
-    id: reference_issues
+      required: true
+  - type: dropdown
+    id: adblocker-config
     attributes:
-      label: "Reference Issues"
-      description: Common issues
-      placeholder: "#Issues IDs"
+      label: "Ad Blocker Name"
+      description: Please provide your Ad Blocker
+      multiple: true
+      options:
+        - AdGuard
+        - uBlock Origin
     validations:
-      required: false
-  - type: textarea
-    id: summary
+      required: true
+  - type: dropdown
+    id: browser-type
     attributes:
-      label: "Summary"
-      description: Provide a brief explanation of the feature
-      placeholder: Describe in a few lines your feature request
+      label: "Browser Name"
+      description: Please provide your Browser
+      multiple: true
+      options:
+        - Chrome (Chromium, Brave etc)
+        - Mozilla Firefox
+        - Other
     validations:
       required: true
   - type: textarea
-    id: basic_example
+    id: url
     attributes:
-      label: "Basic Example"
-      description: Indicate here some basic examples of your feature.
-      placeholder: A few specific words about your feature request.
+      label: "Site URL"
+      description: Please enter the URL of the website you're having an issue with.
+      placeholder: Please put ``` around the site name to avoid sending refers and attracting unneeded attention.
+      render: bash
     validations:
       required: true
   - type: textarea
-    id: drawbacks
+    id: screenshot
     attributes:
-      label: "Drawbacks"
-      description: What are the drawbacks/impacts of your feature request ?
-      placeholder: Identify the drawbacks and impacts while being neutral on your feature request
+      label: "Screenshots"
+      description: Please provide screenshots to help explain your problem.
+      placeholder: No large screenshots please. Just the area in question and highlight the issue if possible.
+      render: bash
     validations:
       required: true
   - type: textarea
-    id: unresolved_question
+    id: configs
     attributes:
-      label: "Unresolved questions"
-      description: What questions still remain unresolved ?
-      placeholder: Identify any unresolved issues.
+      label: "Config"
+      description: Please copy and paste any relevant Ad Blocker Config. This will be automatically formatted into code, so no need for backticks.
+      render: bash
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      description: What is the impacted environment ?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
     validations:
       required: false
