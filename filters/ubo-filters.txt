@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: DA4NBlOBD3z0coHKtUSgyg
-! Last modified: 2024-10-05 13:46 UTC
+! Checksum: xwUg6wYDwwVqAuoTqEFvkw
+! Last modified: 2024-10-07 08:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -33,7 +33,6 @@
 9to5mac.com##.ninetofive-dronedj.feed-title-bar
 9to5mac.com##aside.trending-wrapper:nth-of-type(1)
 9to5mac.com##div[class*=st5]
-@@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com
 @@||cjisonline.com^$ghide,~third-party
 @@||cjisonline.com^$permissions=browsing-topics=()
 @@||googleadservices.com/gpt/pubads^$domain=realtor.com
@@ -287,7 +286,6 @@ linkedin.com##.ad-banner
 linkedin.com##.scaffold-layout__ad
 linksysinfo.org##.notice_notice_cookies.DismissParent.Notice.panel
 linksysinfo.org##.Notices.PanelScroller
-linuxacademy.com##.leadin-preview-wrapper
 linuxbabe.com##.home_sidebar
 linuxize.com##.block.affiliate
 linuxquestions.org##.vertical-medium.stackcommerce-widget
@@ -628,13 +626,9 @@ youtube.com##.ytd-info-panel-container-renderer
 youtube.com#@##contentContainer:style(padding-top: 0 !important;)
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
-||akamaihd.net^*&video$xmlhttprequest,domain=fortune.com
 ||assets.wfcdn.com/im/*_miss_exclusive_deals_and_perks_on_the_app*.jpg$image
-||awsstatic.com/Digital%20Marketing/$image
 ||blogspot.com^$image,domain=yourownlinux.com
 ||cdn2.hubspot.net/hubfs/*/docs-graphics/ASB-docs-left-rail.png
-||g00.cnet.com/g00/^$media,other,xmlhttprequest,domain=cnet.com
-||images-amazon.com/images/^DiscoveryInnovation/Shopbop/$image
 ||images-na.ssl-images-amazon.com/images/^*the_shop_by_shopbop$image
 ||images.squarespace-cdn.com/content/*ad*.png?format=300w$image
 ||images.squarespace-cdn.com/content/*Camp*.jpg?format=300w$image
@@ -653,25 +647,12 @@ zdnet.com##.content-bottom-leaderboard
 ||jenkins-infra.github.io/patron/$subdocument
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
 ||kron4.com/wp-content/uploads/*App-QR-Code-FS-FLOWCODE$image
-||media-amazon.com/images/*Clinic/TYP/AC_TYP_Desktop$image
-||media-amazon.com/images/*Georgetown/Shoes$image
-||media-amazon.com/images/*gift-certificates/consumer/*/Campaign/*.jpg$image
-||media-amazon.com/images/*Graduation/*.jpg$image
-||media-amazon.com/images/*Mobile/PokemonGO/*PGO*.png$image
-||media-amazon.com/images/*Pets$image
-||media-amazon.com/images/*Prime-Rx-Stitch-30-Campaign/$image
-||media-amazon.com/images/*Wedding/*Wedding*.jpg$image
 ||media.united.com/assets/m/*/*_Explorer_*.png$image
-||neweggimages.com/*banner$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
 ||rainbow.coop/wp-content/uploads/^banner
 ||restaurants.infcdn.net/img/$image
 ||sans.org/banners/$subdocument
-||ssl-images-amazon.com/*/ads/
-||ssl-images-amazon.com/images/*DiscoveryInnovation/Shopbop/$image
-||ssl-images-amazon.com/images/*PromoImages/$image
 ||static.gasbuddy.com/web/pay/p*.png$image
 ||widgets.tree.com/widget/$subdocument,third-party
 ||wiki.jenkins.io/plugins/macrobrowser/browse-macros.action$xmlhttprequest
-||yelpcdn.com/assets/*/promotions/$image
 ||youtube.com/share_ajax?action_get_share_box=1&video_id=$xmlhttprequest
