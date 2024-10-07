@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lyPrpnWp5glDjlBymGrxbw
-! Version: 202410070251
+! Checksum: wWICP44mGePt4VRYz7wzDg
+! Version: 202410070829
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-10-07 02:51 UTC
+! Last modified: 2024-10-07 08:29 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -454,7 +454,6 @@ _social_footer_
 ! fanboy_social_thirdparty.txt
 ||addnow.com^$third-party
 ||addthis.com^$third-party
-||addthiscdn.com^$domain=~addthis.com
 ||addtoany.com^$third-party
 ||assets.pinterest.com/js/pinit.js$third-party
 ||assets.pinterest.com/pidget.html$third-party
@@ -464,7 +463,6 @@ _social_footer_
 ||badge.facebook.com^$third-party
 ||badges.instagram.com^$third-party
 ||bloglovin.com/widget/$third-party
-||bshare.cn^$third-party
 ||button-share.zalo.me^$third-party
 ||button.like.co^$third-party
 ||buttons.github.io/buttons.js$third-party
@@ -504,8 +502,6 @@ _social_footer_
 ||flipboard.com/web/buttons/$third-party
 ||followistic.com^$third-party
 ||friends2follow.com^$subdocument,third-party
-||fwcdn2.com^$third-party
-||fwcdn3.com^$third-party
 ||getbutton.io/widget-send-button/$third-party
 ||getsocial.io/widget/$third-party
 ||getsocial.io^*/gs_async.js$third-party
@@ -530,12 +526,10 @@ _social_footer_
 ||linkedin.com/countserv/$third-party
 ||linkedin.com/img/$third-party
 ||linkedin.com/uas/js/userspace?$third-party
-||linksalpha.com^$third-party
 ||loveclaw.com^$third-party
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
-||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||newsharecounts.com^$third-party
@@ -559,7 +553,6 @@ _social_footer_
 ||revinate.com^$third-party
 ||scoop.it^$third-party
 ||share.itraffic.su^$third-party
-||share.static.skyrock.net^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
 ||sharethis.com^$third-party
@@ -573,7 +566,6 @@ _social_footer_
 ||storeya.com/externalscript/$third-party
 ||t.pridat.eu^$third-party
 ||trendemon.com^$third-party
-||twinesocial.com^$third-party
 ||twitter.com/js/timeline.$script,third-party
 ||usocial.pro^$third-party
 ||vk.com/share.php?$third-party
@@ -681,7 +673,6 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! 
 ! ---------- German Site Specific Hiding Rules ----------
 ! 
-||pipeline.de/socialmedia-icons/
 ||seitzeichen.de^$third-party
 ||social-bookmarking-tools.de^$third-party
 ||werkenntwen.de/images/buttons/$third-party
@@ -796,7 +787,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ||harem69.com.br/img/social.png
 ||jcconcursos.com.br/static/socialmedia/
 ||opto.sic.pt/footer/socials/
-||trrsf.com/transversais/trr_bar/$script
 ! 
 ! ---------- Romanian Site Specific Hiding Rules ----------
 ! 
