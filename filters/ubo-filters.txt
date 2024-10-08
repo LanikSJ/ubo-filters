@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: xwUg6wYDwwVqAuoTqEFvkw
-! Last modified: 2024-10-07 08:29 UTC
+! Checksum: ICmr7Qx+y4OlyshkSeCZhg
+! Last modified: 2024-10-08 10:44 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -44,6 +44,7 @@ about.gitlab.com##.slpFreeTrialBanner
 account.acronis.com##.content-layout__banner
 accuweather.com###header-davek
 adguard-dns.io##.flash-wrapper--static
+adguard.com##.flash-wrapper-wrap
 advancedtomato.com###cookieprivacy-bar
 advisera.com##.banner-holder
 advisera.com##.side-banner-link > .lazyloaded.entered
@@ -174,6 +175,7 @@ eliteseller.com##[href*="/demo"]
 eliteseller.com##[href*="/pricing"]
 eliteseller.com##figure.size-full
 en.wikipedia.org,wikimedia.org###siteNotice
+eonline.com##.dockable
 erewhon.com##.cart-promocard
 espn.com##.reactions-ready
 expedia.com###join-rewards-banner
@@ -227,6 +229,7 @@ goldenstatenissan.com##.ico-desktop.ico-adaptive
 goldenstatenissan.com##.mx-auto.d-block
 goldenstatenissan.com##.text-center.insta-banner-img
 google.com###ssrad-master
+goreleaser.com##.md-banner
 gostream.is###mgd
 gostream.is##.text-center.alert.ann-home
 grammarly.com##.dropdown-header-extension.dropdown-header
@@ -623,6 +626,7 @@ youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel
 youtube.com##.video-annotations
 youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
 youtube.com##.ytd-info-panel-container-renderer
+youtube.com#@##contentContainer.tp-yt-app-drawer[swipe-open].tp-yt-app-drawer::after, tp-yt-app-drawer:style(position: absolute !important; top: 0 !important; bottom: 0 !important;)
 youtube.com#@##contentContainer:style(padding-top: 0 !important;)
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
