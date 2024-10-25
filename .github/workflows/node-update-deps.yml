@@ -1,0 +1,98 @@
+name: NodeJS Dependencies Update
+
+env:
+  NODE_VERSION: 20
+
+on:
+  schedule:
+    # Run the job on every Tuesday at 12:00 PM UTC
+    - cron: '0 12 * * 2'
+  push:
+        branches:
+        - master
+        paths:
+        - '.github/workflows/node-update-deps.yml'
+  workflow_dispatch:
+
+jobs:
+  node-deps-update:
+    name: NodeJS Dependencies Update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Install Dependencies
+        run: pnpm install
+      
+      - name: Get Changed Files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        with:
+            since_last_remote_commit: true 
+
+      - name: List All Changed Files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+          done
+      
+      - name: Create New Branch
+        id: create-branch
+        if: steps.changed-files.outputs.all_changed_files == 'true'
+        run: |
+          branch_name="feature/node-deps-update"
+          git checkout -b $branch_name
+          echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
+
+      - name: Stage Changes
+        if: steps.changed-files.outputs.all_changed_files == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+
+      - name: Commit and Push
+        if: steps.changed-files.outputs.all_changed_files == 'true'
+        run: |
+          git commit -m "Automated Node Dependency Update"
+          git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
+
+      - name: Create Pull Request
+        uses: actions/github-script@v7
+        if: steps.changed-files.outputs.all_changed_files == 'true'
+        with:
+          script: |
+            const { data: pullRequest } = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Automated Node Dependency Update',
+              head: '${{ steps.create-branch.outputs.branch_name }}',
+              base: context.ref.replace('refs/heads/', ''),
+              body: [
+                'This is an automated pull request to update NodeJS dependecies.',
+              ].join('\n'),
+            });
+
+            core.info(`Pull Request #${pullRequest.number} Opened`);
+
+            // Add labels to the pull request
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pullRequest.number,
+              labels: ['dead website'],
+            });
