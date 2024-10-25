@@ -12,6 +12,10 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
+docs.vultr.com##.to-vultr-navy
+docs.vultr.com##.overflow-hidden.shadow.rounded-md
+hub.docker.com###docker-announcement-bar
+||cloudfront.net/hub-ui/*.png$image
 ###coopcommerce
 ###phpbb-ads-ab
 ##.taboola-module
