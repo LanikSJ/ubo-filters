@@ -641,7 +641,6 @@ zdnet.com##.content-bottom-leaderboard
 ||blogspot.com^$image,domain=yourownlinux.com
 ||cdn2.hubspot.net/hubfs/*/docs-graphics/ASB-docs-left-rail.png
 ||cloudfront.net/hub-ui/*.png$image
-||cloudfront.net/hub-ui/*.png$image
 ||images-na.ssl-images-amazon.com/images/^*the_shop_by_shopbop$image
 ||images.squarespace-cdn.com/content/*ad*.png?format=300w$image
 ||images.squarespace-cdn.com/content/*Camp*.jpg?format=300w$image
