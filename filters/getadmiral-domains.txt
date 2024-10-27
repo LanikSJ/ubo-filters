@@ -663,6 +663,7 @@
 ||reconditerespect.com^
 ||reflectivereward.com^
 ||reflectivestatement.com^
+||regexmail.com^
 ||regularplants.com^
 ||relationrest.com^
 ||repeatsweater.com^
