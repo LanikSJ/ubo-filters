@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: ASskIahWqyc0EyicwdBnig
-! Last modified: 2024-10-27 00:00 UTC
+! Checksum: 9xrf870CWhTf+ToOoAa3JQ
+! Last modified: 2024-10-28 08:26 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -84,7 +84,6 @@ bedbathandbeyond.com##div[class*="Region"]
 bedbathandbeyond.narvar.com##.desktop-marketing-asset
 bhphotovideo.com###promoConsole
 bhphotovideo.com##div[class*="banners"]
-bhusers.com##[href*="bhusers.com/go/bluehost/"]
 bizjournals.com##.breadcrumbs
 blog.aboutamazon.com##.PromoImage-media
 blog.prepscholar.com###free-sat-tips
