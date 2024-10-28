@@ -1,6 +1,6 @@
 ! Title: uBlock Filters Plus
-! Checksum: ICmr7Qx+y4OlyshkSeCZhg
-! Last modified: 2024-10-25 18:32 UTC
+! Checksum: aJxTVIKGdtAu1UYFWp2Uxw
+! Last modified: 2024-10-28 08:26 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -12,15 +12,13 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
+
+###adb-note
 ###AdsByCurseBanner
 ###NotificationUpgradeWin81and7NonSupport
-###adb-note
 ###su_flash_ec__0
 ###su_flash_ec__1
 ##.slide_likebox
-##A[href*="/AF_TA/rel/index.cfm"]
-##A[href*="://nitrogensports.eu/r/"]
-##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
 ##[href*=".reimageplus.com/"]
 ##[href*="://ab.advertiserurl.com/"]
 ##[href^="http://engine.4dsply.com/"]
@@ -34,8 +32,11 @@
 ##a[href*="/_b2.php?url="]
 ##a[href*="/_b3.php?url="]
 ##a[href*="/_c3.php?url="]
+##A[href*="/AF_TA/rel/index.cfm"]
 ##a[href*="/afu.php"]
+##A[href*="://nitrogensports.eu/r/"]
 ##a[href*="://secure.link/"]
+##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
 ##a[href="http://www.chip.de/amazon_prime"]
 ##a[href^="/adb/"]
 ##a[href^="http://data.oileddaintiessunset.info/"]
@@ -43,14 +44,13 @@
 &adb=$subdocument,other
 .com/*/Redirect.a1b$document
 .com/faloo.js|$script,first-party
-/Avast_*_Generic_*_WebBanner*.jpg$image
-/Redirect*MediaSegmentId$document
 /adblockbanner*$script
 /adblockpopunder*$script
 /adman/*$document
 /antiadblock*$script
 /arecl.js
 /async_pixel?
+/Avast_*_Generic_*_WebBanner*.jpg$image
 /b?z=$script
 /ccc-adscript/*
 /click-in.php?$document
@@ -64,6 +64,7 @@
 /popu/*$script
 /popupclick/$popup
 /puopen.$popunder,popup,important
+/Redirect*MediaSegmentId$document
 /revive-adserver-$popunder,popup
 /scripts/sweet/*$third-party
 /scripts/sweet/b3.php
@@ -71,21 +72,17 @@
 /static/full-page-script.js$third-party
 /statserv/video/view
 /unblockmeback.php$script
-4553t5pugtt1qslvsnmpc0tpfz5fo.xyz##+js(bab-defuser.js)
 ?pixel=
 @@/js/abp.js?$script,first-party
-@@||api.solvemedia.com^$script,third-party,domain=uploadrocket.net
 @@||cache.realitykings.com^$media,object,first-party
 @@||cdn.teamskeetimages.com^$image,domain=teamskeet.com
 @@||firebaseapp.com/adpoint.js?_=$script
-@@||hiqqu.xxx/static/ads/ads.js$script,first-party
 @@||searchdns.netcraft.com^$generichide
 @@||static.shorte.st^$domain=sh.st
 @@||uobsoe.com/ad_bomb/*.png$image,third-party
 @@||viptube.com^$generichide
 accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
 animmex.com##+js(bab-defuser.js)
-auroravid.to,wholecloud.net###aad
 chip.de###sparwelt_cont
 chip.de##[href^="javascript:DSinitDl"]
 cronometer.com##[href*="://mybiosense.com/"]
@@ -130,8 +127,6 @@ reviewmeta.com##.ad_gu_tr
 reviewmeta.com##.ad_unit_1
 search.disconnect.me##.ad
 searchdns.netcraft.com##.advert-tag
-the-watch-series.to##[id^="MarketGidWrap"]
-the-watch-series.to##a[href*="://internalredirect.site/"]
 thehackernews.com##A[href^="http://ow.ly/"]
 themerkle.com##.topad
 tid=ad&
@@ -140,17 +135,17 @@ unbubble.eu##.sponsor-title
 unbubble.eu##.sponsor-title + *
 unbubble.eu##.top-products
 vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
-vg.no,youtube.com,e621.net,ghacks.net,en.greatfire.org,nintendolife.com,thejournal.ie,invidio.us,kgg2m7yk5aybusll.onion,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,174.138.43.128,yewtu.be,invidious.snopyta.org,invidious.13ad.de,invidious.ggc-project.de,invidious.toot.koeln,invidious.fdn.fr,city-countyobserver.com#@##comments
+vg.no,youtube.com,e621.net,ghacks.net,en.greatfire.org,nintendolife.com,thejournal.ie,invidio.us,kgg2m7yk5aybusll.onion,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,174.138.43.128,yewtu.be,invidious.snopyta.org,invidious.13ad.de,invidious.ggc-project.de,invidious.fdn.fr,city-countyobserver.com#@##comments
 viptube.com###adx_ad
 viptube.com##.footer_adv
 watchfree.to##.get_vpn
 web.de##.notification-alert[data-notification-browser]
+wholecloud.net###aad
 www.anabolicmen.com###text-55
 x3xtube.com##[href^="http://join."]
 x3xtube.com##a[href^="/cgi-bin/a2/out.cgi?id="][href*="&l=trade_thumbs"]
 zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,third-party,subdocument,important
 |http*$domain=imgfantasy.com,third-party,script
-|http*$domain=newimagepost.com,third-party,script
 |http*$domain=pornleech.com,third-party,script
 |http*$domain=uploadrocket.net,script,third-party
 |http*$popup,third-party,domain=openload.co
@@ -158,7 +153,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 |http*$script,domain=primewire.org,third-party
 |http*$xmlhttprequest,domain=primewire.ag|primewire.in|primewire.org,third-party
 |http*$xmlhttprequest,domain=streamcloud.eu
-||0jzxzd21.com^
 ||130.211.198.219^$popup,third-party
 ||4dsply.com^
 ||adnetworkperformance.com^
@@ -166,21 +160,13 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||adnium.com^
 ||adplxmd.com^
 ||adplxmd.com^$popup
-||adsrvmedia.net^
-||adverkeyz.com^
-||adverkeyz.com^$popup
 ||advertiserurl.com^
 ||advertiserurl.com^$popup
-||all2lnk.com^
-||alphamoneygenerator.com^$document
-||alphamoneygenerator.com^$popup,third-party
 ||ampclicks.com^
 ||anverlindo.info^
-||apportium.com^
 ||ar1n.xyz^
 ||atas.io^$popup,third-party
 ||azadify.com^$third-party
-||barlive.link^
 ||bestadbid.com^
 ||bestoffertime.com^
 ||bestvpn.com/wp-content/cache/scripts/*-deanedwards.js
@@ -189,7 +175,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||branchroughlend.info^
 ||cdm.cursecdn.com^$third-party
 ||cdn.420chan.org/sp/
-||clicksvenue.com^
 ||clkfeed.com^
 ||cloudfront.net^$popup,third-party,domain=allvid.ch
 ||cnt.viptube.com^
@@ -200,26 +185,16 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||cronometer.com/*/NutritionScores_BannerGold$image
 ||cytochemistryrecitativewrasse.com^
 ||cytochemistryrecitativewrasse.com^$popup
-||d29lpg037v41oq.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net^
-||d4bsxdtgtmhxt.cloudfront.net^
 ||d62mrph0xm5hi.cloudfront.net^
-||descapita.com^
 ||directadvert.ru^
 ||directrev.com^
-||downloatransfer.com^
-||downloatransfer.com^$popup
 ||dprtb.com^
-||dropzenad.com^
 ||duckcash.eu^
 ||e.mzsimg.com^$image,domain=foxtube.com
 ||email.mail1.labdoor.com^$image
 ||fantasti.cc*/*track.php
 ||files.gamebanana.com/bitpit/opskins-gamebanana-*.jpg
-||finishclueobscure.info^
-||finishclueobscure.info^$popup
-||free-state.work^
-||free-state.work^$popup
 ||globaltraffico.com^
 ||gmyze.com^
 ||go4up.com/assets/img/download-buttoned.png
@@ -229,11 +204,9 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||hentaihaven.org/_
 ||hentaihaven.org/beta/
 ||hilltopads.net^
-||hiqqu.xxx/static/scripts.js
 ||images.dvbdata.com/*.jpg$subdocument,third-party
 ||info.gmx.net^$script
 ||info.web.de^$script
-||invernetter.info^
 ||ipsowrite.com^
 ||ipsowrite.com^popup
 ||iwanttodeliver.com^$popup
@@ -245,22 +218,13 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||loading-delivery2.com^
 ||marketing.al.ly^
 ||megapopads.com^
-||n121adserv.com^
-||n156adserv.com^
-||newpoptab.com^
-||november-lax.com^
 ||npmpecd.com^$popup,document
 ||nutaku.net/signup/landing/$popup,third-party
-||officerrecordscale.info^
-||officerrecordscale.info^$popup
-||oratosaeron.com^
-||oratosaeron.com^$popup
 ||p.d.*.com/v$script,third-party
 ||p.d.*.org/v$script,third-party
 ||p.w.*.com/s/err
 ||padsdel.com^
 ||phoenixads.co.in^
-||piroji.com^
 ||play.google.com/log?
 ||plex2.com^
 ||popcash.net^
@@ -271,7 +235,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||proxy*.amazonaws.com/bait|
 ||prpops.com^
 ||pussyspace.com/ajax_obj.js
-||qrrgv.space^
 ||rdsa2012.com^
 ||reddit.com/api/request_promo
 ||redditmedia.com/moat/
@@ -300,8 +263,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||thewhizmarketing.com^$popup,third-party
 ||ticrite.com^
 ||ticrite.com^$popup
-||towardangelaosprey.com^
-||towardangelaosprey.com^$popup
 ||track.stumblemail.net^$image
 ||trackingclick.net^
 ||traffichaus.com^
@@ -319,33 +280,29 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||voluumtrk.com^
 ||watrz.com^
 ||webmd.com/dtmcms/live/webmd/*/oas*.js
-||wordgetboo.com^$popup
 ||www.startpage.com/do/jserr$xmlhttprequest
 ||x3xtube.com/redir*.html$popup
 ||xl415.com^
-||yrsfs.com^
 ||zanox-affiliate.de^$popup,third-party
 ||zerem.*.info^
 ||zerem.*.info^$popup
 ||zeroredirect1.com^
-||zeroredirect10.com^
-||zeroredirect2.com^
 ||zinturax.com^
-
 # Courtesy of @jo2dan23
+
 ##a[href^="http://wct.link/click"]
 .net/s.gif?
 .net/track?$~object
-/ComscoreStreamSensePlugin.
-/MOATAnalyticsPlugin.
-/NielsenPlugin.
 /basePopunder.js
 /cdn-cgi/pe/bag2?*adstract.com
 /comscore_branding/*
+/ComscoreStreamSensePlugin.
 /csi_204?
 /ga_urchin_
 /index.php?service=stats&action=collect&
 /js/caf.js|
+/MOATAnalyticsPlugin.
+/NielsenPlugin.
 /parking_caf_*.js
 /rum-beacon-
 /tcounter.
@@ -365,20 +322,19 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||afs.googleusercontent.com^
 ||afsanalytics.com^$third-party
 ||agilecrm.com^$third-party
-||amazon.*/ReportEvent?
 ||amazon.*/analytics.
 ||amazon.*/blank-pixel.
 ||amazon.*/empty.gif?
 ||amazon.*/metrics/log-$~image
 ||amazon.*/record-impressions.
 ||amazon.*/record.html
+||amazon.*/ReportEvent?
 ||amazon.*/uedata
 ||amazonaws.com/wpanalytics/
 ||ampxchange.com^
 ||applovin.com^$third-party
 ||atgsvcs.com^$third-party
 ||b.sli-spark.com/sli-spark.js
-||beacon.squixa.net^
 ||caanalytics.com^$third-party
 ||carambo.la/logging/
 ||cloudfront.net/a.gif|
@@ -387,7 +343,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||conversionsondemand.com^$third-party
 ||conviva.com^*/LivePassModuleMain_telemetry.swf
 ||crm-metrix.com^$third-party
-||cyveillance.com^$third-party
 ||d1tprjo2w7krrh.cloudfront.net^
 ||dthvdr9.com^$third-party
 ||ebayrtm.com/clk?$image
@@ -403,7 +358,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||investopedia.com^*/geoip.php
 ||itsme247.com^*/ga.js
 ||kastatic.com^*/blank.gif
-||ledradn.com^$third-party
 ||liveclicker.net^$third-party
 ||lostrabbitmedia.com^$third-party
 ||maxtraffic.com^$third-party
@@ -413,7 +367,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||parkingcrew.net^$third-party
 ||paypal.com^*/api/log
 ||photorank.me/track/
-||pixel.getchute.com^
 ||propelmarketing.com^$third-party
 ||pxi.pub^$third-party
 ||redditmedia.com/gtm/
@@ -429,7 +382,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||vice-ads.s3.amazonaws.com^
 ||vimeo.com/log/
 ||vimeocdn.com^*/player-stats
-||xpanama.net/stats/
 ||yahoo.com/neo/logger
 ||yahoo.com/neo/mbfb?
 ||yahoo.com/pageview/?
@@ -446,7 +398,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||zappos.com^*/pixel.png?
 ||zappos.com^*/uedata?
 ||zykko.com^$third-party
-
 # Filters partially taken out of EasyList and modified to make use of strict blocking.
 # "EasyList" by "The EasyList authors (https://easylist.adblockplus.org/)" (License: https://easylist-downloads.adblockplus.org/COPYING)
 &link_type=offer$document
@@ -469,13 +420,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 .popupvideoad.$document
 /?placement=*&redirect$document
 /?reef=$document
-/AdHandler.aspx?$document
-/IBNjspopunder.$document
-/INjspopunder.$document
-/Redirect.eng?$document
-/Redirect.engine$document
-/Redirect.rb?$document
-/VHDpoppingModels/*$document
 /a/display.php?$document
 /ad.php?tag=$document
 /ad.php?zone$document
@@ -484,12 +428,12 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 /ad/popup.$document
 /ad/window.php?$document
 /ad132m/*$document
-/adClick/*$document
-/adServe/*$document
 /ad_pop.$document
 /ad_pop1.$document
 /ad_popup_$document
 /adclick.$document
+/adClick/*$document
+/AdHandler.aspx?$document
 /adpop.$document
 /adpop32.$document
 /adpopup.$document
@@ -497,14 +441,15 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 /ads/pop.$document
 /ads/popup.$document
 /ads/popup_$document
+/adServe/*$document
 /adserver.$document
 /adserving$document
 /adstream_sx.ads/*$document
 /adsxml.php$document
 /adsynserveuserid=$document
 /adultadworldpop_$document
-/advPop.$document
 /advlink.$document
+/advPop.$document
 /afu.php?$document
 /apopwin.$document
 /awepop.$document
@@ -523,11 +468,13 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 /fp.eng?$document
 /fp.engine?$document
 /geitonpop.$document
+/IBNjspopunder.$document
 /im-popup/*$document
 /impop.$document
 /impopup/*$document
-/jsVideoPopAd.$document
+/INjspopunder.$document
 /jspopunder.$document
+/jsVideoPopAd.$document
 /kaksvpopup.$document
 /kogeePopupAd.$document
 /layered-popups/*$document
@@ -594,6 +541,9 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 /punder.php$document
 /puopen$document
 /realmedia/ads/*$document
+/Redirect.eng?$document
+/Redirect.engine$document
+/Redirect.rb?$document
 /redirect.spark?$document
 /rotator.php?$document
 /sendspace-pop.$document
@@ -604,6 +554,7 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 /srvclk.php?$document
 /static/js/pop*.$document
 /streamatepop.$document
+/VHDpoppingModels/*$document
 /werbepopup/*$document
 /wp-popup-scheduler/*$document
 /wp-super-popup-pro/*$document
@@ -613,9 +564,9 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 =popunder&$document
 =popunders&$document
 ?AdUrl=$document
-?PopAd=$document
 ?bannerid=*&punder=$document
 ?iiadext=$document
+?PopAd=$document
 ?popup:msp_$document
 ?popupiniframe=$document
 ?type=oas_pop&$document
