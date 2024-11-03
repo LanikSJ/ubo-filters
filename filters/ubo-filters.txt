@@ -25,7 +25,7 @@
 123movies.*##.onp-sl-outer-wrap
 123moviesfree.net##.ann-home
 123movieshub.*##.text-center.alert.ann-home
-9to5google.com,9to5mac.com,9to5toys.com,electrek.co## + js(aopr, canRunAds)
+9to5google.com,9to5mac.com,9to5toys.com,electrek.co##+js(aopr, canRunAds)
 9to5mac.com##.amp-wp-7023da7
 9to5mac.com##.amp-wp-iframe-placeholder
 9to5mac.com##.fluid-width-video-wrapper
@@ -632,9 +632,6 @@ youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel
 youtube.com##.video-annotations
 youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
 youtube.com##.ytd-info-panel-container-renderer
-youtube.com#@##contentContainer.tp-yt-app-drawer:style(padding: unset !important;)
-youtube.com#@##contentContainer.tp-yt-app-drawer[swipe-open].tp-yt-app-drawer::after, tp-yt-app-drawer:style(position: absolute !important; top: 0 !important; bottom: 0 !important;)
-youtube.com#@##contentContainer:style(padding-top: 0 !important;)
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||assets.wfcdn.com/im/*_miss_exclusive_deals_and_perks_on_the_app*.jpg$image
