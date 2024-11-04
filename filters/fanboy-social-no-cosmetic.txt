@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zkJTLWy2Yv7GD/sVLhSbvw
-! Version: 202410280826
+! Checksum: rgfsDs4BI9FFu+VqKiIIUQ
+! Version: 202411040253
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-10-28 08:26 UTC
+! Last modified: 2024-11-04 02:53 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -554,7 +554,6 @@ _social_footer_
 ||revinate.com^$third-party
 ||scoop.it^$third-party
 ||share.itraffic.su^$third-party
-||share.static.skyrock.net^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
 ||sharethis.com^$third-party
@@ -568,6 +567,8 @@ _social_footer_
 ||storeya.com/externalscript/$third-party
 ||t.pridat.eu^$third-party
 ||trendemon.com^$third-party
+||twitter.com/account/$third-party
+||twitter.com/i/jot
 ||twitter.com/js/timeline.$script,third-party
 ||usocial.pro^$third-party
 ||vk.com/share.php?$third-party
@@ -603,6 +604,7 @@ _social_footer_
 ! fanboy_social_specific_hide.txt
 ! ! :has
 neon.tech#?#.justify-between.items-center:-adp-contains(Share:)
+newskarnataka.com#?#.elementor-button-wrapper:-adp-contains(Social Media)
 newsroom.ucla.edu#?#.promo-card-muted:-adp-contains(RSS feed)
 openculture.com#?#.execphpwidget:-abp-contains(FREE UPDATES!)
 ! ! .social-sharing
