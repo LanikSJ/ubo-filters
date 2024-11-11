@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: 1BkXqiVuhYCLqjS63Ayx/g
-! Last modified: 2024-10-07 08:29 UTC
+! Checksum: ugxwHoVvLL0D5IbOKn1Sew
+! Last modified: 2024-11-11 08:26 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -35,7 +35,6 @@
 ||browsermine.com^$third-party
 ||candid.zone^$third-party
 ||cashbeet.com
-||cinemafacil.com/js.php
 ||clgserv.pro^$third-party
 ||cloudcoins.co^$third-party
 ||cnhv.co^$third-party
@@ -167,6 +166,5 @@
 ||webminerpool.com^$third-party
 ||webxmr.com^$third-party
 ||wordc.ga^
-||xmr.cool^$third-party
 ||zlx.com.br^$third-party
 ||zymerget.bid
