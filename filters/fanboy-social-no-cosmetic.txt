@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rgfsDs4BI9FFu+VqKiIIUQ
-! Version: 202411040253
+! Checksum: hC/zi/ozyiAr2ItgqzY9BQ
+! Version: 202411110247
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-11-04 02:53 UTC
+! Last modified: 2024-11-11 02:47 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -603,10 +603,11 @@ _social_footer_
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 ! fanboy_social_specific_hide.txt
 ! ! :has
-neon.tech#?#.justify-between.items-center:-adp-contains(Share:)
-newskarnataka.com#?#.elementor-button-wrapper:-adp-contains(Social Media)
-newsroom.ucla.edu#?#.promo-card-muted:-adp-contains(RSS feed)
+neon.tech#?#.justify-between.items-center:-abp-contains(Share:)
+newskarnataka.com#?#.elementor-button-wrapper:-abp-contains(Social Media)
+newsroom.ucla.edu#?#.promo-card-muted:-abp-contains(RSS feed)
 openculture.com#?#.execphpwidget:-abp-contains(FREE UPDATES!)
+! ! top-level domain wildcard
 ! ! .social-sharing
 ! ! .share-group
 ! ! .share-icons
