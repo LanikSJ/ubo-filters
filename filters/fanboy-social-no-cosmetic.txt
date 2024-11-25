@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ODq/17vwzcT+HINvDcjDgw
-! Version: 202411180257
+! Checksum: 5XmLSKOCcZ/9C2/vSxHVuw
+! Version: 202411250257
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-11-18 02:57 UTC
+! Last modified: 2024-11-25 02:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -147,7 +147,6 @@
 /images/social_black/*
 /itpsocialbuttons/images/*
 /itpsocialbuttons/style.css
-/Javascripts/Social.js
 /jiathis_share.css
 /jinda-facebook-lightbox/public/*
 /jquery-pin-it-button-for-images/js/jpibfi.client.js
@@ -610,6 +609,7 @@ openculture.com#?#.execphpwidget:-abp-contains(FREE UPDATES!)
 ! ! top-level domain wildcard
 ! ! .social-sharing
 ! ! .share-group
+! ! .share-container
 ! ! .share-icons
 ! ! .share-links
 ! ! .share-buttons
@@ -634,6 +634,8 @@ openculture.com#?#.execphpwidget:-abp-contains(FREE UPDATES!)
 ! ! .social-network
 ! ! .tools
 ! ! #social
+! ! .masthead-nav-social
+! ! .head-nav-social
 ! ! .liCompartir
 ! ! .social-button
 ! ! .social-buttons
@@ -794,7 +796,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ||harem69.com.br/img/social.png
 ||jcconcursos.com.br/static/socialmedia/
 ||opto.sic.pt/footer/socials/
-||trrsf.com/transversais/trr_bar/$script
 ! 
 ! ---------- Romanian Site Specific Hiding Rules ----------
 ! 
@@ -804,10 +805,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------- Russian Site Specific Hiding Rules ----------
 ! 
-||dni.ru^*/sotial-
-||russia.tv/js/modules/social-subscriber.js
-||spynews.ro/templates/default/img/face.png
-||vestifinance.ru/js/share.js
 ! 
 ! ---------- Serbian Site Specific Hiding Rules ----------
 ! 
@@ -895,7 +892,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||thecity.m24.ru/css/ya-share.css
 @@||thecompany.pl/graf/icons/youtube.png
-@@||toneden.io/production/javascripts/social.js$script,~third-party
 @@||tosdr.org/logo/$image
 @@||tweet.mapping.jp/data/czml/tweets.json$~third-party
 @@||vpobede.ru/assets/images/footer-social/$~third-party,xmlhttprequest
