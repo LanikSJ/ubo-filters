@@ -1,6 +1,6 @@
 ! Title: PropellerAds Domains Filter List
-! Checksum: WCwNc1AT1CibNHjLFmcFjg
-! Last modified: 2024-11-18 08:29 UTC
+! Checksum: x8xNGMT7zCaxz08eXIvqPA
+! Last modified: 2024-12-02 08:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -26,8 +26,6 @@
 ||pushwhy.com^
 ||ravaynore.com^
 ||sinwebads.com^
-||soujoobafoo.com^
-||taijouhe.net^
 ||tqeobp89axcn.com^
 ||vaigowoa.com^
 ||wynather.com^
