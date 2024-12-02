@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5XmLSKOCcZ/9C2/vSxHVuw
-! Version: 202411250257
+! Checksum: AvfOQL+JEgP+XSgd9PFGEQ
+! Version: 202412020302
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-11-25 02:57 UTC
+! Last modified: 2024-12-02 03:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -602,10 +602,6 @@ _social_footer_
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 ! fanboy_social_specific_hide.txt
 ! ! :has
-neon.tech#?#.justify-between.items-center:-abp-contains(Share:)
-newskarnataka.com#?#.elementor-button-wrapper:-abp-contains(Social Media)
-newsroom.ucla.edu#?#.promo-card-muted:-abp-contains(RSS feed)
-openculture.com#?#.execphpwidget:-abp-contains(FREE UPDATES!)
 ! ! top-level domain wildcard
 ! ! .social-sharing
 ! ! .share-group
@@ -681,7 +677,6 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! 
 ! ---------- German Site Specific Hiding Rules ----------
 ! 
-||pipeline.de/socialmedia-icons/
 ||seitzeichen.de^$third-party
 ||social-bookmarking-tools.de^$third-party
 ||werkenntwen.de/images/buttons/$third-party
@@ -712,7 +707,6 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! 
 ! ---------- Chinese Specific Media Elements ----------
 ! 
-||share.baidu.com^
 ! 
 ! ---------- Chinese Site Specific Hiding Rules ----------
 ! 
@@ -769,12 +763,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------- Latvian Specific Social Media Elements ----------
 ! 
-||draugiem.lv/business/ext/fans/$third-party
-||draugiem.lv/business/ext/follow/$third-party
-||draugiem.lv/lapas/widgets/$third-party
-||draugiem.lv/say/ext/like.php$third-party
-||draugiem.lv/say/ext/recommend.php$third-party
-||draugiem.lv^*/js/fans/$third-party
 ||sekomums.lv^$third-party
 ! 
 ! ---------- Montenegrin Site Specific Hiding Rules ----------
