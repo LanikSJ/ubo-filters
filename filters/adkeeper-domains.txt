@@ -1,6 +1,6 @@
 ! Title: AdKeeper Domains Filter List
-! Checksum: gxPNF+5x6po3/iWdFsaWiQ
-! Last modified: 2024-08-28 19:24 UTC
+! Checksum: 5sI/gkTkljk8yInpuvs6FA
+! Last modified: 2024-12-02 08:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -19,4 +19,3 @@
 ||moreinfo.support^
 ||newpush.support^
 ||newsfeed.support^
-||warning.support^

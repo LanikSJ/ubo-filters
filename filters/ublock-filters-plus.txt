@@ -1,6 +1,6 @@
 ! Title: uBlock Filters Plus
-! Checksum: 6+bh/DEMQmgogAD79jlRUA
-! Last modified: 2024-11-18 08:29 UTC
+! Checksum: IS8dU0bcZea8ZvpSh6VBow
+! Last modified: 2024-12-02 08:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -182,8 +182,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||contentabc.com^$popup,third-party
 ||contributor.google.com/scripts/*/loader.js$script,domain=chip.de
 ||cronometer.com/*/NutritionScores_BannerGold$image
-||cytochemistryrecitativewrasse.com^
-||cytochemistryrecitativewrasse.com^$popup
 ||d31bfnnwekbny6.cloudfront.net^
 ||d62mrph0xm5hi.cloudfront.net^
 ||directadvert.ru^
@@ -250,7 +248,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||signetter.com^$popup
 ||spaceshipads.com^
 ||svonm.com^
-||synhandler.net^
 ||t.vptbn.com^$popup
 ||tampermonkey.net/bnir/bitcoin
 ||tataget.ru^
