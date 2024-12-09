@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AvfOQL+JEgP+XSgd9PFGEQ
-! Version: 202412020302
+! Checksum: rkZq+DY/Zg6YCX1n4RrJsg
+! Version: 202412090303
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2024-12-02 03:02 UTC
+! Last modified: 2024-12-09 03:03 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -617,6 +617,8 @@ _social_footer_
 ! ! .share-button
 ! ! .share-box
 ! ! .twitter
+! ! .t-shared-sec
+! ! .l-shared-sec
 ! ! .socials
 ! ! .social_buttons
 ! ! #social-icons
@@ -805,6 +807,7 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------- Spanish Site Specific Hiding Rules ----------
 ! 
+! Lithuanian
 ! 
 ! ---------- Swedish Site Specific Hiding Rules ----------
 ! 
