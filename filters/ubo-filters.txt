@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: iwjs7uI/lBO++7EAgrfhjQ
-! Last modified: 2024-11-03 06:40 UTC
+! Checksum: 6VCwUgH/l7JVIzigiMFfjA
+! Last modified: 2024-12-19 20:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -169,6 +169,7 @@ dslreports.com##.fb-share-button
 eater.com###newsletter-signup-short-form
 eater.com###rock-
 eatsweetnothings.com###coopcommerce
+ebay.com##.vim.adp-vim.x-pda-placements
 ecospaints.net##.us_consent_banner
 edgecast.com###ctl00_pnlPromotionTeaserContainer
 eftm.com##.wp-post-image.size-full.attachment-full
@@ -267,6 +268,7 @@ informer.com##.with_label
 inoreader.com###consent_bbb
 inoreader.com###sinner_container
 instacart.com##.css-1vozgit-ExpressOverHeaderAsync
+instacart.com##.e-1lr6apj
 instagram.com##.R4HNP
 instances.vantage.sh##.vantage
 instances.vantage.sh##[src="/kubernetes-icon.svg"]
