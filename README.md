@@ -52,7 +52,6 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 - [Free Counter Stat Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/freecounterstat-domains.txt&title=Free%20Counter%20Stat%20Domains%20Filter%20List)
 - [GetAdmiral Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt&title=GetAdmiral%20Domains%20Filter%20List)
 - [Hilltop Ads Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/hilltopads-domains.txt&title=Hilltop%Ads%20Domains%20Filter%20List)
-- [Immortal Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/immortal-domains.txt&title=Immortal%20Domains%20Filter%20List)
 - [iStripper Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/istripper-domains.txt&title=iStripper%20Domains%20Filter%20List)
 - [Kitty Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/kitty-domains.txt&title=Kitty%20Domains%20Filter%20List)
 - [Lanik uBO Filters List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/ubo-filters.txt&title=Lanik%20uBO%20Filter%20List)
