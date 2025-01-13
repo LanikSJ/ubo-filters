@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: 6VCwUgH/l7JVIzigiMFfjA
-! Last modified: 2024-12-19 20:28 UTC
+! Checksum: LXu7bEmQ6k6jAUxAxtdblg
+! Last modified: 2025-01-13 12:35 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -442,7 +442,6 @@ sfgate.com##.sponsor
 sfgate.com##.zoneInlineA.asset_zone
 sfgate.com##header
 sfgate.com#@#.header-ad
-sfnissan.com##img[src*="timdealers.autotrader.com"]
 sftoyota.com##.personalized-card_position-center
 sftoyota.com##.widget-image_img
 shared/images/$image,domain=insecure.org|nmap.org|seclists.org|sectools.org
