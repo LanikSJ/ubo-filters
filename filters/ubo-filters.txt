@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: LXu7bEmQ6k6jAUxAxtdblg
-! Last modified: 2025-01-13 12:35 UTC
+! Checksum: nLHgkGOUI3bRKNVcy28kZA
+! Last modified: 2025-01-16 19:52 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -184,6 +184,7 @@ eonline.com##.dockable
 erewhon.com##.cart-promocard
 espn.com##.reactions-ready
 expedia.com###join-rewards-banner
+eyrie.cloud###DocumentActionsDashboardIframe_iframe
 fakespot.com##.brads-deal
 fastcompany.com##.siderail-video-module
 fedex.com###shop-runner-banner-link
@@ -418,6 +419,8 @@ reddit.com##.googad.box_ad.adsense-ad.ads-area
 reddit.com##.side-message
 redhat.com##.cta-image__field-body-text
 redhat.com##.cta-image__field-cta-button
+registry1.dso.mil##.alert-warning.alert-app-level.alert
+repo1.dso.mil##.indigo.banner.gl-broadcast-message
 ronniesawesomelist.com##.sqs-slide-layer-content
 rvm.io###carbon_ads_box
 rvm.io###sponsors
@@ -449,6 +452,7 @@ shutterfly.com##.PromoBanner
 shutterfly.com##.PromoCarousel
 sierranevadacheese.com#@##privacy_policy
 signin.aws.amazon.com###marketingimagelink
+signin.aws.amazon.com##div[class*="awsui_with-dismiss"]
 silicon.co.uk###div[class*="read-more"]
 silicon.co.uk###read-more-1
 silicon.co.uk###read-more-2
@@ -588,6 +592,7 @@ whois.com##.right-box
 whois.com##.whois_rhs_column
 whois.com##img[src^="/images/ssmg/"]
 wholefoodsmarket.com##.w-global-alert
+wiki.cs.sys##.closeable.aui-message
 wikipedia.org###frb-inline
 wikipedia.org###n-sitesupport
 wired.com##.blockquote-embed--has-top-border.blockquote-embed
@@ -636,6 +641,7 @@ youtube.com##.ytd-info-panel-container-renderer
 zdnet.com##.content-bottom-leaderboard
 ||advancedtomato.com/assets/images/donate-message.png$image
 ||assets.wfcdn.com/im/*_miss_exclusive_deals_and_perks_on_the_app*.jpg$image
+||awsstatic.com/Digital%20Marketing/$image
 ||blogspot.com^$image,domain=yourownlinux.com
 ||cdn2.hubspot.net/hubfs/*/docs-graphics/ASB-docs-left-rail.png
 ||cloudfront.net/hub-ui/*.png$image
