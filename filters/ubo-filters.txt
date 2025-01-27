@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: Z64R+YSl2IGTbEknS6D05w
-! Last modified: 2025-01-20 08:21 UTC
+! Checksum: XQWqF07+DczS6FfIv6nwkQ
+! Last modified: 2025-01-27 08:19 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -424,7 +424,6 @@ rvm.io###carbon_ads_box
 rvm.io###sponsors
 salary.com##.sa-adunit-display
 sanfrancisco.cbslocal.com###app-promo-wrapper
-savemp3.cc##.audio-recorder
 scaleitup.pagerduty.com##div[class*="styles_nurtureBar"]
 scaleitup.pagerduty.com##div[class*="styles_reactNurtureBar"]
 scmagazine.com##.article-ad-slot
