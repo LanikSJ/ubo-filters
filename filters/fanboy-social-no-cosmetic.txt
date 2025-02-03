@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2ljCZtfbkwTtOWNc/2JmHQ
-! Version: 202501270818
+! Checksum: 0Okflk34CGf3TlAtjMg51A
+! Version: 202502030242
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2025-01-27 08:18 UTC
+! Last modified: 2025-02-03 02:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -530,6 +530,7 @@ _social_footer_
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||newsharecounts.com^$third-party
@@ -693,6 +694,7 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! 
 ||lequipe.fr/_nuxt/Share.
 ||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
+||senpai-stream.net/storage/banners/discord.webp
 ! 
 ! ---------- Arabic Site Specific Hiding Rules ----------
 ! 
