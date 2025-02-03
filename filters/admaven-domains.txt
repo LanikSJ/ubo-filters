@@ -1,6 +1,6 @@
 ! Title: AdMaven Domains Filter List
-! Checksum: mmlUMc8gCk3rNJwCHqAGmg
-! Last modified: 2025-01-27 08:18 UTC
+! Checksum: AGwweCntOIlrg9UV+sW6fQ
+! Last modified: 2025-02-03 08:22 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -17,7 +17,6 @@
 ||baconaces.pro^
 ||fingahvf.top^
 ||greatwork.info^
-||makemyvids.com^
 ||messard.com^
 ||see-work.info^
 ||sprincipal.com^

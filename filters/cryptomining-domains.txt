@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: ylyv/t/7CGAF4QDTp+eM7g
-! Last modified: 2025-01-27 08:18 UTC
+! Checksum: 0dcr3EF4SCaImIaKwV7DNg
+! Last modified: 2025-02-03 08:22 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -132,7 +132,6 @@
 ||play.vidzi.tv^
 ||ppoi.org^$third-party
 ||pr0gram.org^$third-party
-||projectpoi.com^$third-party
 ||renhertfo.com^$third-party
 ||rocks.io^$third-party
 ||safelinkconverter.com^$third-party
