@@ -1,6 +1,6 @@
 ! Title: uBlock Filters Plus
-! Checksum: dDxJRDJPXOHPawX10jh9Tg
-! Last modified: 2025-01-13 12:35 UTC
+! Checksum: anTWpXyfrtSjZSMQ5X+GIw
+! Last modified: 2025-02-10 08:18 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -166,7 +166,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||ar1n.xyz^
 ||atas.io^$popup,third-party
 ||azadify.com^$third-party
-||bestadbid.com^
 ||bestoffertime.com^
 ||bestvpn.com/wp-content/cache/scripts/*-deanedwards.js
 ||bongacash.com^
@@ -192,7 +191,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||fantasti.cc*/*track.php
 ||files.gamebanana.com/bitpit/opskins-gamebanana-*.jpg
 ||globaltraffico.com^
-||gmyze.com^
 ||go4up.com/assets/img/download-buttoned.png
 ||go4up.com/assets/img/webbuttoned.gif
 ||google-analytics.com^$popup,third-party
@@ -217,7 +215,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||p.d.*.com/v$script,third-party
 ||p.d.*.org/v$script,third-party
 ||p.w.*.com/s/err
-||padsdel.com^
 ||phoenixads.co.in^
 ||play.google.com/log?
 ||plex2.com^
@@ -243,7 +240,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||shs.comdotgame.com^
 ||signetter.com^
 ||signetter.com^$popup
-||spaceshipads.com^
 ||svonm.com^
 ||t.vptbn.com^$popup
 ||tampermonkey.net/bnir/bitcoin
