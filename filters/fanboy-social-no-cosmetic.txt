@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7DNIvmj6LLaOazDgIvM5eQ
-! Version: 202502100818
+! Checksum: TKLWwyScQMxNxqbKEcFYAw
+! Version: 202502170249
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2025-02-10 08:18 UTC
+! Last modified: 2025-02-17 02:49 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -190,7 +190,6 @@
 /pinterest_tag.js
 /pintrest-button.png
 /plugins/add-to-any-subscribe/subscribe_
-/plugins/add-to-any/addtoany.min.js
 /plugins/anmiated-twitter-bird/js/tripleflap.js
 /plugins/bookmarkify/*
 /plugins/delicious-bookmark-button/delit.js
@@ -216,7 +215,6 @@
 /plugins/simple-social-sharing-widgets-icons/*$~stylesheet
 /plugins/slick-social-share-buttons/*
 /plugins/slide-in/js/wdsi.js
-/plugins/sme-facebook-likebox-sidebar/*
 /plugins/sociable-re/images/*
 /plugins/sociable/*$~stylesheet
 /plugins/social-media-widget/*$image
@@ -530,6 +528,7 @@ _social_footer_
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||newsharecounts.com^$third-party
