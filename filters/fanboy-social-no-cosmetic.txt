@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rL8qJTT6S/EcDw755q8Yzw
-! Version: 202503240301
+! Checksum: 4eeN4BNe7EmjE9frD9VZ9Q
+! Version: 202503240820
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2025-03-24 03:01 UTC
+! Last modified: 2025-03-24 08:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -527,7 +527,6 @@ _social_footer_
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
-||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||newsharecounts.com^$third-party
