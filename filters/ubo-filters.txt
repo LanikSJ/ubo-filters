@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: XQWqF07+DczS6FfIv6nwkQ
-! Last modified: 2025-01-27 08:19 UTC
+! Checksum: FT6Pk1gdGp0u6APceGfUtA
+! Last modified: 2025-03-31 00:46 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -229,6 +229,7 @@ gizmodo.com##.leftrailmodule--popular
 gizmodo.com##.mezzanine
 gizmodo.com##div[class*="ad-top-banner"]
 glassdoor.com##.mt-xxl.d-sm-block.d-none
+gofundme.com##.hrt-global-promo-banner
 goldenstatenissan.com##.d-block.w-100
 goldenstatenissan.com##.ico-desktop.ico-adaptive
 goldenstatenissan.com##.mx-auto.d-block
@@ -272,6 +273,8 @@ instacart.com##.e-1lr6apj
 instagram.com##.R4HNP
 instances.vantage.sh##.vantage
 instances.vantage.sh##[src="/kubernetes-icon.svg"]
+investopedia.com##.jw-reset.jw-aspect
+investopedia.com##.jw-reset.jw-wrapper
 jackbox.tv###banners-region
 jalopnik.com###newsletterPromoModule
 jalopnik.com##.twitter-tweet
@@ -555,6 +558,7 @@ toyotanation.com##.js-notices
 toyotasunnyvale.com##.kbb-banner
 tp-link.com##.widget-sticker-right-middle
 tracking.getconvey.com##.hero-clickthrough-enabled
+turbotax.intuit.com##.justify-center.flex.text-center
 tutsplus.com##div[class*="tether"]
 uberpeople.com##.hiddenResponsiveNarrow
 united.com###dothemath
