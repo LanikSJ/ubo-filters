@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: FT6Pk1gdGp0u6APceGfUtA
-! Last modified: 2025-03-31 00:46 UTC
+! Checksum: FqMN1boRQ9iQRpmLm2Ke5w
+! Last modified: 2025-04-21 08:20 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -102,7 +102,6 @@ bobcares.com##div[class*="nitro-offscreen"]
 bobcares.com,cultofmac.com##.custom-html-widget.textwidget
 buydig.com###socialLinks
 buydig.com###topHeader_divTwitter
-canonscannerdrivers.com##.bok.widget_text
 caranddriver.com##.embed-editorial-links
 caranddriver.com##.top-pathing
 carbonite.com###notice
