@@ -1,6 +1,6 @@
 ! Title: uBlock Filters Plus
-! Checksum: PpkvkN5f4nDQZ0CfXuJoLw
-! Last modified: 2025-03-24 08:20 UTC
+! Checksum: Vy81e7HWjtRqj9GANEOJvA
+! Last modified: 2025-04-28 08:42 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -78,7 +78,6 @@
 @@||cdn.teamskeetimages.com^$image,domain=teamskeet.com
 @@||firebaseapp.com/adpoint.js?_=$script
 @@||searchdns.netcraft.com^$generichide
-@@||static.shorte.st^$domain=sh.st
 @@||uobsoe.com/ad_bomb/*.png$image,third-party
 @@||viptube.com^$generichide
 accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
@@ -325,7 +324,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||carambo.la/logging/
 ||cloudfront.net/a.gif|
 ||cloudfront.net/is.gif?
-||collector.shorte.st^
 ||conversionsondemand.com^$third-party
 ||conviva.com^*/LivePassModuleMain_telemetry.swf
 ||crm-metrix.com^$third-party
