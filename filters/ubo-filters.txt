@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: 2E0BlQ4IDcEEYFGPRu5E/w
-! Last modified: 2025-04-28 08:42 UTC
+! Checksum: ZjWW5JCiOrb3sl25oUmLpA
+! Last modified: 2025-05-12 08:21 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -234,8 +234,6 @@ goldenstatenissan.com##.mx-auto.d-block
 goldenstatenissan.com##.text-center.insta-banner-img
 google.com###ssrad-master
 goreleaser.com##.md-banner
-gostream.is###mgd
-gostream.is##.text-center.alert.ann-home
 grammarly.com##.dropdown-header-extension.dropdown-header
 grammarly.com##.only-desktop.bottom-popup-extension.bottom-popup
 grammarly.com##.only-desktop.share-wrap-static.share-wrap
@@ -583,7 +581,6 @@ walmart.com##.promo-banner
 walmart.narvar.com##card-image
 weather.com###wx-top-wrap
 webpagetest.org##.tip
-whatismyreferer.com##a[href*="en.onpage.org"]
 whiteoakpastures.com##.index-section--hidden.shopify-section
 whoer.net##div[class*="pre-plan-box"]
 whois.com##.promo-blurb
