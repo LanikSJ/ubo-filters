@@ -1,6 +1,6 @@
 ! Title: AdMeasures Domains Filter List
-! Checksum: jHzB7rKjz5bUPg+/hiF0Lg
-! Last modified: 2025-03-31 08:21 UTC
+! Checksum: xX8pC5bSTjwqlea7AyPrWg
+! Last modified: 2025-05-19 08:22 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -19,7 +19,6 @@
 ||45eijvhgj2.com^
 ||550b3ikb9j.com^
 ||5nt1gx7o57.com^
-||7cfmnf.top^
 ||aanqylta.com^
 ||aaucwbe.com^
 ||abodealley.com^
@@ -35,14 +34,11 @@
 ||clickterra.net^
 ||cpm20.com^
 ||cpmterra.com^
-||eawp2ra7.top^
 ||edua29146y.com^
 ||estream.to^
 ||hgub2polye.com^
 ||hibids10.com^
 ||hoo1luha.com^
-||i4rsrcj6.top^
-||iece1vi.top^
 ||o4uxrk33.com^
 ||oyi9f1kbaj.com^
 ||phee1oci.com^
@@ -61,7 +57,6 @@
 ||vidcpm.com^
 ||vidzi.tv^
 ||webair.com^
-||weevah2.top^
 ||wellhello.com^
 ||wvhba6470p.com^
 ||ww2.imgadult.com^
