@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: 3MBJmm3QWrZbPCcZQn5XHw
-! Last modified: 2025-05-05 08:21 UTC
+! Checksum: AHYp/viVA9uBIgQHuMSwqg
+! Last modified: 2025-05-19 08:22 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -103,12 +103,10 @@
 ||mepirtedic.com^$third-party
 ||mi-de-ner-nis3.info^
 ||mine.nahnoji.cz^
-||minerad.com^
 ||minergate.com^$third-party
 ||minero-proxy-*.sh^$third-party
 ||minero.cc^$third-party
 ||minexmr.com^$third-party
-||mmpool.org^$third-party
 ||monerise.com^$third-party
 ||monero-miner.net^$third-party
 ||monerominer.rocks^$third-party
