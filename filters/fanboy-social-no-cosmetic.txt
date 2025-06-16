@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JY3VN8qTQecbpLeHNC0MVw
-! Version: 202506090824
+! Checksum: V57beklVCzWOALZdNvIRmQ
+! Version: 202506160320
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2025-06-09 08:24 UTC
+! Last modified: 2025-06-16 03:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -229,6 +229,7 @@
 /plugins/tweetmeme/button.js
 /plugins/ultimate-follow-me/*
 /plugins/ultimate-social-deux/public/assets/js/min/us.script-min.js
+/plugins/ultimate-social-media-plus/*$~stylesheet
 /plugins/viperbar/client/js/front.js
 /plugins/wordpress-social-ring/*
 /plugins/wp-plus-one/wp-plus-one.js
@@ -525,6 +526,7 @@ _social_footer_
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||newsharecounts.com^$third-party
@@ -589,6 +591,7 @@ _social_footer_
 ! --------------------------Specific blocking filters--------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_specific_block.txt ***
 ! fanboy_social_specific_block.txt
+||hotpot.ai/components/shareOverlay
 ||ipaddress.com/shariff/
 ||naturalnews.com/getviews2.
 ||people.com.cn/img/2020fenxiang/
@@ -690,6 +693,7 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ||lequipe.fr/_nuxt/Share.
 ||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
 ||radio-canada.ca/mp/modules.socialbar.executer.$script
+||senpai-stream.net/storage/banners/discord.webp
 ! 
 ! ---------- Arabic Site Specific Hiding Rules ----------
 ! 
