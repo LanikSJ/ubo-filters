@@ -1,27 +1,29 @@
-# uBlock Origin Filters
+# 🛡️ uBlock Origin Filters
 
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/laniksj/ubo-filters)
 ![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/laniksj/ubo-filters)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/laniksj/ubo-filters)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/laniksj/ubo-filters)
 
-- [Purpose](#purpose)
-- [Actions](#actions)
-- [Coverage](#coverage)
-- [Lists](#lists)
-  - [Main Lists](#main-lists)
-  - [Supplemental Lists](#supplemental-lists)
-- [FAQ](#faq)
-- [Attributions](#attributions)
-- [Bugs](#bugs)
-- [License](#license)
-- [Donate](#donate)
+## 📑 Table of Contents
 
-## Purpose
+- [🎯 Purpose](#-purpose)
+- [⚙️ Actions](#️-actions)
+- [📊 Coverage](#-coverage)
+- [📄 Lists](#-lists)
+  - [📄 Main Lists](#-main-lists)
+  - [📄 Supplemental Lists](#-supplemental-lists)
+- [❓ FAQ](#-faq)
+- [🙌 Attributions](#-attributions)
+- [🐛 Bugs](#-bugs)
+- [📝 License](#-license)
+- [💰 Donate](#-donate)
+
+## 🎯 Purpose
 
 I got tired of losing my filters when I switched machines so I created this repo.
 
-## Actions
+## ⚙️ Actions
 
 [![Admiral Domains](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/admiral-domains.yml)
 [![Combined Filters](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/combined-filters.yml)
@@ -29,14 +31,14 @@ I got tired of losing my filters when I switched machines so I created this repo
 [![Fanboy Social](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/fanboy-social.yml)
 [![Malware Domains](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml/badge.svg)](https://github.com/LanikSJ/ubo-filters/actions/workflows/malware-domains.yml)
 
-## Coverage
+## 📊 Coverage
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/654e238faf1d4ccba909acc9f30b08b5)](https://www.codacy.com/gh/LanikSJ/ubo-filters/dashboard?utm_source=github.com&utm_medium=referral&utm_content=LanikSJ/ubo-filters&utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/LanikSJ/ubo-filters/branch/main/graph/badge.svg)](https://codecov.io/gh/LanikSJ/ubo-filters)
 
-## Lists
+## 📄 Lists
 
-### Main Lists
+### 📄 Main Lists
 
 If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / AdGuard / uBlock Origin:
 
@@ -66,7 +68,7 @@ If you'd like to use any of the filter lists in this repo click the bellow links
 - [VolumeData Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/volumedata-domains.txt&title=VolumeData%20Domains%20Filter%20List)
 - [YouTube Anti-Adblock Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/youtube-antiadblock.txt&title=YouTube%20Anti%2DAdblock%20Filter%20List)
 
-## Supplemental Lists
+### 📄 Supplemental Lists
 
 Some of these are old lists or not working lists for archiving purposes:
 
@@ -83,25 +85,25 @@ Some of these are old lists or not working lists for archiving purposes:
 - [PUP Domains Blocklists](https://subscribe.adblockplus.org/?location=https://malware-filter.gitlab.io/pup-filter/pup-filter.txt&title=PUP%20Domains%20Blocklists)
 - [uBlock Filters Plus](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20Plus)
 
-## FAQ
+## ❓ FAQ
 
 Q: Will these filter lists support any other adblockers such as AdGuard etc?
 
 A: Yes, some of these lists do work with AdGuard, but **USE AT YOUR OWN RISK** as they haven't been tested thoroughly yet.
 
-## Attributions
+## 🙌 Attributions
 
 Some scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)
 ©️ All rights reserved by the original authors.
 
-## Bugs
+## 🐛 Bugs
 
 Please report any bugs or issues you find. Thanks!
 
-## License
+## 📝 License
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://en.wikipedia.org/wiki/MIT_License)
 
-## Donate
+## 💰 Donate
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/laniksj/overview)
