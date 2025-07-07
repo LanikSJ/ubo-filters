@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: h6Rc13ADHF0xPnAe8ZIcow
-! Last modified: 2025-06-30 08:25 UTC
+! Checksum: 4I6dkVJuxjyWYoBCPRlUmA
+! Last modified: 2025-07-07 08:26 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -90,7 +90,6 @@
 ||hive.tubetitties.com^
 ||hostingcloud.faith
 ||hostingcloud.science
-||igrid.org^$third-party
 ||investhash.com^$third-party
 ||js.nahnoji.cz^
 ||jscdndel.com^$third-party
