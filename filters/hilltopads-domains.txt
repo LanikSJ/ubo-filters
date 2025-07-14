@@ -1,6 +1,6 @@
 ! Title: HilltopAds Domains List
-! Checksum: bhdoXRWkO4XWz6r9pH7HLg
-! Last modified: 2025-06-30 08:26 UTC
+! Checksum: CH82P+oBNlkKu/9qP5TJ+Q
+! Last modified: 2025-07-14 08:27 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -17,7 +17,6 @@
 ||allownotifications.com^
 ||allowpush.com^
 ||alogationa.co^
-||hilltopads.net^
 ||htmonster.com^
 ||notificationallow.com^
 ||reddleops.pro^

@@ -1,6 +1,6 @@
 ! Title: uBlock Filters Plus
-! Checksum: tgZOBSFbQuDjPZYRKYN+vA
-! Last modified: 2025-06-23 08:25 UTC
+! Checksum: uRLUoYKZDR1yAQN2icjIqQ
+! Last modified: 2025-07-14 08:27 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -112,7 +112,6 @@ netzwelt.de##.fi.stcl
 netzwelt.de##DIV#mr[style="width: auto; float: right;"]
 netzwelt.de##DIV[style="text-align: center; padding: 0px; border-color: transparent; cursor: pointer; z-index: 1; height: 205px;"]
 noticiasautomotivas.com.br##+js(bab-defuser.js)
-openload.us##+js(bab-defuser.js)
 outlook.live.com##div[class="_n_h"][style*="width: 165px;"]
 outlook.live.com##div[class="_n_h"][style*="width: 305px;"]
 outlook.live.com#$##primaryContainer > div[style*="right: 165px;"] { width: 100% !important; }
@@ -194,7 +193,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||google.com/settings/hatsv2$subdocument
 ||hentaihaven.org/_
 ||hentaihaven.org/beta/
-||hilltopads.net^
 ||images.dvbdata.com/*.jpg$subdocument,third-party
 ||info.gmx.net^$script
 ||info.web.de^$script
