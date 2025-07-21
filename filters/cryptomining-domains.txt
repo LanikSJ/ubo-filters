@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: RBNHDQLZbkdKGMA4ZuntsA
-! Last modified: 2025-07-14 08:27 UTC
+! Checksum: fDybEP2odZUtkjQ3sxOY/A
+! Last modified: 2025-07-21 08:26 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -43,7 +43,6 @@
 ||coinhive.com^$third-party
 ||coinimp.com$third-party
 ||coinimp.net$third-party
-||coinnebula.com^$third-party
 ||coinpirate.cf^$third-party
 ||coinpot.co^$third-party
 ||cookiescript.info^$third-party
