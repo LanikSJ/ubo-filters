@@ -14,6 +14,10 @@ on:
       - '.github/workflows/dead-domains-check.yml'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   dead-domains-check:
     name: Run Dead Domains
