@@ -5,6 +5,10 @@ on:
    - cron: '30 0 * * 1' # Runs 00:30 UTC Only on Monday
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   Updates:
     runs-on: ubuntu-latest
