@@ -1,6 +1,6 @@
 ! Title: PropellerAds Domains Filter List
-! Checksum: qp/mV0eBeQLeortz85b0NQ
-! Last modified: 2025-06-02 08:55 UTC
+! Checksum: uNeQj8cIRNKZrPmEK8s8Tw
+! Last modified: 2025-07-28 18:07 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -23,6 +23,5 @@
 ||pushno.com^
 ||pushwhy.com^
 ||ravaynore.com^
-||vaigowoa.com^
 ||wynather.com^
 ||xijgedjgg5f55.com^
