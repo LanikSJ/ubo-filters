@@ -243,7 +243,7 @@ cleanup_old_backups() {
 
   # Find and sort backup files by modification time (newest first)
   local backup_files backup_count
-  
+
   # Use a more compatible approach for older bash versions
   if command -v mapfile >/dev/null 2>&1; then
     mapfile -t backup_files < <(find "$backup_dir" -name "$filename.backup.*" -type f -print0 | xargs -0 ls -t 2>/dev/null || true)
@@ -427,7 +427,7 @@ remove_all_backups() {
 
   # Find all backup files for this filter
   local backup_files backup_count
-  
+
   # Use a more compatible approach for older bash versions
   if command -v mapfile >/dev/null 2>&1; then
     mapfile -t backup_files < <(find "$backup_dir" -name "$filename.backup.*" -type f -print0 2>/dev/null | xargs -0 ls -t 2>/dev/null || true)
@@ -447,7 +447,7 @@ remove_all_backups() {
   fi
 
   log_info "Found $backup_count backup(s) for '$filename'"
-  
+
   # Ask for confirmation
   echo "⚠️  This will permanently delete all $backup_count backup(s) for '$filename'."
   echo "Backups to be deleted:"
@@ -456,7 +456,7 @@ remove_all_backups() {
   done
   echo ""
   read -p "Are you sure you want to delete all these backups? (y/N): " -r
-  
+
   if [[ ! $REPLY =~ ^[Yy]$ ]]; then
     log_info "Operation cancelled by user"
     return 0
