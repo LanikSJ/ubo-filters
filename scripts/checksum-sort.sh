@@ -242,10 +242,20 @@ cleanup_old_backups() {
   filename=$(basename "$file")
 
   # Find and sort backup files by modification time (newest first)
-  local backup_files
-  mapfile -t backup_files < <(find "$backup_dir" -name "$filename.backup.*" -type f -print0 | xargs -0 ls -t 2>/dev/null || true)
+  local backup_files backup_count
 
-  local backup_count=${#backup_files[@]}
+  # Use a more compatible approach for older bash versions
+  if command -v mapfile >/dev/null 2>&1; then
+    mapfile -t backup_files < <(find "$backup_dir" -name "$filename.backup.*" -type f -print0 | xargs -0 ls -t 2>/dev/null || true)
+    backup_count=${#backup_files[@]}
+  else
+    # Fallback for systems without mapfile - use while read loop
+    backup_files=()
+    while IFS= read -r -d '' file; do
+      backup_files+=("$file")
+    done < <(find "$backup_dir" -name "$filename.backup.*" -type f -print0 2>/dev/null | xargs -0 ls -t 2>/dev/null || true)
+    backup_count=${#backup_files[@]}
+  fi
 
   if [[ $backup_count -gt $MAX_BACKUPS ]]; then
     log_info "Found $backup_count backups, keeping only $MAX_BACKUPS most recent"
@@ -402,6 +412,82 @@ list_backups() {
   }
 }
 
+# Remove all backups for a file
+remove_all_backups() {
+  local file="$1"
+  local filename backup_dir
+
+  filename=$(basename "$file")
+  backup_dir="$BACKUP_DIR"
+
+  if [[ ! -d "$backup_dir" ]]; then
+    log_info "No backup directory found"
+    return 0
+  fi
+
+  # Find all backup files for this filter
+  local backup_files backup_count
+
+  # Use a more compatible approach for older bash versions
+  if command -v mapfile >/dev/null 2>&1; then
+    mapfile -t backup_files < <(find "$backup_dir" -name "$filename.backup.*" -type f -print0 2>/dev/null | xargs -0 ls -t 2>/dev/null || true)
+    backup_count=${#backup_files[@]}
+  else
+    # Fallback for systems without mapfile - use while read loop
+    backup_files=()
+    while IFS= read -r -d '' file; do
+      backup_files+=("$file")
+    done < <(find "$backup_dir" -name "$filename.backup.*" -type f -print0 2>/dev/null | xargs -0 ls -t 2>/dev/null || true)
+    backup_count=${#backup_files[@]}
+  fi
+
+  if [[ $backup_count -eq 0 ]]; then
+    log_info "No backups found for '$filename'"
+    return 0
+  fi
+
+  log_info "Found $backup_count backup(s) for '$filename'"
+
+  # Ask for confirmation
+  echo "⚠️  This will permanently delete all $backup_count backup(s) for '$filename'."
+  echo "Backups to be deleted:"
+  for backup_file in "${backup_files[@]}"; do
+    echo "  - $(basename "$backup_file")"
+  done
+  echo ""
+  read -p "Are you sure you want to delete all these backups? (y/N): " -r
+
+  if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+    log_info "Operation cancelled by user"
+    return 0
+  fi
+
+  # Remove all backup files
+  local removed_count=0
+  for backup_file in "${backup_files[@]}"; do
+    if [[ -f "$backup_file" ]]; then
+      log_info "Removing backup: $(basename "$backup_file")"
+      if rm -f "$backup_file"; then
+        ((removed_count++))
+      else
+        log_warning "Failed to remove backup: $backup_file"
+      fi
+    fi
+  done
+
+  log_info "Successfully removed $removed_count out of $backup_count backup(s)"
+
+  # Check if backup directory is empty and remove it if so
+  if [[ -d "$backup_dir" ]]; then
+    local file_count
+    file_count=$(find "$backup_dir" -mindepth 1 -maxdepth 1 | wc -l)
+    if [[ $file_count -eq 0 ]]; then
+      log_info "Removing empty backup directory: $backup_dir"
+      rmdir "$backup_dir" 2>/dev/null || log_warning "Failed to remove backup directory"
+    fi
+  fi
+}
+
 # Main function
 main() {
   local file=""
@@ -421,19 +507,30 @@ main() {
         list_backups "$2"
         exit 0
         ;;
+      --remove-all-backups)
+        if [[ $# -lt 2 ]]; then
+          log_error "Usage: $0 --remove-all-backups <filter-file>"
+          exit 1
+        fi
+        remove_all_backups "$2"
+        exit 0
+        ;;
       --help | -h)
         echo "Usage: $0 [--keep-backup] <filter-file>"
         echo "       $0 --list-backups <filter-file>"
+        echo "       $0 --remove-all-backups <filter-file>"
         echo ""
         echo "Options:"
-        echo "  --keep-backup    Keep backup file after successful completion"
-        echo "  --list-backups   List available backups for the specified file"
-        echo "  --help, -h       Show this help message"
+        echo "  --keep-backup           Keep backup file after successful completion"
+        echo "  --list-backups          List available backups for the specified file"
+        echo "  --remove-all-backups    Remove all backups for the specified file"
+        echo "  --help, -h              Show this help message"
         echo ""
         echo "Examples:"
         echo "  $0 filters/combined-filters.txt"
         echo "  $0 --keep-backup filters/combined-filters.txt"
         echo "  $0 --list-backups filters/combined-filters.txt"
+        echo "  $0 --remove-all-backups filters/combined-filters.txt"
         exit 0
         ;;
       -*)
