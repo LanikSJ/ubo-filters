@@ -187,6 +187,9 @@ class FilterProcessor:
         :param uncombined_filters: List[str]:
         :param domain_pattern: re.Pattern:
         :param domain_separator: str:
+        :param uncombined_filters: List[str]: 
+        :param domain_pattern: re.Pattern: 
+        :param domain_separator: str: 
         :returns: List of combined filter strings
 
         """
@@ -252,6 +255,11 @@ class FilterProcessor:
         :param domains1: re.Match:
         :param domains2: re.Match:
         :param domain_pattern: re.Pattern:
+        :param filter1: str: 
+        :param filter2: str: 
+        :param domains1: re.Match: 
+        :param domains2: re.Match: 
+        :param domain_pattern: re.Pattern: 
 
         """
         # Check if the non-domain parts are identical
@@ -276,6 +284,7 @@ class FilterProcessor:
 
         :param domain_str: str:
         :param domain_str: str:
+        :param domain_str: str: 
 
         """
         domains = domain_str.split("|" if "|" in domain_str else ",")
@@ -301,6 +310,11 @@ class FilterProcessor:
         :param domains2: re.Match:
         :param domain_pattern: re.Pattern:
         :param domain_separator: str:
+        :param base_filter: str: 
+        :param domains1: re.Match: 
+        :param domains2: re.Match: 
+        :param domain_pattern: re.Pattern: 
+        :param domain_separator: str: 
 
         """
         domain1_str = domains1.group(1)
@@ -332,6 +346,7 @@ class FilterSorter:
         :param filename: Path to the filter file to sort
         :param filename: str:
         :param filename: str:
+        :param filename: str: 
         :returns: True if the file was modified, False otherwise
 
         """
@@ -365,7 +380,7 @@ class FilterSorter:
         """Process the content of a filter file.
 
         :param input_file: param output_file:
-        :param output_file:
+        :param output_file: 
 
         """
         section = []
@@ -416,6 +431,7 @@ class FilterSorter:
 
         :param line: str:
         :param line: str:
+        :param line: str: 
 
         """
         return (
@@ -429,6 +445,7 @@ class FilterSorter:
 
         :param line: str:
         :param line: str:
+        :param line: str: 
 
         """
         element_match = self.patterns.ELEMENT.match(line)
@@ -450,6 +467,8 @@ class FilterSorter:
         :param is_element_section: bool:
         :param section: List[str]:
         :param is_element_section: bool:
+        :param section: List[str]: 
+        :param is_element_section: bool: 
 
         """
         if is_element_section:
@@ -475,6 +494,7 @@ class FilterSorter:
 
         :param filter_text: str:
         :param filter_text: str:
+        :param filter_text: str: 
 
         """
         option_match = self.patterns.OPTION.match(filter_text)
@@ -521,6 +541,9 @@ class FilterSorter:
         :param domains: str:
         :param separator: str:
         :param selector: str:
+        :param domains: str: 
+        :param separator: str: 
+        :param selector: str: 
 
         """
         # Sort domains
@@ -540,6 +563,7 @@ class FilterSorter:
 
         :param selector: str:
         :param selector: str:
+        :param selector: str: 
 
         """
         # This is a simplified version - the original has complex string handling
@@ -551,6 +575,7 @@ class FilterSorter:
 
         :param filter_text: str:
         :param filter_text: str:
+        :param filter_text: str: 
 
         """
         is_allowlist = filter_text.startswith("@@")
@@ -592,6 +617,8 @@ class FilterSorter:
         :param original_file: str:
         :param temp_file: str:
         :param original_file: str:
+        :param temp_file: str: 
+        :param original_file: str: 
 
         """
         if os.name == "nt":  # Windows
@@ -666,6 +693,7 @@ class RepositoryManager:
 
         :param message: str:
         :param message: str:
+        :param message: str: 
 
         """
         if not self.base_command:
@@ -698,6 +726,7 @@ class FOPApplication:
 
         :param locations: Optional[List[str]]:  (Default value = None)
         :param locations: Optional[List[str]]:  (Default value = None)
+        :param locations: Optional[List[str]]:  (Default value = None)
 
         """
         self._print_greeting()
@@ -725,6 +754,7 @@ class FOPApplication:
 
         :param location: str:
         :param location: str:
+        :param location: str: 
 
         """
         location_path = Path(location)
@@ -782,6 +812,8 @@ class FOPApplication:
         :param user_changes: bool:
         :param repo_manager: RepositoryManager:
         :param user_changes: bool:
+        :param repo_manager: RepositoryManager: 
+        :param user_changes: bool: 
 
         """
         diff = repo_manager.get_diff()
@@ -815,6 +847,8 @@ class FOPApplication:
         :param changed: bool:
         :param comment: str:
         :param changed: bool:
+        :param comment: str: 
+        :param changed: bool: 
 
         """
         if not comment:
@@ -850,6 +884,7 @@ class FOPApplication:
 
         :param url: str:
         :param url: str:
+        :param url: str: 
 
         """
         try:
