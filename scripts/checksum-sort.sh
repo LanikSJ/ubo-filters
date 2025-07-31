@@ -9,7 +9,7 @@ set -euo pipefail  # Exit on error, undefined vars, and pipe failures
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly SCRIPT_DIR
 readonly REQUIRED_PERL_MODULES=("Path::Tiny")
-readonly BACKUP_DIR="${SCRIPT_DIR}/backup"
+readonly BACKUP_DIR="$SCRIPT_DIR/backup"
 readonly MAX_BACKUPS=10
 TEMP_DIR=$(mktemp -d)
 readonly TEMP_DIR
@@ -28,8 +28,8 @@ cleanup() {
     # Clean up any temporary files left by sorter.pl
     if [[ -n "${PROCESSING_FILE:-}" ]]; then
         # Clean up new-style temporary files (.tmp.PID)
-        local temp_pattern="${PROCESSING_FILE}.tmp.*"
-        for temp_file in $temp_pattern; do
+        local temp_pattern="$PROCESSING_FILE.tmp.*"
+        for temp_file in "$temp_pattern"; do
             if [[ -f "$temp_file" ]]; then
                 echo "🗑️  Removing temporary sorter file: $temp_file"
                 rm -f "$temp_file" || echo "⚠️  Warning: Failed to remove temporary file $temp_file"
@@ -37,7 +37,7 @@ cleanup() {
         done
         
         # Clean up legacy .out files (for backward compatibility)
-        local out_file="${PROCESSING_FILE}.out"
+        local out_file="$PROCESSING_FILE.out"
         if [[ -f "$out_file" ]]; then
             echo "🗑️  Removing legacy temporary file: $out_file"
             rm -f "$out_file" || echo "⚠️  Warning: Failed to remove temporary file $out_file"
@@ -69,7 +69,7 @@ cleanup() {
         echo "💾 Keeping backup file as requested: $BACKUP_FILE_PATH"
     fi
     
-    exit $exit_code
+    exit "$exit_code"
 }
 
 # Set up cleanup trap
@@ -242,7 +242,7 @@ cleanup_old_backups() {
     
     # Find and sort backup files by modification time (newest first)
     local backup_files
-    mapfile -t backup_files < <(find "$backup_dir" -name "${filename}.backup.*" -type f -print0 | xargs -0 ls -t 2>/dev/null || true)
+    mapfile -t backup_files < <(find "$backup_dir" -name "$filename.backup.*" -type f -print0 | xargs -0 ls -t 2>/dev/null || true)
     
     local backup_count=${#backup_files[@]}
     
@@ -276,7 +276,7 @@ create_backup() {
     fi
     
     # Generate backup filename with timestamp
-    backup_file="${backup_dir}/${filename}.backup.$(date +%Y%m%d_%H%M%S)"
+    backup_file="$backup_dir/$filename.backup.$(date +%Y%m%d_%H%M%S)"
     
     log_info "Creating backup: $backup_file"
     
@@ -396,7 +396,7 @@ list_backups() {
     fi
     
     log_info "Available backups for '$filename':"
-    find "$backup_dir" -name "${filename}.backup.*" -type f -exec ls -lh {} \; 2>/dev/null | sort -k9 || {
+    find "$backup_dir" -name "$filename.backup.*" -type f -exec ls -lh {} \; 2>/dev/null | sort -k9 || {
         log_info "No backups found for '$filename'"
     }
 }
