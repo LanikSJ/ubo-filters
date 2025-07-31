@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ FOP
     Filter Orderer and Preener
-    Copyright (C) 2011 Michael
+    Copyright (C) 2025 Michael & LanikSJ
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -40,31 +40,31 @@ if sys.version_info < (MAJOR_REQUIRED, MINOR_REQUIRED):
 # Import a module only available in Python 3
 
 # Compile regular expressions to match important filter parts (derived from Wladimir Palant's Adblock Plus source code)
-ELEMENTDOMAINPATTERN = re.compile(r"^([^\/\*\|\@\"\!]*?)#\@?#")
-FILTERDOMAINPATTERN = re.compile(r"(?:\$|\,)domain\=([^\,\s]+)$")
-ELEMENTPATTERN = re.compile(r"^([^\/\*\|\@\"\!]*?)(#[\@\?]?#)([^{}]+)$")
-OPTIONPATTERN = re.compile(
+ELEMENT_DOMAIN_PATTERN = re.compile(r"^([^\/\*\|\@\"\!]*?)#\@?#")
+FILTER_DOMAIN_PATTERN = re.compile(r"(?:\$|\,)domain\=([^\,\s]+)$")
+ELEMENT_PATTERN = re.compile(r"^([^\/\*\|\@\"\!]*?)(#[\@\?]?#)([^{}]+)$")
+OPTION_PATTERN = re.compile(
     r"^(.*)\$(~?[\w\-]+(?:=[^,\s]+)?(?:,~?[\w\-]+(?:=[^,\s]+)?)*)$")
 
 # Compile regular expressions that match element tags and pseudo classes and strings and tree selectors; "@" indicates either the beginning or the end of a selector
-SELECTORPATTERN = re.compile(
+SELECTOR_PATTERN = re.compile(
     r"(?<=[\s\[@])([a-zA-Z]*[A-Z][a-zA-Z0-9]*)((?=([\[\]\^\*\$=:@#\.]))|(?=(\s(?:[+>~]|\*|[a-zA-Z][a-zA-Z0-9]*[\[:@\s#\.]|[#\.][a-zA-Z][a-zA-Z0-9]*))))"
 )
-PSEUDOPATTERN = re.compile(r"(\:[a-zA-Z\-]*[A-Z][a-zA-Z\-]*)(?=([\(\:\@\s]))")
-REMOVALPATTERN = re.compile(
+PSEUDO_PATTERN = re.compile(r"(\:[a-zA-Z\-]*[A-Z][a-zA-Z\-]*)(?=([\(\:\@\s]))")
+REMOVAL_PATTERN = re.compile(
     r"((?<=([>+~,]\s))|(?<=(@|\s|,)))(\*)(?=(?:[#\.\[]|\:(?!-abp-contains)))")
-ATTRIBUTEVALUEPATTERN = re.compile(
+ATTRIBUTE_VALUE_PATTERN = re.compile(
     r"^([^\'\"\\]|\\.)*(\"(?:[^\"\\]|\\.)*\"|\'(?:[^\'\\]|\\.)*\')|\*")
-TREESELECTOR = re.compile(r"(\\.|[^\+\>\~\\\ \t])\s*([\+\>\~\ \t])\s*(\D)")
-UNICODESELECTOR = re.compile(r"\\[0-9a-fA-F]{1,6}\s[a-zA-Z]*[A-Z]")
+TREE_SELECTOR = re.compile(r"(\\.|[^\+\>\~\\\ \t])\s*([\+\>\~\ \t])\s*(\D)")
+UNICODE_SELECTOR = re.compile(r"\\[0-9a-fA-F]{1,6}\s[a-zA-Z]*[A-Z]")
 # Remove any bad lines less the 3 chars, starting with.. |*~@$%
-BADLINE = re.compile(r"^([|*~@$%].{1,3}$)")
+BAD_LINE = re.compile(r"^([|*~@$%].{1,3}$)")
 
 # Compile a regular expression that describes a completely blank line
-BLANKPATTERN = re.compile(r"^\s*$")
+BLANK_PATTERN = re.compile(r"^\s*$")
 
 # Compile a regular expression that validates commit comments
-COMMITPATTERN = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
+COMMIT_PATTERN = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
 
 # List the files that should not be sorted, either because they have a special sorting system or because they are not filter files
 IGNORE = ("backup", )
@@ -142,9 +142,8 @@ def start():
 
 
     """
-    greeting = "FOP (Filter Orderer and Preener) version {version}".format(
-        version=VERSION)
-    characters = len(str(greeting))
+    greeting = f"FOP (Filter Orderer and Preener) version {VERSION}"
+    characters = len(greeting)
     print("=" * characters)
     print(greeting)
     print("=" * characters)
@@ -169,8 +168,7 @@ def main(location):
     """
     # Check that the directory exists, otherwise return
     if not os.path.isdir(location):
-        print("{location} does not exist or is not a folder.".format(
-            location=location))
+        print(f"{location} does not exist or is not a folder.")
         return
 
     # Set the repository type based on hidden directories
@@ -323,20 +321,20 @@ def fopsort(filename):
             if elementlines > filterlines:
                 uncombinedFilters = sorted(
                     set(section),
-                    key=lambda rule: re.sub(ELEMENTDOMAINPATTERN, "", rule),
+                    key=lambda rule: re.sub(ELEMENT_DOMAIN_PATTERN, "", rule),
                 )
                 outputfile.write("{filters}\n".format(filters="\n".join(
-                    combinefilters(uncombinedFilters, ELEMENTDOMAINPATTERN,
+                    combinefilters(uncombinedFilters, ELEMENT_DOMAIN_PATTERN,
                                    ","))))
             else:
                 uncombinedFilters = sorted(set(section), key=str.lower)
                 outputfile.write("{filters}\n".format(filters="\n".join(
-                    combinefilters(uncombinedFilters, FILTERDOMAINPATTERN,
+                    combinefilters(uncombinedFilters, FILTER_DOMAIN_PATTERN,
                                    "|"))))
 
         for line in inputfile:
             line = line.strip()
-            if not re.match(BLANKPATTERN, line):
+            if not re.match(BLANK_PATTERN, line):
                 # Include comments verbatim and, if applicable, sort the preceding section of filters and save them in the new version of the file
                 if (line[0] == "!" or line[:8] == "%include"
                         or line[0] == "[" and line[-1] == "]"):
@@ -351,7 +349,7 @@ def fopsort(filename):
                     if len(line) < 3:
                         continue
                     # Neaten up filters and, if necessary, check their type for the sorting algorithm
-                    elementparts = re.match(ELEMENTPATTERN, line)
+                    elementparts = re.match(ELEMENT_PATTERN, line)
                     if elementparts:
                         domains = elementparts.group(1).lower()
                         if lineschecked <= CHECKLINES:
@@ -388,7 +386,7 @@ def filtertidy(filterin):
     :param filterin:
 
     """
-    optionsplit = re.match(OPTIONPATTERN, filterin)
+    optionsplit = re.match(OPTION_PATTERN, filterin)
 
     if not optionsplit:
         # Remove unnecessary asterisks from filters without any options and return them
@@ -451,8 +449,8 @@ def elementtidy(domains, separator, selector):
     selectorwithoutstrings = selector
     selectoronlystrings = ""
     while True:
-        stringmatch = re.match(ATTRIBUTEVALUEPATTERN, selectorwithoutstrings)
-        if stringmatch == None:
+        stringmatch = re.match(ATTRIBUTE_VALUE_PATTERN, selectorwithoutstrings)
+        if stringmatch is None:
             break
         selectorwithoutstrings = selectorwithoutstrings.replace(
             "{before}{stringpart}".format(before=stringmatch.group(1),
@@ -463,7 +461,7 @@ def elementtidy(domains, separator, selector):
         selectoronlystrings = "{old}{new}".format(old=selectoronlystrings,
                                                   new=stringmatch.group(2))
     # Clean up tree selectors
-    for tree in each(TREESELECTOR, selector):
+    for tree in each(TREE_SELECTOR, selector):
         if (tree.group(0) in selectoronlystrings
                 or not tree.group(0) in selectorwithoutstrings):
             continue
@@ -481,12 +479,12 @@ def elementtidy(domains, separator, selector):
             1,
         )
     # Remove unnecessary tags
-    for untag in each(REMOVALPATTERN, selector):
+    for untag in each(REMOVAL_PATTERN, selector):
         untagname = untag.group(4)
         if untagname in selectoronlystrings or not untagname in selectorwithoutstrings:
             continue
         bc = untag.group(2)
-        if bc == None:
+        if bc is None:
             bc = untag.group(3)
         ac = untag.group(5)
         selector = selector.replace(
@@ -497,14 +495,14 @@ def elementtidy(domains, separator, selector):
             1,
         )
     # Make the remaining tags lower case wherever possible
-    for tag in each(SELECTORPATTERN, selector):
+    for tag in each(SELECTOR_PATTERN, selector):
         tagname = tag.group(1)
         if tagname in selectoronlystrings or not tagname in selectorwithoutstrings:
             continue
-        if re.search(UNICODESELECTOR, selectorwithoutstrings) != None:
+        if re.search(UNICODE_SELECTOR, selectorwithoutstrings) is not None:
             break
         ac = tag.group(3)
-        if ac == None:
+        if ac is None:
             ac = tag.group(4)
         selector = selector.replace(
             "{tag}{after}".format(tag=tagname, after=ac),
@@ -512,7 +510,7 @@ def elementtidy(domains, separator, selector):
             1,
         )
     # Make pseudo classes lower case where possible
-    for pseudo in each(PSEUDOPATTERN, selector):
+    for pseudo in each(PSEUDO_PATTERN, selector):
         pseudoclass = pseudo.group(1)
         if (pseudoclass in selectoronlystrings
                 or not pseudoclass in selectorwithoutstrings):
@@ -633,11 +631,10 @@ def checkcomment(comment, changed):
     :param changed:
 
     """
-    sections = re.match(COMMITPATTERN, comment)
-    if sections == None:
+    sections = re.match(COMMIT_PATTERN, comment)
+    if sections is None:
         print(
-            'The comment "{comment}" is not in the recognised format.'.format(
-                comment=comment))
+            f'The comment "{comment}" is not in the recognised format.')
     else:
         indicator = sections.group(1)
         if indicator == "M":
