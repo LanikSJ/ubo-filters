@@ -13,10 +13,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
-from typing import List
-from typing import NamedTuple
-from typing import Optional
-from typing import Tuple
+from typing import List, NamedTuple, Optional, Tuple
 from urllib.parse import urlparse
 
 # Version using semantic versioning
