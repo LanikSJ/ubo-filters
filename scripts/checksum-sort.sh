@@ -29,7 +29,7 @@ cleanup() {
   if [[ -n "${PROCESSING_FILE:-}" ]]; then
     # Clean up new-style temporary files (.tmp.PID)
     local temp_pattern="$PROCESSING_FILE.tmp.*"
-    for temp_file in "$temp_pattern"; do
+    for temp_file in $temp_pattern; do
       if [[ -f "$temp_file" ]]; then
         echo "🗑️  Removing temporary sorter file: $temp_file"
         rm -f "$temp_file" || echo "⚠️  Warning: Failed to remove temporary file $temp_file"
