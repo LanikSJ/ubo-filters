@@ -26,6 +26,7 @@ MIN_PYTHON_VERSION = (3, 7)
 
 class PythonVersionError(Exception):
     """Raised when Python version is insufficient."""
+
     pass
 
 
@@ -51,8 +52,7 @@ class FilterPatterns:
     ELEMENT_DOMAIN = re.compile(r"^([^\/\*\|\@\"\!]*?)#\@?#")
     FILTER_DOMAIN = re.compile(r"(?:\$|\,)domain\=([^\,\s]+)$")
     ELEMENT = re.compile(r"^([^\/\*\|\@\"\!]*?)(#[\@\?]?#)([^{}]+)$")
-    OPTION = re.compile(
-        r"^(.*)\$(~?[\w\-]+(?:=[^,\s]+)?(?:,~?[\w\-]+(?:=[^,\s]+)?)*)$")
+    OPTION = re.compile(r"^(.*)\$(~?[\w\-]+(?:=[^,\s]+)?(?:,~?[\w\-]+(?:=[^,\s]+)?)*)$")
 
     # CSS selector patterns
     SELECTOR = re.compile(
@@ -66,14 +66,14 @@ class FilterPatterns:
     ATTRIBUTE_VALUE = re.compile(
         r"^([^\'\"\\]|\\.)*(\"(?:[^\"\\]|\\.)*\"|\'(?:[^\'\\]|\\.)*\')|\*"
     )
-    TREE_SELECTOR = re.compile(
-        r"(\\.|[^\+\>\~\\\ \t])\s*([\+\>\~\ \t])\s*(\D)")
+    TREE_SELECTOR = re.compile(r"(\\.|[^\+\>\~\\\ \t])\s*([\+\>\~\ \t])\s*(\D)")
     UNICODE_SELECTOR = re.compile(r"\\[0-9a-fA-F]{1,6}\s[a-zA-Z]*[A-Z]")
 
     # Line validation patterns
     BAD_LINE = re.compile(r"^([|*~@$%].{1,3}$)")
     BLANK = re.compile(r"^\s*$")
     COMMIT = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
+
 
 # Configuration constants
 
@@ -85,21 +85,47 @@ class Config:
     CHECK_LINES = 10
 
     # Known Adblock Plus options
-    KNOWN_OPTIONS = frozenset([
-        "collapse", "csp", "document", "elemhide", "font", "genericblock",
-        "generichide", "image", "match-case", "object", "media", "object-subrequest",
-        "other", "ping", "popup", "script", "stylesheet", "subdocument",
-        "third-party", "websocket", "webrtc", "xmlhttprequest",
-        "rewrite=abp-resource:blank-css", "rewrite=abp-resource:blank-mp4",
-        "rewrite=abp-resource:blank-js", "rewrite=abp-resource:blank-html",
-        "rewrite=abp-resource:blank-mp3", "rewrite=abp-resource:blank-text",
-        "rewrite=abp-resource:1x1-transparent-gif", "rewrite=abp-resource:2x2-transparent-png",
-        "rewrite=abp-resource:3x2-transparent-png", "rewrite=abp-resource:32x32-transparent-png",
-    ])
+    KNOWN_OPTIONS = frozenset(
+        [
+            "collapse",
+            "csp",
+            "document",
+            "elemhide",
+            "font",
+            "genericblock",
+            "generichide",
+            "image",
+            "match-case",
+            "object",
+            "media",
+            "object-subrequest",
+            "other",
+            "ping",
+            "popup",
+            "script",
+            "stylesheet",
+            "subdocument",
+            "third-party",
+            "websocket",
+            "webrtc",
+            "xmlhttprequest",
+            "rewrite=abp-resource:blank-css",
+            "rewrite=abp-resource:blank-mp4",
+            "rewrite=abp-resource:blank-js",
+            "rewrite=abp-resource:blank-html",
+            "rewrite=abp-resource:blank-mp3",
+            "rewrite=abp-resource:blank-text",
+            "rewrite=abp-resource:1x1-transparent-gif",
+            "rewrite=abp-resource:2x2-transparent-png",
+            "rewrite=abp-resource:3x2-transparent-png",
+            "rewrite=abp-resource:32x32-transparent-png",
+        ]
+    )
 
 
 class RepoConfig(NamedTuple):
     """Configuration for version control systems."""
+
     name: List[str]
     directory: str
     location_option: str
@@ -113,7 +139,7 @@ class RepoConfig(NamedTuple):
 
 # Version control system configurations
 VCS_CONFIGS = {
-    'git': RepoConfig(
+    "git": RepoConfig(
         name=["git"],
         directory=".git",
         location_option="--work-tree=",
@@ -124,7 +150,7 @@ VCS_CONFIGS = {
         pull=["pull"],
         push=["push"],
     ),
-    'hg': RepoConfig(
+    "hg": RepoConfig(
         name=["hg"],
         directory=".hg",
         location_option="-R",
@@ -145,8 +171,12 @@ class FilterProcessor:
         self.patterns = FilterPatterns()
         self.config = Config()
 
-    def combine_filters(self, uncombined_filters: List[str],
-                        domain_pattern: re.Pattern, domain_separator: str) -> List[str]:
+    def combine_filters(
+        self,
+        uncombined_filters: List[str],
+        domain_pattern: re.Pattern,
+        domain_separator: str,
+    ) -> List[str]:
         """Combine filters with identical rules but different domains.
 
         Args:
@@ -165,20 +195,30 @@ class FilterProcessor:
             domains1 = domain_pattern.search(current_filter)
 
             # Check if we can combine with the next filter
-            if (i + 1 < len(uncombined_filters) and domains1 and
-                    len(domains1.group(1)) > 0):
+            if (
+                i + 1 < len(uncombined_filters)
+                and domains1
+                and len(domains1.group(1)) > 0
+            ):
 
                 next_filter = uncombined_filters[i + 1]
                 domains2 = domain_pattern.search(next_filter)
 
-                if (domains2 and len(domains2.group(1)) > 0 and
-                    self._can_combine_filters(current_filter, next_filter,
-                                              domains1, domains2, domain_pattern)):
+                if (
+                    domains2
+                    and len(domains2.group(1)) > 0
+                    and self._can_combine_filters(
+                        current_filter, next_filter, domains1, domains2, domain_pattern
+                    )
+                ):
 
                     # Combine the filters
                     combined_filter = self._merge_domains(
-                        current_filter, domains1, domains2,
-                        domain_pattern, domain_separator
+                        current_filter,
+                        domains1,
+                        domains2,
+                        domain_pattern,
+                        domain_separator,
                     )
                     uncombined_filters[i + 1] = combined_filter
                     i += 1  # Skip the current filter as it's been merged
@@ -189,9 +229,14 @@ class FilterProcessor:
 
         return combined_filters
 
-    def _can_combine_filters(self, filter1: str, filter2: str,
-                             domains1: re.Match, domains2: re.Match,
-                             domain_pattern: re.Pattern) -> bool:
+    def _can_combine_filters(
+        self,
+        filter1: str,
+        filter2: str,
+        domains1: re.Match,
+        domains2: re.Match,
+        domain_pattern: re.Pattern,
+    ) -> bool:
         """Check if two filters can be combined."""
         # Check if the non-domain parts are identical
         filter1_base = domain_pattern.sub("", filter1)
@@ -215,8 +260,14 @@ class FilterProcessor:
         domains = domain_str.split("|" if "|" in domain_str else ",")
         return any(domain and not domain.startswith("~") for domain in domains)
 
-    def _merge_domains(self, base_filter: str, domains1: re.Match, domains2: re.Match,
-                       domain_pattern: re.Pattern, domain_separator: str) -> str:
+    def _merge_domains(
+        self,
+        base_filter: str,
+        domains1: re.Match,
+        domains2: re.Match,
+        domain_pattern: re.Pattern,
+        domain_separator: str,
+    ) -> str:
         """Merge domains from two filters."""
         domain1_str = domains1.group(1)
         domain2_str = domains2.group(1)
@@ -224,13 +275,11 @@ class FilterProcessor:
         # Combine and deduplicate domains
         all_domains = f"{domain1_str}{domain_separator}{domain2_str}"
         unique_domains = sorted(
-            set(all_domains.split(domain_separator)),
-            key=lambda d: d.strip("~")
+            set(all_domains.split(domain_separator)), key=lambda d: d.strip("~")
         )
 
         new_domains = domain_separator.join(unique_domains)
-        new_domain_part = domains1.group(
-            0).replace(domain1_str, new_domains, 1)
+        new_domain_part = domains1.group(0).replace(domain1_str, new_domains, 1)
 
         return domain_pattern.sub(new_domain_part, base_filter)
 
@@ -255,8 +304,11 @@ class FilterSorter:
         temp_file = f"{filename}.temp"
 
         try:
-            with open(filename, "r", encoding="utf-8", newline="\n") as input_file, \
-                    open(temp_file, "w", encoding="utf-8", newline="\n") as output_file:
+            with open(
+                filename, "r", encoding="utf-8", newline="\n"
+            ) as input_file, open(
+                temp_file, "w", encoding="utf-8", newline="\n"
+            ) as output_file:
 
                 self._process_file_content(input_file, output_file)
 
@@ -291,7 +343,8 @@ class FilterSorter:
             if self._is_comment_or_special(line):
                 if section:
                     self._write_filters(
-                        output_file, section, element_lines > filter_lines)
+                        output_file, section, element_lines > filter_lines
+                    )
                     section = []
                     lines_checked = 1
                     filter_lines = element_lines = 0
@@ -317,14 +370,15 @@ class FilterSorter:
 
         # Process remaining filters
         if section:
-            self._write_filters(output_file, section,
-                                element_lines > filter_lines)
+            self._write_filters(output_file, section, element_lines > filter_lines)
 
     def _is_comment_or_special(self, line: str) -> bool:
         """Check if line is a comment or special directive."""
-        return (line.startswith("!") or
-                line.startswith("%include") or
-                (line.startswith("[") and line.endswith("]")))
+        return (
+            line.startswith("!")
+            or line.startswith("%include")
+            or (line.startswith("[") and line.endswith("]"))
+        )
 
     def _process_filter_line(self, line: str) -> Optional[str]:
         """Process and clean up a filter line."""
@@ -338,13 +392,15 @@ class FilterSorter:
         else:
             return self._tidy_filter_rule(line)
 
-    def _write_filters(self, output_file, section: List[str], is_element_section: bool) -> None:
+    def _write_filters(
+        self, output_file, section: List[str], is_element_section: bool
+    ) -> None:
         """Write sorted filters to output file."""
         if is_element_section:
             # Sort element hiding rules
             uncombined = sorted(
                 set(section),
-                key=lambda rule: self.patterns.ELEMENT_DOMAIN.sub("", rule)
+                key=lambda rule: self.patterns.ELEMENT_DOMAIN.sub("", rule),
             )
             combined = self.processor.combine_filters(
                 uncombined, self.patterns.ELEMENT_DOMAIN, ","
@@ -378,19 +434,18 @@ class FilterSorter:
             elif option.strip("~") in self.config.KNOWN_OPTIONS:
                 valid_options.append(option)
             else:
-                print(
-                    f'Warning: Unknown option "{option}" in filter "{filter_text}"')
+                print(f'Warning: Unknown option "{option}" in filter "{filter_text}"')
                 valid_options.append(option)  # Keep unknown options
 
         # Sort options
-        valid_options.sort(key=lambda opt: (
-            opt[1:] + "~") if opt.startswith("~") else opt)
+        valid_options.sort(
+            key=lambda opt: (opt[1:] + "~") if opt.startswith("~") else opt
+        )
 
         # Add sorted domains if present
         if domain_list:
             sorted_domains = sorted(
-                set(filter(None, domain_list)),
-                key=lambda domain: domain.strip("~")
+                set(filter(None, domain_list)), key=lambda domain: domain.strip("~")
             )
             valid_options.append(f"domain={'|'.join(sorted_domains)}")
 
@@ -401,8 +456,7 @@ class FilterSorter:
         # Sort domains
         if "," in domains:
             domain_list = sorted(
-                set(domains.split(",")),
-                key=lambda domain: domain.strip("~")
+                set(domains.split(",")), key=lambda domain: domain.strip("~")
             )
             domains = ",".join(domain_list)
 
@@ -424,13 +478,19 @@ class FilterSorter:
             filter_text = filter_text[2:]
 
         # Remove leading wildcards
-        while (len(filter_text) > 1 and filter_text[0] == "*" and
-               filter_text[1] not in "|!"):
+        while (
+            len(filter_text) > 1
+            and filter_text[0] == "*"
+            and filter_text[1] not in "|!"
+        ):
             filter_text = filter_text[1:]
 
         # Remove trailing wildcards
-        while (len(filter_text) > 1 and filter_text[-1] == "*" and
-               filter_text[-2] not in "| "):
+        while (
+            len(filter_text) > 1
+            and filter_text[-1] == "*"
+            and filter_text[-2] not in "| "
+        ):
             filter_text = filter_text[:-1]
 
         # Handle regex patterns
@@ -476,21 +536,17 @@ class RepositoryManager:
 
         # Add location option
         if self.repo_config.location_option.endswith("="):
-            command.append(
-                f"{self.repo_config.location_option}{self.location}")
+            command.append(f"{self.repo_config.location_option}{self.location}")
         else:
-            command.extend(
-                [self.repo_config.location_option, str(self.location)])
+            command.extend([self.repo_config.location_option, str(self.location)])
 
         # Add repository directory option if needed
         if self.repo_config.repo_directory_option:
             repo_dir = self.location / self.repo_config.directory
             if self.repo_config.repo_directory_option.endswith("="):
-                command.append(
-                    f"{self.repo_config.repo_directory_option}{repo_dir}")
+                command.append(f"{self.repo_config.repo_directory_option}{repo_dir}")
             else:
-                command.extend(
-                    [self.repo_config.repo_directory_option, str(repo_dir)])
+                command.extend([self.repo_config.repo_directory_option, str(repo_dir)])
 
         return command
 
@@ -501,8 +557,7 @@ class RepositoryManager:
 
         try:
             command = self.base_command + self.repo_config.check_changes
-            result = subprocess.run(
-                command, capture_output=True, text=True, check=True)
+            result = subprocess.run(command, capture_output=True, text=True, check=True)
             return bool(result.stdout.strip())
         except (subprocess.CalledProcessError, OSError):
             return False
@@ -514,8 +569,7 @@ class RepositoryManager:
 
         try:
             command = self.base_command + self.repo_config.difference
-            result = subprocess.run(
-                command, capture_output=True, text=True, check=True)
+            result = subprocess.run(command, capture_output=True, text=True, check=True)
             return result.stdout
         except (subprocess.CalledProcessError, OSError):
             return ""
@@ -527,8 +581,7 @@ class RepositoryManager:
 
         try:
             # Commit
-            commit_cmd = self.base_command + \
-                self.repo_config.commit + [message]
+            commit_cmd = self.base_command + self.repo_config.commit + [message]
             subprocess.run(commit_cmd, check=True)
 
             # Pull and push
@@ -582,14 +635,19 @@ class FOPApplication:
 
         # Initialize repository manager
         repo_manager = RepositoryManager(location)
-        initial_changes = repo_manager.has_changes() if repo_manager.repo_config else False
+        initial_changes = (
+            repo_manager.has_changes() if repo_manager.repo_config else False
+        )
 
         # Process files
         changes_made = False
         for root, dirs, files in os.walk(location):
             # Skip hidden directories and ignored directories
-            dirs[:] = [d for d in dirs if not d.startswith(
-                '.') and d not in Config.IGNORE_FILES]
+            dirs[:] = [
+                d
+                for d in dirs
+                if not d.startswith(".") and d not in Config.IGNORE_FILES
+            ]
 
             root_path = Path(root)
             print(f"Current directory: {root_path.absolute()}")
@@ -598,12 +656,12 @@ class FOPApplication:
                 file_path = root_path / filename
 
                 # Process .txt files (filter lists)
-                if file_path.suffix == '.txt' and filename not in Config.IGNORE_FILES:
+                if file_path.suffix == ".txt" and filename not in Config.IGNORE_FILES:
                     if self.sorter.sort_file(str(file_path)):
                         changes_made = True
 
                 # Clean up temporary files
-                elif file_path.suffix in ['.orig', '.temp']:
+                elif file_path.suffix in [".orig", ".temp"]:
                     try:
                         file_path.unlink()
                     except OSError:
@@ -613,7 +671,9 @@ class FOPApplication:
         if repo_manager.repo_config and (changes_made or initial_changes):
             self._handle_repository_commit(repo_manager, initial_changes)
 
-    def _handle_repository_commit(self, repo_manager: RepositoryManager, user_changes: bool) -> None:
+    def _handle_repository_commit(
+        self, repo_manager: RepositoryManager, user_changes: bool
+    ) -> None:
         """Handle repository commit process."""
         diff = repo_manager.get_diff()
         if not diff:
@@ -625,8 +685,7 @@ class FOPApplication:
 
         try:
             while True:
-                comment = input(
-                    "Enter commit comment (or Ctrl+C to abort): ").strip()
+                comment = input("Enter commit comment (or Ctrl+C to abort): ").strip()
                 if self._validate_commit_comment(comment, user_changes):
                     break
         except (KeyboardInterrupt, SystemExit):
@@ -657,7 +716,8 @@ class FOPApplication:
         elif indicator in ["A", "P"]:
             if not changed:
                 print(
-                    "You indicated adding/removing rules, but no initial changes were noted.")
+                    "You indicated adding/removing rules, but no initial changes were noted."
+                )
                 return False
 
             address = match.group(4)
@@ -673,9 +733,10 @@ class FOPApplication:
         """Validate URL format."""
         try:
             parsed = urlparse(url)
-            return bool(parsed.scheme and (
-                (parsed.netloc and parsed.path) or parsed.scheme == "about"
-            ))
+            return bool(
+                parsed.scheme
+                and ((parsed.netloc and parsed.path) or parsed.scheme == "about")
+            )
         except Exception:
             return False
 
