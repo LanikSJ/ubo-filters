@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: ZjWW5JCiOrb3sl25oUmLpA
-! Last modified: 2025-05-12 08:21 UTC
+! Checksum: mz2HJefCENm9egAehBUFqA
+! Last modified: 2025-07-31 11:19 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -57,6 +57,7 @@ amzwatcher.com##.sc-optin-content
 andriodapk.com##.col-md-8 > div:nth-of-type(2)
 andriodapk.com##.post-sidebar-box > div
 andriodapk.com##.text-center.well-lg.well
+apidog.com##.shadow-s.text-center
 appleinsider.com###priceguide
 appleinsider.com###sbr-priceguide
 appleinsider.com###top-promo
@@ -100,6 +101,7 @@ boastr.net##.pea_cook_bottomright.pea_cook_wrapper
 bobcares.com##.et_section_regular.et_pb_inner_shadow
 bobcares.com##div[class*="nitro-offscreen"]
 bobcares.com,cultofmac.com##.custom-html-widget.textwidget
+businessinsider.com##.sticky-featured-product
 buydig.com###socialLinks
 buydig.com###topHeader_divTwitter
 caranddriver.com##.embed-editorial-links
@@ -148,6 +150,7 @@ dictionary.com###fly-out
 dictionary.com##.editorial-content-feed
 dictionary.com##.left-nav-wrapper
 digitaltrends.com##.m-sticky-video_orphan.m-sticky-video
+dmv.ca.gov##.alert.dos-header-notice
 dnschecker.org##.affiliation-main-box.row
 dnsperf.com##.desktop
 docs.python-guide.org##.body > div:nth-of-type(1) > div:nth-of-type(1)
@@ -169,6 +172,7 @@ eater.com###newsletter-signup-short-form
 eater.com###rock-
 eatsweetnothings.com###coopcommerce
 ebay.com##.vim.adp-vim.x-pda-placements
+ebay.com##.x-vi-evo-main-container__top-panel
 ecospaints.net##.us_consent_banner
 edgecast.com###ctl00_pnlPromotionTeaserContainer
 eftm.com##.wp-post-image.size-full.attachment-full
@@ -288,6 +292,7 @@ kron4.com##.ns-video-bin
 kron4.com##.nxs-player-wrapper
 latimes.com##.trb_bnn
 learnpython.org###google-ad-right
+lectricebikes.com###shopify-section-page-peel
 lg.com##.pc.new-quick-menu
 lifehacker.com##.recent-video
 lifehacker.com##.sharingfooter__wrapper
@@ -418,6 +423,7 @@ redhat.com##.cta-image__field-body-text
 redhat.com##.cta-image__field-cta-button
 registry1.dso.mil##.alert-warning.alert-app-level.alert
 repo1.dso.mil##.indigo.banner.gl-broadcast-message
+ring.com##div[class*="BannersContainer"]
 ronniesawesomelist.com##.sqs-slide-layer-content
 rvm.io###carbon_ads_box
 rvm.io###sponsors
@@ -625,8 +631,13 @@ www.i-dont-care-about-cookies.eu###sidebar
 xamarinhowto.com##.custom-html-widget
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
+xnxx.com##.sponsor-text
+xnxx.com##.video-sponsor-links
+xvideos.com###warning-survey
+xvideos.com##.ignore-popunder.mobile-hide
 yahoo.com###yucs-top-ff-promo
 yelp.com##.full-promo-rounded
+yelp.com##.y-css-q24cca
 yelp.com##div[class*="promotional-banner"]
 yourownlinux.com##.separator
 youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
