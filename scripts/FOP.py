@@ -24,23 +24,18 @@ import sys
 from urllib.parse import urlparse
 
 # FOP version number
-
 VERSION = 3.9
 
 # Import the key modules
 
 # Check the version of Python for language compatibility and subprocess.check_output()
-MAJORREQUIRED = 3
-MINORREQUIRED = 1
-if sys.version_info < (MAJORREQUIRED, MINORREQUIRED):
+MAJOR_REQUIRED = 3
+MINOR_REQUIRED = 1
+if sys.version_info < (MAJOR_REQUIRED, MINOR_REQUIRED):
     raise RuntimeError(
-        "FOP requires Python {reqmajor}.{reqminor} or greater, but Python {ismajor}.{isminor} is being used to run this program."
-        .format(
-            reqmajor=MAJORREQUIRED,
-            reqminor=MINORREQUIRED,
-            ismajor=sys.version_info.major,
-            isminor=sys.version_info.minor,
-        ))
+        f"FOP requires Python {MAJOR_REQUIRED}.{MINOR_REQUIRED} or greater, "
+        f"but Python {sys.version_info.major}.{sys.version_info.minor} is being used to run this program."
+    )
 
 # Import a module only available in Python 3
 
