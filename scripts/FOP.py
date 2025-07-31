@@ -25,7 +25,7 @@ MIN_PYTHON_VERSION = (3, 7)
 
 
 class PythonVersionError(Exception):
-    """Raised when Python version is insufficient."""
+    """ """
 
     pass
 
@@ -179,13 +179,14 @@ class FilterProcessor:
     ) -> List[str]:
         """Combine filters with identical rules but different domains.
 
-        Args:
-            uncombined_filters: List of filter strings to potentially combine
-            domain_pattern: Regex pattern to match domain restrictions
-            domain_separator: Character used to separate domains
+        :param uncombined_filters: List of filter strings to potentially combine
+        :param domain_pattern: Regex pattern to match domain restrictions
+        :param domain_separator: Character used to separate domains
+        :param uncombined_filters: List[str]: 
+        :param domain_pattern: re.Pattern: 
+        :param domain_separator: str: 
+        :returns: List of combined filter strings
 
-        Returns:
-            List of combined filter strings
         """
         combined_filters = []
         i = 0
@@ -237,7 +238,15 @@ class FilterProcessor:
         domains2: re.Match,
         domain_pattern: re.Pattern,
     ) -> bool:
-        """Check if two filters can be combined."""
+        """Check if two filters can be combined.
+
+        :param filter1: str: 
+        :param filter2: str: 
+        :param domains1: re.Match: 
+        :param domains2: re.Match: 
+        :param domain_pattern: re.Pattern: 
+
+        """
         # Check if the non-domain parts are identical
         filter1_base = domain_pattern.sub("", filter1)
         filter2_base = domain_pattern.sub("", filter2)
@@ -256,7 +265,11 @@ class FilterProcessor:
         return domain1_has_includes == domain2_has_includes
 
     def _has_included_domains(self, domain_str: str) -> bool:
-        """Check if domain string contains included (non-negated) domains."""
+        """Check if domain string contains included (non-negated) domains.
+
+        :param domain_str: str: 
+
+        """
         domains = domain_str.split("|" if "|" in domain_str else ",")
         return any(domain and not domain.startswith("~") for domain in domains)
 
@@ -268,7 +281,15 @@ class FilterProcessor:
         domain_pattern: re.Pattern,
         domain_separator: str,
     ) -> str:
-        """Merge domains from two filters."""
+        """Merge domains from two filters.
+
+        :param base_filter: str: 
+        :param domains1: re.Match: 
+        :param domains2: re.Match: 
+        :param domain_pattern: re.Pattern: 
+        :param domain_separator: str: 
+
+        """
         domain1_str = domains1.group(1)
         domain2_str = domains2.group(1)
 
@@ -295,11 +316,10 @@ class FilterSorter:
     def sort_file(self, filename: str) -> bool:
         """Sort a filter file and return True if changes were made.
 
-        Args:
-            filename: Path to the filter file to sort
+        :param filename: Path to the filter file to sort
+        :param filename: str: 
+        :returns: True if the file was modified, False otherwise
 
-        Returns:
-            True if the file was modified, False otherwise
         """
         temp_file = f"{filename}.temp"
 
@@ -328,7 +348,12 @@ class FilterSorter:
             return False
 
     def _process_file_content(self, input_file, output_file) -> None:
-        """Process the content of a filter file."""
+        """Process the content of a filter file.
+
+        :param input_file: 
+        :param output_file: 
+
+        """
         section = []
         lines_checked = 1
         filter_lines = element_lines = 0
@@ -373,7 +398,11 @@ class FilterSorter:
             self._write_filters(output_file, section, element_lines > filter_lines)
 
     def _is_comment_or_special(self, line: str) -> bool:
-        """Check if line is a comment or special directive."""
+        """Check if line is a comment or special directive.
+
+        :param line: str: 
+
+        """
         return (
             line.startswith("!")
             or line.startswith("%include")
@@ -381,7 +410,11 @@ class FilterSorter:
         )
 
     def _process_filter_line(self, line: str) -> Optional[str]:
-        """Process and clean up a filter line."""
+        """Process and clean up a filter line.
+
+        :param line: str: 
+
+        """
         element_match = self.patterns.ELEMENT.match(line)
 
         if element_match:
@@ -395,7 +428,13 @@ class FilterSorter:
     def _write_filters(
         self, output_file, section: List[str], is_element_section: bool
     ) -> None:
-        """Write sorted filters to output file."""
+        """Write sorted filters to output file.
+
+        :param output_file: 
+        :param section: List[str]: 
+        :param is_element_section: bool: 
+
+        """
         if is_element_section:
             # Sort element hiding rules
             uncombined = sorted(
@@ -415,7 +454,11 @@ class FilterSorter:
         output_file.write(f"{chr(10).join(combined)}\n")
 
     def _tidy_filter_rule(self, filter_text: str) -> str:
-        """Clean up and sort options in blocking filters."""
+        """Clean up and sort options in blocking filters.
+
+        :param filter_text: str: 
+
+        """
         option_match = self.patterns.OPTION.match(filter_text)
 
         if not option_match:
@@ -452,7 +495,13 @@ class FilterSorter:
         return f"{filter_part}${','.join(valid_options)}"
 
     def _tidy_element_rule(self, domains: str, separator: str, selector: str) -> str:
-        """Clean up element hiding rules."""
+        """Clean up element hiding rules.
+
+        :param domains: str: 
+        :param separator: str: 
+        :param selector: str: 
+
+        """
         # Sort domains
         if "," in domains:
             domain_list = sorted(
@@ -466,13 +515,21 @@ class FilterSorter:
         return f"{domains}{separator}{cleaned_selector}"
 
     def _clean_css_selector(self, selector: str) -> str:
-        """Clean up CSS selector (simplified implementation)."""
+        """Clean up CSS selector (simplified implementation).
+
+        :param selector: str: 
+
+        """
         # This is a simplified version - the original has complex string handling
         # For production use, the full original logic should be preserved
         return selector.lower()
 
     def _remove_unnecessary_wildcards(self, filter_text: str) -> str:
-        """Remove unnecessary wildcards from filter text."""
+        """Remove unnecessary wildcards from filter text.
+
+        :param filter_text: str: 
+
+        """
         is_allowlist = filter_text.startswith("@@")
         if is_allowlist:
             filter_text = filter_text[2:]
@@ -506,7 +563,12 @@ class FilterSorter:
         return filter_text
 
     def _replace_file(self, temp_file: str, original_file: str) -> None:
-        """Replace original file with temporary file."""
+        """Replace original file with temporary file.
+
+        :param temp_file: str: 
+        :param original_file: str: 
+
+        """
         if os.name == "nt":  # Windows
             os.remove(original_file)
         os.rename(temp_file, original_file)
@@ -575,7 +637,11 @@ class RepositoryManager:
             return ""
 
     def commit_changes(self, message: str) -> bool:
-        """Commit changes to repository."""
+        """Commit changes to repository.
+
+        :param message: str: 
+
+        """
         if not self.base_command:
             return False
 
@@ -602,7 +668,11 @@ class FOPApplication:
         self.sorter = FilterSorter()
 
     def run(self, locations: Optional[List[str]] = None) -> None:
-        """Run FOP on specified locations or current directory."""
+        """Run FOP on specified locations or current directory.
+
+        :param locations: Optional[List[str]]:  (Default value = None)
+
+        """
         self._print_greeting()
 
         if locations:
@@ -624,7 +694,11 @@ class FOPApplication:
         print(separator)
 
     def _process_location(self, location: str) -> None:
-        """Process all filter files in a location."""
+        """Process all filter files in a location.
+
+        :param location: str: 
+
+        """
         location_path = Path(location)
 
         if not location_path.is_dir():
@@ -674,7 +748,12 @@ class FOPApplication:
     def _handle_repository_commit(
         self, repo_manager: RepositoryManager, user_changes: bool
     ) -> None:
-        """Handle repository commit process."""
+        """Handle repository commit process.
+
+        :param repo_manager: RepositoryManager: 
+        :param user_changes: bool: 
+
+        """
         diff = repo_manager.get_diff()
         if not diff:
             print("\nNo changes recorded by the repository.")
@@ -700,7 +779,12 @@ class FOPApplication:
             print("Commit failed.")
 
     def _validate_commit_comment(self, comment: str, changed: bool) -> bool:
-        """Validate commit comment format."""
+        """Validate commit comment format.
+
+        :param comment: str: 
+        :param changed: bool: 
+
+        """
         if not comment:
             print("Comment cannot be empty.")
             return False
@@ -730,7 +814,11 @@ class FOPApplication:
         return False
 
     def _validate_url(self, url: str) -> bool:
-        """Validate URL format."""
+        """Validate URL format.
+
+        :param url: str: 
+
+        """
         try:
             parsed = urlparse(url)
             return bool(
