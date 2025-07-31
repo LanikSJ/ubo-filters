@@ -37,16 +37,16 @@
 use strict;
 use warnings;
 use Path::Tiny;
-use Digest::MD5 qw(md5_base64);
-use Encode      qw(encode_utf8 is_utf8);
-use POSIX       qw(strftime);
+use Digest::MD5  qw(md5_base64);
+use Encode       qw(encode_utf8 is_utf8);
+use POSIX        qw(strftime);
 use Getopt::Long qw(GetOptions);
 use feature 'unicode_strings';
 
 # Command line options
 my $verbose = 0;
-my $force = 0;
-my $help = 0;
+my $force   = 0;
+my $help    = 0;
 
 GetOptions(
     'verbose|v' => \$verbose,
@@ -76,10 +76,10 @@ die "Usage: $^X $0 [--verbose] [--force] subscription.txt\n" unless @ARGV;
 my $file = shift;
 
 # Enhanced file validation
-die "Specified file: $file doesn't exist!\n" unless ( -e $file );
+die "Specified file: $file doesn't exist!\n"         unless ( -e $file );
 die "Specified file: $file is not a regular file!\n" unless ( -f $file );
-die "Specified file: $file is not readable!\n" unless ( -r $file );
-die "Specified file: $file is not writable!\n" unless ( -w $file );
+die "Specified file: $file is not readable!\n"       unless ( -r $file );
+die "Specified file: $file is not writable!\n"       unless ( -w $file );
 
 print "Processing file: $file\n" if $verbose;
 
@@ -87,14 +87,15 @@ print "Processing file: $file\n" if $verbose;
 my $data;
 eval {
     $data = path($file)->slurp_utf8;
-    print "Successfully read file (${\(length($data))} characters)\n" if $verbose;
+    print "Successfully read file (${\(length($data))} characters)\n"
+      if $verbose;
 };
 if ($@) {
     die "Failed to read file '$file': $@\n";
 }
 
 # Validate UTF-8 encoding
-unless (is_utf8($data)) {
+unless ( is_utf8($data) ) {
     print "Warning: File does not appear to be valid UTF-8\n" if $verbose;
 }
 
@@ -105,7 +106,8 @@ my $oldchecksum = $1;
 if ($verbose) {
     if ($oldchecksum) {
         print "Found existing checksum: $oldchecksum\n";
-    } else {
+    }
+    else {
         print "No existing checksum found\n";
     }
 }
@@ -121,40 +123,48 @@ my $checksumData = $data;
 $checksumData =~ s/\r//g;
 $checksumData =~ s/\n+/\n/g;
 
-print "Calculating checksum for ${\(length($checksumData))} characters of normalized data\n" if $verbose;
+print
+"Calculating checksum for ${\(length($checksumData))} characters of normalized data\n"
+  if $verbose;
 
 # Calculate new checksum
 my $checksum = md5_base64( encode_utf8($checksumData) );
 print "New checksum: $checksum\n" if $verbose;
 
 # Check if checksum has changed (unless --force is used)
-if ($oldchecksum && $checksum eq $oldchecksum && !$force) {
+if ( $oldchecksum && $checksum eq $oldchecksum && !$force ) {
     print "Checksum unchanged, no update needed\n" if $verbose;
     die "List has not changed.\n";
-} elsif ($oldchecksum && $checksum eq $oldchecksum && $force) {
-    print "Checksum unchanged, but forcing update due to --force flag\n" if $verbose;
-} elsif ($oldchecksum && $checksum ne $oldchecksum) {
+}
+elsif ( $oldchecksum && $checksum eq $oldchecksum && $force ) {
+    print "Checksum unchanged, but forcing update due to --force flag\n"
+      if $verbose;
+}
+elsif ( $oldchecksum && $checksum ne $oldchecksum ) {
     print "Checksum changed from $oldchecksum to $checksum\n" if $verbose;
 }
 
 # Update the date and time.
 my $updated = strftime( "%Y-%m-%d %H:%M UTC", gmtime );
-my $date_updated = $data =~ s/(^.*!.*(Last modified|Updated):\s*)(.*)\s*$/$1$updated/gmi;
+my $date_updated =
+  $data =~ s/(^.*!.*(Last modified|Updated):\s*)(.*)\s*$/$1$updated/gmi;
 if ($verbose) {
     if ($date_updated) {
         print "Updated timestamp to: $updated\n";
-    } else {
+    }
+    else {
         print "No timestamp field found to update\n";
     }
 }
 
 # Update version
-my $version = strftime( "%Y%m%d%H%M", gmtime );
+my $version         = strftime( "%Y%m%d%H%M", gmtime );
 my $version_updated = $data =~ s/^.*!\s*Version:.*/! Version: $version/gmi;
 if ($verbose) {
     if ($version_updated) {
         print "Updated version to: $version\n";
-    } else {
+    }
+    else {
         print "No version field found to update\n";
     }
 }
@@ -172,7 +182,8 @@ my $checksum_inserted = $data =~ s/(\r?\n)/$1! Checksum: $checksum$1/;
 if ($verbose) {
     if ($checksum_inserted) {
         print "Inserted checksum line\n";
-    } else {
+    }
+    else {
         print "Warning: Failed to insert checksum line\n";
     }
 }
