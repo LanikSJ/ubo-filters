@@ -1,0 +1,7 @@
+---
+# Restyled configuration
+# https://github.com/restyled-io/restyled.io/wiki/Configuring-Restyled
+
+# Files to ignore
+exclude:
+  - "scripts/FOP.py"
