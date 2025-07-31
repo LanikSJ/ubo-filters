@@ -386,16 +386,16 @@ The script recognizes section headers that start with:
 
     # Basic usage (no backup created by default)
     perl sorter.pl filters.txt
-    
+
     # Create backup with default suffix (.backup)
     perl sorter.pl --backup filters.txt
-    
+
     # Verbose mode with backup and custom suffix
     perl sorter.pl --verbose --backup --backup-suffix .bak filters.txt
-    
+
     # Process multiple files (no backups by default)
     perl sorter.pl file1.txt file2.txt file3.txt
-    
+
     # Dry run to see what would be changed
     perl sorter.pl --dry-run --verbose filters.txt
 
