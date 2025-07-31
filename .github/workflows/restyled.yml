@@ -24,18 +24,18 @@ jobs:
       github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           ref: ${{ github.event.pull_request.head.ref }}
 
-      - uses: restyled-io/actions/setup@v4
+      - uses: restyled-io/actions/setup@388f3b246890dba916e190e73df2bf54d1c182e9 # v4.3.2
       - id: restyler
-        uses: restyled-io/actions/run@v4
+        uses: restyled-io/actions/run@388f3b246890dba916e190e73df2bf54d1c182e9 # v4.3.2
         with:
           fail-on-differences: true
 
       - if: ${{ !cancelled() && steps.restyler.outputs.success == 'true' }}
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         with:
           base: ${{ steps.restyler.outputs.restyled-base }}
           branch: ${{ steps.restyler.outputs.restyled-head }}
@@ -52,9 +52,9 @@ jobs:
       github.event.pull_request.head.repo.full_name != github.repository
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: restyled-io/actions/setup@v4
-      - uses: restyled-io/actions/run@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: restyled-io/actions/setup@388f3b246890dba916e190e73df2bf54d1c182e9 # v4.3.2
+      - uses: restyled-io/actions/run@388f3b246890dba916e190e73df2bf54d1c182e9 # v4.3.2
         with:
           fail-on-differences: true
 
@@ -63,9 +63,9 @@ jobs:
     if: ${{ github.event.action == 'closed' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: restyled-io/actions/setup@v4
+      - uses: restyled-io/actions/setup@388f3b246890dba916e190e73df2bf54d1c182e9 # v4.3.2
       - id: restyler
-        uses: restyled-io/actions/run@v4
+        uses: restyled-io/actions/run@388f3b246890dba916e190e73df2bf54d1c182e9 # v4.3.2
       - run: gh --repo "$REPO" pr close "$BRANCH" --delete-branch || true
         env:
           REPO: ${{ github.repository }}
