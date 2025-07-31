@@ -6,7 +6,6 @@ A tool for sorting and organizing ad-blocking filter lists.
 Copyright (C) 2011 Michael
 Licensed under GNU General Public License v3.0 or later.
 """
-
 import collections
 import filecmp
 import os
@@ -14,7 +13,10 @@ import re
 import subprocess
 import sys
 from pathlib import Path
-from typing import List, NamedTuple, Optional, Tuple
+from typing import List
+from typing import NamedTuple
+from typing import Optional
+from typing import Tuple
 from urllib.parse import urlparse
 
 # Version using semantic versioning
