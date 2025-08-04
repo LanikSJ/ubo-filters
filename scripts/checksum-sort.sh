@@ -160,8 +160,8 @@ install_perl_dependencies() {
 
 # Validate Perl scripts exist and are executable
 validate_perl_scripts() {
-  local sorter_script="$SCRIPT_DIR/scripts/sorter.pl"
-  local checksum_script="$SCRIPT_DIR/scripts/addChecksum.pl"
+  local sorter_script="$SCRIPT_DIR/sorter.pl"
+  local checksum_script="$SCRIPT_DIR/addChecksum.pl"
 
   for script in "$sorter_script" "$checksum_script"; do
     if [[ ! -f "$script" ]]; then
@@ -361,7 +361,7 @@ process_file() {
 
   # Sort the file
   log_info "🔀 Sorting filter entries..."
-  if ! perl "$SCRIPT_DIR/scripts/sorter.pl" "$file"; then
+  if ! perl "$SCRIPT_DIR/sorter.pl" "$file"; then
     log_error "Failed to sort file '$file'"
     operation_failed=true
   fi
@@ -369,7 +369,7 @@ process_file() {
   # Add checksum only if sorting succeeded
   if [[ "$operation_failed" == "false" ]]; then
     log_info "🔐 Adding checksum..."
-    if ! perl "$SCRIPT_DIR/scripts/addChecksum.pl" "$file"; then
+    if ! perl "$SCRIPT_DIR/addChecksum.pl" "$file"; then
       log_error "Failed to add checksum to file '$file'"
       operation_failed=true
     fi
