@@ -1,1 +1,0 @@
-scripts/checksum-sort.sh
