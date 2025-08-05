@@ -43,7 +43,8 @@ I got tired of losing my filters when I switched machines so I created this repo
 
 ### 📄 Main Lists
 
-If you'd like to use any of the filter lists in this repo click the bellow links for AdBlock / AdBlock Plus / AdGuard / uBlock Origin:
+If you'd like to use any of the filter lists in this repo click the bellow links
+for AdBlock / AdBlock Plus / AdGuard / uBlock Origin:
 
 - [AdMaven Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admaven-domains.txt&title=AdMaven%20Domains%20Filter%20List)
 - [AdMeasures Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admeasures-domains.txt&title=AdMeasures%20Domains%20Filter%20List)
@@ -86,13 +87,15 @@ Some of these are old lists or not working lists for archiving purposes:
 
 ## 🔧 Usage Instructions
 
-This repository includes several scripts for managing and processing filter lists. Below are the usage instructions for the main tools.
+This repository includes several scripts for managing and processing filter lists.
+Below are the usage instructions for the main tools.
 
 ### 📝 Filter Processing Scripts
 
 #### checksum-sort.sh - Enhanced Backup & Sorting Tool
 
-The `checksum-sort.sh` script provides comprehensive filter list processing with advanced backup functionality.
+The `checksum-sort.sh` script provides comprehensive filter list processing with
+advanced backup functionality.
 
 **Basic Usage:**
 
@@ -102,9 +105,12 @@ The `checksum-sort.sh` script provides comprehensive filter list processing with
 
 **Features:**
 
-- **Organized Backup Storage**: Centralized backup directory (`backup/`) for better organization
-- **Backup Integrity Verification**: Automatic checksum verification using SHA256, MD5, or size comparison
-- **Automatic Backup Rotation**: Configurable maximum backup retention (default: 10 backups)
+- **Organized Backup Storage**: Centralized backup directory (`backup/`) for
+  better organization
+- **Backup Integrity Verification**: Automatic checksum verification using SHA256,
+  MD5, or size comparison
+- **Automatic Backup Rotation**: Configurable maximum backup retention (default:
+  10 backups)
 - **Enhanced Error Handling**: Robust rollback mechanism with verification
 - **Cross-Platform Compatibility**: Works on both Linux and macOS
 
@@ -128,7 +134,8 @@ ls -la backup/
 
 #### sorter.pl - Enhanced Fanboy Adblock Sorter v2.0
 
-The `sorter.pl` script has been completely rewritten with modern Perl best practices and enhanced functionality.
+The `sorter.pl` script has been completely rewritten with modern Perl best practices
+and enhanced functionality.
 
 **Basic Usage (Backward Compatible):**
 
@@ -164,7 +171,8 @@ perl scripts/sorter.pl --dry-run --verbose filters/combined-filters.txt
 
 - **Modern Perl Standards**: Strict and warnings pragmas, UTF-8 support
 - **Enhanced Error Handling**: Comprehensive file validation and graceful error recovery
-- **Statistics and Monitoring**: File statistics, section counting, before/after comparison
+- **Statistics and Monitoring**: File statistics, section counting, before/after
+  comparison
 - **Multi-file Support**: Process multiple files with individual error handling
 - **Safety Features**: Atomic file operations, configurable backups, proper cleanup
 
@@ -172,7 +180,8 @@ perl scripts/sorter.pl --dry-run --verbose filters/combined-filters.txt
 
 #### Domain-Specific Processing Scripts
 
-The repository includes several specialized scripts for processing different types of filter lists:
+The repository includes several specialized scripts for processing different types
+of filter lists:
 
 - `admiral-domains.sh`: Process Admiral anti-adblock domains
 - `combined-filters.sh`: Generate combined filter lists
@@ -240,7 +249,8 @@ perl scripts/sorter.pl --backup-suffix .dev filters/test-filter.txt
 
 Q: Will these filter lists support any other adblockers such as AdGuard etc?
 
-A: Yes, some of these lists do work with AdGuard, but **USE AT YOUR OWN RISK** as they haven't been tested thoroughly yet.
+A: Yes, some of these lists do work with AdGuard, but **USE AT YOUR OWN RISK** as
+they haven't been tested thoroughly yet.
 
 ## 🙌 Attributions
 
