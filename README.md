@@ -106,11 +106,11 @@ advanced backup functionality.
 **Features:**
 
 - **Organized Backup Storage**: Centralized backup directory (`backup/`) for
-better organization
+  better organization
 - **Backup Integrity Verification**: Automatic checksum verification using SHA256,
-MD5, or size comparison
+  MD5, or size comparison
 - **Automatic Backup Rotation**: Configurable maximum backup retention (default:
-10 backups)
+  10 backups)
 - **Enhanced Error Handling**: Robust rollback mechanism with verification
 - **Cross-Platform Compatibility**: Works on both Linux and macOS
 
@@ -172,7 +172,7 @@ perl scripts/sorter.pl --dry-run --verbose filters/combined-filters.txt
 - **Modern Perl Standards**: Strict and warnings pragmas, UTF-8 support
 - **Enhanced Error Handling**: Comprehensive file validation and graceful error recovery
 - **Statistics and Monitoring**: File statistics, section counting, before/after
-comparison
+  comparison
 - **Multi-file Support**: Process multiple files with individual error handling
 - **Safety Features**: Atomic file operations, configurable backups, proper cleanup
 
