@@ -1,6 +1,6 @@
 ! Title: MacUpload Domains Filter List
-! Checksum: 0NWaZ1y0KpqaHEzsIvhLmg
-! Last modified: 2025-05-05 08:21 UTC
+! Checksum: LcWKpquLUHP17Ri6vlWWwA
+! Last modified: 2025-08-11 08:30 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -15,7 +15,6 @@
 ||abodealley.com^
 ||babyboomboomads.com^
 ||curriculture.com^
-||decademical.com^
 ||fairnessels.com^
 ||postback.info^
 ||producebreed.com^

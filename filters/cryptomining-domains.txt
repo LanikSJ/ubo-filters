@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: fDybEP2odZUtkjQ3sxOY/A
-! Last modified: 2025-07-21 08:26 UTC
+! Checksum: nDkoevUJNn2qnRHwMWAODg
+! Last modified: 2025-08-11 08:30 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -54,7 +54,6 @@
 ||crypto-loot.com^$third-party
 ||crypto-webminer.com^$third-party
 ||cryptobara.com^$third-party
-||cryptomine.pro^$third-party
 ||cryptonoter.com^$third-party
 ||cryweb.github.io^
 ||datasecu.download^
@@ -73,7 +72,6 @@
 ||freecontent.science
 ||freecontent.stream
 ||g1thub.com
-||gay-hotvideo.net^
 ||github.io^$third-party,websocket,domain=~github.com|~tumblr.com
 ||github.io^$third-party,xmlhttprequest,domain=~facebook.com|~github.com|~github.io|~starma.sh|~tumblr.com|~wottactic.com
 ||github.io^*?proxy=ws:$third-party
