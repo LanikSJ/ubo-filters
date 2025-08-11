@@ -13,7 +13,7 @@ jobs:
   Updates:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: shogo82148/actions-setup-perl@v1
         with:
           perl-version: '5.38'
