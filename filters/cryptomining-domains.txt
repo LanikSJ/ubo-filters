@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: nDkoevUJNn2qnRHwMWAODg
-! Last modified: 2025-08-11 08:30 UTC
+! Checksum: DoyrLkPpYHNAkNks6HrXpw
+! Last modified: 2025-08-25 08:30 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -16,7 +16,6 @@
 ||35.239.57.233^
 ||45.32.105.134^$third-party
 ||77.162.125.199^$third-party
-||ad-miner.com^$third-party
 ||adminer.com^$third-party
 ||aleinvest.xyz^$third-party
 ||altpool.pro^$third-party
@@ -37,7 +36,6 @@
 ||cnhv.co^$third-party
 ||coin-have.com^$third-party
 ||coin-hive.com^$third-party
-||coinblind.com^$third-party
 ||coincheck.com^$third-party
 ||coinerra.com^$third-party
 ||coinhive.com^$third-party
