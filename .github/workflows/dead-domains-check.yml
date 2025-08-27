@@ -24,21 +24,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4
         with:
           version: 9
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.0.3
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: pnpm
       
       - name: Setup Perl and Tiny
-        uses: shogo82148/actions-setup-perl@v1
+        uses: shogo82148/actions-setup-perl@5796a908661aa68fc0a5b8f55c6791af2376d72e # v1.35.0
         with:
           perl-version: '5.38'
           install-modules: |
@@ -52,7 +52,7 @@ jobs:
 
       - name: Read Dead Domains
         id: read-dead-domains
-        uses: actions/github-script@v7
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
           script: |
             const { readFile } = require('fs').promises;
@@ -70,7 +70,7 @@ jobs:
             core.setOutput('dead_domains', deadDomains);
 
       - name: Close Pull Request(s)
-        uses: actions/github-script@v7
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
           script: |
             const { data: pullRequests } = await github.rest.pulls.list({
@@ -150,7 +150,7 @@ jobs:
 
       - name: Create Pull Request
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
           script: |
             const { data: pullRequest } = await github.rest.pulls.create({
