@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: mz2HJefCENm9egAehBUFqA
-! Last modified: 2025-07-31 11:19 UTC
+! Checksum: L62HCc4lYNbx4ckvGkv1hA
+! Last modified: 2025-09-03 08:38 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -670,6 +670,8 @@ zdnet.com##.content-bottom-leaderboard
 ||kickstarter.com/assets/modules/break-kickstarter-banner.
 ||kron4.com/wp-content/uploads/*App-QR-Code-FS-FLOWCODE$image
 ||media.united.com/assets/m/*/*_Explorer_*.png$image
+||mommyhood101.com/images/amazon-*-ad-$image
+||mommyhood101.com/images/Newton-*-Ad-$image
 ||railsapps.github.io/images/learn-rails-book-cover.jpg
 ||rainbow.coop/wp-content/uploads/^banner
 ||restaurants.infcdn.net/img/$image
