@@ -1,6 +1,6 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: DoyrLkPpYHNAkNks6HrXpw
-! Last modified: 2025-08-25 08:30 UTC
+! Checksum: v32qsPdWMWAsNVbQCyB0+A
+! Last modified: 2025-09-08 08:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -45,7 +45,6 @@
 ||coinpot.co^$third-party
 ||cookiescript.info^$third-party
 ||cookiescriptcdn.pro^$third-party
-||cpufan.club^$third-party
 ||cryptaloot.pro^$third-party
 ||crypto-coins.com^$third-party
 ||crypto-coins.info^$third-party
@@ -62,7 +61,6 @@
 ||easyhash.io^$third-party
 ||eucsoft.com^$third-party
 ||f1tbit.com
-||filmoljupci.com^
 ||flare-analytics.com^$third-party
 ||flu.cc^$third-party
 ||freecontent.bid
@@ -73,7 +71,6 @@
 ||github.io^$third-party,websocket,domain=~github.com|~tumblr.com
 ||github.io^$third-party,xmlhttprequest,domain=~facebook.com|~github.com|~github.io|~starma.sh|~tumblr.com|~wottactic.com
 ||github.io^*?proxy=ws:$third-party
-||greengaming.de^$third-party
 ||gridiogrid.com
 ||gus.host^$third-party
 ||happy-davinci-53144f.netlify.com^
