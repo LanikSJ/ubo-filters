@@ -1,6 +1,6 @@
 ! Title: Kitty Domains Filter List
-! Checksum: gZlrkEsJvd0fN0ycKscedA
-! Last modified: 2025-08-11 08:30 UTC
+! Checksum: 59tsfaIYxlNJxnjJinEr0A
+! Last modified: 2025-09-15 08:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -15,4 +15,3 @@
 ||enyayinxiang.com^
 ||h01ce.cn^
 ||kuuad.com^
-||shunlige.com^
