@@ -1,6 +1,6 @@
 ! Title: uBlock Filters Plus
-! Checksum: tSBdBz76tD5gEqy8Ns8gHw
-! Last modified: 2025-08-11 08:30 UTC
+! Checksum: dfQedCFJ6Bbc0MJ9G2Cx9g
+! Last modified: 2025-09-22 08:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -299,7 +299,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||adobe.com^*/pixel.gif
 ||adrta.com^$third-party
 ||adthrive.com^$third-party
-||adtrackone.eu^$document
 ||afs.googleusercontent.com^
 ||afsanalytics.com^$third-party
 ||agilecrm.com^$third-party
