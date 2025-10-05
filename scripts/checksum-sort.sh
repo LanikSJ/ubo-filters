@@ -78,15 +78,15 @@ trap cleanup EXIT INT TERM
 
 # Logging functions
 log_info() {
-  echo "ℹ️  [INFO] $*" >&2
+  echo "ℹ️ $*" >&2
 }
 
 log_error() {
-  echo "❌ [ERROR] $*" >&2
+  echo "❌ $*" >&2
 }
 
 log_warning() {
-  echo "⚠️  [WARNING] $*" >&2
+  echo "⚠️ $*" >&2
 }
 
 # Validate input arguments
