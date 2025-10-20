@@ -1,6 +1,6 @@
 ! Title: uBlock Filters Plus
-! Checksum: feDBXX88fAeOOhDivG9N3A
-! Last modified: 2025-09-29 08:29 UTC
+! Checksum: 8XXSKc6V/D8ObqBJk3FfCA
+! Last modified: 2025-10-20 08:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -144,7 +144,6 @@ x3xtube.com##a[href^="/cgi-bin/a2/out.cgi?id="][href*="&l=trade_thumbs"]
 zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,third-party,subdocument,important
 |http*$domain=imgfantasy.com,third-party,script
 |http*$domain=pornleech.com,third-party,script
-|http*$domain=uploadrocket.net,script,third-party
 |http*$popup,third-party,domain=openload.co
 |http*$popup,third-party,domain=userscloud.com
 |http*$script,domain=primewire.org,third-party
@@ -347,7 +346,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||pxi.pub^$third-party
 ||redditmedia.com/gtm/
 ||retargetapp.com/pixel.js?
-||rmgserving.com^$third-party
 ||securepaynet.net/parked/
 ||snapengage.com^$third-party
 ||tacdn.com^*/BounceUserTracking-
@@ -473,7 +471,7 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 /pop_under/*$document
 /popad-$document
 /popad.$document
-/popads.$document,domain=~alexa.com|~builtwith.com|~domaintools.com|~github.com|~githubusercontent.com|~mywot.com|~publicwww.com|~similarweb.com|~w3bin.com|~w3techs.com|~who.is
+/popads.$document,domain=~alexa.com|~builtwith.com|~domaintools.com|~github.com|~githubusercontent.com|~mywot.com|~publicwww.com|~similarweb.com|~w3techs.com|~who.is
 /popads/*$document
 /popads_$document
 /popadscpm.$document
