@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # checksum-sort.sh - Sort and add checksums to filter files
 # Usage: ./checksum-sort.sh [--keep-backup] <filter-file>
 
@@ -78,7 +77,7 @@ trap cleanup EXIT INT TERM
 
 # Logging functions
 log_info() {
-  echo "ℹ️ $*" >&2
+  echo "$*" >&2
 }
 
 log_error() {
@@ -127,15 +126,15 @@ install_perl_dependencies() {
 
   for module in "${REQUIRED_PERL_MODULES[@]}"; do
     if ! check_perl_module "$module"; then
-      log_info "Perl module '$module' not found, will install..."
+      log_info "ℹ️ Perl module '$module' not found, will install..."
       needs_install=true
     else
-      log_info "Perl module '$module' already installed"
+      log_info "ℹ️ Perl module '$module' already installed"
     fi
   done
 
   if [[ "$needs_install" == "true" ]]; then
-    log_info "Installing required Perl modules..."
+    log_info "ℹ️ Installing required Perl modules..."
 
     # Use local::lib to avoid system-wide installation if possible
     if command -v cpanm >/dev/null 2>&1; then
@@ -154,7 +153,7 @@ install_perl_dependencies() {
       INSTALLED_MODULES="true"
     fi
 
-    log_info "Perl modules installed successfully"
+    log_info "ℹ️ Perl modules installed successfully"
   fi
 }
 
@@ -212,10 +211,10 @@ verify_backup_integrity() {
 
   if [[ "$original_checksum" != "no-checksum" && "$backup_checksum" != "no-checksum" ]]; then
     if [[ "$original_checksum" == "$backup_checksum" ]]; then
-      log_info "Backup integrity verified"
+      log_info "ℹ️ Backup integrity verified"
       return 0
     else
-      log_error "Backup integrity check failed - checksums don't match"
+      log_error "ℹ️ Backup integrity check failed - checksums don't match"
       return 1
     fi
   fi
@@ -226,7 +225,7 @@ verify_backup_integrity() {
   backup_size=$(stat -f%z "$backup_file" 2>/dev/null || stat -c%s "$backup_file" 2>/dev/null)
 
   if [[ "$original_size" == "$backup_size" ]]; then
-    log_info "Backup size verification passed"
+    log_info "ℹ️ Backup size verification passed"
     return 0
   else
     log_error "Backup size verification failed"
@@ -258,12 +257,12 @@ cleanup_old_backups() {
   fi
 
   if [[ $backup_count -gt $MAX_BACKUPS ]]; then
-    log_info "Found $backup_count backups, keeping only $MAX_BACKUPS most recent"
+    log_info "ℹ️ Found $backup_count backups, keeping only $MAX_BACKUPS most recent"
 
     # Remove old backups (keep only MAX_BACKUPS)
     for ((i = MAX_BACKUPS; i < backup_count; i++)); do
       local old_backup="${backup_files[i]}"
-      log_info "Removing old backup: $old_backup"
+      log_info "ℹ️ Removing old backup: $old_backup"
       rm -f "$old_backup" || log_warning "Failed to remove old backup: $old_backup"
     done
   fi
@@ -279,7 +278,7 @@ create_backup() {
   # Create backup directory if it doesn't exist
   backup_dir="$BACKUP_DIR"
   if [[ ! -d "$backup_dir" ]]; then
-    log_info "Creating backup directory: $backup_dir"
+    log_info "ℹ️ Creating backup directory: $backup_dir"
     mkdir -p "$backup_dir" || {
       log_error "Failed to create backup directory '$backup_dir'"
       exit 1
@@ -289,7 +288,7 @@ create_backup() {
   # Generate backup filename with timestamp
   backup_file="$backup_dir/$filename.backup.$(date +%Y%m%d_%H%M%S)"
 
-  log_info "Creating backup: $backup_file"
+  log_info "ℹ️ Creating backup: $backup_file"
 
   # Create backup with error handling
   if ! cp "$file" "$backup_file"; then
@@ -318,7 +317,7 @@ restore_from_backup() {
   local original_file="$1"
   local backup_file="$2"
 
-  log_info "Restoring from backup: $backup_file"
+  log_info "ℹ️ Restoring from backup: $backup_file"
 
   if [[ ! -f "$backup_file" ]]; then
     log_error "Backup file '$backup_file' not found"
@@ -338,7 +337,7 @@ restore_from_backup() {
     return 1
   fi
 
-  log_info "Successfully restored '$original_file' from backup"
+  log_info "ℹ️ Successfully restored '$original_file' from backup"
   return 0
 }
 
@@ -389,7 +388,7 @@ process_file() {
   if [[ "$KEEP_BACKUP" == "true" ]]; then
     log_info "💾 Backup will be preserved as requested: $backup_file"
   else
-    log_info "🗑️  Backup will be automatically removed on successful completion"
+    log_info "🗑️ Backup will be automatically removed on successful completion"
   fi
 }
 
@@ -402,13 +401,13 @@ list_backups() {
   backup_dir="$BACKUP_DIR"
 
   if [[ ! -d "$backup_dir" ]]; then
-    log_info "No backup directory found"
+    log_info "ℹ️ No backup directory found"
     return 0
   fi
 
-  log_info "Available backups for '$filename':"
+  log_info "ℹ️ Available backups for '$filename':"
   find "$backup_dir" -name "$filename.backup.*" -type f -exec ls -lh {} \; 2>/dev/null | sort -k9 || {
-    log_info "No backups found for '$filename'"
+    log_info "ℹ️ No backups found for '$filename'"
   }
 }
 
@@ -421,7 +420,7 @@ remove_all_backups() {
   backup_dir="$BACKUP_DIR"
 
   if [[ ! -d "$backup_dir" ]]; then
-    log_info "No backup directory found"
+    log_info "ℹ️ No backup directory found"
     return 0
   fi
 
@@ -442,11 +441,11 @@ remove_all_backups() {
   fi
 
   if [[ $backup_count -eq 0 ]]; then
-    log_info "No backups found for '$filename'"
+    log_info "ℹ️ No backups found for '$filename'"
     return 0
   fi
 
-  log_info "Found $backup_count backup(s) for '$filename'"
+  log_info "ℹ️ Found $backup_count backup(s) for '$filename'"
 
   # Ask for confirmation
   echo "⚠️  This will permanently delete all $backup_count backup(s) for '$filename'."
@@ -458,7 +457,7 @@ remove_all_backups() {
   read -p "Are you sure you want to delete all these backups? (y/N): " -r
 
   if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-    log_info "Operation cancelled by user"
+    log_info "ℹ️ Operation cancelled by user"
     return 0
   fi
 
@@ -466,7 +465,7 @@ remove_all_backups() {
   local removed_count=0
   for backup_file in "${backup_files[@]}"; do
     if [[ -f "$backup_file" ]]; then
-      log_info "Removing backup: $(basename "$backup_file")"
+      log_info "ℹ️ Removing backup: $(basename "$backup_file")"
       if rm -f "$backup_file"; then
         ((removed_count++))
       else
@@ -475,14 +474,14 @@ remove_all_backups() {
     fi
   done
 
-  log_info "Successfully removed $removed_count out of $backup_count backup(s)"
+  log_info "ℹ️ Successfully removed $removed_count out of $backup_count backup(s)"
 
   # Check if backup directory is empty and remove it if so
   if [[ -d "$backup_dir" ]]; then
     local file_count
     file_count=$(find "$backup_dir" -mindepth 1 -maxdepth 1 | wc -l)
     if [[ $file_count -eq 0 ]]; then
-      log_info "Removing empty backup directory: $backup_dir"
+      log_info "ℹ️ Removing empty backup directory: $backup_dir"
       rmdir "$backup_dir" 2>/dev/null || log_warning "Failed to remove backup directory"
     fi
   fi
@@ -576,7 +575,7 @@ main() {
     log_info "💾 Backup preserved as requested: $BACKUP_FILE_PATH"
   else
     log_info "✅ Done! '$file' has been sorted and checksums have been added."
-    log_info "🗑️  Backup was automatically removed after successful completion."
+    log_info "🗑️ Backup was automatically removed after successful completion."
   fi
   log_info "📋 Use '$0 --list-backups $file' to see available backups"
 }

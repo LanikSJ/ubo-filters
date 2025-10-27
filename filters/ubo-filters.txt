@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: ahfBl/9WpwK7JPWKD2sdtg
-! Last modified: 2025-10-05 08:39 UTC
+! Checksum: LhzmrH2IZK2uswpPMONCmg
+! Last modified: 2025-10-26 22:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -39,6 +39,7 @@
 @@||googletagmanager.com/gtm.js$script,domain=www.surveymonkey.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
 @@||palemoon.org/*ads.js
+@@||tags.literotica.com^
 @@||video-api.yql.yahoo.com/v1/video/alias/channels/wf-channel=related-videos$xhr,domain=yahoo.com
 about.gitlab.com##.slpFreeTrialBanner
 account.acronis.com##.content-layout__banner
@@ -141,6 +142,7 @@ darkreader.org##darkreader-backers-header
 darkreader.org##darkreader-backers-side
 darkreader.org##darkreader-ios-side
 darkreader.org##darkreader-support-us
+dash.cloudflare.com###account-marketing-banner-header-notification
 devconnected.com##.alignwide.wp-block-image
 devconnected.com##.penci-menu-hbg-widgets2
 devconnected.com##.penci-posts-related-grid.post-related
@@ -356,6 +358,7 @@ money.cnn.com##.module-header
 mozilla.org###brand-popup
 music.apple.com##.hydrated.banner-upsell
 mxtoolbox.com###supertool_ad_variation
+my.mwadmin.com##.survey-img
 my.ooma.com###banner_container
 my.paddle.com###suggestedScroll
 mypassportphotos.com##.facebook_discount
