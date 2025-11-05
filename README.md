@@ -83,7 +83,6 @@ Some of these are old lists or not working lists for archiving purposes:
 - [NoCoin Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt&title=NoCoin%20Filter%20List)
 - [Prebake - Filter Obtrusive Cookie Notices](https://subscribe.adblockplus.org/?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake%20-%20Filter%20Obtrusive%20Cookie%20Notices)
 - [PUP Domains Blocklists](https://subscribe.adblockplus.org/?location=https://malware-filter.gitlab.io/pup-filter/pup-filter.txt&title=PUP%20Domains%20Blocklists)
-- [uBlock Filters Plus](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20Plus)
 
 ## 🔧 Usage Instructions
 
