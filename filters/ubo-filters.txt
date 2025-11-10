@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: 5HOnwCjWouwEYBolbvQv8g
-! Last modified: 2025-11-05 09:12 UTC
+! Checksum: aNdSfopNTf7vAK+OHqUuzQ
+! Last modified: 2025-11-10 08:26 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -55,9 +55,6 @@ alaskaair.com###InstantCreditAd
 americastire.com##div[class*="footer__footer-zone"]
 americastire.com##div[class*="order-summary__apply-now"]
 amzwatcher.com##.sc-optin-content
-andriodapk.com##.col-md-8 > div:nth-of-type(2)
-andriodapk.com##.post-sidebar-box > div
-andriodapk.com##.text-center.well-lg.well
 apidog.com##.shadow-s.text-center
 appleinsider.com###priceguide
 appleinsider.com###sbr-priceguide
