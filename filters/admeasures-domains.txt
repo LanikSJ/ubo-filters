@@ -1,6 +1,6 @@
 ! Title: AdMeasures Domains Filter List
-! Checksum: CjMMx11T3ABaH9jWlHcf/g
-! Last modified: 2025-11-10 08:26 UTC
+! Checksum: YGG3CHvUC6kWXRqLPDvIwQ
+! Last modified: 2025-11-17 08:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -33,14 +33,12 @@
 ||cpm20.com^
 ||cpmterra.com^
 ||edua29146y.com^
-||hgub2polye.com^
 ||hibids10.com^
 ||hoo1luha.com^
 ||o4uxrk33.com^
 ||oyi9f1kbaj.com^
 ||phee1oci.com^
 ||q8ntfhfngm.com^
-||qfdn3gyfbs.com^
 ||subdo.torrentlocura.com^
 ||terraclicks.com^
 ||ttoc8ok.com^

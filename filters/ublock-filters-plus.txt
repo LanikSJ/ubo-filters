@@ -1,6 +1,6 @@
 ! Title: uBlock Filters Plus
-! Checksum: e0CE+O27tLPmPa9UeJADNw
-! Last modified: 2025-11-03 08:26 UTC
+! Checksum: +S1KCKZ/0n6gFP0quPF8LQ
+! Last modified: 2025-11-17 08:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -167,7 +167,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||bongacash.com^
 ||bop-bop-bam.com^
 ||cdm.cursecdn.com^$third-party
-||cdn.420chan.org/sp/
 ||clkfeed.com^
 ||cloudfront.net^$popup,third-party,domain=allvid.ch
 ||cnt.viptube.com^
@@ -342,7 +341,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||paypal.com^*/api/log
 ||photorank.me/track/
 ||propelmarketing.com^$third-party
-||pxi.pub^$third-party
 ||redditmedia.com/gtm/
 ||retargetapp.com/pixel.js?
 ||securepaynet.net/parked/
