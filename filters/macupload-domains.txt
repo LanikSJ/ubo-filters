@@ -1,5 +1,6 @@
 ! Title: MacUpload Domains Filter List
 ! Checksum: ryCgFOJzYvI3B9C2MHkKoQ
+! Version: 202509150824
 ! Last modified: 2025-11-17 08:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters

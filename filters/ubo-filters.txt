@@ -1,6 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: lZ/4YJFx01yN73uKOPThJg
-! Last modified: 2025-11-21 11:27 UTC
+! Checksum: TNlBBhg+qveuUC1cPWU+tQ
+! Last modified: 2025-11-21 13:25 UTC
+! Version: 202511211325
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -19,12 +20,6 @@
 ##div[class*="EdgeUpsell"]
 ##div[class*="promotional-content"]
 ##iframe[src*="facebook.com"]
-123movie.*##.notice.alert-default.alert
-123movies.*##.container.clear.notice_areaclear
-123movies.*##.gomo-gtx-br.gomo-gtx
-123movies.*##.onp-sl-outer-wrap
-123moviesfree.net##.ann-home
-123movieshub.*##.text-center.alert.ann-home
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##+js(aopr, canRunAds)
 9to5mac.com##.amp-wp-7023da7
 9to5mac.com##.amp-wp-iframe-placeholder

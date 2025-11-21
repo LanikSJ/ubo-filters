@@ -1,5 +1,6 @@
 ! Title: uBlock Filters Plus
 ! Checksum: +S1KCKZ/0n6gFP0quPF8LQ
+! Version: 202511170829
 ! Last modified: 2025-11-17 08:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
@@ -12,7 +13,6 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-
 ###adb-note
 ###AdsByCurseBanner
 ###NotificationUpgradeWin81and7NonSupport

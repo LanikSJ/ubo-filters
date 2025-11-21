@@ -1,5 +1,6 @@
 ! Title: TorAdvertising Domains Filter List
 ! Checksum: 7FprF+Xpbr8HMhF/yy0HZA
+! Version: 202407071002
 ! Last modified: 2024-07-07 10:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters

@@ -1,5 +1,6 @@
 ! Title: PropellerAds Domains Filter List
 ! Checksum: 9O+wbvZwXRzkpt527SQxrg
+! Version: 202511100826
 ! Last modified: 2025-10-27 08:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters

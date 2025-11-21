@@ -1,5 +1,6 @@
 ! Title: HilltopAds Domains List
 ! Checksum: qZWBVGT6e2uMCaIMn5KcFQ
+! Version: 202510060824
 ! Last modified: 2025-10-06 08:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
