@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: aNdSfopNTf7vAK+OHqUuzQ
-! Last modified: 2025-11-10 08:26 UTC
+! Checksum: lZ/4YJFx01yN73uKOPThJg
+! Last modified: 2025-11-21 11:27 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -150,6 +150,7 @@ dictionary.com##.editorial-content-feed
 dictionary.com##.left-nav-wrapper
 digitaltrends.com##.m-sticky-video_orphan.m-sticky-video
 dmv.ca.gov##.alert.dos-header-notice
+dmv.ca.gov##.info.dos-header-notice
 dnschecker.org##.affiliation-main-box.row
 dnsperf.com##.desktop
 docs.python-guide.org##.body > div:nth-of-type(1) > div:nth-of-type(1)
@@ -170,6 +171,7 @@ dslreports.com##.fb-share-button
 eater.com###newsletter-signup-short-form
 eater.com###rock-
 eatsweetnothings.com###coopcommerce
+ebay.com##.template-evo-avip.x-vi-evo-main-container.vim > div:nth-of-type(4)
 ebay.com##.vim.adp-vim.x-pda-placements
 ebay.com##.x-vi-evo-main-container__top-panel
 ecospaints.net##.us_consent_banner
@@ -468,6 +470,7 @@ silicon.co.uk###read-more-2
 silicon.co.uk##.btn-abo-fixed
 silicon.co.uk##.rwm-podcast-player
 simplilearn.com##div.engagingGroupBanner
+sitesplat.com##.alert.notificationBar.row
 slashdot.org###announcement
 slickdeals.net###logoarea
 slickdeals.net###rightRailAds
@@ -557,6 +560,8 @@ thesoftware.shop##.woocommerce
 ticketsatwork.com##.li_clickable.li_stickybar.li_parent
 timeanddate.com###ad300
 tmo.report###directad
+tmo.report##.read-single.entry-content-wrap > .entry-content
+tmo.report##.widget_patreon_sidebar_site_widget
 tomato.groov.pl###sidebar-over-blog
 tomsguide.com##.full.container.trending-bar
 tomsguide.com##.jw-reset.jw-video
