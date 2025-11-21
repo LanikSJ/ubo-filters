@@ -1,4 +1,5 @@
 ! Checksum: hmgGbbqCcMN3xUrvJla/7g
+! Version: 2020032301
 ! Title: Ad Domains Filter List
 ! Last modified: 2020032301
 ! Expires: 1 day (update frequency)

@@ -1,5 +1,6 @@
 ! Title: BT Contentza Domains Filter List
 ! Checksum: 5ln7U6z2z+b/KYzzv4kLKg
+! Version: 202408281924
 ! Last modified: 2024-08-28 19:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters

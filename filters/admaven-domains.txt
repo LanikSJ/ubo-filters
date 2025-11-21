@@ -1,5 +1,6 @@
 ! Title: AdMaven Domains Filter List
 ! Checksum: U3AGUqzDC01Dz4ixv5AIPA
+! Version: 202507070826
 ! Last modified: 2025-07-07 08:26 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters

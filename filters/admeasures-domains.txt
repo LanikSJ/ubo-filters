@@ -1,5 +1,6 @@
 ! Title: AdMeasures Domains Filter List
 ! Checksum: YGG3CHvUC6kWXRqLPDvIwQ
+! Version: 202511170829
 ! Last modified: 2025-11-17 08:29 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters

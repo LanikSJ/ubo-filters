@@ -1,5 +1,6 @@
 ! Title: IStripper Domains Filter List
 ! Checksum: mc9DfNkYYDodR3Iv2r5y4w
+! Version: 202407071002
 ! Last modified: 2024-07-07 10:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
