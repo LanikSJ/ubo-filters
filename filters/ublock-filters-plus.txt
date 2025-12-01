@@ -1,7 +1,7 @@
 ! Title: uBlock Filters Plus
-! Checksum: +S1KCKZ/0n6gFP0quPF8LQ
-! Version: 202511170829
-! Last modified: 2025-11-17 08:29 UTC
+! Checksum: W1JKgzkuKmTnZR/5wrQmtQ
+! Version: 202512010832
+! Last modified: 2025-12-01 08:32 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -132,7 +132,7 @@ unbubble.eu##.sponsor-title
 unbubble.eu##.sponsor-title + *
 unbubble.eu##.top-products
 vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
-vg.no,youtube.com,e621.net,ghacks.net,en.greatfire.org,nintendolife.com,thejournal.ie,invidio.us,kgg2m7yk5aybusll.onion,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,174.138.43.128,yewtu.be,invidious.snopyta.org,invidious.ggc-project.de,invidious.fdn.fr,city-countyobserver.com#@##comments
+vg.no,youtube.com,e621.net,ghacks.net,en.greatfire.org,nintendolife.com,thejournal.ie,invidio.us,kgg2m7yk5aybusll.onion,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,174.138.43.128,yewtu.be,invidious.snopyta.org,invidious.fdn.fr,city-countyobserver.com#@##comments
 viptube.com###adx_ad
 viptube.com##.footer_adv
 watchfree.to##.get_vpn

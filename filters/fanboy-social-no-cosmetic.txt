@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xcBYBEwSritS6xctpT3M1A
-! Version: 202512010349
+! Checksum: kdh9OFFbVA5IatTZhjCSnA
+! Version: 202512010832
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2025-12-01 03:49 UTC
+! Last modified: 2025-12-01 08:32 UTC
 ! Expires: 4 days (update frequency)
 ! Commit: b88925eedd72114b15f65972a6931278d462af47
 ! *** easylist:template_header.txt ***
@@ -448,7 +448,6 @@ _social_footer_
 ! fanboy_social_thirdparty.txt
 ||addnow.com^$third-party
 ||addthis.com^$third-party
-||addthiscdn.com^$domain=~addthis.com
 ||addtoany.com^$third-party
 ||assets.pinterest.com/js/pinit.js$third-party
 ||assets.pinterest.com/pidget.html$third-party
@@ -527,7 +526,6 @@ _social_footer_
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
-||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||newsharecounts.com^$third-party
@@ -765,7 +763,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------- Latvian Specific Social Media Elements ----------
 ! 
-||sekomums.lv^$third-party
 ! 
 ! ---------- Montenegrin Site Specific Hiding Rules ----------
 ! 
