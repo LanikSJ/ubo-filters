@@ -1,6 +1,7 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: v32qsPdWMWAsNVbQCyB0+A
-! Last modified: 2025-09-08 08:28 UTC
+! Checksum: hW85nSMQNcNdutio2Vtn0w
+! Version: 202512010832
+! Last modified: 2025-12-01 08:32 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -34,7 +35,6 @@
 ||cashbeet.com
 ||clgserv.pro^$third-party
 ||cnhv.co^$third-party
-||coin-have.com^$third-party
 ||coin-hive.com^$third-party
 ||coincheck.com^$third-party
 ||coinerra.com^$third-party
@@ -47,7 +47,6 @@
 ||cookiescriptcdn.pro^$third-party
 ||cryptaloot.pro^$third-party
 ||crypto-coins.com^$third-party
-||crypto-coins.info^$third-party
 ||crypto-loot.com^$third-party
 ||crypto-webminer.com^$third-party
 ||cryptobara.com^$third-party
@@ -58,7 +57,6 @@
 ||ddns.net^*=wss://$third-party
 ||directprimal.com^$websocket
 ||duckdns.org^$third-party,websocket
-||easyhash.io^$third-party
 ||eucsoft.com^$third-party
 ||f1tbit.com
 ||flare-analytics.com^$third-party
@@ -111,7 +109,6 @@
 ||objective-wright-961fed.netlify.com^
 ||pampopholf.com^
 ||papoto.com^$third-party
-||play.estream.to^
 ||play.play1.videos.vidto.
 ||play.vidzi.tv^
 ||ppoi.org^$third-party
@@ -133,7 +130,6 @@
 ||tulip18.com^$third-party
 ||turnsocial.com^$third-party
 ||veritrol.com^$third-party
-||video.streaming.estream.to^
 ||vidzi.tv/bootstrap.
 ||wasm.stream
 ||webassembly.stream

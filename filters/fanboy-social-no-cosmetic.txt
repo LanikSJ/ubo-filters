@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: VmYHNnG3IFRP+bJw25s6cg
-! Version: 202509290829
+! Checksum: kdh9OFFbVA5IatTZhjCSnA
+! Version: 202512010832
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2025-09-29 08:29 UTC
+! Last modified: 2025-12-01 08:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6888e5935223f410cf70130a59c969e353450c3b
+! Commit: b88925eedd72114b15f65972a6931278d462af47
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -448,7 +448,6 @@ _social_footer_
 ! fanboy_social_thirdparty.txt
 ||addnow.com^$third-party
 ||addthis.com^$third-party
-||addthiscdn.com^$domain=~addthis.com
 ||addtoany.com^$third-party
 ||assets.pinterest.com/js/pinit.js$third-party
 ||assets.pinterest.com/pidget.html$third-party
@@ -679,9 +678,6 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! 
 ! ---------- German Site Specific Hiding Rules ----------
 ! 
-||seitzeichen.de^$third-party
-||social-bookmarking-tools.de^$third-party
-||werkenntwen.de/images/buttons/$third-party
 ! Specific hiding filters necessary for sites allowlisted with $generichide filter option
 ! Focus.de
 ! 
@@ -757,8 +753,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! ---------- Japanese Specific Media Elements ----------
 ! 
 ||imyfone.com/assets/js/media_share/
-||ministop.co.jp/site_common/js/sns_
-||plugins.mixi.jp/favorite.pl?$third-party
 ||taishurx.jp/js/web/sns_header.js
 ! 
 ! ---------- Japanese Site Specific Hiding Rules ----------
@@ -769,7 +763,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
 ! ---------- Latvian Specific Social Media Elements ----------
 ! 
-||sekomums.lv^$third-party
 ! 
 ! ---------- Montenegrin Site Specific Hiding Rules ----------
 ! 
@@ -899,7 +892,6 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! Generichide
 @@||archiveteam.org^$generichide
 @@||docs.qq.com^$generichide
-@@||flattr.com^$generichide
 @@||fontawesome.com^$generichide
 @@||github.com^$generichide
 @@||github.io^$generichide

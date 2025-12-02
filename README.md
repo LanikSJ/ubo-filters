@@ -60,11 +60,9 @@ for AdBlock / AdBlock Plus / AdGuard / uBlock Origin:
 - [Kitty Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/kitty-domains.txt&title=Kitty%20Domains%20Filter%20List)
 - [Lanik uBO Filters List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/ubo-filters.txt&title=Lanik%20uBO%20Filter%20List)
 - [MacUpload Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/macupload-domains.txt&title=MacUpload%20Domains%20Filter%20List)
-- [Malware Domains (Long Lived)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/malware-domains.txt&title=Malware%20Domains%20Filter%20List)
 - [PopAds Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/popads-domains.txt&title=PopAds%20Domains%20Filter%20List)
 - [PropellerAds Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/propellerads-domains.txt&title=PropellerAds%20Domains%20Filter%20List)
 - [TOR Advertising Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/toradvertising-domains.txt&title=TOR%20Advertising%20Domains%20Filter%20List)
-- [uBlock Filters Plus List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/ublock-filters-plus.txt&title=uBlock%20Filters%20Plus%20List)
 - [VideoAdex Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/videoadex-domains.txt&title=VideoAdex%20Domains%20Filter%20List)
 - [VolumeData Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/volumedata-domains.txt&title=VolumeData%20Domains%20Filter%20List)
 
@@ -78,12 +76,12 @@ Some of these are old lists or not working lists for archiving purposes:
 - [Fake-News List](https://subscribe.adblockplus.org/?location=https://raw.github.com/ryanbr/fanboy-adblock/master/fake-news.txt&title=Fake%20News%20List)
 - [Fuck Fuckadblock Mining](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt&title=Fuck%20Fuckadblock%20Mining)
 - [I Don't Care About Cookies](https://subscribe.adblockplus.org/?location=https://www.i-dont-care-about-cookies.eu/abp/&title=I%20Don%27t%20Care%20About%20Cookies)
-- [Malware Domains Long-Lived](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/immortal-domains.txt&title=Malware%20Domains%20Long-Lived)
+- [Malware Domains (Long Lived)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/malware-domains.txt&title=Malware%20Domains%20Filter%20List)
 - [Malware Filter by Disconnect](https://subscribe.adblockplus.org/?location=https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt&title=Malware%20Filter%20by%20Disconnect)
 - [NoCoin Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt&title=NoCoin%20Filter%20List)
 - [Prebake - Filter Obtrusive Cookie Notices](https://subscribe.adblockplus.org/?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake%20-%20Filter%20Obtrusive%20Cookie%20Notices)
 - [PUP Domains Blocklists](https://subscribe.adblockplus.org/?location=https://malware-filter.gitlab.io/pup-filter/pup-filter.txt&title=PUP%20Domains%20Blocklists)
-- [uBlock Filters Plus](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20Plus)
+- [uBlock Filters Plus List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/ublock-filters-plus.txt&title=uBlock%20Filters%20Plus%20List)
 
 ## 🔧 Usage Instructions
 

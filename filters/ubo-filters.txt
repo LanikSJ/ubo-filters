@@ -1,6 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: eAs9Wlnpe4BTrgk1+R/CUg
-! Last modified: 2025-10-05 08:37 UTC
+! Checksum: TNlBBhg+qveuUC1cPWU+tQ
+! Last modified: 2025-11-21 13:25 UTC
+! Version: 202511211325
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -19,12 +20,6 @@
 ##div[class*="EdgeUpsell"]
 ##div[class*="promotional-content"]
 ##iframe[src*="facebook.com"]
-123movie.*##.notice.alert-default.alert
-123movies.*##.container.clear.notice_areaclear
-123movies.*##.gomo-gtx-br.gomo-gtx
-123movies.*##.onp-sl-outer-wrap
-123moviesfree.net##.ann-home
-123movieshub.*##.text-center.alert.ann-home
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##+js(aopr, canRunAds)
 9to5mac.com##.amp-wp-7023da7
 9to5mac.com##.amp-wp-iframe-placeholder
@@ -39,6 +34,7 @@
 @@||googletagmanager.com/gtm.js$script,domain=www.surveymonkey.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
 @@||palemoon.org/*ads.js
+@@||tags.literotica.com^
 @@||video-api.yql.yahoo.com/v1/video/alias/channels/wf-channel=related-videos$xhr,domain=yahoo.com
 about.gitlab.com##.slpFreeTrialBanner
 account.acronis.com##.content-layout__banner
@@ -54,9 +50,6 @@ alaskaair.com###InstantCreditAd
 americastire.com##div[class*="footer__footer-zone"]
 americastire.com##div[class*="order-summary__apply-now"]
 amzwatcher.com##.sc-optin-content
-andriodapk.com##.col-md-8 > div:nth-of-type(2)
-andriodapk.com##.post-sidebar-box > div
-andriodapk.com##.text-center.well-lg.well
 apidog.com##.shadow-s.text-center
 appleinsider.com###priceguide
 appleinsider.com###sbr-priceguide
@@ -141,6 +134,7 @@ darkreader.org##darkreader-backers-header
 darkreader.org##darkreader-backers-side
 darkreader.org##darkreader-ios-side
 darkreader.org##darkreader-support-us
+dash.cloudflare.com###account-marketing-banner-header-notification
 devconnected.com##.alignwide.wp-block-image
 devconnected.com##.penci-menu-hbg-widgets2
 devconnected.com##.penci-posts-related-grid.post-related
@@ -151,6 +145,7 @@ dictionary.com##.editorial-content-feed
 dictionary.com##.left-nav-wrapper
 digitaltrends.com##.m-sticky-video_orphan.m-sticky-video
 dmv.ca.gov##.alert.dos-header-notice
+dmv.ca.gov##.info.dos-header-notice
 dnschecker.org##.affiliation-main-box.row
 dnsperf.com##.desktop
 docs.python-guide.org##.body > div:nth-of-type(1) > div:nth-of-type(1)
@@ -171,6 +166,7 @@ dslreports.com##.fb-share-button
 eater.com###newsletter-signup-short-form
 eater.com###rock-
 eatsweetnothings.com###coopcommerce
+ebay.com##.template-evo-avip.x-vi-evo-main-container.vim > div:nth-of-type(4)
 ebay.com##.vim.adp-vim.x-pda-placements
 ebay.com##.x-vi-evo-main-container__top-panel
 ecospaints.net##.us_consent_banner
@@ -261,6 +257,7 @@ hotdeals.com##.sell_right
 hotdeals.com##li.coupert_item_block
 hub.docker.com###docker-announcement-bar
 hub.docker.com###docker-announcement-bar
+icims.com#@##gdpr_container
 imgur.com##.cta-content-container
 immuniweb.com##.result-block-tip
 imore.com##.mn_mbn_share
@@ -291,6 +288,7 @@ krebsonsecurity.com##.widget_sp_image
 krebsonsecurity.com##[src*="akamai"]
 kron4.com##.ns-video-bin
 kron4.com##.nxs-player-wrapper
+ksltv.com##fuel-video
 latimes.com##.trb_bnn
 learnpython.org###google-ad-right
 lectricebikes.com###shopify-section-page-peel
@@ -356,6 +354,7 @@ money.cnn.com##.module-header
 mozilla.org###brand-popup
 music.apple.com##.hydrated.banner-upsell
 mxtoolbox.com###supertool_ad_variation
+my.mwadmin.com##.survey-img
 my.ooma.com###banner_container
 my.paddle.com###suggestedScroll
 mypassportphotos.com##.facebook_discount
@@ -402,6 +401,7 @@ pastebin.com###paypal-overlay
 paygonline.com###deviceProtectionDesktopBanner
 pcworld.com###sharer
 peacocktv.com##.notification
+perplexity.ai##.bg-super.divide-subtlest
 petsmart.com##div[class*=accountBanner]
 phpbb.com###page-footer > h3
 phpbb.com##.forumatic-panel
@@ -421,10 +421,12 @@ rd.com##.jw-media
 rd.com##.jw-video
 rd.com##.jw-wrapper
 realtor.facebook.com###work_mobile_upsell_pagelet
+reddit.com###games_section
 reddit.com##.googad.box_ad.adsense-ad.ads-area
 reddit.com##.side-message
 redhat.com##.cta-image__field-body-text
 redhat.com##.cta-image__field-cta-button
+reditt.com###games-section-badge-controller
 registry1.dso.mil##.alert-warning.alert-app-level.alert
 repo1.dso.mil##.indigo.banner.gl-broadcast-message
 ring.com##div[class*="BannersContainer"]
@@ -463,6 +465,7 @@ silicon.co.uk###read-more-2
 silicon.co.uk##.btn-abo-fixed
 silicon.co.uk##.rwm-podcast-player
 simplilearn.com##div.engagingGroupBanner
+sitesplat.com##.alert.notificationBar.row
 slashdot.org###announcement
 slickdeals.net###logoarea
 slickdeals.net###rightRailAds
@@ -552,6 +555,8 @@ thesoftware.shop##.woocommerce
 ticketsatwork.com##.li_clickable.li_stickybar.li_parent
 timeanddate.com###ad300
 tmo.report###directad
+tmo.report##.read-single.entry-content-wrap > .entry-content
+tmo.report##.widget_patreon_sidebar_site_widget
 tomato.groov.pl###sidebar-over-blog
 tomsguide.com##.full.container.trending-bar
 tomsguide.com##.jw-reset.jw-video

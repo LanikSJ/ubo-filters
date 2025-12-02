@@ -1,6 +1,7 @@
 ! Title: PopAds Domains Filter List
-! Checksum: l8iK4XUJ3N2Juc8XJbgn9w
-! Last modified: 2025-06-16 08:24 UTC
+! Checksum: +7gg5Pvc37sg1FXnUFf0WQ
+! Version: 202511100826
+! Last modified: 2025-11-10 08:26 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -14,5 +15,3 @@
 !
 ||medyagundem.com^
 ||popadscdn.net^
-||thnqemehtyfe.com^
-||tuxbpnne.com^

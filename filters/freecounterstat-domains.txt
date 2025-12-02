@@ -1,5 +1,6 @@
 ! Title: FreeCounterStat AdServers Domains List
 ! Checksum: ECIqoESX6z7eIYxaxPZybg
+! Version: 202407071002
 ! Last modified: 2024-07-07 10:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
