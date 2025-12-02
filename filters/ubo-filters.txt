@@ -1,6 +1,6 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: yd/sxxcT/xNvmAkwTKrHPw
-! Last modified: 2025-10-05 07:31 UTC
+! Checksum: eAs9Wlnpe4BTrgk1+R/CUg
+! Last modified: 2025-10-05 08:37 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -186,6 +186,7 @@ en.wikipedia.org,wikimedia.org###siteNotice
 eonline.com##.dockable
 erewhon.com##.cart-promocard
 espn.com##.reactions-ready
+eufy.com##div[class*="Article_articleContentRight"]
 expedia.com###join-rewards-banner
 fakespot.com##.brads-deal
 fastcompany.com##.siderail-video-module
@@ -610,14 +611,12 @@ www.amazon.com###amu-upsell-widget-section
 www.amazon.com###cbcc_banner
 www.amazon.com###detail-ilm_div
 www.amazon.com###hero-quick-promo
-www.amazon.com###nav-upnav
 www.amazon.com###prime-pda-type-box-ad
 www.amazon.com###recommendations
 www.amazon.com###sims-consolidated-1_feature_div
 www.amazon.com###universal-detail-ilm
 www.amazon.com###universal-hero-quick-promo
 www.amazon.com###widget-rightUpsellSlot
-www.amazon.com##._universal-detail-ilm-card_style_image__2jCsj
 www.amazon.com##.featureHeading.threepsl-title
 www.amazon.com##.maple-banner
 www.amazon.com##.rec-bottom-with-padding

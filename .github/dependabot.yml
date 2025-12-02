@@ -1,16 +1,21 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: "daily"
-      time: '08:00'
-      timezone: America/Los_Angeles
-    open-pull-requests-limit: 99
-  - package-ecosystem: "npm"
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "ci(deps)"
+      prefix-development: "ci(deps-dev)"
+
+  # Maintain dependencies for npm
+  - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: "daily"
-      time: '08:00'
-      timezone: America/Los_Angeles
-    open-pull-requests-limit: 99
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "build(deps)"
+      prefix-development: "build(deps-dev)"
