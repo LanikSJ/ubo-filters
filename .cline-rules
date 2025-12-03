@@ -1,0 +1,55 @@
+# Cline Rules for ubo-filters Repository
+
+## Repository Overview
+
+ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
+
+## Code Standards and Practices
+
+### Filter Standards
+
+- Follow AdBlock filter syntax and best practices
+- Use clear, descriptive filter rules with proper comments
+- Implement proper filter validation and testing
+- Document filter purposes and sources
+
+### Documentation Standards
+
+- Include clear installation and usage instructions for uBlock Origin
+- Document filter list purposes and coverage areas
+- Provide update procedures and maintenance guidelines
+- Use markdown formatting consistently
+
+### Markdown Compliance Requirements
+
+- **ALL markdown files (.md) MUST pass markdownlint validation with zero errors or warnings**
+- Run `markdownlint <filename>` on every markdown file before considering it complete
+- Follow the project's `.markdownlint.json` configuration strictly
+- Address ALL markdownlint issues immediately - no exceptions or workarounds
+- Common requirements include:
+  - Maximum line length of 80 characters (MD013)
+  - Consistent heading styles and hierarchy
+  - Proper list formatting and indentation
+  - Blank lines around headings and code blocks
+  - Consistent link and reference formatting
+  - No trailing whitespace
+  - Files must end with newlines
+  - Proper table formatting when applicable
+- Use `markdownlint --fix <filename>` for auto-fixable issues when available
+- Validate markdown files in CI/CD pipelines where applicable
+
+## Development Guidelines
+
+### When Making Changes
+
+- Preserve existing functionality unless explicitly asked to change it
+- Update documentation when adding new filter categories or modifying rules
+- Test filters across different browsers and ad blockers
+- **Always run markdownlint and fix all issues in markdown files before considering changes complete**
+
+### Filter List Standards
+
+- Maintain compatibility with uBlock Origin and similar blockers
+- Implement proper rule ordering and priorities
+- Use AGLint for comprehensive filter validation
+- Test filters against real websites and tracking mechanisms

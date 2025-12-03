@@ -5,17 +5,41 @@ updates:
     directory: "/"
     schedule:
       interval: daily
+      time: "09:30"
+      timezone: "America/Los_Angeles"
     open-pull-requests-limit: 10
     commit-message:
       prefix: "ci(deps)"
       prefix-development: "ci(deps-dev)"
+    labels:
+      - "dependencies"
+      - "github-actions"
 
   # Maintain dependencies for npm
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: daily
+      interval: weekly
+      day: monday
+      time: "09:30"
+      timezone: "America/Los_Angeles"
     open-pull-requests-limit: 10
     commit-message:
       prefix: "build(deps)"
       prefix-development: "build(deps-dev)"
+    labels:
+      - "dependencies"
+      - "npm"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+        update-types: ["minor", "patch"]
+      development-dependencies:
+        dependency-type: "development"
+        update-types: ["minor", "patch"]
+      major-production-dependencies:
+        dependency-type: "production"
+        update-types: ["major"]
+      major-development-dependencies:
+        dependency-type: "development"
+        update-types: ["major"]
