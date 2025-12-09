@@ -1,0 +1,29 @@
+name: Auto Approve PRs
+
+permissions:
+  contents: read
+  pull-requests: write
+
+on:
+  pull_request_target:
+    types:
+    - opened
+    branches:
+    - main
+
+jobs:
+  auto-approve:
+    name: Auto Approve PR
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+    - name: Approve for LanikSJ
+      uses: hmarr/auto-approve-action@8f929096a962e83ccdfa8afcf855f39f12d4dac7 # v4.0.0
+      if: github.actor == 'LanikSJ'
+    - name: Approve for dependabot
+      uses: hmarr/auto-approve-action@8f929096a962e83ccdfa8afcf855f39f12d4dac7 # v4.0.0
+      if: github.actor == 'dependabot'
+    - name: Approve for github-actions
+      uses: hmarr/auto-approve-action@8f929096a962e83ccdfa8afcf855f39f12d4dac7 # v4.0.0
+      if: github.actor == 'github-actions'
