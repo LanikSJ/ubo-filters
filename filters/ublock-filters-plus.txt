@@ -1,7 +1,7 @@
 ! Title: uBlock Filters Plus
-! Checksum: zquK7ZoTFuvx4sHF1nspZg
-! Version: 202512080828
-! Last modified: 2025-12-08 08:28 UTC
+! Checksum: Vu1UZ5s8KADodvI+sYnqGg
+! Version: 202512150828
+! Last modified: 2025-12-15 08:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -118,8 +118,8 @@ outlook.live.com#$##primaryContainer > div[style*="right: 165px;"] { width: 100%
 outlook.live.com#$##primaryContainer > div[style*="right: 305px;"] { width: 100% !important; }
 pornhd.com##.video-thumb-ad-zone
 pornhd.com##.zone.phdZone
-primewire.in,primewire.org##[onclick*="'bt_stream'"]
-primewire.in,primewire.org##[onclick*="'bt_watch_now'"]
+primewire.org##[onclick*="'bt_stream'"]
+primewire.org##[onclick*="'bt_watch_now'"]
 reviewmeta.com##.ad_gu_tr
 reviewmeta.com##.ad_unit_1
 search.disconnect.me##.ad
@@ -147,7 +147,7 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 |http*$popup,third-party,domain=openload.co
 |http*$popup,third-party,domain=userscloud.com
 |http*$script,domain=primewire.org,third-party
-|http*$xmlhttprequest,domain=primewire.in|primewire.org,third-party
+|http*$xmlhttprequest,domain=primewire.org,third-party
 |http*$xmlhttprequest,domain=streamcloud.eu
 ||130.211.198.219^$popup,third-party
 ||4dsply.com^
@@ -252,8 +252,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||trimpur.com^
 ||trimpur.com^$popup
 ||trklnks.com^
-||trw12.com^
-||trw12.com^$popup
 ||urldelivery.com^
 ||viptube.com/_
 ||voluumtrk.com^

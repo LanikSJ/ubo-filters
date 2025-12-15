@@ -1,7 +1,7 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: RGzDvs0x1NryJcdu26T/LQ
-! Version: 202512080828
-! Last modified: 2025-12-08 08:28 UTC
+! Checksum: E4camHE39sOnyUd933LL0g
+! Version: 202512150828
+! Last modified: 2025-12-15 08:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -101,7 +101,6 @@
 ||nahnoji.cz^$websocket
 ||nfwebminer.com^$third-party
 ||nimiq.com^$third-party
-||noblock.pro^$third-party
 ||notmining.org^$third-party
 ||now.sh/*.wasm$third-party
 ||nut.cc^$third-party
