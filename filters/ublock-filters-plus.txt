@@ -1,7 +1,7 @@
 ! Title: uBlock Filters Plus
-! Checksum: Vu1UZ5s8KADodvI+sYnqGg
-! Version: 202512150828
-! Last modified: 2025-12-15 08:28 UTC
+! Checksum: JmNBxO8kxQojWRyeU/ivAw
+! Version: 202512290828
+! Last modified: 2025-12-29 08:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -364,7 +364,6 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||zappos.com/le.cgi?
 ||zappos.com^*/pixel.png?
 ||zappos.com^*/uedata?
-||zykko.com^$third-party
 # Filters partially taken out of EasyList and modified to make use of strict blocking.
 # "EasyList" by "The EasyList authors (https://easylist.adblockplus.org/)" (License: https://easylist-downloads.adblockplus.org/COPYING)
 &link_type=offer$document
