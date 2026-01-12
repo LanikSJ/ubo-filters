@@ -28,4 +28,3 @@ more combined-filters.txt | grep -v :::::::::::::: | grep -v .txt >>temp-filters
 mv -f temp-filters.txt combined-filters.txt
 
 perl ../scripts/addChecksum.pl combined-filters.txt
-perl ../scripts/sorter.pl combined-filters.txt

@@ -1,47 +1,52 @@
 #!/usr/bin/env perl
 
-# Copyright 2011 Wladimir Palant
-# https://palant.de/
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-#############################################################################
-# Script to add checksums to downloadable subscriptions. The checksum will  #
-# be validated by Adblock Plus on download and checksum mismatches          #
-# (broken downloads) will be rejected.                                      #
-#                                                                           #
-# Enhanced version with improved error handling and validation.             #
-#                                                                           #
-# Usage:                                                                    #
-#   perl addChecksum.pl [--verbose] [--force] subscription.txt             #
-#                                                                           #
-# Options:                                                                  #
-#   --verbose    Enable verbose output                                      #
-#   --force      Force update even if checksum hasn't changed              #
-#                                                                           #
-# Note: your subscription file should be saved in UTF-8 encoding, otherwise #
-# the generated checksum might be incorrect.                                #
-#                                                      AdblockPlus.Org      #
-#############################################################################
+# Combined sorter and checksum script
+# Based on Fanboy Adblock Sorter and Adblock Plus checksum script
 
 use strict;
 use warnings;
+use File::Copy;
 use Path::Tiny;
 use Digest::MD5  qw(md5_base64);
 use Encode       qw(encode_utf8 is_utf8);
 use POSIX        qw(strftime);
 use Getopt::Long qw(GetOptions);
 use feature 'unicode_strings';
+
+sub output {
+    my( $lines, $fh ) = @_;
+    return unless @$lines;
+    print $fh shift @$lines;
+    print $fh sort { lc $a cmp lc $b } @$lines;
+    return;
+}
+
+sub sort_file {
+    my $filename = shift;
+    my $outFn = "$filename.out";
+
+    open my $fh, '<', $filename or die "open $filename: $!";
+    open my $fhOut, '>', $outFn or die "open $outFn: $!";
+
+    binmode($fhOut);
+    my $current = [];
+
+    while ( <$fh> ) {
+        if ( m/^(?:[!\[]|[#|;]\s)/ ) {
+            output $current, $fhOut;
+            $current = [ $_ ];
+        }
+        else {
+            push @$current, $_;
+        }
+    }
+
+    output $current, $fhOut;
+    close $fhOut;
+    close $fh;
+
+    move($outFn, $filename);
+}
 
 # Command line options
 my $verbose = 0;
@@ -82,6 +87,10 @@ die "Specified file: $file is not readable!\n"       unless ( -r $file );
 die "Specified file: $file is not writable!\n"       unless ( -w $file );
 
 print "Processing file: $file\n" if $verbose;
+
+# Sort the file first
+sort_file($file);
+print "File sorted\n" if $verbose;
 
 # Read file with enhanced error handling
 my $data;
@@ -134,7 +143,8 @@ print "New checksum: $checksum\n" if $verbose;
 # Check if checksum has changed (unless --force is used)
 if ( $oldchecksum && $checksum eq $oldchecksum && !$force ) {
     print "Checksum unchanged, no update needed\n" if $verbose;
-    die "List has not changed.\n";
+    print "List has not changed.\n" if $verbose;
+    exit 0;
 }
 elsif ( $oldchecksum && $checksum eq $oldchecksum && $force ) {
     print "Checksum unchanged, but forcing update due to --force flag\n"
