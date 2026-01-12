@@ -14,7 +14,7 @@ use Getopt::Long qw(GetOptions);
 use feature 'unicode_strings';
 
 sub output {
-    my( $lines, $fh ) = @_;
+    my ( $lines, $fh ) = @_;
     return unless @$lines;
     print $fh shift @$lines;
     print $fh sort { lc $a cmp lc $b } @$lines;
@@ -23,18 +23,18 @@ sub output {
 
 sub sort_file {
     my $filename = shift;
-    my $outFn = "$filename.out";
+    my $outFn    = "$filename.out";
 
-    open my $fh, '<', $filename or die "open $filename: $!";
-    open my $fhOut, '>', $outFn or die "open $outFn: $!";
+    open my $fh,    '<', $filename or die "open $filename: $!";
+    open my $fhOut, '>', $outFn    or die "open $outFn: $!";
 
     binmode($fhOut);
     my $current = [];
 
-    while ( <$fh> ) {
-        if ( m/^(?:[!\[]|[#|;]\s)/ ) {
+    while (<$fh>) {
+        if (m/^(?:[!\[]|[#|;]\s)/) {
             output $current, $fhOut;
-            $current = [ $_ ];
+            $current = [$_];
         }
         else {
             push @$current, $_;
@@ -45,7 +45,7 @@ sub sort_file {
     close $fhOut;
     close $fh;
 
-    move($outFn, $filename);
+    move( $outFn, $filename );
 }
 
 # Command line options
@@ -143,7 +143,7 @@ print "New checksum: $checksum\n" if $verbose;
 # Check if checksum has changed (unless --force is used)
 if ( $oldchecksum && $checksum eq $oldchecksum && !$force ) {
     print "Checksum unchanged, no update needed\n" if $verbose;
-    print "List has not changed.\n" if $verbose;
+    print "List has not changed.\n"                if $verbose;
     exit 0;
 }
 elsif ( $oldchecksum && $checksum eq $oldchecksum && $force ) {
