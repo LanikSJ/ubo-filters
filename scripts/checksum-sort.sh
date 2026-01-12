@@ -366,11 +366,22 @@ process_file() {
   # Set global backup file path for cleanup function
   BACKUP_FILE_PATH="$backup_file"
 
-  # Sort the file
-  log_info "🔀 Sorting filter entries..."
-  if ! perl "$SCRIPT_DIR/sorter.pl" "$file"; then
-    log_error "Failed to sort file '$file'"
+  # Run FOP on the specific file
+  log_info "🔧 Running FOP on the specific file..."
+  if ! fop --check-file="$file"; then
+    log_warning "FOP execution failed on the file"
     operation_failed=true
+  else
+    log_info "✅ FOP completed successfully on the file"
+  fi
+
+  # Sort the file with sorter.pl
+  if [[ "$operation_failed" == "false" ]]; then
+    log_info "🔀 Sorting filter entries with sorter.pl..."
+    if ! perl "$SCRIPT_DIR/sorter.pl" "$file"; then
+      log_error "Failed to sort file '$file' with sorter.pl"
+      operation_failed=true
+    fi
   fi
 
   # Add checksum only if sorting succeeded
@@ -577,17 +588,6 @@ main() {
 
   # Process the file
   process_file "$file"
-
-  # Validate FOP CLI
-  validate_fop
-
-  # Run FOP on filters directory
-  log_info "🔧 Running FOP on filters directory..."
-  if ! cd "$SCRIPT_DIR/.." && fop filters/; then
-    log_warning "FOP execution failed"
-  else
-    log_info "✅ FOP completed successfully"
-  fi
 
   if [[ "$KEEP_BACKUP" == "true" ]]; then
     log_info "✅ Done! '$file' has been sorted and checksums have been added."
