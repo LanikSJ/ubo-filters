@@ -159,20 +159,17 @@ install_perl_dependencies() {
 
 # Validate Perl scripts exist and are executable
 validate_perl_scripts() {
-  local sorter_script="$SCRIPT_DIR/sorter.pl"
   local checksum_script="$SCRIPT_DIR/addChecksum.pl"
 
-  for script in "$sorter_script" "$checksum_script"; do
-    if [[ ! -f "$script" ]]; then
-      log_error "Required script '$script' not found"
-      exit 1
-    fi
+  if [[ ! -f "$checksum_script" ]]; then
+    log_error "Required script '$checksum_script' not found"
+    exit 1
+  fi
 
-    if [[ ! -r "$script" ]]; then
-      log_error "Script '$script' is not readable"
-      exit 1
-    fi
-  done
+  if [[ ! -r "$checksum_script" ]]; then
+    log_error "Script '$checksum_script' is not readable"
+    exit 1
+  fi
 }
 
 # Validate FOP CLI is installed
@@ -375,20 +372,11 @@ process_file() {
     log_info "✅ FOP completed successfully on the file"
   fi
 
-  # Sort the file with sorter.pl
+  # Sort and add checksum using combined script only if FOP succeeded
   if [[ "$operation_failed" == "false" ]]; then
-    log_info "🔀 Sorting filter entries with sorter.pl..."
-    if ! perl "$SCRIPT_DIR/sorter.pl" "$file"; then
-      log_error "Failed to sort file '$file' with sorter.pl"
-      operation_failed=true
-    fi
-  fi
-
-  # Add checksum only if sorting succeeded
-  if [[ "$operation_failed" == "false" ]]; then
-    log_info "🔐 Adding checksum..."
+    log_info "🔀 Sorting and adding checksum..."
     if ! perl "$SCRIPT_DIR/addChecksum.pl" "$file"; then
-      log_error "Failed to add checksum to file '$file'"
+      log_error "Failed to sort and add checksum to file '$file'"
       operation_failed=true
     fi
   fi
