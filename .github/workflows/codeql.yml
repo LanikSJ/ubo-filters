@@ -29,8 +29,6 @@ jobs:
         include:
         - language: actions
           build-mode: none
-        - language: python
-          build-mode: none
 
     steps:
     - name: Checkout repository
