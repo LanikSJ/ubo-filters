@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: y3DA0qHvXW6prdBLRVVzQw
-! Last modified: 2025-12-19 22:42 UTC
-! Version: 202512192242
+! Checksum: cHtaRvuZZIgHb0P/+qvxUw
+! Last modified: 2026-01-12 06:31 UTC
+! Version: 202601120631
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -104,6 +104,7 @@ care.siriusxm.com##.upsell-container
 careers.zoom.us##.header-banner1
 cbc.ca##.notice.banner
 citytoyota.com##.footer-incentive
+clippercard.com##.alert-system
 cnbc.com###social_bar_top_gig_containerParent
 cnbc.com##.PageHeader-background.PageHeader-main
 cnet.com###flyoutPromo
@@ -220,6 +221,7 @@ gapfactory.com##.slick-initialized.shoppingBag-carousel
 gasbuddy.com##[href^="https://enroll.gasbuddy.com"]
 geeksforgeeks.org###secondary
 geekwire.com###sponsored-footer
+gethomebank.org###abpopup
 git-scm.com###banner
 git-tower.com##.incentive-download
 git-tower.com##div[id*="fn-popup"]
@@ -329,11 +331,13 @@ macupdate.com##.button.bundle
 macupdate.com##.button.bundle-cta
 macupdate.com##.discussion-title
 macupdate.com##.js-discussion-slider.discussion-slider
+macupdate.com##.mu_banner_placement
 macupdate.com##.mud-install-headline
 macupdate.com##.one.nfmlsa-box
 macupdate.com##.right-col-promo-apps.row
 macupdate.com##.simapps-title.nfmllb-title
 macupdate.com##.two.nfmlsa-box
+macupdate.com##.undefined.mu_banner_donation_wrapper
 macworld.co.uk##.promotedDeal
 macworld.co.uk##[src^="https://www.macworld.co.uk/cmsdata/"]
 mail.protonmail.com###pm_latest
@@ -531,6 +535,8 @@ techblog.realtor.com###itsec_security_updates
 techblog.realtor.com###itsec_sync_integration
 techcrunch.com##.aside-related-articles.aside
 techcrunch.com##.share-main
+techradar.com##.pointer-events-auto
+techradar.com##.popular-box
 techradar.com##.pro.trending-wrapper
 techradar.com,tomsguide.com###affiliateDisclaimer
 techradar.com,tomsguide.com##.future__jwplayer--carousel
@@ -647,6 +653,7 @@ www.i-dont-care-about-cookies.eu###sidebar
 xamarinhowto.com##.custom-html-widget
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
+xnxx.com##.premium-results-line
 xnxx.com##.sponsor-text
 xnxx.com##.video-sponsor-links
 xvideos.com###warning-survey
