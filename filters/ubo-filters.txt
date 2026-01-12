@@ -13,6 +13,13 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
+xnxx.com##.premium-results-line
+macupdate.com##.mu_banner_placement
+macupdate.com##.undefined.mu_banner_donation_wrapper
+clippercard.com##.alert-system
+techradar.com##.pointer-events-auto
+techradar.com##.popular-box
+gethomebank.org###abpopup
 ###coopcommerce
 ###phpbb-ads-ab
 ##.taboola-module
