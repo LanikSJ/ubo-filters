@@ -9,7 +9,7 @@ on:
     - cron: '0 8 * * 1'
   push:
     branches:
-      - master
+      - main
     paths:
       - '.github/workflows/dead-domains-check.yml'
   workflow_dispatch:
