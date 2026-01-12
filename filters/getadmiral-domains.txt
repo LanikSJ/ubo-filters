@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: az9emYO/7NLb8X4YeRllfg
-! Version: 202601120238
-! Last modified: 2026-01-12 02:38 UTC
+! Checksum: kkpjBy24ZevBCI+yrgGK5g
+! Version: 202601120700
+! Last modified: 2026-01-12 07:00 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -202,7 +202,6 @@
 ||badgevolcano.com^
 ||bagbeam.com^
 ||bahamashello.com^
-||bahamashello.com^
 ||baitbaseball.com^
 ||balancebreath.com^
 ||balancemailbox.com^
@@ -230,7 +229,6 @@
 ||beamkite.com^
 ||beamvolcano.com^
 ||beancontrol.com^
-||bearmoonlodge.com^
 ||bearmoonlodge.com^
 ||beastbeef.com^
 ||beautifulhobbies.com^
