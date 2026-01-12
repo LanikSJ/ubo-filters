@@ -175,6 +175,14 @@ validate_perl_scripts() {
   done
 }
 
+# Validate FOP CLI is installed
+validate_fop() {
+  if ! command -v fop >/dev/null 2>&1; then
+    log_error "FOP CLI not found. Please install fop-cli: npm install -g fop-cli"
+    exit 1
+  fi
+}
+
 # Get file checksum for integrity verification
 get_file_checksum() {
   local file="$1"
@@ -569,6 +577,17 @@ main() {
 
   # Process the file
   process_file "$file"
+
+  # Validate FOP CLI
+  validate_fop
+
+  # Run FOP on filters directory
+  log_info "🔧 Running FOP on filters directory..."
+  if ! cd "$SCRIPT_DIR/.." && fop filters/; then
+    log_warning "FOP execution failed"
+  else
+    log_info "✅ FOP completed successfully"
+  fi
 
   if [[ "$KEEP_BACKUP" == "true" ]]; then
     log_info "✅ Done! '$file' has been sorted and checksums have been added."
