@@ -586,6 +586,9 @@ main() {
   # Install dependencies
   install_perl_dependencies
 
+  # Validate FOP CLI
+  validate_fop
+
   # Process the file
   process_file "$file"
 
