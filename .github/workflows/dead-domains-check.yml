@@ -44,6 +44,9 @@ jobs:
           install-modules: |
             Path::Tiny
 
+      - name: Install FOP CLI
+        run: npm install -g fop-cli
+
       - name: Install Dependencies
         run: pnpm install
 
