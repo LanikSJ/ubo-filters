@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: 6qM9TTuawz00VbH3PANHiA
-! Version: 202601120859
-! Last modified: 2026-01-12 08:59 UTC
+! Checksum: AXJTAFoT/T2jO4MEXPyKjw
+! Version: 202601151702
+! Last modified: 2026-01-15 17:02 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -640,7 +640,6 @@
 ||giraffepiano.com^
 ||gitcrumbs.com^
 ||givevacation.com^
-||gladglen.com^
 ||gladysway.com^
 ||glamhawk.com^
 ||glasscoyote.com^
@@ -1144,7 +1143,6 @@
 ||railwayrainstorm.com^
 ||railwayreason.com^
 ||raintwig.com^
-||rainydirt.com^
 ||rainyhand.com^
 ||rainyrule.com^
 ||rambunctiousflock.com^
