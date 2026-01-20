@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: usEZ0Iqn+c/7kQE6CMSYUA
-! Version: 202601190831
-! Last modified: 2026-01-19 08:31 UTC
+! Checksum: LFty7W+lMB3s9GnA8BsJJA
+! Version: 202601200824
+! Last modified: 2026-01-20 08:24 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -221,7 +221,6 @@
 ||burntwist.com^
 ||bushesbag.com^
 ||businessbells.com^
-||bustlinganimal.com^
 ||bustlingbook.com^
 ||butterbulb.com^
 ||butterburst.com^
@@ -685,7 +684,6 @@
 ||grumpydime.com^
 ||grumpydrawer.com^
 ||guardeddirection.com^
-||guardedgovernor.com^
 ||guardedschool.com^
 ||guessdetail.com^
 ||guidecent.com^
@@ -1359,7 +1357,6 @@
 ||sinceresubstance.com^
 ||singroot.com^
 ||sinkportal.com^
-||sittingpets.com^
 ||sixauthority.com^
 ||sixscissors.com^
 ||sizzlingsmoke.com^
