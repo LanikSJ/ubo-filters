@@ -72,7 +72,7 @@ jobs:
       - name: Commit and Push
         if: steps.changed-files.outputs.all_changed_files == 'true'
         run: |
-          git commit -m "Automated Node Dependency Update"
+          git commit -m "chore(deps): update node dependencies"
           git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
       - name: Create Pull Request
@@ -83,7 +83,7 @@ jobs:
             const { data: pullRequest } = await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: 'Automated Node Dependency Update',
+              title: 'chore(deps): update node dependencies',
               head: '${{ steps.create-branch.outputs.branch_name }}',
               base: context.ref.replace('refs/heads/', ''),
               body: [
