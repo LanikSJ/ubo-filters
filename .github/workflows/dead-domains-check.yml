@@ -148,7 +148,7 @@ jobs:
       - name: Commit and Push
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
-          git commit -m "Automated Dead Domains Check"
+          git commit -m "fix(filters): remove dead domains"
           git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
       - name: Create Pull Request
@@ -159,7 +159,7 @@ jobs:
             const { data: pullRequest } = await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: 'Automated Dead Domains Check',
+              title: 'fix(filters): remove dead domains',
               head: '${{ steps.create-branch.outputs.branch_name }}',
               base: context.ref.replace('refs/heads/', ''),
               body: [
