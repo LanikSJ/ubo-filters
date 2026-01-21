@@ -6,6 +6,7 @@ on:
     paths:
       - README.md
       - _config.yml
+      - '!**/.vscode/**'
   workflow_dispatch:
 
 permissions:
