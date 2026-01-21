@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "FOP: Sort All",
+      "type": "shell",
+      "command": "fop",
+      "args": ["--no-commit", "."],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "FOP: Sort Current File",
+      "type": "shell",
+      "command": "fop",
+      "args": ["--check-file=${file}", "--no-commit"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "FOP: Sort and Commit",
+      "type": "shell",
+      "command": "fop",
+      "args": ["."],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "FOP: Preview Changes (Diff)",
+      "type": "shell",
+      "command": "fop",
+      "args": ["--no-commit", "--output-diff=changes.diff", "."],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "FOP: Fix Typos",
+      "type": "shell",
+      "command": "fop",
+      "args": ["--fix-typos", "--no-commit", "."],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "FOP: Fix Typos and Commit",
+      "type": "shell",
+      "command": "fop",
+      "args": ["--fix-typos", "."],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

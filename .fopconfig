@@ -1,0 +1,14 @@
+# FOP Configuration File
+# Place in current directory or ~/.fopconfig
+
+# Skip commit prompt
+no-commit = true
+
+# Skip sorting (only tidy and combine rules)
+no-sort = true
+
+# Fix cosmetic rule typos in all files
+fix-typos = true
+
+# Suppress most output (for CI)
+quiet = false

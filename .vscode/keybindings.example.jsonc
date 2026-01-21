@@ -1,0 +1,35 @@
+// FOP Keyboard Shortcuts
+// 
+// Copy these to your VS Code user keybindings:
+//   Windows/Linux: Ctrl+K Ctrl+S → "Open Keyboard Shortcuts (JSON)"
+//   macOS: Cmd+K Cmd+S → "Open Keyboard Shortcuts (JSON)"
+//
+// Note: These go in USER settings, not project .vscode folder
+
+// === Windows/Linux ===
+[
+  {
+    "key": "ctrl+alt+o",
+    "command": "workbench.action.tasks.runTask",
+    "args": "FOP: Sort All"
+  },
+  {
+    "key": "ctrl+alt+shift+o",
+    "command": "workbench.action.tasks.runTask",
+    "args": "FOP: Sort Current File"
+  }
+]
+
+// === macOS ===
+[
+  {
+    "key": "cmd+alt+o",
+    "command": "workbench.action.tasks.runTask",
+    "args": "FOP: Sort All"
+  },
+  {
+    "key": "cmd+alt+shift+o",
+    "command": "workbench.action.tasks.runTask",
+    "args": "FOP: Sort Current File"
+  }
+]
