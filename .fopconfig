@@ -4,11 +4,56 @@
 # Skip commit prompt
 no-commit = true
 
+# Skip uBO to ABP option conversion
+no-ubo-convert = true
+
+# Skip commit message format validation (M:/A:/P:)
+no-msg-check = true
+
+# Process all files (ignore IGNORE_FILES/IGNORE_DIRS)
+disable-ignored = false
+
 # Skip sorting (only tidy and combine rules)
 no-sort = true
 
-# Fix cosmetic rule typos in all files
-fix-typos = true
+# Alternative sorting (by selector for all rule types)
+alt-sort = false
 
-# Suppress most output (for CI)
-quiet = false
+# Sort hosts file entries (0.0.0.0/127.0.0.1 domain)
+localhost = false
+
+# Disable colored output
+no-color = false
+
+# Keep empty lines in output
+keep-empty-lines = true
+
+# uBO ||com/filter support
+ignore-dot-domains = true
+
+# Disable large change warning prompt
+no-large-warning = true
+
+# Create .backup files before modifying
+backup = false
+
+# Comment line prefixes (default: !)
+comments = !
+
+# Files to skip short domain check (comma-separated, partial names)
+disable-domain-limit =
+
+# Output warnings to file instead of stderr (leave empty for stderr)
+warning-output =
+
+# Additional directories to ignore (comma-separated)
+ignoredirs = thirdparties
+
+# Additional files to ignore (comma-separated, partial names supported)
+ignorefiles = .json,.backup,.bak,.swp,.gz,.sh,.mjs,.js,warnings.txt
+
+# Supported file extensions for scanning
+file-extensions = txt
+
+# Create PR branch instead of committing
+create-pr = false
