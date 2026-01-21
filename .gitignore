@@ -179,14 +179,6 @@ dist
 .pnp.*
 
 ### VisualStudioCode template
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/keybindings.example.jsonc
-!.vscode/README.md
-!.vscode/setup.sh
 *.code-workspace
 
 # Local History for Visual Studio Code
