@@ -184,6 +184,9 @@ dist
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/keybindings.example.jsonc
+!.vscode/README.md
+!.vscode/setup.sh
 *.code-workspace
 
 # Local History for Visual Studio Code
