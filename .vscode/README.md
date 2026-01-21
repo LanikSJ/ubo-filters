@@ -4,13 +4,15 @@ Pre-configured VS Code settings for filter list projects.
 
 ## Quick Setup
 
-**Option 1: Run setup script**
+### Option 1: Run setup script
+
 ```bash
 cd /path/to/your/filterlist
 bash /path/to/.vscode/setup.sh .
 ```
 
-**Option 2: Copy manually**
+### Option 2: Copy manually
+
 ```bash
 cp -r .vscode /path/to/your/filterlist/
 ```
@@ -18,7 +20,7 @@ cp -r .vscode /path/to/your/filterlist/
 ## Included Files
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `tasks.json` | FOP tasks (Sort All, Sort File, Fix Typos, etc.) |
 | `settings.json` | Editor settings for filter lists |
 | `extensions.json` | Recommended extensions |
@@ -37,7 +39,7 @@ Or use `Ctrl+Shift+B` / `Cmd+Shift+B` for the default task (FOP: Sort All).
 ### Available Tasks
 
 | Task | Description |
-|------|-------------|
+| ------ | ------------- |
 | FOP: Sort All | Sort all files in project |
 | FOP: Sort Current File | Sort currently open file |
 | FOP: Sort and Commit | Sort all + git commit prompt |
@@ -48,12 +50,14 @@ Or use `Ctrl+Shift+B` / `Cmd+Shift+B` for the default task (FOP: Sort All).
 ### Keyboard Shortcuts (Optional)
 
 Copy shortcuts from `keybindings.example.jsonc` to your VS Code user keybindings:
+
 - `Ctrl+K Ctrl+S` → Click the `{}` icon (Open Keyboard Shortcuts JSON)
+- `Ctrl+K Ctrl+S` â Click the `{}` icon (Open Keyboard Shortcuts JSON)
 
 ## Recommended Extensions
 
 When you open the project, VS Code will prompt to install:
-- **Adblock Syntax** - Syntax highlighting (ABP, uBO, AdGuard)
+
 - **GitLens** - Enhanced Git integration  
 - **Run on Save** - Auto-run FOP on save (optional)
 
@@ -67,4 +71,4 @@ fix-typos = true
 quiet = false
 ```
 
-See [FOP README](../README.md) for all configuration options.
+See [FOP README](https://github.com/ryanbr/fop-rs/blob/main/README.md) for all configuration options.
