@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "*.txt": "adblock"
+  },
+  "editor.formatOnSave": false,
+  "[adblock]": {
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2
+  },
+  "[plaintext]": {
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on"
+  },
+  "files.trimTrailingWhitespace": false,
+  "files.insertFinalNewline": true
+}
