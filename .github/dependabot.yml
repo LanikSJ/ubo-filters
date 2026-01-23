@@ -12,6 +12,10 @@ updates:
     labels:
       - "dependencies"
       - "github-actions"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
 
   # Maintain dependencies for npm
   - package-ecosystem: npm
