@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: MjzmwslVnnIklExQLBvWAg
-! Last modified: 2026-01-23 07:13 UTC
-! Version: 202601230713
+! Checksum: fPOdyiLbsRWwUC6PtDG9iQ
+! Last modified: 2026-01-26 07:46 UTC
+! Version: 202601260746
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -356,6 +356,7 @@ mightytext.net###alert-bottom-right-corner
 mightytext.net###crx-install
 mightytext.net###share-button-main[href="#"]
 mindmajix.com##[href*="bit.ly"]
+mommyhood101.com##.holiday-slider-wrapper
 money.cnn.com###before-the-bell-newletter-mod
 money.cnn.com###js-TosPrivacy
 money.cnn.com###smartassetcontainer
