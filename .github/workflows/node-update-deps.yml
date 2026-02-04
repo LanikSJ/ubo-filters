@@ -48,7 +48,7 @@ jobs:
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file was changed"
           done
-      
+
       - name: Create New Branch
         id: create-branch
         if: steps.changed-files.outputs.all_changed_files == 'true'
