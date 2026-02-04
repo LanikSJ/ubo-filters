@@ -26,8 +26,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
       - name: Setup Restyled
         uses: restyled-io/actions/setup@99baa06083ca10257935292eb03fe8ceae58a1eb # v4.4.9
       - name: Run Restyled
@@ -55,11 +53,10 @@ jobs:
       github.event.pull_request.head.repo.full_name != github.repository
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
       - name: Setup Restyled
         uses: restyled-io/actions/setup@99baa06083ca10257935292eb03fe8ceae58a1eb # v4.4.9
       - name: Run Restyled
