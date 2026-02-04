@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: fpOAGf0rSQVwskN2Qma9Hw
-! Version: 202602020841
-! Last modified: 2026-02-02 08:41 UTC
+! Checksum: /0McufquQGA4ToNVti6pMw
+! Version: 202602040015
+! Last modified: 2026-02-04 00:15 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -213,7 +213,6 @@
 ||buildingknife.com^
 ||bulbbait.com^
 ||bumpermash.com^
-||bumpydevelopment.com^
 ||bunchance.com^
 ||bungeesleeves.com^
 ||burgersalt.com^
@@ -368,7 +367,6 @@
 ||crowdedmass.com^
 ||cruisetourist.com^
 ||crunchcontrol.com^
-||cryptvalue.com^
 ||crystalboulevard.com^
 ||cubchannel.com^
 ||cubepins.com^
@@ -613,7 +611,6 @@
 ||friedone.com^
 ||friendlycrayon.com^
 ||friendlyfold.com^
-||frogtray.com^
 ||fronttoad.com^
 ||frugalfiestas.com^
 ||fuelreaction.com^
@@ -624,7 +621,6 @@
 ||furnstudio.com^
 ||furryfork.com^
 ||fusedcontent.com^
-||futuristicfear.com^
 ||futuristicfifth.com^
 ||futuristicframe.com^
 ||fuzzyaudio.com^
@@ -883,7 +879,6 @@
 ||marriedbelief.com^
 ||marriedmailbox.com^
 ||marriedvalue.com^
-||marrowleaves.com^
 ||massivemark.com^
 ||materialisticmoon.com^
 ||materialmilk.com^
@@ -1324,7 +1319,6 @@
 ||shaggytank.com^
 ||shakegoldfish.com^
 ||shakesea.com^
-||shakyseat.com^
 ||shakysurprise.com^
 ||shakytaste.com^
 ||shallowart.com^
@@ -1462,7 +1456,6 @@
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
-||stampknot.com^
 ||starkscale.com^
 ||startercost.com^
 ||startingcars.com^
