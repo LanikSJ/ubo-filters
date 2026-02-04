@@ -6,12 +6,12 @@ env:
 on:
   schedule:
     # Run the job on every Monday at 8:00 AM UTC
-    - cron: '0 8 * * 1'
+    - cron: "0 8 * * 1"
   push:
     branches:
       - main
     paths:
-      - '.github/workflows/dead-domains-check.yml'
+      - ".github/workflows/dead-domains-check.yml"
   workflow_dispatch:
 
 permissions:
@@ -31,11 +31,11 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
-      
+
       - name: Setup Perl and Tiny
         uses: shogo82148/actions-setup-perl@fa3bdcb0144a50651e317f30949bb4491e74a6e4 # v1.37.0
         with:
-          perl-version: '5.38'
+          perl-version: "5.38"
           install-modules: |
             Path::Tiny
 

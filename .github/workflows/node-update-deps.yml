@@ -10,12 +10,12 @@ env:
 on:
   schedule:
     # Run the job on every Tuesday at 12:00 PM UTC
-    - cron: '0 12 * * 2'
+    - cron: "0 12 * * 2"
   push:
-        branches:
-        - master
-        paths:
-        - '.github/workflows/node-update-deps.yml'
+    branches:
+      - main
+    paths:
+      - ".github/workflows/node-update-deps.yml"
   workflow_dispatch:
 
 jobs:
@@ -34,12 +34,12 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-      
+
       - name: Get Changed Files
         id: changed-files
         uses: tj-actions/changed-files@e0021407031f5be11a464abee9a0776171c79891 # v47.0.1
         with:
-            since_last_remote_commit: true
+          since_last_remote_commit: true
 
       - name: List All Changed Files
         env:
@@ -48,7 +48,7 @@ jobs:
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file was changed"
           done
-      
+
       - name: Create New Branch
         id: create-branch
         if: steps.changed-files.outputs.all_changed_files == 'true'
