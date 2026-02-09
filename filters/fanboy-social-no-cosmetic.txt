@@ -1,21 +1,21 @@
 [Adblock Plus 2.0]
-! Checksum: qrqj91WO40u/pp7o1l+y0w
-! Version: 202602020841
+! Checksum: UnoIgQ3Por1ZVYyRdv+Ipw
+! Version: 202602090426
 ! Title: Fanboy's Social Blocking List
-! Last modified: 2026-02-02 08:41 UTC
+! Last modified: 2026-02-09 04:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 04838e457d8cb459a30f01737401d269d007672b
+! Commit: 905ad6a2d8e3f204554e4c1efff4b123bc5782b1
 ! *** easylist:template_header.txt ***
-!
+! 
 ! Please report any unblocked adverts or problems
 ! in the forums (https://forums.lanik.us/)
 ! or via e-mail (easylist@protonmail.com).
-!
+! 
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
 ! GitHub issues: https://github.com/easylist/easylist/issues
 ! GitHub pull requests: https://github.com/easylist/easylist/pulls
-!
+! 
 ! --------------------------General blocking rules-----------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_block.txt ***
 ! fanboy_social_general_block.txt
@@ -526,6 +526,7 @@ _social_footer_
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||newsharecounts.com^$third-party
@@ -671,114 +672,114 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ! ------------------------Rules for international sites------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_international.txt ***
 ! fanboy_social_international.txt
-!
+! 
 ! ---------- Non-English Social Media Elements ----------
-!
+! 
 ||probook.bg/like?$third-party
-!
+! 
 ! ---------- German Site Specific Hiding Rules ----------
-!
+! 
 ! Specific hiding filters necessary for sites allowlisted with $generichide filter option
 ! Focus.de
-!
+! 
 ! ---------- French Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- French Site Specific Blocking Rules ----------
-!
+! 
 ||lequipe.fr/_nuxt/Share.
 ||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
 ||radio-canada.ca/mp/modules.socialbar.executer.$script
-!
+! 
 ! ---------- Arabic Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Arabic Specific Media Elements ----------
-!
+! 
 ||almasryalyoum.com/scripts/sharing.js
 ||stjegypt.com/uploads/stjnew.jpg
-!
+! 
 ! ---------- Bosnian Specific Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Croatian Specific Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Chinese Specific Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Chinese Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Czech Specific Social Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Danish Specific Social Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Dutch Site Specific Hiding Rules ----------
-!
+! 
 ||fanclubbarcelona.nl/images/mediabuttons/
-!
+! 
 ! ---------- Finnish Specific Social Media Elements ----------
-!
+! 
 apotti.fi#?#.post-footer:-abp-has(> .share)
 forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
-!
+! 
 ! ---------- Georgian Specific Social Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Greek Specific Social Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Hebrew Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Hungarian Specific Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Indian Specific Social Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Indonesian Specific Social Media Elements ----------
-!
-!
+! 
+! 
 ! ---------- Italian Site Specific Hiding Rules ----------
-!
+! 
 ||focus.it/images/embed/banner-canale-whats-up/
 ||napolimagazine.com/web/img/iconefooter/
 ||napolimagazine.com/web/img/iconetop/
 ||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
-!
+! 
 ! ---------- Japanese Specific Media Elements ----------
-!
+! 
 ||imyfone.com/assets/js/media_share/
 ||taishurx.jp/js/web/sns_header.js
-!
+! 
 ! ---------- Japanese Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Korean Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Latvian Specific Social Media Elements ----------
-!
+! 
 ||sekomums.lv^$third-party
-!
+! 
 ! ---------- Montenegrin Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Norwegian Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Persian Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Polish Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Portuguese Site Specific Hiding Rules ----------
-!
+! 
 ||aventurasnahistoria.com.br/static/socialmedia/
 ||aventurasnahistoria.uol.com.br/static/socialmedia/
 ||bnews.com.br/static/socialmedia/
@@ -787,34 +788,34 @@ forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ||hollywoodforevertv.com.br/static/socialmedia/
 ||jcconcursos.com.br/static/socialmedia/
 ||opto.sic.pt/footer/socials/
-!
+! 
 ! ---------- Romanian Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Ukrainian Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Russian Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Serbian Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Slovak Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Slovenian Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Spanish Site Specific Hiding Rules ----------
-!
+! 
 ! Lithuanian
-!
+! 
 ! ---------- Swedish Site Specific Hiding Rules ----------
-!
-!
+! 
+! 
 ! ---------- Turkish Specific Social Media Elements ----------
-!
+! 
 ! ---------------------------------Allowlists----------------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
 ! fanboy_social_allowlist_general_hide.txt
