@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: yjmycVap2VSIYDyNcDafhA
-! Last modified: 2026-02-11 02:42 UTC
-! Version: 202602110242
+! Checksum: AqYpyFSWCHSBTWLPeBzpGg
+! Last modified: 2026-02-11 23:07 UTC
+! Version: 202602112307
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -645,7 +645,6 @@ www.amazon.com##.gw-card-layout.gw-fixed-col.gw-col
 www.amazon.com##.maple-banner
 www.amazon.com##.rec-bottom-with-padding
 www.amazon.com##.recsWidgetContainer
-www.amazon.com##.sl-sobe-carousel-sub-card-image
 www.amazon.com##.threepsl-footer
 www.amazon.com##div[class*="adsOverlayClick"]
 www.amazon.com##div[class*="desktopAd"]
