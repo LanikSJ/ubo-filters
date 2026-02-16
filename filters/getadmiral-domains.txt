@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: DRL7/gmw3pQNusYBKElRKA
-! Version: 202602090848
-! Last modified: 2026-02-09 08:48 UTC
+! Checksum: vtOHZ+V2bJHKwUlcQBL25A
+! Version: 202602161800
+! Last modified: 2026-02-16 18:00 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -96,7 +96,6 @@
 ||applesarmy.com^
 ||applyless.com^
 ||aquaticowl.com^
-||archbushes.com^
 ||archswimming.com^
 ||aromamirror.com^
 ||arrivegrowth.com^
@@ -190,7 +189,6 @@
 ||boundlessbrake.com^
 ||boundlessveil.com^
 ||brainybasin.com^
-||brainynut.com^
 ||branchborder.com^
 ||brandsfive.com^
 ||brandybison.com^
@@ -251,13 +249,11 @@
 ||carloforward.com^
 ||carpentercomparison.com^
 ||cartelsalsa.com^
-||cartkitten.com^
 ||carvecakes.com^
 ||casualphysics.com^
 ||catalogcake.com^
 ||catschickens.com^
 ||cattlecommittee.com^
-||catventions.com^
 ||causecherry.com^
 ||cautiouscherries.com^
 ||cautiouscrate.com^
@@ -476,7 +472,6 @@
 ||effulgentnook.com^
 ||effulgenttempest.com^
 ||elasticchange.com^
-||elderlybean.com^
 ||elderlytown.com^
 ||elegantboulevard.com^
 ||elusivebreeze.com^
@@ -522,8 +517,6 @@
 ||executeknowledge.com^
 ||exhibitsneeze.com^
 ||expansioneggnog.com^
-||experienceeggs.com^
-||exquisiteartisanship.com^
 ||extractobservation.com^
 ||extralocker.com^
 ||extramonies.com^
@@ -636,7 +629,6 @@
 ||generalprose.com^
 ||getadmiral.com^
 ||getdrip.com^
-||getwagtail.com^
 ||ghostgenie.com^
 ||ghostwoodalbum.com^
 ||gianthypes.com^
@@ -723,7 +715,6 @@
 ||heavyplayground.com^
 ||helpcollar.com^
 ||helpflame.com^
-||hertechlife.com^
 ||hfc195b.com^
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
@@ -763,7 +754,6 @@
 ||infamousstream.com^
 ||innocentlamp.com^
 ||inputicicle.com^
-||inquisitiveice.com^
 ||inquisitiveinvention.com^
 ||insulatech.com^
 ||intelligentscissors.com^
@@ -880,7 +870,6 @@
 ||marriedbelief.com^
 ||marriedmailbox.com^
 ||marriedvalue.com^
-||massivemark.com^
 ||materialisticmoon.com^
 ||materialmilk.com^
 ||materialmoon.com^
@@ -1025,8 +1014,6 @@
 ||panoramicplane.com^
 ||papamug.com^
 ||parallelbulb.com^
-||parcelcreature.com^
-||parchedangle.com^
 ||parchedsofa.com^
 ||parentpicture.com^
 ||parsimoniouspolice.com^
@@ -1037,7 +1024,6 @@
 ||peacefullimit.com^
 ||pedropanther.com^
 ||pegsbuttons.com^
-||perkyjade.com^
 ||phonecup.com^
 ||photographpan.com^
 ||photohints.com^
@@ -1305,12 +1291,10 @@
 ||sentrymagic.com^
 ||separatesort.com^
 ||seraphichorizon.com^
-||seraphicjewel.com^
 ||seraphicjubilee.com^
 ||serendipityecho.com^
 ||serenecascade.com^
 ||serenepebble.com^
-||serenesurf.com^
 ||serenezenith.com^
 ||serenezephyr.com^
 ||serioussuit.com^
@@ -1374,7 +1358,6 @@
 ||smashquartz.com^
 ||smashshoe.com^
 ||smashsurprise.com^
-||smilewound.com^
 ||smilingcattle.com^
 ||smilingmaster.com^
 ||smilingswim.com^
@@ -1458,7 +1441,6 @@
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
-||stampknot.com^
 ||starkscale.com^
 ||startercost.com^
 ||startingcars.com^
@@ -1519,7 +1501,6 @@
 ||sublimequartz.com^
 ||subseaagent.com^
 ||subseasecurity.com^
-||subsequentstew.com^
 ||substantialgrade.com^
 ||substantialstraw.com^
 ||succeedscene.com^
@@ -1608,7 +1589,6 @@
 ||tightpowder.com^
 ||tinyswans.com^
 ||tinytendency.com^
-||tiredthroat.com^
 ||tireinside.com^
 ||tiresomethunder.com^
 ||tofusquirrel.com^
@@ -1673,7 +1653,6 @@
 ||unwieldyhealth.com^
 ||unwieldyimpulse.com^
 ||unwieldyplastic.com^
-||unwrittenspot.com^
 ||uppitytime.com^
 ||uselesslumber.com^
 ||userballot.com^
@@ -1736,7 +1715,6 @@
 ||whiskyqueue.com^
 ||whisperingcascade.com^
 ||whisperingcrib.com^
-||whisperingquasar.com^
 ||whisperingsummit.com^
 ||whispermeeting.com^
 ||whoogled.com^
