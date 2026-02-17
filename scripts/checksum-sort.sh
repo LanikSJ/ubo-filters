@@ -95,12 +95,12 @@ update_headers() {
     else
       echo "$line"
     fi
-  done < "$file" > "$temp_file"
+  done <"$file" >"$temp_file"
 
   # If Last modified or Version headers weren't found, add them after Title/Checksum
   if [[ "$found_last_modified" == "false" ]] || [[ "$found_version" == "false" ]]; then
     local temp_file2="${file}.tmp2.$$"
-    
+
     while IFS= read -r line || [[ -n "$line" ]]; do
       echo "$line"
       # After Title line, add Checksum (placeholder), then missing headers
@@ -113,8 +113,8 @@ update_headers() {
           echo "! Version: $version"
         fi
       fi
-    done < "$temp_file" > "$temp_file2"
-    
+    done <"$temp_file" >"$temp_file2"
+
     mv "$temp_file2" "$temp_file"
   fi
 
@@ -139,16 +139,16 @@ add_checksum() {
       echo "! Checksum: $checksum"
       title_found=true
     fi
-  done < "$file" > "$temp_file"
+  done <"$file" >"$temp_file"
 
   # If no Title line was found, prepend checksum
   if [[ "$title_found" == "false" ]]; then
-    echo "! Checksum: $checksum" > "$temp_file"
-    cat "$file" >> "$temp_file"
+    echo "! Checksum: $checksum" >"$temp_file"
+    cat "$file" >>"$temp_file"
   fi
 
   mv "$temp_file" "$file"
-  
+
   log_info "📝 Checksum: $checksum"
 }
 
@@ -166,7 +166,7 @@ sort_filter() {
       header_end=$line_num
       break
     fi
-  done < "$file"
+  done <"$file"
 
   if [[ $header_end -eq 0 ]]; then
     # No filter rules, just return
@@ -174,10 +174,10 @@ sort_filter() {
   fi
 
   # Extract header (lines before first filter rule)
-  head -n $((header_end - 1)) "$file" > "$temp_file"
+  head -n $((header_end - 1)) "$file" >"$temp_file"
 
   # Sort and append filter rules (skip empty lines at start of content)
-  tail -n +"$header_end" "$file" | sort -u >> "$temp_file"
+  tail -n +"$header_end" "$file" | sort -u >>"$temp_file"
 
   mv "$temp_file" "$file"
 }
