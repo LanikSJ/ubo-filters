@@ -152,34 +152,39 @@ add_checksum() {
   log_info "📝 Checksum: $checksum"
 }
 
-# Sort the filter file (sort filter rules while preserving header)
+# Sort the filter file using FOP CLI
 sort_filter() {
   local file="$1"
-  local temp_file="$file.tmp.$$"
-  local header_end=0
-  local line_num=0
 
-  # Find where header ends (first non-comment line)
-  while IFS= read -r line; do
-    line_num=$((line_num + 1))
-    if [[ ! "$line" =~ ^'!' ]] && [[ -n "$line" ]]; then
-      header_end=$line_num
-      break
+  log_info "🔀 Using FOP CLI to sort filter rules..."
+
+  # Use the Rust-based FOP CLI (required)
+  if command -v fop >/dev/null 2>&1; then
+    log_info "🔀 Using Rust-based FOP CLI"
+    if fop "$file" >/dev/null 2>&1; then
+      log_info "✅ FOP CLI sorting completed successfully"
+      return
+    else
+      log_error "❌ FOP CLI encountered errors while processing the file"
+      log_error "❌ Please check the FOP CLI installation and try again"
+      exit 1
     fi
-  done <"$file"
-
-  if [[ $header_end -eq 0 ]]; then
-    # No filter rules, just return
-    return
+  elif command -v fop-cli >/dev/null 2>&1; then
+    log_info "🔀 Using FOP CLI (fop-cli)"
+    if fozp-cli "$file" >/dev/null 2>&1; then
+      log_info "✅ FOP CLI sorting completed successfully"
+      return
+    else
+      log_error "❌ FOP CLI encountered errors while processing the file"
+      log_error "❌ Please check the FOP CLI installation and try again"
+      exit 1
+    fi
+  else
+    log_error "❌ FOP CLI not found"
+    log_error "❌ Please install the Rust-based FOP CLI from https://github.com/ryanbr/fop-rs"
+    log_error "❌ This script requires FOP CLI and will not fall back to other sorting methods"
+    exit 1
   fi
-
-  # Extract header (lines before first filter rule)
-  head -n $((header_end - 1)) "$file" >"$temp_file"
-
-  # Sort and append filter rules (skip empty lines at start of content)
-  tail -n +"$header_end" "$file" | sort -u >>"$temp_file"
-
-  mv "$temp_file" "$file"
 }
 
 # Process the filter file

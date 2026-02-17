@@ -5,7 +5,7 @@
 no-commit = true
 
 # Skip uBO to ABP option conversion
-no-ubo-convert = true
+no-ubo-convert = false
 
 # Skip commit message format validation (M:/A:/P:)
 no-msg-check = true
