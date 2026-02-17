@@ -14,18 +14,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-      - uses: shogo82148/actions-setup-perl@b6cfc127f1b0a63ac98797800f641494d80f42f8 # v1.37.1
-        with:
-          perl-version: '5.38'
-          install-modules: |
-            Path::Tiny
 
       - name: Install FOP CLI
         run: npm install -g fop-cli
 
       - name: Update Combined Filters
         run: |
-          scripts/combined-filters.sh
+          cp filters/template.txt filters/combined-filters.txt
+          
+          # Combine all filter lists (excluding comments)
+          for filter in adback-domains.txt adkeeper-domains.txt admaven-domains.txt admeasures-domains.txt bt-contentza-domains.txt cdn-filter-list.txt cryptomining-domains.txt freecounterstat-domains.txt getadmiral-domains.txt hilltopads-domains.txt istripper-domains.txt kitty-domains.txt macupload-domains.txt popads-domains.txt propellerads-domains.txt toradvertising-domains.txt unknown-domains.txt videoadex-domains.txt volumedata-domains.txt; do
+            if [ -f "filters/$filter" ]; then
+              grep -v '!' "filters/$filter" >> filters/combined-filters.txt
+            fi
+          done
+          
+          # Clean up and sort
+          grep -v ':::::::::::::' filters/combined-filters.txt | grep -v '.txt' > filters/temp-filters.txt
+          mv -f filters/temp-filters.txt filters/combined-filters.txt
+          
+          # Run checksum-sort
+          ./scripts/checksum-sort.sh filters/combined-filters.txt
 
       - name: Create Pull Request
         id: cpr

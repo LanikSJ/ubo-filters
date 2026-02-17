@@ -3,6 +3,11 @@ name: Admiral Domains
 on:
   schedule:
    - cron: '30 0 * * 1' # Runs 00:30 UTC Only on Monday
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/admiral-domains.yml"
   workflow_dispatch:
 
 permissions:
@@ -14,18 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-      - uses: shogo82148/actions-setup-perl@b6cfc127f1b0a63ac98797800f641494d80f42f8 # v1.37.1
-        with:
-          perl-version: '5.38'
-          install-modules: |
-            Path::Tiny
-      
+
       - name: Install FOP CLI
         run: npm install -g fop-cli
       
       - name: Download Admiral List
         run: |
-          scripts/admiral-domains.sh
+          # Preserve header (first 15 lines) and append new domains
+          ./scripts/remove-lines.sh filters/getadmiral-domains.txt 15 > filters/getadmiral-domains.tmp
+          curl -L https://raw.githubusercontent.com/LanikSJ/AdmiraList/master/AdmiraList.txt | sed 's/^/||/; s/$/^/' >> filters/getadmiral-domains.tmp
+          mv filters/getadmiral-domains.tmp filters/getadmiral-domains.txt
+
+      - name: Sort & Generate Checksum
+        run: |
+          # FOP handles sorting and checksum
+          ./scripts/checksum-sort.sh filters/getadmiral-domains.txt
 
       - name: Create Pull Request
         id: cpr
