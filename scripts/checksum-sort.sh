@@ -171,7 +171,7 @@ sort_filter() {
     fi
   elif command -v fop-cli >/dev/null 2>&1; then
     log_info "🔀 Using FOP CLI (fop-cli)"
-    if fozp-cli "$file" >/dev/null 2>&1; then
+    if fop-cli "$file" >/dev/null 2>&1; then
       log_info "✅ FOP CLI sorting completed successfully"
       return
     else
