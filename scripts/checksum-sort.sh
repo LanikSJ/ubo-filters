@@ -54,15 +54,15 @@ calculate_checksum() {
 get_timestamp() {
   local format="$1"
   case "$format" in
-    "datetime")
-      date -u +"%Y-%m-%d %H:%M UTC"
-      ;;
-    "version")
-      date -u +"%Y%m%d%H%M"
-      ;;
-    *)
-      date -u +"%Y-%m-%d %H:%M UTC"
-      ;;
+  "datetime")
+    date -u +"%Y-%m-%d %H:%M UTC"
+    ;;
+  "version")
+    date -u +"%Y%m%d%H%M"
+    ;;
+  *)
+    date -u +"%Y-%m-%d %H:%M UTC"
+    ;;
   esac
 }
 
@@ -155,9 +155,9 @@ add_checksum() {
 # Sort the filter file using FOP CLI
 sort_filter() {
   local file="$1"
-  
+
   log_info "🔀 Using FOP CLI to sort filter rules..."
-  
+
   # Use the Rust-based FOP CLI (required)
   if command -v fop >/dev/null 2>&1; then
     log_info "🔀 Using Rust-based FOP CLI"
@@ -215,30 +215,30 @@ main() {
   # Parse command line arguments
   while [[ $# -gt 0 ]]; do
     case $1 in
-      --help | -h)
-        echo "Usage: $0 <filter-file>"
-        echo ""
-        echo "Options:"
-        echo "  --help, -h              Show this help message"
-        echo ""
-        echo "Examples:"
-        echo "  $0 filters/combined-filters.txt"
-        exit 0
-        ;;
-      -*)
-        log_error "Unknown option: $1"
-        log_error "Use --help for usage information"
+    --help | -h)
+      echo "Usage: $0 <filter-file>"
+      echo ""
+      echo "Options:"
+      echo "  --help, -h              Show this help message"
+      echo ""
+      echo "Examples:"
+      echo "  $0 filters/combined-filters.txt"
+      exit 0
+      ;;
+    -*)
+      log_error "Unknown option: $1"
+      log_error "Use --help for usage information"
+      exit 1
+      ;;
+    *)
+      if [[ -z "$file" ]]; then
+        file="$1"
+      else
+        log_error "Multiple files specified. Only one file can be processed at a time."
         exit 1
-        ;;
-      *)
-        if [[ -z "$file" ]]; then
-          file="$1"
-        else
-          log_error "Multiple files specified. Only one file can be processed at a time."
-          exit 1
-        fi
-        shift
-        ;;
+      fi
+      shift
+      ;;
     esac
   done
 
