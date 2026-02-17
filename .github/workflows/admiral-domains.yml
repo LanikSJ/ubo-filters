@@ -22,7 +22,7 @@ jobs:
 
       - name: Install FOP CLI
         run: npm install -g fop-cli
-      
+
       - name: Download Admiral List
         run: |
           # Preserve header (first 15 lines) and append new domains
