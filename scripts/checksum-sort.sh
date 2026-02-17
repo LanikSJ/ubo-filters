@@ -69,7 +69,7 @@ get_timestamp() {
 # Update date and version headers, and add checksum after Title
 update_headers() {
   local file="$1"
-  local temp_file="${file}.tmp.$$"
+  local temp_file="$file.tmp.$$"
   local datetime version checksum
 
   datetime=$(get_timestamp "datetime")
@@ -99,7 +99,7 @@ update_headers() {
 
   # If Last modified or Version headers weren't found, add them after Title/Checksum
   if [[ "$found_last_modified" == "false" ]] || [[ "$found_version" == "false" ]]; then
-    local temp_file2="${file}.tmp2.$$"
+    local temp_file2="$file.tmp2.$$"
 
     while IFS= read -r line || [[ -n "$line" ]]; do
       echo "$line"
@@ -128,7 +128,7 @@ add_checksum() {
 
   # Calculate checksum after updating headers
   checksum=$(calculate_checksum "$file")
-  temp_file="${file}.tmp.$$"
+  temp_file="$file.tmp.$$"
 
   # Find Title line and insert Checksum right after it
   local title_found=false
@@ -155,7 +155,7 @@ add_checksum() {
 # Sort the filter file (sort filter rules while preserving header)
 sort_filter() {
   local file="$1"
-  local temp_file="${file}.tmp.$$"
+  local temp_file="$file.tmp.$$"
   local header_end=0
   local line_num=0
 
