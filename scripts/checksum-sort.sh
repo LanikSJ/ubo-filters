@@ -52,18 +52,18 @@ calculate_checksum() {
 
 # Get current timestamp in various formats
 get_timestamp() {
-	local format="$1"
-	case "$format" in
-	"datetime")
-		date -u +"%Y-%m-%d %H:%M UTC"
-		;;
-	"version")
-		date -u +"%Y%m%d%H%M"
-		;;
-	*)
-		date -u +"%Y-%m-%d %H:%M UTC"
-		;;
-	esac
+  local format="$1"
+  case "$format" in
+    "datetime")
+      date -u +"%Y-%m-%d %H:%M UTC"
+      ;;
+    "version")
+      date -u +"%Y%m%d%H%M"
+      ;;
+    *)
+      date -u +"%Y-%m-%d %H:%M UTC"
+      ;;
+  esac
 }
 
 # Update date and version headers, and add checksum after Title
@@ -215,30 +215,30 @@ main() {
 	# Parse command line arguments
 	while [[ $# -gt 0 ]]; do
 		case $1 in
-		--help | -h)
-			echo "Usage: $0 <filter-file>"
-			echo ""
-			echo "Options:"
-			echo "  --help, -h              Show this help message"
-			echo ""
-			echo "Examples:"
-			echo "  $0 filters/combined-filters.txt"
-			exit 0
-			;;
-		-*)
-			log_error "Unknown option: $1"
-			log_error "Use --help for usage information"
-			exit 1
-			;;
-		*)
-			if [[ -z "$file" ]]; then
-				file="$1"
-			else
-				log_error "Multiple files specified. Only one file can be processed at a time."
+			--help | -h)
+				echo "Usage: $0 <filter-file>"
+				echo ""
+				echo "Options:"
+				echo "  --help, -h              Show this help message"
+				echo ""
+				echo "Examples:"
+				echo "  $0 filters/combined-filters.txt"
+				exit 0
+				;;
+			-*)
+				log_error "Unknown option: $1"
+				log_error "Use --help for usage information"
 				exit 1
-			fi
-			shift
-			;;
+				;;
+			*)
+				if [[ -z "$file" ]]; then
+					file="$1"
+				else
+					log_error "Multiple files specified. Only one file can be processed at a time."
+					exit 1
+				fi
+				shift
+				;;
 		esac
 	done
 
