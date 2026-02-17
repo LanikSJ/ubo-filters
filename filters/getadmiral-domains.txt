@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: B/MjAurXBnUWSRVL76+haA
-! Version: 202602161812
-! Last modified: 2026-02-16 18:12 UTC
+! Checksum: igYN2UEH16f2p3GxzJV9EQ
+! Version: 202602170639
+! Last modified: 2026-02-17 06:39 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -142,7 +142,6 @@
 ||baskettexture.com^
 ||bawdybalance.com^
 ||beamincrease.com^
-||beamkite.com^
 ||beamvolcano.com^
 ||beancontrol.com^
 ||bedsberry.com^
@@ -509,7 +508,6 @@
 ||essayspin.com^
 ||etherealbamboo.com^
 ||ethereallagoon.com^
-||etherealpinnacle.com^
 ||etherealripple.com^
 ||evaluatestream.com^
 ||evanescentedge.com^
@@ -627,7 +625,6 @@
 ||fuzzybasketball.com^
 ||fuzzyerror.com^
 ||fuzzyflavor.com^
-||ga87z2o.com^
 ||gammamaximum.com^
 ||gardenovens.com^
 ||gaudyairplane.com^
@@ -738,7 +735,6 @@
 ||hookconference.com^
 ||hospitablehall.com^
 ||hospitablehat.com^
-||hothydrant.com^
 ||howdyinbox.com^
 ||humdrumhobbies.com^
 ||humdrumtouch.com^
@@ -1022,7 +1018,6 @@
 ||panoramicbutter.com^
 ||panoramicplane.com^
 ||papamug.com^
-||paradoxfactor.com^
 ||parallelbulb.com^
 ||parchedsofa.com^
 ||parentpicture.com^

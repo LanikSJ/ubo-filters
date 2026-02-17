@@ -1,24 +1,159 @@
-[Adblock Plus 2.0]
-! Checksum: GJiz+kBZMLZY+KwdJufzVQ
-! Version: 202602161812
-! Title: Fanboy's Social Blocking List
-! Last modified: 2026-02-16 18:12 UTC
-! Expires: 4 days (update frequency)
-! Commit: abb849a17574cc7b3a2729e355aa18e9e8a5b67f
+!
+! ! #share
+! ! #social
+! ! #social-icons
+! ! .ActionBar
+! ! .Share
+! ! .Social
+! ! .a2a_kit
+! ! .fa-facebook
+! ! .fa-twitter
+! ! .facebook
+! ! .fb
+! ! .follow
+! ! .google-news
+! ! .google-news-link
+! ! .head-nav-social
+! ! .header-social
+! ! .instagram
+! ! .l-shared-sec
+! ! .liCompartir
+! ! .masthead-nav-social
+! ! .pinterest
+! ! .post-actions
+! ! .redes
+! ! .sc
+! ! .share
+! ! .share-box
+! ! .share-button
+! ! .share-buttons
+! ! .share-container
+! ! .share-group
+! ! .share-icons
+! ! .share-links
+! ! .shares
+! ! .sharing
+! ! .sns
+! ! .social
+! ! .social-bar
+! ! .social-box
+! ! .social-button
+! ! .social-buttons
+! ! .social-container
+! ! .social-icons
+! ! .social-link
+! ! .social-links
+! ! .social-media
+! ! .social-network
+! ! .social-share
+! ! .social-sharing
+! ! .social_buttons
+! ! .socialmedia
+! ! .socials
+! ! .t-shared-sec
+! ! .tools
+! ! .tw
+! ! .twitter
+! ! .uc-social-bar-wrapper
+! ! .youtube
+! ! :has
+! ! SocialShar
+! ! top-level domain wildcard
+! #include fanboy_social_specific_uBO.txt
+! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
+! *** easylist:fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
+! *** easylist:fanboy-addon/fanboy_social_general_block.txt ***
+! *** easylist:fanboy-addon/fanboy_social_general_hide.txt ***
+! *** easylist:fanboy-addon/fanboy_social_international.txt ***
+! *** easylist:fanboy-addon/fanboy_social_specific_ABP.txt ***
+! *** easylist:fanboy-addon/fanboy_social_specific_block.txt ***
+! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
+! *** easylist:fanboy-addon/fanboy_social_thirdparty.txt ***
 ! *** easylist:template_header.txt ***
-!
-! Please report any unblocked adverts or problems
-! in the forums (https://forums.lanik.us/)
-! or via e-mail (easylist@protonmail.com).
-!
-! Homepage: https://easylist.to/
-! Licence: https://easylist.to/pages/licence.html
+! ---------- Arabic Site Specific Hiding Rules ----------
+! ---------- Arabic Specific Media Elements ----------
+! ---------- Bosnian Specific Media Elements ----------
+! ---------- Chinese Site Specific Hiding Rules ----------
+! ---------- Chinese Specific Media Elements ----------
+! ---------- Croatian Specific Media Elements ----------
+! ---------- Czech Specific Social Media Elements ----------
+! ---------- Danish Specific Social Media Elements ----------
+! ---------- Dutch Site Specific Hiding Rules ----------
+! ---------- Finnish Specific Social Media Elements ----------
+! ---------- French Site Specific Blocking Rules ----------
+! ---------- French Site Specific Hiding Rules ----------
+! ---------- Georgian Specific Social Media Elements ----------
+! ---------- German Site Specific Hiding Rules ----------
+! ---------- Greek Specific Social Media Elements ----------
+! ---------- Hebrew Site Specific Hiding Rules ----------
+! ---------- Hungarian Specific Media Elements ----------
+! ---------- Indian Specific Social Media Elements ----------
+! ---------- Indonesian Specific Social Media Elements ----------
+! ---------- Italian Site Specific Hiding Rules ----------
+! ---------- Japanese Site Specific Hiding Rules ----------
+! ---------- Japanese Specific Media Elements ----------
+! ---------- Korean Site Specific Hiding Rules ----------
+! ---------- Latvian Specific Social Media Elements ----------
+! ---------- Montenegrin Site Specific Hiding Rules ----------
+! ---------- Non-English Social Media Elements ----------
+! ---------- Norwegian Site Specific Hiding Rules ----------
+! ---------- Persian Site Specific Hiding Rules ----------
+! ---------- Polish Site Specific Hiding Rules ----------
+! ---------- Portuguese Site Specific Hiding Rules ----------
+! ---------- Romanian Site Specific Hiding Rules ----------
+! ---------- Russian Site Specific Hiding Rules ----------
+! ---------- Serbian Site Specific Hiding Rules ----------
+! ---------- Slovak Site Specific Hiding Rules ----------
+! ---------- Slovenian Site Specific Hiding Rules ----------
+! ---------- Spanish Site Specific Hiding Rules ----------
+! ---------- Swedish Site Specific Hiding Rules ----------
+! ---------- Turkish Specific Social Media Elements ----------
+! ---------- Ukrainian Site Specific Hiding Rules ----------
+! ---------------------------------Allowlists----------------------------------!
+! --------------------------General blocking rules-----------------------------!
+! --------------------------Specific blocking filters--------------------------!
+! -------------------------Third-party blocking rules--------------------------!
+! ------------------------General element hiding rules-------------------------!
+! ------------------------Rules for international sites------------------------!
+! ------------------------Specific element hiding rules------------------------!
+! Bug in uBo: https://github.com/gorhill/uBlock/issues/1885
+! Commit: abb849a17574cc7b3a2729e355aa18e9e8a5b67f
+! Expires: 4 days (update frequency)
+! Focus.de
+! Generichide
 ! GitHub issues: https://github.com/easylist/easylist/issues
 ! GitHub pull requests: https://github.com/easylist/easylist/pulls
-!
-! --------------------------General blocking rules-----------------------------!
-! *** easylist:fanboy-addon/fanboy_social_general_block.txt ***
+! Homepage: https://easylist.to/
+! Include ubO specific
+! Last modified: 2026-02-17 06:39 UTC
+! Licence: https://easylist.to/pages/licence.html
+! Lithuanian
+! Please report any unblocked adverts or problems
+! Sorted alphabetically by the domain
+! Specific elements because of generichide
+! Specific hiding filters necessary for sites allowlisted with $generichide filter option
+! Title: Fanboy's Social Blocking List
+! Checksum: 00rNkwRr8rUyurYYeGoP9Q
+! Version: 202602170639
+! element specific
+! fanboy_social_allowlist.txt
+! fanboy_social_allowlist_general_hide.txt
 ! fanboy_social_general_block.txt
+! fanboy_social_general_hide.txt
+! fanboy_social_international.txt
+! fanboy_social_specific_ABP.txt
+! fanboy_social_specific_block.txt
+! fanboy_social_specific_hide.txt
+! fanboy_social_thirdparty.txt
+! https://www.sbnation.com/blogs
+! https://www.wpvideolock.com/
+! in the forums (https://forums.lanik.us/)
+! intel.com (and regional sites)
+! jquery bpopup
+! malayalam.indiatoday.in,aajtak.in,bangla.aajtak.in
+! or via e-mail (easylist@protonmail.com).
+-ShareButton2.
+-Social-Sidebar/
 -facebook-likeButton-
 -facebook-share.
 -facebook-widget.
@@ -31,22 +166,30 @@
 -share-sprite-
 -share-sprite.
 -share-tools-
+-shareWidget.
 -sharebar-
 -sharebar.
--ShareButton2.
 -sharebuttons_
 -sharetools-
--shareWidget.
 -slide-social-
 -social-panel.
 -social-panel/
 -social-sidebar.
--Social-Sidebar/
 -social-slider/
 -sprite-social-
 .fbshare.js
 .sharebar.js
 .sharing.js
+/Handlers/Sharrre.ashx?
+/Resources/twitter-$~xmlhttprequest
+/Sharefb.jpg
+/Sharefb.png
+/Sharetw.png
+/Social-Sidebar.js
+/SocialMediaButtons/tracking.js
+/SocialSharePlugin.js
+/SocialSharePlugin.png
+/SocialSprite.
 /a2a_share_
 /accesspress-social-counter/*
 /add-mymsn2.gif
@@ -69,8 +212,8 @@
 /cevhershare.js
 /common/sns/*
 /common/sns_
-/commons/social/*
 /commonSprites/social/*
+/commons/social/*
 /cool-share/plugin.js
 /diggdigg-floating-bar.js
 /ej-socialslider/static/slideout.js
@@ -81,6 +224,8 @@
 /facebook-side.png
 /facebook-vertical.png
 /facebook-vertical.svg
+/facebookBtmIcon.gif
+/facebookHeader.png
 /facebook_badge.gif
 /facebook_badge.jpg
 /facebook_badge.png
@@ -95,8 +240,6 @@
 /facebookbadge.gif
 /facebookbadge.jpg
 /facebookbadge.png
-/facebookBtmIcon.gif
-/facebookHeader.png
 /facebooksharebutton.png
 /facebooksocialplugins.js
 /facebooksquare.jpg
@@ -139,7 +282,6 @@
 /gigya-socialize-for-wordpress/*$~script,~stylesheet
 /gm-button-social.min.js
 /graphics/share/*
-/Handlers/Sharrre.ashx?
 /header_socials.png
 /highlight-and-share.js
 /icon_share_
@@ -150,6 +292,7 @@
 /jiathis_share.css
 /jinda-facebook-lightbox/public/*
 /jquery-pin-it-button-for-images/js/jpibfi.client.js
+/jquery.bpopup.$script,domain=telechargerunevideo.com
 /jquery.shareaholic-publishers-sb.min.js
 /jquery.sharecount.min.js
 /jquery.stp.min.js
@@ -189,6 +332,7 @@
 /pinterest-over.png
 /pinterest_tag.js
 /pintrest-button.png
+/plugins/StickySocialBar/js/sharefront.js
 /plugins/add-to-any-subscribe/subscribe_
 /plugins/anmiated-twitter-bird/js/tripleflap.js
 /plugins/bookmarkify/*
@@ -223,7 +367,6 @@
 /plugins/socialfans-counter/assets/js/socialfans-script.js
 /plugins/socialgrid/static/img/*
 /plugins/sociallocker-next-premium/*
-/plugins/StickySocialBar/js/sharefront.js
 /plugins/subscribe-connect-follow-widget/images/*
 /plugins/tweet-this/icons/*
 /plugins/tweetmeme/button.js
@@ -237,7 +380,6 @@
 /plugins/wp-tweet-button/tweetn.png
 /prisna-social-counter.css
 /qa-social-share.css
-/Resources/twitter-$~xmlhttprequest
 /rrshare.js
 /s9-social-sharing-front.css
 /scrollShareMenu.html
@@ -254,6 +396,17 @@
 /share/footer/*
 /share/frame/*
 /share42.js
+/shareArrow.png
+/shareBar/*
+/shareBtn_
+/shareFacebook.jpg
+/shareFacebook.png
+/shareIcons.$~stylesheet
+/shareTT.js
+/shareThisIcons.png
+/shareTools.js
+/shareTwitter.jpg
+/shareTwitter.png
 /share_button?
 /share_count.js
 /share_iframe.js
@@ -266,11 +419,8 @@
 /share_weibo.jpg
 /share_weibo.png
 /shareaholic.js
-/shareArrow.png
 /sharebar.js
-/shareBar/*
 /sharebars/*
-/shareBtn_
 /sharebutton?
 /sharecount/*
 /sharecounter?
@@ -280,27 +430,16 @@
 /shared/social/*
 /sharedaddy.js
 /sharedaddy/sharing.min.js
-/shareFacebook.jpg
-/shareFacebook.png
-/Sharefb.jpg
-/Sharefb.png
 /sharefb_icon.png
 /shareicon-branding-
-/shareIcons.$~stylesheet
 /shareit.js
 /shareon.iife.js
 /shareon.min.css
 /sharer.js
 /sharethis-buttons.js
 /sharethis.js
-/shareThisIcons.png
 /sharetool.php?
-/shareTools.js
-/shareTT.js
-/Sharetw.png
 /sharetw_icon.png
-/shareTwitter.jpg
-/shareTwitter.png
 /shariff.min.js
 /sharing/sprites/*
 /sharing_icons/*
@@ -322,7 +461,6 @@
 /social-footer.jpg
 /social-footer.png
 /social-proof-testimonials-slider/admin/js/slick-block-editor.js
-/Social-Sidebar.js
 /social-twit.png
 /social-twit.svg
 /social-url-generator.js
@@ -330,6 +468,8 @@
 /social-widgets-
 /social/sprite-
 /social2s.min.js
+/socialMediaButtons.png
+/socialSmall/*
 /social_balloon-
 /social_bookmarking.png
 /social_bookmarking/*$image
@@ -350,17 +490,11 @@
 /socialfooter.js
 /socialite.js
 /socialite.min.js
-/socialMediaButtons.png
-/SocialMediaButtons/tracking.js
 /socialmediasprite.png
 /socialnetwork-buttons/*
 /socialplugins/*
-/SocialSharePlugin.js
-/SocialSharePlugin.png
 /socialshares.js
 /socialsite/*
-/socialSmall/*
-/SocialSprite.
 /socialsprites.
 /socialstat?
 /socialtwitter1.png
@@ -417,10 +551,93 @@
 /widgets/twitter/*
 /wordpress-popup/*$domain=ahchealthenews.com
 /wp-content/plugins/advanced-facebook-content-locker/*
+/wp-content/plugins/videolock/*$script
 /wp-social-toolbar/js/scripts.js
 /wpsms-public.css
 /wpsms-public.min.js
 /ya-share.js
+@@/angular-facebook.js
+@@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
+@@/wp-content/plugins/share-this-image/*$~third-party
+@@/wp-content/plugins/socialauth-wp/*$~third-party
+@@/wp-content/plugins/wordpress-social-login/*$~third-party
+@@/wp-content/plugins/wp-minify/min/?*,wp-content$stylesheet
+@@/wp-content/plugins/wp-rocket/*$image,~third-party
+@@||3obieg.pl/wp-content/themes/sowe/css/content/$image
+@@||adguard.com/public/Adguard/Blog/Android/comparison/facebook_$image,domain=adguard.com
+@@||ahaan.co.uk^$~third-party,xmlhttprequest
+@@||answers.ros.org/m/default/media/images/socialsprite.png$~third-party
+@@||app.conceptboard.com^*/SocialIcons.js$xmlhttprequest
+@@||app.veggly.net/plugins/cordova-plugin-x-socialsharing/$script,~third-party
+@@||arcgis.com/apps/Nearby/app/components/Share/$~third-party
+@@||archiveteam.org^$generichide
+@@||assets.msn.com/bundles/*/social-bar-$~third-party
+@@||authy.com/wp-content/themes/authy/assets/images/icons/
+@@||brave.com/wp-content/uploads/$image,~third-party
+@@||cdn.flowplayer.com^*/share.min.js
+@@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
+@@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/instafeed.min.js$~third-party
+@@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
+@@||d27rt3a60hh1lx.cloudfront.net/models/$domain=muse.place
+@@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs-share.min.js?$script,domain=vrsicilia.it
+@@||docs.qq.com^$generichide
+@@||enumizmatyczny.pl/modules/hifacebookconnect/$image
+@@||facebook.com^*/plugins/page.php?$domain=cieplikpodrozuje.pl|makulscy.com
+@@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
+@@||findicons.com/files/icons/$~third-party
+@@||fontawesome.com^$generichide
+@@||gen.jut.su/jcdn/minify?charset=*/videojs-share.$script,stylesheet,domain=jut.su
+@@||github.com^$generichide
+@@||github.io^$generichide
+@@||iconfinder.com/data/icons/$~third-party
+@@||iconizer.net/files/*_social_$image
+@@||iconspedia.com/icon/$image,~third-party
+@@||ifttt.com^$generichide
+@@||inscience.news/svc/getscript.aspx$script,~third-party
+@@||instagram.com/p/$subdocument,third-party
+@@||jsdelivr.net/npm/sharer.js
+@@||kinogoo.cc/engine/classes/min/index.php$~third-party,xmlhttprequest
+@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs-share.min.js?$script,~third-party
+@@||login.kataweb.it^*/sprite-social.png
+@@||logo.wine/a/logo/$image,~third-party
+@@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
+@@||moneyweb.co.za^*/social-shares.min.js?
+@@||namechk.com^$generichide
+@@||ncsoft.jp/js/common/jws/socialBar.js$~third-party
+@@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
+@@||nuxt.com/_nuxt/SocialLinks.$script,~third-party
+@@||parlament.mt/scripts/easy-social-share.js
+@@||player.fm^*/social-icons/$image
+@@||pngrepo.com/png/$image,~third-party
+@@||politumor.ru/engine/classes/min/index.php?f=*/share42.js$script,~third-party
+@@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs-share.min.js?$script,~third-party
+@@||radio24.ilsole24ore.com/plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js$script,~third-party
+@@||reactandshare.com/plugin/rns.js$domain=maanmittauslaitos.fi|verkkouutiset.fi
+@@||restream.io^$generichide
+@@||s7.addthis.com^*/addthis_widget.js$domain=mediamatters.org|politico.com
+@@||sharethis.com/button/buttons.js$domain=bristan.com
+@@||softicons.com/download/$image
+@@||srf.ch/socialview-in/$~third-party
+@@||static.addtoany.com/menu/page.js$script,domain=suttonquebec.com
+@@||static.parastorage.com/services/editor-elements/dist/facebookshare.$script,third-party
+@@||supremacy1914.com/fileadmin/templates/$~third-party
+@@||svgrepo.com/show/$image,~third-party
+@@||switching.software^$generichide
+@@||tf1.fr/public/*-share-$script,~third-party
+@@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
+@@||tgstat.ru/js/share2/share.js$script,~third-party
+@@||thecity.m24.ru/css/ya-share.css
+@@||thecompany.pl/graf/icons/youtube.png
+@@||tldrify.com^$generichide
+@@||tosdr.org/logo/$image
+@@||tweet.mapping.jp/data/czml/tweets.json$~third-party
+@@||vpobede.ru/assets/images/footer-social/$~third-party,xmlhttprequest
+@@||wettercomassets.com/wcomv5/images/footer/$domain=wetter.com
+@@||yap.ru/html/static/share/$image,~third-party
+@@||yaplakal.com/html/static/$image,~third-party
+@@||yastatic.net/share2/share.js$script
+@@||zeplin.io^$generichide
+[Adblock Plus 2.0]
 _footer_twitter.
 _share_bookmark.
 _share_widget_
@@ -430,33 +647,27 @@ _social_badge_$~xmlhttprequest
 _social_bookmark/
 _social_bookmarks/
 _social_footer_
-! jquery bpopup
-/jquery.bpopup.$script,domain=telechargerunevideo.com
-! https://www.wpvideolock.com/
-/wp-content/plugins/videolock/*$script
-! ------------------------General element hiding rules-------------------------!
-! *** easylist:fanboy-addon/fanboy_social_general_hide.txt ***
-! fanboy_social_general_hide.txt
-! malayalam.indiatoday.in,aajtak.in,bangla.aajtak.in
-! https://www.sbnation.com/blogs
-! element specific
-! intel.com (and regional sites)
-! Bug in uBo: https://github.com/gorhill/uBlock/issues/1885
-! -------------------------Third-party blocking rules--------------------------!
-! *** easylist:fanboy-addon/fanboy_social_thirdparty.txt ***
-! fanboy_social_thirdparty.txt
+apotti.fi#?#.post-footer:-abp-has(> .share)
+arbys.com#?#[class^="linkBlocks_linkBlock__"]:-abp-has(> [class^="linkBlocks_socialLinkBlockList__"])
+forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
+relationshiphero.com#?#div:-abp-has(+ .socialIcons)
+viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://whatsapp.com"])
 ||addnow.com^$third-party
 ||addthis.com^$third-party
 ||addthiscdn.com^$domain=~addthis.com
 ||addtoany.com^$third-party
+||almasryalyoum.com/scripts/sharing.js
 ||assets.pinterest.com/js/pinit.js$third-party
 ||assets.pinterest.com/pidget.html$third-party
+||aventurasnahistoria.com.br/static/socialmedia/
+||aventurasnahistoria.uol.com.br/static/socialmedia/
 ||b.hatena.ne.jp^$third-party
 ||b.st-hatena.com/images/$image,third-party,domain=~b.hatena.ne.jp
 ||b.st-hatena.com/js/$script,third-party,domain=~b.hatena.ne.jp
 ||badge.facebook.com^$third-party
 ||badges.instagram.com^$third-party
 ||bloglovin.com/widget/$third-party
+||bnews.com.br/static/socialmedia/
 ||bshare.cn^$third-party
 ||button-share.zalo.me^$third-party
 ||button.like.co^$third-party
@@ -465,6 +676,7 @@ _social_footer_
 ||connect.ok.ru^$third-party
 ||crowdynews.com^$third-party
 ||dailymotion.com/badge/user/$third-party
+||defatoonline.com.br/whatsapp.html
 ||facebook.com/plugins/activity.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
 ||facebook.com/plugins/fan.php?$third-party
@@ -484,6 +696,7 @@ _social_footer_
 ||facebook.com^*/plugins/like.php?$third-party
 ||facebook.com^*/plugins/page.php?$third-party
 ||facebook.com^*/plugins/share_button.php?$third-party
+||fanclubbarcelona.nl/images/mediabuttons/
 ||fark.com^$script,third-party
 ||feedgrabbr.com/widget/
 ||feedly.com/img/follows/$third-party
@@ -494,6 +707,7 @@ _social_footer_
 ||fireworkapi1.com^$third-party,domain=~matsukiyococokara-online.com
 ||fireworktv.com^$third-party
 ||flipboard.com/web/buttons/$third-party
+||focus.it/images/embed/banner-canale-whats-up/
 ||followistic.com^$third-party
 ||friends2follow.com^$subdocument,third-party
 ||fwcdn2.com^$third-party
@@ -507,14 +721,21 @@ _social_footer_
 ||gplusapi.appspot.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||handll.com^$third-party
+||harem69.com.br/img/social.png
 ||hatena.ne.jp/entry/button/$third-party
 ||herokuapp.com/button.html?$third-party
 ||hn-button.herokuapp.com^$third-party
+||hollywoodforevertv.com.br/static/socialmedia/
+||hotpot.ai/components/shareOverlay
 ||iconosquare.com/widget.php$third-party
+||imyfone.com/assets/js/media_share/
 ||insidesoci.al^$third-party
+||ipaddress.com/shariff/
+||jcconcursos.com.br/static/socialmedia/
 ||jit.su/frame$third-party
 ||jsoon.digitiminimi.com^$third-party
 ||karmacracy.com/widget$third-party
+||lequipe.fr/_nuxt/Share.
 ||lessbuttons.com^$third-party
 ||likebtn.com^$third-party
 ||line-apps.com^*/thirdparty/$third-party
@@ -528,9 +749,15 @@ _social_footer_
 ||meebo.com^$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
+||napolimagazine.com/web/img/iconefooter/
+||napolimagazine.com/web/img/iconetop/
+||naturalnews.com/getviews2.
 ||newsharecounts.com^$third-party
+||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
 ||opensharecount.com^$third-party
+||opto.sic.pt/footer/socials/
 ||patreon.com/becomePatronButton.bundle.js$third-party
+||people.com.cn/img/2020fenxiang/
 ||pepper.com^$third-party
 ||pinterest.com/images/$third-party
 ||pinterest.com/js/pinit_main.js$third-party
@@ -542,6 +769,9 @@ _social_footer_
 ||platform.twitter.com/js/button.$third-party
 ||po.st/share/$script
 ||po.st/static/$third-party
+||probook.bg/like?$third-party
+||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
+||radio-canada.ca/mp/modules.socialbar.executer.$script
 ||reactandshare.com^$third-party
 ||reddit.com/api/info.json?$third-party
 ||reddit.com/button.js?$third-party
@@ -554,13 +784,16 @@ _social_footer_
 ||sharethis.com^$third-party
 ||sharexy.com^$third-party
 ||sharpay.io^$third-party
+||shbarcelona.com/img/socialnetwork/
 ||shpg.org^$third-party
 ||simplesharebuttons.com^$third-party
 ||softwebzone.com^$third-party
 ||spotify.com/follow/$third-party
 ||statigr.am^$third-party
+||stjegypt.com/uploads/stjnew.jpg
 ||storeya.com/externalscript/$third-party
 ||t.pridat.eu^$third-party
+||taishurx.jp/js/web/sns_header.js
 ||trendemon.com^$third-party
 ||twitter.com/account/$third-party
 ||twitter.com/i/jot
@@ -587,318 +820,3 @@ _social_footer_
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
 ||zextit.com/partners/$third-party
-! --------------------------Specific blocking filters--------------------------!
-! *** easylist:fanboy-addon/fanboy_social_specific_block.txt ***
-! fanboy_social_specific_block.txt
-||hotpot.ai/components/shareOverlay
-||ipaddress.com/shariff/
-||naturalnews.com/getviews2.
-||people.com.cn/img/2020fenxiang/
-||shbarcelona.com/img/socialnetwork/
-! ------------------------Specific element hiding rules------------------------!
-! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
-! fanboy_social_specific_hide.txt
-! ! :has
-! ! top-level domain wildcard
-! ! .socialmedia
-! ! .social-sharing
-! ! .share-group
-! ! .a2a_kit
-! ! .share-container
-! ! .share-icons
-! ! .share-links
-! ! .share-buttons
-! ! .ActionBar
-! ! .Social
-! ! .social
-! ! #share
-! ! .share
-! ! .share-button
-! ! .share-box
-! ! .twitter
-! ! .t-shared-sec
-! ! .l-shared-sec
-! ! .socials
-! ! .social_buttons
-! ! #social-icons
-! ! .social-icons
-! ! .social-share
-! ! .shares
-! ! .sharing
-! ! .social-bar
-! ! .social-container
-! ! .social-media
-! ! .social-network
-! ! .tools
-! ! #social
-! ! .masthead-nav-social
-! ! .head-nav-social
-! ! .liCompartir
-! ! .social-button
-! ! .social-buttons
-! ! .uc-social-bar-wrapper
-! ! .sns
-! ! .sc
-! ! .tw
-! ! .tw
-! ! .fb
-! ! .youtube
-! ! .post-actions
-! ! .fa-twitter
-! ! .fa-facebook
-! ! .facebook
-! ! .pinterest
-! ! .social-box
-! ! .follow
-! ! .instagram
-! ! .Share
-! ! .social-links
-! ! .social-link
-! ! .google-news
-! ! .google-news-link
-! ! SocialShar
-! ! .header-social
-! ! .redes
-! Specific elements because of generichide
-! Include ubO specific
-! #include fanboy_social_specific_uBO.txt
-! *** easylist:fanboy-addon/fanboy_social_specific_ABP.txt ***
-! fanboy_social_specific_ABP.txt
-! Sorted alphabetically by the domain
-arbys.com#?#[class^="linkBlocks_linkBlock__"]:-abp-has(> [class^="linkBlocks_socialLinkBlockList__"])
-relationshiphero.com#?#div:-abp-has(+ .socialIcons)
-viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://whatsapp.com"])
-! ------------------------Rules for international sites------------------------!
-! *** easylist:fanboy-addon/fanboy_social_international.txt ***
-! fanboy_social_international.txt
-!
-! ---------- Non-English Social Media Elements ----------
-!
-||probook.bg/like?$third-party
-!
-! ---------- German Site Specific Hiding Rules ----------
-!
-! Specific hiding filters necessary for sites allowlisted with $generichide filter option
-! Focus.de
-!
-! ---------- French Site Specific Hiding Rules ----------
-!
-!
-! ---------- French Site Specific Blocking Rules ----------
-!
-||lequipe.fr/_nuxt/Share.
-||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
-||radio-canada.ca/mp/modules.socialbar.executer.$script
-!
-! ---------- Arabic Site Specific Hiding Rules ----------
-!
-!
-! ---------- Arabic Specific Media Elements ----------
-!
-||almasryalyoum.com/scripts/sharing.js
-||stjegypt.com/uploads/stjnew.jpg
-!
-! ---------- Bosnian Specific Media Elements ----------
-!
-!
-! ---------- Croatian Specific Media Elements ----------
-!
-!
-! ---------- Chinese Specific Media Elements ----------
-!
-!
-! ---------- Chinese Site Specific Hiding Rules ----------
-!
-!
-! ---------- Czech Specific Social Media Elements ----------
-!
-!
-! ---------- Danish Specific Social Media Elements ----------
-!
-!
-! ---------- Dutch Site Specific Hiding Rules ----------
-!
-||fanclubbarcelona.nl/images/mediabuttons/
-!
-! ---------- Finnish Specific Social Media Elements ----------
-!
-apotti.fi#?#.post-footer:-abp-has(> .share)
-forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
-!
-! ---------- Georgian Specific Social Media Elements ----------
-!
-!
-! ---------- Greek Specific Social Media Elements ----------
-!
-!
-! ---------- Hebrew Site Specific Hiding Rules ----------
-!
-!
-! ---------- Hungarian Specific Media Elements ----------
-!
-!
-! ---------- Indian Specific Social Media Elements ----------
-!
-!
-! ---------- Indonesian Specific Social Media Elements ----------
-!
-!
-! ---------- Italian Site Specific Hiding Rules ----------
-!
-||focus.it/images/embed/banner-canale-whats-up/
-||napolimagazine.com/web/img/iconefooter/
-||napolimagazine.com/web/img/iconetop/
-||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
-!
-! ---------- Japanese Specific Media Elements ----------
-!
-||imyfone.com/assets/js/media_share/
-||taishurx.jp/js/web/sns_header.js
-!
-! ---------- Japanese Site Specific Hiding Rules ----------
-!
-!
-! ---------- Korean Site Specific Hiding Rules ----------
-!
-!
-! ---------- Latvian Specific Social Media Elements ----------
-!
-||sekomums.lv^$third-party
-!
-! ---------- Montenegrin Site Specific Hiding Rules ----------
-!
-!
-! ---------- Norwegian Site Specific Hiding Rules ----------
-!
-!
-! ---------- Persian Site Specific Hiding Rules ----------
-!
-!
-! ---------- Polish Site Specific Hiding Rules ----------
-!
-!
-! ---------- Portuguese Site Specific Hiding Rules ----------
-!
-||aventurasnahistoria.com.br/static/socialmedia/
-||aventurasnahistoria.uol.com.br/static/socialmedia/
-||bnews.com.br/static/socialmedia/
-||defatoonline.com.br/whatsapp.html
-||harem69.com.br/img/social.png
-||hollywoodforevertv.com.br/static/socialmedia/
-||jcconcursos.com.br/static/socialmedia/
-||opto.sic.pt/footer/socials/
-!
-! ---------- Romanian Site Specific Hiding Rules ----------
-!
-!
-! ---------- Ukrainian Site Specific Hiding Rules ----------
-!
-!
-! ---------- Russian Site Specific Hiding Rules ----------
-!
-!
-! ---------- Serbian Site Specific Hiding Rules ----------
-!
-!
-! ---------- Slovak Site Specific Hiding Rules ----------
-!
-!
-! ---------- Slovenian Site Specific Hiding Rules ----------
-!
-!
-! ---------- Spanish Site Specific Hiding Rules ----------
-!
-! Lithuanian
-!
-! ---------- Swedish Site Specific Hiding Rules ----------
-!
-!
-! ---------- Turkish Specific Social Media Elements ----------
-!
-! ---------------------------------Allowlists----------------------------------!
-! *** easylist:fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
-! fanboy_social_allowlist_general_hide.txt
-! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
-! fanboy_social_allowlist.txt
-@@/angular-facebook.js
-@@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
-@@/wp-content/plugins/share-this-image/*$~third-party
-@@/wp-content/plugins/socialauth-wp/*$~third-party
-@@/wp-content/plugins/wordpress-social-login/*$~third-party
-@@/wp-content/plugins/wp-minify/min/?*,wp-content$stylesheet
-@@/wp-content/plugins/wp-rocket/*$image,~third-party
-@@||3obieg.pl/wp-content/themes/sowe/css/content/$image
-@@||adguard.com/public/Adguard/Blog/Android/comparison/facebook_$image,domain=adguard.com
-@@||ahaan.co.uk^$~third-party,xmlhttprequest
-@@||answers.ros.org/m/default/media/images/socialsprite.png$~third-party
-@@||app.conceptboard.com^*/SocialIcons.js$xmlhttprequest
-@@||app.veggly.net/plugins/cordova-plugin-x-socialsharing/$script,~third-party
-@@||arcgis.com/apps/Nearby/app/components/Share/$~third-party
-@@||assets.msn.com/bundles/*/social-bar-$~third-party
-@@||authy.com/wp-content/themes/authy/assets/images/icons/
-@@||brave.com/wp-content/uploads/$image,~third-party
-@@||cdn.flowplayer.com^*/share.min.js
-@@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/instafeed.min.js$~third-party
-@@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
-@@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
-@@||d27rt3a60hh1lx.cloudfront.net/models/$domain=muse.place
-@@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs-share.min.js?$script,domain=vrsicilia.it
-@@||enumizmatyczny.pl/modules/hifacebookconnect/$image
-@@||facebook.com^*/plugins/page.php?$domain=cieplikpodrozuje.pl|makulscy.com
-@@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
-@@||findicons.com/files/icons/$~third-party
-@@||gen.jut.su/jcdn/minify?charset=*/videojs-share.$script,stylesheet,domain=jut.su
-@@||iconfinder.com/data/icons/$~third-party
-@@||iconizer.net/files/*_social_$image
-@@||iconspedia.com/icon/$image,~third-party
-@@||inscience.news/svc/getscript.aspx$script,~third-party
-@@||instagram.com/p/$subdocument,third-party
-@@||jsdelivr.net/npm/sharer.js
-@@||kinogoo.cc/engine/classes/min/index.php$~third-party,xmlhttprequest
-@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs-share.min.js?$script,~third-party
-@@||login.kataweb.it^*/sprite-social.png
-@@||logo.wine/a/logo/$image,~third-party
-@@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
-@@||moneyweb.co.za^*/social-shares.min.js?
-@@||ncsoft.jp/js/common/jws/socialBar.js$~third-party
-@@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
-@@||nuxt.com/_nuxt/SocialLinks.$script,~third-party
-@@||parlament.mt/scripts/easy-social-share.js
-@@||player.fm^*/social-icons/$image
-@@||pngrepo.com/png/$image,~third-party
-@@||politumor.ru/engine/classes/min/index.php?f=*/share42.js$script,~third-party
-@@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs-share.min.js?$script,~third-party
-@@||radio24.ilsole24ore.com/plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js$script,~third-party
-@@||reactandshare.com/plugin/rns.js$domain=maanmittauslaitos.fi|verkkouutiset.fi
-@@||s7.addthis.com^*/addthis_widget.js$domain=mediamatters.org|politico.com
-@@||sharethis.com/button/buttons.js$domain=bristan.com
-@@||softicons.com/download/$image
-@@||srf.ch/socialview-in/$~third-party
-@@||static.addtoany.com/menu/page.js$script,domain=suttonquebec.com
-@@||static.parastorage.com/services/editor-elements/dist/facebookshare.$script,third-party
-@@||supremacy1914.com/fileadmin/templates/$~third-party
-@@||svgrepo.com/show/$image,~third-party
-@@||tf1.fr/public/*-share-$script,~third-party
-@@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
-@@||tgstat.ru/js/share2/share.js$script,~third-party
-@@||thecity.m24.ru/css/ya-share.css
-@@||thecompany.pl/graf/icons/youtube.png
-@@||tosdr.org/logo/$image
-@@||tweet.mapping.jp/data/czml/tweets.json$~third-party
-@@||vpobede.ru/assets/images/footer-social/$~third-party,xmlhttprequest
-@@||wettercomassets.com/wcomv5/images/footer/$domain=wetter.com
-@@||yap.ru/html/static/share/$image,~third-party
-@@||yaplakal.com/html/static/$image,~third-party
-@@||yastatic.net/share2/share.js$script
-! Generichide
-@@||archiveteam.org^$generichide
-@@||docs.qq.com^$generichide
-@@||fontawesome.com^$generichide
-@@||github.com^$generichide
-@@||github.io^$generichide
-@@||ifttt.com^$generichide
-@@||namechk.com^$generichide
-@@||restream.io^$generichide
-@@||switching.software^$generichide
-@@||tldrify.com^$generichide
-@@||zeplin.io^$generichide
