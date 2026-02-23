@@ -1,7 +1,7 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: wYP/c28nqCUEVesX713rKg
-! Version: 202601050830
-! Last modified: 2026-01-05 08:30 UTC
+! Checksum: T1cht7egttQnAi6RBk6E5w
+! Version: 202602230850
+! Last modified: 2026-02-23 08:50 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -27,7 +27,6 @@
 ||bablace.com
 ||bewaslac.com
 ||biberukalap.com
-||bitclub.network^$third-party
 ||bitclubnetwork.com^$third-party
 ||browsealoud.com/plus/scripts/$script
 ||browsermine.com^$third-party
