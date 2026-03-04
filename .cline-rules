@@ -38,6 +38,21 @@ ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
 - Use `markdownlint --fix <filename>` for auto-fixable issues when available
 - Validate markdown files in CI/CD pipelines where applicable
 
+### Whitespace and Code Formatting Standards
+
+- **ALL files MUST be free of trailing whitespace**
+- Run `grep -n '[[:space:]]$' <filename>` to check for trailing whitespace
+- Remove trailing whitespace with: `sed -i '' 's/[[:space:]]*$//' <filename>`
+- Ensure consistent indentation (prefer spaces over tabs for shell scripts)
+- Use Unix line endings (LF) - no DOS line endings (CRLF)
+- Validate shell scripts with `shellcheck` where applicable
+- For shell scripts (.sh files):
+  - Use 2-space indentation consistently
+  - Avoid mixed tabs and spaces
+  - Ensure proper shebang lines
+  - Use `set -euo pipefail` for error handling
+- Clean up whitespace before committing changes
+
 ## Development Guidelines
 
 ### When Making Changes

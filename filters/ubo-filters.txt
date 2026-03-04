@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: M7zOkeabD7P_RvabEGJ2gw
-! Last modified: 2026-02-17 05:05 UTC
-! Version: 202602170505
+! Checksum: Y62RXSpbl5sUk4uNlDAvAQ
+! Last modified: 2026-03-04 05:21 UTC
+! Version: 202603040521
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -297,6 +297,9 @@ holyprofweb.com##.wp-block-button__link
 holyprofweb.com##div[class*=holyp-after]
 holyprofweb.com##div[class*=holyp-before]
 holyprofweb.com##div[id*="holyp-"]
+hostinger.com##.ai-chatbot--closed
+hostinger.com##.float-btn--bottom-right.float-btn__wrapper
+hostinger.com##.h-contact-sales-modal
 hotdeals.com##.ads-list-one
 hotdeals.com##.newaddads
 hotdeals.com##.sell_right
@@ -421,6 +424,7 @@ nordstrom.com##a[href^="/browse/gifts/valentines-day"]
 nordstrom.com##a[href^="/browse/pop-in-olivia-kim"]
 nordstrom.com##a[href^="/browse/sale/all"]
 nordstrom.com##a[href^="/creditcard/entry"]
+nordstrom.com##article.themedCard
 notepad-plus-plus.org##.cc_banner-wrapper
 nuwber.com###onerep-remove-page
 nytimes.com##.collection-menu
@@ -613,6 +617,7 @@ timeanddate.com###ad300
 tmo.report##.read-single.entry-content-wrap > .entry-content
 tmo.report##.widget_patreon_sidebar_site_widget
 tmo.report###directad
+tmz.com##.carousel-wrapper
 tomato.groov.pl###sidebar-over-blog
 tomsguide.com##.full.container.trending-bar
 tomsguide.com##.jw-reset.jw-video
@@ -689,6 +694,12 @@ www.amazon.com##div[class*="DesktopFlexBanner"]
 www.amazon.com##div[class*="one-click-music-offer-card"]
 www.google.com###rhs > block-component
 www.i-dont-care-about-cookies.eu###sidebar
+www.youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
+www.youtube.com##.video-annotations
+www.youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
+www.youtube.com##.ytd-info-panel-container-renderer
+www.youtube.com##.ytd-rich-shelf-renderer.style-scope
+www.youtube.com###sbjs-label-full
 xamarinhowto.com##.custom-html-widget
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
@@ -701,8 +712,4 @@ yahoo.com###yucs-top-ff-promo
 yelp.com##.full-promo-rounded
 yelp.com##.y-css-q24cca
 yelp.com##div[class*="promotional-banner"]
-youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
-youtube.com##.video-annotations
-youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
-youtube.com##.ytd-info-panel-container-renderer
 zdnet.com##.content-bottom-leaderboard
