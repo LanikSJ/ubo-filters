@@ -152,39 +152,31 @@ add_checksum() {
   log_info "📝 Checksum: $checksum"
 }
 
-# Sort the filter file using FOP CLI
+# Sort the filter file manually using Unix sort
 sort_filter() {
   local file="$1"
 
-  log_info "🔀 Using FOP CLI to sort filter rules..."
+  log_info "🔀 Sorting filter rules manually using Unix sort..."
 
-  # Use the Rust-based FOP CLI (required)
-  if command -v fop >/dev/null 2>&1; then
-    log_info "🔀 Using Rust-based FOP CLI"
-    if fop "$file" >/dev/null 2>&1; then
-      log_info "✅ FOP CLI sorting completed successfully"
-      return
-    else
-      log_error "❌ FOP CLI encountered errors while processing the file"
-      log_error "❌ Please check the FOP CLI installation and try again"
-      exit 1
-    fi
-  elif command -v fop-cli >/dev/null 2>&1; then
-    log_info "🔀 Using FOP CLI (fop-cli)"
-    if fop-cli "$file" >/dev/null 2>&1; then
-      log_info "✅ FOP CLI sorting completed successfully"
-      return
-    else
-      log_error "❌ FOP CLI encountered errors while processing the file"
-      log_error "❌ Please check the FOP CLI installation and try again"
-      exit 1
-    fi
-  else
-    log_error "❌ FOP CLI not found"
-    log_error "❌ Please install the Rust-based FOP CLI from https://github.com/ryanbr/fop-rs"
-    log_error "❌ This script requires FOP CLI and will not fall back to other sorting methods"
-    exit 1
-  fi
+  # Create temporary files
+  local temp_file="$file.tmp.$$"
+  local temp_rules="$file.rules.tmp.$$"
+  local temp_comments="$file.comments.tmp.$$"
+  
+  # Extract header comments (lines starting with !) and rules separately
+  grep '^!' "$file" > "$temp_comments"
+  grep -v '^!' "$file" > "$temp_rules"
+  
+  # Sort the rules alphabetically
+  sort "$temp_rules" > "$temp_file"
+  
+  # Combine header comments and sorted rules
+  cat "$temp_comments" "$temp_file" > "$file"
+  
+  # Clean up temporary files
+  rm -f "$temp_file" "$temp_rules" "$temp_comments"
+  
+  log_info "✅ Manual sorting completed successfully"
 }
 
 # Process the filter file
@@ -193,13 +185,13 @@ process_file() {
 
   log_info "🔄 Processing file: $file"
 
-  # Step 1: Update date and version headers
-  log_info "📅 Updating date and version headers..."
-  update_headers "$file"
-
-  # Step 2: Sort filter rules
+  # Step 1: Sort filter rules (before header updates)
   log_info "🔀 Sorting filter rules..."
   sort_filter "$file"
+
+  # Step 2: Update date and version headers
+  log_info "📅 Updating date and version headers..."
+  update_headers "$file"
 
   # Step 3: Add checksum after Title
   log_info "🔐 Calculating and adding checksum..."
