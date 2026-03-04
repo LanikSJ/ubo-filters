@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: jN5zDnXq43IeqLwlX0yvOQ
-! Version: 202603020847
-! Last modified: 2026-03-02 08:47 UTC
+! Checksum: 9f-DXC5fDW-0lhVUaHqlkQ
+! Version: 202603041706
+! Last modified: 2026-03-04 17:06 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -27,11 +27,8 @@
 ||35.201.103.212^
 ||35.201.96.133^
 ||4jnzhl0d0.com^
-||5mcwl.pw^
 ||6ldu6qa.com^
 ||82o9v830.com^
-||abackafterthought.com^
-||abackframe.com^
 ||abilityscale.com^
 ||abjectattempt.com^
 ||aboardamusement.com^
@@ -133,8 +130,8 @@
 ||badgevolcano.com^
 ||bagbeam.com^
 ||bahamashello.com^
-||baitbaseball.com^
 ||bahamashello.com^
+||baitbaseball.com^
 ||balancebreath.com^
 ||balloonbelieve.com^
 ||balloonbit.com^
@@ -149,7 +146,6 @@
 ||battlebalance.com^
 ||bawdybalance.com^
 ||beamincrease.com^
-||beamkite.com^
 ||beamvolcano.com^
 ||beancontrol.com^
 ||bedsberry.com^
@@ -234,7 +230,6 @@
 ||butterburst.com^
 ||buttonladybug.com^
 ||buzzaoutlet.com^
-||cabledemand.com^
 ||cafefrench.com^
 ||cakesdrum.com^
 ||calculatingcircle.com^
@@ -617,7 +612,6 @@
 ||friedone.com^
 ||friendlycrayon.com^
 ||friendlyfold.com^
-||frogator.com^
 ||fronttoad.com^
 ||frugalfiestas.com^
 ||fuelreaction.com^
@@ -869,7 +863,6 @@
 ||magicaljoin.com^
 ||magicminibox.com^
 ||magnificentarticle.com^
-||magnificentmist.com^
 ||majesticwaterscape.com^
 ||majesticwilderness.com^
 ||makesimpact.com^
@@ -899,7 +892,6 @@
 ||mediatescarf.com^
 ||mediavine.com^
 ||mediumshort.com^
-||mellowbike.com^
 ||mellowhush.com^
 ||melodiouschorus.com^
 ||melodiouscomposition.com^
@@ -991,7 +983,6 @@
 ||nudgeduck.com^
 ||nullnorth.com^
 ||numerousnest.com^
-||nutritiousbean.com^
 ||oafishchance.com^
 ||oafishobservation.com^
 ||objecthero.com^
@@ -1314,7 +1305,6 @@
 ||serenezenith.com^
 ||serenezephyr.com^
 ||serioussuit.com^
-||serpentshampoo.com^
 ||servebom.com^
 ||settleshoes.com^
 ||shadeship.com^
@@ -1609,7 +1599,6 @@
 ||tofusquirrel.com^
 ||toolcapital.com^
 ||toomanyalts.com^
-||toothbrushnote.com^
 ||topcrazypress.com^
 ||toweringanswer.com^
 ||toysbasics.com^
@@ -1623,7 +1612,6 @@
 ||tranquilveil.com^
 ||tranquilveranda.com^
 ||trappush.com^
-||traytouch.com^
 ||treadbun.com^
 ||treatoceans.com^
 ||tremendousplastic.com^
@@ -1642,10 +1630,8 @@
 ||tumbleicicle.com^
 ||tuneupcoffee.com^
 ||twistloss.com^
-||twistsweater.com^
 ||typicalairplane.com^
 ||typicalteeth.com^
-||tzwaw.pw^
 ||ubiquitoussea.com^
 ||ubiquitousyard.com^
 ||ultraoranges.com^
