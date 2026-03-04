@@ -162,20 +162,20 @@ sort_filter() {
   local temp_file="$file.tmp.$$"
   local temp_rules="$file.rules.tmp.$$"
   local temp_comments="$file.comments.tmp.$$"
-  
+
   # Extract header comments (lines starting with !) and rules separately
   grep '^!' "$file" > "$temp_comments"
   grep -v '^!' "$file" > "$temp_rules"
-  
+
   # Sort the rules alphabetically
   sort "$temp_rules" > "$temp_file"
-  
+
   # Combine header comments and sorted rules
   cat "$temp_comments" "$temp_file" > "$file"
-  
+
   # Clean up temporary files
   rm -f "$temp_file" "$temp_rules" "$temp_comments"
-  
+
   log_info "✅ Manual sorting completed successfully"
 }
 
