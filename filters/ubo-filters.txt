@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: Y62RXSpbl5sUk4uNlDAvAQ
-! Last modified: 2026-03-04 05:21 UTC
-! Version: 202603040521
+! Checksum: MGRrD0vYDlxkNWQWqOg5XA
+! Last modified: 2026-03-07 21:57 UTC
+! Version: 202603072157
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -612,6 +612,7 @@ thesoftware.shop##.nextPostBox
 thesoftware.shop##.prevPostBox
 thesoftware.shop##.stickyscroll_widget
 thesoftware.shop##.woocommerce
+thestreet.com##div[class*="styles_headerAdSlot"]
 ticketsatwork.com##.li_clickable.li_stickybar.li_parent
 timeanddate.com###ad300
 tmo.report##.read-single.entry-content-wrap > .entry-content
