@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: MGRrD0vYDlxkNWQWqOg5XA
-! Last modified: 2026-03-07 21:57 UTC
-! Version: 202603072157
+! Checksum: pFMGwOJsotid4EtADVQEnQ
+! Last modified: 2026-03-09 20:56 UTC
+! Version: 202603092056
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -381,6 +381,7 @@ macupdate.com###top-sim-app-box
 macworld.co.uk##.promotedDeal
 macworld.co.uk##[src^="https://www.macworld.co.uk/cmsdata/"]
 mail.protonmail.com###pm_latest
+makemkv.com##[href^="http://www.softpedia.com"]
 matadornetwork.com##.brazen-modal--opened
 medium.com##.js-meterBanner
 mercurynews.com##.amp-ad-container
