@@ -1,7 +1,7 @@
-! Version: 202603090417
+! Version: 202603090846
 ! Title: Fanboy's Social Blocking List
-! Checksum: SZQ1upKSaO0cZ-cXllHcKA
-! Last modified: 2026-03-09 04:17 UTC
+! Checksum: HqqpNup4X9n-8vjUB0oLvg
+! Last modified: 2026-03-09 08:46 UTC
 ! Expires: 4 days (update frequency)
 ! Commit: ede729c216191e94c2a8487fa9a522ebceaafcca
 ! *** easylist:template_header.txt ***
@@ -735,7 +735,6 @@ relationshiphero.com#?#div:-abp-has(+ .socialIcons)
 viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://whatsapp.com"])
 ||addnow.com^$third-party
 ||addthis.com^$third-party
-||addthiscdn.com^$domain=~addthis.com
 ||addtoany.com^$third-party
 ||almasryalyoum.com/scripts/sharing.js
 ||assets.pinterest.com/js/pinit.js$third-party
@@ -828,7 +827,6 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
-||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
