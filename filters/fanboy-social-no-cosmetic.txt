@@ -1,9 +1,9 @@
-! Version: 202603090846
+! Version: 202603160439
 ! Title: Fanboy's Social Blocking List
-! Checksum: HqqpNup4X9n-8vjUB0oLvg
-! Last modified: 2026-03-09 08:46 UTC
+! Checksum: 3Ty3Il7Gq3CQ-MJ8nuiHSQ
+! Last modified: 2026-03-16 04:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ede729c216191e94c2a8487fa9a522ebceaafcca
+! Commit: 386599f944fb4fb165bd7f2997175f7540e13387
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -735,6 +735,7 @@ relationshiphero.com#?#div:-abp-has(+ .socialIcons)
 viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://whatsapp.com"])
 ||addnow.com^$third-party
 ||addthis.com^$third-party
+||addthiscdn.com^$domain=~addthis.com
 ||addtoany.com^$third-party
 ||almasryalyoum.com/scripts/sharing.js
 ||assets.pinterest.com/js/pinit.js$third-party
@@ -827,6 +828,7 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
