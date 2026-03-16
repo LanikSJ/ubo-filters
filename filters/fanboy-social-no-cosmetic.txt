@@ -1,7 +1,7 @@
-! Version: 202603160439
+! Version: 202603160858
 ! Title: Fanboy's Social Blocking List
-! Checksum: 3Ty3Il7Gq3CQ-MJ8nuiHSQ
-! Last modified: 2026-03-16 04:39 UTC
+! Checksum: -UOt1oHJeoOMbW3HPy5Vug
+! Last modified: 2026-03-16 08:58 UTC
 ! Expires: 4 days (update frequency)
 ! Commit: 386599f944fb4fb165bd7f2997175f7540e13387
 ! *** easylist:template_header.txt ***
@@ -828,13 +828,11 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
-||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
 ||napolimagazine.com/web/img/iconetop/
 ||naturalnews.com/getviews2.
-||newsharecounts.com^$third-party
 ||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
 ||opensharecount.com^$third-party
 ||opto.sic.pt/footer/socials/

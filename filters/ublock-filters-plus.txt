@@ -1,7 +1,7 @@
 ! Title: uBlock Filters Plus
-! Checksum: ubnM08i3oiPWJtn96N1KDg
-! Version: 202601120730
-! Last modified: 2026-01-12 07:30 UTC
+! Checksum: toHw8pvaxY8Jw10xD4bmSA
+! Version: 202603160858
+! Last modified: 2026-03-16 08:58 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -13,12 +13,15 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-###adb-note
 ###AdsByCurseBanner
 ###NotificationUpgradeWin81and7NonSupport
+###adb-note
 ###su_flash_ec__0
 ###su_flash_ec__1
 ##.slide_likebox
+##A[href*="/AF_TA/rel/index.cfm"]
+##A[href*="://nitrogensports.eu/r/"]
+##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
 ##[href*=".reimageplus.com/"]
 ##[href*="://ab.advertiserurl.com/"]
 ##[href^="http://engine.4dsply.com/"]
@@ -32,11 +35,8 @@
 ##a[href*="/_b2.php?url="]
 ##a[href*="/_b3.php?url="]
 ##a[href*="/_c3.php?url="]
-##A[href*="/AF_TA/rel/index.cfm"]
 ##a[href*="/afu.php"]
-##A[href*="://nitrogensports.eu/r/"]
 ##a[href*="://secure.link/"]
-##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
 ##a[href="http://www.chip.de/amazon_prime"]
 ##a[href^="/adb/"]
 ##a[href^="http://data.oileddaintiessunset.info/"]
@@ -67,6 +67,18 @@
 .popupvideoad.$document
 /?placement=*&redirect$document
 /?reef=$document
+/AdHandler.aspx?$document
+/Avast_*_Generic_*_WebBanner*.jpg$image
+/ComscoreStreamSensePlugin.
+/IBNjspopunder.$document
+/INjspopunder.$document
+/MOATAnalyticsPlugin.
+/NielsenPlugin.
+/Redirect*MediaSegmentId$document
+/Redirect.eng?$document
+/Redirect.engine$document
+/Redirect.rb?$document
+/VHDpoppingModels/*$document
 /a/display.php?$document
 /ad.php?tag=$document
 /ad.php?zone$document
@@ -75,14 +87,14 @@
 /ad/popup.$document
 /ad/window.php?$document
 /ad132m/*$document
+/adClick/*$document
+/adServe/*$document
 /ad_pop.$document
 /ad_pop1.$document
 /ad_popup_$document
 /adblockbanner$script
 /adblockpopunder$script
 /adclick.$document
-/adClick/*$document
-/AdHandler.aspx?$document
 /adman/*$document
 /adpop.$document
 /adpop32.$document
@@ -91,21 +103,19 @@
 /ads/pop.$document
 /ads/popup.$document
 /ads/popup_$document
-/adServe/*$document
 /adserver.$document
 /adserving$document
 /adstream_sx.ads/*$document
 /adsxml.php$document
 /adsynserveuserid=$document
 /adultadworldpop_$document
-/advlink.$document
 /advPop.$document
+/advlink.$document
 /afu.php?$document
 /antiadblock$script
 /apopwin.$document
 /arecl.js
 /async_pixel?
-/Avast_*_Generic_*_WebBanner*.jpg$image
 /awepop.$document
 /b?z=$script
 /bani/index.php?id=$document
@@ -119,7 +129,6 @@
 /clickpop.$document
 /clicktag.engine?$document,popup
 /comscore_branding/*
-/ComscoreStreamSensePlugin.
 /contpop.$document
 /csi_204?
 /descpopup.$document
@@ -134,15 +143,13 @@
 /fp.engine?$document
 /ga_urchin_
 /geitonpop.$document
-/IBNjspopunder.$document
 /im-popup/*$document
 /impop.$document
 /impopup/*$document
 /index.php?service=stats&action=collect&
-/INjspopunder.$document
 /js/caf.js|
-/jspopunder.$document
 /jsVideoPopAd.$document
+/jspopunder.$document
 /kaksvpopup.$document
 /kogeePopupAd.$document
 /landing?refererId=$document,popup
@@ -152,12 +159,10 @@
 /m-wp-popup/*$document
 /mainpagepopupadv1.$document
 /markpop.$document
-/MOATAnalyticsPlugin.
 /msnpop.$document
 /msnpopsingle2.$document
 /msnpopup.$document
 /msnpopup4.$document
-/NielsenPlugin.
 /parking_caf_*.js
 /platinumpopup/*$document
 /po1.php?
@@ -219,10 +224,6 @@
 /puopen$document
 /puopen.$important,popunder,popup
 /realmedia/ads/*$document
-/Redirect*MediaSegmentId$document
-/Redirect.eng?$document
-/Redirect.engine$document
-/Redirect.rb?$document
 /redirect.spark?$document
 /revive-adserver-$popunder,popup
 /rotator.php?$document
@@ -243,7 +244,6 @@
 /tcounter.
 /unblockmeback.php$script
 /unbxdAnalytics.js
-/VHDpoppingModels/*$document
 /webtrekk.
 /webtrekk_
 /werbepopup/*$document
@@ -256,10 +256,10 @@
 =popunder&$document
 =popunders&$document
 ?AdUrl=$document
+?PopAd=$document
 ?bannerid=*&punder=$document
 ?iiadext=$document
 ?pixel=
-?PopAd=$document
 ?popup:msp_$document
 ?popupiniframe=$document
 ?type=oas_pop&$document
@@ -366,13 +366,13 @@ zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube
 ||afs.googleusercontent.com^
 ||afsanalytics.com^$third-party
 ||agilecrm.com^$third-party
+||amazon.*/ReportEvent?
 ||amazon.*/analytics.
 ||amazon.*/blank-pixel.
 ||amazon.*/empty.gif?
 ||amazon.*/metrics/log-$~image
 ||amazon.*/record-impressions.
 ||amazon.*/record.html
-||amazon.*/ReportEvent?
 ||amazon.*/uedata
 ||amazonaws.com/wpanalytics/
 ||ampclicks.com^
@@ -484,8 +484,6 @@ zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube
 ||sharesix.com/a/images/*.gif
 ||sharethis.com^$script,third-party
 ||shs.comdotgame.com^
-||signetter.com^
-||signetter.com^$popup
 ||snapengage.com^$third-party
 ||svonm.com^
 ||t.vptbn.com^$popup
@@ -496,8 +494,6 @@ zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube
 ||themerkle.com/wp-content/*/300x600_
 ||themerkle.com/wp-content/uploads/*/banner-
 ||thewhizmarketing.com^$popup,third-party
-||ticrite.com^
-||ticrite.com^$popup
 ||track.reference.com^
 ||track.stumblemail.net^$image
 ||trackingclick.net^
@@ -506,8 +502,6 @@ zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube
 ||trafficmagnates.com^$popup
 ||trafficstars.com^
 ||transcripts.foreverdreaming.org^$inline-script
-||trimpur.com^
-||trimpur.com^$popup
 ||trklnks.com^
 ||tubescms.phncdn.com^
 ||urldelivery.com^
