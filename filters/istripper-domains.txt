@@ -1,7 +1,7 @@
 ! Title: IStripper Domains Filter List
-! Checksum: mc9DfNkYYDodR3Iv2r5y4w
-! Version: 202407071002
-! Last modified: 2024-07-07 10:02 UTC
+! Checksum: iCD-jcvXflNebc1ziijoWA
+! Version: 202603230857
+! Last modified: 2026-03-23 08:57 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -19,7 +19,6 @@
 ||istripper.com^$third-party
 ||kcolbda.com^$third-party
 ||misslk.com^$third-party
-||vghd.com^$third-party
 ||virtuagirl.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||virtuaguyhd.com^$third-party
