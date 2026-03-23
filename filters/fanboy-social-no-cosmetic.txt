@@ -1,9 +1,9 @@
-! Version: 202603160858
+! Version: 202603230428
 ! Title: Fanboy's Social Blocking List
-! Checksum: -UOt1oHJeoOMbW3HPy5Vug
-! Last modified: 2026-03-16 08:58 UTC
+! Checksum: NA3Ug-IAghIsd_ogwBgV-Q
+! Last modified: 2026-03-23 04:28 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 386599f944fb4fb165bd7f2997175f7540e13387
+! Commit: 3936dd1e1cf20b95186b5b24a77edbcc8f4f3b3e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -728,11 +728,42 @@ _social_badge_$~xmlhttprequest
 _social_bookmark/
 _social_bookmarks/
 _social_footer_
-apotti.fi#?#.post-footer:-abp-has(> .share)
-arbys.com#?#[class^="linkBlocks_linkBlock__"]:-abp-has(> [class^="linkBlocks_socialLinkBlockList__"])
-forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
-relationshiphero.com#?#div:-abp-has(+ .socialIcons)
-viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://whatsapp.com"])
+abc.net.au#?#.Button_root__UZ8td:has-text(Share)
+appleinsider.com#?#.col-xs-12 > div:has-text(Follow AppleInsider)
+archaeologymag.com#?#.widget_custom_html:has-text(Follow us)
+bitcoinsensus.com#?#.elementor-heading-title:has-text(SHARE)
+carnewschina.com#?#.article_detail__top_stories:has-text(Follow us for ev updates)
+club386.com#?#.td-block-title:has-text(Share)
+clubic.com#?#[style="position: sticky; top: 55px;"]:has-text(Inscrivez-vous à notre newsletter quotidienne !)
+cryptotimes.io#?#.heading-title:has-text(Follow US)
+cybersecuritynews.com#?#.has-background:has-text(Follow us)
+cybersecuritynews.com#?#.tdm_block_button_simplified:has-text(Follow on LinkedIn)
+economictimes.indiatimes.com#?#.Pbanner:has-text(as a Reliable and Trusted News Source)
+freethoughtnow.org#?#.elementor-widget-container > h2:has-text(Please share)
+gizmodo.com#?#.border-t-grey-200:has-text(Share this story)
+heritagedaily.com#?#.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
+jacobin.com#?#.po-fr__heading:has-text(Share this article)
+lifenews.com#?#.post_style_zk > p:has-text(Please subscribe)
+nbcsports.com#?#p.cms-textAlign-center:has-text(follow NBC Sports)
+newskarnataka.com#?#.elementor-button-wrapper:has-text(Social Media)
+newsroom.ucla.edu#?#.promo-card-muted:has-text(RSS feed)
+openculture.com#?#.execphpwidget:has-text(FREE UPDATES!)
+psypost.org#?#strong:has-text(/Stay informed|Stay on top/)
+qodo.ai#?#.block-single-post__aside-heading:has-text(Share)
+ruwix.com#?#.widget-title:has-text(Share this page!)
+sfchronicle.com#?#.br4.deep:has-text(Want more SF Chronicle)
+sfgate.com#?#.br4.deep.fdc:has-text(Google)
+sfgate.com#?#.br4:has-text(Want more SFGATE?)
+stuff.co.nz#?#.edproj-share-video-wrapper:has-text(Share your video)
+stuff.co.nz#?#.edproj-speedhub-wrapper:has-text(read now)
+stuff.co.nz#?#.free-body.text-block > p.content-item:has-text(Email)
+techissuestoday.com#?#.mar-b-6:has-text(Follow Us)
+thedispatch.com#?#.border-y.py-2:has-text(Share)
+theguardian.com#?#.dcr-4gwv1z > ul:has-text(Get our)
+theintercept.com#?#[data-ga-track-action]:has-text(Join The Conversation)
+theshovel.com.au#?#.padding-top-small > .widgetizedArea:has-text(Like this)
+tvblackbox.com.au#?#.tdm-descr:has-text(Share)
+twitch.tv#?#.tw-balloon:has-text(Share To)
 ||addnow.com^$third-party
 ||addthis.com^$third-party
 ||addthiscdn.com^$domain=~addthis.com
@@ -793,6 +824,7 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ||friends2follow.com^$subdocument,third-party
 ||fwcdn2.com^$third-party
 ||fwcdn3.com^$third-party
+||gasgoo.com/api/wxshare/
 ||getbutton.io/widget-send-button/$third-party
 ||getsocial.io/widget/$third-party
 ||getsocial.io^*/gs_async.js$third-party
@@ -828,11 +860,13 @@ viranomaisuutiset.fi#?#.wpb_wrapper.td_block_wrap:-abp-has(a[href^="https://what
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
 ||napolimagazine.com/web/img/iconetop/
 ||naturalnews.com/getviews2.
+||newsharecounts.com^$third-party
 ||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
 ||opensharecount.com^$third-party
 ||opto.sic.pt/footer/socials/
