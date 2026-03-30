@@ -1,7 +1,7 @@
-! Version: 202603300444
+! Version: 202603300914
 ! Title: Fanboy's Social Blocking List
-! Checksum: E08DNyZeHPTq2QxOW7_LhQ
-! Last modified: 2026-03-30 04:44 UTC
+! Checksum: PeYGVtPt-DESEw71Q_S0GQ
+! Last modified: 2026-03-30 09:14 UTC
 ! Expires: 4 days (update frequency)
 ! Commit: 4b793f52942334f56b95f537e26f4ecc7d65721e
 ! *** easylist:template_header.txt ***
@@ -860,13 +860,11 @@ twitch.tv#?#.tw-balloon:has-text(Share To)
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
-||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
 ||napolimagazine.com/web/img/iconetop/
 ||naturalnews.com/getviews2.
-||newsharecounts.com^$third-party
 ||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
 ||opensharecount.com^$third-party
 ||opto.sic.pt/footer/socials/

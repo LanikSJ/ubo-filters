@@ -1,7 +1,7 @@
 ! Title: uBlock Filters Plus
-! Checksum: toHw8pvaxY8Jw10xD4bmSA
-! Version: 202603160858
-! Last modified: 2026-03-16 08:58 UTC
+! Checksum: Kk5KaiOYjB9tGVCP5l2X3g
+! Version: 202603300914
+! Last modified: 2026-03-30 09:14 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -337,8 +337,6 @@ watchfree.to##.get_vpn
 web.de##.notification-alert[data-notification-browser]
 wholecloud.net###aad
 www.anabolicmen.com###text-55
-x3xtube.com##[href^="http://join."]
-x3xtube.com##a[href^="/cgi-bin/a2/out.cgi?id="][href*="&l=trade_thumbs"]
 zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 |http$popup,third-party,domain=openload.co
 |http$popup,third-party,domain=userscloud.com
@@ -514,7 +512,6 @@ zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube
 ||watrz.com^
 ||webmd.com/dtmcms/live/webmd/*/oas*.js
 ||www.startpage.com/do/jserr$xmlhttprequest
-||x3xtube.com/redir*.html$popup
 ||xl415.com^
 ||yahoo.com/neo/logger
 ||yahoo.com/neo/mbfb?
