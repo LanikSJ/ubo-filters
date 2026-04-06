@@ -1,9 +1,9 @@
-! Version: 202603300914
+! Version: 202604060443
 ! Title: Fanboy's Social Blocking List
-! Checksum: PeYGVtPt-DESEw71Q_S0GQ
-! Last modified: 2026-03-30 09:14 UTC
+! Checksum: HOLgd9PJFFWceaXFX3a0YQ
+! Last modified: 2026-04-06 04:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4b793f52942334f56b95f537e26f4ecc7d65721e
+! Commit: 143eb87fc5f711e7c3fc7c593c760c8f1eeefcef
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -23,6 +23,7 @@
 ! ------------------------General element hiding rules-------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_hide.txt ***
 ! fanboy_social_general_hide.txt
+! future plc
 ! malayalam.indiatoday.in,aajtak.in,bangla.aajtak.in
 ! https://www.sbnation.com/blogs
 ! element specific
@@ -742,6 +743,7 @@ economictimes.indiatimes.com#?#.Pbanner:has-text(as a Reliable and Trusted News 
 freethoughtnow.org#?#.elementor-widget-container > h2:has-text(Please share)
 gizmodo.com#?#.border-t-grey-200:has-text(Share this story)
 heritagedaily.com#?#.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
+ign.com#?#.promo-card:has-text(Follow us!)
 jacobin.com#?#.po-fr__heading:has-text(Share this article)
 lifenews.com#?#.post_style_zk > p:has-text(Please subscribe)
 nbcsports.com#?#p.cms-textAlign-center:has-text(follow NBC Sports)
@@ -860,11 +862,13 @@ twitch.tv#?#.tw-balloon:has-text(Share To)
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
 ||napolimagazine.com/web/img/iconetop/
 ||naturalnews.com/getviews2.
+||newsharecounts.com^$third-party
 ||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
 ||opensharecount.com^$third-party
 ||opto.sic.pt/footer/socials/
@@ -924,7 +928,6 @@ twitch.tv#?#.tw-balloon:has-text(Share To)
 ||weibo.com/staticjs/weiboshare.html$third-party
 ||widget.weibo.com^$third-party
 ||widget.whatshelp.io^$third-party
-||widgets.getpocket.com^$third-party
 ||widgets.wp.com/likes/$third-party
 ||wykop.pl/dataprovider/diggerwidget/$third-party
 ||xing-share.com^$third-party
