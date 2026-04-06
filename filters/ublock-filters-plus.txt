@@ -1,7 +1,7 @@
 ! Title: uBlock Filters Plus
-! Checksum: Kk5KaiOYjB9tGVCP5l2X3g
-! Version: 202603300914
-! Last modified: 2026-03-30 09:14 UTC
+! Checksum: WV_o5I7Y-Cbri37HHvZUOg
+! Version: 202604060911
+! Last modified: 2026-04-06 09:11 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -375,7 +375,6 @@ zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube
 ||amazonaws.com/wpanalytics/
 ||ampclicks.com^
 ||ampxchange.com^
-||anverlindo.info^
 ||applovin.com^$third-party
 ||ar1n.xyz^
 ||atas.io^$popup,third-party
