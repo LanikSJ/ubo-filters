@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: odtb8Zj75N5RHybAszcbIQ
-! Version: 202604060911
-! Last modified: 2026-04-06 09:11 UTC
+! Checksum: DlIArKqnoQX2BPTLrwe8cg
+! Version: 202604101704
+! Last modified: 2026-04-10 17:04 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -27,7 +27,6 @@
 ||35.201.103.212^
 ||35.201.96.133^
 ||4jnzhl0d0.com^
-||6ldu6qa.com^
 ||82o9v830.com^
 ||abilityscale.com^
 ||abjectattempt.com^
@@ -97,7 +96,6 @@
 ||applesarmy.com^
 ||applyless.com^
 ||aquaticowl.com^
-||ar1nvz5.com^
 ||archswimming.com^
 ||aromamirror.com^
 ||arrivegrowth.com^
@@ -369,7 +367,6 @@
 ||crowdedmass.com^
 ||cruisetourist.com^
 ||crunchcontrol.com^
-||cryptvalue.com^
 ||crystalboulevard.com^
 ||cubchannel.com^
 ||cubepins.com^
@@ -445,7 +442,6 @@
 ||distributiontomatoes.com^
 ||disturbedquiet.com^
 ||divergentoffer.com^
-||dk4ywix.com^
 ||dockdigestion.com^
 ||dogbedscentral.com^
 ||dollardelta.com^
@@ -478,7 +474,6 @@
 ||efficaciouscactus.com^
 ||effulgentnook.com^
 ||effulgenttempest.com^
-||ejyymghi.com^
 ||elasticchange.com^
 ||elderlybean.com^
 ||elderlytown.com^
@@ -613,7 +608,6 @@
 ||frequentflesh.com^
 ||friedone.com^
 ||friendlycrayon.com^
-||frogator.com^
 ||fronttoad.com^
 ||frugalfiestas.com^
 ||fuelreaction.com^
@@ -848,7 +842,6 @@
 ||loudlunch.com^
 ||lovelydrum.com^
 ||loveseashore.com^
-||lp3tdqle.com^
 ||ludicrousarch.com^
 ||lumberamount.com^
 ||luminousboulevard.com^
@@ -883,7 +876,6 @@
 ||marriedbelief.com^
 ||marriedmailbox.com^
 ||marriedvalue.com^
-||marrowleaves.com^
 ||massivemark.com^
 ||materialisticmoon.com^
 ||materialmilk.com^
@@ -1461,8 +1453,6 @@
 ||stepwisevideo.com^
 ||stereoproxy.com^
 ||stereotypedsugar.com^
-||stickssheep.com^
-||stickysheet.com^
 ||stiffgame.com^
 ||stiffstem.com^
 ||stimulatingsneeze.com^
@@ -1745,10 +1735,8 @@
 ||wrongpotato.com^
 ||wrongwound.com^
 ||wtaccesscontrol.com^
-||xovq5nemr.com^
 ||yieldingwoman.com^
 ||yourlifedream.com^
-||zbwp6ghm.com^
 ||zephyrcatalyst.com^
 ||zephyrlabyrinth.com^
 ||zeppelinradio.com^
