@@ -1,13 +1,12 @@
-synchronycredit.com###CMSBricksID
-! Checksum: Tcfh4u8GH+OAXk34H2d5Rw
+! Checksum: mKK75kGvmDmVJ3QJNwiZJA
 /shared/images/$image,domain=insecure.org|nmap.org|seclists.org|sectools.org
 9to5mac.com##.leaderboard
 @@||googleadservices.com/gpt/pubads$domain=realtor.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com
 accuweather.com###header-davek
-amazon.com###automotive-feedback-tab-link
 amazon.com###CPMerchandingTopSlot
 amazon.com###DAadrv2
+amazon.com###automotive-feedback-tab-link
 amazon.com###desktop-ad-btf
 amazon.com###detail-ilm_div
 amazon.com###heroQuickPromo_feature_div
@@ -39,7 +38,6 @@ cultofmac.com##.adblock-notification-wrapper
 cultofmac.com##.modal-dialog
 dslreports.com###share-buttons
 dslreports.com##.fb-share-button
-edgecast.com###ctl00_pnlPromotionTeaserContainer
 en.wikipedia.org###siteNotice
 expedia.com###join-rewards-banner
 fitbit.com##.wrapper-header-fma
@@ -55,8 +53,8 @@ jasonsavard.com###pageLeftAd
 jasonsavard.com###pageRightAd
 javascript:"<html><body style='background:transparent'></body></html>"$domain=beta.speedtest.net
 latimes.com##.trb_bnn
-linksysinfo.org##.notice_notice_cookies.DismissParent.Notice.panel
 linksysinfo.org##.Notices.PanelScroller
+linksysinfo.org##.notice_notice_cookies.DismissParent.Notice.panel
 linuxquestions.org##.vertical-medium.stackcommerce-widget
 mercurynews.com###informInView
 mightytext.net###ad-block-holder
@@ -97,6 +95,7 @@ speedtest.net##.btn-aos[href="/partner-with-ookla"]
 stackoverflow.com###herobox
 stackoverflow.com###hireme
 stackoverflow.com###newsletter-ad
+synchronycredit.com###CMSBricksID
 syntevo.com##.cookie
 target.com###dvm_gpt-home_page-home_siteskin_1
 target.com###dvm_gpt-item_page-item_siteskin_1
