@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: td2aMbQfxo6wg9Eh-S4ztw
-! Version: 202604200959
-! Last modified: 2026-04-20 09:59 UTC
+! Checksum: T2hVydktDUcSDyztypThUw
+! Version: 202604201932
+! Last modified: 2026-04-20 19:32 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -28,7 +28,6 @@
 ||35.201.96.133^
 ||4jnzhl0d0.com^
 ||82o9v830.com^
-||abilityscale.com^
 ||abjectattempt.com^
 ||aboardamusement.com^
 ||aboardfork.com^
@@ -137,7 +136,6 @@
 ||bandborder.com^
 ||barbarousbase.com^
 ||baseboosters.com^
-||basilfish.com^
 ||basketballbelieve.com^
 ||baskettexture.com^
 ||battlebalance.com^
@@ -866,7 +864,6 @@
 ||majesticwilderness.com^
 ||makesimpact.com^
 ||maliciousmusic.com^
-||managedpush.com^
 ||manamoment.com^
 ||mantrafox.com^
 ||mapbasin.com^
@@ -1597,7 +1594,6 @@
 ||tiresomethunder.com^
 ||tofusquirrel.com^
 ||toolcapital.com^
-||toomanyalts.com^
 ||topcrazypress.com^
 ||touristfuel.com^
 ||toweringanswer.com^
