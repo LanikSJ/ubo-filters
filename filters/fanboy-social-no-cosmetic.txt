@@ -1,9 +1,9 @@
-! Version: 202604200959
+! Version: 202604270522
 ! Title: Fanboy's Social Blocking List
-! Checksum: sAYPRigblc8B2lkWDHpfiA
-! Last modified: 2026-04-20 09:59 UTC
+! Checksum: BsQ-sR-m-TpdtX56sUCrEg
+! Last modified: 2026-04-27 05:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f576a58d94dcb4ee697271e80c2155fb20bdc57f
+! Commit: a8a2728cea2b8ec223cc4aee213be832c09ab1de
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -747,9 +747,11 @@ houstonchronicle.com,nhregister.com,registercitizen.com,sfchronicle.com,sfgate.c
 ign.com#?#.promo-card:has-text(Follow us!)
 jacobin.com#?#.po-fr__heading:has-text(Share this article)
 lifenews.com#?#.post_style_zk > p:has-text(Please subscribe)
+livpost.co.uk#?#.kg-align-center.kg-button-card:has-text(Share this story)
 nbcsports.com#?#p.cms-textAlign-center:has-text(follow NBC Sports)
 newskarnataka.com#?#.elementor-button-wrapper:has-text(Social Media)
 newsroom.ucla.edu#?#.promo-card-muted:has-text(RSS feed)
+nytimes.com#?#.gps-module:has-text(on Google)
 openculture.com#?#.execphpwidget:has-text(FREE UPDATES!)
 psypost.org#?#strong:has-text(/Stay informed|Stay on top/)
 qodo.ai#?#.block-single-post__aside-heading:has-text(Share)
@@ -767,6 +769,7 @@ theintercept.com#?#[data-ga-track-action]:has-text(Join The Conversation)
 theshovel.com.au#?#.padding-top-small > .widgetizedArea:has-text(Like this)
 tvblackbox.com.au#?#.tdm-descr:has-text(Share)
 twitch.tv#?#.tw-balloon:has-text(Share To)
+yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||addnow.com^$third-party
 ||addthis.com^$third-party
 ||addthiscdn.com^$domain=~addthis.com
@@ -863,6 +866,7 @@ twitch.tv#?#.tw-balloon:has-text(Share To)
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
@@ -894,6 +898,7 @@ twitch.tv#?#.tw-balloon:has-text(Share To)
 ||reddit.com/static/$third-party
 ||revinate.com^$third-party
 ||scoop.it^$third-party
+||sekomums.lv^$third-party
 ||share.itraffic.su^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
