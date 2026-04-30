@@ -1,4 +1,4 @@
-# Cline Rules for ubo-filters Repository
+# AI Rules & Project Standards for ubo-filters
 
 ## Repository Overview
 
@@ -8,19 +8,19 @@ ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
 
 ### Filter Standards
 
-- Follow AdBlock filter syntax and best practices
-- Use clear, descriptive filter rules with proper comments
-- Implement proper filter validation and testing
-- Document filter purposes and sources
+- Follow AdBlock filter syntax and best practices.
+- Use clear, descriptive filter rules with proper comments.
+- Implement proper filter validation and testing.
+- Document filter purposes and sources.
 
 ### Documentation Standards
 
-- Include clear installation and usage instructions for uBlock Origin
-- Document filter list purposes and coverage areas
-- Provide update procedures and maintenance guidelines
-- Use markdown formatting consistently
+- Include clear installation and usage instructions for uBlock Origin.
+- Document filter list purposes and coverage areas.
+- Provide update procedures and maintenance guidelines.
+- Use markdown formatting consistently.
 
-### Markdown Compliance Requirements
+### Markdown Compliance Requirements (MANDATORY)
 
 - **ALL markdown files (.md) MUST pass markdownlint validation with zero errors or warnings**
 - Run `markdownlint <filename>` on every markdown file before considering it complete
@@ -68,3 +68,43 @@ ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
 - Implement proper rule ordering and priorities
 - Use AGLint for comprehensive filter validation
 - Test filters against real websites and tracking mechanisms
+
+## GitHub & Automation Standards
+
+These rules apply specifically to files in `.github/*` (workflows, templates, and documentation).
+
+### Quality Gates (MANDATORY)
+
+Before completing any change in `.github/`:
+
+1. ✅ Run `markdownlint` validation (if .md file).
+2. ✅ Ensure project standards are followed.
+3. ✅ Verify contribution guidelines are up-to-date.
+4. ✅ Check that automation maintains project standards.
+
+### Templates and Workflows
+
+- Ensure issue and pull request templates provide clear, actionable guidelines.
+- Include project-specific troubleshooting sections in templates.
+- Reference existing project documentation and standards.
+
+### Documentation standards in .github/
+
+- `.github/CONTRIBUTING.md` must include:
+  - Development environment setup instructions.
+  - Testing requirements and procedures.
+  - Documentation standards for new features.
+  - Project-specific contribution guidelines.
+
+### Automation and CI/CD
+
+- Project workflows must include automated testing stages.
+- Code quality checks must be integrated into CI/CD.
+- Release automation must be properly configured.
+
+### Error Prevention
+
+- NEVER generate markdown that violates line length or formatting rules.
+- ALWAYS cross-reference with existing project practices before making changes.
+- ENSURE all links and references are valid and current.
+- VALIDATE that new requirements don't conflict with established workflows.
