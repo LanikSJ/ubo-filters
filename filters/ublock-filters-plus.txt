@@ -1,7 +1,7 @@
 ! Title: uBlock Filters Plus
-! Checksum: VqmYEhbwAj1AOH31D8M3tA
-! Version: 202605020742
-! Last modified: 2026-05-02 07:42 UTC
+! Checksum: fsndfn3v6yL99SbqTWW_Rw
+! Version: 202605020751
+! Last modified: 2026-05-02 07:51 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -13,64 +13,61 @@
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
 !
-_pop_ad.$document
-_pop_ad/$document
-_pop_under.$document
-_popunder_$document
-_popunder.$document
-_popunder&$document
-_popunder+$document
-_popupunder.$document
+###adb-note
+###AdsByCurseBanner
+###NotificationUpgradeWin81and7NonSupport
+###su_flash_ec__0
+###su_flash_ec__1
+##.slide_likebox
+##[href*=".reimageplus.com/"]
+##[href*="://ab.advertiserurl.com/"]
+##[href^="http://engine.4dsply.com/"]
+##[href^="http://r.search.yahoo.com/cbclk/"]
+##[href^="http://watch.primewire.ag"]
+##[href^="http://x.chip.de/fs24/"]
+##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'bottom_aff_link']);"]
+##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'promo_host']);"]
+##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'sponsor_host']);"]
+##a[href*=".hop.clickbank.net/"]
+##a[href*="/_b2.php?url="]
+##a[href*="/_b3.php?url="]
+##a[href*="/_c3.php?url="]
+##A[href*="/AF_TA/rel/index.cfm"]
+##a[href*="/afu.php"]
+##A[href*="://nitrogensports.eu/r/"]
+##a[href*="://secure.link/"]
+##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
+##a[href="http://www.chip.de/amazon_prime"]
+##a[href^="/adb/"]
+##a[href^="http://data.oileddaintiessunset.info/"]
+##a[href^="http://ddownload39.club/"]
+##a[href^="http://wct.link/click"]
+&adb=$other,subdocument
+&link_type=offer$document
+&popunder=$document
+&program=revshare&$document
 -ads-campaign/$document
 -pop-under/$document
 -popexit.$document
 -popunder.$document
 -popup-ad.$document
 -popup-ads-$document
-?AdUrl=$document
-?bannerid=*&punder=$document
-?iiadext=$document
-?pixel=
-?PopAd=$document
-?popup:msp_$document
-?popupiniframe=$document
-?type=oas_pop&$document
-?zoneid=*_bannerid=$document
 .co/ads/$document
-.com/?adv=$document
 .com/*/Redirect.a1b$document
+.com/?adv=$document
 .com/ads?$document
 .com/faloo.js|$first-party,script
-hoerzu.de##.content-amazon
-examine.com##.content-overlay
-examine.com##.d-sm-inline-block.d-block.badge-info.badge
 .engine?PlacementId=$document
-netzwelt.de##.fi.stcl
-viptube.com##.footer_adv
-watchfree.to##.get_vpn
-hentaihaven.org##.hh_simple_banner
 .net/pops.$document
 .net/s.gif?
 .net/track?$~object
-web.de##.notification-alert[data-notification-browser]
-examine.com##.optin-wrapper
 .org/pops.$document
 .popunder.$document
 .popup_im.$document
 .popupvideoad.$document
-@@/js/abp.js?$first-party,script
-@@||cache.realitykings.com^$first-party,media,object
-@@||cdn.teamskeetimages.com^$image,domain=teamskeet.com
-@@||firebaseapp.com/adpoint.js?_=$script
-@@||searchdns.netcraft.com^$generichide
-@@||uobsoe.com/ad_bomb/*.png$image,third-party
-@@||viptube.com^$generichide
 /?placement=*&redirect$document
 /?reef=$document
 /a/display.php?$document
-/ad_pop.$document
-/ad_pop1.$document
-/ad_popup_$document
 /ad.php?tag=$document
 /ad.php?zone$document
 /ad.popup?$document
@@ -78,6 +75,9 @@ examine.com##.optin-wrapper
 /ad/popup.$document
 /ad/window.php?$document
 /ad132m/*$document
+/ad_pop.$document
+/ad_pop1.$document
+/ad_popup_$document
 /adblockbanner$script
 /adblockpopunder$script
 /adclick.$document
@@ -89,8 +89,8 @@ examine.com##.optin-wrapper
 /adpopup.$document
 /ads.htm$document,domain=~webopedia.com
 /ads/pop.$document
-/ads/popup_$document
 /ads/popup.$document
+/ads/popup_$document
 /adServe/*$document
 /adserver.$document
 /adserving$document
@@ -114,8 +114,8 @@ examine.com##.optin-wrapper
 /ccc-adscript/*
 /cdn-cgi/pe/bag2?*adstract.com
 /click-in.php?$document
-/click?adv=$document
 /click.php?$document
+/click?adv=$document
 /clickpop.$document
 /clicktag.engine?$document,popup
 /comscore_branding/*
@@ -125,8 +125,8 @@ examine.com##.optin-wrapper
 /descpopup.$document
 /exit_popup$document
 /exitpop.$document
-/exitpopunder_$document
 /exitpopunder.$document
+/exitpopunder_$document
 /exitpopup.$document
 /exo-loader/frontend_loader.js
 /expop.$document
@@ -161,21 +161,21 @@ examine.com##.optin-wrapper
 /parking_caf_*.js
 /platinumpopup/*$document
 /po1.php?
+/pop-imp/*$document
+/pop-under.$document
+/pop2.$document,domain=~webopedia.com
+/pop?tid=$document
 /pop_ad.$document
 /pop_adfy.$document
 /pop_camgirlcity.$document
 /pop_under.$document
 /pop_under/*$document
-/pop-imp/*$document
-/pop-under.$document
-/pop?tid=$document
-/pop2.$document,domain=~webopedia.com
 /popad-$document
 /popad.$document
 /popadblock$script
-/popads_$document
 /popads.$document,domain=~alexa.com|~builtwith.com|~domaintools.com|~github.com|~githubusercontent.com|~mywot.com|~publicwww.com|~similarweb.com|~w3techs.com|~who.is
 /popads/*$document
+/popads_$document
 /popadscpm.$document
 /poplivejasmine.$document
 /popounder4.$document
@@ -185,30 +185,30 @@ examine.com##.optin-wrapper
 /poptest.$document
 /popu.$document
 /popu/*$script
-/popunder_$document
+/popunder$document,domain=~webopedia.com
 /popunder-$document
-/popunder?$document
 /popunder.$document,domain=~webopedia.com
 /popunder/*$document
-/popunder$document,domain=~webopedia.com
-/popunder1_$document
 /popunder1.$document
+/popunder1_$document
 /popunder2.$document
 /popunder4.$document
 /popunder5.$document
 /popunder7.$document
+/popunder?$document
+/popunder_$document
 /popunderblogs.$document
 /popundercode.$document
 /popunderking.$document
 /popunders.$document
 /popunders/*$document
-/popundr_$document
 /popundr.$document
-/popup_ad.$document,domain=~webopedia.com
-/popup_code.$document
+/popundr_$document
 /popup-domination/*$document
 /popup2.$document
 /popup3.$document
+/popup_ad.$document,domain=~webopedia.com
+/popup_code.$document
 /popupads.$document
 /popupclick/$popup
 /popupdfp.$document
@@ -216,14 +216,14 @@ examine.com##.optin-wrapper
 /popupunder.$document
 /promoredirect?*&campaign=*&zone=$document
 /punder.php$document
-/puopen.$important,popunder,popup
 /puopen$document
+/puopen.$important,popunder,popup
 /realmedia/ads/*$document
+/Redirect*MediaSegmentId$document
 /Redirect.eng?$document
 /Redirect.engine$document
 /Redirect.rb?$document
 /redirect.spark?$document
-/Redirect*MediaSegmentId$document
 /revive-adserver-$popunder,popup
 /rotator.php?$document
 /rum-beacon-
@@ -244,51 +244,104 @@ examine.com##.optin-wrapper
 /unblockmeback.php$script
 /unbxdAnalytics.js
 /VHDpoppingModels/*$document
-/webtrekk_
 /webtrekk.
+/webtrekk_
 /werbepopup/*$document
-/wp_actionpop/*$document
 /wp-popup-scheduler/*$document
 /wp-super-popup-pro/*$document
 /wp-super-popup/*$document
+/wp_actionpop/*$document
 /yesbaby.$document
-&adb=$other,subdocument
-&link_type=offer$document
-&popunder=$document
-&program=revshare&$document
-##.slide_likebox
-##[href*="://ab.advertiserurl.com/"]
-##[href*=".reimageplus.com/"]
-##[href^="http://engine.4dsply.com/"]
-##[href^="http://r.search.yahoo.com/cbclk/"]
-##[href^="http://watch.primewire.ag"]
-##[href^="http://x.chip.de/fs24/"]
-##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'bottom_aff_link']);"]
-##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'promo_host']);"]
-##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'sponsor_host']);"]
-###adb-note
-###AdsByCurseBanner
-###NotificationUpgradeWin81and7NonSupport
-###su_flash_ec__0
-###su_flash_ec__1
-##A[href*="://nitrogensports.eu/r/"]
-##a[href*="://secure.link/"]
-##a[href*=".hop.clickbank.net/"]
-##a[href*="/_b2.php?url="]
-##a[href*="/_b3.php?url="]
-##a[href*="/_c3.php?url="]
-##A[href*="/AF_TA/rel/index.cfm"]
-##a[href*="/afu.php"]
-##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
-##a[href^="/adb/"]
-##a[href^="http://data.oileddaintiessunset.info/"]
-##a[href^="http://ddownload39.club/"]
-##a[href^="http://wct.link/click"]
-##a[href="http://www.chip.de/amazon_prime"]
-^utm_medium=pops^$document
-^utm_medium=popunder^$document
+174.138.43.128,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,city-countyobserver.com,e621.net,en.greatfire.org,ghacks.net,invidio.us,invidious.fdn.fr,invidious.snopyta.org,kgg2m7yk5aybusll.onion,nintendolife.com,thejournal.ie,vg.no,yewtu.be,youtube.com#@##comments
 =popunder&$document
 =popunders&$document
+?AdUrl=$document
+?bannerid=*&punder=$document
+?iiadext=$document
+?pixel=
+?PopAd=$document
+?popup:msp_$document
+?popupiniframe=$document
+?type=oas_pop&$document
+?zoneid=*_bannerid=$document
+@@/js/abp.js?$first-party,script
+@@||cache.realitykings.com^$first-party,media,object
+@@||cdn.teamskeetimages.com^$image,domain=teamskeet.com
+@@||firebaseapp.com/adpoint.js?_=$script
+@@||searchdns.netcraft.com^$generichide
+@@||uobsoe.com/ad_bomb/*.png$image,third-party
+@@||viptube.com^$generichide
+^utm_medium=pops^$document
+^utm_medium=popunder^$document
+_pop_ad.$document
+_pop_ad/$document
+_pop_under.$document
+_popunder&$document
+_popunder+$document
+_popunder.$document
+_popunder_$document
+_popupunder.$document
+accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
+animmex.com,noticiasautomotivas.com.br##+js(bab-defuser.js)
+chip.de###sparwelt_cont
+chip.de##[href^="javascript:DSinitDl"]
+cronometer.com##[href*="://mybiosense.com/"]
+examine.com##.content-overlay
+examine.com##.d-sm-inline-block.d-block.badge-info.badge
+examine.com##.optin-wrapper
+examine.com##.supplements-page-icons-box
+gmx.net,web.de##TR.ad-hint
+gmx.net,web.de##TR.iba
+gmx.net,web.de##TR.iba-acceptable
+gmx.net,web.de##TR.iba-uncertain
+gmx.net,web.de##TR.li.iba
+gmx.net,web.de##TR.li.iba-acceptable
+gmx.net,web.de##TR.new.iba
+gmx.net,web.de##TR.new.iba-acceptable
+gmx.net,web.de##TR.new.iba-uncertain
+heise.de###bannerzone
+hentai-foundry.com##P > [href^="http"] > IMG[src^="//img.hentai-foundry.com/"]
+hentaihaven.org##.ads
+hentaihaven.org##.hh_simple_banner
+hoerzu.de##.content-amazon
+hoerzu.de##.voltera-b
+live.com###owaadbar
+mobilegeeks.de###ha-footer
+mobilegeeks.de##DIV[style="background:#000000;"]
+netzwelt.de##.ckch
+netzwelt.de##.fi.stcl
+netzwelt.de##DIV#mr[style="width: auto; float: right;"]
+netzwelt.de##DIV[style="text-align: center; padding: 0px; border-color: transparent; cursor: pointer; z-index: 1; height: 205px;"]
+outlook.live.com##div[class="_n_h"][style*="width: 165px;"]
+outlook.live.com##div[class="_n_h"][style*="width: 305px;"]
+outlook.live.com#$##primaryContainer > div[style*="right: 165px;"] { width: 100% !important; }
+outlook.live.com#$##primaryContainer > div[style*="right: 305px;"] { width: 100% !important; }
+pornhd.com##.video-thumb-ad-zone
+pornhd.com##.zone.phdZone
+primewire.org##[onclick*="'bt_stream'"]
+primewire.org##[onclick*="'bt_watch_now'"]
+reviewmeta.com##.ad_gu_tr
+reviewmeta.com##.ad_unit_1
+search.disconnect.me##.ad
+searchdns.netcraft.com##.advert-tag
+thehackernews.com##A[href^="http://ow.ly/"]
+themerkle.com##.topad
+torrentfreak.com##ASIDE.widg.widget_text
+unbubble.eu##.sponsor-title
+unbubble.eu##.sponsor-title + *
+unbubble.eu##.top-products
+vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
+viptube.com###adx_ad
+viptube.com##.footer_adv
+watchfree.to##.get_vpn
+web.de##.notification-alert[data-notification-browser]
+wholecloud.net###aad
+www.anabolicmen.com###text-55
+zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
+|http$popup,third-party,domain=openload.co|userscloud.com
+|http$script,third-party,domain=imgfantasy.com|pornleech.com|primewire.org
+|http$third-party,xmlhttprequest,domain=primewire.org
+|http$xmlhttprequest,domain=streamcloud.eu
 ||130.211.198.219^$popup,third-party
 ||247-inc.net^$third-party
 ||4dsply.com^
@@ -430,8 +483,8 @@ examine.com##.optin-wrapper
 ||tacdn.com^*/BounceUserTracking-
 ||tampermonkey.net/bnir/bitcoin
 ||terraclicks.com^
-||themerkle.com/wp-content/*/300x600_
 ||themerkle.com/wp-content/*/300x600.
+||themerkle.com/wp-content/*/300x600_
 ||themerkle.com/wp-content/uploads/*/banner-
 ||thewhizmarketing.com^$popup,third-party
 ||track.reference.com^
@@ -457,8 +510,8 @@ examine.com##.optin-wrapper
 ||xl415.com^
 ||yahoo.com/neo/logger
 ||yahoo.com/neo/mbfb?
-||yahoo.com/pageview?
 ||yahoo.com/pageview/?
+||yahoo.com/pageview?
 ||yahoo.com/pageview|
 ||yahoo.com/yabeacon?
 ||yahoodns.net/i.gif
@@ -474,68 +527,3 @@ examine.com##.optin-wrapper
 ||zerem.*.info^
 ||zerem.*.info^$popup
 ||zinturax.com^
-|http$popup,third-party,domain=openload.co
-|http$popup,third-party,domain=userscloud.com
-|http$script,third-party,domain=imgfantasy.com
-|http$script,third-party,domain=pornleech.com
-|http$script,third-party,domain=primewire.org
-|http$third-party,xmlhttprequest,domain=primewire.org
-|http$xmlhttprequest,domain=streamcloud.eu
-174.138.43.128,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,city-countyobserver.com,e621.net,en.greatfire.org,ghacks.net,invidio.us,invidious.fdn.fr,invidious.snopyta.org,kgg2m7yk5aybusll.onion,nintendolife.com,thejournal.ie,vg.no,yewtu.be,youtube.com#@##comments
-accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
-animmex.com,noticiasautomotivas.com.br##+js(bab-defuser.js)
-chip.de##[href^="javascript:DSinitDl"]
-chip.de###sparwelt_cont
-cronometer.com##[href*="://mybiosense.com/"]
-examine.com##.content-overlay
-examine.com##.d-sm-inline-block.d-block.badge-info.badge
-examine.com##.optin-wrapper
-examine.com##.supplements-page-icons-box
-gmx.net,web.de##TR.ad-hint
-gmx.net,web.de##TR.iba
-gmx.net,web.de##TR.iba-acceptable
-gmx.net,web.de##TR.iba-uncertain
-gmx.net,web.de##TR.li.iba
-gmx.net,web.de##TR.li.iba-acceptable
-gmx.net,web.de##TR.new.iba
-gmx.net,web.de##TR.new.iba-acceptable
-gmx.net,web.de##TR.new.iba-uncertain
-heise.de###bannerzone
-hentai-foundry.com##P > [href^="http"] > IMG[src^="//img.hentai-foundry.com/"]
-hentaihaven.org##.ads
-hentaihaven.org##.hh_simple_banner
-hoerzu.de##.content-amazon
-hoerzu.de##.voltera-b
-live.com###owaadbar
-mobilegeeks.de###ha-footer
-mobilegeeks.de##DIV[style="background:#000000;"]
-netzwelt.de##.ckch
-netzwelt.de##.fi.stcl
-netzwelt.de##DIV[style="text-align: center; padding: 0px; border-color: transparent; cursor: pointer; z-index: 1; height: 205px;"]
-netzwelt.de##DIV#mr[style="width: auto; float: right;"]
-outlook.live.com##div[class="_n_h"][style*="width: 165px;"]
-outlook.live.com##div[class="_n_h"][style*="width: 305px;"]
-outlook.live.com#$##primaryContainer > div[style*="right: 165px;"] { width: 100% !important; }
-outlook.live.com#$##primaryContainer > div[style*="right: 305px;"] { width: 100% !important; }
-pornhd.com##.video-thumb-ad-zone
-pornhd.com##.zone.phdZone
-primewire.org##[onclick*="'bt_stream'"]
-primewire.org##[onclick*="'bt_watch_now'"]
-reviewmeta.com##.ad_gu_tr
-reviewmeta.com##.ad_unit_1
-search.disconnect.me##.ad
-searchdns.netcraft.com##.advert-tag
-thehackernews.com##A[href^="http://ow.ly/"]
-themerkle.com##.topad
-torrentfreak.com##ASIDE.widg.widget_text
-unbubble.eu##.sponsor-title
-unbubble.eu##.sponsor-title + *
-unbubble.eu##.top-products
-vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
-viptube.com##.footer_adv
-viptube.com###adx_ad
-watchfree.to##.get_vpn
-web.de##.notification-alert[data-notification-browser]
-wholecloud.net###aad
-www.anabolicmen.com###text-55
-zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
