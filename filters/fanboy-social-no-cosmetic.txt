@@ -5,16 +5,16 @@
 ! Expires: 4 days (update frequency)
 ! Commit: a8a2728cea2b8ec223cc4aee213be832c09ab1de
 ! *** easylist:template_header.txt ***
-! 
+!
 ! Please report any unblocked adverts or problems
 ! in the forums (https://forums.lanik.us/)
 ! or via e-mail (easylist@protonmail.com).
-! 
+!
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
 ! GitHub issues: https://github.com/easylist/easylist/issues
 ! GitHub pull requests: https://github.com/easylist/easylist/pulls
-! 
+!
 ! --------------------------General blocking rules-----------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_block.txt ***
 ! fanboy_social_general_block.txt
@@ -108,126 +108,126 @@
 ! ------------------------Rules for international sites------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_international.txt ***
 ! fanboy_social_international.txt
-! 
+!
 ! ---------- Non-English Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- German Site Specific Hiding Rules ----------
-! 
+!
 ! Specific hiding filters necessary for sites allowlisted with $generichide filter option
 ! Focus.de
-! 
+!
 ! ---------- French Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- French Site Specific Blocking Rules ----------
-! 
-! 
+!
+!
 ! ---------- Arabic Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Arabic Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Bosnian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Croatian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Chinese Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Chinese Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Czech Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Danish Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Dutch Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Finnish Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Georgian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Greek Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Hebrew Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Hungarian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Indian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Indonesian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Italian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Japanese Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Japanese Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Korean Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Latvian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Montenegrin Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Norwegian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Persian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Polish Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Portuguese Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Romanian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Ukrainian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Russian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Serbian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Slovak Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Slovenian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Spanish Site Specific Hiding Rules ----------
-! 
+!
 ! Lithuanian
-! 
+!
 ! ---------- Swedish Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Turkish Specific Social Media Elements ----------
-! 
+!
 ! ---------------------------------Allowlists----------------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
 ! fanboy_social_allowlist_general_hide.txt
