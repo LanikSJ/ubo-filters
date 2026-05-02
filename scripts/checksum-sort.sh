@@ -152,31 +152,36 @@ add_checksum() {
   log_info "📝 Checksum: $checksum"
 }
 
-# Sort the filter file manually using Unix sort
+# Sort the filter file using fop-rs
 sort_filter() {
   local file="$1"
+  local dir_path
+  local file_name
 
-  log_info "🔀 Sorting filter rules manually using Unix sort..."
+  dir_path=$(dirname "$file")
+  file_name=$(basename "$file")
 
-  # Create temporary files
-  local temp_file="$file.tmp.$$"
-  local temp_rules="$file.rules.tmp.$$"
-  local temp_comments="$file.comments.tmp.$$"
+  log_info "🔀 Sorting filter rules using fop-rs..."
 
-  # Extract header comments (lines starting with !) and rules separately
-  grep '^!' "$file" >"$temp_comments"
-  grep -v '^!' "$file" >"$temp_rules"
+  # Run fop-rs from within the directory containing the file
+  (
+    cd "$dir_path" || {
+      log_error "Failed to change directory to $dir_path"
+      exit 1
+    }
 
-  # Sort the rules alphabetically
-  sort "$temp_rules" >"$temp_file"
+    if command -v fop >/dev/null 2>&1; then
+      fop --check-file="$file_name" --no-commit
+    else
+      log_error "fop not found. Please install it first."
+      log_error "You can install it via Homebrew:"
+      log_error "  brew install laniksj/tap/fop-rs"
+      log_error "Or using Cargo: cargo install fop-rs"
+      exit 1
+    fi
+  )
 
-  # Combine header comments and sorted rules
-  cat "$temp_comments" "$temp_file" >"$file"
-
-  # Clean up temporary files
-  rm -f "$temp_file" "$temp_rules" "$temp_comments"
-
-  log_info "✅ Manual sorting completed successfully"
+  log_info "✅ fop-rs sorting completed successfully"
 }
 
 # Process the filter file

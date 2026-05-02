@@ -1,20 +1,20 @@
-! Version: 202604271015
+! Version: 202605020709
 ! Title: Fanboy's Social Blocking List
-! Checksum: sBu8ZwmVoHUuK1n052LKhg
-! Last modified: 2026-04-27 10:15 UTC
+! Checksum: M4nphzvrxvCWzhJK9PDu4A
+! Last modified: 2026-05-02 07:09 UTC
 ! Expires: 4 days (update frequency)
 ! Commit: a8a2728cea2b8ec223cc4aee213be832c09ab1de
 ! *** easylist:template_header.txt ***
-! 
+!
 ! Please report any unblocked adverts or problems
 ! in the forums (https://forums.lanik.us/)
 ! or via e-mail (easylist@protonmail.com).
-! 
+!
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
 ! GitHub issues: https://github.com/easylist/easylist/issues
 ! GitHub pull requests: https://github.com/easylist/easylist/pulls
-! 
+!
 ! --------------------------General blocking rules-----------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_general_block.txt ***
 ! fanboy_social_general_block.txt
@@ -108,134 +108,132 @@
 ! ------------------------Rules for international sites------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_international.txt ***
 ! fanboy_social_international.txt
-! 
+!
 ! ---------- Non-English Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- German Site Specific Hiding Rules ----------
-! 
+!
 ! Specific hiding filters necessary for sites allowlisted with $generichide filter option
 ! Focus.de
-! 
+!
 ! ---------- French Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- French Site Specific Blocking Rules ----------
-! 
-! 
+!
+!
 ! ---------- Arabic Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Arabic Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Bosnian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Croatian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Chinese Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Chinese Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Czech Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Danish Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Dutch Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Finnish Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Georgian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Greek Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Hebrew Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Hungarian Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Indian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Indonesian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Italian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Japanese Specific Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Japanese Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Korean Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Latvian Specific Social Media Elements ----------
-! 
-! 
+!
+!
 ! ---------- Montenegrin Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Norwegian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Persian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Polish Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Portuguese Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Romanian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Ukrainian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Russian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Serbian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Slovak Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Slovenian Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Spanish Site Specific Hiding Rules ----------
-! 
+!
 ! Lithuanian
-! 
+!
 ! ---------- Swedish Site Specific Hiding Rules ----------
-! 
-! 
+!
+!
 ! ---------- Turkish Specific Social Media Elements ----------
-! 
+!
 ! ---------------------------------Allowlists----------------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
 ! fanboy_social_allowlist_general_hide.txt
 ! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
 ! fanboy_social_allowlist.txt
 ! Generichide
--ShareButton2.
--Social-Sidebar/
 -facebook-likeButton-
 -facebook-share.
 -facebook-widget.
@@ -248,30 +246,22 @@
 -share-sprite-
 -share-sprite.
 -share-tools-
--shareWidget.
 -sharebar-
 -sharebar.
+-ShareButton2.
 -sharebuttons_
 -sharetools-
+-shareWidget.
 -slide-social-
 -social-panel.
 -social-panel/
 -social-sidebar.
+-Social-Sidebar/
 -social-slider/
 -sprite-social-
 .fbshare.js
 .sharebar.js
 .sharing.js
-/Handlers/Sharrre.ashx?
-/Resources/twitter-$~xmlhttprequest
-/Sharefb.jpg
-/Sharefb.png
-/Sharetw.png
-/Social-Sidebar.js
-/SocialMediaButtons/tracking.js
-/SocialSharePlugin.js
-/SocialSharePlugin.png
-/SocialSprite.
 /a2a_share_
 /accesspress-social-counter/*
 /add-mymsn2.gif
@@ -294,8 +284,8 @@
 /cevhershare.js
 /common/sns/*
 /common/sns_
-/commonSprites/social/*
 /commons/social/*
+/commonSprites/social/*
 /cool-share/plugin.js
 /diggdigg-floating-bar.js
 /ej-socialslider/static/slideout.js
@@ -306,8 +296,6 @@
 /facebook-side.png
 /facebook-vertical.png
 /facebook-vertical.svg
-/facebookBtmIcon.gif
-/facebookHeader.png
 /facebook_badge.gif
 /facebook_badge.jpg
 /facebook_badge.png
@@ -322,6 +310,8 @@
 /facebookbadge.gif
 /facebookbadge.jpg
 /facebookbadge.png
+/facebookBtmIcon.gif
+/facebookHeader.png
 /facebooksharebutton.png
 /facebooksocialplugins.js
 /facebooksquare.jpg
@@ -364,6 +354,7 @@
 /gigya-socialize-for-wordpress/*$~script,~stylesheet
 /gm-button-social.min.js
 /graphics/share/*
+/Handlers/Sharrre.ashx?
 /header_socials.png
 /highlight-and-share.js
 /icon_share_
@@ -414,7 +405,6 @@
 /pinterest-over.png
 /pinterest_tag.js
 /pintrest-button.png
-/plugins/StickySocialBar/js/sharefront.js
 /plugins/add-to-any-subscribe/subscribe_
 /plugins/anmiated-twitter-bird/js/tripleflap.js
 /plugins/bookmarkify/*
@@ -449,6 +439,7 @@
 /plugins/socialfans-counter/assets/js/socialfans-script.js
 /plugins/socialgrid/static/img/*
 /plugins/sociallocker-next-premium/*
+/plugins/StickySocialBar/js/sharefront.js
 /plugins/subscribe-connect-follow-widget/images/*
 /plugins/tweet-this/icons/*
 /plugins/tweetmeme/button.js
@@ -462,6 +453,7 @@
 /plugins/wp-tweet-button/tweetn.png
 /prisna-social-counter.css
 /qa-social-share.css
+/Resources/twitter-$~xmlhttprequest
 /rrshare.js
 /s9-social-sharing-front.css
 /scrollShareMenu.html
@@ -478,17 +470,6 @@
 /share/footer/*
 /share/frame/*
 /share42.js
-/shareArrow.png
-/shareBar/*
-/shareBtn_
-/shareFacebook.jpg
-/shareFacebook.png
-/shareIcons.$~stylesheet
-/shareTT.js
-/shareThisIcons.png
-/shareTools.js
-/shareTwitter.jpg
-/shareTwitter.png
 /share_button?
 /share_count.js
 /share_iframe.js
@@ -501,8 +482,11 @@
 /share_weibo.jpg
 /share_weibo.png
 /shareaholic.js
+/shareArrow.png
 /sharebar.js
+/shareBar/*
 /sharebars/*
+/shareBtn_
 /sharebutton?
 /sharecount/*
 /sharecounter?
@@ -512,16 +496,27 @@
 /shared/social/*
 /sharedaddy.js
 /sharedaddy/sharing.min.js
+/shareFacebook.jpg
+/shareFacebook.png
+/Sharefb.jpg
+/Sharefb.png
 /sharefb_icon.png
 /shareicon-branding-
+/shareIcons.$~stylesheet
 /shareit.js
 /shareon.iife.js
 /shareon.min.css
 /sharer.js
 /sharethis-buttons.js
 /sharethis.js
+/shareThisIcons.png
 /sharetool.php?
+/shareTools.js
+/shareTT.js
+/Sharetw.png
 /sharetw_icon.png
+/shareTwitter.jpg
+/shareTwitter.png
 /shariff.min.js
 /sharing/sprites/*
 /sharing_icons/*
@@ -543,6 +538,7 @@
 /social-footer.jpg
 /social-footer.png
 /social-proof-testimonials-slider/admin/js/slick-block-editor.js
+/Social-Sidebar.js
 /social-twit.png
 /social-twit.svg
 /social-url-generator.js
@@ -550,8 +546,6 @@
 /social-widgets-
 /social/sprite-
 /social2s.min.js
-/socialMediaButtons.png
-/socialSmall/*
 /social_balloon-
 /social_bookmarking.png
 /social_bookmarking/*$image
@@ -572,11 +566,17 @@
 /socialfooter.js
 /socialite.js
 /socialite.min.js
+/socialMediaButtons.png
+/SocialMediaButtons/tracking.js
 /socialmediasprite.png
 /socialnetwork-buttons/*
 /socialplugins/*
+/SocialSharePlugin.js
+/SocialSharePlugin.png
 /socialshares.js
 /socialsite/*
+/socialSmall/*
+/SocialSprite.
 /socialsprites.
 /socialstat?
 /socialtwitter1.png
@@ -657,8 +657,8 @@
 @@||authy.com/wp-content/themes/authy/assets/images/icons/
 @@||brave.com/wp-content/uploads/$image,~third-party
 @@||cdn.flowplayer.com^*/share.min.js
-@@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
 @@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/instafeed.min.js$~third-party
+@@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
 @@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
 @@||d27rt3a60hh1lx.cloudfront.net/models/$domain=muse.place
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs-share.min.js?$script,domain=vrsicilia.it
