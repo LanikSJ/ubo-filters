@@ -1,7 +1,7 @@
 ! Title: uBlock Filters Plus
-! Checksum: wSIfBt-L0gxKnfPJap8cbw
-! Version: 202604200959
-! Last modified: 2026-04-20 09:59 UTC
+! Checksum: UjJ5DxUhdz0C6sLflvVJiQ
+! Version: 202605020709
+! Last modified: 2026-05-02 07:09 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -15,56 +15,65 @@
 !
 ###AdsByCurseBanner
 ###NotificationUpgradeWin81and7NonSupport
+wholecloud.net###aad
 ###adb-note
+viptube.com###adx_ad
+heise.de###bannerzone
+174.138.43.128,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,city-countyobserver.com,e621.net,en.greatfire.org,ghacks.net,invidio.us,invidious.fdn.fr,invidious.snopyta.org,kgg2m7yk5aybusll.onion,nintendolife.com,thejournal.ie,vg.no,yewtu.be,youtube.com#@##comments
+mobilegeeks.de###ha-footer
+live.com###owaadbar
+chip.de###sparwelt_cont
 ###su_flash_ec__0
 ###su_flash_ec__1
-##.slide_likebox
-##A[href*="/AF_TA/rel/index.cfm"]
-##A[href*="://nitrogensports.eu/r/"]
-##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
-##[href*=".reimageplus.com/"]
-##[href*="://ab.advertiserurl.com/"]
-##[href^="http://engine.4dsply.com/"]
-##[href^="http://r.search.yahoo.com/cbclk/"]
-##[href^="http://watch.primewire.ag"]
-##[href^="http://x.chip.de/fs24/"]
-##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'bottom_aff_link']);"]
-##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'promo_host']);"]
-##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'sponsor_host']);"]
-##a[href*=".hop.clickbank.net/"]
-##a[href*="/_b2.php?url="]
-##a[href*="/_b3.php?url="]
-##a[href*="/_c3.php?url="]
-##a[href*="/afu.php"]
-##a[href*="://secure.link/"]
-##a[href="http://www.chip.de/amazon_prime"]
-##a[href^="/adb/"]
-##a[href^="http://data.oileddaintiessunset.info/"]
-##a[href^="http://ddownload39.club/"]
-##a[href^="http://wct.link/click"]
+www.anabolicmen.com###text-55
 &adb=$other,subdocument
 &link_type=offer$document
 &popunder=$document
 &program=revshare&$document
+animmex.com,noticiasautomotivas.com.br##+js(bab-defuser.js)
 -ads-campaign/$document
 -pop-under/$document
 -popexit.$document
 -popunder.$document
 -popup-ad.$document
 -popup-ads-$document
+search.disconnect.me##.ad
+reviewmeta.com##.ad_gu_tr
+reviewmeta.com##.ad_unit_1
+hentaihaven.org##.ads
+searchdns.netcraft.com##.advert-tag
+netzwelt.de##.ckch
 .co/ads/$document
 .com/*/Redirect.a1b$document
 .com/?adv=$document
 .com/ads?$document
 .com/faloo.js|$first-party,script
+hoerzu.de##.content-amazon
+examine.com##.content-overlay
+examine.com##.d-sm-inline-block.d-block.badge-info.badge
 .engine?PlacementId=$document
+netzwelt.de##.fi.stcl
+viptube.com##.footer_adv
+watchfree.to##.get_vpn
+hentaihaven.org##.hh_simple_banner
 .net/pops.$document
 .net/s.gif?
 .net/track?$~object
+web.de##.notification-alert[data-notification-browser]
+examine.com##.optin-wrapper
 .org/pops.$document
 .popunder.$document
 .popup_im.$document
 .popupvideoad.$document
+##.slide_likebox
+unbubble.eu##.sponsor-title
+unbubble.eu##.sponsor-title + *
+examine.com##.supplements-page-icons-box
+unbubble.eu##.top-products
+themerkle.com##.topad
+pornhd.com##.video-thumb-ad-zone
+hoerzu.de##.voltera-b
+pornhd.com##.zone.phdZone
 /?placement=*&redirect$document
 /?reef=$document
 /AdHandler.aspx?$document
@@ -252,7 +261,6 @@
 /wp-super-popup/*$document
 /wp_actionpop/*$document
 /yesbaby.$document
-174.138.43.128,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,city-countyobserver.com,e621.net,en.greatfire.org,ghacks.net,invidio.us,invidious.fdn.fr,invidious.snopyta.org,kgg2m7yk5aybusll.onion,nintendolife.com,thejournal.ie,vg.no,yewtu.be,youtube.com#@##comments
 =popunder&$document
 =popunders&$document
 ?AdUrl=$document
@@ -271,6 +279,39 @@
 @@||searchdns.netcraft.com^$generichide
 @@||uobsoe.com/ad_bomb/*.png$image,third-party
 @@||viptube.com^$generichide
+torrentfreak.com##ASIDE.widg.widget_text
+##A[href*="/AF_TA/rel/index.cfm"]
+##A[href*="://nitrogensports.eu/r/"]
+##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
+thehackernews.com##A[href^="http://ow.ly/"]
+netzwelt.de##DIV#mr[style="width: auto; float: right;"]
+mobilegeeks.de##DIV[style="background:#000000;"]
+netzwelt.de##DIV[style="text-align: center; padding: 0px; border-color: transparent; cursor: pointer; z-index: 1; height: 205px;"]
+hentai-foundry.com##P > [href^="http"] > IMG[src^="//img.hentai-foundry.com/"]
+gmx.net,web.de##TR.ad-hint
+gmx.net,web.de##TR.iba
+gmx.net,web.de##TR.iba-acceptable
+gmx.net,web.de##TR.iba-uncertain
+gmx.net,web.de##TR.li.iba
+gmx.net,web.de##TR.li.iba-acceptable
+gmx.net,web.de##TR.new.iba
+gmx.net,web.de##TR.new.iba-acceptable
+gmx.net,web.de##TR.new.iba-uncertain
+##[href*=".reimageplus.com/"]
+##[href*="://ab.advertiserurl.com/"]
+cronometer.com##[href*="://mybiosense.com/"]
+##[href^="http://engine.4dsply.com/"]
+##[href^="http://r.search.yahoo.com/cbclk/"]
+##[href^="http://watch.primewire.ag"]
+##[href^="http://x.chip.de/fs24/"]
+vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
+chip.de##[href^="javascript:DSinitDl"]
+primewire.org##[onclick*="'bt_stream'"]
+primewire.org##[onclick*="'bt_watch_now'"]
+##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'bottom_aff_link']);"]
+##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'promo_host']);"]
+##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'sponsor_host']);"]
+accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
 ^utm_medium=pops^$document
 ^utm_medium=popunder^$document
 _pop_ad.$document
@@ -281,62 +322,21 @@ _popunder+$document
 _popunder.$document
 _popunder_$document
 _popupunder.$document
-accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
-animmex.com,noticiasautomotivas.com.br##+js(bab-defuser.js)
-chip.de###sparwelt_cont
-chip.de##[href^="javascript:DSinitDl"]
-cronometer.com##[href*="://mybiosense.com/"]
-examine.com##.content-overlay
-examine.com##.d-sm-inline-block.d-block.badge-info.badge
-examine.com##.optin-wrapper
-examine.com##.supplements-page-icons-box
-gmx.net,web.de##TR.ad-hint
-gmx.net,web.de##TR.iba
-gmx.net,web.de##TR.iba-acceptable
-gmx.net,web.de##TR.iba-uncertain
-gmx.net,web.de##TR.li.iba
-gmx.net,web.de##TR.li.iba-acceptable
-gmx.net,web.de##TR.new.iba
-gmx.net,web.de##TR.new.iba-acceptable
-gmx.net,web.de##TR.new.iba-uncertain
-heise.de###bannerzone
-hentai-foundry.com##P > [href^="http"] > IMG[src^="//img.hentai-foundry.com/"]
-hentaihaven.org##.ads
-hentaihaven.org##.hh_simple_banner
-hoerzu.de##.content-amazon
-hoerzu.de##.voltera-b
-live.com###owaadbar
-mobilegeeks.de###ha-footer
-mobilegeeks.de##DIV[style="background:#000000;"]
-netzwelt.de##.ckch
-netzwelt.de##.fi.stcl
-netzwelt.de##DIV#mr[style="width: auto; float: right;"]
-netzwelt.de##DIV[style="text-align: center; padding: 0px; border-color: transparent; cursor: pointer; z-index: 1; height: 205px;"]
+##a[href*=".hop.clickbank.net/"]
+##a[href*="/_b2.php?url="]
+##a[href*="/_b3.php?url="]
+##a[href*="/_c3.php?url="]
+##a[href*="/afu.php"]
+##a[href*="://secure.link/"]
+##a[href="http://www.chip.de/amazon_prime"]
+##a[href^="/adb/"]
+##a[href^="http://data.oileddaintiessunset.info/"]
+##a[href^="http://ddownload39.club/"]
+##a[href^="http://wct.link/click"]
 outlook.live.com##div[class="_n_h"][style*="width: 165px;"]
 outlook.live.com##div[class="_n_h"][style*="width: 305px;"]
 outlook.live.com#$##primaryContainer > div[style*="right: 165px;"] { width: 100% !important; }
 outlook.live.com#$##primaryContainer > div[style*="right: 305px;"] { width: 100% !important; }
-pornhd.com##.video-thumb-ad-zone
-pornhd.com##.zone.phdZone
-primewire.org##[onclick*="'bt_stream'"]
-primewire.org##[onclick*="'bt_watch_now'"]
-reviewmeta.com##.ad_gu_tr
-reviewmeta.com##.ad_unit_1
-search.disconnect.me##.ad
-searchdns.netcraft.com##.advert-tag
-thehackernews.com##A[href^="http://ow.ly/"]
-themerkle.com##.topad
-torrentfreak.com##ASIDE.widg.widget_text
-unbubble.eu##.sponsor-title
-unbubble.eu##.sponsor-title + *
-unbubble.eu##.top-products
-vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
-viptube.com###adx_ad
-viptube.com##.footer_adv
-watchfree.to##.get_vpn
-web.de##.notification-alert[data-notification-browser]
-wholecloud.net###aad
-www.anabolicmen.com###text-55
 zone_id$important,subdocument,third-party,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 |http$popup,third-party,domain=openload.co
 |http$popup,third-party,domain=userscloud.com
