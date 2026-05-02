@@ -1,7 +1,7 @@
-! Version: 202605020709
+! Version: 202605020751
 ! Title: Fanboy's Social Blocking List
-! Checksum: M4nphzvrxvCWzhJK9PDu4A
-! Last modified: 2026-05-02 07:09 UTC
+! Checksum: eE8tlfFfWD2Tj2ilWDCtuQ
+! Last modified: 2026-05-02 07:51 UTC
 ! Expires: 4 days (update frequency)
 ! Commit: a8a2728cea2b8ec223cc4aee213be832c09ab1de
 ! *** easylist:template_header.txt ***
@@ -262,6 +262,16 @@
 .fbshare.js
 .sharebar.js
 .sharing.js
+_footer_twitter.
+_share_bookmark.
+_share_widget_
+_small_share.
+_social-bar/
+_social_badge_$~xmlhttprequest
+_social_bookmark/
+_social_bookmarks/
+_social_footer_
+[Adblock Plus 2.0]
 /a2a_share_
 /accesspress-social-counter/*
 /add-mymsn2.gif
@@ -719,16 +729,6 @@
 @@||yaplakal.com/html/static/$image,~third-party
 @@||yastatic.net/share2/share.js$script
 @@||zeplin.io^$generichide
-[Adblock Plus 2.0]
-_footer_twitter.
-_share_bookmark.
-_share_widget_
-_small_share.
-_social-bar/
-_social_badge_$~xmlhttprequest
-_social_bookmark/
-_social_bookmarks/
-_social_footer_
 abc.net.au#?#.Button_root__UZ8td:has-text(Share)
 appleinsider.com#?#.col-xs-12 > div:has-text(Follow AppleInsider)
 archaeologymag.com#?#.widget_custom_html:has-text(Follow us)
