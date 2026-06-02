@@ -1,4 +1,4 @@
-# AI Rules & Project Standards for ubo-filters
+# Agent Rules & Project Standards for ubo-filters
 
 ## Repository Overview
 
