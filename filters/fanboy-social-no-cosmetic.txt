@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202606030027
+! Version: 202606030030
 ! Title: Fanboy's Social Blocking List
 ! Checksum: aEmGeCLIh-ypCJnutrxSBA
 ! Last modified: 2026-06-03 00:27 UTC
@@ -803,7 +803,6 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 !
 ! ---------- Latvian Specific Social Media Elements ----------
 !
-||sekomums.lv^$third-party
 !
 ! ---------- Montenegrin Site Specific Hiding Rules ----------
 !

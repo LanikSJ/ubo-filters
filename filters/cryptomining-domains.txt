@@ -1,7 +1,7 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: H8IHAlYtytrFowGkOQt5GQ
-! Version: 202605181145
-! Last modified: 2026-05-18 11:45 UTC
+! Checksum: fKWmpuQVFl2Jxn0OeossCQ
+! Version: 202606030033
+! Last modified: 2026-06-03 00:33 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -130,6 +130,5 @@
 ||webminepool.com^$third-party
 ||webminerpool.com^$third-party
 ||webxmr.com^$third-party
-||wordc.ga^
 ||zlx.com.br^$third-party
 ||zymerget.bid
