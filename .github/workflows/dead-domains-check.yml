@@ -139,10 +139,8 @@ jobs:
       - name: Commit and Push
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
-          # Ensure the branch is up‑to‑date with remote to avoid push rejections
-          git pull --rebase origin ${{ steps.create-branch.outputs.branch_name }} || true
           git commit -m "fix(filters): remove dead domains"
-          git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
+          git push --force-with-lease --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
       - name: Create Pull Request
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
