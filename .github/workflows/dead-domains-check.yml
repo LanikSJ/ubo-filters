@@ -33,7 +33,7 @@ jobs:
           cache: npm
 
       - name: Install FOP CLI
-        run: npm install -g fop-cli
+        run: HOMEBREW_NO_AUTO_UPDATE=1 brew install laniksj/tap/fop-rs
 
       - name: Install Dependencies
         run: npm install
