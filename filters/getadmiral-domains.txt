@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: cY3i0XBoDjrJbhRJyzGHPw
-! Version: 202606080826
-! Last modified: 2026-06-08 08:26 UTC
+! Checksum: UNXNtgQbQZLqvg6cva4Nbg
+! Version: 202606080844
+! Last modified: 2026-06-08 08:44 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -57,7 +57,6 @@
 ||admiral.support^
 ||admiral.website^
 ||admiralcdn.com^
-||admiralexternal.com^
 ||admlcdn.com^
 ||adorableanger.com^
 ||adorableattention.com^
@@ -287,7 +286,6 @@
 ||cloisteredcurve.com^
 ||cloudhustles.com^
 ||cloudjumbo.com^
-||cloudsdestruction.com^
 ||clumsycar.com^
 ||coalkitchen.com^
 ||coatfood.com^
@@ -932,7 +930,6 @@
 ||netizen.co^
 ||nevitable.com^
 ||newarkdriving.com^
-||newartreview.com^
 ||newsletterjet.com^
 ||niftygraphs.com^
 ||niftyhospital.com^
@@ -1354,7 +1351,6 @@
 ||sophisticatedstove.com^
 ||soresidewalk.com^
 ||soretrain.com^
-||sortanoisy.com^
 ||sortstructure.com^
 ||soundstocking.com^
 ||sowlettuce.com^
@@ -1403,7 +1399,6 @@
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
-||standingsack.com^
 ||startercost.com^
 ||statshunt.com^
 ||statuesqueship.com^
