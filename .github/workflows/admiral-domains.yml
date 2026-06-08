@@ -8,6 +8,9 @@ on:
       - main
     paths:
       - ".github/workflows/admiral-domains.yml"
+  pull_request:
+    paths:
+      - ".github/workflows/admiral-domains.yml"
   workflow_dispatch:
 
 permissions:

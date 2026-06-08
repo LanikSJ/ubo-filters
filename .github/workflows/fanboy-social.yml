@@ -8,6 +8,9 @@ on:
       - main
     paths:
       - ".github/workflows/fanboy-social.yml"
+  pull_request:
+    paths:
+      - ".github/workflows/fanboy-social.yml"
   workflow_dispatch:
 
 permissions:

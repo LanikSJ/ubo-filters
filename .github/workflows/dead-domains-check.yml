@@ -12,6 +12,9 @@ on:
       - main
     paths:
       - ".github/workflows/dead-domains-check.yml"
+  pull_request:
+    paths:
+      - ".github/workflows/dead-domains-check.yml"
   workflow_dispatch:
 
 permissions:
