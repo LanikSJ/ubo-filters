@@ -12,6 +12,9 @@ on:
       - main
     paths:
       - ".github/workflows/dead-domains-check.yml"
+  pull_request:
+    paths:
+      - ".github/workflows/dead-domains-check.yml"
   workflow_dispatch:
 
 permissions:
@@ -33,13 +36,7 @@ jobs:
           cache: npm
 
       - name: Install FOP CLI
-        run: |
-          mkdir -p ~/.local/bin
-          LATEST_TAG=$(curl -sL -o /dev/null -w "%{url_effective}" https://github.com/ryanbr/fop-rs/releases/latest | awk -F/ '{print $NF}')
-          VERSION=${LATEST_TAG#v}
-          curl -sSL --connect-timeout 20 --retry 5 --retry-delay 2 "https://github.com/ryanbr/fop-rs/releases/download/${LATEST_TAG}/fop-${VERSION}-linux-x86_64" -o ~/.local/bin/fop
-          chmod +x ~/.local/bin/fop
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
+        run: ./scripts/install-fop.sh
 
       - name: Install Dependencies
         run: npm install
@@ -143,7 +140,7 @@ jobs:
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           git commit -m "fix(filters): remove dead domains"
-          git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
+          git push --force-with-lease --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
       - name: Create Pull Request
         if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
@@ -155,7 +152,7 @@ jobs:
               repo: context.repo.repo,
               title: 'fix(filters): remove dead domains',
               head: '${{ steps.create-branch.outputs.branch_name }}',
-              base: context.ref.replace('refs/heads/', ''),
+              base: 'main',
               body: [
                 'This is an automated pull request.',
                 '',
