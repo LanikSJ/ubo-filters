@@ -91,7 +91,7 @@ Below are the usage instructions for the main tools.
 
 #### checksum-sort.sh - Filter List Processing Tool
 
-The `checksum-sort.sh` script processes filter lists using FOP CLI to update
+The `checksum-sort.sh` script processes filter lists using `fop-cli` to update
 date and checksum.
 
 **Basic Usage:**
@@ -102,7 +102,7 @@ date and checksum.
 
 **Features:**
 
-- **FOP Integration**: Uses FOP CLI for sorting and checksum generation
+- **FOP Integration**: Uses `fop-cli` for sorting and checksum generation
 - **Cross-Platform Compatibility**: Works on both Linux and macOS
 - **Simple and Fast**: Minimal processing with reliable results
 
@@ -121,7 +121,7 @@ of filter lists:
 
 #### Additional Tools
 
-- `FOP.py`: Filter Optimizer Python script
+- `fop-cli`: Filter Orderer and Preener CLI tool for processing filter lists
 
 ### 🔄 Workflow Examples
 
@@ -134,7 +134,7 @@ of filter lists:
 
 ### ⚠️ Important Notes
 
-- All scripts use FOP CLI for processing
+- All scripts use `fop-cli` for processing
 - UTF-8 encoding is supported for international filter lists
 - Cross-platform compatibility ensures consistent behavior on Linux and macOS
 
