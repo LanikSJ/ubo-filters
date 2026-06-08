@@ -21,7 +21,13 @@ jobs:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
       - name: Install FOP CLI
-        run: HOMEBREW_NO_AUTO_UPDATE=1 brew install laniksj/tap/fop-rs
+        run: |
+          mkdir -p ~/.local/bin
+          LATEST_TAG=$(curl -sL -o /dev/null -w "%{url_effective}" https://github.com/ryanbr/fop-rs/releases/latest | awk -F/ '{print $NF}')
+          VERSION=${LATEST_TAG#v}
+          curl -sSL --connect-timeout 20 --retry 5 --retry-delay 2 "https://github.com/ryanbr/fop-rs/releases/download/${LATEST_TAG}/fop-${VERSION}-linux-x86_64" -o ~/.local/bin/fop
+          chmod +x ~/.local/bin/fop
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Download Fanboy Social
         run: |
