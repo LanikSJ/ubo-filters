@@ -41,6 +41,7 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: fanboy-social-update
+          base: main
           delete-branch: true
           title: "chore(filters): update fanboy social without cosmetic filters"
           body: |

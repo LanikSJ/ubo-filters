@@ -48,6 +48,7 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: admiral-domains-update
+          base: main
           delete-branch: true
           title: "chore(filters): update admiral domains filter list"
           body: |

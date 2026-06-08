@@ -152,7 +152,7 @@ jobs:
               repo: context.repo.repo,
               title: 'fix(filters): remove dead domains',
               head: '${{ steps.create-branch.outputs.branch_name }}',
-              base: context.ref.replace('refs/heads/', ''),
+              base: 'main',
               body: [
                 'This is an automated pull request.',
                 '',
