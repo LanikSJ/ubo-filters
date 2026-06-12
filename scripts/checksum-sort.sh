@@ -81,9 +81,11 @@ sort_filter() {
 
   {
     # Preserve comment lines starting with '!'
-    grep '^!' "$file"
+    grep '^!' "$file" || true
     # Sort rule lines by hostname (field before first '#')
-    grep -v '^!' "$file" | sort -t'#' -k1,1
+    if grep -q -v '^!' "$file"; then
+      grep -v '^!' "$file" | sort -t'#' -k1,1
+    fi
   } >"$tmp"
 
   # Atomically replace the original file
@@ -177,15 +179,30 @@ add_checksum() {
   # Calculate checksum after updating headers
   checksum=$(calculate_checksum "$file")
 
-  # Insert checksum after Title line if present; otherwise prepend
-  if grep -q '^! Title:' "$file"; then
-    # Use sed to append the checksum line right after the Title line
-    sed -i "/^! Title:/a ! Checksum: $checksum" "$file"
-  else
+  local tmp
+  tmp=$(mktemp "$file.tmp.XXXX") || {
+    log_error "Failed to create temporary file for checksum"
+    exit 1
+  }
+
+  local inserted=false
+  while IFS= read -r line || [[ -n "$line" ]]; do
+    echo "$line"
+    if [[ "$line" =~ ^'! Title:' ]]; then
+      echo "! Checksum: $checksum"
+      inserted=true
+    fi
+  done <"$file" >"$tmp"
+
+  if [[ "$inserted" == "false" ]]; then
     # No Title line; prepend checksum at the beginning of the file
-    sed -i "1i ! Checksum: $checksum" "$file"
+    {
+      echo "! Checksum: $checksum"
+      cat "$file"
+    } >"$tmp"
   fi
 
+  mv "$tmp" "$file"
   log_info "📝 Checksum: $checksum"
 }
 

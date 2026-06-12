@@ -1,0 +1,18 @@
+! Version: 202606121534
+! Title: Ad Shield Filter List
+! Checksum: ZmqxDhFxUxJHy5eGyvRU6Q
+! Last modified: 2026-06-12 15:34 UTC
+! Expires: 1 day (update frequency)
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://opensource.org/licenses/MIT
+!
+! Description: Ad Shield Filter List
+!
+! Legal Disclaimer (Terms and Conditions):
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
+! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
+! this list, you are accepting these terms and the license.
+!
+||07c225f3.online^$third-party
+||drawbut.com^$third-party
+||meanwhilelest.com^$third-party
