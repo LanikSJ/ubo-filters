@@ -1,4 +1,4 @@
-name: Admiral Domains
+name: Ad Shield Domains
 
 on:
   schedule:
@@ -30,7 +30,7 @@ jobs:
         run: |
           # Preserve header (first 15 lines) and append new domains
           ./scripts/remove-lines.sh filters/adshield-domains.txt 15 > filters/adshield-domains.tmp
-          curl -L https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/share/ad-shield.txt >> filters/adshield-domains.tmp
+          curl -L https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/share/ad-shield.txt | sed 's/^/||/; s/$/^$third-party/' >> filters/adshield-domains.tmp
           mv filters/adshield-domains.tmp filters/adshield-domains.txt
 
       - name: Sort & Generate Checksum
