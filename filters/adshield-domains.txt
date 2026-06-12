@@ -1,7 +1,7 @@
-! Version: 202606121846
+! Version: 202606121903
 ! Title: Ad Shield Filter List
-! Checksum: Wcszs_OePENG5LH84E3VPA
-! Last modified: 2026-06-12 18:46 UTC
+! Checksum: a17Ws4S29wYrE-c3OZ39VA
+! Last modified: 2026-06-12 19:03 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -46,7 +46,6 @@
 ||cod.followingbehold.com^$third-party
 ||coil.nowmodulo.com^$third-party
 ||coil.yowzabrr.com^$third-party
-||comannualrallybran.com^$third-party
 ||content-loader.com^$third-party
 ||cook.geeunlessarcade.com^$third-party
 ||cope.whenmehany.com^$third-party
@@ -67,7 +66,6 @@
 ||downknottily.com^$third-party
 ||drawbut.com^$third-party
 ||drug.downknottily.com^$third-party
-||ea6c0ac4.xyz^$third-party
 ||edge.battleickhope.com^$third-party
 ||eekknightsoon.com^$third-party
 ||epic.decryptionjunior.com^$third-party
@@ -159,10 +157,8 @@
 ||www.4863232c.xyz^$third-party
 ||www.58686728.xyz^$third-party
 ||www.78587924.xyz^$third-party
-||www.ea6c0ac4.xyz^$third-party
 ||www.middlegadzooks.com^$third-party
 ||yak.paradefast.com^$third-party
 ||yakunitfall.com^$third-party
 ||yowzabrr.com^$third-party
 ||zowiejump.com^$third-party
-||zowiejump.comannualrallybran.com^$third-party
