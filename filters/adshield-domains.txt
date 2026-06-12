@@ -1,7 +1,7 @@
-! Version: 202606121843
+! Version: 202606121845
 ! Title: Ad Shield Filter List
-! Checksum: -DM0LGUa7LUWPp48kfXYdA
-! Last modified: 2026-06-12 18:43 UTC
+! Checksum: QcGWvSVKQsYKRbw95zbMrw
+! Last modified: 2026-06-12 18:45 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
