@@ -6,7 +6,8 @@
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
 !
-! Description: Ad Shield Filter List
+! Description: Ad Shield Filter List by hagezi
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/share/ad-shield.txt
 !
 ! Legal Disclaimer (Terms and Conditions):
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
