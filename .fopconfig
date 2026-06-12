@@ -14,7 +14,7 @@ no-msg-check = false
 no-sort = true
 
 # Alternative sorting method
-alt-sort = true
+alt-sort = false
 
 # Sort hosts file entries
 localhost = false
