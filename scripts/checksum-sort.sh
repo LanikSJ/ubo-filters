@@ -34,7 +34,7 @@ validate_input() {
       candidate="$arg"
     else
       # Try relative to the script's sibling "../filters" directory.
-      local sibling="${script_dir}/../filters/${arg}"
+      local sibling="$script_dir/../filters/$arg"
       if [[ -f "$sibling" ]]; then
         candidate="$sibling"
       fi
@@ -45,7 +45,7 @@ validate_input() {
     log_error "File '$arg' does not exist or is not a regular file."
     log_error "Attempted paths:"
     log_error "  - Current directory: \$(pwd)/$arg"
-    log_error "  - Relative sibling: ${script_dir}/../filters/${arg}"
+    log_error "  - Relative sibling: $script_dir/../filters/$arg"
     exit 1
   fi
 
@@ -74,7 +74,7 @@ sort_filter() {
   local file="$1"
   # Create a temporary file safely; abort if creation fails
   local tmp
-  tmp=$(mktemp "${file}.tmp.XXXX") || {
+  tmp=$(mktemp "$file.tmp.XXXX") || {
     log_error "Failed to create temporary file"
     exit 1
   }
