@@ -15,7 +15,6 @@ on:
   pull_request:
     paths:
       - ".github/workflows/dead-domains-check.yml"
-      - "filters/*.txt"
   workflow_dispatch:
 
 permissions:
