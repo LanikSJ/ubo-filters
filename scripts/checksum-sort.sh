@@ -74,14 +74,17 @@ sort_filter() {
   local file="$1"
   # Create a temporary file safely; abort if creation fails
   local tmp
-  tmp=$(mktemp "${file}.tmp.XXXX") || { log_error "Failed to create temporary file"; exit 1; }
+  tmp=$(mktemp "${file}.tmp.XXXX") || {
+    log_error "Failed to create temporary file"
+    exit 1
+  }
 
   {
     # Preserve comment lines starting with '!'
     grep '^!' "$file"
     # Sort rule lines by hostname (field before first '#')
     grep -v '^!' "$file" | sort -t'#' -k1,1
-  } > "$tmp"
+  } >"$tmp"
 
   # Atomically replace the original file
   mv "$tmp" "$file"
@@ -196,9 +199,12 @@ run_fop() {
 
   (
     # Change directory to the file's location so fop can locate the file correctly
-    cd "$file_dir" || { log_error "Failed to change directory to $file_dir"; exit 1; }
+    cd "$file_dir" || {
+      log_error "Failed to change directory to $file_dir"
+      exit 1
+    }
 
-    if command -v fop > /dev/null 2>&1; then
+    if command -v fop >/dev/null 2>&1; then
       fop --check-file="$file_name" --no-commit --no-sort
     else
       log_error "fop not found. Please install it first."
