@@ -1,7 +1,7 @@
 ! Title: Ad Domains Filter List
-! Checksum: 6OQ0G2Wf0ge61q6t1fdkmw
-! Version: 202507310612
-! Last modified: 2025-07-31 06:12 UTC
+! Checksum: so2wPgCABbNDYlbWUcC77w
+! Version: 202606121611
+! Last modified: 2026-06-12 16:11 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -15,6 +15,7 @@
 !
 !#include admaven-domains.txt
 !#include admeasures-domains.txt
+!#include adshield-domains.txt
 !#include bt-contentza-domains.txt
 !#include cdn-filter-list.txt
 !#include cryptomining-domains.txt
