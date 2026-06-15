@@ -38,6 +38,41 @@ ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
 - Use `markdownlint --fix <filename>` for auto-fixable issues when available
 - Validate markdown files in CI/CD pipelines where applicable
 
+## Development Guidelines
+
+### Commit Message Convention
+
+- Use the conventional commit format: `type(scope): description`
+- Common types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`
+- Commit descriptions should be a bullet list of changes made
+- Example:
+
+  ```text
+  docs(AGENTS.md): update agent rules for cloudflare-worker project
+
+  - this file had the wrong data from a totally different repository
+  ```
+
+#### Commit Types
+
+- **feat**: A new feature
+- **fix**: A bug fix
+- **docs**: Documentation only changes
+- **style**: Formatting (white-space, etc)
+- **refactor**: Code change that neither fixes a bug nor adds a feature
+- **perf**: Performance improvement
+- **test**: Adding or correcting tests
+- **chore**: Changes to build process or auxiliary tools
+
+#### Scope Guidelines
+
+- **action**: main action logic
+- **docs**: documentation
+- **filters**: filter lists
+- **tests**: test-related
+- **ci**: CI/CD configuration
+- **deps**: dependency updates
+
 ### Whitespace and Code Formatting Standards
 
 - **ALL files MUST be free of trailing whitespace**
@@ -52,8 +87,6 @@ ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
   - Ensure proper shebang lines
   - Use `set -euo pipefail` for error handling
 - Clean up whitespace before committing changes
-
-## Development Guidelines
 
 ### When Making Changes
 
