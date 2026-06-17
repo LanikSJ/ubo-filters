@@ -47,6 +47,7 @@ for AdBlock / AdBlock Plus / AdGuard / uBlock Origin:
 
 - [AdMaven Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admaven-domains.txt&title=AdMaven%20Domains%20Filter%20List)
 - [AdMeasures Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admeasures-domains.txt&title=AdMeasures%20Domains%20Filter%20List)
+- [AdShield Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adshield-domains.txt&title=AdShield%20Domains%20Filter%20List)
 - [BT Contentza Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/bt-contentza-domains.txt&title=BT%20Contentza%20Domains%20Filter%20List)
 - [CDN Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/cdn-filter-list.txt&title=CDN%20Domains%20Filter%20List)
 - [Combined Ad Domains Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt&title=Combined%20Ad%20Domains%20Filter%20List)
