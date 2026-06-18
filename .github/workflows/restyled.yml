@@ -25,12 +25,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
       - name: Setup Restyled
-        uses: restyled-io/actions/setup@3cbe3589c03eeda1e0fba73a39971ab2c1a41185 # v4.4.25
+        uses: restyled-io/actions/setup@6c5a4abca8112c7e947a91c403e88fbb35a50c00 # v4.4.26
       - name: Run Restyled
         id: restyler
-        uses: restyled-io/actions/run@3cbe3589c03eeda1e0fba73a39971ab2c1a41185 # v4.4.25
+        uses: restyled-io/actions/run@6c5a4abca8112c7e947a91c403e88fbb35a50c00 # v4.4.26
         with:
           fail-on-differences: true
 
@@ -54,13 +54,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
       - name: Setup Restyled
-        uses: restyled-io/actions/setup@3cbe3589c03eeda1e0fba73a39971ab2c1a41185 # v4.4.25
+        uses: restyled-io/actions/setup@6c5a4abca8112c7e947a91c403e88fbb35a50c00 # v4.4.26
       - name: Run Restyled
-        uses: restyled-io/actions/run@3cbe3589c03eeda1e0fba73a39971ab2c1a41185 # v4.4.25
+        uses: restyled-io/actions/run@6c5a4abca8112c7e947a91c403e88fbb35a50c00 # v4.4.26
         with:
           fail-on-differences: true
 
@@ -70,10 +70,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Restyled
-        uses: restyled-io/actions/setup@3cbe3589c03eeda1e0fba73a39971ab2c1a41185 # v4.4.25
+        uses: restyled-io/actions/setup@6c5a4abca8112c7e947a91c403e88fbb35a50c00 # v4.4.26
       - name: Run Restyled
         id: restyler
-        uses: restyled-io/actions/run@3cbe3589c03eeda1e0fba73a39971ab2c1a41185 # v4.4.25
+        uses: restyled-io/actions/run@6c5a4abca8112c7e947a91c403e88fbb35a50c00 # v4.4.26
       - name: Close Restyled PR
         run: gh --repo "$REPO" pr close "$BRANCH" --delete-branch || true
         env:
