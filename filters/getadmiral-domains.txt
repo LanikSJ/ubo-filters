@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: b2sOlRbDAwITVX_3BOn_vg
-! Version: 202606151354
-! Last modified: 2026-06-15 13:54 UTC
+! Checksum: wOFBIIWLm5K4J3p15d7X6A
+! Version: 202606181659
+! Last modified: 2026-06-18 16:59 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -720,7 +720,6 @@
 ||humdrumhobbies.com^
 ||humdrumtouch.com^
 ||hurtgrape.com^
-||hurtteeth.com^
 ||hustlercoach.com^
 ||hyperlegend.com^
 ||hypnoticwound.com^
@@ -773,9 +772,7 @@
 ||justicejudo.com^
 ||justpickaname.com^
 ||justwebcards.com^
-||kaputquill.com^
 ||keenquill.com^
-||kibbleandbytes.com^
 ||kidpowers.com^
 ||kindhush.com^
 ||kitetuning.com^
@@ -800,7 +797,6 @@
 ||lemonpackage.com^
 ||lemonsandjoy.com^
 ||lessonsnetwork.com^
-||lettucecopper.com^
 ||libraryvalue.com^
 ||liftedknowledge.com^
 ||lightenafterthought.com^
@@ -868,7 +864,6 @@
 ||mediatescarf.com^
 ||mediavine.com^
 ||mediumshort.com^
-||mellowbike.com^
 ||mellowhush.com^
 ||melodiouschorus.com^
 ||melodiouscomposition.com^
@@ -1576,7 +1571,6 @@
 ||tritethunder.com^
 ||tritetongue.com^
 ||tropicalpal.com^
-||troubledtail.com^
 ||troubleshade.com^
 ||truckstomatoes.com^
 ||truculentrate.com^
