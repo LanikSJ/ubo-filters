@@ -3,7 +3,7 @@
 ! Checksum: oVGdifn0IoGux8Kewo92Uw
 ! Last modified: 2026-06-18 17:17 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 89fef93515b649a2e1244bcca01aee765da73c93
+! Commit: 0a99b403d83e02cbc800ff426947757e0ee804e5
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
