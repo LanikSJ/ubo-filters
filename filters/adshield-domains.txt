@@ -1,7 +1,7 @@
-! Version: 202606181747
+! Version: 202606181800
 ! Title: Ad Shield Filter List
-! Checksum: nQYzsuikgrYDflbX6Uyn_Q
-! Last modified: 2026-06-18 17:47 UTC
+! Checksum: 4FZE9xRW9KObB5mSVjMuSg
+! Last modified: 2026-06-18 18:00 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -20,7 +20,6 @@
 ||4863232c.xyz^$third-party
 ||58686728.xyz^$third-party
 ||64786087.xyz^$third-party
-||65035033.xyz^$third-party
 ||78587924.xyz^$third-party
 ||84302764.xyz^$third-party
 ||abaftscaly.com^$third-party
@@ -63,9 +62,7 @@
 ||certainlyyum.com^$third-party
 ||chainstayornerypsstgeez.com^$third-party
 ||changedadroitharassment.com^$third-party
-||cheetahhowevertowardsfrom.com^$third-party
 ||cinemaonceoddlyfatal.com^$third-party
-||comannualrallybran.com^$third-party
 ||content-loader.com^$third-party
 ||corksadly.com^$third-party
 ||correctlynow.com^$third-party
@@ -91,7 +88,6 @@
 ||duhforenenstking.com^$third-party
 ||duhrawhide.com^$third-party
 ||dwelllestcatch.com^$third-party
-||ea6c0ac4.xyz^$third-party
 ||eekknightsoon.com^$third-party
 ||elvermehwretched.com^$third-party
 ||embossfor.com^$third-party
@@ -241,7 +237,6 @@
 ||ring.worldhistory.org^$third-party
 ||ringwhen.com^$third-party
 ||rogerouch.com^$third-party
-||rundowndeep.com^$third-party
 ||sanssnow.com^$third-party
 ||sanstidy.com^$third-party
 ||satephooeynab.com^$third-party
@@ -284,7 +279,6 @@
 ||untostakejiggle.com^$third-party
 ||upbeatdualyahoo.com^$third-party
 ||uprightfondly.com^$third-party
-||uselesslyswiftprovided.com^$third-party
 ||video-loads.com^$third-party
 ||whatinstancedeck.com^$third-party
 ||whenmehany.com^$third-party
