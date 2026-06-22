@@ -1,7 +1,7 @@
-! Version: 202606181800
+! Version: 202606221336
 ! Title: Ad Shield Filter List
-! Checksum: 4FZE9xRW9KObB5mSVjMuSg
-! Last modified: 2026-06-18 18:00 UTC
+! Checksum: grAQ7urxNOmYmF5MdcOxrQ
+! Last modified: 2026-06-22 13:36 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -42,10 +42,8 @@
 ||ash.automobile-catalog.com^$third-party
 ||asloader.merkur.de^$third-party
 ||asloader.tz.de^$third-party
-||astrideentire.com^$third-party
 ||athwartwhoafat.com^$third-party
 ||bahpartridge.com^$third-party
-||bahpfftunder.com^$third-party
 ||basketrot.com^$third-party
 ||battleickhope.com^$third-party
 ||becausepishworth.com^$third-party
@@ -59,8 +57,6 @@
 ||buticksplurge.com^$third-party
 ||butwhereverhabit.com^$third-party
 ||candidpick.com^$third-party
-||certainlyyum.com^$third-party
-||chainstayornerypsstgeez.com^$third-party
 ||changedadroitharassment.com^$third-party
 ||cinemaonceoddlyfatal.com^$third-party
 ||content-loader.com^$third-party
@@ -72,7 +68,6 @@
 ||daddyobesity.com^$third-party
 ||dailysubsidy.com^$third-party
 ||dbloader.leboncoin.info^$third-party
-||deadlywhensoup.com^$third-party
 ||decryptionjunior.com^$third-party
 ||deeplyangrily.com^$third-party
 ||deeplypishtennisscale.com^$third-party
@@ -98,7 +93,6 @@
 ||evenyumbroadlywitharmoire.com^$third-party
 ||fidgetduh.com^$third-party
 ||finallymidwife.com^$third-party
-||flubobble.com^$third-party
 ||foldyahoolestorderly.com^$third-party
 ||followingbehold.com^$third-party
 ||forkstrictly.com^$third-party
@@ -116,7 +110,6 @@
 ||greedilyperky.com^$third-party
 ||gutickyum.com^$third-party
 ||gutphewlittleoddly.com^$third-party
-||hairyalligatorviolently.com^$third-party
 ||heavilyhelp.com^$third-party
 ||hmphmehfailing.com^$third-party
 ||hmphyuck.com^$third-party
@@ -194,8 +187,6 @@
 ||milkyepic.com^$third-party
 ||misguidedfast.com^$third-party
 ||mostlyfor.com^$third-party
-||nearinasmuch.com^$third-party
-||nearlyfooeyminus.com^$third-party
 ||newsletterwoot.com^$third-party
 ||nextbeforefollowerskean.com^$third-party
 ||noisilyinstantly.com^$third-party
@@ -212,7 +203,6 @@
 ||ouchvibration.com^$third-party
 ||paradefast.com^$third-party
 ||partridgepuny.com^$third-party
-||peacefulmesh.com^$third-party
 ||peculiargentleman.com^$third-party
 ||perfumedsecret.com^$third-party
 ||perlikewiseamid.com^$third-party
@@ -224,14 +214,12 @@
 ||pishenormously.com^$third-party
 ||providedwell.com^$third-party
 ||psstentice.com^$third-party
-||psstyakuponfast.com^$third-party
 ||punctualbut.com^$third-party
 ||puzzledrally.com^$third-party
 ||quiet-beggar.site^$third-party
 ||quietlythough.com^$third-party
 ||rampfat.com^$third-party
 ||rawbeautifully.com^$third-party
-||referenceirresponsible.com^$third-party
 ||rewardingfill.com^$third-party
 ||righteouslyyumaugmentnext.com^$third-party
 ||ring.worldhistory.org^$third-party
@@ -280,10 +268,8 @@
 ||upbeatdualyahoo.com^$third-party
 ||uprightfondly.com^$third-party
 ||video-loads.com^$third-party
-||whatinstancedeck.com^$third-party
 ||whenmehany.com^$third-party
 ||whichblah.com^$third-party
-||whichbrisk.com^$third-party
 ||whichdespite.com^$third-party
 ||whoeverbeyond.com^$third-party
 ||whoeverfestival.com^$third-party
