@@ -1,9 +1,9 @@
-! Version: 202606181800
+! Version: 202606220722
 ! Title: Fanboy's Social Blocking List
-! Checksum: rTJGJ3XWhuMroJnpmrhKZw
-! Last modified: 2026-06-18 18:00 UTC
+! Checksum: VTCiC5Ixv2VNK7li9UksWA
+! Last modified: 2026-06-22 07:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 67a9a9bf0781f9503fc9cab84a23028a1370b3aa
+! Commit: aea4ec805e0e2bf47302e7bfcae426cfefdfc2b6
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -868,6 +868,7 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
