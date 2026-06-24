@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: UeNY4CtkE0RIJ1bfQ1ukfw
-! Last modified: 2026-06-12 01:59 UTC
-! Version: 202606120159
+! Checksum: 3IJ-aU0m6fBBM6LfBbumZA
+! Last modified: 2026-06-24 20:29 UTC
+! Version: 202606242029
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -385,6 +385,7 @@ macworld.co.uk##.promotedDeal
 macworld.co.uk##[src^="https://www.macworld.co.uk/cmsdata/"]
 mail.protonmail.com###pm_latest
 makemkv.com##[href^="http://www.softpedia.com"]
+mashed.com##.raptive-video-player
 matadornetwork.com##.brazen-modal--opened
 medium.com##.js-meterBanner
 mercurynews.com##.amp-ad-container
@@ -439,6 +440,7 @@ onlyinyourstate.com##.fb_iframe_widget.fb-page
 onlyinyourstate.com##.social
 onlyinyourstate.com##.social-sharebar
 ooma.com###referralBannerSupport
+open-vsx.org##.MuiCollapse-vertical.MuiCollapse-wrapper
 osxdaily.com##.post > div:nth-of-type(3)
 osxdaily.com##[href*="amazon.com"]
 osxdaily.com###subscribe_box
@@ -481,6 +483,7 @@ reditt.com###games-section-badge-controller
 registry1.dso.mil##.alert-warning.alert-app-level.alert
 repo1.dso.mil##.indigo.banner.gl-broadcast-message
 ring.com##div[class*="BannersContainer"]
+rmdlaw.com##.elementor-sticky.nitro-offscreen
 ronniesawesomelist.com##.sqs-slide-layer-content
 rvm.io###carbon_ads_box
 rvm.io###sponsors
@@ -495,6 +498,7 @@ sanjosespotlight.com##[href*="hubspot.com"]
 sanjosespotlight.com###trinity-audio-tab
 scmagazine.com##.article-ad-slot
 secure-www.gap.com##.marketing-banner-wrapper
+secure.bankofamerica.com##.medium.warning.spartaMessage
 secure.newegg.com###amexBanner
 secure.newegg.com##img[src*="banner_synchrony.jpg"]
 secure.nordstrom.com##div[class*="nui-tile"]
