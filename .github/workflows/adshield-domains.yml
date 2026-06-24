@@ -1,4 +1,4 @@
-name: Ad Shield Domains
+name: AdShield Domains
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
       - name: Install FOP CLI
         run: ./scripts/install-fop.sh
 
-      - name: Download Ad Shield List
+      - name: Download AdShield List
         run: |
           # Preserve header (first 15 lines) and append new domains
           ./scripts/remove-lines.sh filters/adshield-domains.txt 15 > filters/adshield-domains.tmp
@@ -43,7 +43,7 @@ jobs:
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore(filters): update admiral domains filter list"
+          commit-message: "chore(filters): update adshield domains filter list"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
