@@ -1,9 +1,9 @@
-! Version: 202606221336
+! Version: 202606290645
 ! Title: Fanboy's Social Blocking List
-! Checksum: N0VR9q85S-EI69VF5AFfbw
-! Last modified: 2026-06-22 13:36 UTC
+! Checksum: 6TV8LE4z5bPTrrPK0_In3Q
+! Last modified: 2026-06-29 06:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: aea4ec805e0e2bf47302e7bfcae426cfefdfc2b6
+! Commit: d96a375da53f9595a2e3a560b5b61e34f04165a2
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -743,6 +743,7 @@ cybersecuritynews.com#?#.tdm_block_button_simplified:has-text(Follow on LinkedIn
 economictimes.indiatimes.com#?#.Pbanner:has-text(as a Reliable and Trusted News Source)
 freethoughtnow.org#?#.elementor-widget-container > h2:has-text(Please share)
 gizmodo.com#?#.border-t-grey-200:has-text(Share this story)
+gpone.com#?#.stickyarticle:has-text(Follow)
 heritagedaily.com#?#.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
 houstonchronicle.com,nhregister.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com#?#.deep:has-text(Google)
 ign.com#?#.promo-card:has-text(Follow us!)
@@ -764,6 +765,7 @@ stuff.co.nz#?#.edproj-share-video-wrapper:has-text(Share your video)
 stuff.co.nz#?#.edproj-speedhub-wrapper:has-text(read now)
 stuff.co.nz#?#.free-body.text-block > p.content-item:has-text(Email)
 techissuestoday.com#?#.mar-b-6:has-text(Follow Us)
+thedailyeconomy.org#?#.wp-block-group-is-layout-flow:has-text(Share This Article)
 thedispatch.com#?#.border-y.py-2:has-text(Share)
 theguardian.com#?#.dcr-4gwv1z > ul:has-text(Get our)
 theintercept.com#?#[data-ga-track-action]:has-text(Join The Conversation)
@@ -868,6 +870,7 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
+||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
