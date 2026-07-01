@@ -1,30 +1,35 @@
 name: NodeJS Dependencies Update
-permissions:
-  contents: write
-  pull-requests: write
-  issues: write
-
-env:
-  NODE_VERSION: 20
 
 on:
   schedule:
-    # Run the job on every Tuesday at 12:00 PM UTC
-    - cron: "0 12 * * 2"
-  push:
-    branches:
-      - main
+    # Run every Monday at 08:00 UTC
+    - cron: "0 8 * * 2"
+  pull_request:
     paths:
       - ".github/workflows/node-update-deps.yml"
-  workflow_dispatch:
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  NODE_VERSION: 26
+
+concurrency:
+  group: node-deps-update-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   node-deps-update:
     name: NodeJS Dependencies Update
     runs-on: ubuntu-latest
     steps:
-      - name: Check Out Repository
+      - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+          fetch-depth: 1
 
       - name: Set up Node.js
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
@@ -35,63 +40,27 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Get Changed Files
-        id: changed-files
-        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
-        with:
-          since_last_remote_commit: true
-
-      - name: List All Changed Files
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+      - name: Check for Changes
+        id: check
         run: |
-          for file in ${ALL_CHANGED_FILES}; do
-            echo "$file was changed"
-          done
-
-      - name: Create New Branch
-        id: create-branch
-        if: steps.changed-files.outputs.all_changed_files == 'true'
-        run: |
-          branch_name="feature/node-deps-update"
-          git checkout -b $branch_name
-          echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
-
-      - name: Stage Changes
-        if: steps.changed-files.outputs.all_changed_files == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-
-      - name: Commit and Push
-        if: steps.changed-files.outputs.all_changed_files == 'true'
-        run: |
-          git commit -m "chore(deps): update node dependencies"
-          git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
+          if ! git diff --quiet -- package-lock.json package.json; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Create Pull Request
-        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
-        if: steps.changed-files.outputs.all_changed_files == 'true'
+        if: steps.check.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
-          script: |
-            const { data: pullRequest } = await github.rest.pulls.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: 'chore(deps): update node dependencies',
-              head: '${{ steps.create-branch.outputs.branch_name }}',
-              base: context.ref.replace('refs/heads/', ''),
-              body: [
-                'This is an automated pull request to update NodeJS dependecies.',
-              ].join('\n'),
-            });
-
-            core.info(`Pull Request #${pullRequest.number} Opened`);
-
-            // Add labels to the pull request
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: pullRequest.number,
-              labels: ['dead website'],
-            });
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore(deps): update node dependencies"
+          title: "chore(deps): update node dependencies"
+          body: |
+            This is an automated pull request to update NodeJS dependencies.
+          branch: feature/node-deps-update
+          base: main
+          delete-branch: true
+          labels: |
+            dependencies
+            github-actions
