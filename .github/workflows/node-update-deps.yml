@@ -1,4 +1,14 @@
 name: NodeJS Dependencies Update
+
+on:
+  schedule:
+    # Run every Monday at 08:00 UTC
+    - cron: "0 8 * * 2"
+  pull_request:
+    paths:
+      - ".github/workflows/node-update-deps.yml"
+  workflow_dispatch: # Allow manual trigger
+
 permissions:
   contents: write
   pull-requests: write
@@ -9,17 +19,6 @@ env:
 concurrency:
   group: node-deps-update-${{ github.ref }}
   cancel-in-progress: true
-
-on:
-  schedule:
-    # Run the job on every Tuesday at 12:00 PM UTC
-    - cron: "0 12 * * 2"
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/node-update-deps.yml"
-  workflow_dispatch:
 
 jobs:
   node-deps-update:
