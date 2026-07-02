@@ -2,8 +2,8 @@ name: NodeJS Dependencies Update
 
 on:
   schedule:
-    # Run every Monday at 08:00 UTC
-    - cron: "0 8 * * 2"
+    # Run every Monday at 10:00 UTC
+    - cron: "0 10 * * 1"
   pull_request:
     paths:
       - ".github/workflows/node-update-deps.yml"
