@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: 8qQp5U-FIc4Jqm_vvYJGXw
-! Last modified: 2026-07-04 04:32 UTC
-! Version: 202607040432
+! Checksum: SqTh2FoZ9cecSVSoGkLU_w
+! Last modified: 2026-07-04 04:43 UTC
+! Version: 202607040443
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -698,6 +698,7 @@ www.amazon.com##div[class*="adsOverlayClick"]
 www.amazon.com##div[class*="desktopAd"]
 www.amazon.com##div[class*="DesktopFlexBanner"]
 www.amazon.com##div[class*="one-click-music-offer-card"]
+www.amazon.com##div[class*="universal-detail-ilm-card_style_desktop"]
 www.amazon.com##div[id*="sims-container_desktop"]
 www.bluehost.com##.xsell-banner
 www.bluehost.com##app-dashboard-ad-carousel
