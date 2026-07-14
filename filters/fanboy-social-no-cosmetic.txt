@@ -1,7 +1,7 @@
-! Version: 202607130535
+! Version: 202607141659
 ! Title: Fanboy's Social Blocking List
-! Checksum: JLWH_uGbKm1OCoPR3mylzw
-! Last modified: 2026-07-13 05:35 UTC
+! Checksum: EDGYW91EiGqv1v-SEIQ-Pg
+! Last modified: 2026-07-14 16:59 UTC
 ! Expires: 4 days (update frequency)
 ! Commit: e25eb0dcf598aba48aa30c956f5bf844ac77efab
 ! *** easylist:template_header.txt ***
@@ -870,7 +870,6 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
 ||meebo.com^$third-party
-||meerkatapp.co/btn/$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||napolimagazine.com/web/img/iconefooter/
@@ -902,7 +901,6 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||reddit.com/static/$third-party
 ||revinate.com^$third-party
 ||scoop.it^$third-party
-||sekomums.lv^$third-party
 ||share.itraffic.su^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
