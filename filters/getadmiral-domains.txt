@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: 7PanRTFOFvwgwjQd-8JSFw
-! Version: 202607131101
-! Last modified: 2026-07-13 11:01 UTC
+! Checksum: Oum_hPFxxK019zy9htr8Fg
+! Version: 202607141720
+! Last modified: 2026-07-14 17:20 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -138,7 +138,6 @@
 ||baskettexture.com^
 ||battlebalance.com^
 ||bawdybalance.com^
-||beamkite.com^
 ||beamvolcano.com^
 ||beancontrol.com^
 ||bedsberry.com^
@@ -684,7 +683,6 @@
 ||harborcaption.com^
 ||harborcontrol.com^
 ||harborcub.com^
-||hardtofindmilk.com^
 ||harmonywing.com^
 ||headydegree.com^
 ||healflowers.com^
@@ -1079,7 +1077,6 @@
 ||pumpedpurpose.com^
 ||punyplant.com^
 ||purposepipe.com^
-||pushypipe.com^
 ||quantumlagoon.com^
 ||quantumshine.com^
 ||queenskart.com^
@@ -1128,7 +1125,6 @@
 ||reconditeprison.com^
 ||reconditerake.com^
 ||reconditerespect.com^
-||recordbutter.com^
 ||redbricksoap.com^
 ||reflectpaint.com^
 ||refundradar.com^
@@ -1309,7 +1305,6 @@
 ||slickcontent.com^
 ||slinksuggestion.com^
 ||slopesoap.com^
-||sloppycalculator.com^
 ||smallershops.com^
 ||smashquartz.com^
 ||smashshoe.com^

@@ -1,7 +1,7 @@
-! Version: 202607131101
+! Version: 202607141720
 ! Title: Ad Shield Filter List
-! Checksum: wDaQgbd8NreGppvMXnDZUw
-! Last modified: 2026-07-13 11:01 UTC
+! Checksum: 2xcu1CBFwk7_IR0wtdp5Yw
+! Last modified: 2026-07-14 17:20 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -214,7 +214,6 @@
 ||poorlylift.com^$third-party
 ||providedwell.com^$third-party
 ||psstentice.com^$third-party
-||psstyakuponfast.com^$third-party
 ||puffhoick.com^$third-party
 ||punctualbut.com^$third-party
 ||puzzledrally.com^$third-party
@@ -265,11 +264,9 @@
 ||unfreezehuge.com^$third-party
 ||unlesssecret.com^$third-party
 ||upbeatdualyahoo.com^$third-party
-||uprightfondly.com^$third-party
 ||video-loads.com^$third-party
 ||wallabyhusky.com^$third-party
 ||whenmehany.com^$third-party
-||wheredimly.com^$third-party
 ||whichblah.com^$third-party
 ||whichdespite.com^$third-party
 ||whoeverbeyond.com^$third-party
