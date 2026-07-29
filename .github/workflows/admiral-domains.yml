@@ -46,7 +46,7 @@ jobs:
         run: npm install
 
       - name: Export Dead Domains
-        run: npx dead-domains-linter --export dead-domains.txt
+        run: npx dead-domains-linter --export dead-domains.txt filters/getadmiral-domains.txt
 
       - name: Remove Dead Domains from Admiral List
         run: |
