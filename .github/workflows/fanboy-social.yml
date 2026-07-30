@@ -43,7 +43,7 @@ jobs:
         run: npm install
 
       - name: Export Dead Domains
-        run: npx dead-domains-linter --export dead-domains.txt filters/fanboy-social-no-cosmetic.txt
+        run: npx dead-domains-linter --export dead-domains.txt -i filters/fanboy-social-no-cosmetic.txt
 
       - name: Remove Dead Domains from Fanboy Social
         run: |
