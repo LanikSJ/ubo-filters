@@ -46,7 +46,7 @@ jobs:
         run: npm install
 
       - name: Export Dead Domains
-        run: npx dead-domains-linter --export dead-domains.txt filters/adshield-domains.txt
+        run: npx dead-domains-linter --export dead-domains.txt -i filters/adshield-domains.txt
 
       - name: Remove Dead Domains from AdShield List
         run: |
