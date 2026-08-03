@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: 0qSLo1kwkqium_83J1Z8aA
-! Version: 202608030407
-! Last modified: 2026-08-03 04:07 UTC
+! Checksum: TdUf2m1EV4NPjdysmt7miA
+! Version: 202608031120
+! Last modified: 2026-08-03 11:20 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -1672,7 +1672,6 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
-||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
