@@ -1,7 +1,7 @@
-! Version: 202608031120
+! Version: 202608050344
 ! Title: Ad Shield Filter List
-! Checksum: lzDfZ8NmmjAKS-__Ekz62g
-! Last modified: 2026-08-03 11:20 UTC
+! Checksum: 5G6uS9jkTsWTOZijLx9ddA
+! Last modified: 2026-08-05 03:44 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -34,6 +34,7 @@
 ||amongstbirdbath.com^$third-party
 ||amongstgahboo.com^$third-party
 ||amongwhosushi.com^$third-party
+||anenstdecodenear.com^$third-party
 ||angrilybefore.com^$third-party
 ||annualrallybran.com^$third-party
 ||aroundwhoever.com^$third-party
@@ -74,6 +75,7 @@
 ||decryptionjunior.com^$third-party
 ||deeplyangrily.com^$third-party
 ||degeneratebasket.com^$third-party
+||deletewoefully.com^$third-party
 ||diligentunto.com^$third-party
 ||disgorgephew.com^$third-party
 ||distinctdearly.com^$third-party
@@ -84,6 +86,7 @@
 ||duhforenenstking.com^$third-party
 ||duhquietly.com^$third-party
 ||duhrawhide.com^$third-party
+||dwelllestcatch.com^$third-party
 ||eekknightsoon.com^$third-party
 ||elvermehwretched.com^$third-party
 ||embossfor.com^$third-party
@@ -95,13 +98,16 @@
 ||fidgetduh.com^$third-party
 ||finallymidwife.com^$third-party
 ||followingbehold.com^$third-party
+||fooeyunsung.com^$third-party
 ||forkstrictly.com^$third-party
+||forsweareven.com^$third-party
 ||founderyet.com^$third-party
 ||fromsunny.com^$third-party
 ||fs-loader.com^$third-party
 ||gadzooksrudely.com^$third-party
 ||gahfinallytame.com^$third-party
 ||gahyuck.com^$third-party
+||garroteoutlying.com^$third-party
 ||geeunlessarcade.com^$third-party
 ||gladlythattoady.com^$third-party
 ||go.andwonderful.com^$third-party
@@ -134,6 +140,7 @@
 ||joviallysafely.com^$third-party
 ||kiddinglyeven.com^$third-party
 ||lacklong.com^$third-party
+||legalendowmad.com^$third-party
 ||lendhassle.com^$third-party
 ||libelzowie.com^$third-party
 ||loader.crosswordsolver.com^$third-party
@@ -185,13 +192,16 @@
 ||middlegadzooks.com^$third-party
 ||milkyepic.com^$third-party
 ||misguidedfast.com^$third-party
+||misreportmeh.com^$third-party
 ||mostlyfor.com^$third-party
 ||newsletterwoot.com^$third-party
+||nextbeforefollowerskean.com^$third-party
 ||noisilyinstantly.com^$third-party
 ||nopecaptivity.com^$third-party
 ||noranglehow.com^$third-party
+||norexceptdrug.com^$third-party
+||norsinceexactlyamongplait.com^$third-party
 ||nowmodulo.com^$third-party
-||nudgesplityowza.com^$third-party
 ||oldgladly.com^$third-party
 ||ontogreatly.com^$third-party
 ||oofamidst.com^$third-party
@@ -204,12 +214,15 @@
 ||perlikewiseamid.com^$third-party
 ||perprigidly.com^$third-party
 ||peryuck.com^$third-party
+||pfftbare.com^$third-party
 ||phewsugary.com^$third-party
 ||pilotuntil.com^$third-party
 ||pishenormously.com^$third-party
+||pishrust.com^$third-party
 ||poorlylift.com^$third-party
 ||providedwell.com^$third-party
 ||psstentice.com^$third-party
+||pssthumidity.com^$third-party
 ||punctualbut.com^$third-party
 ||puzzledrally.com^$third-party
 ||quiet-beggar.site^$third-party
@@ -222,8 +235,8 @@
 ||sanssnow.com^$third-party
 ||sanstidy.com^$third-party
 ||satephooeynab.com^$third-party
+||scientificfor.com^$third-party
 ||scowlswitchmore.com^$third-party
-||secretvelvety.com^$third-party
 ||shield.knowt.com^$third-party
 ||shieldload.neoseeker.com^$third-party
 ||shinnyhelpfast.com^$third-party
@@ -235,12 +248,15 @@
 ||slipsolidly.com^$third-party
 ||smugpsstplus.com^$third-party
 ||socksince.com^$third-party
+||softlyextremely.com^$third-party
+||softlypacesock.com^$third-party
 ||solemnlyboo.com^$third-party
 ||solemnlybuck.com^$third-party
 ||staregrownup.com^$third-party
 ||supplieroof.com^$third-party
 ||suproderistrai.com^$third-party
 ||surfaceavow.com^$third-party
+||swiftbecause.com^$third-party
 ||swimskylineplus.com^$third-party
 ||tamealongpast.com^$third-party
 ||tapiocawithout.com^$third-party
@@ -248,12 +264,16 @@
 ||thighoutlying.com^$third-party
 ||tillequal.com^$third-party
 ||tousleoutbid.com^$third-party
+||translationwell.com^$third-party
 ||tribegadzooks.com^$third-party
 ||ughjubilantly.com^$third-party
 ||ughmouldhusky.com^$third-party
 ||ughoncenot.com^$third-party
 ||unfreezehuge.com^$third-party
 ||unlesssecret.com^$third-party
+||unselfishugh.com^$third-party
+||untostakejiggle.com^$third-party
+||unusedpuny.com^$third-party
 ||upbeatbut.com^$third-party
 ||upbeatdualyahoo.com^$third-party
 ||video-loads.com^$third-party
@@ -261,9 +281,9 @@
 ||whenmehany.com^$third-party
 ||whichblah.com^$third-party
 ||whichdespite.com^$third-party
+||whichfreely.com^$third-party
 ||whoeverbeyond.com^$third-party
 ||whoeverfestival.com^$third-party
-||whoseabacus.com^$third-party
 ||whykindlyoofword.com^$third-party
 ||windowthink.com^$third-party
 ||witharound.com^$third-party
@@ -272,8 +292,10 @@
 ||withreadily.com^$third-party
 ||wootscratch.com^$third-party
 ||worstloftily.com^$third-party
+||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yetyippee.com^$third-party
 ||yowzabrr.com^$third-party
 ||yowzagently.com^$third-party
+||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
