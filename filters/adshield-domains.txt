@@ -1,7 +1,7 @@
-! Version: 202608050344
+! Version: 202608100915
 ! Title: Ad Shield Filter List
-! Checksum: 5G6uS9jkTsWTOZijLx9ddA
-! Last modified: 2026-08-05 03:44 UTC
+! Checksum: 0n53zfq2-rZrAZjugTGlpw
+! Last modified: 2026-08-10 09:15 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -107,12 +107,9 @@
 ||gadzooksrudely.com^$third-party
 ||gahfinallytame.com^$third-party
 ||gahyuck.com^$third-party
-||garroteoutlying.com^$third-party
 ||geeunlessarcade.com^$third-party
 ||gladlythattoady.com^$third-party
 ||go.andwonderful.com^$third-party
-||goshoverfeed.com^$third-party
-||greedilyperky.com^$third-party
 ||grubbytrain.com^$third-party
 ||gutickyum.com^$third-party
 ||heavilyhelp.com^$third-party
@@ -132,7 +129,6 @@
 ||impanelsnarling.com^$third-party
 ||inasmuchnoisily.com^$third-party
 ||indeedgrass.com^$third-party
-||insteadectoderm.com^$third-party
 ||insteadphooey.com^$third-party
 ||insteadwallaby.com^$third-party
 ||intosewyuckeven.com^$third-party
@@ -195,12 +191,10 @@
 ||misreportmeh.com^$third-party
 ||mostlyfor.com^$third-party
 ||newsletterwoot.com^$third-party
-||nextbeforefollowerskean.com^$third-party
 ||noisilyinstantly.com^$third-party
 ||nopecaptivity.com^$third-party
 ||noranglehow.com^$third-party
 ||norexceptdrug.com^$third-party
-||norsinceexactlyamongplait.com^$third-party
 ||nowmodulo.com^$third-party
 ||oldgladly.com^$third-party
 ||ontogreatly.com^$third-party
@@ -239,13 +233,10 @@
 ||scowlswitchmore.com^$third-party
 ||shield.knowt.com^$third-party
 ||shieldload.neoseeker.com^$third-party
-||shinnyhelpfast.com^$third-party
 ||shockingstudy.com^$third-party
 ||sincedialover.com^$third-party
 ||sitsneezerefreshing.com^$third-party
 ||slakeonlythigh.com^$third-party
-||slapswingthrough.com^$third-party
-||slipsolidly.com^$third-party
 ||smugpsstplus.com^$third-party
 ||socksince.com^$third-party
 ||softlyextremely.com^$third-party
@@ -272,7 +263,6 @@
 ||unfreezehuge.com^$third-party
 ||unlesssecret.com^$third-party
 ||unselfishugh.com^$third-party
-||untostakejiggle.com^$third-party
 ||unusedpuny.com^$third-party
 ||upbeatbut.com^$third-party
 ||upbeatdualyahoo.com^$third-party
@@ -296,6 +286,4 @@
 ||yakunitfall.com^$third-party
 ||yetyippee.com^$third-party
 ||yowzabrr.com^$third-party
-||yowzagently.com^$third-party
-||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
