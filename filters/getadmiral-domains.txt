@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: TdUf2m1EV4NPjdysmt7miA
-! Version: 202608031120
-! Last modified: 2026-08-03 11:20 UTC
+! Checksum: 0NxxjBCGGHGDs4NJEhql5Q
+! Version: 202608100915
+! Last modified: 2026-08-10 09:15 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -57,7 +57,6 @@
 ||admiral.support^
 ||admiral.website^
 ||admiralcdn.com^
-||admiralexternal.com^
 ||admlcdn.com^
 ||adorableanger.com^
 ||adorableattention.com^
@@ -151,7 +150,6 @@
 ||bhcumsc.com^
 ||bikepaws.com^
 ||bikesboard.com^
-||bikinginspire.com^
 ||bilingualgeek.com^
 ||billowybead.com^
 ||billowybelief.com^
@@ -213,7 +211,6 @@
 ||burgersalt.com^
 ||burnbubble.com^
 ||burntwist.com^
-||bushesbag.com^
 ||bustlingbook.com^
 ||butterbulb.com^
 ||butterburst.com^
@@ -427,7 +424,6 @@
 ||donkeyleaf.com^
 ||doubtdrawer.com^
 ||dq95d35.com^
-||dragzebra.com^
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||dreamsdome.com^
@@ -497,7 +493,6 @@
 ||executeknowledge.com^
 ||exhibitsneeze.com^
 ||expansioneggnog.com^
-||experienceeggs.com^
 ||extractobservation.com^
 ||extralocker.com^
 ||extramonies.com^
@@ -517,7 +512,6 @@
 ||fancyactivity.com^
 ||fancydune.com^
 ||fangfeeling.com^
-||fantastictone.com^
 ||farethief.com^
 ||farmergoldfish.com^
 ||farshake.com^
@@ -546,7 +540,6 @@
 ||fireworkcamp.com^
 ||firstendpoint.com^
 ||fishersfinds.com^
-||fitmessage.com^
 ||fitnessmapper.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
@@ -603,7 +596,6 @@
 ||futuristicframe.com^
 ||fuzzybasketball.com^
 ||fuzzyerror.com^
-||fuzzyflavor.com^
 ||gammamaximum.com^
 ||gardenovens.com^
 ||gaudyairplane.com^
@@ -850,7 +842,6 @@
 ||mediatescarf.com^
 ||mediavine.com^
 ||mediumshort.com^
-||mellowbike.com^
 ||mellowhush.com^
 ||melodiouschorus.com^
 ||melodiouscomposition.com^
@@ -1178,7 +1169,6 @@
 ||sablesmile.com^
 ||sablesong.com^
 ||sadloaf.com^
-||sadspacekitty.com^
 ||saffronrefuge.com^
 ||saladfuel.com^
 ||saltsacademy.com^
@@ -1422,7 +1412,6 @@
 ||stretchsneeze.com^
 ||stretchsquirrel.com^
 ||stripedbat.com^
-||strivesidewalk.com^
 ||strivesquirrel.com^
 ||strokesystem.com^
 ||strongercity.com^
@@ -1456,7 +1445,6 @@
 ||sweetslope.com^
 ||swellstocking.com^
 ||swimfreely.com^
-||swimslope.com^
 ||swingslip.com^
 ||swipechief.com^
 ||swirlstop.com^
@@ -1490,7 +1478,6 @@
 ||tenhourweek.com^
 ||tennistie.com^
 ||terriblethumb.com^
-||terrifictooth.com^
 ||testadmiral.com^
 ||texturetrick.com^
 ||thejavalane.com^
@@ -1567,7 +1554,6 @@
 ||understoodocean.com^
 ||unequalbrake.com^
 ||unequaltrail.com^
-||unicontainers.com^
 ||uninterestedquarter.com^
 ||unitedscans.com^
 ||unknowncrate.com^
