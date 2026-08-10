@@ -1,9 +1,9 @@
-! Version: 202608030540
+! Version: 202608100352
 ! Title: Fanboy's Social Blocking List
-! Checksum: YauQkmpVHJwi2vX8bsprSw
-! Last modified: 2026-08-03 05:40 UTC
+! Checksum: oqfrihZ0pvDv3KI8FFJ7MA
+! Last modified: 2026-08-10 03:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b631974ee6639e5b13a06345477f32fb75bd6642
+! Commit: cc6fb3143a6e6b974e2dbe8567030f134c2e9635
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -844,7 +844,6 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||gotchosen.com^$third-party
 ||gplusapi.appspot.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
-||handll.com^$third-party
 ||harem69.com.br/img/social.png
 ||hatena.ne.jp/entry/button/$third-party
 ||herokuapp.com/button.html?$third-party
@@ -902,6 +901,7 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||reddit.com/static/$third-party
 ||revinate.com^$third-party
 ||scoop.it^$third-party
+||sekomums.lv^$third-party
 ||share.itraffic.su^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
