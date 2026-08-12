@@ -78,7 +78,7 @@ main() {
   else
     log_error "File '$filter_file' does not exist."
     log_error "Attempted paths:"
-    log_error "  - Current directory: $(pwd)/$filter_file"
+    log_error "  - Current directory: $PWD/$filter_file"
     log_error "  - Relative sibling: $script_dir/../$filter_file"
     exit 1
   fi
@@ -87,7 +87,7 @@ main() {
 
   # Preserve header (first N lines) and append new domains
   local tmp_file="${resolved_file}.tmp"
-  "$script_dir/remove-lines.sh" "$resolved_file" "$HEADER_LINES" > "$tmp_file"
+  "$script_dir/remove-lines.sh" "$resolved_file" "$HEADER_LINES" >"$tmp_file"
 
   # Try GitHub primary source, fall back to GitLab mirror on failure
   # (-s silences curl's own error output; the script logs its own messages)
@@ -109,7 +109,7 @@ main() {
   # (escaped '$' in double quotes so shellcheck doesn't flag the
   #  intentional literal '$third-party' for sed)
   local sed_expr="s/^/||/; s/\$/^\$third-party/"
-  sed "$sed_expr" "$source_file" >> "$tmp_file"
+  sed "$sed_expr" "$source_file" >>"$tmp_file"
 
   # Clean up and atomically replace the original file
   rm -f "$source_file"
