@@ -1,7 +1,7 @@
-! Version: 202608100915
+! Version: 202608120339
 ! Title: Ad Shield Filter List
-! Checksum: 0n53zfq2-rZrAZjugTGlpw
-! Last modified: 2026-08-10 09:15 UTC
+! Checksum: TmguRUZdqvy0GQLooz25dA
+! Last modified: 2026-08-12 03:39 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -129,7 +129,6 @@
 ||impanelsnarling.com^$third-party
 ||inasmuchnoisily.com^$third-party
 ||indeedgrass.com^$third-party
-||insteadphooey.com^$third-party
 ||insteadwallaby.com^$third-party
 ||intosewyuckeven.com^$third-party
 ||involvingrallyanthem.com^$third-party
@@ -193,7 +192,6 @@
 ||newsletterwoot.com^$third-party
 ||noisilyinstantly.com^$third-party
 ||nopecaptivity.com^$third-party
-||noranglehow.com^$third-party
 ||norexceptdrug.com^$third-party
 ||nowmodulo.com^$third-party
 ||oldgladly.com^$third-party
@@ -286,4 +284,5 @@
 ||yakunitfall.com^$third-party
 ||yetyippee.com^$third-party
 ||yowzabrr.com^$third-party
+||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
