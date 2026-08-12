@@ -38,6 +38,23 @@ ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
 - Use `markdownlint --fix <filename>` for auto-fixable issues when available
 - Validate markdown files in CI/CD pipelines where applicable
 
+### Shell Script Compliance Requirements (MANDATORY)
+
+- **ALL shell scripts (.sh) MUST pass `shellcheck` validation with zero errors or warnings**
+- Run `shellcheck <filename>` on every shell script before considering it complete
+- Follow the project's shell conventions: `#!/usr/bin/env bash`, `set -euo pipefail`,
+  and consistent logging helpers
+- Common requirements include:
+  - Quote all variable expansions to prevent word splitting and globbing
+  - Use `[[ ]]` for conditional expressions in bash
+  - Avoid `eval` and other unsafe constructs
+  - Prefer `local` for function-scoped variables
+  - Handle errors explicitly (check exit codes, use `set -euo pipefail`)
+  - Use `mktemp` for temporary files and clean them up
+  - Use `rm -f` and `mv -f` for safe file operations
+- Use `shellcheck --fix <filename>` for auto-fixable issues when available
+- Validate shell scripts in CI/CD pipelines where applicable
+
 ## Development Guidelines
 
 ### Commit Message Convention
@@ -94,6 +111,7 @@ ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
 - Update documentation when adding new filter categories or modifying rules
 - Test filters across different browsers and ad blockers
 - **Always run markdownlint and fix all issues in markdown files before considering changes complete**
+- **Always run `shellcheck` and fix all issues in shell scripts before considering changes complete**
 
 ### Filter List Standards
 
