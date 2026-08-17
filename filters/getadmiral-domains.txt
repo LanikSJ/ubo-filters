@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: 0NxxjBCGGHGDs4NJEhql5Q
-! Version: 202608100915
-! Last modified: 2026-08-10 09:15 UTC
+! Checksum: vQI7VOhPSOa0Cz_ecFozgw
+! Version: 202608170206
+! Last modified: 2026-08-17 02:06 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -139,6 +139,7 @@
 ||baskettexture.com^
 ||battlebalance.com^
 ||bawdybalance.com^
+||beamkite.com^
 ||beamvolcano.com^
 ||beancontrol.com^
 ||bedsberry.com^
@@ -199,7 +200,6 @@
 ||brighttoe.com^
 ||briskstorm.com^
 ||broadborder.com^
-||broadboundary.com^
 ||broadcastbed.com^
 ||broaddoor.com^
 ||brotherslocket.com^
@@ -245,7 +245,6 @@
 ||catschickens.com^
 ||cattlecommittee.com^
 ||causecherry.com^
-||cautiouscamera.com^
 ||cautiouscherries.com^
 ||cautiouscrate.com^
 ||cautiouscredit.com^
@@ -271,7 +270,6 @@
 ||childlikecrowd.com^
 ||childlikeexample.com^
 ||childlikeform.com^
-||chilledliquid.com^
 ||chingovernment.com^
 ||chipperisle.com^
 ||chivalrouscord.com^
@@ -351,7 +349,6 @@
 ||critictruck.com^
 ||crookedcreature.com^
 ||crowdedmass.com^
-||cruisetourist.com^
 ||crunchcontrol.com^
 ||crystalboulevard.com^
 ||cubchannel.com^
@@ -385,7 +382,6 @@
 ||dashingdrop.com^
 ||datastoried.com^
 ||dazzlingbook.com^
-||deafeningdock.com^
 ||debonairdust.com^
 ||debonairtree.com^
 ||decidedrum.com^
@@ -400,7 +396,6 @@
 ||delicatecascade.com^
 ||deliciousducks.com^
 ||delightdriving.com^
-||deltafault.com^
 ||deluxecrate.com^
 ||dependenttrip.com^
 ||deployinput.com^
@@ -425,7 +420,6 @@
 ||distributionpocket.com^
 ||distributiontomatoes.com^
 ||disturbedquiet.com^
-||divehope.com^
 ||dockdigestion.com^
 ||dogbedscentral.com^
 ||dollardelta.com^
@@ -482,7 +476,6 @@
 ||enormousfoot.com^
 ||enterdrama.com^
 ||entertainskin.com^
-||enthusiastictemper.com^
 ||enviousshape.com^
 ||enviousthread.com^
 ||epicoldschool.com^
@@ -1120,7 +1113,6 @@
 ||recessrain.com^
 ||recipepin.com^
 ||reconditeprison.com^
-||reconditerake.com^
 ||reconditerespect.com^
 ||redbricksoap.com^
 ||reflectpaint.com^
@@ -1202,6 +1194,7 @@
 ||scaredsnakes.com^
 ||scaredsong.com^
 ||scaredstomach.com^
+||scaredstory.com^
 ||scarefowl.com^
 ||scarfsmash.com^
 ||scatteredheat.com^
@@ -1247,7 +1240,6 @@
 ||serenesurf.com^
 ||serenezenith.com^
 ||serenezephyr.com^
-||serpentshampoo.com^
 ||servebom.com^
 ||settleshoes.com^
 ||shadeship.com^
@@ -1272,7 +1264,6 @@
 ||shrewsburyshow.com^
 ||shrillspoon.com^
 ||shydinosaurs.com^
-||shylibrary.com^
 ||shyseed.com^
 ||sicksmash.com^
 ||sierrakermit.com^
@@ -1469,7 +1460,6 @@
 ||tangyamount.com^
 ||tangycover.com^
 ||taskdelight.com^
-||tasksimplify.com^
 ||tastelesstrees.com^
 ||tastesnake.com^
 ||tawdryson.com^
@@ -1614,7 +1604,6 @@
 ||waitingnumber.com^
 ||wantingwindow.com^
 ||warmafterthought.com^
-||warmquiver.com^
 ||warnwing.com^
 ||washbanana.com^
 ||watersensible.com^
@@ -1636,7 +1625,6 @@
 ||whisperingsummit.com^
 ||whispermeeting.com^
 ||whoogled.com^
-||whymaze.com^
 ||wildcommittee.com^
 ||wildwoodavenue.com^
 ||windflamesky.com^
