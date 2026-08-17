@@ -1,9 +1,9 @@
-! Version: 202608100352
+! Version: 202608170257
 ! Title: Fanboy's Social Blocking List
-! Checksum: oqfrihZ0pvDv3KI8FFJ7MA
-! Last modified: 2026-08-10 03:52 UTC
+! Checksum: KiSXfCUfhj4a--rKDEynEg
+! Last modified: 2026-08-17 02:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cc6fb3143a6e6b974e2dbe8567030f134c2e9635
+! Commit: c0c7233f6b9890ee839d69086d5b176c4bb39f35
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -39,6 +39,7 @@
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 ! fanboy_social_specific_hide.txt
 ! ! :has
+! ! :has-text
 ! ! top-level domain wildcard
 ! ! .socialmedia
 ! ! .social-sharing
@@ -735,6 +736,7 @@ archaeologymag.com#?#.widget_custom_html:has-text(Follow us)
 bitcoinsensus.com#?#.elementor-heading-title:has-text(SHARE)
 carexpert.co.nz,carexpert.com.au#?#._1ivmml5u3:has-text(Add Preferred Source)
 carnewschina.com#?#.article_detail__top_stories:has-text(Follow us for ev updates)
+cbsnews.com#?#.FooterLinks-group:has-text(Follow Us On)
 club386.com#?#.td-block-title:has-text(Share)
 clubic.com#?#[style="position: sticky; top: 55px;"]:has-text(Inscrivez-vous à notre newsletter quotidienne !)
 cryptotimes.io#?#.heading-title:has-text(Follow US)
@@ -750,6 +752,7 @@ ign.com#?#.promo-card:has-text(Follow us!)
 jacobin.com#?#.po-fr__heading:has-text(Share this article)
 lifenews.com#?#.post_style_zk > p:has-text(Please subscribe)
 livpost.co.uk#?#.kg-align-center.kg-button-card:has-text(Share this story)
+min.io#?#.display-xs.alpha-white-70:has-text(Get in Touch)
 nbcsports.com#?#p.cms-textAlign-center:has-text(follow NBC Sports)
 newskarnataka.com#?#.elementor-button-wrapper:has-text(Social Media)
 newsroom.ucla.edu#?#.promo-card-muted:has-text(RSS feed)
