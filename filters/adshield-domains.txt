@@ -1,7 +1,7 @@
-! Version: 202608120422
+! Version: 202608170839
 ! Title: Ad Shield Filter List
-! Checksum: Y5wWgQvuNY6ksnSMcFsmGw
-! Last modified: 2026-08-12 04:22 UTC
+! Checksum: OwtOMLih5-pET7DjKXY-OQ
+! Last modified: 2026-08-17 08:39 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -106,7 +106,6 @@
 ||fs-loader.com^$third-party
 ||gadzooksrudely.com^$third-party
 ||gahfinallytame.com^$third-party
-||gahyuck.com^$third-party
 ||geeunlessarcade.com^$third-party
 ||gladlythattoady.com^$third-party
 ||go.andwonderful.com^$third-party
@@ -177,7 +176,6 @@
 ||loader.woxikon.pt^$third-party
 ||loader.woxikon.ru^$third-party
 ||loader.woxikon.se^$third-party
-||longpsst.com^$third-party
 ||madoverpricey.com^$third-party
 ||meanwhilelest.com^$third-party
 ||mechanicallydrug.com^$third-party
@@ -204,7 +202,6 @@
 ||peculiargentleman.com^$third-party
 ||perfumedsecret.com^$third-party
 ||perlikewiseamid.com^$third-party
-||perprigidly.com^$third-party
 ||peryuck.com^$third-party
 ||pfftbare.com^$third-party
 ||phewsugary.com^$third-party
@@ -245,7 +242,6 @@
 ||supplieroof.com^$third-party
 ||suproderistrai.com^$third-party
 ||surfaceavow.com^$third-party
-||swiftbecause.com^$third-party
 ||swimskylineplus.com^$third-party
 ||tamealongpast.com^$third-party
 ||tapiocawithout.com^$third-party
@@ -255,7 +251,6 @@
 ||tousleoutbid.com^$third-party
 ||translationwell.com^$third-party
 ||tribegadzooks.com^$third-party
-||ughjubilantly.com^$third-party
 ||ughmouldhusky.com^$third-party
 ||ughoncenot.com^$third-party
 ||unfreezehuge.com^$third-party
@@ -284,5 +279,4 @@
 ||yakunitfall.com^$third-party
 ||yetyippee.com^$third-party
 ||yowzabrr.com^$third-party
-||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
