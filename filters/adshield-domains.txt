@@ -1,7 +1,7 @@
-! Version: 202608170839
+! Version: 202608190201
 ! Title: Ad Shield Filter List
-! Checksum: OwtOMLih5-pET7DjKXY-OQ
-! Last modified: 2026-08-17 08:39 UTC
+! Checksum: 0ojfZMiPlwBRDR1LyM64Vw
+! Last modified: 2026-08-19 02:01 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -224,6 +224,7 @@
 ||sanssnow.com^$third-party
 ||sanstidy.com^$third-party
 ||satephooeynab.com^$third-party
+||scareduntil.com^$third-party
 ||scientificfor.com^$third-party
 ||scowlswitchmore.com^$third-party
 ||shield.knowt.com^$third-party
@@ -258,7 +259,6 @@
 ||unselfishugh.com^$third-party
 ||unusedpuny.com^$third-party
 ||upbeatbut.com^$third-party
-||upbeatdualyahoo.com^$third-party
 ||video-loads.com^$third-party
 ||wallabyhusky.com^$third-party
 ||whenmehany.com^$third-party
@@ -269,14 +269,17 @@
 ||whoeverfestival.com^$third-party
 ||whykindlyoofword.com^$third-party
 ||windowthink.com^$third-party
+||windyquaintly.com^$third-party
 ||witharound.com^$third-party
 ||withoutandwhich.com^$third-party
 ||withouthuzzah.com^$third-party
 ||withreadily.com^$third-party
 ||wootscratch.com^$third-party
 ||worstloftily.com^$third-party
+||yahoojagged.com^$third-party
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yetyippee.com^$third-party
 ||yowzabrr.com^$third-party
+||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
