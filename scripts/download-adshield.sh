@@ -27,6 +27,13 @@ GITLAB_MIRROR="https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/share/
 # Number of header lines to preserve from the existing filter file
 HEADER_LINES=15
 
+# Unique prefix matching custom rules that must be preserved across updates.
+# These rules are hand-added (not part of the upstream list) and must be
+# retained when the filter file is regenerated from the source. A fixed
+# string (grep -F) is used since the upstream '$third-party' rules never
+# contain this prefix.
+PRESERVE_PREFIX='||*/session/obe*'
+
 main() {
   local filter_file=""
   local script_dir
@@ -85,8 +92,15 @@ main() {
 
   echo "🚀 Downloading AdShield list for: $resolved_file"
 
-  # Preserve header (first N lines) and append new domains
+  # Extract custom rules that must be preserved across updates (e.g.
+  # ||*/session/obe*...*$document rules which are not part of the
+  # upstream list). These are re-appended after the downloaded content.
   local tmp_file="${resolved_file}.tmp"
+  local preserved_file
+  preserved_file="$(mktemp)"
+  grep -F "$PRESERVE_PREFIX" "$resolved_file" >"$preserved_file" || true
+
+  # Preserve header (first N lines) and append new domains
   "$script_dir/remove-lines.sh" "$resolved_file" "$HEADER_LINES" >"$tmp_file"
 
   # Try GitHub primary source, fall back to GitLab mirror on failure
@@ -111,8 +125,13 @@ main() {
   local sed_expr="s/^/||/; s/\$/^\$third-party/"
   sed "$sed_expr" "$source_file" >>"$tmp_file"
 
+  # Re-append the custom rules that must be preserved across updates
+  if [[ -s "$preserved_file" ]]; then
+    cat "$preserved_file" >>"$tmp_file"
+  fi
+
   # Clean up and atomically replace the original file
-  rm -f "$source_file"
+  rm -f "$source_file" "$preserved_file"
   mv -f "$tmp_file" "$resolved_file"
 
   echo "✅ Successfully updated '$resolved_file'"

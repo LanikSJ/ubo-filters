@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: GMPFzsbB9aYwQpDljZj-Bg
-! Last modified: 2026-08-10 20:59 UTC
-! Version: 202608102059
+! Checksum: lfehyAQJzpEu1nlMMZIdqA
+! Last modified: 2026-08-21 18:46 UTC
+! Version: 202608211846
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -713,6 +713,8 @@ www.google.com##.k3bfZe > div
 www.google.com###rhs > block-component
 www.i-dont-care-about-cookies.eu###sidebar
 www.instacart.com##[href="https://www.instacart.com/p/pay-in-4"]
+www.linux.org##[href*="/donation/"]
+www.linux.org##[href^="https://adminapparel.com"]
 www.wyzant.com###desktop-cross-sell
 www.youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
 www.youtube.com##.video-annotations
