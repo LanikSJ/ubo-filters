@@ -1,7 +1,7 @@
-! Version: 202608190201
+! Version: 202608211846
 ! Title: Ad Shield Filter List
-! Checksum: 0ojfZMiPlwBRDR1LyM64Vw
-! Last modified: 2026-08-19 02:01 UTC
+! Checksum: v5EsmHp528z4f4LGUlzqmA
+! Last modified: 2026-08-21 18:46 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -13,6 +13,26 @@
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive,
 ! special, incidental, or consequential damages whatsoever. By downloading or viewing, or using
 ! this list, you are accepting these terms and the license.
+||*/session/obe*www.24sata.hr$document
+||*/session/obe*www.alo.rs$document
+||*/session/obe*www.blic.rs$document
+||*/session/obe*www.dalmacija.news$document
+||*/session/obe*www.dnevnik.hr$document
+||*/session/obe*www.index.hr$document
+||*/session/obe*www.jutarnji.ba$document
+||*/session/obe*www.jutarnji.hr$document
+||*/session/obe*www.klix.ba$document
+||*/session/obe*www.kurir.rs$document
+||*/session/obe*www.n1info.hr$document
+||*/session/obe*www.net.hr$document
+||*/session/obe*www.novac.hr$document
+||*/session/obe*www.politika.rs$document
+||*/session/obe*www.rs.n1info.com$document
+||*/session/obe*www.slobodnadalmacija.hr$document
+||*/session/obe*www.telegraf.rs$document
+||*/session/obe*www.tportal.hr$document
+||*/session/obe*www.vecernji.ba$document
+||*/session/obe*www.vecernji.hr$document
 ||07c225f3.online^$third-party
 ||19706903.xyz^$third-party
 ||38167473.xyz^$third-party
