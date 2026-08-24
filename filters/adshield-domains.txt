@@ -1,7 +1,7 @@
-! Version: 202608211846
+! Version: 202608240844
 ! Title: Ad Shield Filter List
-! Checksum: v5EsmHp528z4f4LGUlzqmA
-! Last modified: 2026-08-21 18:46 UTC
+! Checksum: 45SLQG6DRsLAZFaf5F3Nrw
+! Last modified: 2026-08-24 08:44 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -103,7 +103,6 @@
 ||downknottily.com^$third-party
 ||dratbeyond.com^$third-party
 ||drawbut.com^$third-party
-||duhforenenstking.com^$third-party
 ||duhquietly.com^$third-party
 ||duhrawhide.com^$third-party
 ||dwelllestcatch.com^$third-party
@@ -132,7 +131,6 @@
 ||grubbytrain.com^$third-party
 ||gutickyum.com^$third-party
 ||heavilyhelp.com^$third-party
-||hmphmehfailing.com^$third-party
 ||hmphyuck.com^$third-party
 ||honestlysweetly.com^$third-party
 ||host-override.ad-shield.dev^$third-party
@@ -146,7 +144,6 @@
 ||ickfinallyonly.com^$third-party
 ||img-load.com^$third-party
 ||impanelsnarling.com^$third-party
-||inasmuchnoisily.com^$third-party
 ||indeedgrass.com^$third-party
 ||insteadwallaby.com^$third-party
 ||intosewyuckeven.com^$third-party
@@ -237,7 +234,6 @@
 ||quiet-beggar.site^$third-party
 ||quietlythough.com^$third-party
 ||rampfat.com^$third-party
-||rawbeautifully.com^$third-party
 ||rewardingfill.com^$third-party
 ||ring.worldhistory.org^$third-party
 ||ringwhen.com^$third-party
@@ -267,7 +263,6 @@
 ||tamealongpast.com^$third-party
 ||tapiocawithout.com^$third-party
 ||tarrybelow.com^$third-party
-||thighoutlying.com^$third-party
 ||tillequal.com^$third-party
 ||tousleoutbid.com^$third-party
 ||translationwell.com^$third-party
@@ -282,7 +277,6 @@
 ||video-loads.com^$third-party
 ||wallabyhusky.com^$third-party
 ||whenmehany.com^$third-party
-||whichblah.com^$third-party
 ||whichdespite.com^$third-party
 ||whichfreely.com^$third-party
 ||whoeverbeyond.com^$third-party
@@ -299,7 +293,5 @@
 ||yahoojagged.com^$third-party
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
-||yetyippee.com^$third-party
 ||yowzabrr.com^$third-party
-||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
