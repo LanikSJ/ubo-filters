@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@adguard/dead-domains-linter": "^1.0.33"
+    "@adguard/dead-domains-linter": "^1.0.38"
   },
   "overrides": {
     "glob": "11.1.0",
