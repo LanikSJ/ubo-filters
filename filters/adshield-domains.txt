@@ -1,7 +1,7 @@
-! Version: 202608240844
+! Version: 202608260209
 ! Title: Ad Shield Filter List
-! Checksum: 45SLQG6DRsLAZFaf5F3Nrw
-! Last modified: 2026-08-24 08:44 UTC
+! Checksum: s9vAvFWlxYtBrtDDDClVZQ
+! Last modified: 2026-08-26 02:09 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -77,6 +77,7 @@
 ||boblovable.com^$third-party
 ||boowithout.com^$third-party
 ||brilliantfaronly.com^$third-party
+||brochureclear.com^$third-party
 ||browseteriyaki.com^$third-party
 ||buticksplurge.com^$third-party
 ||butwhereverhabit.com^$third-party
@@ -142,6 +143,7 @@
 ||hurtfulonly.com^$third-party
 ||hydrolyseouch.com^$third-party
 ||ickfinallyonly.com^$third-party
+||ill-fatedodd.com^$third-party
 ||img-load.com^$third-party
 ||impanelsnarling.com^$third-party
 ||indeedgrass.com^$third-party
@@ -237,6 +239,7 @@
 ||rewardingfill.com^$third-party
 ||ring.worldhistory.org^$third-party
 ||ringwhen.com^$third-party
+||sansmadly.com^$third-party
 ||sanssnow.com^$third-party
 ||sanstidy.com^$third-party
 ||satephooeynab.com^$third-party
@@ -256,6 +259,7 @@
 ||solemnlyboo.com^$third-party
 ||solemnlybuck.com^$third-party
 ||staregrownup.com^$third-party
+||suddenlyany.com^$third-party
 ||supplieroof.com^$third-party
 ||suproderistrai.com^$third-party
 ||surfaceavow.com^$third-party
@@ -294,4 +298,5 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yowzabrr.com^$third-party
+||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
