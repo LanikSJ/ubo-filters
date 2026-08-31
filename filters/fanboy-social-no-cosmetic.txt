@@ -1,9 +1,9 @@
-! Version: 202608240301
+! Version: 202608310807
 ! Title: Fanboy's Social Blocking List
-! Checksum: sUGirrqm4rhrDMitaYmGDw
-! Last modified: 2026-08-24 03:01 UTC
+! Checksum: K0mHO0Nt1mELtP3aDmBwrw
+! Last modified: 2026-08-31 08:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 342b05cf064268d44d352f25d0019796325557ae
+! Commit: 0aaea85884921c0452e4b4af0d928cc0acf0bee0
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -734,6 +734,7 @@ abc.net.au#?#.Button_root__UZ8td:has-text(Share)
 appleinsider.com#?#.col-xs-12 > div:has-text(Follow AppleInsider)
 archaeologymag.com#?#.widget_custom_html:has-text(Follow us)
 bitcoinsensus.com#?#.elementor-heading-title:has-text(SHARE)
+browserstack.com#?#.custom-footer-wrapper__heading:has-text(Social)
 carexpert.co.nz,carexpert.com.au#?#._1ivmml5u3:has-text(Add Preferred Source)
 carnewschina.com#?#.article_detail__top_stories:has-text(Follow us for ev updates)
 cbsnews.com#?#.FooterLinks-group:has-text(Follow Us On)
@@ -793,7 +794,6 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||badges.instagram.com^$third-party
 ||bloglovin.com/widget/$third-party
 ||bnews.com.br/static/socialmedia/
-||bshare.cn^$third-party
 ||button-share.zalo.me^$third-party
 ||button.like.co^$third-party
 ||buttons.github.io/buttons.js$third-party
@@ -865,6 +865,7 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||lessbuttons.com^$third-party
 ||likebtn.com^$third-party
 ||line-apps.com^*/thirdparty/$third-party
+||line-scdn.net/line_add_friends/edge/btn/
 ||line.me/js/line-button.js?$third-party
 ||linkedin.com/countserv/$third-party
 ||linkedin.com/img/$third-party
@@ -904,7 +905,6 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||reddit.com/static/$third-party
 ||revinate.com^$third-party
 ||scoop.it^$third-party
-||sekomums.lv^$third-party
 ||share.itraffic.su^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
