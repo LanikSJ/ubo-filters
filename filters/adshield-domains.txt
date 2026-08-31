@@ -1,7 +1,7 @@
-! Version: 202608260209
+! Version: 202608311550
 ! Title: Ad Shield Filter List
-! Checksum: s9vAvFWlxYtBrtDDDClVZQ
-! Last modified: 2026-08-26 02:09 UTC
+! Checksum: 3tLyg4qCBhJmhlSy_PqzKg
+! Last modified: 2026-08-31 15:50 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -102,7 +102,6 @@
 ||distinctdearly.com^$third-party
 ||divertnow.com^$third-party
 ||downknottily.com^$third-party
-||dratbeyond.com^$third-party
 ||drawbut.com^$third-party
 ||duhquietly.com^$third-party
 ||duhrawhide.com^$third-party
@@ -212,7 +211,6 @@
 ||norexceptdrug.com^$third-party
 ||nowmodulo.com^$third-party
 ||oldgladly.com^$third-party
-||ontogreatly.com^$third-party
 ||oofamidst.com^$third-party
 ||oofpalate.com^$third-party
 ||ouchvibration.com^$third-party
@@ -242,7 +240,6 @@
 ||sansmadly.com^$third-party
 ||sanssnow.com^$third-party
 ||sanstidy.com^$third-party
-||satephooeynab.com^$third-party
 ||scareduntil.com^$third-party
 ||scientificfor.com^$third-party
 ||scowlswitchmore.com^$third-party
@@ -252,7 +249,6 @@
 ||sincedialover.com^$third-party
 ||sitsneezerefreshing.com^$third-party
 ||slakeonlythigh.com^$third-party
-||smugpsstplus.com^$third-party
 ||socksince.com^$third-party
 ||softlyextremely.com^$third-party
 ||softlypacesock.com^$third-party
@@ -298,5 +294,4 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yowzabrr.com^$third-party
-||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
