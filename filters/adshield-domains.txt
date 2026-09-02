@@ -1,7 +1,7 @@
-! Version: 202608311550
+! Version: 202609020456
 ! Title: Ad Shield Filter List
-! Checksum: 3tLyg4qCBhJmhlSy_PqzKg
-! Last modified: 2026-08-31 15:50 UTC
+! Checksum: lxAI_Wxq4lMI9iNJ_POLNw
+! Last modified: 2026-09-02 04:56 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -49,7 +49,9 @@
 ||ad-shield.io^$third-party
 ||adshield-fallback-dev-wskxz.b-cdn.net^$third-party
 ||adshield-fallback-staging-yp6cs.b-cdn.net^$third-party
+||againstnext.com^$third-party
 ||agreementdaily.com^$third-party
+||amidstdeploy.com^$third-party
 ||amidsttruly.com^$third-party
 ||amongstbirdbath.com^$third-party
 ||amongstgahboo.com^$third-party
@@ -57,6 +59,7 @@
 ||anenstdecodenear.com^$third-party
 ||angrilybefore.com^$third-party
 ||annualrallybran.com^$third-party
+||aroundsadly.com^$third-party
 ||aroundwhoever.com^$third-party
 ||artisticsway.com^$third-party
 ||as.slashdot.org^$third-party
@@ -87,7 +90,6 @@
 ||content-loader.com^$third-party
 ||corksadly.com^$third-party
 ||correctlynow.com^$third-party
-||crazychime.com^$third-party
 ||css-load.com^$third-party
 ||cuddlyruddy.com^$third-party
 ||daddyobesity.com^$third-party
@@ -99,8 +101,8 @@
 ||deletewoefully.com^$third-party
 ||diligentunto.com^$third-party
 ||disgorgephew.com^$third-party
-||distinctdearly.com^$third-party
 ||divertnow.com^$third-party
+||doingsupposing.com^$third-party
 ||downknottily.com^$third-party
 ||drawbut.com^$third-party
 ||duhquietly.com^$third-party
@@ -113,6 +115,7 @@
 ||erionoxcintene.com^$third-party
 ||error-report.com^$third-party
 ||evenpatroller.com^$third-party
+||expertminus.com^$third-party
 ||eyelinerfrom.com^$third-party
 ||fidgetduh.com^$third-party
 ||finallymidwife.com^$third-party
@@ -131,6 +134,7 @@
 ||grubbytrain.com^$third-party
 ||gutickyum.com^$third-party
 ||heavilyhelp.com^$third-party
+||hencewafer.com^$third-party
 ||hmphyuck.com^$third-party
 ||honestlysweetly.com^$third-party
 ||host-override.ad-shield.dev^$third-party
@@ -144,7 +148,6 @@
 ||ickfinallyonly.com^$third-party
 ||ill-fatedodd.com^$third-party
 ||img-load.com^$third-party
-||impanelsnarling.com^$third-party
 ||indeedgrass.com^$third-party
 ||insteadwallaby.com^$third-party
 ||intosewyuckeven.com^$third-party
@@ -254,6 +257,7 @@
 ||softlypacesock.com^$third-party
 ||solemnlyboo.com^$third-party
 ||solemnlybuck.com^$third-party
+||soreferret.com^$third-party
 ||staregrownup.com^$third-party
 ||suddenlyany.com^$third-party
 ||supplieroof.com^$third-party
@@ -294,4 +298,5 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yowzabrr.com^$third-party
+||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
