@@ -1,7 +1,7 @@
 ! Title: Crypto Mining Domains Filter List
-! Checksum: QUco16Mx8-cGslbN49fyEg
-! Version: 202607271121
-! Last modified: 2026-07-27 11:21 UTC
+! Checksum: wpN2S8EpeBN_wb2cS-ILrw
+! Version: 202609071356
+! Last modified: 2026-09-07 13:56 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -81,7 +81,6 @@
 ||kiwifarms.net/js/Jawsh/xmr/xmr.min.js
 ||magi.duinocoin.com^$third-party
 ||mepirtedic.com^$third-party
-||mi-de-ner-nis3.info^
 ||mine.nahnoji.cz^
 ||minergate.com^$third-party
 ||minero-proxy-*.sh^$third-party
