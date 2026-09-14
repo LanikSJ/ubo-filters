@@ -1,9 +1,9 @@
-! Version: 202609070700
+! Version: 202609140734
 ! Title: Fanboy's Social Blocking List
-! Checksum: fu96Tkkc2hBRLoeOWff79Q
-! Last modified: 2026-09-07 07:00 UTC
+! Checksum: 6V2P_ilVd84rBi480lhcXg
+! Last modified: 2026-09-14 07:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d7e19745c2f32ba3613624628855b602584d264e
+! Commit: a0ba98a19b25f2b02c0dfb7ca75c56e48d679987
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
