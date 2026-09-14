@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: g91TvoyjPdrzJp6jx9g2yg
-! Version: 202609071356
-! Last modified: 2026-09-07 13:56 UTC
+! Checksum: WDReKB9tCidaXUaGhIYxZQ
+! Version: 202609140520
+! Last modified: 2026-09-14 05:20 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -139,6 +139,7 @@
 ||baskettexture.com^
 ||battlebalance.com^
 ||bawdybalance.com^
+||beamkite.com^
 ||beamvolcano.com^
 ||beancontrol.com^
 ||bedsberry.com^
@@ -212,6 +213,7 @@
 ||burgersalt.com^
 ||burnbubble.com^
 ||burntwist.com^
+||businessbells.com^
 ||bustlingbook.com^
 ||butterbulb.com^
 ||butterburst.com^
@@ -243,6 +245,7 @@
 ||carvecakes.com^
 ||casualphysics.com^
 ||catalogcake.com^
+||catalogdiscovery.com^
 ||catschickens.com^
 ||cattlecommittee.com^
 ||causecherry.com^
@@ -351,7 +354,6 @@
 ||critictruck.com^
 ||crookedcreature.com^
 ||crowdedmass.com^
-||cruisetourist.com^
 ||crunchcontrol.com^
 ||crystalboulevard.com^
 ||cubchannel.com^
@@ -374,7 +376,6 @@
 ||cutecalculator.com^
 ||cutechin.com^
 ||cyclopsdial.com^
-||dailydivision.com^
 ||damagedadvice.com^
 ||damageddistance.com^
 ||damdoor.com^
@@ -665,9 +666,9 @@
 ||gustygrandmother.com^
 ||halcyoncanyon.com^
 ||haltingbadge.com^
-||haltingdivision.com^
 ||hammerhearing.com^
 ||handleteeth.com^
+||handnorth.com^
 ||handsomehose.com^
 ||handsomeindustry.com^
 ||handsomelyhealth.com^
@@ -763,6 +764,7 @@
 ||justpickaname.com^
 ||justwebcards.com^
 ||keenquill.com^
+||kibbleandbytes.com^
 ||kidpowers.com^
 ||kindhush.com^
 ||kitetuning.com^
@@ -1098,11 +1100,9 @@
 ||rangecake.com^
 ||rangeplayground.com^
 ||rangergustav.com^
-||rarestcandy.com^
 ||raresummer.com^
 ||razzweb.com^
 ||reactjspdf.com^
-||readgoldfish.com^
 ||readingguilt.com^
 ||readymoon.com^
 ||readysetcard.com^
@@ -1231,7 +1231,6 @@
 ||seedscissors.com^
 ||seenvault.com^
 ||seespice.com^
-||selectionship.com^
 ||selectivesummer.com^
 ||selfishsea.com^
 ||selfishsnake.com^
@@ -1332,6 +1331,7 @@
 ||soresidewalk.com^
 ||soretrain.com^
 ||sortstructure.com^
+||soulclicking.com^
 ||soundstocking.com^
 ||sowlettuce.com^
 ||spaceaffinity.com^
@@ -1377,6 +1377,7 @@
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
+||stampknot.com^
 ||starkscale.com^
 ||startercost.com^
 ||statshunt.com^
@@ -1559,6 +1560,7 @@
 ||understoodocean.com^
 ||unequalbrake.com^
 ||unequaltrail.com^
+||unicontainers.com^
 ||uninterestedquarter.com^
 ||unitedscans.com^
 ||unknowncrate.com^
@@ -1663,6 +1665,7 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
+||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
