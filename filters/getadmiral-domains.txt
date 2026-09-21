@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: nR5JQguW1NCvtZx0ZQpGgQ
-! Version: 202609210522
-! Last modified: 2026-09-21 05:22 UTC
+! Checksum: uPH0_Hpk9gZa-yxrRvKUwQ
+! Version: 202609211449
+! Last modified: 2026-09-21 14:49 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -57,7 +57,6 @@
 ||admiral.support^
 ||admiral.website^
 ||admiralcdn.com^
-||admiralcdnstaging.com^
 ||admlcdn.com^
 ||adorableanger.com^
 ||adorableattention.com^
@@ -96,8 +95,6 @@
 ||applyless.com^
 ||aquaticowl.com^
 ||archswimming.com^
-||ariseboundary.com^
-||arizonapuzzle.com^
 ||aromamirror.com^
 ||arrivegrowth.com^
 ||articledemon.com^
@@ -110,8 +107,6 @@
 ||attractionbanana.com^
 ||attractivecap.com^
 ||audioarctic.com^
-||auspiciousyard.com^
-||automaticairplane.com^
 ||automaticside.com^
 ||automaticturkey.com^
 ||availablerest.com^
@@ -1632,7 +1627,6 @@
 ||writewealth.com^
 ||wrongpotato.com^
 ||wrongwound.com^
-||wryfinger.com^
 ||wtaccesscontrol.com^
 ||xovq5nemr.com^
 ||yieldingwoman.com^
@@ -1646,7 +1640,6 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
-||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^

@@ -1,7 +1,7 @@
 ! Title: AdMeasures Domains Filter List
-! Checksum: jsTpY1cgx4zKWD4ns5ZLcA
-! Version: 202606011335
-! Last modified: 2026-06-01 13:35 UTC
+! Checksum: YCvDm1PPP3GrK_4O3-8oOQ
+! Version: 202609211449
+! Last modified: 2026-09-21 14:49 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -49,4 +49,3 @@
 ||ww2.imgadult.com^
 ||ww2.imgtaxi.com^
 ||ww2.imgwallet.com^
-||y1jxiqds7v.com^
