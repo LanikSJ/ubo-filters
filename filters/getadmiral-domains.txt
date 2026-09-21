@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: laYytF1-oNA1WIp3Xcn6xg
-! Version: 202609141444
-! Last modified: 2026-09-14 14:44 UTC
+! Checksum: nR5JQguW1NCvtZx0ZQpGgQ
+! Version: 202609210522
+! Last modified: 2026-09-21 05:22 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -57,6 +57,7 @@
 ||admiral.support^
 ||admiral.website^
 ||admiralcdn.com^
+||admiralcdnstaging.com^
 ||admlcdn.com^
 ||adorableanger.com^
 ||adorableattention.com^
@@ -83,7 +84,6 @@
 ||ambiguousincome.com^
 ||ambrosialsummit.com^
 ||amethystzenith.com^
-||amuckafternoon.com^
 ||amusedbucket.com^
 ||analyzecorona.com^
 ||ancientact.com^
@@ -96,6 +96,8 @@
 ||applyless.com^
 ||aquaticowl.com^
 ||archswimming.com^
+||ariseboundary.com^
+||arizonapuzzle.com^
 ||aromamirror.com^
 ||arrivegrowth.com^
 ||articledemon.com^
@@ -108,6 +110,8 @@
 ||attractionbanana.com^
 ||attractivecap.com^
 ||audioarctic.com^
+||auspiciousyard.com^
+||automaticairplane.com^
 ||automaticside.com^
 ||automaticturkey.com^
 ||availablerest.com^
@@ -167,7 +171,6 @@
 ||blissfullagoon.com^
 ||blockdial.com^
 ||blueeyedblow.com^
-||bluevinebooks.com^
 ||blushingbeast.com^
 ||blushingbread.com^
 ||boatcodeapp.com^
@@ -354,6 +357,7 @@
 ||critictruck.com^
 ||crookedcreature.com^
 ||crowdedmass.com^
+||cruisetourist.com^
 ||crunchcontrol.com^
 ||crystalboulevard.com^
 ||cubchannel.com^
@@ -376,6 +380,7 @@
 ||cutecalculator.com^
 ||cutechin.com^
 ||cyclopsdial.com^
+||dailydivision.com^
 ||damagedadvice.com^
 ||damageddistance.com^
 ||damdoor.com^
@@ -418,7 +423,6 @@
 ||digithalo.com^
 ||dinnerquartz.com^
 ||direfuldesk.com^
-||disagreeabledrop.com^
 ||discreetfield.com^
 ||discreetquarter.com^
 ||distinctday.com^
@@ -460,7 +464,6 @@
 ||elusivecascade.com^
 ||embellishedmeadow.com^
 ||emberwhisper.com^
-||eminentbubble.com^
 ||eminentend.com^
 ||emptyescort.com^
 ||enchantedskyline.com^
@@ -520,7 +523,6 @@
 ||farethief.com^
 ||farmergoldfish.com^
 ||farshake.com^
-||farsnails.com^
 ||fastenfather.com^
 ||fasterfineart.com^
 ||fasterjson.com^
@@ -546,6 +548,7 @@
 ||fireworkcamp.com^
 ||firstendpoint.com^
 ||fishersfinds.com^
+||fitmessage.com^
 ||fitnessmapper.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
@@ -566,7 +569,6 @@
 ||floweryfact.com^
 ||floweryflavor.com^
 ||floweryoperation.com^
-||flushingbeast.com^
 ||flutteringfireman.com^
 ||foamyfood.com^
 ||followborder.com^
@@ -582,7 +584,6 @@
 ||framebanana.com^
 ||franticroof.com^
 ||freezingbuilding.com^
-||frequentflesh.com^
 ||friedone.com^
 ||friendlycrayon.com^
 ||friendlyfold.com^
@@ -616,9 +617,7 @@
 ||ghostgenie.com^
 ||ghostwoodalbum.com^
 ||gianthypes.com^
-||giantsvessel.com^
 ||giddycoat.com^
-||gigkarma.com^
 ||giraffepiano.com^
 ||gitcrumbs.com^
 ||givevacation.com^
@@ -633,13 +632,11 @@
 ||glitteringbrook.com^
 ||gloriousbeef.com^
 ||glowingmeadow.com^
-||godseedband.com^
 ||goldfishgrowth.com^
 ||gondolagnome.com^
 ||goodbark.com^
 ||gorgeousedge.com^
 ||gossamerwing.com^
-||gracefulmilk.com^
 ||grainmass.com^
 ||grandfatherguitar.com^
 ||granlite.com^
@@ -676,7 +673,6 @@
 ||handsomeyam.com^
 ||handyfield.com^
 ||handyfireman.com^
-||handyincrease.com^
 ||haplesshydrant.com^
 ||haplessland.com^
 ||happysponge.com^
@@ -710,7 +706,6 @@
 ||hospitablehat.com^
 ||howdyinbox.com^
 ||humdrumhobbies.com^
-||humdrumtouch.com^
 ||hurtgrape.com^
 ||hustlercoach.com^
 ||hyperlegend.com^
@@ -733,7 +728,6 @@
 ||innocentlamp.com^
 ||inputicicle.com^
 ||inquisitiveinvention.com^
-||insulatech.com^
 ||intelligentscissors.com^
 ||intentlens.com^
 ||internalcondition.com^
@@ -770,7 +764,6 @@
 ||kitetuning.com^
 ||knifetreasury.com^
 ||knitstamp.com^
-||knotkettle.com^
 ||knottyswing.com^
 ||laboredlocket.com^
 ||lameletters.com^
@@ -877,7 +870,6 @@
 ||minorcattle.com^
 ||minuteburst.com^
 ||miscreantmoon.com^
-||missionrewards.com^
 ||mistyhorizon.com^
 ||mittencattle.com^
 ||modifiedchaos.com^
@@ -938,7 +930,6 @@
 ||nowaymail.com^
 ||nudgeduck.com^
 ||nullnorth.com^
-||numerousnest.com^
 ||oafishchance.com^
 ||oafishobservation.com^
 ||objecthero.com^
@@ -1060,7 +1051,6 @@
 ||promiseair.com^
 ||proofconvert.com^
 ||propertypotato.com^
-||propsynergy.com^
 ||protestcopy.com^
 ||psychedelicarithmetic.com^
 ||publicsofa.com^
@@ -1175,7 +1165,6 @@
 ||sableshelf.com^
 ||sablesmile.com^
 ||sablesong.com^
-||sadloaf.com^
 ||saffronrefuge.com^
 ||saladfuel.com^
 ||saltsacademy.com^
@@ -1191,7 +1180,6 @@
 ||sayinnovation.com^
 ||scarceshock.com^
 ||scarcesign.com^
-||scarcestructure.com^
 ||scarcesurprise.com^
 ||scaredcomfort.com^
 ||scaredsidewalk.com^
@@ -1230,7 +1218,6 @@
 ||secretturtle.com^
 ||seedscissors.com^
 ||seenvault.com^
-||seespice.com^
 ||selectivesummer.com^
 ||selfishsea.com^
 ||selfishsnake.com^
@@ -1271,7 +1258,6 @@
 ||shydinosaurs.com^
 ||shyseed.com^
 ||sicksmash.com^
-||sierrakermit.com^
 ||signaturepod.com^
 ||silentcredit.com^
 ||silentjackal.com^
@@ -1367,7 +1353,6 @@
 ||spurioussquirrel.com^
 ||spuriousstranger.com^
 ||spysubstance.com^
-||squalidscrew.com^
 ||squarecamel.com^
 ||squeakzinc.com^
 ||squealingturn.com^
@@ -1377,7 +1362,6 @@
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
-||stampknot.com^
 ||starkscale.com^
 ||startercost.com^
 ||statshunt.com^
@@ -1396,6 +1380,7 @@
 ||stepwisevideo.com^
 ||stereoproxy.com^
 ||stereotypedsugar.com^
+||stickysheet.com^
 ||stiffgame.com^
 ||stiffstem.com^
 ||stimulatingsneeze.com^
@@ -1481,12 +1466,10 @@
 ||tempertrick.com^
 ||temptteam.com^
 ||tendertest.com^
-||tenhourweek.com^
 ||tennistie.com^
 ||terriblethumb.com^
 ||testadmiral.com^
 ||texturetrick.com^
-||thejavalane.com^
 ||therapeuticcars.com^
 ||thesolartime.com^
 ||thingsafterthought.com^
@@ -1498,7 +1481,6 @@
 ||thoughtlessknot.com^
 ||threechurch.com^
 ||threetruck.com^
-||thrillasoft.com^
 ||thrivecover.com^
 ||thrivingmarketplace.com^
 ||throattrees.com^
@@ -1516,7 +1498,6 @@
 ||tiresomethunder.com^
 ||tofusquirrel.com^
 ||toolcapital.com^
-||topcrazypress.com^
 ||toweringanswer.com^
 ||toysbasics.com^
 ||toytakeover.com^
@@ -1551,7 +1532,6 @@
 ||ubiquitoussea.com^
 ||ultraoranges.com^
 ||ultravalid.com^
-||unablehope.com^
 ||unaccountablepie.com^
 ||unarmedindustry.com^
 ||unbecominghall.com^
@@ -1631,7 +1611,7 @@
 ||whisperingcrib.com^
 ||whisperingsummit.com^
 ||whispermeeting.com^
-||whoogled.com^
+||whymaze.com^
 ||wildcommittee.com^
 ||wildwoodavenue.com^
 ||windflamesky.com^
@@ -1652,6 +1632,7 @@
 ||writewealth.com^
 ||wrongpotato.com^
 ||wrongwound.com^
+||wryfinger.com^
 ||wtaccesscontrol.com^
 ||xovq5nemr.com^
 ||yieldingwoman.com^
@@ -1665,6 +1646,7 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
+||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
