@@ -1,9 +1,9 @@
-! Version: 202609210738
+! Version: 202609280814
 ! Title: Fanboy's Social Blocking List
-! Checksum: vfRu-egiDKDZu56sozO7HQ
-! Last modified: 2026-09-21 07:38 UTC
+! Checksum: 9sEzZVrcRBuBKOdbgaHG7A
+! Last modified: 2026-09-28 08:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f9002afed3784573eaac654dcc6f45e18325aa88
+! Commit: b4f53e6cd79a2af0d9c2ff6371be9cda2f812d5b
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -905,7 +905,6 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||reddit.com/static/$third-party
 ||revinate.com^$third-party
 ||scoop.it^$third-party
-||sekomums.lv^$third-party
 ||share.itraffic.su^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
