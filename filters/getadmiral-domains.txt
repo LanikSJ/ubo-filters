@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: -ZzZ5E0nvHNKtFkh7XIdEA
-! Version: 202609280547
-! Last modified: 2026-09-28 05:47 UTC
+! Checksum: 4BaP3RI4zFB51SjBSy4CoA
+! Version: 202609281625
+! Last modified: 2026-09-28 16:25 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -489,7 +489,6 @@
 ||etherealbamboo.com^
 ||ethereallagoon.com^
 ||etherealripple.com^
-||evaluateend.com^
 ||evaluatestream.com^
 ||evanescentedge.com^
 ||evasivejar.com^
@@ -518,11 +517,8 @@
 ||familiarrod.com^
 ||fancyactivity.com^
 ||fancydune.com^
-||fancygrove.com^
 ||fangfeeling.com^
-||fantastictone.com^
 ||farethief.com^
-||farmerfireman.com^
 ||farmergoldfish.com^
 ||farshake.com^
 ||fastenfather.com^
@@ -602,7 +598,6 @@
 ||furnstudio.com^
 ||furryfork.com^
 ||fusedcontent.com^
-||futuristicapparatus.com^
 ||futuristicfifth.com^
 ||futuristicframe.com^
 ||fuzzyaudio.com^
@@ -1656,7 +1651,6 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
-||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
