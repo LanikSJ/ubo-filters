@@ -1,7 +1,7 @@
-! Version: 202609230501
+! Version: 202609281625
 ! Title: Ad Shield Filter List
-! Checksum: EIEMBR43Jcpr6DwUcxCq4A
-! Last modified: 2026-09-23 05:01 UTC
+! Checksum: f38ceobuFwXTUJndBVqhMw
+! Last modified: 2026-09-28 16:25 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -60,7 +60,6 @@
 ||amidsolidly.com^$third-party
 ||amidstdeploy.com^$third-party
 ||amidsttruly.com^$third-party
-||amongstbirdbath.com^$third-party
 ||amongstgahboo.com^$third-party
 ||amongwhosushi.com^$third-party
 ||anenstdecodenear.com^$third-party
@@ -118,7 +117,6 @@
 ||duhquietly.com^$third-party
 ||duhrawhide.com^$third-party
 ||dwelllestcatch.com^$third-party
-||eekknightsoon.com^$third-party
 ||elvermehwretched.com^$third-party
 ||embossfor.com^$third-party
 ||equallyneedily.com^$third-party
@@ -156,15 +154,12 @@
 ||howduhtable.com^$third-party
 ||html-load.cc^$third-party
 ||html-load.com^$third-party
-||huntforenenst.com^$third-party
 ||hurtfulonly.com^$third-party
-||hydrolyseouch.com^$third-party
 ||ickfinallyonly.com^$third-party
 ||ill-fatedodd.com^$third-party
 ||img-load.com^$third-party
 ||indeedgrass.com^$third-party
 ||insteadwallaby.com^$third-party
-||intosewyuckeven.com^$third-party
 ||involvingrallyanthem.com^$third-party
 ||joviallysafely.com^$third-party
 ||kiddinglyeven.com^$third-party
@@ -235,7 +230,6 @@
 ||oofpalate.com^$third-party
 ||ouchvibration.com^$third-party
 ||palateonce.com^$third-party
-||paradefast.com^$third-party
 ||partridgepuny.com^$third-party
 ||peculiargentleman.com^$third-party
 ||perfumedsecret.com^$third-party
@@ -330,5 +324,4 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yowzabrr.com^$third-party
-||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
