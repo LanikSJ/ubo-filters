@@ -15,6 +15,7 @@
   - [📄 Supplemental Lists](#-supplemental-lists)
 - [🔧 Usage Instructions](#-usage-instructions)
   - [📝 Filter Processing Scripts](#-filter-processing-scripts)
+  - [🪝 Pre-commit Hook](#-pre-commit-hook)
   - [🛠️ Other Utility Scripts](#️-other-utility-scripts)
   - [🔄 Workflow Examples](#-workflow-examples)
 - [❓ FAQ](#-faq)
@@ -106,6 +107,49 @@ date and checksum.
 - **FOP Integration**: Uses `fop-cli` for sorting and checksum generation
 - **Cross-Platform Compatibility**: Works on both Linux and macOS
 - **Simple and Fast**: Minimal processing with reliable results
+
+### 🪝 Pre-commit Hook
+
+A [pre-commit](https://pre-commit.com/) hook (`.pre-commit-config.yaml`) runs
+`scripts/pre-commit-checksum-sort.sh` on every staged file under `filters/`.
+It calls `scripts/checksum-sort.sh` on each file (sort + `fop` validation +
+headers + checksum) and re-stages the result, so your commit always contains
+the processed output.
+
+**Install (one time per clone):**
+
+```bash
+brew install pre-commit   # or: pip install pre-commit
+pre-commit install
+```
+
+Requires `fop` on your `PATH` (the hook fails with install hints otherwise):
+
+```bash
+brew install laniksj/tap/fop-rs   # or: ./scripts/install-fop.sh (Linux/CI)
+```
+
+**Operate:**
+
+```bash
+# Normal use — the hook runs automatically on commit when filters/*.txt change
+git add filters/combined-filters.txt
+git commit -m "chore(filters): update combined filters"
+
+# Run the hook manually on all files (re-sorts/checksums everything)
+pre-commit run --all-files
+
+# Run it on specific files without committing
+pre-commit run checksum-sort --files filters/combined-filters.txt
+
+# Bypass the hook for a single commit (not recommended for filter changes)
+git commit --no-verify -m "chore(filters): update combined filters"
+```
+
+> **Note:** after the hook re-stages a processed file, `git status` may show
+> it as both staged and unstaged — just review the diff and commit again. Avoid
+> `pre-commit run --all-files` unless you intend to touch every filter list, as
+> it rewrites the checksum/date headers of all files under `filters/`.
 
 ### 🛠️ Other Utility Scripts
 

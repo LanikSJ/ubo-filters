@@ -1,0 +1,11 @@
+repos:
+  - repo: local
+    hooks:
+      - id: checksum-sort
+        name: checksum-sort filters
+        entry: scripts/pre-commit-checksum-sort.sh
+        language: script
+        files: ^filters/.*\.txt$
+        pass_filenames: true
+        require_serial: true
+        stages: [pre-commit]
