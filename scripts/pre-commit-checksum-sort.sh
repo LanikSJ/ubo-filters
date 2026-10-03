@@ -22,24 +22,24 @@ log_error() {
 }
 
 collect_staged_filters() {
-  git -C "${REPO_ROOT}" diff --cached --name-only --diff-filter=ACM -- 'filters/*.txt'
+  git -C "$REPO_ROOT" diff --cached --name-only --diff-filter=ACM -- 'filters/*.txt'
 }
 
 process_one() {
   local rel="$1"
   local abs="${REPO_ROOT}/${rel}"
 
-  if [[ ! -f "${abs}" ]]; then
+  if [[ ! -f "$abs" ]]; then
     return 0
   fi
 
   log_info "🔄 checksum-sort: ${rel}"
-  "${SORT_SCRIPT}" "${abs}"
-  git -C "${REPO_ROOT}" add -- "${rel}"
+  "$SORT_SCRIPT" "$abs"
+  git -C "$REPO_ROOT" add -- "$rel"
 }
 
 main() {
-  if [[ ! -x "${SORT_SCRIPT}" ]]; then
+  if [[ ! -x "$SORT_SCRIPT" ]]; then
     log_error "Sort script not found or not executable: ${SORT_SCRIPT}"
     exit 1
   fi
@@ -48,9 +48,9 @@ main() {
   if [[ $# -gt 0 ]]; then
     files=("$@")
   else
-    while IFS= read -r line || [[ -n "${line}" ]]; do
-      [[ -z "${line}" ]] && continue
-      files+=("${line}")
+    while IFS= read -r line || [[ -n "$line" ]]; do
+      [[ -z "$line" ]] && continue
+      files+=("$line")
     done < <(collect_staged_filters)
   fi
 
@@ -63,7 +63,7 @@ main() {
   for file in "${files[@]}"; do
     # Normalize to repo-relative path for the filters/ gate.
     rel="${file#"${REPO_ROOT}"/}"
-    case "${rel}" in
+    case "$rel" in
       filters/*.txt) ;;
       *) continue ;;
     esac
@@ -71,7 +71,7 @@ main() {
     if [[ ! -f "${REPO_ROOT}/${rel}" ]]; then
       continue
     fi
-    process_one "${rel}"
+    process_one "$rel"
   done
 }
 
