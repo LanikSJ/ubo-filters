@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: 4BaP3RI4zFB51SjBSy4CoA
-! Version: 202609281625
-! Last modified: 2026-09-28 16:25 UTC
+! Checksum: YaMuS7xc2RCvqM1Nn3pHSA
+! Version: 202610050604
+! Last modified: 2026-10-05 06:04 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -57,7 +57,6 @@
 ||admiral.support^
 ||admiral.website^
 ||admiralcdn.com^
-||admiralexternal.com^
 ||admlcdn.com^
 ||adorableanger.com^
 ||adorableattention.com^
@@ -265,7 +264,6 @@
 ||chargecracker.com^
 ||charmingplate.com^
 ||cherriescare.com^
-||cherrythread.com^
 ||chessbranch.com^
 ||chesscolor.com^
 ||chesscrowd.com^
@@ -355,7 +353,6 @@
 ||crowdedmass.com^
 ||cruisetourist.com^
 ||crunchcontrol.com^
-||cryptvalue.com^
 ||crystalboulevard.com^
 ||cubchannel.com^
 ||cubepins.com^
@@ -377,7 +374,6 @@
 ||cutecalculator.com^
 ||cutechin.com^
 ||cyclopsdial.com^
-||dailydivision.com^
 ||damagedadvice.com^
 ||damageddistance.com^
 ||damdoor.com^
@@ -443,7 +439,6 @@
 ||drydrum.com^
 ||dustydime.com^
 ||dustyhammer.com^
-||dyecloud.com^
 ||eagerflame.com^
 ||eagerknight.com^
 ||earnbaht.com^
@@ -702,7 +697,6 @@
 ||honeybulb.com^
 ||honorablehydrant.com^
 ||honorableland.com^
-||hookconference.com^
 ||hospitablehall.com^
 ||hospitablehat.com^
 ||howdyinbox.com^
@@ -759,6 +753,7 @@
 ||justpickaname.com^
 ||justwebcards.com^
 ||keenquill.com^
+||kibbleandbytes.com^
 ||kidpowers.com^
 ||kindhush.com^
 ||kitetuning.com^
@@ -820,7 +815,6 @@
 ||magnificentarticle.com^
 ||majesticwaterscape.com^
 ||majesticwilderness.com^
-||makesimpact.com^
 ||maliciousmusic.com^
 ||manamoment.com^
 ||mapbasin.com^
@@ -1319,6 +1313,7 @@
 ||soresidewalk.com^
 ||soretrain.com^
 ||sortstructure.com^
+||soulclicking.com^
 ||soundstocking.com^
 ||sowlettuce.com^
 ||spaceaffinity.com^
@@ -1392,7 +1387,6 @@
 ||stockerator.com^
 ||stockingsleet.com^
 ||stockingsneeze.com^
-||stocktheme.com^
 ||stomachscience.com^
 ||stonetumble.com^
 ||stopstomach.com^
@@ -1475,6 +1469,7 @@
 ||thejavalane.com^
 ||therapeuticcars.com^
 ||thesolartime.com^
+||thickticket.com^
 ||thingsafterthought.com^
 ||thingstaste.com^
 ||thinkitten.com^
@@ -1642,6 +1637,7 @@
 ||xovq5nemr.com^
 ||yieldingwoman.com^
 ||yourlifedream.com^
+||zealousfield.com^
 ||zephyrcatalyst.com^
 ||zephyrlabyrinth.com^
 ||zeppelinradio.com^
@@ -1651,6 +1647,7 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
+||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
