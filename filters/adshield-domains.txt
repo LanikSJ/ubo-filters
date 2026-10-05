@@ -1,7 +1,7 @@
-! Version: 202609300550
+! Version: 202610051645
 ! Title: Ad Shield Filter List
-! Checksum: 2h8HMirQAdkuwPcA8Zm3xw
-! Last modified: 2026-09-30 05:50 UTC
+! Checksum: 5r6S1ayecYLpG2epg_CCkw
+! Last modified: 2026-10-05 16:45 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -61,7 +61,6 @@
 ||amidstdeploy.com^$third-party
 ||amidsttruly.com^$third-party
 ||amongstgahboo.com^$third-party
-||amongwhosushi.com^$third-party
 ||anenstdecodenear.com^$third-party
 ||angrilybefore.com^$third-party
 ||annualrallybran.com^$third-party
@@ -81,7 +80,6 @@
 ||baritonepro.com^$third-party
 ||basketrot.com^$third-party
 ||battleickhope.com^$third-party
-||becausepishworth.com^$third-party
 ||blahorderly.com^$third-party
 ||blahwhoever.com^$third-party
 ||blindlyandpfft.com^$third-party
@@ -144,13 +142,11 @@
 ||go.andwonderful.com^$third-party
 ||greatlyamid.com^$third-party
 ||grubbytrain.com^$third-party
-||heavilyhelp.com^$third-party
 ||hencewafer.com^$third-party
 ||hmphpeppery.com^$third-party
 ||hmphyuck.com^$third-party
 ||honestlysweetly.com^$third-party
 ||host-override.ad-shield.dev^$third-party
-||housebutsoon.com^$third-party
 ||howduhtable.com^$third-party
 ||html-load.cc^$third-party
 ||html-load.com^$third-party
@@ -163,7 +159,6 @@
 ||involvingrallyanthem.com^$third-party
 ||joviallysafely.com^$third-party
 ||kiddinglyeven.com^$third-party
-||lacklong.com^$third-party
 ||lazilytoo.com^$third-party
 ||legalendowmad.com^$third-party
 ||lendhassle.com^$third-party
@@ -218,7 +213,6 @@
 ||milkyepic.com^$third-party
 ||misguidedfast.com^$third-party
 ||misreportmeh.com^$third-party
-||newsletterwoot.com^$third-party
 ||nicelyfrom.com^$third-party
 ||nicelymodulo.com^$third-party
 ||nightlifestrait.com^$third-party
@@ -228,7 +222,6 @@
 ||nowmodulo.com^$third-party
 ||oldgladly.com^$third-party
 ||oofamidst.com^$third-party
-||oofpalate.com^$third-party
 ||ouchvibration.com^$third-party
 ||palateonce.com^$third-party
 ||partridgepuny.com^$third-party
@@ -327,5 +320,4 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yowzabrr.com^$third-party
-||yumhusk.com^$third-party
 ||zowiejump.com^$third-party
