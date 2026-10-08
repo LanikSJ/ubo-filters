@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: m8_UUCzpJuizqzfwqtb3iQ
-! Version: 202610070451
-! Last modified: 2026-10-07 04:51 UTC
+! Checksum: JCT_sftgNTBv6xFosgd-HA
+! Version: 202610080156
+! Last modified: 2026-10-08 01:56 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -151,6 +151,7 @@
 ||bikepaws.com^
 ||bikesboard.com^
 ||bilingualgeek.com^
+||billionpet.com^
 ||billowybead.com^
 ||billowybelief.com^
 ||binspiredtees.com^
@@ -354,6 +355,7 @@
 ||crowdedmass.com^
 ||cruisetourist.com^
 ||crunchcontrol.com^
+||cryptvalue.com^
 ||crystalboulevard.com^
 ||cubchannel.com^
 ||cubepins.com^
@@ -1473,7 +1475,6 @@
 ||thejavalane.com^
 ||therapeuticcars.com^
 ||thesolartime.com^
-||thickticket.com^
 ||thingsafterthought.com^
 ||thingstaste.com^
 ||thinkitten.com^
