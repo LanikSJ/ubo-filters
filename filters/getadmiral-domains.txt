@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: JCT_sftgNTBv6xFosgd-HA
-! Version: 202610080156
-! Last modified: 2026-10-08 01:56 UTC
+! Checksum: iNqY7I5u3pNz-PVDSpH7cg
+! Version: 202610080728
+! Last modified: 2026-10-08 07:28 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -283,6 +283,7 @@
 ||ciderfeast.com^
 ||cinemabonus.com^
 ||circlelevel.com^
+||citizensactive.com^
 ||clammychicken.com^
 ||clarifyverse.com^
 ||cleanhaircut.com^
