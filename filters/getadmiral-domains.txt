@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: iNqY7I5u3pNz-PVDSpH7cg
-! Version: 202610080728
-! Last modified: 2026-10-08 07:28 UTC
+! Checksum: hYTMIqqW3SYNeLe6TSsYjg
+! Version: 202610090506
+! Last modified: 2026-10-09 05:06 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -288,6 +288,7 @@
 ||clarifyverse.com^
 ||cleanhaircut.com^
 ||clearcomb.com^
+||clickersdigest.com^
 ||cloisteredcurve.com^
 ||cloudhustles.com^
 ||cloudjumbo.com^
@@ -843,7 +844,6 @@
 ||mediatescarf.com^
 ||mediavine.com^
 ||mediumshort.com^
-||mellowbike.com^
 ||mellowhush.com^
 ||melodiouschorus.com^
 ||melodiouscomposition.com^
@@ -1364,6 +1364,7 @@
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
+||stampknot.com^
 ||starkscale.com^
 ||startercost.com^
 ||statshunt.com^
@@ -1470,7 +1471,6 @@
 ||tenhourweek.com^
 ||tennistie.com^
 ||terriblethumb.com^
-||terrifictooth.com^
 ||testadmiral.com^
 ||texturetrick.com^
 ||thejavalane.com^
