@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: vLGzvLmmeFujHPCElsVjdA
-! Version: 202610100620
-! Last modified: 2026-10-10 06:20 UTC
+! Checksum: VUV2sH7vZOcxAdbelzm4tw
+! Version: 202610111950
+! Last modified: 2026-10-11 19:50 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -169,22 +169,17 @@
 ||blueeyedblow.com^
 ||bluevinebooks.com^
 ||blushingbeast.com^
-||blushingboundary.com^
 ||blushingbread.com^
 ||boatcodeapp.com^
 ||boatsvest.com^
 ||boiledegglabs.com^
 ||boilingbeetle.com^
 ||boilingcredit.com^
-||boilingumbrella.com^
 ||boldbars.com^
 ||boomboomcloud.com^
 ||boostbehavior.com^
-||boredborder.com^
 ||boredcrown.com^
 ||boringberry.com^
-||boringcoat.com^
-||bouncyfront.com^
 ||bouncyproperty.com^
 ||boundarybusiness.com^
 ||boundlessargument.com^
@@ -211,12 +206,9 @@
 ||brownboxgroup.com^
 ||bruisebaseball.com^
 ||brunchforher.com^
-||bubblebedroom.com^
-||bucketbean.com^
 ||buildingknife.com^
 ||bulbbait.com^
 ||bumpermash.com^
-||bumpydevelopment.com^
 ||bungeesleeves.com^
 ||burgersalt.com^
 ||burnbubble.com^
@@ -254,7 +246,6 @@
 ||carvecakes.com^
 ||casualphysics.com^
 ||catalogcake.com^
-||catalogdiscovery.com^
 ||catschickens.com^
 ||cattlecommittee.com^
 ||causecherry.com^
@@ -320,6 +311,7 @@
 ||combcompetition.com^
 ||cometquote.com^
 ||comfortablecheese.com^
+||commonalmanac.com^
 ||comparereaction.com^
 ||condemnedcomb.com^
 ||conditionchange.com^
@@ -365,6 +357,7 @@
 ||crimsonmeadow.com^
 ||critictruck.com^
 ||crookedcreature.com^
+||crossseasent.com^
 ||crowdedmass.com^
 ||cruisetourist.com^
 ||crunchcontrol.com^
@@ -387,9 +380,12 @@
 ||curvedhoney.com^
 ||curvycry.com^
 ||cushiondrum.com^
+||cutcurrent.com^
 ||cutecalculator.com^
 ||cutechin.com^
 ||cyclopsdial.com^
+||dailydesigned.com^
+||dailydivision.com^
 ||damagedadvice.com^
 ||damageddistance.com^
 ||damdoor.com^
@@ -1383,7 +1379,6 @@
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
-||stampknot.com^
 ||starkscale.com^
 ||startercost.com^
 ||statshunt.com^
@@ -1496,6 +1491,7 @@
 ||thejavalane.com^
 ||therapeuticcars.com^
 ||thesolartime.com^
+||thickticket.com^
 ||thingsafterthought.com^
 ||thingstaste.com^
 ||thinkitten.com^
@@ -1590,9 +1586,11 @@
 ||venomousvessel.com^
 ||venusgloria.com^
 ||verdantanswer.com^
+||verdantcrescent.com^
 ||verdantlabyrinth.com^
 ||verdantloom.com^
 ||verdantsculpture.com^
+||verifyvegetable.com^
 ||verseballs.com^
 ||vibrantcelebration.com^
 ||vibrantgale.com^
@@ -1624,6 +1622,7 @@
 ||waveinverter.com^
 ||waxsirens.com^
 ||wayjoyfarm.com^
+||wearywater.com^
 ||websitesdude.com^
 ||wellgroomedapparel.com^
 ||wellgroomedhydrant.com^
@@ -1663,6 +1662,7 @@
 ||xovq5nemr.com^
 ||yieldingwoman.com^
 ||yourlifedream.com^
+||zealousfield.com^
 ||zephyrcatalyst.com^
 ||zephyrlabyrinth.com^
 ||zeppelinradio.com^
