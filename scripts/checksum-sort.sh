@@ -136,7 +136,7 @@ update_headers() {
     elif [[ "$line" =~ ^'! Checksum:' ]]; then
       # Skip old checksum line - will be recalculated and added after title
       continue
-    elif [[ "$line" =~ ^'! Last modified:' ]]; then
+    elif [[ "$line" =~ ^'! Last '[Mm]'odified:' ]]; then
       echo "! Last modified: $datetime"
       found_last_modified=true
     elif [[ "$line" =~ ^'! Version:' ]]; then
