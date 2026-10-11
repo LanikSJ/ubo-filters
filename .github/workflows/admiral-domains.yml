@@ -2,16 +2,19 @@ name: Admiral Domains
 
 on:
   schedule:
-    - cron: "30 0 * * 1" # Runs 00:30 UTC Only on Monday
+    - cron: '30 0 * * 1' # Runs 00:30 UTC Only on Monday
   push:
     branches:
       - main
     paths:
-      - ".github/workflows/admiral-domains.yml"
+      - '.github/workflows/admiral-domains.yml'
   pull_request:
     paths:
-      - ".github/workflows/admiral-domains.yml"
+      - '.github/workflows/admiral-domains.yml'
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - admiral-list-updated
 
 env:
   NODE_VERSION: 20
@@ -33,7 +36,7 @@ jobs:
         run: |
           # Preserve header (first 15 lines) and append new domains
           ./scripts/remove-lines.sh filters/getadmiral-domains.txt 15 > filters/getadmiral-domains.tmp
-          curl -L https://raw.githubusercontent.com/LanikSJ/AdmiraList/master/AdmiraList.txt | sed 's/^/||/; s/$/^/' >> filters/getadmiral-domains.tmp
+          curl -L https://raw.githubusercontent.com/LanikSJ/AdmiraList/main/AdmiraList.txt | sed 's/^/||/; s/$/^/' >> filters/getadmiral-domains.tmp
           mv filters/getadmiral-domains.tmp filters/getadmiral-domains.txt
 
       - name: Set up Node.js
@@ -74,14 +77,14 @@ jobs:
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore(filters): update admiral domains filter list"
+          commit-message: 'chore(filters): update admiral domains filter list'
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: admiral-domains-update
+          branch: chore/admiral-domains-update
           base: main
           delete-branch: true
-          title: "chore(filters): update admiral domains filter list"
+          title: 'chore(filters): update admiral domains filter list'
           body: |
             Update Admiral Domains Filter List:
             - Updated with *today's* date
