@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: FhWyetdjNOkxzIEHjJsMdA
-! Version: 202610112030
-! Last modified: 2026-10-11 20:30 UTC
+! Checksum: JkEEE4rFiEmUDZpXHP_0yA
+! Version: 202610112054
+! Last modified: 2026-10-11 20:54 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -1610,6 +1610,7 @@
 ||volatileprofit.com^
 ||volatilevessel.com^
 ||voraciousgrip.com^
+||voyagepotato.com^
 ||waitingnumber.com^
 ||wantingwindow.com^
 ||warmafterthought.com^
