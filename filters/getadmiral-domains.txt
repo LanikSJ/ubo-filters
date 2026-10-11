@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: VUV2sH7vZOcxAdbelzm4tw
-! Version: 202610111950
-! Last modified: 2026-10-11 19:50 UTC
+! Checksum: FhWyetdjNOkxzIEHjJsMdA
+! Version: 202610112030
+! Last modified: 2026-10-11 20:30 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -1586,11 +1586,9 @@
 ||venomousvessel.com^
 ||venusgloria.com^
 ||verdantanswer.com^
-||verdantcrescent.com^
 ||verdantlabyrinth.com^
 ||verdantloom.com^
 ||verdantsculpture.com^
-||verifyvegetable.com^
 ||verseballs.com^
 ||vibrantcelebration.com^
 ||vibrantgale.com^
@@ -1622,7 +1620,6 @@
 ||waveinverter.com^
 ||waxsirens.com^
 ||wayjoyfarm.com^
-||wearywater.com^
 ||websitesdude.com^
 ||wellgroomedapparel.com^
 ||wellgroomedhydrant.com^
