@@ -272,7 +272,7 @@ main() {
         echo "  --help, -h              Show this help message"
         echo ""
         echo "Examples:"
-        echo "  $0 filters/combined-filters.txt"
+        echo "  $0 <filter-file>"
         exit 0
         ;;
       -*)

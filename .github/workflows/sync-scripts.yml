@@ -1,0 +1,104 @@
+name: Sync Scripts
+
+# Copies the shared maintenance scripts from this repo (the source of truth)
+# out to the sibling repos that reuse them.
+#
+# Synced verbatim to every target:
+#   - checksum-sort.sh
+#   - remove-lines.sh
+#   - install-fop.sh
+#
+# Intentionally NOT synced:
+#   - pre-commit-checksum-sort.sh  (repo-specific: each repo gates on different
+#                                   filter paths via its own CONFIG block)
+#   - download-adshield.sh          (ubo-filters only)
+#   - scripts/README.md            (differs per repo)
+#
+# Requires a fine-grained PAT (or classic token with `repo` scope) with
+# Contents: Read and write on LanikSJ/AdmiraList and LanikSJ/webannoyances,
+# stored as the UBO_FILTERS_SYNC_TOKEN repository secret.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/checksum-sort.sh'
+      - 'scripts/remove-lines.sh'
+      - 'scripts/install-fop.sh'
+      - '.github/workflows/sync-scripts.yml'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    name: Sync to ${{ matrix.repo }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - repo: LanikSJ/AdmiraList
+            branch: main
+          - repo: LanikSJ/webannoyances
+            branch: master
+    # Serialize per target so two quick pushes cannot race on the same repo.
+    concurrency:
+      group: sync-scripts-${{ matrix.repo }}
+      cancel-in-progress: false
+    steps:
+      - name: Checkout source (ubo-filters)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Verify sync token is configured
+        env:
+          TOKEN: ${{ secrets.UBO_FILTERS_SYNC_TOKEN }}
+          TARGET_REPO: ${{ matrix.repo }}
+        run: |
+          if [ -z "${TOKEN}" ]; then
+            echo "::error::UBO_FILTERS_SYNC_TOKEN secret is not set. Add a token with Contents: Read and write on ${TARGET_REPO}."
+            exit 1
+          fi
+
+      - name: Checkout target (${{ matrix.repo }}@${{ matrix.branch }})
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: ${{ matrix.repo }}
+          ref: ${{ matrix.branch }}
+          token: ${{ secrets.UBO_FILTERS_SYNC_TOKEN }}
+          path: target
+
+      - name: Copy synced scripts into target
+        run: |
+          set -euo pipefail
+          for script in checksum-sort.sh remove-lines.sh install-fop.sh; do
+            echo "==> ${script}"
+            install -m 0755 "scripts/${script}" "target/scripts/${script}"
+          done
+
+      - name: Shellcheck copied scripts
+        working-directory: target
+        run: |
+          set -euo pipefail
+          shellcheck scripts/checksum-sort.sh scripts/remove-lines.sh scripts/install-fop.sh
+
+      - name: Commit and push changes
+        working-directory: target
+        env:
+          TARGET_REPO: ${{ matrix.repo }}
+          TARGET_BRANCH: ${{ matrix.branch }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- scripts
+          if git diff --cached --quiet; then
+            echo "No script changes to sync to ${TARGET_REPO}."
+            exit 0
+          fi
+          echo "Syncing the following script changes to ${TARGET_REPO}:"
+          git --no-pager diff --cached --stat
+          git commit -m "chore(scripts): sync shared scripts from ubo-filters [skip ci]"
+          git push origin "HEAD:${TARGET_BRANCH}"
