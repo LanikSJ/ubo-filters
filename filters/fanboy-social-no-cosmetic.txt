@@ -1,9 +1,9 @@
-! Version: 202610050822
+! Version: 202610120838
 ! Title: Fanboy's Social Blocking List
-! Checksum: Uh1MgCDEmUiO01Y5xyfziA
-! Last modified: 2026-10-05 08:22 UTC
+! Checksum: W-ccBHw9eliZybWZw4Ijag
+! Last modified: 2026-10-12 08:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3749d634c8ff603559371e60c414b215f6f3fe64
+! Commit: 239a850e728989c7da5a63001a4398d152ece24e
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -744,6 +744,7 @@ cryptotimes.io#?#.heading-title:has-text(Follow US)
 cybersecuritynews.com#?#.has-background:has-text(Follow us)
 cybersecuritynews.com#?#.tdm_block_button_simplified:has-text(Follow on LinkedIn)
 economictimes.indiatimes.com#?#.Pbanner:has-text(as a Reliable and Trusted News Source)
+fortune.com#?#.info-surface:has-text(Add Fortune on Google)
 freethoughtnow.org#?#.elementor-widget-container > h2:has-text(Please share)
 gizmodo.com#?#.border-t-grey-200:has-text(Share this story)
 gpone.com#?#.stickyarticle:has-text(Follow)
@@ -905,6 +906,7 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||reddit.com/static/$third-party
 ||revinate.com^$third-party
 ||scoop.it^$third-party
+||sekomums.lv^$third-party
 ||share.itraffic.su^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
