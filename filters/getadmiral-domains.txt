@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: JkEEE4rFiEmUDZpXHP_0yA
-! Version: 202610112054
-! Last modified: 2026-10-11 20:54 UTC
+! Checksum: 3-lMJqcJuw4r0X6laNRE_Q
+! Version: 202610120623
+! Last modified: 2026-10-12 06:23 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -139,8 +139,10 @@
 ||baskettexture.com^
 ||battlebalance.com^
 ||bawdybalance.com^
+||beamkite.com^
 ||beamvolcano.com^
 ||beancontrol.com^
+||beastbeef.com^
 ||bedsberry.com^
 ||beginnerpancake.com^
 ||berserkhydrant.com^
@@ -1610,7 +1612,6 @@
 ||volatileprofit.com^
 ||volatilevessel.com^
 ||voraciousgrip.com^
-||voyagepotato.com^
 ||waitingnumber.com^
 ||wantingwindow.com^
 ||warmafterthought.com^
@@ -1624,6 +1625,7 @@
 ||websitesdude.com^
 ||wellgroomedapparel.com^
 ||wellgroomedhydrant.com^
+||wellmadefrog.com^
 ||whimsicalcanyon.com^
 ||whimsicalgrove.com^
 ||whimsicalvantage.com^
