@@ -1,5 +1,14 @@
 # 📝 Scripts
 
+## Table of Contents
+
+- [Script Sync Relationship](#-script-sync-relationship)
+- [✅ Synced Scripts (copied verbatim to targets)](#-synced-scripts-copied-verbatim-to-targets)
+- [🎯 Target Repositories](#-target-repositories)
+- [❌ NOT Synced (repo-specific)](#-not-synced-repo-specific)
+- [🔧 Trigger Conditions](#-trigger-conditions)
+- [🔐 Authentication](#-authentication)
+
 Some of these scripts have been "borrowed" from [Fanboy](https://github.com/ryanbr/fanboy-adblock/)
 All rights reserved by the original authors.
 
