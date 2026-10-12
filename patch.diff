@@ -1,0 +1,41 @@
+diff --git a/scripts/README.md b/scripts/README.md
+index 7e4382e..1e2f787 100644
+--- a/scripts/README.md
++++ b/scripts/README.md
+@@ -11,26 +11,26 @@ syncs the following scripts to sibling repositories on push to `main`:
+
+ ### ✅ Synced Scripts (copied verbatim to targets)
+
+-| Script               | Purpose                                                                    |
+-|----------------------|----------------------------------------------------------------------------|
+-| `checksum-sort.sh`   | Filter list processing (sort + fop validation + headers + checksum)        |
+-| `remove-lines.sh`    | Remove specific lines from filter lists                                    |
+-| `install-fop.sh`     | Install the fop-cli tool                                                   |
++| Script             | Purpose                                                             |
++| ------------------ | ------------------------------------------------------------------- |
++| `checksum-sort.sh` | Filter list processing (sort + fop validation + headers + checksum) |
++| `remove-lines.sh`  | Remove specific lines from filter lists                             |
++| `install-fop.sh`   | Install the fop-cli tool                                            |
+
+ ### 🎯 Target Repositories
+
+ | Repository                                                        | Branch   |
+-|-------------------------------------------------------------------|----------|
++| ----------------------------------------------------------------- | -------- |
+ | [LanikSJ/AdmiraList](https://github.com/LanikSJ/AdmiraList)       | `main`   |
+ | [LanikSJ/webannoyances](https://github.com/LanikSJ/webannoyances) | `master` |
+
+ ### ❌ NOT Synced (repo-specific)
+
+-| Script                         | Reason                                                                      |
+-|--------------------------------|-----------------------------------------------------------------------------|
+-| `pre-commit-checksum-sort.sh`  | Each repo gates on different filter paths via its own CONFIG block          |
+-| `download-adshield.sh`         | ubo-filters only                                                            |
+-| `scripts/README.md`            | Differs per repo (this file)                                                |
++| Script                        | Reason                                                             |
++| ----------------------------- | ------------------------------------------------------------------ |
++| `pre-commit-checksum-sort.sh` | Each repo gates on different filter paths via its own CONFIG block |
++| `download-adshield.sh`        | ubo-filters only                                                   |
++| `scripts/README.md`           | Differs per repo (this file)                                       |
+
+ ### 🔧 Trigger Conditions
