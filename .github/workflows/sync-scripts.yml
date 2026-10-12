@@ -102,4 +102,3 @@ jobs:
           git --no-pager diff --cached --stat
           git commit -m "chore(scripts): sync shared scripts from ubo-filters [skip ci]"
           git push origin "HEAD:${TARGET_BRANCH}"
-
