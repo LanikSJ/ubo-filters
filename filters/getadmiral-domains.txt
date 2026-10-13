@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: 4DfpAOgSAsDvsgj5pLPuGw
-! Version: 202610121717
-! Last modified: 2026-10-12 17:17 UTC
+! Checksum: 6r9-EMgd_OSh8OfzlcD21w
+! Version: 202610130012
+! Last modified: 2026-10-13 00:12 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -386,7 +386,6 @@
 ||cutechin.com^
 ||cyclopsdial.com^
 ||dailydesigned.com^
-||dailydivision.com^
 ||damagedadvice.com^
 ||damageddistance.com^
 ||damdoor.com^
@@ -395,9 +394,11 @@
 ||dandydune.com^
 ||dandyglow.com^
 ||dapperdiscussion.com^
+||darngavel.com^
 ||dashingdrop.com^
 ||datastoried.com^
 ||dazzlingbook.com^
+||dblendcoatings.com^
 ||debonairdust.com^
 ||debonairtree.com^
 ||decidedrum.com^
@@ -425,6 +426,7 @@
 ||detourgame.com^
 ||devilishdinner.com^
 ||dewdroplagoon.com^
+||dharmabrats.com^
 ||difficultfog.com^
 ||digestiondrawer.com^
 ||digithalo.com^
@@ -717,7 +719,6 @@
 ||honorableland.com^
 ||hospitablehall.com^
 ||hospitablehat.com^
-||howdyinbox.com^
 ||humdrumhobbies.com^
 ||humdrumtouch.com^
 ||hurtgrape.com^
@@ -1670,6 +1671,7 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
+||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
