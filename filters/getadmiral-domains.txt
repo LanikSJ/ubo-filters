@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: 6r9-EMgd_OSh8OfzlcD21w
-! Version: 202610130012
-! Last modified: 2026-10-13 00:12 UTC
+! Checksum: zDXI7Js85IDGzekZUVPLpA
+! Version: 202610132104
+! Last modified: 2026-10-13 21:04 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -127,7 +127,6 @@
 ||bagbeam.com^
 ||bahamashello.com^
 ||baitbaseball.com^
-||balancebreath.com^
 ||balloonbelieve.com^
 ||balloonbit.com^
 ||ballsbanana.com^
@@ -1671,7 +1670,6 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
-||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
