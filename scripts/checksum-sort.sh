@@ -295,7 +295,10 @@ run_fop() {
     local -a mode_args=(--limited-quiet "--ignore-all-but=$file_name")
     if [[ ${#colliders[@]} -gt 0 ]]; then
       local joined=""
-      joined="$(IFS=,; printf '%s' "${colliders[*]}")"
+      joined="$(
+        IFS=,
+        printf '%s' "${colliders[*]}"
+      )"
       mode_args+=("--ignorefiles=$joined")
       log_info "Sibling files excluded from processing: $joined"
     fi
