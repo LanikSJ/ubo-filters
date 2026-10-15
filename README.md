@@ -102,9 +102,24 @@ date and checksum.
 ./scripts/checksum-sort.sh filters/combined-filters.txt
 ```
 
+**Options:**
+
+- `--fop-args="..."`: Extra arguments passed through to `fop-rs`
+  (for example `--fop-args="--parse-adguard"`)
+
 **Features:**
 
 - **FOP Integration**: Uses `fop-cli` for sorting and checksum generation
+- **Rule Clean-Up**: Runs `fop-rs` with `--auto-fix` and `--remove-bad-rules`,
+  so defective rules in newly added lines (empty selectors, unbalanced
+  brackets, broken options) are reported and deleted; advice-only findings
+  (bare hostnames and similar legal syntax) are reported but kept
+- **Repository Awareness**: Inside a git repository `fop` runs against the
+  repository root, limited to the target file, which activates the git-diff
+  based rule checks; outside a repository it falls back to `fop --check-file`
+  single-file mode and the rule checks are skipped
+- **Non-Interactive**: `--no-large-warning` (plus `--no-color` when output is
+  piped) keeps every run prompt-free for CI and pre-commit hooks
 - **Cross-Platform Compatibility**: Works on both Linux and macOS
 - **Simple and Fast**: Minimal processing with reliable results
 
