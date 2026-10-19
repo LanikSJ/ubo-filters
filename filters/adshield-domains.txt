@@ -1,7 +1,7 @@
-! Version: 202610140513
+! Version: 202610191516
 ! Title: Ad Shield Filter List
-! Checksum: ENUZ085mAMzsxJnWNII0pw
-! Last modified: 2026-10-14 05:13 UTC
+! Checksum: gHF0k1_YNgm2Hkh3EDgkQg
+! Last modified: 2026-10-19 15:16 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -51,7 +51,6 @@
 ||ackvainly.com^$third-party
 ||ackzany.com^$third-party
 ||ad-shield.cc^$third-party
-||ad-shield.dev^$third-party
 ||ad-shield.io^$third-party
 ||adshield-fallback-dev-wskxz.b-cdn.net^$third-party
 ||adshield-fallback-staging-yp6cs.b-cdn.net^$third-party
@@ -81,7 +80,6 @@
 ||atopooflumpy.com^$third-party
 ||bahpartridge.com^$third-party
 ||baritonepro.com^$third-party
-||basketrot.com^$third-party
 ||battleickhope.com^$third-party
 ||becausepop.com^$third-party
 ||betweenbrr.com^$third-party
@@ -105,7 +103,6 @@
 ||concretehawk.com^$third-party
 ||content-loader.com^$third-party
 ||contentyet.com^$third-party
-||corksadly.com^$third-party
 ||cramminion.com^$third-party
 ||css-load.com^$third-party
 ||cuddlybeside.com^$third-party
@@ -129,7 +126,6 @@
 ||dwelllestcatch.com^$third-party
 ||elvermehwretched.com^$third-party
 ||embossfor.com^$third-party
-||equallyneedily.com^$third-party
 ||erionoxcintene.com^$third-party
 ||error-report.com^$third-party
 ||evenwaft.com^$third-party
@@ -141,7 +137,6 @@
 ||finallymidwife.com^$third-party
 ||findingmid.com^$third-party
 ||fitlivelywhup.com^$third-party
-||followingbehold.com^$third-party
 ||fooeyunsung.com^$third-party
 ||forsweareven.com^$third-party
 ||frizzsince.com^$third-party
@@ -249,7 +244,6 @@
 ||norexceptdrug.com^$third-party
 ||nowmodulo.com^$third-party
 ||nowrampepic.com^$third-party
-||oldgladly.com^$third-party
 ||oofamidst.com^$third-party
 ||ouchvibration.com^$third-party
 ||palateonce.com^$third-party
@@ -311,7 +305,6 @@
 ||softlyextremely.com^$third-party
 ||softlypacesock.com^$third-party
 ||solemnlyboo.com^$third-party
-||solemnlybuck.com^$third-party
 ||soreferret.com^$third-party
 ||springinure.com^$third-party
 ||staregrownup.com^$third-party
@@ -369,6 +362,5 @@
 ||yakunitfall.com^$third-party
 ||yippeeidle.com^$third-party
 ||yowzabrr.com^$third-party
-||yumhusk.com^$third-party
 ||zowieamid.com^$third-party
 ||zowiejump.com^$third-party
