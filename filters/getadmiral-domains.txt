@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: 7aQURzdrhc-tY11QU3VU8w
-! Version: 202610172142
-! Last modified: 2026-10-17 21:42 UTC
+! Checksum: pTe05zasSvaWw_X_O-oaYw
+! Version: 202610190506
+! Last modified: 2026-10-19 05:06 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -411,7 +411,6 @@
 ||delicatecascade.com^
 ||deliciousducks.com^
 ||delightdriving.com^
-||deltafault.com^
 ||deluxecrate.com^
 ||dependenttrip.com^
 ||deployinput.com^
@@ -859,7 +858,6 @@
 ||mediatescarf.com^
 ||mediavine.com^
 ||mediumshort.com^
-||mellowbike.com^
 ||mellowhush.com^
 ||melodiouschorus.com^
 ||melodiouscomposition.com^
@@ -1490,7 +1488,6 @@
 ||tenhourweek.com^
 ||tennistie.com^
 ||terriblethumb.com^
-||terrifictooth.com^
 ||testadmiral.com^
 ||texturetrick.com^
 ||thejavalane.com^
