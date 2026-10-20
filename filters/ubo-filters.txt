@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: qjcOe2fh0O958MnirHXkbg
-! Last modified: 2026-10-11 21:03 UTC
-! Version: 202610112103
+! Checksum: Z9sCJBBtnlEafXv1-DGyEw
+! Last modified: 2026-10-20 07:34 UTC
+! Version: 202610200734
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -33,6 +33,7 @@
 ||assets.wfcdn.com/im/*deals*.jpg$image
 ||awsstatic.com/*/marketing-channels/website/aws/en_US/homepage/console-sign-in/$image
 ||awsstatic.com/Digital%20Marketing/$image
+||blog.cloudflare.com/images/dashed-vertical-dark.svg$image
 ||cdn.filestackcontent.com$image
 ||cloudfront.net/hub-ui/*.png$image
 ||consumer.disconetwork.com/core/discotheque/$xmlhttprequest,domain=extensions.shopifycdn.com
@@ -240,6 +241,7 @@ erewhon.com##.cart-promocard
 espn.com##.reactions-ready
 eufy.com##div[class*="Article_articleContentRight"]
 expedia.com###join-rewards-banner
+faddom.com##.elementor-sticky--effects.elementor-section--handles-inside.elementor-sticky--active.elementor-sticky.e-child.e-con.e-flex.e-con-full
 fakespot.com##.brads-deal
 faphouse.com###video-fan-join-inline-form
 fastcompany.com##.siderail-video-module
@@ -287,6 +289,8 @@ gizmodo.com##.leftrailmodule--popular
 gizmodo.com##.mezzanine
 gizmodo.com##div[class*="ad-top-banner"]
 glassdoor.com##.mt-xxl.d-sm-block.d-none
+glassdoor.com##a:has-text("Target only the jobs that fit")
+glassdoor.com##a:has(img[src*="recruiter-banner"])
 gofundme.com##.hrt-global-promo-banner
 goldenstatenissan.com##.d-block.w-100
 goldenstatenissan.com##.ico-desktop.ico-adaptive
@@ -624,6 +628,7 @@ thehackernews.com###firebox
 thehackernews.com###HTML6
 theonion.com##.pinned.ad-block-alt.newsletter-signup
 theonion.com##.rail-player
+thesaltearth.com##.announcement-marquee
 thesoftware.shop##.mediad
 thesoftware.shop##.nextPostBox
 thesoftware.shop##.prevPostBox
@@ -710,6 +715,7 @@ www.amazon.com###hero-quick-promo
 www.amazon.com###prime-pda-type-box-ad
 www.amazon.com###recommendations
 www.amazon.com###sims-consolidated-1_feature_div
+www.amazon.com###tcg-left-slot
 www.amazon.com###universal-detail-ilm
 www.amazon.com###universal-hero-quick-promo
 www.amazon.com###widget-rightUpsellSlot
@@ -723,6 +729,7 @@ www.bluehost.com##.header__topbar
 www.bluehost.com##.xsell-banner
 www.bluehost.com###bh-wi-vps-self-vc
 www.bluehost.com##app-dashboard-ad-carousel
+www.evasivemotorsports.com##.x-product-list--carousel.header-products-slideshow
 www.google.com##.k3bfZe > div
 www.google.com###rhs > block-component
 www.i-dont-care-about-cookies.eu###sidebar
