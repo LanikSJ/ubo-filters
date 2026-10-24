@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: 8V2Togq1NfnraXYaUaLpdQ
-! Last modified: 2026-10-20 07:36 UTC
-! Version: 202610200736
+! Checksum: fnkRrWbVNhAJbYhg6guy_Q
+! Last modified: 2026-10-24 03:23 UTC
+! Version: 202610240323
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -134,6 +134,7 @@ blogheist.com##.bh-manual-ads
 blogheist.com##.sidebar-banner
 blueboard.com##div[class*="NotificationBanner"]
 bluehost.com##.u-marginTm.Card--success-border
+bluehost.com##.welcome-overlay-container
 bmc.com###FreeTrialBMCHelixITSM
 boastr.net##.pea_cook_bottomright.pea_cook_wrapper
 bobcares.com##.et_section_regular.et_pb_inner_shadow
@@ -211,6 +212,7 @@ docs.python-guide.org##.sphinxsidebarwrapper > div > div
 docs.python-guide.org##[href="/guide-book"]
 docs.vultr.com##.overflow-hidden.shadow.rounded-md
 docs.vultr.com##.to-vultr-navy
+downforeveryoneorjustme.com##[href*="playwire.com"]
 dropbox.com###maestro-prompt
 drugs.com##.sideBoxSponsor.sideBox
 drugs.com###slider-bar
@@ -297,6 +299,7 @@ goldenstatenissan.com##.d-block.w-100
 goldenstatenissan.com##.ico-desktop.ico-adaptive
 goldenstatenissan.com##.mx-auto.d-block
 goldenstatenissan.com##.text-center.insta-banner-img
+google.com##.k3bfZe
 google.com###ssrad-master
 goreleaser.com##.md-banner
 grammarly.com##.dropdown-header-extension.dropdown-header
@@ -367,6 +370,7 @@ linksysinfo.org##.Notices.PanelScroller
 linuxbabe.com##.home_sidebar
 linuxize.com##.block.affiliate
 linuxquestions.org##.vertical-medium.stackcommerce-widget
+liquidweb.com##.kb-theme-content-width
 literotica.com##.hideScrollbar.scrollable.w_eB
 literotica.com##.SAAWidget__container
 livingsocial.com###ls-in-app-messages
@@ -749,6 +753,7 @@ www.youtube.com###scrollable > .ytd-flow-step-renderer.style-scope
 xamarinhowto.com##.custom-html-widget
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
+xhamster.com##.hasBorder-4d453.default-4d453
 xnxx.com##.premium-results-line
 xnxx.com##.sponsor-text
 xnxx.com##.video-sponsor-links
