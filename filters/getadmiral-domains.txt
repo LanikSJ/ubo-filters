@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: SvwRM6lly3g2FAJLhlB-_g
-! Version: 202610262058
-! Last modified: 2026-10-26 20:58 UTC
+! Checksum: 2S03eHU9m3ZfIPPB0_q11w
+! Version: 202610262108
+! Last modified: 2026-10-26 21:08 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -516,6 +516,7 @@
 ||extralocker.com^
 ||extramonies.com^
 ||exuberantedge.com^
+||exultantdrop.com^
 ||fabcharting.com^
 ||fabledsoul.com^
 ||facilitatebreakfast.com^
@@ -595,16 +596,19 @@
 ||frailfruit.com^
 ||framebanana.com^
 ||franticroof.com^
+||freakyglass.com^
 ||freezingbuilding.com^
 ||frequentflesh.com^
 ||friedone.com^
 ||friendlycrayon.com^
 ||friendlyfold.com^
+||friendwool.com^
 ||frogator.com^
 ||fronttoad.com^
 ||frugalfiestas.com^
 ||fuelreaction.com^
 ||fumblingform.com^
+||functionalclam.com^
 ||functionalcrown.com^
 ||functionalfeather.com^
 ||funoverbored.com^
