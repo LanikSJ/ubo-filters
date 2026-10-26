@@ -2,15 +2,15 @@ name: Admiral Domains
 
 on:
   schedule:
-    - cron: '30 0 * * 1' # Runs 00:30 UTC Only on Monday
+    - cron: "30 0 * * 1" # Runs 00:30 UTC Only on Monday
   push:
     branches:
       - main
     paths:
-      - '.github/workflows/admiral-domains.yml'
+      - ".github/workflows/admiral-domains.yml"
   pull_request:
     paths:
-      - '.github/workflows/admiral-domains.yml'
+      - ".github/workflows/admiral-domains.yml"
   workflow_dispatch:
   repository_dispatch:
     types:
@@ -48,6 +48,9 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Run Node.js Tests
+        run: npm test
+
       - name: Export Dead Domains
         run: npx dead-domains-linter --export dead-domains.txt -i filters/getadmiral-domains.txt
 
@@ -77,14 +80,14 @@ jobs:
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore(filters): update admiral domains filter list'
+          commit-message: "chore(filters): update admiral domains filter list"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: chore/admiral-domains-update
           base: main
           delete-branch: true
-          title: 'chore(filters): update admiral domains filter list'
+          title: "chore(filters): update admiral domains filter list"
           body: |
             Update Admiral Domains Filter List:
             - Updated with *today's* date
