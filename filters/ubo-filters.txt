@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: fnkRrWbVNhAJbYhg6guy_Q
-! Last modified: 2026-10-24 03:23 UTC
-! Version: 202610240323
+! Checksum: HatO-AXlW-fnBqeAewsAow
+! Last modified: 2026-10-26 17:55 UTC
+! Version: 202610261755
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -753,7 +753,6 @@ www.youtube.com###scrollable > .ytd-flow-step-renderer.style-scope
 xamarinhowto.com##.custom-html-widget
 xfinity.com##.dark.message:nth-of-type(2)
 xfinity.com##.standard.promopushdown.component
-xhamster.com##.hasBorder-4d453.default-4d453
 xnxx.com##.premium-results-line
 xnxx.com##.sponsor-text
 xnxx.com##.video-sponsor-links
