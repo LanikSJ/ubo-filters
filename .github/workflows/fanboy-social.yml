@@ -2,15 +2,15 @@ name: Fanboy Social
 
 on:
   schedule:
-    - cron: "0 2 * * 1"
+    - cron: '0 2 * * 1'
   push:
     branches:
       - main
     paths:
-      - ".github/workflows/fanboy-social.yml"
+      - '.github/workflows/fanboy-social.yml'
   pull_request:
     paths:
-      - ".github/workflows/fanboy-social.yml"
+      - '.github/workflows/fanboy-social.yml'
   workflow_dispatch:
 
 env:
@@ -70,14 +70,14 @@ jobs:
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore(filters): update fanboy social without cosmetic filters"
+          commit-message: 'chore(filters): update fanboy social without cosmetic filters'
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: fanboy-social-update
           base: main
           delete-branch: true
-          title: "chore(filters): update fanboy social without cosmetic filters"
+          title: 'chore(filters): update fanboy social without cosmetic filters'
           body: |
             Update Fanboy Social Without Cosmetic Filters:
             - Updated with *today's* date
