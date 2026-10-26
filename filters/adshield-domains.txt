@@ -1,7 +1,7 @@
-! Version: 202610210510
+! Version: 202610261449
 ! Title: Ad Shield Filter List
-! Checksum: mid55o8MAYvVtC6qn0GTkA
-! Last modified: 2026-10-21 05:10 UTC
+! Checksum: 29rJ5Tz2lnNU1DMOc3Tixw
+! Last modified: 2026-10-26 14:49 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -113,7 +113,6 @@
 ||cramminion.com^$third-party
 ||css-load.com^$third-party
 ||cuddlybeside.com^$third-party
-||cuddlyruddy.com^$third-party
 ||curryheroine.com^$third-party
 ||cutletyet.com^$third-party
 ||daintilyrare.com^$third-party
@@ -134,7 +133,6 @@
 ||duhrawhide.com^$third-party
 ||dwelllestcatch.com^$third-party
 ||eekcelebrate.com^$third-party
-||elvermehwretched.com^$third-party
 ||embossfor.com^$third-party
 ||erionoxcintene.com^$third-party
 ||error-report.com^$third-party
@@ -324,7 +322,6 @@
 ||shrillypants.com^$third-party
 ||similaroof.com^$third-party
 ||sinceaware.com^$third-party
-||sincedialover.com^$third-party
 ||sincequick.com^$third-party
 ||sitcinchtoo.com^$third-party
 ||sitsneezerefreshing.com^$third-party
@@ -363,11 +360,9 @@
 ||undermeh.com^$third-party
 ||unfreezehuge.com^$third-party
 ||unlesscool.com^$third-party
-||unlesssecret.com^$third-party
 ||unlikebuck.com^$third-party
 ||unselfishugh.com^$third-party
 ||untilhmph.com^$third-party
-||upbeatbut.com^$third-party
 ||upwardlywell.com^$third-party
 ||vaguemad.com^$third-party
 ||verveinborn.com^$third-party
@@ -384,7 +379,6 @@
 ||whichunless.com^$third-party
 ||whoboring.com^$third-party
 ||whoeverbeyond.com^$third-party
-||whoeverfestival.com^$third-party
 ||whoeverhow.com^$third-party
 ||whoinasmuch.com^$third-party
 ||whykindlyoofword.com^$third-party
@@ -403,6 +397,5 @@
 ||yakunitfall.com^$third-party
 ||yippeeidle.com^$third-party
 ||yowzabrr.com^$third-party
-||yumhusk.com^$third-party
 ||zowieamid.com^$third-party
 ||zowiejump.com^$third-party
