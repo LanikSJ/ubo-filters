@@ -1,7 +1,7 @@
-! Version: 202610262053
+! Version: 202610280604
 ! Title: Ad Shield Filter List
-! Checksum: w9n0lkQAb5MggjSMWw_uWA
-! Last modified: 2026-10-26 20:53 UTC
+! Checksum: vaG__ViqBkm40IByBNXIdA
+! Last modified: 2026-10-28 06:04 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -55,6 +55,7 @@
 ||ackvainly.com^$third-party
 ||ackzany.com^$third-party
 ||ad-shield.cc^$third-party
+||ad-shield.dev^$third-party
 ||ad-shield.io^$third-party
 ||adshield-fallback-dev-wskxz.b-cdn.net^$third-party
 ||adshield-fallback-staging-yp6cs.b-cdn.net^$third-party
@@ -99,7 +100,9 @@
 ||blindlyandpfft.com^$third-party
 ||blissfullyzebra.com^$third-party
 ||blossomstorm.com^$third-party
+||bluebellwillow.com^$third-party
 ||boblovable.com^$third-party
+||bonsaidahlia.com^$third-party
 ||boohoonor.com^$third-party
 ||boohooonly.com^$third-party
 ||boowithout.com^$third-party
@@ -110,6 +113,7 @@
 ||brochureclear.com^$third-party
 ||browseteriyaki.com^$third-party
 ||brrindeed.com^$third-party
+||bubblyharbor.com^$third-party
 ||butcornyyet.com^$third-party
 ||butwhereverhabit.com^$third-party
 ||buzzingnippy.com^$third-party
@@ -121,6 +125,7 @@
 ||certainwing.com^$third-party
 ||changedadroitharassment.com^$third-party
 ||charmedwater.com^$third-party
+||cleverbasin.com^$third-party
 ||colourpike.com^$third-party
 ||concretehawk.com^$third-party
 ||conevastly.com^$third-party
@@ -156,7 +161,6 @@
 ||eagleblossom.com^$third-party
 ||eekcelebrate.com^$third-party
 ||elegantcone.com^$third-party
-||embossfor.com^$third-party
 ||erionoxcintene.com^$third-party
 ||error-report.com^$third-party
 ||evenwaft.com^$third-party
@@ -182,6 +186,7 @@
 ||geezduh.com^$third-party
 ||geezlazily.com^$third-party
 ||geezyet.com^$third-party
+||gentlecork.com^$third-party
 ||giftedbamboo.com^$third-party
 ||gifteddonut.com^$third-party
 ||giftedlemon.com^$third-party
@@ -191,6 +196,7 @@
 ||goshupward.com^$third-party
 ||greatlyamid.com^$third-party
 ||grubbytrain.com^$third-party
+||handyonion.com^$third-party
 ||harmfulnow.com^$third-party
 ||helpfulbrass.com^$third-party
 ||hencebright.com^$third-party
@@ -223,7 +229,7 @@
 ||involvingrallyanthem.com^$third-party
 ||joviallysafely.com^$third-party
 ||keennight.com^$third-party
-||kiddinglyeven.com^$third-party
+||koalaglade.com^$third-party
 ||lazilytoo.com^$third-party
 ||legalendowmad.com^$third-party
 ||lendhassle.com^$third-party
@@ -452,7 +458,6 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yippeeidle.com^$third-party
-||yowzabrr.com^$third-party
 ||yumhusk.com^$third-party
 ||zestyalto.com^$third-party
 ||zowieamid.com^$third-party
