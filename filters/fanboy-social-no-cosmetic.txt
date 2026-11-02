@@ -1,9 +1,9 @@
-! Version: 202610262053
+! Version: 202611020854
 ! Title: Fanboy's Social Blocking List
-! Checksum: GqS5rzc1MlTWKoieT_f59g
-! Last modified: 2026-10-26 20:53 UTC
+! Checksum: z8VfB64xFY5dk67M9VVccQ
+! Last modified: 2026-11-02 08:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8418dda360fd775821736a8092bf8fef0727c33a
+! Commit: c5f3d9b31d2b55e3972d76d2b34d93d80f41221e
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -656,6 +656,7 @@
 @@||archiveteam.org^$generichide
 @@||assets.msn.com/bundles/*/social-bar-$~third-party
 @@||authy.com/wp-content/themes/authy/assets/images/icons/
+@@||b.hatena.ne.jp/-/webextension/
 @@||brave.com/wp-content/uploads/$image,~third-party
 @@||cdn.flowplayer.com^*/share.min.js
 @@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
@@ -906,7 +907,6 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||reddit.com/static/$third-party
 ||revinate.com^$third-party
 ||scoop.it^$third-party
-||sekomums.lv^$third-party
 ||share.itraffic.su^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
