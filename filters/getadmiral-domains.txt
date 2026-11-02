@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: oLI7H-TSJ1rGVDMHxZ3x8g
-! Version: 202611020637
-! Last modified: 2026-11-02 06:37 UTC
+! Checksum: cMlQATPwNqMNATqhXFwr0Q
+! Version: 202611021744
+! Last modified: 2026-11-02 17:44 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -1490,7 +1490,6 @@
 ||terriblethumb.com^
 ||testadmiral.com^
 ||texturetrick.com^
-||thejavalane.com^
 ||therapeuticcars.com^
 ||thesolartime.com^
 ||thickticket.com^
@@ -1520,7 +1519,6 @@
 ||tiresomethunder.com^
 ||tofusquirrel.com^
 ||toolcapital.com^
-||topcrazypress.com^
 ||toweringanswer.com^
 ||toysbasics.com^
 ||toytakeover.com^
@@ -1670,7 +1668,6 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
-||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
