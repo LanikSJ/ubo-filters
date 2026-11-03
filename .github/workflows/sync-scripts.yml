@@ -23,10 +23,10 @@ on:
     branches:
       - main
     paths:
-      - "scripts/checksum-sort.sh"
-      - "scripts/remove-lines.sh"
-      - "scripts/install-fop.sh"
-      - ".github/workflows/sync-scripts.yml"
+      - 'scripts/checksum-sort.sh'
+      - 'scripts/remove-lines.sh'
+      - 'scripts/install-fop.sh'
+      - '.github/workflows/sync-scripts.yml'
   workflow_dispatch: # Allow manual trigger
 
 permissions:

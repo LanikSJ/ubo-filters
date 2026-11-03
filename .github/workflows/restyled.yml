@@ -42,7 +42,7 @@ jobs:
           branch: ${{ steps.restyler.outputs.restyled-head }}
           title: ${{ steps.restyler.outputs.restyled-title }}
           body: ${{ steps.restyler.outputs.restyled-body }}
-          labels: "restyled"
+          labels: 'restyled'
           reviewers: ${{ github.event.pull_request.user.login }}
           delete-branch: true
 
