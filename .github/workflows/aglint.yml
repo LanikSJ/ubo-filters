@@ -1,5 +1,8 @@
 name: AGLint
 
+permissions:
+  contents: read
+
 env:
   NODE_VERSION: 20
 
