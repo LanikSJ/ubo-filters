@@ -58,14 +58,14 @@ Check: `git status` + check for unpushed commits
 **If uncommitted changes:**
 
 - Warn: "⚠️ Uncommitted changes won't be in CodeRabbit review"
-- Ask: "Commit and push first?" → If yes: wait for user action, then continue
+- Ask: "Commit and push first?" → If yes: wait for user action, then re-check `git status`; if worktree is not clean, STOP before applying fixes
 
 **If unpushed commits:**
 
 - Warn: "⚠️ N unpushed commits. CodeRabbit hasn't reviewed them"
-- Ask: "Push now?" → If yes: `git push`, inform "CodeRabbit will review in ~5 min", EXIT skill
+- Ask: "Push now?" → If yes: `git push`, then re-check for unpushed commits; if still unpushed, STOP before applying fixes
 
-**Otherwise:** Proceed to Step 2
+**Only continue when worktree is clean and branch is pushed:** Proceed to Step 2
 
 ### Step 2: Resolve Current PR
 
@@ -103,6 +103,8 @@ repo=$(gh repo view --json name --jq '.name')
 Fetch review threads with GitHub GraphQL using cursor pagination:
 
 ```bash
+set -euo pipefail
+
 all_threads='[]'
 cursor=""
 
@@ -141,13 +143,41 @@ while :; do
     }
   }')
 
+  # Fail closed on GraphQL errors
+  jq -e 'has("errors") | not' <<<"$response" >/dev/null || {
+    echo "❌ GraphQL errors in review thread response" >&2
+    exit 1
+  }
+
+  # Validate required response fields before reading them
+  jq -e '.data.repository.pullRequest != null' <<<"$response" >/dev/null || {
+    echo "❌ pullRequest missing from GraphQL response" >&2
+    exit 1
+  }
+
+  jq -e '.data.repository.pullRequest.reviewThreads != null' <<<"$response" >/dev/null || {
+    echo "❌ reviewThreads missing from GraphQL response" >&2
+    exit 1
+  }
+
+  jq -e '.data.repository.pullRequest.reviewThreads.pageInfo != null' <<<"$response" >/dev/null || {
+    echo "❌ pageInfo missing from GraphQL response" >&2
+    exit 1
+  }
+
+  # Accumulate nodes from valid response
   all_threads=$(jq -c --argjson response "$response" '
     . + $response.data.repository.pullRequest.reviewThreads.nodes
   ' <<<"$all_threads")
 
   has_next=$(jq -r '.data.repository.pullRequest.reviewThreads.pageInfo.hasNextPage' <<<"$response")
   cursor=$(jq -r '.data.repository.pullRequest.reviewThreads.pageInfo.endCursor // empty' <<<"$response")
-  [ "$has_next" = "true" ] || break
+
+  if [ "$has_next" = "true" ]; then
+    [ -n "$cursor" ] || { echo "❌ hasNextPage true but endCursor missing" >&2; exit 1; }
+  else
+    break
+  fi
 done
 ```
 
@@ -186,6 +216,7 @@ gh pr view "$pr_number" --json comments,reviews --jq '
 **Extract from each CodeRabbit thread root comment:**
 
 1. **Header:** `_([^_]+)_ \| _([^_]+)_` → Issue type | Severity
+   Also recognize `**Severity · Type · Effort**` → extract Severity (field 1) and Issue type (field 2); ignore Effort (field 3)
 2. **Description:** Main body text
 3. **Reviewer guidance:** Content in `<details><summary>🤖 Prompt for AI Agents</summary>`
    - If missing, use description as fallback
@@ -278,7 +309,7 @@ After all fixes, display summary of fixed/skipped issues.
 If any fixes were applied:
 
 ```bash
-git add <all-changed-files>
+git add -- "$changed_files"
 git commit -m "fix: apply CodeRabbit auto-fixes"
 ```
 

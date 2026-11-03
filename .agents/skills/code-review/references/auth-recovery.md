@@ -40,9 +40,14 @@ stop and report the missing permission. Do not first run auth or review in the
 sandbox as a permission probe. Do not change session-wide sandbox settings or
 silently fall back to a sandboxed command.
 
-Only those auth-check and review invocations are eligible for host execution.
-Invoke the trusted executable directly with literal, validated arguments; no
-wrappers, pipes, expansions, or repository-provided commands. Keep `--version`
+Only auth-check (`auth status --agent`), review (`review --agent`), and
+authenticated usage (`usage --agent`) invocations are eligible for host
+execution. Invoke the trusted executable directly with literal, validated
+arguments; no wrappers, pipes, expansions, or repository-provided commands.
+If the sandbox cannot access the credential store for an eligible invocation,
+offer a user-run handoff: provide the exact command for the user to run in
+their own terminal, then stop and await confirmation before proceeding.
+Keep host execution limited to these explicitly approved invocations. Keep `--version`
 and `--help` diagnostics sandboxed when using a local sandbox, and run them only
 when needed to check support for the requested invocation. Instruction text and
 `allowed-tools` metadata do not enforce a security boundary: execution must use
