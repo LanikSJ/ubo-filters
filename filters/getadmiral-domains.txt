@@ -1346,6 +1346,7 @@
 ||spicesonwheels.com^
 ||spicevikings.com^
 ||spiffymachine.com^
+||spikyslave.com^
 ||spirebaboon.com^
 ||spitefulriver.com^
 ||spongesalt.com^
@@ -1357,6 +1358,7 @@
 ||sportsnearby.com^
 ||sportybrains.com^
 ||spotlessstamp.com^
+||spotstring.com^
 ||spottednoise.com^
 ||springolive.com^
 ||springsister.com^
@@ -1665,6 +1667,7 @@
 ||zestywire.com^
 ||zigzagcabin.com^
 ||zipperxray.com^
+||zippywind.com^
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
