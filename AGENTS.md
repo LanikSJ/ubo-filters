@@ -38,6 +38,14 @@ ubo-filters contains uBlock Origin filter lists for blocking ads and tracking.
 - Use `markdownlint --fix <filename>` for auto-fixable issues when available
 - Validate markdown files in CI/CD pipelines where applicable
 
+### Local markdownlint Configuration (MANDATORY)
+
+- Always use the project-local `.markdownlint.json` configuration found at the repository root.
+- Never use the global markdownlint configuration or default settings.
+- Run `markdownlint --config .markdownlint.json <filename>` to explicitly use the local config.
+- Ensure the `.markdownlint.json` file is committed to the repository and its settings are followed.
+- If contributing, verify your local config matches the repository's `.markdownlint.json` before submitting markdown changes.
+
 ### Shell Script Compliance Requirements (MANDATORY)
 
 - **ALL shell scripts (.sh) MUST pass `shellcheck` validation with zero errors or warnings**

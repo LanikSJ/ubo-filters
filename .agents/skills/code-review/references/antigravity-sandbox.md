@@ -23,7 +23,8 @@ the host documentation below. Do not try to elevate these diagnostics yourself.
 ```sh
 agy --sandbox \
   --settings '{"agentMode":"","toolPermission":"proceed-in-sandbox","permissions":{"allow":["read_file(/absolute/path/to/coderabbit)"]}}' \
-  --prompt-interactive 'Use the CodeRabbit code-review skill. Ask me for the review scope before running a review. Keep version/help sandboxed and use the normal per-command approval flow for authentication and review.'
+  --prompt-interactive 'Use the CodeRabbit code-review skill. Ask me for the review scope before running a review. Keep version/help sandboxed and use the normal per-command approval flow for
+  authentication and review.'
 ```
 
 Tested with Antigravity CLI 1.4.12 and curl-installed CodeRabbit CLI 0.9.1 on
