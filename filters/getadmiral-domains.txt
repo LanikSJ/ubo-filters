@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: cMlQATPwNqMNATqhXFwr0Q
-! Version: 202611021744
-! Last modified: 2026-11-02 17:44 UTC
+! Checksum: vRFNwuNdPexZDToJduKvxg
+! Version: 202611030720
+! Last modified: 2026-11-03 07:20 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -209,7 +209,6 @@
 ||brunchforher.com^
 ||buildingknife.com^
 ||bulbbait.com^
-||bumpermash.com^
 ||bungeesleeves.com^
 ||burgersalt.com^
 ||burnbubble.com^
@@ -581,7 +580,6 @@
 ||floweryfact.com^
 ||floweryflavor.com^
 ||floweryoperation.com^
-||flushingbeast.com^
 ||flutteringfireman.com^
 ||foamyfood.com^
 ||followborder.com^
@@ -1234,7 +1232,6 @@
 ||secretturtle.com^
 ||seedscissors.com^
 ||seenvault.com^
-||seespice.com^
 ||selectivesummer.com^
 ||selfishsea.com^
 ||selfishsnake.com^

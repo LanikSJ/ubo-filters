@@ -1,7 +1,7 @@
-! Version: 202611021744
+! Version: 202611030720
 ! Title: Ad Shield Filter List
-! Checksum: EFKz7c9QOUmNkhUnL963WA
-! Last modified: 2026-11-02 17:44 UTC
+! Checksum: l4JaGUaUwbfCFUjLtc6L_A
+! Last modified: 2026-11-03 07:20 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -427,7 +427,6 @@
 ||wallabyhusky.com^$third-party
 ||warmlyanti.com^$third-party
 ||whatfastfen.com^$third-party
-||whenmehany.com^$third-party
 ||wheretill.com^$third-party
 ||whetheronto.com^$third-party
 ||whichfreely.com^$third-party
