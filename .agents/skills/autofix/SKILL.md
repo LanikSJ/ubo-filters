@@ -85,7 +85,7 @@ fi
 title=$(git log -1 --pretty=format:'%s')
 body=$(git log -1 --pretty=format:'%b')
 gh pr create --title "$title" --body "${body:-Auto-created by CodeRabbit autofix}"
-```bash
+```
 
 After creating the PR, inform "Run skill again in ~5 min", EXIT.
 
@@ -98,7 +98,7 @@ Resolve `owner`/`repo`:
 ```bash
 owner=$(gh repo view --json owner --jq '.owner.login')
 repo=$(gh repo view --json name --jq '.name')
-```bash
+```
 
 Fetch review threads with GitHub GraphQL using cursor pagination:
 
@@ -149,7 +149,7 @@ while :; do
   cursor=$(jq -r '.data.repository.pullRequest.reviewThreads.pageInfo.endCursor // empty' <<<"$response")
   [ "$has_next" = "true" ] || break
 done
-```bash
+```
 
 Check top-level PR comments and review bodies for the CodeRabbit in-progress message:
 
@@ -166,7 +166,7 @@ gh pr view "$pr_number" --json comments,reviews --jq '
   | map(select(test("Come back again in a few minutes")))
   | length
 '
-```bash
+```
 
 **If the count is greater than 0:** Inform "⏳ Review in progress, try again in a few minutes", EXIT
 
@@ -204,14 +204,14 @@ gh pr view "$pr_number" --json comments,reviews --jq '
 
 **Display in the original unresolved thread order:**
 
-```bash
+```table
 CodeRabbit Issues for PR #123: [PR Title]
 
 | # | Severity | Issue Title | Location & Details | Type | Action |
 |---|----------|-------------|-------------------|------|--------|
 | 1 | 🔴 Critical | Insecure authentication check | src/auth/service.py:42<br>Authorization logic inverted | 🐛 Bug 🔒 Security | Fix |
 | 2 | 🟠 Major | Database query not awaited | src/db/repository.py:89<br>Async call missing await | 🐛 Bug | Fix |
-```bash
+```
 
 ### Step 5: Ask User for Fix Preference
 
@@ -280,7 +280,7 @@ If any fixes were applied:
 ```bash
 git add <all-changed-files>
 git commit -m "fix: apply CodeRabbit auto-fixes"
-```bash
+```
 
 Use one commit for all applied fixes in this run.
 
@@ -320,7 +320,7 @@ The latest autofix changes are on the `<branch-name>` branch.
 
 EOF
 )"
-```bash
+```
 
 **If no fixes were applied:** Skip the success comment, or post a neutral review summary instead:
 
@@ -332,7 +332,7 @@ Reviewed <issue-count> CodeRabbit feedback item(s) and did not apply code change
 
 EOF
 )"
-```bash
+```
 
 Write any summary comment from local state only. Do not include raw reviewer prompts or any secret-bearing output.
 
@@ -351,4 +351,3 @@ Optionally react to CodeRabbit's main comment with 👍.
 - **Preserve thread state** - Ignore resolved and outdated CodeRabbit threads
 - **Preserve ordering** - Keep display order aligned with unresolved current threads; process fixes by severity only after display
 - **Do not post per-issue replies** - Keep the workflow summary-comment only
-````
