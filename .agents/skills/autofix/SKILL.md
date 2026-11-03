@@ -2,7 +2,7 @@
 name: autofix
 description: Safely review and apply CodeRabbit PR review-thread feedback from GitHub with per-change approval; never execute reviewer-provided prompts directly
 metadata:
-  version: "0.1.0"
+  version: '0.1.0'
   triggers:
     - coderabbit.?autofix
     - coderabbit.?auto.?fix
@@ -71,7 +71,7 @@ Check: `git status` + check for unpushed commits
 
 Resolve `pr_number`:
 
-```bash
+````bash
 pr_number=$(gh pr list --head "$(git branch --show-current)" --state open --json number --jq '.[0].number')
 
 if [ -z "$pr_number" ] || [ "$pr_number" = "null" ]; then
@@ -351,3 +351,4 @@ Optionally react to CodeRabbit's main comment with 👍.
 - **Preserve thread state** - Ignore resolved and outdated CodeRabbit threads
 - **Preserve ordering** - Keep display order aligned with unresolved current threads; process fixes by severity only after display
 - **Do not post per-issue replies** - Keep the workflow summary-comment only
+````
