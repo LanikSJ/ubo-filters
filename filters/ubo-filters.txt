@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: x_n3iqmOcnAqLGvgVrS3eg
-! Last modified: 2026-11-02 23:17 UTC
-! Version: 202611022317
+! Checksum: Q8vZd_VpNBFLDDB-SpgLBw
+! Last modified: 2026-11-03 06:38 UTC
+! Version: 202611030638
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -23,7 +23,7 @@
 ##div[class*="promotional-content"]
 ##iframe[src*="facebook.com"]
 @@||cjisonline.com^$generichide,~third-party
-@@||cjisonline.com^$permissions=browsing-topics=()
+@@||cjisonline.com^$header=Permissions-Policy: browsing-topics=()
 @@||googleadservices.com/gpt/pubads^$domain=realtor.com
 @@||googletagmanager.com/gtm.js$script,domain=www.surveymonkey.com
 @@||googletagservices.com/tag/js/gpt.js$domain=realtor.com

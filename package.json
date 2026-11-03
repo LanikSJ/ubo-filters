@@ -3,11 +3,15 @@
     "@adguard/dead-domains-linter": "^1.0.38"
   },
   "scripts": {
-    "test": "node --test test/zod-override.test.cjs"
+    "test": "node --test test/zod-override.test.cjs",
+    "lint": "aglint"
   },
   "overrides": {
     "glob": "11.1.0",
     "js-yaml": "4.3.2",
     "zod": "4.6.6"
+  },
+  "devDependencies": {
+    "@adguard/aglint": "^3.0.3"
   }
 }

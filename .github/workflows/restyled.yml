@@ -24,7 +24,7 @@ jobs:
       github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Setup Restyled
         uses: restyled-io/actions/setup@ab22a0751549a3e4fe782295458b303a55f04f76 # v4.4.32
@@ -42,7 +42,7 @@ jobs:
           branch: ${{ steps.restyler.outputs.restyled-head }}
           title: ${{ steps.restyler.outputs.restyled-title }}
           body: ${{ steps.restyler.outputs.restyled-body }}
-          labels: "restyled"
+          labels: 'restyled'
           reviewers: ${{ github.event.pull_request.user.login }}
           delete-branch: true
 

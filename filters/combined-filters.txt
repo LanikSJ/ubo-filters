@@ -1,7 +1,7 @@
 ! Title: Ad Domains Filter List
-! Checksum: so2wPgCABbNDYlbWUcC77w
-! Version: 202606121611
-! Last modified: 2026-06-12 16:11 UTC
+! Checksum: npxHIPnqbgsjFyCM8TDZCg
+! Version: 202611030638
+! Last modified: 2026-11-03 06:38 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -23,7 +23,6 @@
 !#include getadmiral-domains.txt
 !#include hilltopads-domains.txt
 !#include istripper-domains.txt
-!#include kitty-domains.txt
 !#include macupload-domains.txt
 !#include popads-domains.txt
 !#include toradvertising-domains.txt
