@@ -79,6 +79,20 @@ while :; do
     }
   }')
 
+  # Fail-closed: reject responses with errors or missing reviewThreads/pageInfo before appending nodes
+  if jq -e '.errors' <<<"$response" >/dev/null 2>&1; then
+    echo "GraphQL response contained errors; aborting pagination." >&2
+    break
+  fi
+  if ! jq -e '.data.repository.pullRequest.reviewThreads' <<<"$response" >/dev/null 2>&1; then
+    echo "GraphQL response missing reviewThreads; aborting pagination." >&2
+    break
+  fi
+  if ! jq -e '.data.repository.pullRequest.reviewThreads.pageInfo' <<<"$response" >/dev/null 2>&1; then
+    echo "GraphQL response missing pageInfo; aborting pagination." >&2
+    break
+  fi
+
   all_threads=$(jq -c --argjson response "$response" '
     . + $response.data.repository.pullRequest.reviewThreads.nodes
   ' <<<"$all_threads")

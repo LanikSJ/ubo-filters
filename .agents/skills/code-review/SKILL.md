@@ -89,7 +89,9 @@ silently narrow it after a file-limit error. Use the named scope flags in new co
 Read `--agent` as NDJSON, not a single JSON document. Preserve the returned `critical`, `major`, `minor`, `trivial`, `info`, or `none` severity; do not relabel findings as Warning. Use `fileName`,
 `codegenInstructions`, and `suggestions` when available, falling back to the comment when fix instructions are absent.
 
-A heartbeat indicates liveness, not completion. Wait for completion and inspect its status, process exit code, outcome, and unreviewedFileCount. `complete` with `status: review_skipped` and zero findings means no review ran; it is not evidence that analyzed code is clean. A non-zero exit code, an outcome that is not `success`, or an `unreviewedFileCount` greater than zero means the review failed or missed files — treat it as unsuccessful, not as evidence that the code is clean. Errors or interrupted output also cannot establish a clean review.
+A heartbeat indicates liveness, not completion. Wait for completion and inspect its status, process exit code, outcome, and unreviewedFileCount. `complete` with `status: review_skipped` and zero findings means no review ran; it is not evidence that analyzed code is clean.
+A non-zero exit code, an outcome that is not `success`, or an `unreviewedFileCount` greater than zero means the review failed or missed files — treat it as unsuccessful, not as evidence that the code is clean.
+Errors or interrupted output also cannot establish a clean review.
 
 Create a task list for issues found that need to be addressed.
 

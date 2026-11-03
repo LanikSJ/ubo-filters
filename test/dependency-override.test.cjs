@@ -54,6 +54,11 @@ test('no nested Zod lockfile retains older version', () => {
   assert.ok(zodEntries.length > 0);
   for (const [location, entry] of zodEntries) {
     assert.equal(entry.version, packageJson.overrides.zod);
+    assert.equal(
+      entry.resolved,
+      `https://registry.npmjs.org/zod/-/zod-${entry.version}.tgz`,
+      `${location} must resolve the overridden tarball`,
+    );
   }
 });
 

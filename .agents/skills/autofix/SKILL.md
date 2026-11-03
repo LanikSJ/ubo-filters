@@ -308,9 +308,11 @@ After all fixes, display summary of fixed/skipped issues.
 
 If any fixes were applied:
 
+- If any changed file is Markdown, run markdownlint with the project-local configuration against those Markdown files before committing; this validation is required, not optional.
+
 ```bash
-git add -- "$changed_files"
-git commit -m "fix: apply CodeRabbit auto-fixes"
+git add -- "${changed_files[@]}"
+git commit -m "fix(autofix): apply CodeRabbit auto-fixes" -m "- Applied fixes for <issue-count> CodeRabbit feedback item(s)" -m "- Modified files:" -m "  - <path/to/file-a>" -m "  - <path/to/file-b>"
 ```
 
 Use one commit for all applied fixes in this run.
@@ -319,9 +321,10 @@ Use one commit for all applied fixes in this run.
 
 If a consolidated commit was created:
 
-- Prompt user interactively to run validation before push (recommended, not required).
+- Run Markdown validation using the project's established instructions and project-local markdownlint configuration before pushing or reporting completion; this validation is required, not optional.
 - Remind the user of the `AGENTS.md` instructions already loaded in Step 0 (if present).
-- If user agrees, run the requested checks and report results.
+- Prompt user interactively to run any additional validation before push (optional, separate from the required Markdown validation).
+- If user agrees to additional checks, run the requested checks and report results.
 
 ### Step 9: Push Changes
 
@@ -333,7 +336,7 @@ If all deferred (no commit): Skip this step.
 
 ### Step 10: Post Summary
 
-**If at least one fix was applied:** Post one success summary comment on the PR:
+**If at least one fix was applied and the push succeeded:** Post one success summary comment on the PR:
 
 ```bash
 gh pr comment "$pr_number" --body "$(cat <<'EOF'
@@ -352,6 +355,8 @@ The latest autofix changes are on the `<branch-name>` branch.
 EOF
 )"
 ```
+
+**If the push was declined or failed:** Report that the fixes remain local and have not been pushed to the PR branch; do not post a success comment claiming the changes are on the PR branch.
 
 **If no fixes were applied:** Skip the success comment, or post a neutral review summary instead:
 
