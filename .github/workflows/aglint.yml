@@ -13,16 +13,16 @@ on:
     paths:
       - '**/*.txt'
       - '.aglintrc.*'
-      - "package.json"
-      - "package-lock.json"
+      - 'package.json'
+      - 'package-lock.json'
   pull_request:
     branches:
       - main
     paths:
       - '**/*.txt'
       - '.aglintrc.*'
-      - "package.json"
-      - "package-lock.json"
+      - 'package.json'
+      - 'package-lock.json'
 
 jobs:
   lint:
