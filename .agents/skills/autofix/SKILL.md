@@ -71,13 +71,13 @@ Check: `git status` + check for unpushed commits
 
 Resolve `pr_number`:
 
-````bash
+```bash
 pr_number=$(gh pr list --head "$(git branch --show-current)" --state open --json number --jq '.[0].number')
 
 if [ -z "$pr_number" ] || [ "$pr_number" = "null" ]; then
   # no open PR for this branch
 fi
-```bash
+```
 
 **If no PR:** If the check above indicates no PR, ask "Create PR?" → If yes, create the PR with:
 
