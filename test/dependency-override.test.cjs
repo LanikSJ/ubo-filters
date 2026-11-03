@@ -29,12 +29,6 @@ function resolveZodConsumer() {
   return { filename, consumerRequire: createRequire(filename) };
 }
 
-function resolveOverrideConsumer() {
-  const scriptletsRequire = createRequire(require.resolve('@adguard/scriptlets/package.json'));
-  const filename = scriptletsRequire.resolve('@adguard/agtree');
-  return { filename, consumerRequire: createRequire(filename) };
-}
-
 function loadZodConsumer() {
   const { filename, consumerRequire } = resolveZodConsumer();
   assert.equal(
@@ -104,6 +98,7 @@ test('tolerant parsing preserves invalid scriptlet', () => {
   assert.equal(RuleParser.generate(parsed), rule);
 });
 
+// Glob override tests (14.0.2) - resolved via AGTree consumer identified as from dead-domains-linter
 test('glob is pinned to override version', () => {
   assert.equal(packageJson.overrides.glob, '14.0.2');
 });
@@ -123,10 +118,11 @@ test('no nested glob lockfile retains older version', () => {
 });
 
 test('AGTree consumer resolves overridden glob', () => {
-  const { consumerRequire } = resolveOverrideConsumer();
+  const { consumerRequire } = resolveZodConsumer();
   assert.equal(consumerRequire('glob/package.json').version, packageJson.overrides.glob);
 });
 
+// js-yaml override tests (4.3.2) - identified as resolved via AGTree consumer
 test('js-yaml is pinned to override version', () => {
   assert.equal(packageJson.overrides['js-yaml'], '4.3.2');
 });
@@ -135,7 +131,10 @@ test('js-yaml lockfile entry matches override', () => {
   const lockedJsYaml = lockfile.packages['node_modules/js-yaml'];
   assert.ok(lockedJsYaml);
   assert.equal(lockedJsYaml.version, packageJson.overrides['js-yaml']);
-  assert.equal(lockedJsYaml.resolved, `https://registry.npmjs.org/js-yaml/-/js-yaml-${packageJson.overrides['js-yaml']}.tgz`);
+  assert.equal(
+    lockedJsYaml.resolved,
+    `https://registry.npmjs.org/js-yaml/-/js-yaml-${packageJson.overrides['js-yaml']}.tgz`,
+  );
 });
 
 test('no nested js-yaml lockfile retains older version', () => {
@@ -146,10 +145,11 @@ test('no nested js-yaml lockfile retains older version', () => {
 });
 
 test('AGTree consumer resolves overridden js-yaml', () => {
-  const { consumerRequire } = resolveOverrideConsumer();
+  const { consumerRequire } = resolveZodConsumer();
   assert.equal(consumerRequire('js-yaml/package.json').version, packageJson.overrides['js-yaml']);
 });
 
+// minimatch override tests (11.0.1) - identified as resolved from glob consumer
 test('minimatch is pinned to override version', () => {
   assert.equal(packageJson.overrides['minimatch'], '11.0.1');
 });
@@ -158,7 +158,10 @@ test('minimatch lockfile entry matches override', () => {
   const lockedMinimatch = lockfile.packages['node_modules/minimatch'];
   assert.ok(lockedMinimatch);
   assert.equal(lockedMinimatch.version, packageJson.overrides['minimatch']);
-  assert.equal(lockedMinimatch.resolved, `https://registry.npmjs.org/minimatch/-/minimatch-${packageJson.overrides['minimatch']}.tgz`);
+  assert.equal(
+    lockedMinimatch.resolved,
+    `https://registry.npmjs.org/minimatch/-/minimatch-${packageJson.overrides['minimatch']}.tgz`,
+  );
 });
 
 test('no nested minimatch lockfile retains older version', () => {
@@ -169,6 +172,6 @@ test('no nested minimatch lockfile retains older version', () => {
 });
 
 test('AGTree consumer resolves overridden minimatch', () => {
-  const { consumerRequire } = resolveOverrideConsumer();
+  const { consumerRequire } = resolveZodConsumer();
   assert.equal(consumerRequire('minimatch/package.json').version, packageJson.overrides['minimatch']);
 });
