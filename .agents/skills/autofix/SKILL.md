@@ -308,7 +308,7 @@ After all fixes, display summary of fixed/skipped issues.
 
 If any fixes were applied:
 
-- If any changed file is Markdown, run markdownlint with the project-local configuration against those Markdown files before committing; this validation is required, not optional.
+- Before committing, run `markdownlint --config .markdownlint.json` against every Markdown file in the repository; this validation is required, not optional.
 
 ```bash
 Before running this command, replace `<issue-count>` with the number of approved fixes and replace the sample paths with every path in `changed_files`. Do not run the command with placeholder values.
