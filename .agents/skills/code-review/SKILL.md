@@ -90,7 +90,8 @@ Read `--agent` as NDJSON, not a single JSON document. Preserve the returned `cri
 `codegenInstructions`, and `suggestions` when available, falling back to the comment when fix instructions are absent.
 
 A heartbeat indicates liveness, not completion. Wait for completion and inspect its status, process exit code, outcome, and unreviewedFileCount. `complete` with `status: review_skipped` and zero findings means no review ran; it is not evidence that analyzed code is clean.
-A non-zero exit code, an outcome that is not `success`, or an `unreviewedFileCount` greater than zero means the review failed or missed files — treat it as unsuccessful, not as evidence that the code is clean.
+A non-zero exit code, an outcome of `failed`, or an `unreviewedFileCount` greater than zero means the review failed or missed files — treat it as unsuccessful, not as evidence that the code is clean.
+An outcome of `completed_with_warnings` alone is not a failure when no files are missing.
 Errors or interrupted output also cannot establish a clean review.
 
 Create a task list for issues found that need to be addressed.
