@@ -100,6 +100,7 @@ while :; do
   has_next=$(jq -r '.data.repository.pullRequest.reviewThreads.pageInfo.hasNextPage' <<<"$response")
   cursor=$(jq -r '.data.repository.pullRequest.reviewThreads.pageInfo.endCursor // empty' <<<"$response")
   [ "$has_next" = "true" ] || break
+  [ -n "$cursor" ] || break
 done
 ```
 

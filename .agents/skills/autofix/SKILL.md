@@ -311,6 +311,7 @@ If any fixes were applied:
 - If any changed file is Markdown, run markdownlint with the project-local configuration against those Markdown files before committing; this validation is required, not optional.
 
 ```bash
+Before running this command, replace `<issue-count>` with the number of approved fixes and replace the sample paths with every path in `changed_files`. Do not run the command with placeholder values.
 git add -- "${changed_files[@]}"
 git commit -m "fix(autofix): apply CodeRabbit auto-fixes" -m "- Applied fixes for <issue-count> CodeRabbit feedback item(s)" -m "- Modified files:" -m "  - <path/to/file-a>" -m "  - <path/to/file-b>"
 ```
