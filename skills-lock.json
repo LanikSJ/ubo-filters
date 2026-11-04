@@ -69,7 +69,7 @@
       "sourceType": "github",
       "skillPath": "skills/autofix/SKILL.md",
       "computedHash": "1c665af094b2a307a8ab149a4b6ee73097dac24a4fa533821d7cc2e7ede7b9cf",
-      "ref": "711af095215ad4ecde5b90cd1d0124b3f1c4ca9e"
+      "ref": "778c35a36e0afd2549c3fba86ec6e64afe649df3"
     },
     "burpsuite-project-parser": {
       "source": "trailofbits/skills",
