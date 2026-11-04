@@ -310,8 +310,9 @@ If any fixes were applied:
 
 - Before committing, run `markdownlint --config .markdownlint.json --dot '**/*.md'` against every Markdown file in the repository; this validation is required, not optional.
 
-```bash
 Before running this command, replace `<issue-count>` with the number of approved fixes and replace the sample paths with every path in `changed_files`. Do not run the command with placeholder values.
+
+```bash
 git add -- "${changed_files[@]}"
 git commit -m "fix(autofix): apply CodeRabbit auto-fixes" -m "- Applied fixes for <issue-count> CodeRabbit feedback item(s)" -m "- Modified files:" -m "  - <path/to/file-a>" -m "  - <path/to/file-b>"
 ```
@@ -339,6 +340,8 @@ If all deferred (no commit): Skip this step.
 
 **If at least one fix was applied and the push succeeded:** Post one success summary comment on the PR:
 
+Replace every placeholder (`<file-count>`, `<issue-count>`, file paths, `<commit-sha>`, `<branch-name>`) with values from local state before posting; do not post the template with unreplaced placeholders.
+
 ```bash
 gh pr comment "$pr_number" --body "$(cat <<'EOF'
 ## Fixes Applied Successfully
@@ -360,6 +363,8 @@ EOF
 **If the push was declined or failed:** Report that the fixes remain local and have not been pushed to the PR branch; do not post a success comment claiming the changes are on the PR branch.
 
 **If no fixes were applied:** Skip the success comment, or post a neutral review summary instead:
+
+Replace the `<issue-count>` placeholder with the number of reviewed items from local state before posting; do not post the template with unreplaced placeholders.
 
 ```bash
 gh pr comment "$pr_number" --body "$(cat <<'EOF'

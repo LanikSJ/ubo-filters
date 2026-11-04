@@ -133,6 +133,8 @@ gh pr view "$pr_number" --json comments,reviews --jq '
 
 Use the same `pr_number` from Section 1:
 
+Replace every placeholder (`<file-count>`, `<issue-count>`, file paths, `<commit-sha>`, `<branch-name>`) with values from local state before posting; do not post the template with unreplaced placeholders.
+
 ```bash
 gh pr comment "$pr_number" --body "$(cat <<'EOF'
 ## Fixes Applied Successfully
