@@ -25,7 +25,9 @@ Check the installed command's `--help` before using newer features. Public refer
 ## Usage and paid continuation
 
 - Run `coderabbit usage --agent` to check review allowance, billing usage, and available credit/cap information. Missing or unavailable credit/cap fields mean unknown, not zero. If the installed version lacks `--agent`, use `coderabbit usage`.
-- When a review returns `action_required` with `status: "awaiting_confirmation"` for paid continuation, neutrally explain the returned offer, including its billable file count and maximum cost, before an authorized retry. Before retrying with `--use-credits`, verify the selected file content still matches the approved offer; if it changed, obtain a new quote and user approval before retrying. Retry the same review with `--use-credits`, preserving `--agent`, its directory, and scope flags.
+- When a review returns `action_required` with `status: "awaiting_confirmation"` for paid continuation, neutrally explain the returned offer, including its billable file count and maximum cost,
+  before an authorized retry. Before retrying with `--use-credits`, verify the selected file content still matches the approved offer.
+  If it changed, obtain a new quote and user approval before retrying. Retry the same review with `--use-credits`, preserving `--agent`, its directory, and scope flags.
 - `--use-credits` on review authorizes additional credit spending; add it only when that spending is authorized.
 
 ## Local configuration
