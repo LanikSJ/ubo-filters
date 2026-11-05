@@ -1,7 +1,7 @@
 ! Title: Lanik's uBO Filter List
-! Checksum: Q8vZd_VpNBFLDDB-SpgLBw
-! Last modified: 2026-11-03 06:38 UTC
-! Version: 202611030638
+! Checksum: 3MU5iGhT-bAwWJR6XBPNcQ
+! Last modified: 2026-11-05 06:27 UTC
+! Version: 202611050627
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -14,7 +14,9 @@
 ! this list, you are accepting these terms and the license.
 !
 ##.add_button_spam
+##.md-banner
 ##.taboola-module
+##.wpcom-gifting-banner
 ###coopcommerce
 ###footer_spam
 ###phpbb-ads-ab
