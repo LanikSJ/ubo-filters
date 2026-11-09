@@ -881,6 +881,7 @@
 ||mimosamajor.com^
 ||mindfulgem.com^
 ||minorcattle.com^
+||minormeeting.com^
 ||minuteburst.com^
 ||miscreantmoon.com^
 ||mistyhorizon.com^
@@ -957,6 +958,7 @@
 ||onlywoofs.com^
 ||opalquill.com^
 ||operationchicken.com^
+||operationkettle.com^
 ||operationnail.com^
 ||optimallimit.com^
 ||opulentsylvan.com^
