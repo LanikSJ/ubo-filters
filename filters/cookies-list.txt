@@ -1,7 +1,7 @@
 ! Title: I Don't Care About Cookies List
-! Checksum: vLSoeJtP9GG3L4WcQkkONg
-! Version: 202611030758
-! Last modified: 2026-11-03 07:58 UTC
+! Checksum: LeAbFtlW5_8fQg54buU5WA
+! Version: 202611091814
+! Last modified: 2026-11-09 18:14 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -2426,6 +2426,7 @@
 ###cookieConsentBannerContainer
 ###cookieConsentBar
 ###cookieConsentBlock
+###cookieConsentBox
 ###cookieConsentDialog
 ###cookieConsentDiv
 ###cookieConsentForm
@@ -14540,7 +14541,6 @@ almhof.nl##.cm.container
 almirall.de##.popupCookies
 alo.bg###consent_main
 alpedhuez.com##.elementor-popup-modal
-alpenradio.net##div[data-wzb="CookieNotification"] iframe
 alpenski.pl##.alert, #alert
 alphotel.at###tx_tracking
 alpintouren.com##.humane
@@ -16275,7 +16275,6 @@ dirtyflix.com##.cookie-request
 dirtyrhino.com##body > div:not([id]):not([class])
 dis.rs##.cookie
 disclose.ngo###cookie
-discobag.de###CookieQuery
 discordtemplates.com##.consent-card
 discountbabyequip.co.uk##.notify
 discounto.de##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
@@ -16586,10 +16585,8 @@ electronique-mag.com###alert_trk
 electrovoice.com##.alert-dismissible
 eledo.online###CookiesConsentDialog
 elegantthemes.com##.et_cookie_consent
-eleicoes2014.com.br##.clm
 elektriker-wissen.de###f_cookie
 elektro-met.pl###cookie
-elektroaktivisten.de##.main-alert
 elektrobit.com###ckBar
 elektrotresen.de###disclaimer
 elektrozysk.pl##body > div:not([id]):not([class])
@@ -16772,7 +16769,6 @@ eurogarages.com###cp-overlay
 eurojackpot.it##.popup-view.modal
 euromaxx.nu##.ui-widget, .ui-widget-overlay
 euromoney.com##.CookiePromo
-euronova-italia.it##.cc-customdialog
 europa-vrachtwagens.nl###cookie
 europa.eu###edp-cookies-banner, .customCookie, .cookie-section
 europe-mountains.com###cookie
@@ -17424,7 +17420,6 @@ greatis.com###cookie-greatis
 greatone.pl###zamknij_cookies
 grebbeberg.nl###acceptscp2012
 greek-weather.org##.notice-top
-green-circle.co##body > [style*="fixed"]
 green.hr##.elementor-popup-modal
 greencity.de##.cnwrap
 greenenergyuk.com##.divPrivacy
@@ -19136,7 +19131,6 @@ mini.it##.md-custom-overlay, .md-custom-overlay-veil
 miniatures.com###complianceBar
 miniclip.com##.mc-consents-wrapper
 minigamers.com###popupmsg_wrapper
-mininstitution.dk##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 ministerstworeklamy.pl###messagePopup
 minitab.com###cpToaster
 minitokyo.net##body > div:not([id]):not([class])
@@ -19159,7 +19153,6 @@ mitsubishimotors.com.br##.cookies-header
 miui.com###_navbar ~ .fixed[class*="rounded"]
 mivoq.it##.check-policy
 mixable.de###ccDialog
-mixare.org##.rain1-cp-container
 mixtools.pl##.cookies
 mjam.net###__Mjam__CookieBanner
 mjamjam-petfood.de##.cookie5, .cookie5 + .allover
@@ -19186,7 +19179,6 @@ mobilpakke.dk##.menuCookie
 mobiquity.amsterdam##div[class*="CookieWarning"]
 mobrog.com##.mobrog-privacyM-first-container
 moby.it,mobylines.com,mobylines.de,mobylines.fr##.cookies
-mocnopomocni.pl##body > div:not([id]):not([class])
 mocopinus.com##.disclaimer
 mod.io###container ~ .tw-fixed
 moddrop.com##.cm-fill-bot
@@ -19732,7 +19724,6 @@ oengus.io##.privacy-consent
 oesterreichinstitut.cz###cook-cont
 oet-redwell.it##.magnus-cookie
 oetztaler-radmarathon.com##div[class*="CookieAlert"]
-oferia.pl##body > div:not([id]):not([class])
 ofertasinternet.net###melindres
 oferty-dom.pl###dspcookie
 off-road.pl###popslide
@@ -21119,7 +21110,6 @@ simpelkoken.nl###colorbox, #cboxOverlay
 simplilearn.com##.eu-container, .sticky-footer-gdpr
 simplybook.it###sb_cookies_block
 simplybook.me##.cookies
-simplydhl.com###ixp-gate-frame
 simplyhealth.co.uk###sh-cookie-banner
 simsdom.com###policies
 sinalco.de###bccs-modal ~ .modal-backdrop
@@ -21155,9 +21145,7 @@ skionline.pl###popup_rodo, #popup_tlo
 skitour.fr###coo_aut
 sklep.3mk.pl###cookie
 sklep.bialyklasztor.pl###growls
-sklep.polberis.pl###cookie
-sklep.vertus.com.pl###simple-modal, #simple-modal-overlay
-sklep.wodbud.com.pl,sklep.zielonyfront.pl###cookie
+sklep.polberis.pl,sklep.wodbud.com.pl,sklep.zielonyfront.pl###cookie
 sklepbiegowy.com,sklepkoszykarza.pl##body > div:not([id]):not([class])
 skoda-auto.com###MessageArea
 skoda-connect.com##.notification-container
@@ -21516,7 +21504,6 @@ sucredorge.com###cnil, .cnil, #CNIL
 suder.eu##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 sudoku-knacker.de##.v-bottom-sheet
 sudzibas.lv##.cookies
-suelo.pl###modalCookies
 sugarsync.com###agreementBar
 suhrkamp.de###whcm
 sumcumo.com##.cookies
@@ -23274,8 +23261,6 @@ zyro.com##.zyro-cookies
 ~accessosicuro.rete.toscana.it,~bauen-und-heimwerken.de,~bgk.pl,~cyberforum.de,~dmsg.de,~donauregion.at,~exagon.de,~fransdewitte.nl,~gorna-austria.pl,~grander.com,~hornerakusko.sk,~hornirakousko.cz,~lsi-bochum.de,~manduka.com,~membersuite.com,~oberoesterreich.at,~oberoesterreich.nl,~salzkammergut.at,~sozialversicherung-kompetent.de,~studentenwerkfrankfurt.de,~swffm.de,~upperaustria.com,~varcevanje-energije.si,~wesendit.com##.cc-banner:not(body):not(html)
 ~accessosicuro.rete.toscana.it,~bauen-und-heimwerken.de,~bgk.pl,~cyberforum.de,~dmsg.de,~donauregion.at,~exagon.de,~fransdewitte.nl,~gorna-austria.pl,~grander.com,~hornerakusko.sk,~hornirakousko.cz,~lsi-bochum.de,~manduka.com,~membersuite.com,~oberoesterreich.at,~oberoesterreich.nl,~salzkammergut.at,~sozialversicherung-kompetent.de,~studentenwerkfrankfurt.de,~swffm.de,~upperaustria.com,~varcevanje-energije.si,~wesendit.com##.cc-window[aria-describedby*="consent"]
 ~accessosicuro.rete.toscana.it,~bauen-und-heimwerken.de,~bgk.pl,~cyberforum.de,~dmsg.de,~donauregion.at,~exagon.de,~fransdewitte.nl,~gorna-austria.pl,~grander.com,~hornerakusko.sk,~hornirakousko.cz,~lsi-bochum.de,~manduka.com,~membersuite.com,~oberoesterreich.at,~oberoesterreich.nl,~salzkammergut.at,~sozialversicherung-kompetent.de,~studentenwerkfrankfurt.de,~swffm.de,~upperaustria.com,~varcevanje-energije.si,~wesendit.com##.cc-window[aria-label*="consent"]
-~ad.win.nl###cookieConsentBox
-~ad.win.nl,~berlinartweek.de,~conclude.com,~dehn.at,~dehn.de,~feuvert.fr,~gov.lv,~humboldtforum.org,~kulturprojekte.berlin,~rapidonline.com,~riga.lv,~sandro-paris.com,~search.itaa.be,~techopital.com,~thinkproject.com,~ticsante.com###cookieConsent:not(.modal)
 ~adidas.co.za,~adidas.com.eg###consent-tracking.show
 ~adidas.co.za,~adidas.com.eg,~etos.nl##.tracking-consent:not(body):not(html)
 ~adler-farbenmeister.com,~foxracingshox.de,~idoc.eu,~lexibo.com,~springlane.de##.page-wrap--cookie-permission
@@ -23335,6 +23320,7 @@ zyro.com##.zyro-cookies
 ~bayernportal.de,~vorteile.net###cookieConsentOverlay
 ~becker-antriebe.shop###cookieNote:not(.in)
 ~ben.nl,~bynco.com##.cookie-wall-container
+~berlinartweek.de,~conclude.com,~dehn.at,~dehn.de,~feuvert.fr,~gov.lv,~humboldtforum.org,~kulturprojekte.berlin,~rapidonline.com,~riga.lv,~sandro-paris.com,~search.itaa.be,~techopital.com,~thinkproject.com,~ticsante.com###cookieConsent:not(.modal)
 ~biblioteka.wroc.pl,~hawle.de,~kalenderwoche.de,~makelaarsland.nl,~oead.at,~pruadviser.co.uk,~rappjmed.ch,~unikrn.com###cookie-notice
 ~biblioteka.wroc.pl,~rappjmed.ch##.cookie-notice-container
 ~bike-components.de,~bookmygarage.com,~bremerhaven.de,~deineapotheke.at,~dogedash.com,~gsk-gebro.at,~hepster.com,~intersport.de,~melcloud.com,~nintendo.com,~nuxeo.com,~onlinedepartment.nl,~opngo.com,~planeo.de,~puratos.pl,~sachsenallee.de,~sevdesk.at,~sevdesk.de,~shop.halebop.se,~sparbankentanum.se,~stadtwerke-flensburg.de,~swedbank.com,~swedbank.se,~teacheconomy.de,~towerhousewares.co.uk,~veygo.com,~voltadol.at,~zentrale-pruefstelle-praevention.de##.cookie-banner:not(body):not(html)
