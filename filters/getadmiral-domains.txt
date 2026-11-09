@@ -1,7 +1,7 @@
 ! Title: GetAdmiral Domains Filter List
-! Checksum: dpoUmh2IkgDa3Db-iQhupw
-! Version: 202611090706
-! Last modified: 2026-11-09 07:06 UTC
+! Checksum: Uzug04pwSYlklKge8s_FOg
+! Version: 202611091655
+! Last modified: 2026-11-09 16:55 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -425,6 +425,7 @@
 ||devilishdinner.com^
 ||dewdroplagoon.com^
 ||dharmabrats.com^
+||differentdesk.com^
 ||difficultfog.com^
 ||digestiondrawer.com^
 ||digithalo.com^
@@ -992,12 +993,10 @@
 ||peacefullimit.com^
 ||pedropanther.com^
 ||pegsbuttons.com^
-||petiteumbrella.com^
 ||phonecup.com^
 ||photohints.com^
 ||physicstees.com^
 ||pickmicro.com^
-||piespower.com^
 ||pigeonsetc.com^
 ||pinchsquirrel.com^
 ||pincourse.com^
@@ -1291,7 +1290,6 @@
 ||sixscissors.com^
 ||sizzlingsmoke.com^
 ||skillfuldrop.com^
-||skillfulsock.com^
 ||skisofa.com^
 ||skullmagnets.com^
 ||slaysweater.com^
@@ -1309,7 +1307,6 @@
 ||smoggysongs.com^
 ||smoggystation.com^
 ||snacktoken.com^
-||snakemineral.com^
 ||snakeslang.com^
 ||snakesshop.com^
 ||snappyreport.com^
