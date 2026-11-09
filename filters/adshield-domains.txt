@@ -1,7 +1,7 @@
-! Version: 202611091722
+! Version: 202611091814
 ! Title: Ad Shield Filter List
-! Checksum: els0u-9EcZ6o52ZkZoIHwA
-! Last modified: 2026-11-09 17:22 UTC
+! Checksum: lEFb7Y9l212rGOXCQsPUfg
+! Last modified: 2026-11-09 18:14 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -539,7 +539,6 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yippeeidle.com^$third-party
-||yumhusk.com^$third-party
 ||zebracave.com^$third-party
 ||zeniththunder.com^$third-party
 ||zestyalto.com^$third-party
