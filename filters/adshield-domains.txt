@@ -1,7 +1,7 @@
-! Version: 202611091814
+! Version: 202611110657
 ! Title: Ad Shield Filter List
-! Checksum: lEFb7Y9l212rGOXCQsPUfg
-! Last modified: 2026-11-09 18:14 UTC
+! Checksum: 8z0wafFCPyjmsTocaibnFg
+! Last modified: 2026-11-11 06:57 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -68,6 +68,7 @@
 ||airyorchid.com^$third-party
 ||aldersnowflake.com^$third-party
 ||aliveharbor.info^$third-party
+||aliveharbor.me^$third-party
 ||alivelinen.com^$third-party
 ||alpacalotus.com^$third-party
 ||amidsince.com^$third-party
@@ -99,6 +100,7 @@
 ||baritonepro.com^$third-party
 ||becausepop.com^$third-party
 ||bestangle.me^$third-party
+||bestangle.pro^$third-party
 ||bestdahlia.com^$third-party
 ||betterbonnet.pro^$third-party
 ||betweenbrr.com^$third-party
@@ -161,12 +163,15 @@
 ||cramminion.com^$third-party
 ||cricketleaf.com^$third-party
 ||cricketlilac.com^$third-party
+||cricketridge.me^$third-party
 ||css-load.com^$third-party
 ||cuddlybeside.com^$third-party
 ||curryheroine.com^$third-party
 ||cutletyet.com^$third-party
 ||cyclonebamboo.com^$third-party
 ||daintilyrare.com^$third-party
+||dawnsunset.me^$third-party
+||dawnsunset.org^$third-party
 ||dbloader.leboncoin.info^$third-party
 ||dbloader.oxfordlearnersdictionaries.com^$third-party
 ||debutfiddle.com^$third-party
@@ -185,6 +190,7 @@
 ||duhquietly.com^$third-party
 ||duhrawhide.com^$third-party
 ||dwelllestcatch.com^$third-party
+||ea6c0ac4.xyz^$third-party
 ||eachstay.com^$third-party
 ||eageranise.com^$third-party
 ||eagerbrass.com^$third-party
@@ -213,8 +219,11 @@
 ||forbroken.com^$third-party
 ||formafore.com^$third-party
 ||forsweareven.com^$third-party
+||founderyet.com^$third-party
 ||freshporch.info^$third-party
+||freshporch.me^$third-party
 ||frizzsince.com^$third-party
+||frostplant.me^$third-party
 ||fs-loader.com^$third-party
 ||gadzooksrudely.com^$third-party
 ||gahfinallytame.com^$third-party
@@ -226,6 +235,8 @@
 ||gentlecork.com^$third-party
 ||giftedbamboo.com^$third-party
 ||giftedbelt.com^$third-party
+||giftedbuffet.info^$third-party
+||giftedbuffet.tech^$third-party
 ||gifteddonut.com^$third-party
 ||giftedlemon.com^$third-party
 ||gladlythattoady.com^$third-party
@@ -261,7 +272,6 @@
 ||huzzahfor.com^$third-party
 ||hypehuddle.com^$third-party
 ||ickaside.com^$third-party
-||ickfinallyonly.com^$third-party
 ||ill-fatedodd.com^$third-party
 ||img-load.com^$third-party
 ||indeedgrass.com^$third-party
@@ -351,6 +361,7 @@
 ||mooseflower.com^$third-party
 ||mooseviolet.com^$third-party
 ||mossnight.com^$third-party
+||mousestone.biz^$third-party
 ||naturalotter.info^$third-party
 ||naturalotter.me^$third-party
 ||neatcosmos.com^$third-party
@@ -489,7 +500,6 @@
 ||ughapud.com^$third-party
 ||ughjubilantly.com^$third-party
 ||ughlongedge.com^$third-party
-||ughmouldhusky.com^$third-party
 ||ughoncenot.com^$third-party
 ||uncoverpilot.com^$third-party
 ||undermeh.com^$third-party
@@ -539,6 +549,7 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yippeeidle.com^$third-party
+||yumhusk.com^$third-party
 ||zebracave.com^$third-party
 ||zeniththunder.com^$third-party
 ||zestyalto.com^$third-party
