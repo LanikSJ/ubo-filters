@@ -1,7 +1,7 @@
 ! Title: I Don't Care About Cookies List
-! Checksum: LeAbFtlW5_8fQg54buU5WA
-! Version: 202611091814
-! Last modified: 2026-11-09 18:14 UTC
+! Checksum: O4RWRvej11TvcWN9ZSYGvg
+! Version: 202611161807
+! Last modified: 2026-11-16 18:07 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -14511,7 +14511,6 @@ alipaczka.pl###bottom-charm, .cookies
 aliveachiever.com$domain=dailydot.com
 alivecolors.com##.alert, #alert
 alkam-security.pl###spop
-all-hashtag.com##.disclaimer-container
 allani.pl##.off-canvas-wrap ~ div
 alldent-zahnzentrum.de###dialog
 alldomains.hosting###adh-cookie-dnt, #adh-cookie-accept
@@ -17269,7 +17268,6 @@ getabstract.com##.notifybar--note
 getagift.pl###header > div[style]
 getcomposting.com###top-notice
 getdigital.de##.privacy-wrapper
-getem.pl###polityka
 getfilecloud.com###gdpr_accept
 getgrover.com##.snackbar-enter-done
 getmailbird.com###mb-footer-lawmsg
@@ -17408,7 +17406,6 @@ grand-seiko.com##.blk-Cookie
 grandeavenue.fr##.fixedBanner
 grandix.nl###popup, #overlay
 grandoptical.cz##.cookie-consent
-grandswissbangkok.com##.footer-fix-popup
 graphs.ro###cookietop
 graphy.com##.Toastify ~ div
 gratisfaction.co.uk###grey-bar
@@ -17804,7 +17801,6 @@ hyundai.com##.mainTopBanner
 hyundai.com.br##.footertextbox
 hyundai.es##.cookies
 i-fundusze.pl##.modal-backdrop
-i-parcel.com##.iparCookieNotice
 i-posciel.pl###cookie
 i-surance.eu###cookiesAcceptance
 i-trekkings.net##.trekk-barre-pied-de-page
@@ -21394,7 +21390,6 @@ stalco.pl##.config-messages
 stalderag.ch###cookies
 stamboomonderzoek.com##body > form
 standardandpoors.com###wrapper > .portlet-boundary.portlet-static
-stanley.ru##.test-mode__wrap
 starbt.ro##.ava_2.display
 starbucks.co.th##.mpp-container-position-bottom-bar
 starbucks.com.sg##.cookie-modal
@@ -22181,7 +22176,6 @@ ungeziefer-ratgeber.info###cc--main
 uni-goettingen.de##.legal_footer
 uni-greifswald.de###piwik-flyin
 uni-lj.si##body > .dark
-uni-tech.pl###topbar
 uni-tuebingen.de##.in2-modal__blackbox, #privacy-background, #privacy-container
 uni-ulm.de##.in2-modal__blackbox
 unian.ua##.cookies
@@ -22234,7 +22228,6 @@ urbanfires.co.uk###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 uresmykker.dk##body > div:not([id]):not([class])
 urlaubsgruss.com##.dscheck
 urmet.fr###privacyPolicy
-uroda.com###blockPopupInformation
 urraeroi.it###cookies
 urteile-gesetze.de###stickyFooter
 usave.co.uk##.toast
