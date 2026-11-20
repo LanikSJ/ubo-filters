@@ -65,8 +65,6 @@ jobs:
           echo "Running npx skills update with fresh resolution..."
           npx skills update --yes
 
-
-
       - name: Check for Changes
         id: git-check
         run: |
