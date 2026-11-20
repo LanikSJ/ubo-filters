@@ -187,3 +187,6 @@ dist
 ### Other
 release
 dead-domains.txt
+
+# Global .agents folder (using global .agents configuration)
+.agents/
