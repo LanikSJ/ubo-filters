@@ -1,7 +1,7 @@
 ! Title: I Don't Care About Cookies List
-! Checksum: O4RWRvej11TvcWN9ZSYGvg
-! Version: 202611161807
-! Last modified: 2026-11-16 18:07 UTC
+! Checksum: VgYuS3QYdy7xcRjdmpgJ1A
+! Version: 202611231952
+! Last modified: 2026-11-23 19:52 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -14755,7 +14755,6 @@ asr.nl##ebc-notification-info
 asroma.com##.s-navigation-tool-panel-disclaimer
 ass-team.net##.v-banner--sticky
 asse.tv###app_root ~ div
-associationeconomienumerique.fr###cmp-settings-button
 asst-pg23.it###divInformativaBreve
 assura.ch###__next > div[class] > div[display]
 assurances.groupebpce.com##.modal-backdrop
@@ -14918,7 +14917,6 @@ balluff.com##div[x-data*="ConsentDialog"]
 bally.fr##.first-visit-banner
 baltnews.lt###policy-warning
 bambergfacts.de##div[id^="cookiebar"]
-banaxi.com###form2 > div[style]
 bancobmg.com.br##.acceptance-terms
 bancobpi.pt##div[id^="webcarePopup"] > div[id^="bbo_"]
 bancobpm.it###footer ~ div
@@ -16337,7 +16335,6 @@ domenovecentrum.cz###fixedBar
 domi.com###CoockiesPage
 domni.pl##aside[data-cookie-remind]
 domotex.de##.user-notes-notification
-domuswire.com###privacy, .privacy
 domwroc24.pl##.black_overlay
 donadeimonti.it###system-message
 donald.pl###__next > footer ~ div
@@ -16800,7 +16797,6 @@ evolutrans.fr###cookies
 evopayments.eu###zwcc
 evs.com##.language-switcher
 ewebtrans.com###webtrans_cookie_bar
-ewinner.pl##.cookiesComponent
 excellent-hemd.de##.fixed-bottom .btn[onclick*="cookieModal"]
 exitlag.com###cookie-exitlag
 exki.be##.lang-cookie
@@ -18582,7 +18578,7 @@ leselupe.de##body > div:not([id]):not([class])
 lesinfos.ma###bottomBar
 lesoriginelles.fr###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 leszno.pl###cookies
-letgo.cz,letgo.hr###container > div
+letgo.hr###container > div
 lethalpass.com##.global-notif
 leti.com##.NoticesBox
 letsdeal.no,letsdeal.se##div[class^="gdpr-panel"]
@@ -19000,7 +18996,6 @@ mee.com###cboxOverlay
 meetic.fr##.main-frame-bottom-strip
 mega-mania.com.pt##.pl-cookies
 megascans.se###react-app > div:not([data-reactid])
-megascena.pl###cookies
 megashopbot.com###alertBar
 megasvet.cz##.elementor-popup-modal
 megawrzuta.pl##.slickModal.isActive, .notification
@@ -19095,7 +19090,6 @@ midi.pl###cb-cookie
 midparts.com.pl###simple-modal, #simple-modal-overlay
 midwestgunworks.com###privBanner
 mieszko.pl###privacy, .privacy
-migliori-siti-di-incontri.it##.disclaimer
 migros.ch##[data-js-module*="cookie-banner"]
 migros.com.tr##fe-product-cookie-indicator
 mijn-artikel.nl##.ui-widget, .ui-widget-overlay
@@ -19853,7 +19847,6 @@ ordineavvocati.bari.it###cookies
 ordineveterinariroma.it###privacywarn
 ordnancesurvey.co.uk###messages
 orgasmatrix.com###cookies
-orgosolo.nu.it###CookieDiv
 orientalmart.co.uk##.cookies
 origin.com##origin-global-sitestripe
 oriocenter.it##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
@@ -20726,7 +20719,6 @@ rogosport.si###biscuits
 rohan.co.uk###ccpop
 rol-mech.pl##.config-messages
 rollomeister.de##.cookie__consent
-rollstuhl-kurier.de###webwerk-cookies
 roly.eu##.jq-toast-wrap
 rome2rio.com###alert-banner
 romedic.ro###cookbox
@@ -20825,7 +20817,6 @@ salonocasion.com###fb-cd
 salonroman.pl##body > div:not([id]):not([class])
 salonynoma.pl##body > .alert-container.show-pp-alert
 saloppe.de###cookies
-saltogpeber.dk##.push-up[data-id="sp-cookie"]
 salus.de##.notification[data-identifier="cookie"]
 salvatti.pl##.configMessages
 salvaunbambino.it##.activebar-container
@@ -22498,7 +22489,6 @@ w3logistics.com###w3l-cookiebox
 waarmaarraar.nl##body > .container > div[style]
 wabtec.com##.forceCommunityVisualforcePage
 wackler-group.de##.z7cmbnr
-wacomstore.com.br###privacy-popup
 waff.at##.en-pn-bar.en-notification
 wago.com##.wg-modal__overlay
 wakfu.com##.ak-modal-wrapper, .ui-widget-overlay
@@ -23223,7 +23213,6 @@ zyro.com##.zyro-cookies
 ||trashmail.com/js/cookie$script
 ||traveljuice-engines.prod.traveljuice.fr/cookies$script
 ||trustcommander.net/privacy$script,domain=~edeka.de|~ravensburger.co.uk|~ravensburger.de|~tf1.fr|~tf1info.fr
-||tweeboo.com/r/js/CookieDirective$script
 ||unpkg.com/@segment/consent-manager$script
 ||unpkg.com/orejime$script
 ||ustatik.com/public/cmp$script
