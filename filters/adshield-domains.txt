@@ -1,7 +1,7 @@
-! Version: 202611180750
+! Version: 202611231952
 ! Title: Ad Shield Filter List
-! Checksum: XrsuEBdQgXQH4qGkD793eQ
-! Last modified: 2026-11-18 07:50 UTC
+! Checksum: JXVLCkFbodyc5A5ELZludg
+! Last modified: 2026-11-23 19:52 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -76,7 +76,6 @@
 ||amidsolidly.com^$third-party
 ||amidstdeploy.com^$third-party
 ||amidsttruly.com^$third-party
-||amongstgahboo.com^$third-party
 ||amongstmask.com^$third-party
 ||amusedlotus.com^$third-party
 ||amusedradish.com^$third-party
@@ -100,7 +99,6 @@
 ||awesomeoval.info^$third-party
 ||awesomeoval.me^$third-party
 ||badgertulip.com^$third-party
-||bahpartridge.com^$third-party
 ||bamboolake.me^$third-party
 ||bamboolake.pro^$third-party
 ||baritonepro.com^$third-party
@@ -205,7 +203,6 @@
 ||deletewoefully.com^$third-party
 ||deployfondly.com^$third-party
 ||designpant.com^$third-party
-||divertnow.com^$third-party
 ||divinepiglet.com^$third-party
 ||doingsupposing.com^$third-party
 ||downknottily.com^$third-party
@@ -260,7 +257,6 @@
 ||fs-loader.com^$third-party
 ||gadzooksrudely.com^$third-party
 ||gahfinallytame.com^$third-party
-||geeunlessarcade.com^$third-party
 ||geezduh.com^$third-party
 ||geezlazily.com^$third-party
 ||geezyet.com^$third-party
@@ -537,7 +533,6 @@
 ||suproderistrai.com^$third-party
 ||surfaceavow.com^$third-party
 ||tamealongpast.com^$third-party
-||tapiocawithout.com^$third-party
 ||thanabaft.com^$third-party
 ||thankfulbelt.com^$third-party
 ||thankfulscarf.com^$third-party
@@ -606,7 +601,6 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yippeeidle.com^$third-party
-||yumhusk.com^$third-party
 ||zebracave.com^$third-party
 ||zeniththunder.com^$third-party
 ||zestyalto.com^$third-party
