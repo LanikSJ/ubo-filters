@@ -1,9 +1,9 @@
-! Version: 202611160900
+! Version: 202611231018
 ! Title: Fanboy's Social Blocking List
-! Checksum: ZeflV04j7tAJsZKmsVur9Q
-! Last modified: 2026-11-16 09:00 UTC
+! Checksum: DYntfP3n5u46TYT16wDVpA
+! Last modified: 2026-11-23 10:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 694c091d9707f21452221b055b27de6e59d28bde
+! Commit: 1391c24c1315d9e319fb658bdaac5cad89ddea1b
 ! *** easylist:template_header.txt ***
 !
 ! Please report any unblocked adverts or problems
@@ -755,6 +755,7 @@ ign.com#?#.promo-card:has-text(Follow us!)
 jacobin.com#?#.po-fr__heading:has-text(Share this article)
 lifenews.com#?#.post_style_zk > p:has-text(Please subscribe)
 livpost.co.uk#?#.kg-align-center.kg-button-card:has-text(Share this story)
+marketscreener.com,zonebourse.com#?#.c-block.btn--action--outter:has-text(Share)
 min.io#?#.display-xs.alpha-white-70:has-text(Get in Touch)
 nbcsports.com#?#p.cms-textAlign-center:has-text(follow NBC Sports)
 newskarnataka.com#?#.elementor-button-wrapper:has-text(Social Media)
@@ -908,6 +909,7 @@ yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ||revinate.com^$third-party
 ||scoop.it^$third-party
 ||sekomums.lv^$third-party
+||share.itraffic.su^$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
 ||sharethis.com^$third-party
