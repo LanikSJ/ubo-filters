@@ -1,7 +1,7 @@
-! Version: 202611231952
+! Version: 202611250859
 ! Title: Ad Shield Filter List
-! Checksum: JXVLCkFbodyc5A5ELZludg
-! Last modified: 2026-11-23 19:52 UTC
+! Checksum: _XUVCAH0T6od_eL-ZKwhuw
+! Last modified: 2026-11-25 08:59 UTC
 ! Expires: 1 day (update frequency)
 ! Homepage: https://laniksj.github.io/ubo-filters
 ! License: https://opensource.org/licenses/MIT
@@ -56,8 +56,8 @@
 ||ackvainly.com^$third-party
 ||ackzany.com^$third-party
 ||ad-shield.cc^$third-party
-||ad-shield.dev^$third-party
 ||ad-shield.io^$third-party
+||adorablebass.com^$third-party
 ||adorableorchid.com^$third-party
 ||adshield-fallback-dev-wskxz.b-cdn.net^$third-party
 ||adshield-fallback-staging-yp6cs.b-cdn.net^$third-party
@@ -67,16 +67,19 @@
 ||agreementdaily.com^$third-party
 ||airyorchid.com^$third-party
 ||aldersnowflake.com^$third-party
+||alertbread.me^$third-party
 ||aliveharbor.info^$third-party
 ||aliveharbor.me^$third-party
 ||alivelinen.com^$third-party
 ||alpacalotus.com^$third-party
+||amazingaster.com^$third-party
 ||amazingfork.com^$third-party
 ||amidsince.com^$third-party
 ||amidsolidly.com^$third-party
 ||amidstdeploy.com^$third-party
 ||amidsttruly.com^$third-party
 ||amongstmask.com^$third-party
+||amuseddish.com^$third-party
 ||amusedlotus.com^$third-party
 ||amusedradish.com^$third-party
 ||amusingbell.com^$third-party
@@ -87,6 +90,8 @@
 ||aridround.com^$third-party
 ||aroundsadly.com^$third-party
 ||aroundwhoever.com^$third-party
+||artisticcoast.info^$third-party
+||artisticcoast.pro^$third-party
 ||artisticsway.com^$third-party
 ||as.slashdot.org^$third-party
 ||as.sourceforge.net^$third-party
@@ -108,6 +113,7 @@
 ||bestdahlia.com^$third-party
 ||betterbonnet.pro^$third-party
 ||betterbonnet.tech^$third-party
+||betterviolet.org^$third-party
 ||betweenbrr.com^$third-party
 ||binswim.com^$third-party
 ||blahunless.com^$third-party
@@ -121,9 +127,9 @@
 ||boldpasta.me^$third-party
 ||bonsaidahlia.com^$third-party
 ||boohoonor.com^$third-party
-||boohooonly.com^$third-party
 ||boowithout.com^$third-party
 ||bouncyarrow.me^$third-party
+||bouncymango.com^$third-party
 ||bouncyridge.com^$third-party
 ||bowlingpish.com^$third-party
 ||bracehow.com^$third-party
@@ -132,6 +138,7 @@
 ||bravefork.com^$third-party
 ||breakaha.com^$third-party
 ||breezybamboo.com^$third-party
+||brightrock.pro^$third-party
 ||brilliantfaronly.com^$third-party
 ||brochureclear.com^$third-party
 ||browseteriyaki.com^$third-party
@@ -146,19 +153,27 @@
 ||calmcactus.pro^$third-party
 ||calmjacket.com^$third-party
 ||capablearea.com^$third-party
+||capablejeans.com^$third-party
 ||capablekettle.com^$third-party
+||carefultiger.com^$third-party
 ||caringcoyote.com^$third-party
+||caringdonut.com^$third-party
 ||caringfinch.com^$third-party
 ||caringmink.com^$third-party
 ||caringyarn.pro^$third-party
 ||cashcharming.com^$third-party
+||casualcitrus.biz^$third-party
+||casualviolet.com^$third-party
 ||certainband.com^$third-party
 ||certaincactus.com^$third-party
 ||certainmoss.com^$third-party
 ||certainsugar.com^$third-party
 ||certainwing.com^$third-party
 ||changedadroitharassment.com^$third-party
+||charmedoyster.com^$third-party
 ||charmedwater.com^$third-party
+||charmingarea.com^$third-party
+||charmingkite.com^$third-party
 ||charmingtiger.me^$third-party
 ||cheerfulridge.com^$third-party
 ||cheetahmoss.info^$third-party
@@ -168,7 +183,9 @@
 ||clearparcel.pro^$third-party
 ||clearrobin.com^$third-party
 ||cleverbasin.com^$third-party
+||cloudylemon.pro^$third-party
 ||colourpike.com^$third-party
+||cometaster.com^$third-party
 ||concretehawk.com^$third-party
 ||conevastly.com^$third-party
 ||content-loader.com^$third-party
@@ -184,13 +201,16 @@
 ||cricketleaf.com^$third-party
 ||cricketlilac.com^$third-party
 ||cricketridge.me^$third-party
+||crystalgrass.com^$third-party
 ||css-load.com^$third-party
 ||cuddlybeside.com^$third-party
 ||curiousbirch.mobi^$third-party
+||curiousjeans.com^$third-party
 ||curryheroine.com^$third-party
 ||cutletyet.com^$third-party
 ||cyclonebamboo.com^$third-party
 ||daffodilacorn.com^$third-party
+||daffodilfrost.mobi^$third-party
 ||daintilyrare.com^$third-party
 ||dawnsunset.me^$third-party
 ||dawnsunset.org^$third-party
@@ -205,7 +225,6 @@
 ||designpant.com^$third-party
 ||divinepiglet.com^$third-party
 ||doingsupposing.com^$third-party
-||downknottily.com^$third-party
 ||dragonflyrock.com^$third-party
 ||dratexalt.com^$third-party
 ||drawbut.com^$third-party
@@ -219,9 +238,11 @@
 ||eageranise.com^$third-party
 ||eagerbrass.com^$third-party
 ||eagercandy.com^$third-party
+||eagerdish.org^$third-party
 ||eagleblossom.com^$third-party
 ||eekcelebrate.com^$third-party
 ||efficientdenim.com^$third-party
+||efficientfrog.com^$third-party
 ||efficientwing.com^$third-party
 ||elegantcone.com^$third-party
 ||erionoxcintene.com^$third-party
@@ -229,29 +250,38 @@
 ||evenwaft.com^$third-party
 ||evenyippee.com^$third-party
 ||excellentbadge.pro^$third-party
+||excellentbrass.com^$third-party
 ||excellentrobin.com^$third-party
+||excellentwave.me^$third-party
 ||exceptlone.com^$third-party
+||excitedloaf.com^$third-party
 ||expertminus.com^$third-party
 ||eyelinerfrom.com^$third-party
 ||fabulousbreeze.com^$third-party
 ||fabulousbridge.com^$third-party
+||fabulousclover.com^$third-party
 ||fancybagel.org^$third-party
 ||fancyotter.info^$third-party
 ||fancyotter.me^$third-party
+||fernforest.biz^$third-party
 ||fernzenith.com^$third-party
 ||festivehorse.com^$third-party
 ||finallymidwife.com^$third-party
 ||findingmid.com^$third-party
 ||finebucket.info^$third-party
 ||fitlivelywhup.com^$third-party
+||flameshell.com^$third-party
 ||flubobble.com^$third-party
 ||fooeyunsung.com^$third-party
 ||forbroken.com^$third-party
 ||formafore.com^$third-party
 ||forsweareven.com^$third-party
 ||founderyet.com^$third-party
+||freshcoffee.info^$third-party
+||freshcoffee.pro^$third-party
 ||freshporch.info^$third-party
 ||freshporch.me^$third-party
+||friendlybread.com^$third-party
 ||frizzsince.com^$third-party
 ||frostplant.me^$third-party
 ||fs-loader.com^$third-party
@@ -267,12 +297,21 @@
 ||gifteddonut.com^$third-party
 ||giftedlemon.com^$third-party
 ||gladlythattoady.com^$third-party
+||gloriousberry.info^$third-party
+||gloriousberry.pro^$third-party
+||glowinghoney.mobi^$third-party
+||goldplain.pro^$third-party
 ||goshsmarten.com^$third-party
 ||goshupward.com^$third-party
+||gracefulbucket.com^$third-party
 ||gracefulmouse.com^$third-party
 ||gracefulpony.info^$third-party
 ||gracefulvalley.com^$third-party
+||grandbook.pro^$third-party
+||gratefulcrane.pro^$third-party
 ||gratefuldawn.com^$third-party
+||gratefulfinch.com^$third-party
+||gratefulmeadow.info^$third-party
 ||greatkitten.biz^$third-party
 ||greatlyamid.com^$third-party
 ||grubbytrain.com^$third-party
@@ -280,6 +319,7 @@
 ||harmfulnow.com^$third-party
 ||helpfulavenue.com^$third-party
 ||helpfulbrass.com^$third-party
+||helpfulgate.com^$third-party
 ||helpfulmaple.com^$third-party
 ||helpfulmusic.biz^$third-party
 ||hencebright.com^$third-party
@@ -317,6 +357,8 @@
 ||keennight.com^$third-party
 ||keenporch.org^$third-party
 ||koalaglade.com^$third-party
+||lakeacorn.mobi^$third-party
+||lakeacorn.pro^$third-party
 ||larklilac.com^$third-party
 ||lavenderzenith.com^$third-party
 ||lazilytoo.com^$third-party
@@ -386,6 +428,7 @@
 ||misguidedfast.com^$third-party
 ||misreportmeh.com^$third-party
 ||mmmcatalyst.com^$third-party
+||modernmoth.com^$third-party
 ||modulooften.com^$third-party
 ||moosedrizzle.com^$third-party
 ||mooseflower.com^$third-party
@@ -394,6 +437,8 @@
 ||mousestone.biz^$third-party
 ||naturalotter.info^$third-party
 ||naturalotter.me^$third-party
+||naturaltoast.com^$third-party
+||nearinasmuch.com^$third-party
 ||nearlyfooeyminus.com^$third-party
 ||neatcosmos.com^$third-party
 ||neatpiano.com^$third-party
@@ -410,6 +455,7 @@
 ||nowrampepic.com^$third-party
 ||oncemidst.com^$third-party
 ||oofadvanced.com^$third-party
+||openhorse.me^$third-party
 ||ouchwhere.com^$third-party
 ||ownbricks.com^$third-party
 ||pacevice.com^$third-party
@@ -418,9 +464,9 @@
 ||parrotforest.biz^$third-party
 ||parrotforest.info^$third-party
 ||parrotforest.me^$third-party
-||partridgepuny.com^$third-party
 ||peacefulmanta.com^$third-party
 ||peakbeach.pro^$third-party
+||peakquartz.com^$third-party
 ||peculiargentleman.com^$third-party
 ||perfectalto.com^$third-party
 ||perfumedsecret.com^$third-party
@@ -433,15 +479,20 @@
 ||pinesandsoup.com^$third-party
 ||pishrust.com^$third-party
 ||plaincapsize.com^$third-party
+||plainsphere.pro^$third-party
+||plainsunset.com^$third-party
 ||plantviolet.com^$third-party
+||playfulharbor.info^$third-party
 ||pleasantalpaca.com^$third-party
 ||pleasantmelon.pro^$third-party
 ||pleasantocean.com^$third-party
+||pleasanttulip.com^$third-party
 ||pleasedmad.com^$third-party
 ||politearch.com^$third-party
 ||poorlylift.com^$third-party
 ||poppyrimpace.com^$third-party
 ||positivecello.com^$third-party
+||positivefarm.me^$third-party
 ||prettyroad.biz^$third-party
 ||prettyroad.mobi^$third-party
 ||prettywhy.com^$third-party
@@ -463,12 +514,18 @@
 ||rabbitcloud.info^$third-party
 ||rabbitquartz.com^$third-party
 ||radiantack.com^$third-party
+||rainsphere.pro^$third-party
 ||rainstormbloom.com^$third-party
 ||rampfat.com^$third-party
 ||ravenfarm.tech^$third-party
+||ravenwaterfall.com^$third-party
 ||reallywire.com^$third-party
 ||rebuffmealy.com^$third-party
 ||referwhen.com^$third-party
+||reindeermaple.biz^$third-party
+||reindeermaple.mobi^$third-party
+||reliablelinen.com^$third-party
+||reliablepapaya.com^$third-party
 ||reliableparrot.biz^$third-party
 ||resourcelow.com^$third-party
 ||rewardingfill.com^$third-party
@@ -494,6 +551,10 @@
 ||secretnot.com^$third-party
 ||shield.knowt.com^$third-party
 ||shieldload.neoseeker.com^$third-party
+||shinyalto.me^$third-party
+||shinyalto.mobi^$third-party
+||shinyalto.pro^$third-party
+||shinysail.com^$third-party
 ||shinyspice.com^$third-party
 ||shootwhy.com^$third-party
 ||shrillyclose.com^$third-party
@@ -515,11 +576,15 @@
 ||softlypacesock.com^$third-party
 ||soillilac.com^$third-party
 ||solemnlyboo.com^$third-party
+||solemnlybuck.com^$third-party
 ||soreferret.com^$third-party
 ||spaceaster.com^$third-party
+||sparkbeach.me^$third-party
 ||speleologic.com^$third-party
+||sphereflower.com^$third-party
 ||spherelilac.com^$third-party
 ||splendidaspen.com^$third-party
+||splendidlinen.com^$third-party
 ||splendidstone.com^$third-party
 ||springinure.com^$third-party
 ||staregrownup.com^$third-party
@@ -532,6 +597,8 @@
 ||supafter.com^$third-party
 ||suproderistrai.com^$third-party
 ||surfaceavow.com^$third-party
+||sweetlion.pro^$third-party
+||sweetradish.biz^$third-party
 ||tamealongpast.com^$third-party
 ||thanabaft.com^$third-party
 ||thankfulbelt.com^$third-party
@@ -557,6 +624,7 @@
 ||uncoverpilot.com^$third-party
 ||undermeh.com^$third-party
 ||unfreezehuge.com^$third-party
+||uniquebranch.com^$third-party
 ||unlesscool.com^$third-party
 ||unlikebuck.com^$third-party
 ||unselfishugh.com^$third-party
@@ -569,6 +637,7 @@
 ||verythekit.com^$third-party
 ||video-loads.com^$third-party
 ||videovein.com^$third-party
+||violettrail.info^$third-party
 ||vividbucket.com^$third-party
 ||vividtomato.com^$third-party
 ||wallabyhusky.com^$third-party
@@ -601,7 +670,9 @@
 ||yahoolock.com^$third-party
 ||yakunitfall.com^$third-party
 ||yippeeidle.com^$third-party
+||yumhusk.com^$third-party
 ||zebracave.com^$third-party
+||zebrastorm.com^$third-party
 ||zeniththunder.com^$third-party
 ||zestyalto.com^$third-party
 ||zestybass.com^$third-party
